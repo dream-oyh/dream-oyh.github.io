@@ -1,5 +1,24 @@
 # 博客更新日志
 
+## 2022/08/18
+
+“推荐”-“网站推荐”更新部分内容
+
+更新“学习”-“数学建模”思维框架的部分内容，后续还会有更新的~
+
+更新“博客搭建”-“插入思维导图”方法
+
+
+## 2022/08/17
+
+“文章”-“19岁的感慨”更新
+
+## 2022/08/14
+
+“概率论”大更新！
+
+“English”-“[Genshin Impact]The Morn a Thousand Roses Brings”更新部分内容
+
 ## 2022/08/11
 
 “English”-“The Only Motion images of the Nanjing Massacre”更新完毕

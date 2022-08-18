@@ -28,3 +28,25 @@
 
 对于测绘的同学可能会有用哦~
 
+## Adobe color
+
+网址（单击即可跳转）：[Adobe color](https://color.adobe.com/zh/create/color-wheel)
+
+Adobe 官方推出的一款选色器，输入C位颜色色号，自动匹配与之对应的渐变色，可用于PPT，PS等各类用于图形设计软件的渐变色色彩选取中。
+
+## officeplus——office官方模板平台
+
+网址（单击即可跳转）：[officeplus](https://www.officeplus.cn/)
+
+**免费**的PPT，Word，Excel模板网站，官方推出，别再上百度一顿乱找模板了，官方给的不要白不要？
+
+而且能搜到各高校的PPT制作模板（好的中南大学没有），比学校自己给的好看多啦
+
+## 在线Latex公式编辑器
+
+网址（单击即可跳转）：[在线Latex公式编辑器](https://www.latexlive.com/)
+
+up主[妈咪说](https://www.bilibili.com/video/BV14g4y1q7pb?spm_id_from=333.999.0.0)开发的网站
+
+用可视化界面输入数学公式，网站会自动帮你转成latex语法，学习latex新手小白必备网站
+

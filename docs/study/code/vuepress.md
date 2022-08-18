@@ -96,7 +96,7 @@ Error: Action failed with "The process '/usr/bin/git' failed with exit code 128"
 以上代码可先保存在txt文件中，再通过修改后缀名，改为".sh"，改为脚本以直接运行
 :::
 
-## 编译成功，.sh文件闪退，“weak map key”错误信息
+## “weak map key”错误信息
 
 原因：使用了`</font>`等未知html标签以及一些自定义组件标签。和lxl问题完完全全撞了哈哈哈哈哈可笑死我了。之后若有标签出现相同问题，也会记录于此
 
@@ -117,6 +117,53 @@ TypeError: Invalid value used as weak map key
     at renderComponentSubTree (C:\Users\oyh\vuepress-starter\node_modules\@vue\server-renderer\dist\server-renderer.cjs.prod.js:256:13)
 
 ```
+## 在vuepress中插入思维导图
+
+`step1：`
+
+在vscode中下载“markmap”插件，如下图所示：
+
+<div style="text-align: center; ">
+<img alt="markmap插件" src="https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/vuepress_1.png"  width="60%" height="60%"/>
+</div>
+
+`step2：`
+
+新建一个.md或.mm文档，用于构建思维导图html文件
+
+点击vscode右上角思维导图图标（若没有该图标，则是未成功安装插件）
+
+<div style="text-align: center; ">
+<img alt="markmap思维导图图标" src="https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/vuepress_2.png"  />
+</div>
+
+即可打开思维导图窗口进行绘制
+
+`step3：`
+
+绘制完成后，点击右下角`export`，生成html文件
+
+`step4：`
+
+将html文件移动至docs/.vuepress/public/markmap/中
+
+`step5：`
+
+利用iframe标签在你的markdown中插入思维导图
+
+``` html
+<iframe :src="$withBase('/markmap/xxx.html')" width="100%" height="800" frameborder="0" scrolling="Yes" leftmargin="0" topmargin="0"></iframe>
+```
+
+### 思维导图语法
+
+所有markdown所具有的文本编辑语法都可以使用
+
+思维导图构建语法见下图
+
+<div style="text-align: center; ">
+<img alt="思维导图语法" src="https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/vuepress_3.png"  />
+</div>
 
 ## html语法积累
 
@@ -209,3 +256,6 @@ width，height属性：图片宽与高的缩放比例
 |&gamma;|&gamma;符号|`&gamma;`|
 |&pi;|圆周率|`&pi;`|
 |&theta;|&theta;符号|`&theta;`|
+|&emsp;|全角空格|`&emsp;`|
+|&ensp;|半角空格|`&ensp;`|
+

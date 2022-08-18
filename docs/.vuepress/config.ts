@@ -14,7 +14,7 @@ export default defineUserConfig({
        children:[
         {text:'学业',
       children:[
-        '/study/competition.md',      //竞赛
+        '/study/math.md',      //数学建模
       '/study/English.md',          //英语
       '/study/read.md',             //读书
       '/study/probability.md',      //概率论与数理统计
