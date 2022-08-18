@@ -184,6 +184,7 @@ TypeError: Invalid value used as weak map key
 <img alt="图片名称" src="/tour/xiamen_day1_1.jpg"  width="60%" height="60%">
 </div>
 ```
+
 alt属性：若图片没加载出来时，以该文字概括图片内容
 
 src属性：图片的路径，可以是绝对路径也可以是相对路径
@@ -216,7 +217,7 @@ width，height属性：图片宽与高的缩放比例
 
 ### 文字居中，左对齐，右对齐
 
-```html
+``` html
 <div style="text-align: right; ">test</div> #右对齐
 <div style="text-align: left; ">test</div> #左对齐
 <div style="text-align: center; ">test</div> #居中

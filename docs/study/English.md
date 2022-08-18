@@ -183,7 +183,7 @@ One toxic relationship can outweigh so many wonderful simple joys. You get to pi
 所以下面一段话可能对你们而言有些难以接受，在你的生活中，你不可避免地会说错话、相信错误的人、反应太慢、反应过度、伤害不应该被伤害的人、思虑过度、掉以轻心、自暴自弃、幻想一个以你为中心的世界、毁掉自己和他人的美好时光、否认过错、不思悔改、感到内疚、任凭内疚侵蚀内心、跌进谷底、最后为你一手造成的痛苦负责，下次试着做得更好，重新来过。
 
 
-## [Genshin Impact]Golden Midsummer
+## [Genshin Impact] Golden Midsummer
 
 video：[原神-辉金盛夏-过场pv-中英双语](https://www.bilibili.com/video/BV1L94y1X76Q?spm_id_from=333.999.0.0&vd_source=489ffc649530594b28a5b31b125daf69)
 
@@ -360,7 +360,7 @@ video:[[新华社]南京大屠杀唯一动态影像](https://www.bilibili.com/vi
 如今南京已经成为第169座“国际和平城市”，这个称号凝聚着这座城市的伤痛与希望，我们不仅仅要让世人知道我们的祖辈曾在这里为苦难中的中国人民提供了人道主义救援，我们更希望向世界传播南京大屠杀历史，警示世人铭记历史珍爱和平。
 
 
-## [Genshin Impact]The Morn a Thousand Roses Brings
+## [Genshin Impact] The Morn a Thousand Roses Brings
 
 video:[原神-3.0版本PV-「千朵玫瑰带来的黎明」-双语字幕](https://www.bilibili.com/video/BV1vB4y157Ug?p=1&vd_source=489ffc649530594b28a5b31b125daf69)
 
