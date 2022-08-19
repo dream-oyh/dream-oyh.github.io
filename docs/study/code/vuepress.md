@@ -1,5 +1,8 @@
 # 博客搭建
 
+
+[[toc]]
+
 ## github图床建立(git语法)
 
 **成果：**
@@ -119,7 +122,7 @@ TypeError: Invalid value used as weak map key
 ```
 ## 在vuepress中插入思维导图
 
-`step1：`
+<Badge text="step1" />
 
 在vscode中下载“markmap”插件，如下图所示：
 
@@ -127,7 +130,7 @@ TypeError: Invalid value used as weak map key
 <img alt="markmap插件" src="https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/vuepress_1.png"  width="60%" height="60%"/>
 </div>
 
-`step2：`
+<Badge text="step2" />
 
 新建一个.md或.mm文档，用于构建思维导图html文件
 
@@ -139,15 +142,15 @@ TypeError: Invalid value used as weak map key
 
 即可打开思维导图窗口进行绘制
 
-`step3：`
+<Badge text="step3" />
 
 绘制完成后，点击右下角`export`，生成html文件
 
-`step4：`
+<Badge text="step4" />
 
 将html文件移动至docs/.vuepress/public/markmap/中
 
-`step5：`
+<Badge text="step5" />
 
 利用iframe标签在你的markdown中插入思维导图
 
@@ -260,3 +263,28 @@ width，height属性：图片宽与高的缩放比例
 |&emsp;|全角空格|`&emsp;`|
 |&ensp;|半角空格|`&ensp;`|
 
+### 插入目录
+
+直接输入`[[toc]]`即可
+```html
+    [[toc]]
+```
+
+## 安装latex插件
+
+vuepress中安装latex插件，参考CSDN老哥的专栏[如何在vuepress中加入latex插件](https://blog.csdn.net/Flyingheart1991/article/details/126067149)
+
+
+::: tip
+由于$...$会被vuepress识别为未知标签，因此在需要使用公式时需包裹<span v-pre></span>标签。否则将触发[weak map key bug错误信息](/study/code/vuepress.md#weak-map-key-错误信息)。
+
+<div style="text-align: right; ">——参考绝对值_x的博客</div>
+:::
+
+示例：
+``` latex
+<span v-pre>$f(x)=x^2+2x+1$</span>
+```
+
+预览：
+<span v-pre>$f(x)=x^2+2x+1$</span>

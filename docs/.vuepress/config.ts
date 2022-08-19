@@ -7,6 +7,12 @@ export default defineUserConfig({
   head:[
     ['link', { rel: 'stylesheet', href: '/mask.css' }]
   ],
+  
+  extendsMarkdown: md => {
+    md.use(require('markdown-it-mathjax3'))
+    md.linkify.set({ fuzzyEmail: false })
+  },
+  
   theme:defaultTheme({
     logo:'http://raw.githubusercontent.com/dream-oyh/dream-oyh.github.io/images/logo.jpg',
     navbar:[
