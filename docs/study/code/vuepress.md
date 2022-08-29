@@ -288,3 +288,5 @@ vuepress中安装latex插件，参考CSDN老哥的专栏[如何在vuepress中加
 
 预览：
 <span v-pre>$f(x)=x^2+2x+1$</span>
+
+注：由于跨平台的问题，部分latex语法在vuepress中无法使用<span class="mask" title="嘿嘿嘿，被发现了捏~">对，vuepress太辣鸡了，下次建博客别用vuepress</span>

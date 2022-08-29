@@ -14,7 +14,7 @@ export default defineUserConfig({
   },
   
   theme:defaultTheme({
-    logo:'http://raw.githubusercontent.com/dream-oyh/dream-oyh.github.io/images/logo.jpg',
+    logo:'https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/logo.jpg',
     navbar:[
       {text:'学习',
        children:[

@@ -432,7 +432,145 @@ I hope you love it.
 |dedication|n.献身，奉献|
 |discipline|n.纪律；训练；行为准则|
 
+## 【孟庆旸】“千里江山，不止青绿”<br/>The Panorama of Rivers and Mountains is far more than a piece of painting
+
+### Words
+
+video：[【孟庆旸】“千里江山，不止青绿”](https://www.bilibili.com/video/BV1cG41147Jf?spm_id_from=333.337.search-card.all.click&vd_source=489ffc649530594b28a5b31b125daf69)
+
+|英语生词|中文释义|
+|:---:|:---:|
+|rolling|adj.起伏的，规则的<br/>v.翻滚，滚动（roll的现在分词）|
+|<text style="color:green;">rolling</text> mountains，flowing rivers|青绿氤氲，山河无垠|
+|hue|n.颜色，色度，色调|
+|come alive|走向现在，恢复生机|
+|legendary|adj.非常著名的，享有盛名的；传奇的|
+|ancient sentiment|adj.古老的情感|
+|conceptualize|v.构思，使形成观念|
+|the <text style="color:green;">ancient sentiments</text> are <text style="color:green;">conceptualized</text> as the green mountains and rivers |古老的情感化作青绿，化作山水|
+|gracefully|v.优雅地，温文地|
+|roam|v.漫游，漫步；徜徉；闲逛|
+|aesthetic|n.美学；美感；审美观|
+|They dance <text style="color:green;">gracefully</text>, <text style="color:green;">roaming</text> through the traditional Chinese <text style="color:green;">aesthetic</text> charm|翩若惊鸿间，是东方美学的意韵|
+|embrace|v.拥抱；欣然接受；乐意采纳（思想，建议等）|
+|panorama|n.全景；全景画卷|
+|The <text style="color:green;">Panorama</text> of Rivers and Mountains is far more than a piece of painting|千里江山，不止青绿|
+|preface|n.前言；（书的）序言|
+|postscript|n.后记；跋；补充|
+|surviving work|现存作品|
+|masterwork|n.杰作，代表作|
+|depict&emsp;&emsp;&emsp;[dɪˈpɪkt]|v.描绘；绘画；描写|
+|*A Thousand Li of Rivers and Mountains*|《千里江山图》|
+|gala|n.庆典，盛会；演出|
+|CCTV Spring Festival <text style="color:green;">Gala</text>|央视春晚|
+|segment|n.部分；份；片；段|
+|*The Journey of a Legendary Landscape Painting*|《只此青绿》|
+|dominant|adj.占主导地位的；占优势的；首要的|
+|serve as the <text style="color:green;">dominant</text> hue|成为主要色调|
+|**literati**|n.文人；文人学士|
+|**literature**|n.文学；文学作品；文献|
+|**literacy**|n.读写能力|
+|**literate**|adj.有读写能力的；有文化的<br/>n.有学问的人|
+|**literary**|adj.文学上的；文学的|
+|**literally**|adv.字面上；（强调事实可能令人惊讶）真正地，确实地|
+|azurite|n.石青，蓝铜矿|
+|malachite|n.孔雀石|
+|extract|v.摘录；提取；提炼；（用力）取出|
+|copper|n.铜|
+|ore|n.矿；矿石|
+|marvelous|adj.不可思议的，了不起的；非凡的|
+|the <text style="color:green;">marvelous</text> colors of hills and waters|色彩壮丽的丘壑林泉|
+|(the color) remain bright|不褪色，保持原来的色彩|
+|rehearsal|n.排练；预演；复述；重复|
+|transquility|n.宁静；安静|
+|restrained|adj.克制的，有节制的|
+|the calm and <text style="color:green;">restrained</text> beauty of Song dynasty|沉稳内敛的宋代审美意境|
+|achieve inner peace|收获平和的心态|
+|portray|v.描绘，描画；描写|
+|fragility|n.脆弱，易碎性；虚弱|
+|divergent|adj.发散的，有分歧的|
+|temperament|n.性情；（人或动物的）气质；性格|
+|imitate|v.效仿；模仿（某人的讲话，举止）|
+|mimic|v.模仿（人的言行举止）|
+|<text style="color:green;">mimic</text> the stunning mountainside in the paintings|比喻险峰|
+|the aesthetics of Song dynasty|宋代美学|
+|horticultural|adj.文艺学的|
+|hashtag|n.话题标签；推文话题|
+|trendy|n.热搜|
+|phenomenal|adj.了不起的，非凡的|
+|dynamism|n.精力；活力；劲头|
+|The only impression towards Chinese culture was respect|对中华文明的印象只有尊敬|
+|ponder|v.思索，掂量|
+|gravitation|n.万有引力；引力|
+|the magical <text style="color:green;">gravitation</text> in Chinese culture|中华文化本身的魅力|
+|mission|n.使命|
+|a sense of <text style="color:green;">mission</text>|使命感|
+|grandeur|n.宏伟；壮丽；堂皇|
+|exquisite|n.精致<br/>adj.精致的；精美的|
+|tremendous|adj.巨大的，极大的，极好的|
+|epic|n.史诗；叙事诗；壮举|
+|a sense of magnificent epic|壮美史诗感|
+|aboriginal|n.原住民；（尤指澳大利亚的）土著<br/>adj.澳大利亚土著的|
+|dedicated|adj.献身的；专用的；专心致志的<br/>v.把……奉献给|
+|traverse|v.超越；穿过；横过|
+|traverse all the barriers of language|超越了所有语言隔阂|
+|oriental|adj.东方（尤指中国和日本的）；东方人的|
+|touch the soul|触动灵魂|
+|interlock|v.扣紧；（使）连锁；紧密连接|
+|Along the River During the Qingming Festival|清明上河图|
+|merge|v.合并，融入；（使）结合|
+|intrigues|v.激起……的兴趣；引发……的好奇心<br/>n.密谋策划；阴谋|
+
+### Sound Bite 金句
+
+**1.** Beauty knows no borders and barriers.
+
+美，超越所有的差异与隔阂。
+
+**2.** Only with a broad mind can you act smoothly like water.
+
+心有丘壑，才能眼存山河。
+
+**3.** The moon is like a bridge here connecting us with the past and a reflection of the wish in the dance to see a prosperous world.
+
+明月在这里代表着时空的桥梁，也是“青绿”期许着我们这个世界开卷时的所愿。
+
+**4.** First, in our dance, we are bold enough to adopt freestyle Chinese painting in building up the framework of our stage which reflects the spirit of Chinese aesthetics. And the performance is not set to please the audience deliberately but the dancers are very committed to the dancing. On our faces, there is no common happy smile, but impassive expressions like the steep mountains showing the profound beauty in the gene of traditional Chinese culture.
+
+首先，青绿大胆的用写意的中国古典审美构建起全剧的精神意境，呈现了东方美学的精髓，其次是不刻意取悦观众，但又无比虔诚的演出状态。所有演员的表情不是常见的喜笑颜开，而是代表着山水之美的一种冷峻凛冽，这种深邃的审美，是中华传统文化自带的基因。
+
+**5.** These creative artworks have impressed the whole world. The beauty of fine arts is the tie connecting countries around the world. The traditional arts of every country are the shared wealth of humanity.
+
+这些妙趣横生的创意，让全世界都叹为观止，艺术之美，是国家与国家间交流沟通的纽带。每个国家的传统文化艺术更是全人类的共同财富。
 </text>
 
+## 【TED】宇宙中最神秘的恒星
 
+### Words
 
+video：[【TED】宇宙中最神秘的恒星](https://www.bilibili.com/video/BV1M14y1b7kT?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=489ffc649530594b28a5b31b125daf69)
+|英语生词|中文释义|
+|:---:|:---:|
+|hypothesis|n.假设；（有少量事实依据但是未被证明的）假说|
+|a last resort|最后一根稻草|
+|stare|v.观测；盯着|
+|<text style="color:green;">stare</text> at a single field in the sky|观测一小块天区|
+|align|v.排列，校准，使……成一条直线|
+|dip|v.蘸，浸；<br/>n.（暂时的）下降；低洼处|
+|sophisticated|adj.复杂的，精密的，先进的，见多识广的|
+|citizen science project|公民科学项目|
+|pattern recognition|模式识别|
+|skepticism|n.怀疑论；怀疑主义者|
+|versus|v.对抗；（比较两种不同选择，想法）与……相比|
+|gamble|n.赌博；冒险；打赌|
+|forum|n.论坛；公开讨论场所|
+|asymmetric|adj.不对称的|
+|dim|adj.昏暗的；黯淡的；v.变暗，变微弱|
+|superimpose|v.叠加；使重叠|
+|firsthand|adj.第一手的，直接的;adv.直接地|
+|collide|v.碰撞；冲突；抵触；不一致|
+|a huge swam of|一大群，一大批|
+|contrive|v.（不顾困难而）设法做到；（克服困难）促成（某事）|
+|acronym|n.缩略语，梗|
+|megastructure|n.巨型结构，超级建筑|
+|leak|v.漏；泄露（秘密信息）；n.漏洞；裂缝|
