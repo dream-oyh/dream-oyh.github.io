@@ -24,6 +24,7 @@ export default defineUserConfig({
       '/study/English.md',          //英语
       '/study/read.md',             //读书
       '/study/probability.md',      //概率论与数理统计
+      '/study/zhitu.md',          //机械制图（三）
     ],           
     },
     {

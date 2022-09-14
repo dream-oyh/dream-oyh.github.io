@@ -542,7 +542,7 @@ video：[【孟庆旸】“千里江山，不止青绿”](https://www.bilibili.
 **5.** These creative artworks have impressed the whole world. The beauty of fine arts is the tie connecting countries around the world. The traditional arts of every country are the shared wealth of humanity.
 
 这些妙趣横生的创意，让全世界都叹为观止，艺术之美，是国家与国家间交流沟通的纽带。每个国家的传统文化艺术更是全人类的共同财富。
-</text>
+
 
 ## 【TED】宇宙中最神秘的恒星
 
@@ -574,3 +574,34 @@ video：[【TED】宇宙中最神秘的恒星](https://www.bilibili.com/video/BV
 |acronym|n.缩略语，梗|
 |megastructure|n.巨型结构，超级建筑|
 |leak|v.漏；泄露（秘密信息）；n.漏洞；裂缝|
+
+## 【Taylor Swift】Midnight新专辑！！
+
+<div style="text-align: center; ">
+<img alt="math_2" src="https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/English_1.jpg"/>
+</div>
+
+<div style="text-align: center; ">
+We lie awake in love and in fear, in <text style="color:green;">turmoil</text> and in tears.
+
+We stare at walls and drink until they <text style="color:green;">speak back</text>.We <text style="color:green;">twist</text> in our self-made cages and pray that we aren't - right this minute - about to make some <text style="color:green;">fateful</text> life-altering mistake. 
+
+This is a collection of music written in the middle of the night, a journey through terrors and sweet dreams. The floors we pace and the <text style="color:green;">demons</text> we face.For all of us who have <text style="color:green;">tossed</text> and turned and decided to keep the lanterns lit and go searching - hoping the just maybe, when the clock strikes twelve……we'll meet ourselves.
+
+Midnights, the stories of 13 sleepless nights <text style="color:green;">scattered</text> throughout my life, will be out October 21. Meet me at midnight.
+</div>
+
+|英语生词|中文释义|
+|:---:|:---:|
+|turmoil|n.动乱；混乱；骚动；焦虑|
+|speak back|顶嘴，还嘴|
+|twist|v.扭转，旋转|
+|fateful|adj.对未来有重大（负面）影响的|
+|demons|n.魔鬼，恶魔|
+|toss|v.（漫不经心的）投，抛，掷；甩（头，以表示不耐烦或恼怒）|
+|scatter|v.分散；撒；驱散；散开|
+
+
+
+
+</text>
