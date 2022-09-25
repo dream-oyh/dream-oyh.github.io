@@ -18,13 +18,22 @@ export default defineUserConfig({
     navbar:[
       {text:'学习',
        children:[
-        {text:'学业',
+        {text:'课内学分',
       children:[
-        '/study/math.md',      //数学建模
-      '/study/English.md',          //英语
-      '/study/read.md',             //读书
-      '/study/probability.md',      //概率论与数理统计
-      '/study/zhitu.md',          //机械制图（三）
+      '/study/learn/English.md',          //英语
+      '/study/learn/probability.md',      //概率论与数理统计
+      '/study/learn/zhitu.md',          //机械制图（三）
+    ],           
+    },
+    {text:'竞赛',
+    children:[
+      '/study/competition/math.md',      //数学建模
+  ],           
+  },
+    {text:'阅读',
+      children:[
+      '/study/read/read.md',             //读书
+      '/study/read/hamlet.md',        //哈姆雷特英语阅读
     ],           
     },
     {
