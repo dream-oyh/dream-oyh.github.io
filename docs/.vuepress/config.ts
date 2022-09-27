@@ -80,12 +80,6 @@ export default defineUserConfig({
       text:'随笔',
       link:'/write/write.md',
     },
-
-    {
-      text:'B站',
-
-      link:'/bilibili/bilibili.md'
-    },
     ],
   })
 })
