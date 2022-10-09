@@ -1,4 +1,4 @@
-# English
+# 英语视频词汇积累
 
 <text style="font-family:Times New Roman;">
 
@@ -607,5 +607,5 @@ Midnights, the stories of 13 sleepless nights <text style="color:green;">scatter
 
 What a piece of work is a man! How noble in reason. how infinite in faculties, in form and moving how express and admirable, in action how like an angel, in apprehension how like a god! The beauty of the world, the paragon of animals -- and yet to me, what is this quintessence of dust?
 
-人类是一件多么了不起的杰作！多么高贵的理性！多么伟大的力量！多么优美的仪表！多么文雅的举动！在行为上多么像一个天使！在智慧上多么像一个天神！宇宙的精华！万物的灵长！（正在查梁实秋先生的中文翻译，姑且先放着，之后会更新）
+人类是一件多么了不起的杰作！多么高贵的理性！多么伟大的力量！多么优美的仪表！多么文雅的举动！在行为上多么像一个天使！在智慧上多么像一个天神！宇宙的精华！万物的灵长！
 </text>

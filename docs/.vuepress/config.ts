@@ -20,7 +20,6 @@ export default defineUserConfig({
        children:[
         {text:'课内学分',
       children:[
-      '/study/learn/English.md',          //英语
       '/study/learn/probability.md',      //概率论与数理统计
       '/study/learn/zhitu.md',          //机械制图（三）
     ],           
@@ -30,6 +29,12 @@ export default defineUserConfig({
       '/study/competition/math.md',      //数学建模
   ],           
   },
+    {text:'English',
+      children:[
+      '/study/English/English.md',             //英语视频词汇积累
+      '/study/English/free.md',        //FREE大学英语
+    ],           
+    },
     {text:'阅读',
       children:[
       '/study/read/read.md',             //读书
