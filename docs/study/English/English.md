@@ -1,6 +1,6 @@
 # 英语视频词汇积累
 
-<text style="font-family:Times New Roman;">
+
 
 Let life be beautiful like summer flowers and death like autumn leaves.
 
@@ -150,7 +150,7 @@ td,th {border: none!important; }
 **4.** Part of growing up and moving into new chapters of your life is about catch and release.
 What I mean by that is konwing what things to keep and what things to release. You can't carry all things.
 
-成长并进入生活新篇章的一部分是关于抓住和释放。我的意思是，知道哪些东西要保留，哪些东西要释放，你不能背负所有的东西
+成长并进入生活新篇章的一部分是关于抓住和释放。我的意思是，知道哪些东西要保留，哪些东西要释放，你不能背负所有的东西。
 
 **5.** Oftentimes, the good things in your life are lighter anyway, so there's more room for them.
 One toxic relationship can outweigh so many wonderful simple joys. You get to pick what your life has time and room for. Be discerning.
@@ -608,4 +608,3 @@ Midnights, the stories of 13 sleepless nights <text style="color:green;">scatter
 What a piece of work is a man! How noble in reason. how infinite in faculties, in form and moving how express and admirable, in action how like an angel, in apprehension how like a god! The beauty of the world, the paragon of animals -- and yet to me, what is this quintessence of dust?
 
 人类是一件多么了不起的杰作！多么高贵的理性！多么伟大的力量！多么优美的仪表！多么文雅的举动！在行为上多么像一个天使！在智慧上多么像一个天神！宇宙的精华！万物的灵长！
-</text>

@@ -26,13 +26,16 @@ export default defineUserConfig({
     },
     {text:'竞赛',
     children:[
-      '/study/competition/math.md',      //数学建模
+      //'/study/competition/math.md',      //数学建模
   ],           
   },
     {text:'English',
       children:[
       '/study/English/English.md',             //英语视频词汇积累
       '/study/English/free.md',        //FREE大学英语
+      '/study/English/China.md',        //学习强国英语资源
+      '/study/English/midnight.md',    //midnight 歌词
+      '/study/English/Poems.md',    //英美诗歌品读
     ],           
     },
     {text:'阅读',
