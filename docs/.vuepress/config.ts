@@ -1,4 +1,5 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
+const { plugins } = require('@vuepress/plugin-back-to-top')
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -26,9 +27,9 @@ export default defineUserConfig({
     },
     {text:'竞赛',
     children:[
-      //'/study/competition/math.md',      //数学建模
-  ],           
-  },
+     
+    ],           
+    },
     {text:'English',
       children:[
       '/study/English/English.md',             //英语视频词汇积累

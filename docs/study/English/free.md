@@ -284,16 +284,18 @@ e.g. Search engines allow the students to have the privilege to obtain the first
 17	define ourselves less by what we do for a living
 
 ::: warning 写作句式
-	define sth less by … more by …
+define sth less by … more by …
 
-	不要通过……定义，而要通过……定义
+不要通过……定义，而要通过……定义
 
-	e.g.  We should define food less by price, more by flavour.
+e.g.  We should define food less by price, more by flavour.
 :::
 
 18	consider the role of work in their lives	考虑工作在他们生活中的作用 / 角色
 
 19	in terms of	以……角度来考虑，从……方面来讲
+
+::: tip What a good job can do for their employees:
 
 20	a sense of accomplishment, pride in being associated with the organization
 
@@ -301,15 +303,18 @@ e.g. Search engines allow the students to have the privilege to obtain the first
 
 22	supports them in their ability to manage daily life and care for loved ones
 
+:::
+
 注意写作思维的转变：
 
-	sth is useful  →  sth supports us in our ability to do sth and do sth 有用！
+sth is useful  →  sth supports us in our ability to do sth and do sth 有用！
 
 23	eternal factors	外部因素  
 
-	internal factors 内部因素
+internal factors 内部因素
 
-24	continually craving more money, power, and consumer goods = greedy	
+24	continually craving more money, power, and consumer goods = greedy
+
 描述一个人贪婪
 
 25	self-employment 创业，自己为自己打工
@@ -320,7 +325,7 @@ e.g. Search engines allow the students to have the privilege to obtain the first
 
 27	That shift feels especially urgent
 
-	sth is urgent → sth feels urgent
+sth is urgent → sth feels urgent
 
 28	common **traits**	共同特点 普遍特征	feature / characteristic
 
@@ -361,4 +366,86 @@ drove  n 人群	兽群
 36	Whether the pandemic is over might be up for debate. Whether we still need these essential workers to function as an economy—as the past two years have made abundantly clear—is not.
 
 好句，背！
+
+## 5*Fifth*：How Listening to Silence Changes Our Brains
+
+1	literally	字面意义上的，确实如此（表强调）
+
+2	shelter – in – place 居家
+
+3	a fleeting declines  少 – inescapable 多 负态度 
+
+表示某个东西到处都是，且是负态度，可以用inescapable
+
+fleet  n 舰队 v 快速
+
+4	nuisance 令人讨厌的人或事物
+
+5	let sth slip away  让某物溜走 = lose sth（是眼睁睁看着溜走的，有挽回机会但是不珍惜）
+
+let the time slip away = waste time
+
+6 	across disciplines / fields / subjects 跨学科
+
+discipline 不可数 – 纪律  可数 – 学科
+
+7	neuroscience to psychology to cardiology
+
+记三个前缀：
+
+<Badge text="neuro-"/> 神经方面的
+
+<Badge text="psycho-"/> 心理的
+
+<Badge text="cardio-"/>  心脏的
+
+8	
+::: warning 写作句式——呈现论点
+there’s growing consensus that …… 人们越来越认同……
+
+呈现论点的句式
+:::
+
+9	health and cognition 	健康和认知——对应身体和内心（body and mind）
+
+10	stiff  僵硬
+
+11	fight-or-flight response	面对还是回避
+
+12	reflect on his experiences	反思他的过去经历/复盘（注意reflect是中性词）
+
+一系列事件—reflect on
+
+13	
+::: warning 写作句式——表达某观点有道理
+sb have an essential point	某人说得对	有道理 = sb is correct
+
+e.g. Judging from my personal experiences, I believe the latter one has an essential point.
+:::
+
+14	middle schoolers  中学生
+
+15	lag behind  落在后面
+
+16	the costs of noise are increasingly clear代价变得越来越明显—问题越来越严重
+
+17	the **prerequisite** to all wisdom	prerequisite – 先决条件 / 前提
+
+一切智慧的前提
+
+18	counterintuitively 反直觉地
+
+intuition 直觉 – intuitive adj – intuitively adv 直觉上的
+
+counter-  相反的
+
+19	In an age of so much noise, silence deserves our attention.
+
+::: warning 写作句式
+**In an age of sth(A), sth(B) deserves our attention.**
+
+AB两者必然相反
+
+e.g. In an age of international exchange, our domestic culture deserves our attention.
+:::
 

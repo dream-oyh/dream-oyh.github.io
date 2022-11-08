@@ -1,5 +1,78 @@
 # 学习强国官方英语资源
 
+## 11.2 中华人民共和国“友谊勋章” the Friendship Medal of the People's Republic of China
+
+10月31日，中共中央总书记、国家主席习近平在北京人民大会堂向越共中央总书记阮富仲授予中华人民共和国“友谊勋章”，并举行隆重颁授仪式。
+
+Xi Jinping, general secretary of the Communist Party of China (CPC) Central Committee and Chinese president, awarded Nguyen Phu Trong, general secretary of the Communist Party of Vietnam (CPV) Central Committee, the Friendship Medal of the People's Republic of China during a ceremony held at the Great Hall of the People in Beijing on Oct. 31.
+
+【重要讲话】
+
+“友谊勋章”代表了中国共产党和中国人民对阮富仲总书记和越南人民的友好感情，象征着中越“同志加兄弟”的深厚情谊，蕴含着两党和两国人民共同追求美好未来的殷切希望。
+
+The medal represents the friendly feelings of the CPC and the Chinese people toward Trong and the Vietnamese people, symbolizes the profound friendship between China and Vietnam as "comrades and brothers", and embodies the ardent hope of the two parties and the two peoples for a better future together.
+
+——2022年10月31日，习近平为越共中央总书记阮富仲举行中华人民共和国“友谊勋章”颁授仪式时的重要讲话
+
+::: tip 【相关词汇】
+
+共和国勋章
+
+the Medal of the Republic
+
+国家荣誉称号
+
+national titles of honor
+
+功勋簿
+
+Book of Merit
+
+:::
+
+
+
+## 11.1 世界城市日全球主场活动 Global Observance of World Cities Day
+
+2022年世界城市日全球主场活动暨第二届城市可持续发展全球大会日前在上海开幕。本届世界城市日主题为“行动，从地方走向全球”，由住房和城乡建设部、上海市人民政府、联合国人居署共同举办。
+
+Themed "Act Local to Go Global", the Global Observance of World Cities Day 2022 and the Second Sustainable Development Goals Cities Global Conference were co-hosted by the Ministry of Housing and Urban-Rural Development, the Shanghai municipal government and the United Nations Human Settlements Programme, with an opening ceremony held in Shanghai on Oct 31.
+
+municipal   adj.城市的; 市政的; 自治市的; 地方政府的; 地方性的，地区的; 地方自治的; 
+
+【函电贺词】
+
+世界城市日全球主场活动秉承“城市，让生活更美好”理念，致力于推动全球城市可持续发展，对共创普惠平衡、协调包容、合作共赢、共同繁荣的发展格局具有重要意义。
+
+By carrying on the "Better City, Better Life" concept, the Global Observance of World Cities Day is committed to promoting the sustainable development of global cities, and is of great significance for jointly forging an inclusive, balanced and coordinated development pattern that features win-win cooperation and mutual prosperity.
+
+——2022年10月31日，习近平致2022年世界城市日全球主场活动暨第二届城市可持续发展全球大会的贺信
+
+```
+by carrying on xxx concept 秉承……理念
+be committed / dedicated to doing 致力于做某事 
+forge 锻造; 艰苦干成; 努力加强; 制作; 稳步前进;
+mutual prosperity   共同繁荣
+```
+
+::: tip 【相关词汇】
+
+高质量发展
+
+high-quality development
+
+绿色低碳发展
+
+green and low-carbon development
+
+气候适应型社会
+
+climate-resilient society   
+
+:::
+
+
+
 ## 10.31 黄河保护法 law on Yellow River conservation
 
 十三届全国人大常委会第三十七次会议10月30日表决通过黄河保护法。这部法律将从2023年4月1日起施行。
@@ -25,6 +98,7 @@ Yellow River culture
 ecological protection / conservation and high-quality development of the Yellow River basin
 
 :::
+
 ## 10.30 梦天实验舱 Mengtian space lab module
 
 module  n.单元；模块；功能块；程序块；舱
