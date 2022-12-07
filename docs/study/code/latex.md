@@ -599,6 +599,7 @@ xxx可见图\ref{figure1}
 |\sin^{□}|sin函数搭配上标效果（其余函数同理）|`$\sin^{-1} x$`|$\sin^{-1} x$|
 |sqrt{□}|根号|`$\sqrt{20}$`<br/>`$\sqrt{2+\sqrt{2}}$`|$\sqrt{20}$<br/>$\sqrt{2+\sqrt{2}}$|
 |sqrt[□]{□}|n次根号|`$\sqrt[4]{49}$`|$\sqrt[4]{49}$|
+|°|角度|`$^{\circ}$`|45$^{\circ}$|
 :::
 
 ### 公式编号
@@ -893,6 +894,7 @@ D(x)=\begin{cases}
 0,& \text{如果} x \in \mathbb{R}\setminus\mathbb{Q};
 \end{cases}
 \end{equation}$$
+
 ## latex新命令的定义
 
 导言区加入`\newcommand`命令以实现新命令的定义
@@ -928,3 +930,44 @@ D(x)=\begin{cases}
 
 编译为：dream-oyh不吃lxl66566
 
+## latex有序列表环境
+
+- 有序列表 enumerate环境
+
+```latex
+\begin{enumerate}
+\item lalala
+\item blabla
+\item lvelvelve
+\end{enumerate}
+```
+
+- 无序列表 itemize环境
+
+```latex
+\begin{itemize}
+\item lalala
+\item blabla
+\item lvelvelve
+\end{itemize}
+```
+可通过[]更改项目符号
+
+```latex
+\begin{itemize}
+\item[*] lalala
+\item[*] blabla
+\item[*] lvelvelve
+\end{itemize}
+```
+
+- 描述 decription环境
+
+```latex
+\begin{decription}
+\item[lala] lalala
+\item[bla] blabla
+\item[lve] lvelvelve
+\end{decription}
+```
+描述环境中，方括号内的字体会加粗并且充当序号

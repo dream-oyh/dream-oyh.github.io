@@ -1,5 +1,130 @@
 # Midnights 专辑歌词
 
+## Maroon
+
+When the morning came we
+清晨洒下第一缕阳光
+
+When cleaning incense off your
+你黑胶搁架上的焚香，逐渐被我们扫至一尘不染
+
+vinyl shelf' cause we lost track of time again
+而那时你我已再度丧失时间观念
+
+Laughing with my feet in your lap
+脚踩你腿上，我大笑不止
+
+Like you were my cloest friend
+就如同 你为我至亲挚友
+
+“How'd we end up on the floor anyway?”
+“为何我们还是在地板上睡着了？”
+
+You say,“Your roommate's cheap-ass screw top Rose, that's how.”
+你说：“还不是因为你的室友的旋盖红酒如此廉价低级”
+
+I see you every day now.
+所以如今我每日都能望见你的面庞。
+
+And I chose you
+可我选择了你
+
+The one I was dancing with in New York
+曾于纽约，共舞之人
+
+No shoes, looked up
+赤踝裸脚，抬头仰望
+
+At the sky and it was
+天空之景，却为
+
+The burgundy on my t-shit when you splashed your wine into
+你朝我泼出红葡，我半袖上便留下红色印痕
+
+Me and how the blood rushed into my cheeks,so scarlet it was
+而血液汇聚于我面肌，我的双颊如血液般鲜红
+
+The mark they saw on my cillarbone the rust that grew between telephones
+你在我锁骨上留下的痕，不再使用的座机锈迹斑斑
+
+The lips I used to call home. So scarlet, it was maroon 
+我曾呼唤归途的双唇如此鲜红，而一切却曾是褐红
+
+When the silence came we
+而我们闭口不谈
+
+Were shaking blind and hazy
+视线却一片模糊，朦胧不清
+
+How the hell did we lose sight of us again
+你我究竟如何？再度迷失了彼此
+
+Sobbing with your head in your hands
+你抱头痛哭
+
+Ain't that the way shit always ends
+好似一切终将完结
+
+You were standing hollow-eyed in the hallway
+你双眼空洞站在走廊
+
+Carnations you had thought were roses, that's us.
+你曾将康乃馨误认为玫瑰，那便为我们的模样
+
+I feel you no matter what, the rubies that I gave up
+无论如何，我都能够感知到你的存在，当我将你失去
+
+And I lost you
+我便不再拥有那宝石般的红
+
+The one I was dancing with in New York
+曾于纽约，共舞之人
+
+No shoes, looked up
+赤踝裸脚，抬头仰望
+
+At the sky and it was（Maroon）
+天空之景，却为（褐红）
+
+The burgundy on my t-shit when you splashed your wine into
+你朝我泼出红葡，我半袖上便留下红色印痕
+
+Me and how the blood rushed into my cheeks,so scarlet it was
+而血液汇聚于我面肌，我的双颊如血液般鲜红
+
+The mark they saw on my cillarbone the rust that grew between telephones
+你在我锁骨上留下的痕，不再使用的座机锈迹斑斑
+
+The lips I used to call home. So scarlet, it was maroon 
+我曾呼唤归途的双唇如此鲜红，而一切却曾是褐红
+
+And I wake with your memory over me
+辗转反侧，关于你的回忆，于我的脑海中挥之不去
+
+That's a real fucking legacy, legacy
+这就如同你寻得的一份遗产
+
+And I wake with your memory over me
+辗转反侧，关于你的回忆，于我的脑海中挥之不去
+
+That's a real fucking legacy,……to leave
+这就如同你寻得的一份遗产
+
+The burgundy on my t-shit when you splashed your wine into
+你朝我泼出红葡，我半袖上便留下红色印痕
+
+Me and how the blood rushed into my cheeks,so scarlet it was
+而血液汇聚于我面肌，我的双颊如血液般鲜红
+
+The mark they saw on my cillarbone the rust that grew between telephones
+你在我锁骨上留下的痕，不再使用的座机锈迹斑斑
+
+The lips I used to call home. So scarlet, it was maroon 
+我曾呼唤归途的双唇如此鲜红，而一切却曾是褐红
+
+It was maroon 
+一切皆为褐红
+
 ## Lavender Haze
 
 Meet me at Midnight

@@ -1,5 +1,5 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
-const { plugins } = require('@vuepress/plugin-back-to-top')
+
 
 export default defineUserConfig({
   lang: 'zh-CN',

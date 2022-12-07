@@ -347,7 +347,7 @@ Jogging has a place in my daily routine.
 
 对理想成绩的追求不应该成为考试作弊的借口。
 
-::: 写作句式
+::: warning 写作句式
 
 Doing sth shouldn’t provide an excuse for doing sth
 
@@ -449,3 +449,224 @@ AB两者必然相反
 e.g. In an age of international exchange, our domestic culture deserves our attention.
 :::
 
+## 6*Sixth*：The Pandemic Generation Goes to College
+
+Issue：如何写负态度bad / worse / worst ?
+
+1	be behind 落后了
+
+2	falter  v 变差，变坏，衰退 = worsen
+
+e.g.	My math education falter.  数学成绩变差了
+
+**sth falter 某事变差，某事做主语**
+
+3	a rocky transition  不稳定的，不牢固的转变
+
+4	remote learning  远程学习，线上学习
+
+5	flounder		v不知所措 迷茫
+
+be floundering  迷茫
+
+sb flounder	某人不知所措
+
+e.g. She found herself floundering in something that should have been mastered — algebra
+
+6	sth falter + sb flounder 搭配使用
+
+押头韵，押尾韵
+
+7	be better equipped to do 更好地准备好做某事
+
+= be better prepared to do sth
+
+……, so that you will be well equipped to do sth.	建议句型
+
+8	虚拟语气表示负态度
+
+If I had learned those skills in high school, I feel like I would have been better equipped to do well in that class.
+
+9	sobering  adj 令人惊觉的，令人警醒的  触目惊心
+
+e.g.What they are seeing is sobering, especially because the latest dismal results from the national exam of fourth and eighth graders suggest that they could face year after year of incoming students struggling to catch up.
+
+10	dismal  adj 惨淡的  愁云惨雾
+
+dismal result  惨淡的结果
+
+e.g. 同上
+
+11	be behind→struggle to catch up		落后 – 努力赶上  struggle – 很难赶上（负）
+
+12	significant / drastic declines  显著下降  
+
+significant一般表示程度，而不表示重要
+
+13	show a dip in reading 	
+
+dip = decline 下滑，下降
+
+state show a dip in sth 	数据在某件事情上展示出了下滑
+
+结合12与13：
+
+show a significant / drastic dip / decline / increase in sth
+
+在某件事上出现了严重的下滑(上升)**（图表类作文）**
+
+14	disjointed high school experiences 	不连贯的高中学习生活
+
+disjointed	adj 支离破碎的，断断续续的 = broken
+
+15	trail  v 拖后腿 拖累，造成负面影响	sth trail sb
+
+trailer	拖车
+
+16	tentative adj 犹豫不决，踌躇不前（带有焦虑、纠结的感觉）
+
+17	obstacle / barrier / challenge 阻碍 difficulty
+
+18	hard / difficult / challenging / tough 困难的
+
+19	problem / the swirl of issues 问题的漩涡
+
+20	get a crisis	遇到问题
+
+21	move in the wrong direction  南辕北辙（本质分析）
+
+move in the wrong direction in the first step 从一开始就走错了方向
+
+22	be stunned / shocked to see sth  看到某物很震惊
+
+stunning beauty  艳丽不可方物   目眩神迷
+
+23	remediation needs	补救的需求
+
+remedy  解药
+
+24	whittle their syllabuses	削减内容（客观）
+
+lower their expectations	降低预期（主观）
+
+25	sth pain sb  某事让某人心痛
+
+26	
+::: tip 当下学生的三大问题
+lack sharp foundational math skills  		缺乏过硬的基础（客观）
+
+lack rigorous study habits					缺乏主动的习惯（主观）
+
+flawed understandings of basic concepts	基本概念理解瑕疵 / 模棱两可
+:::
+
+::: tip 有关差距(gap)的表述
+27	that gap will propagate	差距加大
+
+28	make an extra effort to bridge / slim that gap	缩小差距
+:::
+
+29	sth do not work at all for sb 某物对某人完全没用（下次别再想useful啦~）
+
+30	make up for the lost time 	弥补失去的时间
+
+31	higher levels of anxiety and a reduced willingness to find support		躺平/摆烂
+
+32	give sb the black eye 
+
+::: tip black eye 的两层含义：
+
+1.眼睛青肿
+
+2.耻辱，丢人现眼
+:::
+
+33	the long tail of pandemic  疫情的长期影响
+
+34	more **reserved** / less eager to engage in large group activities 内向
+
+35	come back into a social setting	回到社交的场景里
+
+36	harbor a “level of apathy” 	感觉有一种冷漠
+
+harbor – n.港口 v. 持有某种态度
+
+apathy / indifference – 冷漠
+
+37	pandemic torpedo our college experience
+
+torpedo – n.鱼雷	v.彻底摧毁 = devastate = destroy
+
+38	instill a sense of belonging	灌输归属感
+
+39	stage event	安排活动
+
+40	create places to relax	 创造放松的地方
+
+41	we hit the wide open mouth of the river 面对的是河口一样大的鸿沟/问题
+
+## 7*Seventh*：When Algorithms Lend Authors A Helping Hand
+::: warning 1 提问——做出假设 写作句型	
+
+Could the next Leo Tolstoy or Jane Austen be a well-engineered AI software programme? It’s a question that is becoming increasingly pressing as machine language-learning software continues to evolve.
+
+问题开场——结合主题做出假设——可能性
+
+e.g. *It’s a question that is becoming increasingly pressing* <u>**as**</u> machine language-learning software continues to evolve. 现在的真实情况
+:::
+
+2	literary talent is *unique and irreplaceable*（出色、重要）
+
+3	Sth is just nerves. 某件事不必多虑
+
+4	Sth *is (not yet / already) at a stage of development* <u>**where**</u> it does sth. 到 / 没到某个发展阶段
+
+e.g. People’s panic is already at a stage of development where they are afraid of going out. 
+
+5	a **blanket** takeover 地毯式替代 - 完全替代 
+
+a **blanket** strategy 全面策略
+
+6	the impending prospect of collaboration 即将到来的合作的前景
+
+7	either already here or hovering just around the corner.	肯定存在态度——已经出现/即将到来
+
+8	is billed as = is advertised as  被标榜为
+
+9	chip in  贡献出，提供
+
+chip n.芯片	v.给出
+
+10	at a pinch	紧要关头，千钧一发
+
+11	dip a toe into the world of sth 初步接触某物
+
+12	the generational shift 迭代
+
+13	contender = competitor 竞争者（较competitor范围更大更抽象）
+
+14	quaint and slightly off-timbre  过时的、别扭的
+
+15	sb emerged with mixed reports = sb have different opinions
+
+16	particular 独特
+
+17	beautifully unique 独树一帜
+
+18	creative impulses 有创造力的灵感
+
+19	write to a formula 按照公式写作
+
+20	Assembly-line novels 流水线小说
+
+21	plausibly	合理的
+
+22	sth make a dazzling leap from …… to ……华丽转身
+
+::: warning 23 表达可能性的写作句型	
+creative writing software isn’t that far from replacing the Mrs Cartlands of today.
+
+句型：sth *isn’t that far from doing*.
+
+e.g. AI robots *isn’t that far from* taking exams for today’s students. 可能性
+:::
