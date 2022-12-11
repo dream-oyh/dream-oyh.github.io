@@ -670,3 +670,48 @@ creative writing software isn’t that far from replacing the Mrs Cartlands of t
 
 e.g. AI robots *isn’t that far from* taking exams for today’s students. 可能性
 :::
+
+## 7*Seventh*:How to emerge a hero from the tension of a World Cup penalty shootout
+
+1	the knockout (K.O.) stages 	淘汰赛
+
+2	win - win the trophy 	取得胜利
+
+3	four games in the knockout rounds were **tied** 平局
+
+4	convert	转化 用在次数/概率中
+
+5	stay stationary 	保持静止，一动不动（立场、坚持）
+
+6	has a **flaw** in sth  在某方面有缺陷
+
+7	rival	对手、竞争对手；势均力敌的两个人
+
+::: warning 8	表达“震撼”写作句型
+
+the aura of sth intimidates sb  
+
+某人觉得某物很震撼
+
+aura - 某个东西的气场，光环  
+
+the aura of sth intimidates sb as + 原因
+
+e.g.	The aura of Monalisa intimidated me as it directly saw me from any angle.
+
+另：astounded by the brilliance of sth 
+
+被某人/某物的才华/光芒所震撼
+
+
+:::
+
+9	banishes the spectacle 克服障碍
+
+10	Luck matters in firefights.   
+
+	**sth A matters in sth.**   某物A在某事中很重要
+
+11	But *to paraphrase* golfer Arnold Palmer, the more teams prepare, the luckier they tend to get.
+
+*to paraphrase*：引用名人名言，但是用自己的话说出来他原来的意思

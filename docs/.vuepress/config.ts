@@ -1,5 +1,5 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
-
+const { searchPlugin } = require('@vuepress/plugin-search')
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -8,15 +8,22 @@ export default defineUserConfig({
   head:[
     ['link', { rel: 'stylesheet', href: '/mask.css' }]
   ],
-  
-  extendsMarkdown: md => {
-    md.use(require('markdown-it-mathjax3'))
-    md.linkify.set({ fuzzyEmail: false })
-  },
-  
+
+  plugins: [
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: '搜索',
+        },
+      },
+      maxSuggestions: 10,
+    }),
+  ],
   theme:defaultTheme({
+    
     logo:'https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/logo.jpg',
     navbar:[
+      
       {text:'学习',
        children:[
         {text:'课内学分',
@@ -89,7 +96,9 @@ export default defineUserConfig({
       text:'随笔',
       link:'/write/write.md',
     },
+    
     ],
+    
+    
   })
 })
-

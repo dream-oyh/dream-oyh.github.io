@@ -168,6 +168,27 @@ TypeError: Invalid value used as weak map key
 <img alt="思维导图语法" src="https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/vuepress_3.png"  />
 </div>
 
+## vuepress V2中导入搜索框
+
+官方已经给出配置[使用教程](https://v2.vuepress.vuejs.org/zh/reference/plugin/search.html)
+
+但是在实际测试过程中，出现了报错，报错信息如下
+::: details 报错信息
+```
+Error [ERR_REQUIRE_ESM]:require of ES Module C:\Users\oyh\Desktop\vuepress\
+node_modules\@vuepress\plugin-search\lib\node\index.js from C:\Users\oyh\Desktop\vuepress\docs\.vuepress\config.ts not supported.
+
+Instead change the require of index.js in C:\Users\oyh\Desktop\vuepress\docs\.vuepress\config.ts to a dynamic import() which is available in all CommonJS modules.
+```
+
+:::
+
+最终参考了这位老哥的文章[Error [ERR_REQUIRE_ESM]: require() of ES Module not supported](https://bobbyhadz.com/blog/javascript-error-err-require-esm-require-of-es-module-not-supported)，发现通过官网下载的`@vuepress/plugin-search`的版本号为<Badge text="^2.0.0-beta59"/>，高于博客搭建时装载的`vuepress^2.0.0-beta49`版本，只需要将版本回退，即可解决该问题，在npm运行：
+``` npm
+npm uninstall @vuepress/plugin-search   //卸载原有版本
+npm i -D @vuepress/plugin-search@^2.0.0-beta49 //安装回退版本，第二个@符号后选择与你vuepress适应的版本号
+```
+
 ## html语法积累
 
 ### “test”字体样式修改：
