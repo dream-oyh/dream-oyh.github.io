@@ -1,5 +1,15 @@
 # 博客更新日志
 
+## 2022/12/12
+
+添加版块["学习-实习-交通信控专利阅读"](https://dream-oyh.github.io/study/competition/traffic.md)
+
+## 2022/12/11
+
+加入搜索框
+
+将此次加入搜索框经历记录在[“博客搭建”-“搜索框配置”](https://dream-oyh.github.io/study/code/vuepress.html#vuepress-v2%E4%B8%AD%E5%AF%BC%E5%85%A5%E6%90%9C%E7%B4%A2%E6%A1%86)
+
 ## 2022/11/16
 
 更新latex有序列表语法

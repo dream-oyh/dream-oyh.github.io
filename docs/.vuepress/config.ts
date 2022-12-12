@@ -32,9 +32,9 @@ export default defineUserConfig({
       '/study/learn/zhitu.md',          //机械制图（三）
     ],           
     },
-    {text:'竞赛',
+    {text:'实习',
     children:[
-     
+     '/study/competition/traffic.md',       //交通信控
     ],           
     },
     {text:'English',
