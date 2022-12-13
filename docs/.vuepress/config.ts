@@ -34,7 +34,7 @@ export default defineUserConfig({
     },
     {text:'实习',
     children:[
-     '/study/competition/traffic.md',       //交通信控
+     '/study/traffic/traffic.md',       //交通信控
     ],           
     },
     {text:'English',
