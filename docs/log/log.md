@@ -2,7 +2,7 @@
 
 ## 2022/12/12
 
-添加版块["学习-实习-交通信控专利阅读"](https://dream-oyh.github.io/study/competition/traffic.md)
+添加版块["学习-实习-交通信控专利阅读"](https://dream-oyh.github.io/study/traffic/traffic.md)
 
 ## 2022/12/11
 

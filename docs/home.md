@@ -1,19 +1,3 @@
----
-home: true
-heroImage: /hahaha.png
-actionText: 进入blog
-actionLink: /home.md
-features:
-- title: About me
-  details: 世界很大，人很小，一枚普普通通的大学生
-- title: 最近日程
-  details: 是卑微的论文人捏
-- title: 痴迷并狂热于
-  details: 1. 《反转星球-张岱》
-           2. 《碧奴》-苏童 
-           3. 影视飓风
-footer: OYH Licensed | Copyright © 2022-present Dream-oyh
----
 # dream_oyh的blog
 
 <!-- * **穿梭于大千世界的普通人** -->
@@ -35,6 +19,11 @@ PC端：右上角导航栏选择栏目，点击便可进入相应博客内容
 ::: tip 浏览指南
 可以优先查看右上角（指pc端）“blog日志”中的更新日志，查看最新更新~~
 :::
+
+
+## About Me
+
+世界很大，人很小，一枚普普通通的大学生
 
 ## 日程
 

@@ -4,9 +4,10 @@ const { searchPlugin } = require('@vuepress/plugin-search')
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'dream_oyh的blog',
-  description: '模仿绝对值_x的高科技产物，卑微人企图咸鱼翻身',
+  description: '穿梭于大千世界的普通人',
   head:[
-    ['link', { rel: 'stylesheet', href: '/mask.css' }]
+    ['link', { rel: 'stylesheet', href: '/mask.css' }],
+    ['link', { rel: 'stylesheet', href: '/highlight.css' }]
   ],
 
   plugins: [
@@ -18,52 +19,50 @@ export default defineUserConfig({
       },
       maxSuggestions: 10,
     }),
-  ],
+    ],
   theme:defaultTheme({
     
     logo:'https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/logo.jpg',
     navbar:[
       
-      {text:'学习',
-       children:[
+  {text:'学习',
+      children:[
         {text:'课内学分',
-      children:[
-      '/study/learn/probability.md',      //概率论与数理统计
-      '/study/learn/zhitu.md',          //机械制图（三）
-    ],           
-    },
-    {text:'实习',
-    children:[
-     '/study/traffic/traffic.md',       //交通信控
-    ],           
-    },
-    {text:'English',
-      children:[
-      '/study/English/English.md',             //英语视频词汇积累
-      '/study/English/free.md',        //FREE大学英语
-      '/study/English/China.md',        //学习强国英语资源
-      '/study/English/midnight.md',    //midnight 歌词
-      '/study/English/Poems.md',    //英美诗歌品读
-    ],           
-    },
+        children:[
+        '/study/learn/probability.md',      //概率论与数理统计
+        '/study/learn/zhitu.md',          //机械制图（三）
+        ],           
+        },
+        {text:'实习',
+        children:[
+        '/study/traffic/traffic.md',       //交通信控
+        ],           
+        },
+        {text:'English',
+        children:[
+        '/study/English/English.md',     //英语视频词汇积累
+        '/study/English/free.md',        //FREE大学英语
+        '/study/English/China.md',       //学习强国英语资源
+        '/study/English/midnight.md',    //midnight 歌词
+        '/study/English/Poems.md',       //英美诗歌品读
+        ],           
+        },
     {text:'阅读',
-      children:[
-      '/study/read/read.md',             //读书
-      '/study/read/hamlet.md',        //哈姆雷特英语阅读
-    ],           
-    },
-    {
-      text:'编程',
-      children:[
+        children:[
+        '/study/read/read.md',          //读书
+        '/study/read/hamlet.md',        //哈姆雷特英语阅读
+        ],           
+        },
+        {
+        text:'编程',
+        children:[
         '/study/code/matlab.md',    //matlab语法
         '/study/code/latex.md',     //latex公式编辑器
-        '/study/code/vuepress.md',       //vuepress blog搭建
+        '/study/code/vuepress.md',  //vuepress blog搭建
         ],
-    },
-        
-      ],
-      
-    },
+        },  
+        ], 
+        },
     {
       text:'blog日志',
       link:'/log/log.md',     //博客日志
