@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2812f140","path":"/game/hollow_knight.html","title":"\u7A7A\u6D1E\u9A91\u58EB","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660713163000,"contributors":[{"name":"dream\u540C\u5B660","email":"10135984+o19859860010@user.noreply.gitee.com","commits":1}]},"filePathRelative":"game/hollow_knight.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3258127a","path":"/game/genshin_impact.html","title":"\u539F\u795E","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660713163000,"contributors":[{"name":"dream\u540C\u5B660","email":"10135984+o19859860010@user.noreply.gitee.com","commits":1}]},"filePathRelative":"game/genshin_impact.md"}');export{e as data};
