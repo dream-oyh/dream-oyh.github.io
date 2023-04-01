@@ -671,7 +671,7 @@ creative writing software isn’t that far from replacing the Mrs Cartlands of t
 e.g. AI robots *isn’t that far from* taking exams for today’s students. 可能性
 :::
 
-## 7*Seventh*:How to emerge a hero from the tension of a World Cup penalty shootout
+## 8*Eighth*：How to emerge a hero from the tension of a World Cup penalty shootout
 
 1	the knockout (K.O.) stages 	淘汰赛
 
@@ -715,3 +715,60 @@ e.g.	The aura of Monalisa intimidated me as it directly saw me from any angle.
 11	But *to paraphrase* golfer Arnold Palmer, the more teams prepare, the luckier they tend to get.
 
 *to paraphrase*：引用名人名言，但是用自己的话说出来他原来的意思
+
+## 9*Ninth*：ChatGPT is fluent, clever and dangerously creative
+
+01	I <text style="color:red;">commissioned</text> a haiku  委托他人撰写
+
+02	a double wordplay 双关
+
+03	a dodgy 差劲的 metre and stolid 呆板的 rhymes
+
+04	the <text style="color:red;">ersatz</text> 人造的，低一个档次的creativity	
+
+05	sth <text style="color:red;">creaked</text> under the strain of demands from sb. 某物在某人的要求压力下不堪重负
+
+06	<text style="color:red;">dispensed</text> 分发 basic medical advice
+
+07	<text style="color:red;">eerily</text> 可怕的 impressive 
+
+08	unveil 揭开神秘的面纱  面世
+
+::: tip AI写作主题中可用到的语料1
+
+09	disrupt many fields 颠覆许多领域
+
+10	turn sketchy information into fluent and convincing answers  
+
+将潦草的信息转化为流畅的有说服力的答案
+:::
+
+11	regurgitated  反刍，拾人牙慧
+
+::: tip AI写作主题中可用到的语料2
+
+12	Its smooth, articulate 有声有色 voice is usually persuasive
+
+:::
+
+13	Lucid (=clear) 明确的 , but imaginary
+
+14	bad money drives out good 劣币驱逐良币 - 格雷欣法则
+
+::: tip AI写作主题中可用到的语料3
+
+15	If an unreliable linguistic mash-up is freely accessible, while original research is costly and laborious, the former will thrive.
+
+:::
+
+16	a stretch	有压力的事
+
+17	the rub	问题
+
+::: tip AI写作主题中可用到的语料4
+
+18	There is no point in trying to stop the Artificial Intelligence, for it has now been unleashed and will probably get better. In time, we will discover uses for AI agents that we do not yet imagine.
+
+:::
+
+19	AI / machine – full control – creativity / emotion – lose control 

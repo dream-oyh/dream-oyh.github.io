@@ -33,9 +33,10 @@ export default defineUserConfig({
         '/study/learn/zhitu.md',          //机械制图（三）
         ],           
         },
-        {text:'实习',
+        {text:'学分之外',
         children:[
         '/study/traffic/traffic.md',       //交通信控
+        '/study/competition/math.md',       //数学建模
         ],           
         },
         {text:'English',
@@ -60,7 +61,11 @@ export default defineUserConfig({
         '/study/code/latex.md',     //latex公式编辑器
         '/study/code/vuepress.md',  //vuepress blog搭建
         ],
-        },  
+        }, 
+        {
+          text:'党的理论学习',
+          link:'/study/CPC.md',  //党的理论学习
+        }, 
         ], 
         },
     {

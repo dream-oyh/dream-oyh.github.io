@@ -1,5 +1,39 @@
 # 网站推荐
 
+## 数模论文绘图网站推荐
+
+### 色彩空间 ColorSpace 
+
+网址（单击即可跳转）：[ColorSpace](https://mycolor.space/)
+
+输入一种颜色后，可生成许多种调色搭配，相较于下面推荐的Adobe Color更具可选性，方案选择更多样
+
+### 素材网站 Freepik
+
+网址（单击即可跳转）：[Freepik](https://www.freepik.com/)
+
+外网，用于查找各种高清制图素材，需要用英文检索
+
+### Python Seaborn库绘图教程
+
+网址（单击即可跳转）：[知乎-Seaborn库绘图教程](https://zhuanlan.zhihu.com/p/81553421?utm_source=wechat_session)
+
+知乎老哥一篇详细的教授有关Seaborn库绘图教程，学！
+
+### MATLAB绘图
+
+网址（单击即可跳转）：[知乎-阿昆的科研日常](https://www.zhihu.com/column/c_1074615528869531648)
+
+该博主专栏中有极其丰富的MATLAB绘图教程，可查阅学习
+
+### BioLadder 绘图网站
+
+网址（单击即可跳转）：[BioLadder](https://www.bioladder.cn/web/#/pro/index)
+
+### 西电MSC论文插图制作博客
+
+网址（单击即可跳转）：[西电MSC博客](https://levitate-qian.github.io/2020/05/04/10%E7%B1%BB%E6%A1%88%E4%BE%8B%E5%B8%A6%E4%BD%A0%E4%BA%86%E8%A7%A3%E8%AE%BA%E6%96%87%E6%8F%92%E5%9B%BE%E5%88%B6%E4%BD%9C/)
+
 ## 绝对值_x的个人主页
 
 网址（单击即可跳转）：[绝对值_x的个人主页](https://lxl66566.github.io/)
@@ -55,4 +89,3 @@ Adobe 官方推出的一款选色器，输入C位颜色色号，自动匹配与�
 up主[妈咪说](https://www.bilibili.com/video/BV14g4y1q7pb?spm_id_from=333.999.0.0)开发的网站
 
 用可视化界面输入数学公式，网站会自动帮你转成latex语法，学习latex新手小白必备网站
-

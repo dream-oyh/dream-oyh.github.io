@@ -10,14 +10,10 @@ features:
   details: 是卑微的论文人捏
 - title: 痴迷并狂热于
   details: 1. 《反转星球-张岱》
-           2. 《碧奴》-苏童 
+           2. 《陶庵梦忆》- 张岱 
            3. 影视飓风
 footer: OYH Licensed | Copyright © 2022-present Dream-oyh
 ---
-# dream_oyh的blog
-
-<!-- * **穿梭于大千世界的普通人** -->
-
 ## 关于头像
 
 一个黑白配色的路灯，很奇怪对吧

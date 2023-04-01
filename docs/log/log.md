@@ -1,14 +1,36 @@
 # 博客更新日志
 
+## 2023/01/09
+
+新增[党的理论知识]()栏目
+
+## 2022/12/19
+
+更新 [FREE大学英语写作训练课程第九次课](/study/English/free.md#_9ninth-chatgpt-is-fluent-clever-and-dangerously-creative)
+
+## 2022/12/18
+
+更新[网站推荐](/record/web.md)
+
+## 2022/12/16
+
+添加板块["学习-学分之外-数学建模论文阅读"](/study/competition/math.md)
+
+更新了["学习-阅读-汉语名著阅读"](/study/read/read.md)
+
+["随笔-量子力学思维导图"](/write/write.md#量子力学思维导图)更新
+
+更新了[泽宇giegie的私房料理](/write/write.md#泽宇giegie的私房料理)
+
 ## 2022/12/12
 
-添加版块["学习-实习-交通信控专利阅读"](https://dream-oyh.github.io/study/traffic/traffic.md)
+添加版块["学习-学分之外-交通信控专利阅读"](/study/traffic/traffic.md)
 
 ## 2022/12/11
 
 加入搜索框
 
-将此次加入搜索框经历记录在[“博客搭建”-“搜索框配置”](https://dream-oyh.github.io/study/code/vuepress.html#vuepress-v2%E4%B8%AD%E5%AF%BC%E5%85%A5%E6%90%9C%E7%B4%A2%E6%A1%86)
+将此次加入搜索框经历记录在[“博客搭建”-“搜索框配置”](/study/code/vuepress.html#vuepress-v2%E4%B8%AD%E5%AF%BC%E5%85%A5%E6%90%9C%E7%B4%A2%E6%A1%86)
 
 ## 2022/11/16
 
