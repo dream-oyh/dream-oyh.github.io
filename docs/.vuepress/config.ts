@@ -22,7 +22,7 @@ export default defineUserConfig({
     ],
   theme:defaultTheme({
     
-    logo:'https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/logo.jpg',
+    logo:'https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/logo_2023.jpg',
     navbar:[
       
   {text:'学习',
@@ -39,45 +39,36 @@ export default defineUserConfig({
         '/study/competition/math.md',       //数学建模
         ],           
         },
-        {text:'English',
-        children:[
-        '/study/English/English.md',     //英语视频词汇积累
-        '/study/English/free.md',        //FREE大学英语
-        '/study/English/China.md',       //学习强国英语资源
-        '/study/English/midnight.md',    //midnight 歌词
-        '/study/English/Poems.md',       //英美诗歌品读
-        ],           
-        },
-    {text:'阅读',
+        {text:'阅读',
         children:[
         '/study/read/read.md',          //读书
         '/study/read/hamlet.md',        //哈姆雷特英语阅读
         ],           
         },
-        {
-        text:'编程',
+        {text:'编程',
         children:[
         '/study/code/matlab.md',    //matlab语法
         '/study/code/latex.md',     //latex公式编辑器
         '/study/code/vuepress.md',  //vuepress blog搭建
         ],
         }, 
-        {
-          text:'党的理论学习',
-          link:'/study/CPC.md',  //党的理论学习
+        {text:'党的理论学习',
+         link:'/study/CPC.md',  //党的理论学习
         }, 
         ], 
         },
-    {
+  {text:'English',
+      children:[
+      '/study/English/English.md',     //英语视频词汇积累
+      '/study/English/free.md',        //FREE大学英语
+      '/study/English/China.md',       //学习强国英语资源
+      '/study/English/midnight.md',    //midnight 歌词
+      '/study/English/Poems.md',       //英美诗歌品读
+    ],           
+    },
+  {
       text:'blog日志',
       link:'/log/log.md',     //博客日志
-    },
-    {
-      text:'游戏',
-      children:[
-        '/game/genshin_impact.md',  //原神
-        '/game/hollow_knight.md',   //空洞骑士
-      ]
     },
     {
       text:'旅行',

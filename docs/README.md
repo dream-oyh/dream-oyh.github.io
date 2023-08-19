@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hahaha.png
+heroImage: 'https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/logo_2023.jpg'
 actionText: 进入blog
 actionLink: /home.md
 features:
@@ -9,18 +9,10 @@ features:
 - title: 最近日程
   details: 是卑微的论文人捏
 - title: 痴迷并狂热于
-  details: 1. 《反转星球-张岱》
-           2. 《陶庵梦忆》- 张岱 
-           3. 影视飓风
+  details: 1. Taylor Swift
+           2. 影视飓风
 footer: OYH Licensed | Copyright © 2022-present Dream-oyh
 ---
-## 关于头像
-
-一个黑白配色的路灯，很奇怪对吧
-
-是高中晚自习结束回家路上的路灯，每每看见，总能想起披星戴月的高中生涯，无比怀念，故留之以做纪念。
-
-黑白色的色调也是我极爱的，深沉、稳重、厚实、包容，而不像霓虹灯般跳跃、热闹、躁动
 
 ## 使用指南
 
@@ -34,17 +26,11 @@ PC端：右上角导航栏选择栏目，点击便可进入相应博客内容
 
 ## 日程
 
-**准备倒下的flag**
-
-FREE英语大学英语阅读提高课程
-
-理论力学笔记总结
-
-学习阅读论文与专利
-
 数学建模
 
-六级单词准备
+交科综述论文
+
+新闻宣传中心迎新准备
 
 ## 社交账号
 
