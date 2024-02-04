@@ -3,7 +3,7 @@ const { searchPlugin } = require('@vuepress/plugin-search')
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  title: 'dream_oyh的blog',
+  title: 'dream_oyh 的 blog',
   description: '穿梭于大千世界的普通人',
   head:[
     ['link', { rel: 'stylesheet', href: '/mask.css' }],
@@ -24,74 +24,46 @@ export default defineUserConfig({
     
     logo:'https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/logo_2023.jpg',
     navbar:[
-      
-  {text:'学习',
-      children:[
-        {text:'课内学分',
+
+    {text:'编程',
         children:[
-        '/study/learn/probability.md',      //概率论与数理统计
-        '/study/learn/zhitu.md',          //机械制图（三）
-        ],           
-        },
-        {text:'学分之外',
-        children:[
-        '/study/traffic/traffic.md',       //交通信控
-        '/study/competition/math.md',       //数学建模
-        ],           
-        },
-        {text:'阅读',
-        children:[
-        '/study/read/read.md',          //读书
-        '/study/read/hamlet.md',        //哈姆雷特英语阅读
-        ],           
-        },
-        {text:'编程',
-        children:[
-        '/study/code/matlab.md',    //matlab语法
-        '/study/code/latex.md',     //latex公式编辑器
-        '/study/code/vuepress.md',  //vuepress blog搭建
+        '/study/code/latex.md',     //latex
+        '/study/code/vuepress.md',  //vuepress blog 搭建
+        '/study/code/python.md',    //python
+        '/study/code/vscode.md',    //vscode
+        '/study/code/git.md',       //git
+        
+        
         ],
         }, 
-        {text:'党的理论学习',
-         link:'/study/CPC.md',  //党的理论学习
-        }, 
-        ], 
-        },
+
+
+
+
   {text:'English',
       children:[
       '/study/English/English.md',     //英语视频词汇积累
-      '/study/English/free.md',        //FREE大学英语
+      '/study/English/free.md',        //FREE 大学英语
       '/study/English/China.md',       //学习强国英语资源
-      '/study/English/midnight.md',    //midnight 歌词
       '/study/English/Poems.md',       //英美诗歌品读
     ],           
-    },
-  {
-      text:'blog日志',
-      link:'/log/log.md',     //博客日志
-    },
-    {
-      text:'旅行',
-      link:'/tour/tour.md',
     },
 
     {
       text:'文章',
-      link:'/artical/artical.md',
-    },
-    {
-      text:'推荐',
       children:[
-        '/record/up_recommend.md',
-        '/record/film_recommend.md',
+        '/artical/artical.md',     //文章
+        '/write/write.md', //随笔
         '/record/web.md',
-      ],
+        '/study/CPC.md',  //党的理论学习
+        '/study/read/read.md',  //阅读
+        
+      ],  
     },
     {
-      text:'随笔',
-      link:'/write/write.md',
+      text:'blog 日志',
+      link:'/log/log.md',     //博客日志
     },
-    
     ],
     
     

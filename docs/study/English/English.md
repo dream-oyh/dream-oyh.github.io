@@ -6,7 +6,7 @@ Let life be beautiful like summer flowers and death like autumn leaves.
 
 ## Doctor Degree Graduation Speech of **Taylor Swift**
 
-video：[博士霉 Taylor Swift 在纽约大学2022届毕业典礼完整演讲](https://www.bilibili.com/video/BV1rZ4y187ZE?p=1&vd_source=489ffc649530594b28a5b31b125daf69)
+video：[博士霉 Taylor Swift 在纽约大学 2022 届毕业典礼完整演讲](https://www.bilibili.com/video/BV1rZ4y187ZE?p=1&vd_source=489ffc649530594b28a5b31b125daf69)
 
 (Why not watch both raw video and biolanguage-video twice?)
 
@@ -15,122 +15,122 @@ video：[博士霉 Taylor Swift 在纽约大学2022届毕业典礼完整演讲](
 <style>
 td,th {border: none!important; }
 </style>
-|英语生词|中文释义|
+|英语生词 | 中文释义 |
 |:--: | :--:|
-|philanthropist <text style="color:grey;">[fɪˈlænθrəpɪst]</text>| n.慈善家|
-|bring joy and resolve to sb. |为某人/某些人群带去快乐和信念|
-|genres <text style="color:grey;">[ˈ(d)ʒɑːŋrəz]</text>|n.（音乐，文章）体裁|
-|genders|n.性别|
-|demographic|n.人口 adj.人口学的|
-|original studio albums|原始录音室专辑|
-|extended plays（EP）|迷你专辑|
-|live album|现场专辑|
-|compilation|n.选辑,编著|
-|galvanize|v.刺激,激励|
-|discrimination|n.歧视|
-|sexual orientation|性取向|
-|gender identity|性别认同|
-|prevent discrimination on the basis of <text style="color:green;">sexual orientation</text> and <text style="color:green;">gender identity</text>|遏制基于性取向与性别认同的歧视|
-|initiative|n.倡议|
-|harassment|n.骚扰|
-|assault|n.攻击，侵犯人身|
-|sexual <text style="color:green;">assault</text>|性侵害|
-|support initiatives to protect women and girls from <text style="color:green;">harassment</text> and <text style="color:green;">sexual assault</text>|支持保护妇女和女孩免受性侵害和骚扰的倡议|
-|tornadoes|n.龙卷风|
-|cancer research|癌症研究|
-|literacy|n.读写能力|
-|<text style="color:green;">literacy</text> program for children|儿童扫盲计划|
-|exploitation|n.剥削，开发|
-|champion|n.冠军，第一名    v.捍卫，为……而争斗|
-|<text style="color:green;">champion</text> right|捍卫权利|
-|compensate|v.补偿，弥补|
-|eloquently|v.有力地，雄辩地|
-|speak out forcefully, <text style="color:green;">eloquently</text> and effectively|坚定地，有力地，有效地发声|
-|virtue|n.高尚的道德，正直的品行|
-|vest|v.给予，授予某人某种权利|
-|by virtue of the authority vested in me|我仅代表赋予我的权利|
+|philanthropist <text style="color:grey;">[fɪˈlænθrəpɪst]</text>| n.慈善家 |
+|bring joy and resolve to sb. |为某人/某些人群带去快乐和信念 |
+|genres <text style="color:grey;">[ˈ(d)ʒɑːŋrəz]</text>|n.（音乐，文章）体裁 |
+|genders|n.性别 |
+|demographic|n.人口 adj.人口学的 |
+|original studio albums|原始录音室专辑 |
+|extended plays（EP）| 迷你专辑 |
+|live album|现场专辑 |
+|compilation|n.选辑，编著 |
+|galvanize|v.刺激，激励 |
+|discrimination|n.歧视 |
+|sexual orientation|性取向 |
+|gender identity|性别认同 |
+|prevent discrimination on the basis of <text style="color:green;">sexual orientation</text> and <text style="color:green;">gender identity</text>|遏制基于性取向与性别认同的歧视 |
+|initiative|n.倡议 |
+|harassment|n.骚扰 |
+|assault|n.攻击，侵犯人身 |
+|sexual <text style="color:green;">assault</text>|性侵害 |
+|support initiatives to protect women and girls from <text style="color:green;">harassment</text> and <text style="color:green;">sexual assault</text>|支持保护妇女和女孩免受性侵害和骚扰的倡议 |
+|tornadoes|n.龙卷风 |
+|cancer research|癌症研究 |
+|literacy|n.读写能力 |
+|<text style="color:green;">literacy</text> program for children|儿童扫盲计划 |
+|exploitation|n.剥削，开发 |
+|champion|n.冠军，第一名    v.捍卫，为……而争斗 |
+|<text style="color:green;">champion</text> right|捍卫权利 |
+|compensate|v.补偿，弥补 |
+|eloquently|v.有力地，雄辩地 |
+|speak out forcefully, <text style="color:green;">eloquently</text> and effectively|坚定地，有力地，有效地发声 |
+|virtue|n.高尚的道德，正直的品行 |
+|vest|v.给予，授予某人某种权利 |
+|by virtue of the authority vested in me|我仅代表赋予我的权利 |
 |confer|v.商讨，协商；授予（荣誉，学术学位）|
-|glittery|adj.亮闪闪的|
-|heels|n.高跟鞋|
-|humble|adj.谦虚的，v.使感到卑微|
-|<text style="color:green;">humble</text> me with their works|他们的工作使我甘拜下风|
-|elated|adj.高兴的，欢欣鼓舞的|
-|patchwork|n.拼凑的东西|
-|incredible|adj.不可思议的，极好的，不可置信的|
-|ally|n.盟友|
-|mentor|n.导师|
-|the persuit of educational enrichment|追求丰富多样的教育|
-|cathy|adj.悦耳易记的|
-|cathartic|adj.起宣泄作用的|
-|hook|n.钩，也指音乐中最吸引的人的部分|
-|song with a <text style="color:green;">cathy hook</text> and an intensly <text style="color:green;">cathartic</text> bridge section|一首有朗朗上口的副歌和一个强烈桥段的歌曲|
-|breed|n.品种|
-|terminals|n.航空站，（火车，公共汽车或船的）终点站|
-|glamorous|adj.十分迷人的|
-|essentially|adv.根本地，基本地，本质上|
-|unsolicited|adj.未被要求的，自发的|
-|solicit|vt.恳求，征求；索求，请求……给予|
-|impart|vt.传授，给予，透露|
-|grudge|n.积怨，怨恨 v.勉强做|
-|toxic|adj.有毒的|
-|outweigh|adv.胜过，超过|
-|discerning|adj.敏锐的，有识别力的，有洞察力的|
-|cringe|n.尴尬，难为情；v.畏缩，退却|
-|retrospectively|adv.回溯性地，回顾地|
-|deem|v.认为，视为，相信|
+|glittery|adj.亮闪闪的 |
+|heels|n.高跟鞋 |
+|humble|adj.谦虚的，v.使感到卑微 |
+|<text style="color:green;">humble</text> me with their works|他们的工作使我甘拜下风 |
+|elated|adj.高兴的，欢欣鼓舞的 |
+|patchwork|n.拼凑的东西 |
+|incredible|adj.不可思议的，极好的，不可置信的 |
+|ally|n.盟友 |
+|mentor|n.导师 |
+|the persuit of educational enrichment|追求丰富多样的教育 |
+|cathy|adj.悦耳易记的 |
+|cathartic|adj.起宣泄作用的 |
+|hook|n.钩，也指音乐中最吸引的人的部分 |
+|song with a <text style="color:green;">cathy hook</text> and an intensly <text style="color:green;">cathartic</text> bridge section|一首有朗朗上口的副歌和一个强烈桥段的歌曲 |
+|breed|n.品种 |
+|terminals|n.航空站，（火车，公共汽车或船的）终点站 |
+|glamorous|adj.十分迷人的 |
+|essentially|adv.根本地，基本地，本质上 |
+|unsolicited|adj.未被要求的，自发的 |
+|solicit|vt.恳求，征求；索求，请求……给予 |
+|impart|vt.传授，给予，透露 |
+|grudge|n.积怨，怨恨 v.勉强做 |
+|toxic|adj.有毒的 |
+|outweigh|adv.胜过，超过 |
+|discerning|adj.敏锐的，有识别力的，有洞察力的 |
+|cringe|n.尴尬，难为情；v.畏缩，退却 |
+|retrospectively|adv.回溯性地，回顾地 |
+|deem|v.认为，视为，相信 |
 |be <text style="color:green;">deemed</text> as|被视为=be treated as = be viewed as|
-|revolting|adj.令人作呕的，令人讨厌的|
-|hilarious|adj.令人捧腹的，极其滑稽的|
-|phase|n.阶段，时期 <text style="color:grey;">注：霉霉在演讲时，提到“时期”这个词几乎不用period，而是用phase</text>|
-|squirm|v.无地自容，十分尴尬|
-|stigma|n.耻辱，羞耻|
-|unbothered|adj.不相关的|
-|ambivalence|n.矛盾心理|
-|perpetuate|v.使延续|
-|chic|adj.时髦的，别致的，优雅的|
-|direct videos|导演视频|
-|create the visuals for a tour|为巡演做视觉效果|
-|ensnare|v.使陷入陷阱、困境|
-|sth  <text style="color:green;">ensnares</text> sb.|某物使某人陷入困境|
-|senior thesis|n.毕业论文|
-|chameleons|n.变色龙|
-|veiled|adj.含蓄的，掩饰的|
-|obsess|v.迷恋，使痴迷|
+|revolting|adj.令人作呕的，令人讨厌的 |
+|hilarious|adj.令人捧腹的，极其滑稽的 |
+|phase|n.阶段，时期 <text style="color:grey;">注：霉霉在演讲时，提到“时期”这个词几乎不用 period，而是用 phase</text>|
+|squirm|v.无地自容，十分尴尬 |
+|stigma|n.耻辱，羞耻 |
+|unbothered|adj.不相关的 |
+|ambivalence|n.矛盾心理 |
+|perpetuate|v.使延续 |
+|chic|adj.时髦的，别致的，优雅的 |
+|direct videos|导演视频 |
+|create the visuals for a tour|为巡演做视觉效果 |
+|ensnare|v.使陷入陷阱、困境 |
+|sth  <text style="color:green;">ensnares</text> sb.|某物使某人陷入困境 |
+|senior thesis|n.毕业论文 |
+|chameleons|n.变色龙 |
+|veiled|adj.含蓄的，掩饰的 |
+|obsess|v.迷恋，使痴迷 |
 |our society/world are absolutely <text style="color:green;">obsessed</text> with the idea that……|我们的世界/社会极其推崇的一个观念是……|
-|slight|adj.轻微的，略微的；v.冷落，轻视|
-|barb|n.挖苦，中伤人的话|
-|run off the rails|跑偏，发展不再完美|
-|slip up|出小差错|
-|axis|n.轴|
-|get back up|跌倒了就站起来|
-|dust yourself off|拂去身上的灰尘|
-|hang out with you|和你在一起|
-|make the cut|取得资格|
-|crucial|adj.重要的，至关重要的|
-|roster|n.名册，名单|
-|perceive|v.感知，认为，察觉到，注意到|
-|weird|adj.奇怪的|
-|simulation|n.模拟，仿真|
-|excruciatingly|adv.极痛苦地，极度地|
-|devalue|v.贬值，降低|
-|fluctuating|adj.波动起伏的|
-|relevance|n.关联的，相关性的，交往|
-|consummate|adj.技艺高超的，完美的|
-| <text style="color:green;">consummate</text> optimist|完美主义者|
-|misspeak|v.说错话|
-|underreact|v.反应太慢|
-|overreact|v.过度反应|
-|self sabotage|自暴自弃|
-|hit rock bottom|跌到谷底|
-|not take the steps to make it right|不思悔改|
-|rinse|v.漂洗，清洗|
-|leave the structure and framework of school|离开学校的条条框框|
-|let go with grace|优雅地放手|
-|gut|adj.本能的|
-|instinct|n.本能，直觉|
-|<text style="color:green;">gut instinct</text>|直觉|
-|intuition|n.直觉|
-|screw up|搞砸一切|
+|slight|adj.轻微的，略微的；v.冷落，轻视 |
+|barb|n.挖苦，中伤人的话 |
+|run off the rails|跑偏，发展不再完美 |
+|slip up|出小差错 |
+|axis|n.轴 |
+|get back up|跌倒了就站起来 |
+|dust yourself off|拂去身上的灰尘 |
+|hang out with you|和你在一起 |
+|make the cut|取得资格 |
+|crucial|adj.重要的，至关重要的 |
+|roster|n.名册，名单 |
+|perceive|v.感知，认为，察觉到，注意到 |
+|weird|adj.奇怪的 |
+|simulation|n.模拟，仿真 |
+|excruciatingly|adv.极痛苦地，极度地 |
+|devalue|v.贬值，降低 |
+|fluctuating|adj.波动起伏的 |
+|relevance|n.关联的，相关性的，交往 |
+|consummate|adj.技艺高超的，完美的 |
+| <text style="color:green;">consummate</text> optimist|完美主义者 |
+|misspeak|v.说错话 |
+|underreact|v.反应太慢 |
+|overreact|v.过度反应 |
+|self sabotage|自暴自弃 |
+|hit rock bottom|跌到谷底 |
+|not take the steps to make it right|不思悔改 |
+|rinse|v.漂洗，清洗 |
+|leave the structure and framework of school|离开学校的条条框框 |
+|let go with grace|优雅地放手 |
+|gut|adj.本能的 |
+|instinct|n.本能，直觉 |
+|<text style="color:green;">gut instinct</text>|直觉 |
+|intuition|n.直觉 |
+|screw up|搞砸一切 |
 |resilient|adj.有适应力的，有韧性的|
 
 ### Sound Bite 金句
@@ -172,7 +172,7 @@ One toxic relationship can outweigh so many wonderful simple joys. You get to pi
 
 **9.** I really do think we are all writers. And most of us write in different voice for different situations. You write differently in your Instagram stories than you do your senior thesis.You send a different type of email to your boss than you do your best friend from home.**We are all literacy chameleons.**
 
-我真的认为我们每个人都是作家。在不同情况下用不同的方式写作。你在写Instagram故事时的写作方式与你在写毕业论文时的写作方式不同。你给老板发电子邮件的措辞和你在家给最好的朋友发邮件的措辞不同。我们都是文学的变色龙。
+我真的认为我们每个人都是作家。在不同情况下用不同的方式写作。你在写 Instagram 故事时的写作方式与你在写毕业论文时的写作方式不同。你给老板发电子邮件的措辞和你在家给最好的朋友发邮件的措辞不同。我们都是文学的变色龙。
 
 **10.** Being publicly humiliated over and over again at a young age was excruciatingly painful, but it forced me to devalue the rediculous notion of, minute by minute, ever fluctuating social relevance and likability.
 
@@ -185,29 +185,29 @@ One toxic relationship can outweigh so many wonderful simple joys. You get to pi
 
 ## [Genshin Impact] Golden Midsummer
 
-video：[原神-辉金盛夏-过场pv-中英双语](https://www.bilibili.com/video/BV1L94y1X76Q?spm_id_from=333.999.0.0&vd_source=489ffc649530594b28a5b31b125daf69)
+video：[原神 - 辉金盛夏 - 过场 pv-中英双语](https://www.bilibili.com/video/BV1L94y1X76Q?spm_id_from=333.999.0.0&vd_source=489ffc649530594b28a5b31b125daf69)
 
 ### Words
 
-|英语生词|中文释义|
+|英语生词 | 中文释义 |
 |:--: | :--:|
-|murmur|v.嘟囔，喃喃细语|
-|enlighten|v.启发，开导，阐明|
-|enlightened|adj.开明的，有见识的|
-|hatred|n.仇恨，憎恨，厌恶|
-|embark|v.上船|
-|<text style="color:green;">embark</text> on a journey|踏上旅途|
-|erect|v.建起，竖起，搭起；adj.垂直的，竖直的|
-|<text style="color:green;">erect</text> castles and towns|搭建城堡与乡镇|
-|magnificent|adj.壮丽的，宏伟的|
-|<text style="color:green;">magnificent</text> kingdom|金碧辉煌的王国|
-|crystal|n.结晶，水晶 adj.水晶般的，晶莹的|
-|mortal|n.凡人，人，普通人  adj.致命的，不共戴天的|
-|let alone|更不用说，更别提|
-|flap|v.拍打，振翅|
-|<text style="color:green;">flap</text> wings|（鸟儿）拍打翅膀|
-|dazzling|adj.耀眼的，夺目的，灿烂的|
-|illuminate|v.照亮，照明；阐明，解释|
+|murmur|v.嘟囔，喃喃细语 |
+|enlighten|v.启发，开导，阐明 |
+|enlightened|adj.开明的，有见识的 |
+|hatred|n.仇恨，憎恨，厌恶 |
+|embark|v.上船 |
+|<text style="color:green;">embark</text> on a journey|踏上旅途 |
+|erect|v.建起，竖起，搭起；adj.垂直的，竖直的 |
+|<text style="color:green;">erect</text> castles and towns|搭建城堡与乡镇 |
+|magnificent|adj.壮丽的，宏伟的 |
+|<text style="color:green;">magnificent</text> kingdom|金碧辉煌的王国 |
+|crystal|n.结晶，水晶 adj.水晶般的，晶莹的 |
+|mortal|n.凡人，人，普通人  adj.致命的，不共戴天的 |
+|let alone|更不用说，更别提 |
+|flap|v.拍打，振翅 |
+|<text style="color:green;">flap</text> wings|（鸟儿）拍打翅膀 |
+|dazzling|adj.耀眼的，夺目的，灿烂的 |
+|illuminate|v.照亮，照明；阐明，解释 |
 |voice a complain|抱怨|
 
 
@@ -237,56 +237,56 @@ video：[**Taylor Swift** Accepts Woman of the Decade Award | Women In Music](ht
 
 ### Words
 
-|英语生词|中文释义|
+|英语生词 | 中文释义 |
 |:--: | :--:|
-|This is going great so far|这一切真是顺利极了|
-|put out|出版|
-|debut|v.首次亮相，首次出演|
-|self-titled|同名|
-|<text style="color:green;">self-titled debut </text>album|首张同名专辑|
-|breakthrough|n.重大进展，突破|
+|This is going great so far|这一切真是顺利极了 |
+|put out|出版 |
+|debut|v.首次亮相，首次出演 |
+|self-titled|同名 |
+|<text style="color:green;">self-titled debut </text>album|首张同名专辑 |
+|breakthrough|n.重大进展，突破 |
 |reservation|n.预约，预订；<text style="color:red;">迷惑</text>|
-|savvy|adj.有见识的；通情达理的|
-|record label|唱片公司|
-|detractor|n.诋毁者，贬低者|
-|satire|n.讽刺，讽刺作品|
-|anthem|n.国歌，（组织或群体的）社歌|
-|lyrical|adj.抒情的|
-|dictate|v.命令；口述|
-|backlash|n.强烈抵制，集体反对|
-|pitchy|adj.沥青似的，粘性的|
-|harsh|adj.严厉的，严苛的；恶劣的；残酷的|
-|this wave of <text style="color:green;">harsh</text> criticism had hit me so hard|这样严苛残酷的批评浪潮非常打击我<br/>1.wave of……  要说“……的浪潮”的时候用“wave”一词<br/>2.hit可以表示“击打”，不只物理的，还能像这句一样用<br/>3.掌握“harsh”的用法|
+|savvy|adj.有见识的；通情达理的 |
+|record label|唱片公司 |
+|detractor|n.诋毁者，贬低者 |
+|satire|n.讽刺，讽刺作品 |
+|anthem|n.国歌，（组织或群体的）社歌 |
+|lyrical|adj.抒情的 |
+|dictate|v.命令；口述 |
+|backlash|n.强烈抵制，集体反对 |
+|pitchy|adj.沥青似的，粘性的 |
+|harsh|adj.严厉的，严苛的；恶劣的；残酷的 |
+|this wave of <text style="color:green;">harsh</text> criticism had hit me so hard|这样严苛残酷的批评浪潮非常打击我<br/>1.wave of……  要说“……的浪潮”的时候用“wave”一词<br/>2.hit 可以表示“击打”，不只物理的，还能像这句一样用<br/>3.掌握“harsh”的用法 |
 |clever|adj.聪明的，<text style="color:red;">油腔滑调的</text>|
-|vocal|adj.噪音的；直言不讳的；n.（乐曲中的）歌唱部分|
-|stamina|n.耐力，持久力|
-|appease|v.抚慰，安抚|
-|manipulator|n.操纵者|
-|calculated <text style="color:green;">manipulator</text>|精打细算的控制狂|
-|public view|公众视野|
-|reserve|v.拥有，保留|
-|scrutiny|n.仔细检查，认真仔细的审查|
-|ruthlessly|adv.无情地，残忍地|
-|aesthetic<text style="color:grey;">[iːsˈθetɪk]</text>|n.美学；美感；审美观|
-|repurpose|v.（为适合新用途）对……稍加修改|
-|nominate|v.提名；推荐；任命|
-|motion|n.移动，运动|
-|crush|v.压坏，压伤|
-|pressure may <text style="color:green;">crush</text> sb.|压力可能会压垮某人|
-|mixing board|n.混音台|
-|frontier|n.边界，边境，国界|
-|the streaming world|流媒体世界|
-|drop a song|发布歌曲|
-|revenue|n.收入，财政收入|
-|<text style="color:green;">revenue</text> flow|财政收入流|
-|unregulated|adj.不受约束的，不受监管的|
-|estate|n.庄园，个人财产|
-|prior|adj.先前的；优先的；较重要的|
-|misconduct|n.不当行为|
-|call out unfairness and <text style="color:green;">misconduct</text>|指出不公平与不当行为|
-|advent|n.到来，（重要事件，人物，发明）的出现|
-|the <text style="color:green;">advent</text> of social media|社交媒体的面世|
-|contractual|adj.合同的|
+|vocal|adj.噪音的；直言不讳的；n.（乐曲中的）歌唱部分 |
+|stamina|n.耐力，持久力 |
+|appease|v.抚慰，安抚 |
+|manipulator|n.操纵者 |
+|calculated <text style="color:green;">manipulator</text>|精打细算的控制狂 |
+|public view|公众视野 |
+|reserve|v.拥有，保留 |
+|scrutiny|n.仔细检查，认真仔细的审查 |
+|ruthlessly|adv.无情地，残忍地 |
+|aesthetic<text style="color:grey;">[iːsˈθetɪk]</text>|n.美学；美感；审美观 |
+|repurpose|v.（为适合新用途）对……稍加修改 |
+|nominate|v.提名；推荐；任命 |
+|motion|n.移动，运动 |
+|crush|v.压坏，压伤 |
+|pressure may <text style="color:green;">crush</text> sb.|压力可能会压垮某人 |
+|mixing board|n.混音台 |
+|frontier|n.边界，边境，国界 |
+|the streaming world|流媒体世界 |
+|drop a song|发布歌曲 |
+|revenue|n.收入，财政收入 |
+|<text style="color:green;">revenue</text> flow|财政收入流 |
+|unregulated|adj.不受约束的，不受监管的 |
+|estate|n.庄园，个人财产 |
+|prior|adj.先前的；优先的；较重要的 |
+|misconduct|n.不当行为 |
+|call out unfairness and <text style="color:green;">misconduct</text>|指出不公平与不当行为 |
+|advent|n.到来，（重要事件，人物，发明）的出现 |
+|the <text style="color:green;">advent</text> of social media|社交媒体的面世 |
+|contractual|adj.合同的 |
 |unrecoupable|adj.不可挽回的|
 
 
@@ -295,7 +295,7 @@ video：[**Taylor Swift** Accepts Woman of the Decade Award | Women In Music](ht
 
 And now I realize that this is just what happens to a woman in music if she achieve a success or power beyond people's comfort level.
 
-那时我不知道为什么这样铺天盖地严酷的批评对我的打击如此之大，我记得很流行的新闻标题写“a Swift Backlash”（极度反对Swift获奖），很聪明诶，一语双关。
+那时我不知道为什么这样铺天盖地严酷的批评对我的打击如此之大，我记得很流行的新闻标题写“a Swift Backlash”（极度反对 Swift 获奖），很聪明诶，一语双关。
 
 现在我意识到这就是在音乐行业的女性取得极大成功后人们舒适圈被打破时所会发生的事情。
 
@@ -309,7 +309,7 @@ And now I realize that this is just what happens to a woman in music if she achi
 
 **4.** She(Lana Del Rey) was ruthlessly criticized in her early career and then slowly but surely she turned into, in my opinion, the most influential artist in pop. Her vocal styling, her lyrics, her aesthetic, they've been echoed and repurposed in every corner of music, and this year her incredible album is nominated for Album of the Year at the Grammys because she just kept making arts.
 
-她在早期职业生涯中也被严苛地批评过，但是在我看来她逐渐毋庸置疑地成为了一个流行歌曲界最有影响力的艺术家。她的歌词风格，她的情感表达，她的审美观念，在音乐界的每一个角落被呼应，被重新审视，然后今年她不可思议的新专辑在格莱美获得了年度专辑的提名， 这一切都是因为她一直都在不断地创作。
+她在早期职业生涯中也被严苛地批评过，但是在我看来她逐渐毋庸置疑地成为了一个流行歌曲界最有影响力的艺术家。她的歌词风格，她的情感表达，她的审美观念，在音乐界的每一个角落被呼应，被重新审视，然后今年她不可思议的新专辑在格莱美获得了年度专辑的提名，这一切都是因为她一直都在不断地创作。
 
 **5.** The only way forward is forward motion.
 
@@ -325,73 +325,73 @@ video:[[新华社]南京大屠杀唯一动态影像](https://www.bilibili.com/vi
 
 ### Words
 
-|英语生词|中文释义|
+|英语生词 | 中文释义 |
 |:--: | :--:|
-|massacre <text style="color:grey;">[ˈmæsəkə(r)]</text>|n.大屠杀，屠杀|
-|atrocity|n.战争中的暴行|
-|the most direct and powerful evidence|最直接有力的证据|
-|Japanese invasion|日本侵华|
-|horrifying|adj.极其震惊的（horrify的现在分词）|
-|torture|v.&n.拷打，酷刑，折磨|
-|receive medical treatment|接受医院治疗|
-|the only motion picture images of the Nanjing Massacre|有关南京大屠杀的唯一动态画面|
-|brutally|adv.残忍地，野蛮地|
-|smuggle|v.走私，偷运|
-|tribunal|n.法庭，特别法庭|
-|Nanjing War Crimes <text style="color:green;">Tribunal</text>|南京国防部审判战犯军事法庭|
+|massacre <text style="color:grey;">[ˈmæsəkə(r)]</text>|n.大屠杀，屠杀 |
+|atrocity|n.战争中的暴行 |
+|the most direct and powerful evidence|最直接有力的证据 |
+|Japanese invasion|日本侵华 |
+|horrifying|adj.极其震惊的（horrify 的现在分词）|
+|torture|v.&n.拷打，酷刑，折磨 |
+|receive medical treatment|接受医院治疗 |
+|the only motion picture images of the Nanjing Massacre|有关南京大屠杀的唯一动态画面 |
+|brutally|adv.残忍地，野蛮地 |
+|smuggle|v.走私，偷运 |
+|tribunal|n.法庭，特别法庭 |
+|Nanjing War Crimes <text style="color:green;">Tribunal</text>|南京国防部审判战犯军事法庭 |
 |face justice|受到正义的制裁（主动表被动）|
-|reel|n.卷轴，胶卷，卷筒|
-|Nanjing Memorial Hall|南京大屠杀遇难同胞纪念馆|
-|retrace|v.回溯，追溯，回顾|
-|<text style="color:green;">retrace</text> one's footsteps|重温某人的足迹|
-|began a visual dialoge|展开镜头对话|
-|the present prosperity and peace|今日的繁荣祥和|
-|a dark period of history|黑暗的历史时期|
+|reel|n.卷轴，胶卷，卷筒 |
+|Nanjing Memorial Hall|南京大屠杀遇难同胞纪念馆 |
+|retrace|v.回溯，追溯，回顾 |
+|<text style="color:green;">retrace</text> one's footsteps|重温某人的足迹 |
+|began a visual dialoge|展开镜头对话 |
+|the present prosperity and peace|今日的繁荣祥和 |
+|a dark period of history|黑暗的历史时期 |
 |humanitarian|n.人道主义|
 
 
 ### Sound Bite 金句
 **1.** I retraced his footsteps and began a visual dialoge with him that reached across 8 decades.
 
-我沿着他当年的足迹，与祖父展开了穿越80多年历史的镜头对话。
+我沿着他当年的足迹，与祖父展开了穿越 80 多年历史的镜头对话。
 
 **2.** Nanjing has recently become the 169th "International City of Peace". It's the title that embodies the city's pain and hope. We must tell the story of our ancestors who provided humanitarian aid to the people of Nanjing during their darkest time. The worlds needs to know the true story of the Nanjing Massacre. We must always remember history and cherish peace.
 
-如今南京已经成为第169座“国际和平城市”，这个称号凝聚着这座城市的伤痛与希望，我们不仅仅要让世人知道我们的祖辈曾在这里为苦难中的中国人民提供了人道主义救援，我们更希望向世界传播南京大屠杀历史，警示世人铭记历史珍爱和平。
+如今南京已经成为第 169 座“国际和平城市”，这个称号凝聚着这座城市的伤痛与希望，我们不仅仅要让世人知道我们的祖辈曾在这里为苦难中的中国人民提供了人道主义救援，我们更希望向世界传播南京大屠杀历史，警示世人铭记历史珍爱和平。
 
 
 ## [Genshin Impact] The Morn a Thousand Roses Brings
 
-video:[原神-3.0版本PV-「千朵玫瑰带来的黎明」-双语字幕](https://www.bilibili.com/video/BV1vB4y157Ug?p=1&vd_source=489ffc649530594b28a5b31b125daf69)
+video:[原神 -3.0 版本 PV-「千朵玫瑰带来的黎明」- 双语字幕](https://www.bilibili.com/video/BV1vB4y157Ug?p=1&vd_source=489ffc649530594b28a5b31b125daf69)
 
 ### Words
 
-|英语生词|中文释义|
+|英语生词 | 中文释义 |
 |:--:|:--:|
-|calamity|n.灾难，灾祸|
-|sage|n.哲人，圣者|
-|whisk|v.匆匆带走，迅速送走|
-|countless|adj.无数的，数不清的，数量多的|
-|divine|adj.神圣的；神的；n.牧师，神学家|
-|trainee|n.实习生，见习生，练习生|
-|ranger|n.护林员；园林管理员|
-|withering|adj.尖刻的，使人难堪的 v.枯萎，凋谢|
-|millennium|n.一千年，千周年纪念日|
-|nip|v.夹，掐；啃咬；n.啃；寒意；掐；少量的烈酒|
-|utilize|v.使用，运用，应用|
-|legacy|n.遗产，遗留，后遗症|
-|auction|n.拍卖|
-|merchant|n.商人|
-|retribution|n.严惩，惩罚；报应，报答|
-|confirmation|n.确认书；证实；证明书；坚振|
-|frivolous|adj.轻浮的，无聊的，愚蠢的|
-|pursue <text style="color:green;">frivolous</text> and meaningless activities|追求轻浮而虚无的东西|
-|extract|v.摘取，提取；索取；（用力）取出，拔出；获得|
-|utopia|n.乌托邦|
-|validity|n.有效性，正确；合法性|
-|verity|n.（关于生命的）准则，信念|
-|defile|v.弄脏，玷污；糟蹋|
-|seek <text style="color:green;">validity, verity,</text> and truth|追求真实、真相与真理|
+|calamity|n.灾难，灾祸 |
+|sage|n.哲人，圣者 |
+|whisk|v.匆匆带走，迅速送走 |
+|countless|adj.无数的，数不清的，数量多的 |
+|divine|adj.神圣的；神的；n.牧师，神学家 |
+|trainee|n.实习生，见习生，练习生 |
+|ranger|n.护林员；园林管理员 |
+|withering|adj.尖刻的，使人难堪的 v.枯萎，凋谢 |
+|millennium|n.一千年，千周年纪念日 |
+|nip|v.夹，掐；啃咬；n.啃；寒意；掐；少量的烈酒 |
+|utilize|v.使用，运用，应用 |
+|legacy|n.遗产，遗留，后遗症 |
+|auction|n.拍卖 |
+|merchant|n.商人 |
+|retribution|n.严惩，惩罚；报应，报答 |
+|confirmation|n.确认书；证实；证明书；坚振 |
+|frivolous|adj.轻浮的，无聊的，愚蠢的 |
+|pursue <text style="color:green;">frivolous</text> and meaningless activities|追求轻浮而虚无的东西 |
+|extract|v.摘取，提取；索取；（用力）取出，拔出；获得 |
+|utopia|n.乌托邦 |
+|validity|n.有效性，正确；合法性 |
+|verity|n.（关于生命的）准则，信念 |
+|defile|v.弄脏，玷污；糟蹋 |
+|seek <text style="color:green;">validity, verity,</text> and truth|追求真实、真相与真理 |
 |denial|n.拒绝，否定；剥夺（应有的权利）|
 
 ## 意大利导演 Leonardo Dalessandri 拍《中国瞭望塔》（Watchtower of China）有感
@@ -416,20 +416,20 @@ It couldn’t have come together without the help of my dear friends, especially
 It is one of my proudest accomplishments.
 I hope you love it.
 
-|英语生词|中文释义|
+|英语生词 | 中文释义 |
 |:--:|:--:|
-|Watchtower|n.瞭望塔|
-|labour|n.劳动，（一段时间的）工作|
-|consecutive|adj.连续的|
-|channel|n.频道，渠道；途径；系统；<br/>v.引导；（利用某种途径）输送资金；传送|
-|quest|n.探索，寻找 v.探索，追求|
-|declaration|n.公告，宣告，宣言；宣布|
-|tribute|n.颂词，贡品，悼念；致敬|
-|span|v.持续，贯穿，涵盖（多项内容）<br/>n.持续时间，范围，包括的种类|
-|enormity|n.巨大；深远影响；严重性|
-|territory|n.领土，版图；领地；（个体的）领域|
-|<text style="color:green;">span</text> the <text style="color:green;">enormity</text> of the Chinese <text style="color:green;">territory</text>|贯穿广阔的神州大地|
-|dedication|n.献身，奉献|
+|Watchtower|n.瞭望塔 |
+|labour|n.劳动，（一段时间的）工作 |
+|consecutive|adj.连续的 |
+|channel|n.频道，渠道；途径；系统；<br/>v.引导；（利用某种途径）输送资金；传送 |
+|quest|n.探索，寻找 v.探索，追求 |
+|declaration|n.公告，宣告，宣言；宣布 |
+|tribute|n.颂词，贡品，悼念；致敬 |
+|span|v.持续，贯穿，涵盖（多项内容）<br/>n.持续时间，范围，包括的种类 |
+|enormity|n.巨大；深远影响；严重性 |
+|territory|n.领土，版图；领地；（个体的）领域 |
+|<text style="color:green;">span</text> the <text style="color:green;">enormity</text> of the Chinese <text style="color:green;">territory</text>|贯穿广阔的神州大地 |
+|dedication|n.献身，奉献 |
 |discipline|n.纪律；训练；行为准则|
 
 ## 【孟庆旸】“千里江山，不止青绿”<br/>The Panorama of Rivers and Mountains is far more than a piece of painting
@@ -438,87 +438,87 @@ I hope you love it.
 
 video：[【孟庆旸】“千里江山，不止青绿”](https://www.bilibili.com/video/BV1cG41147Jf?spm_id_from=333.337.search-card.all.click&vd_source=489ffc649530594b28a5b31b125daf69)
 
-|英语生词|中文释义|
+|英语生词 | 中文释义 |
 |:---:|:---:|
-|rolling|adj.起伏的，规则的<br/>v.翻滚，滚动（roll的现在分词）|
-|<text style="color:green;">rolling</text> mountains，flowing rivers|青绿氤氲，山河无垠|
-|hue|n.颜色，色度，色调|
-|come alive|走向现在，恢复生机|
-|legendary|adj.非常著名的，享有盛名的；传奇的|
-|ancient sentiment|adj.古老的情感|
-|conceptualize|v.构思，使形成观念|
-|the <text style="color:green;">ancient sentiments</text> are <text style="color:green;">conceptualized</text> as the green mountains and rivers |古老的情感化作青绿，化作山水|
-|gracefully|v.优雅地，温文地|
-|roam|v.漫游，漫步；徜徉；闲逛|
-|aesthetic|n.美学；美感；审美观|
-|They dance <text style="color:green;">gracefully</text>, <text style="color:green;">roaming</text> through the traditional Chinese <text style="color:green;">aesthetic</text> charm|翩若惊鸿间，是东方美学的意韵|
+|rolling|adj.起伏的，规则的<br/>v.翻滚，滚动（roll 的现在分词）|
+|<text style="color:green;">rolling</text> mountains，flowing rivers|青绿氤氲，山河无垠 |
+|hue|n.颜色，色度，色调 |
+|come alive|走向现在，恢复生机 |
+|legendary|adj.非常著名的，享有盛名的；传奇的 |
+|ancient sentiment|adj.古老的情感 |
+|conceptualize|v.构思，使形成观念 |
+|the <text style="color:green;">ancient sentiments</text> are <text style="color:green;">conceptualized</text> as the green mountains and rivers |古老的情感化作青绿，化作山水 |
+|gracefully|v.优雅地，温文地 |
+|roam|v.漫游，漫步；徜徉；闲逛 |
+|aesthetic|n.美学；美感；审美观 |
+|They dance <text style="color:green;">gracefully</text>, <text style="color:green;">roaming</text> through the traditional Chinese <text style="color:green;">aesthetic</text> charm|翩若惊鸿间，是东方美学的意韵 |
 |embrace|v.拥抱；欣然接受；乐意采纳（思想，建议等）|
-|panorama|n.全景；全景画卷|
-|The <text style="color:green;">Panorama</text> of Rivers and Mountains is far more than a piece of painting|千里江山，不止青绿|
-|preface|n.前言；（书的）序言|
-|postscript|n.后记；跋；补充|
-|surviving work|现存作品|
-|masterwork|n.杰作，代表作|
-|depict&emsp;&emsp;&emsp;[dɪˈpɪkt]|v.描绘；绘画；描写|
+|panorama|n.全景；全景画卷 |
+|The <text style="color:green;">Panorama</text> of Rivers and Mountains is far more than a piece of painting|千里江山，不止青绿 |
+|preface|n.前言；（书的）序言 |
+|postscript|n.后记；跋；补充 |
+|surviving work|现存作品 |
+|masterwork|n.杰作，代表作 |
+|depict&emsp;&emsp;&emsp;[dɪˈpɪkt]|v.描绘；绘画；描写 |
 |*A Thousand Li of Rivers and Mountains*|《千里江山图》|
-|gala|n.庆典，盛会；演出|
-|CCTV Spring Festival <text style="color:green;">Gala</text>|央视春晚|
-|segment|n.部分；份；片；段|
+|gala|n.庆典，盛会；演出 |
+|CCTV Spring Festival <text style="color:green;">Gala</text>|央视春晚 |
+|segment|n.部分；份；片；段 |
 |*The Journey of a Legendary Landscape Painting*|《只此青绿》|
-|dominant|adj.占主导地位的；占优势的；首要的|
-|serve as the <text style="color:green;">dominant</text> hue|成为主要色调|
-|**literati**|n.文人；文人学士|
-|**literature**|n.文学；文学作品；文献|
-|**literacy**|n.读写能力|
-|**literate**|adj.有读写能力的；有文化的<br/>n.有学问的人|
-|**literary**|adj.文学上的；文学的|
-|**literally**|adv.字面上；（强调事实可能令人惊讶）真正地，确实地|
-|azurite|n.石青，蓝铜矿|
-|malachite|n.孔雀石|
-|extract|v.摘录；提取；提炼；（用力）取出|
-|copper|n.铜|
-|ore|n.矿；矿石|
-|marvelous|adj.不可思议的，了不起的；非凡的|
-|the <text style="color:green;">marvelous</text> colors of hills and waters|色彩壮丽的丘壑林泉|
-|(the color) remain bright|不褪色，保持原来的色彩|
-|rehearsal|n.排练；预演；复述；重复|
-|transquility|n.宁静；安静|
-|restrained|adj.克制的，有节制的|
-|the calm and <text style="color:green;">restrained</text> beauty of Song dynasty|沉稳内敛的宋代审美意境|
-|achieve inner peace|收获平和的心态|
-|portray|v.描绘，描画；描写|
-|fragility|n.脆弱，易碎性；虚弱|
-|divergent|adj.发散的，有分歧的|
-|temperament|n.性情；（人或动物的）气质；性格|
+|dominant|adj.占主导地位的；占优势的；首要的 |
+|serve as the <text style="color:green;">dominant</text> hue|成为主要色调 |
+|**literati**|n.文人；文人学士 |
+|**literature**|n.文学；文学作品；文献 |
+|**literacy**|n.读写能力 |
+|**literate**|adj.有读写能力的；有文化的<br/>n.有学问的人 |
+|**literary**|adj.文学上的；文学的 |
+|**literally**|adv.字面上；（强调事实可能令人惊讶）真正地，确实地 |
+|azurite|n.石青，蓝铜矿 |
+|malachite|n.孔雀石 |
+|extract|v.摘录；提取；提炼；（用力）取出 |
+|copper|n.铜 |
+|ore|n.矿；矿石 |
+|marvelous|adj.不可思议的，了不起的；非凡的 |
+|the <text style="color:green;">marvelous</text> colors of hills and waters|色彩壮丽的丘壑林泉 |
+|(the color) remain bright|不褪色，保持原来的色彩 |
+|rehearsal|n.排练；预演；复述；重复 |
+|transquility|n.宁静；安静 |
+|restrained|adj.克制的，有节制的 |
+|the calm and <text style="color:green;">restrained</text> beauty of Song dynasty|沉稳内敛的宋代审美意境 |
+|achieve inner peace|收获平和的心态 |
+|portray|v.描绘，描画；描写 |
+|fragility|n.脆弱，易碎性；虚弱 |
+|divergent|adj.发散的，有分歧的 |
+|temperament|n.性情；（人或动物的）气质；性格 |
 |imitate|v.效仿；模仿（某人的讲话，举止）|
 |mimic|v.模仿（人的言行举止）|
-|<text style="color:green;">mimic</text> the stunning mountainside in the paintings|比喻险峰|
-|the aesthetics of Song dynasty|宋代美学|
-|horticultural|adj.文艺学的|
-|hashtag|n.话题标签；推文话题|
-|trendy|n.热搜|
-|phenomenal|adj.了不起的，非凡的|
-|dynamism|n.精力；活力；劲头|
-|The only impression towards Chinese culture was respect|对中华文明的印象只有尊敬|
-|ponder|v.思索，掂量|
-|gravitation|n.万有引力；引力|
-|the magical <text style="color:green;">gravitation</text> in Chinese culture|中华文化本身的魅力|
-|mission|n.使命|
-|a sense of <text style="color:green;">mission</text>|使命感|
-|grandeur|n.宏伟；壮丽；堂皇|
-|exquisite|n.精致<br/>adj.精致的；精美的|
-|tremendous|adj.巨大的，极大的，极好的|
-|epic|n.史诗；叙事诗；壮举|
-|a sense of magnificent epic|壮美史诗感|
-|aboriginal|n.原住民；（尤指澳大利亚的）土著<br/>adj.澳大利亚土著的|
-|dedicated|adj.献身的；专用的；专心致志的<br/>v.把……奉献给|
-|traverse|v.超越；穿过；横过|
-|traverse all the barriers of language|超越了所有语言隔阂|
-|oriental|adj.东方（尤指中国和日本的）；东方人的|
-|touch the soul|触动灵魂|
-|interlock|v.扣紧；（使）连锁；紧密连接|
-|Along the River During the Qingming Festival|清明上河图|
-|merge|v.合并，融入；（使）结合|
+|<text style="color:green;">mimic</text> the stunning mountainside in the paintings|比喻险峰 |
+|the aesthetics of Song dynasty|宋代美学 |
+|horticultural|adj.文艺学的 |
+|hashtag|n.话题标签；推文话题 |
+|trendy|n.热搜 |
+|phenomenal|adj.了不起的，非凡的 |
+|dynamism|n.精力；活力；劲头 |
+|The only impression towards Chinese culture was respect|对中华文明的印象只有尊敬 |
+|ponder|v.思索，掂量 |
+|gravitation|n.万有引力；引力 |
+|the magical <text style="color:green;">gravitation</text> in Chinese culture|中华文化本身的魅力 |
+|mission|n.使命 |
+|a sense of <text style="color:green;">mission</text>|使命感 |
+|grandeur|n.宏伟；壮丽；堂皇 |
+|exquisite|n.精致<br/>adj.精致的；精美的 |
+|tremendous|adj.巨大的，极大的，极好的 |
+|epic|n.史诗；叙事诗；壮举 |
+|a sense of magnificent epic|壮美史诗感 |
+|aboriginal|n.原住民；（尤指澳大利亚的）土著<br/>adj.澳大利亚土著的 |
+|dedicated|adj.献身的；专用的；专心致志的<br/>v.把……奉献给 |
+|traverse|v.超越；穿过；横过 |
+|traverse all the barriers of language|超越了所有语言隔阂 |
+|oriental|adj.东方（尤指中国和日本的）；东方人的 |
+|touch the soul|触动灵魂 |
+|interlock|v.扣紧；（使）连锁；紧密连接 |
+|Along the River During the Qingming Festival|清明上河图 |
+|merge|v.合并，融入；（使）结合 |
 |intrigues|v.激起……的兴趣；引发……的好奇心<br/>n.密谋策划；阴谋|
 
 ### Sound Bite 金句
@@ -549,33 +549,33 @@ video：[【孟庆旸】“千里江山，不止青绿”](https://www.bilibili.
 ### Words
 
 video：[【TED】宇宙中最神秘的恒星](https://www.bilibili.com/video/BV1M14y1b7kT?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=489ffc649530594b28a5b31b125daf69)
-|英语生词|中文释义|
+|英语生词 | 中文释义 |
 |:---:|:---:|
-|hypothesis|n.假设；（有少量事实依据但是未被证明的）假说|
-|a last resort|最后一根稻草|
-|stare|v.观测；盯着|
-|<text style="color:green;">stare</text> at a single field in the sky|观测一小块天区|
-|align|v.排列，校准，使……成一条直线|
-|dip|v.蘸，浸；<br/>n.（暂时的）下降；低洼处|
-|sophisticated|adj.复杂的，精密的，先进的，见多识广的|
-|citizen science project|公民科学项目|
-|pattern recognition|模式识别|
-|skepticism|n.怀疑论；怀疑主义者|
-|versus|v.对抗；（比较两种不同选择，想法）与……相比|
-|gamble|n.赌博；冒险；打赌|
-|forum|n.论坛；公开讨论场所|
-|asymmetric|adj.不对称的|
-|dim|adj.昏暗的；黯淡的；v.变暗，变微弱|
-|superimpose|v.叠加；使重叠|
-|firsthand|adj.第一手的，直接的;adv.直接地|
-|collide|v.碰撞；冲突；抵触；不一致|
-|a huge swam of|一大群，一大批|
+|hypothesis|n.假设；（有少量事实依据但是未被证明的）假说 |
+|a last resort|最后一根稻草 |
+|stare|v.观测；盯着 |
+|<text style="color:green;">stare</text> at a single field in the sky|观测一小块天区 |
+|align|v.排列，校准，使……成一条直线 |
+|dip|v.蘸，浸；<br/>n.（暂时的）下降；低洼处 |
+|sophisticated|adj.复杂的，精密的，先进的，见多识广的 |
+|citizen science project|公民科学项目 |
+|pattern recognition|模式识别 |
+|skepticism|n.怀疑论；怀疑主义者 |
+|versus|v.对抗；（比较两种不同选择，想法）与……相比 |
+|gamble|n.赌博；冒险；打赌 |
+|forum|n.论坛；公开讨论场所 |
+|asymmetric|adj.不对称的 |
+|dim|adj.昏暗的；黯淡的；v.变暗，变微弱 |
+|superimpose|v.叠加；使重叠 |
+|firsthand|adj.第一手的，直接的;adv.直接地 |
+|collide|v.碰撞；冲突；抵触；不一致 |
+|a huge swam of|一大群，一大批 |
 |contrive|v.（不顾困难而）设法做到；（克服困难）促成（某事）|
-|acronym|n.缩略语，梗|
-|megastructure|n.巨型结构，超级建筑|
+|acronym|n.缩略语，梗 |
+|megastructure|n.巨型结构，超级建筑 |
 |leak|v.漏；泄露（秘密信息）；n.漏洞；裂缝|
 
-## 【Taylor Swift】Midnight新专辑！！
+## 【Taylor Swift】Midnights 新专辑！！
 
 <div style="text-align: center; ">
 <img alt="math_2" src="https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/English_1.jpg"/>
@@ -591,18 +591,18 @@ This is a collection of music written in the middle of the night, a journey thro
 Midnights, the stories of 13 sleepless nights <text style="color:green;">scattered</text> throughout my life, will be out October 21. Meet me at midnight.
 </div>
 
-|英语生词|中文释义|
+|英语生词 | 中文释义 |
 |:---:|:---:|
-|turmoil|n.动乱；混乱；骚动；焦虑|
-|speak back|顶嘴，还嘴|
-|twist|v.扭转，旋转|
-|fateful|adj.对未来有重大（负面）影响的|
-|demons|n.魔鬼，恶魔|
+|turmoil|n.动乱；混乱；骚动；焦虑 |
+|speak back|顶嘴，还嘴 |
+|twist|v.扭转，旋转 |
+|fateful|adj.对未来有重大（负面）影响的 |
+|demons|n.魔鬼，恶魔 |
 |toss|v.（漫不经心的）投，抛，掷；甩（头，以表示不耐烦或恼怒）|
 |scatter|v.分散；撒；驱散；散开|
 
 
-## Hamlet名句
+## Hamlet 名句
 
 
 What a piece of work is a man! How noble in reason. how infinite in faculties, in form and moving how express and admirable, in action how like an angel, in apprehension how like a god! The beauty of the world, the paragon of animals -- and yet to me, what is this quintessence of dust?
