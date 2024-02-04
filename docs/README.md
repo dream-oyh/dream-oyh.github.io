@@ -7,14 +7,12 @@ features:
 - title: About me
   details: 世界很大，人很小，一枚普普通通的大学生
 - title: 最近日程
-  details: 寒假 ing，学习知识管理、架构知识体系
+  details: 寒假中，学习知识管理、架构知识体系
 - title: 痴迷并狂热于
   details: 1. Taylor Swift
-
            2. 影视飓风
-
            3. 老师好我叫何同学
-footer: OYH Licensed | Copyright © 2022-present Dream-oyh
+footer: OYH Licensed | Copyright © 2024-present Dream-oyh
 ---
 
 ## 使用指南

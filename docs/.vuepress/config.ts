@@ -32,8 +32,8 @@ export default defineUserConfig({
         '/study/code/python.md',    //python
         '/study/code/vscode.md',    //vscode
         '/study/code/git.md',       //git
-        
-        
+        '/study/code/markdown.md',  //markdown
+        '/study/code/html.md',  //html
         ],
         }, 
 
@@ -45,7 +45,6 @@ export default defineUserConfig({
       '/study/English/English.md',     //英语视频词汇积累
       '/study/English/free.md',        //FREE 大学英语
       '/study/English/China.md',       //学习强国英语资源
-      '/study/English/Poems.md',       //英美诗歌品读
     ],           
     },
 
@@ -54,9 +53,10 @@ export default defineUserConfig({
       children:[
         '/artical/artical.md',     //文章
         '/write/write.md', //随笔
-        '/record/web.md',
+        '/record/web.md',//网站推荐
         '/study/CPC.md',  //党的理论学习
         '/study/read/read.md',  //阅读
+        '/artical/weakness.md'  //产品吐槽
         
       ],  
     },
