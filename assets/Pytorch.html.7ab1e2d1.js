@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-e0c20194","path":"/study/code/python/Pytorch.html","title":"Pytorch","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"poetry \u914D\u7F6E Pytorch","slug":"poetry-\u914D\u7F6E-pytorch","children":[]}],"git":{},"filePathRelative":"study/code/python/Pytorch.md"}');export{t as data};

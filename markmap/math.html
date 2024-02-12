@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.5/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.13.5"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.5/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"数学建模","children":[{"type":"heading","depth":1,"payload":{"lines":[2,3]},"content":"综合评价方法","children":[{"type":"heading","depth":2,"payload":{"lines":[4,5]},"content":"权重确定？","children":[{"type":"heading","depth":3,"payload":{"lines":[6,7]},"content":"层次分析法","children":[{"type":"list_item","depth":4,"payload":{"lines":[8,9]},"content":"算术平均法求权重"},{"type":"list_item","depth":4,"payload":{"lines":[9,10]},"content":"几何平均法求权重"},{"type":"list_item","depth":4,"payload":{"lines":[10,11]},"content":"特征值法求权重"}]},{"type":"heading","depth":3,"payload":{"lines":[12,13]},"content":"熵权法（针对于topsis法求权重）"}]},{"type":"heading","depth":2,"payload":{"lines":[14,15]},"content":"层次分析法","children":[{"type":"list_item","depth":3,"payload":{"lines":[16,17]},"content":"算术平均法"},{"type":"list_item","depth":3,"payload":{"lines":[17,18]},"content":"几何平均法"},{"type":"list_item","depth":3,"payload":{"lines":[18,19]},"content":"特征值法"}]},{"type":"heading","depth":2,"payload":{"lines":[20,21]},"content":"topsis法","children":[{"type":"list_item","depth":3,"payload":{"lines":[22,23]},"content":"原始矩阵正向化"},{"type":"list_item","depth":3,"payload":{"lines":[23,24]},"content":"正向化矩阵标准化"},{"type":"list_item","depth":3,"payload":{"lines":[24,25]},"content":"计算得分并且归一化"}]},{"type":"heading","depth":2,"payload":{"lines":[26,27]},"content":"模糊综合评价模型","children":[{"type":"heading","depth":3,"payload":{"lines":[28,29]},"content":"关键：如何构建隶属函数？","children":[{"type":"list_item","depth":4,"payload":{"lines":[30,31]},"content":"模糊统计法（问卷形式，数模基本没时间用）"},{"type":"list_item","depth":4,"payload":{"lines":[31,32]},"content":"借助已有的客观尺度"},{"type":"list_item","depth":4,"payload":{"lines":[32,33]},"content":"指派法","children":[{"type":"list_item","depth":5,"payload":{"lines":[34,35]},"content":"矩形分布"},{"type":"list_item","depth":5,"payload":{"lines":[35,36]},"content":"梯形分布<u>（用的最多）</u>"},{"type":"list_item","depth":5,"payload":{"lines":[36,37]},"content":"k次抛物线型分布"},{"type":"list_item","depth":5,"payload":{"lines":[37,38]},"content":"γ型分布"},{"type":"list_item","depth":5,"payload":{"lines":[38,39]},"content":"正态分布"},{"type":"list_item","depth":5,"payload":{"lines":[39,40]},"content":"柯西分布"}]}]},{"type":"heading","depth":3,"payload":{"lines":[41,42]},"content":"一级模糊综合评价模型"},{"type":"heading","depth":3,"payload":{"lines":[43,44]},"content":"多级模糊综合评价模型"}]},{"type":"heading","depth":2,"payload":{"lines":[45,46]},"content":"<text style=\"color:grey;\">灰色关联分析</text>","children":[{"type":"list_item","depth":3,"payload":{"lines":[47,48]},"content":"研究小众，作为备用方案"},{"type":"list_item","depth":3,"payload":{"lines":[48,49]},"content":"应用","children":[{"type":"list_item","depth":4,"payload":{"lines":[50,51]},"content":"进行系统分析"},{"type":"list_item","depth":4,"payload":{"lines":[51,52]},"content":"用于综合评价类问题确定权重"}]},{"type":"list_item","depth":3,"payload":{"lines":[53,54]},"content":"步骤","children":[{"type":"list_item","depth":4,"payload":{"lines":[54,55]},"content":"画统计图"},{"type":"list_item","depth":4,"payload":{"lines":[55,56]},"content":"确定分析母序列与子序列（类似因变量与自变量）"},{"type":"list_item","depth":4,"payload":{"lines":[56,57]},"content":"对变量进行预处理"},{"type":"list_item","depth":4,"payload":{"lines":[57,58]},"content":"计算子序列中各个指标与母序列的关联系数","children":[{"type":"list_item","depth":5,"payload":{"lines":[58,59]},"content":"两级最小差"},{"type":"list_item","depth":5,"payload":{"lines":[59,60]},"content":"两级最大差"}]},{"type":"list_item","depth":4,"payload":{"lines":[60,61]},"content":"定义灰色关联度"},{"type":"list_item","depth":4,"payload":{"lines":[61,62]},"content":"计算灰色关联度，灰色关联度大，则影响因素大"}]}]}]}]},{})</script>
+</body>
+</html>
