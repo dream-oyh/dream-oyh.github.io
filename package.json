@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "2.0.0",
+  "description": "Dream-Blog",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "vuepress-vite build src",
+    "clean-dev": "vuepress-vite dev src --clean-cache",
+    "dev": "vuepress-vite dev src",
+    "update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.7",
+    "katex": "^0.16.9",
+    "vue": "^3.4.15",
+    "vuepress": "2.0.0-rc.7",
+    "vuepress-theme-hope": "2.0.0-rc.23",
+    "@waline/client": "^2.15.8"
+  }
+}
