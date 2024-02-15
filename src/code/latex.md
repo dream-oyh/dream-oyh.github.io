@@ -19,8 +19,9 @@ tag: 教程
 
 ## latex 自带帮助文档
 
-cmd 窗口中输入 texdoc ctex 打开 ctex 宏集手册
-cmd 窗口中输入 texdoc graphicx 打开 graphicx 宏集手册
+cmd 窗口中输入 `texdoc ctex` 打开 ctex 宏集手册
+
+cmd 窗口中输入 `texdoc graphicx` 打开 graphicx 宏集手册
 
 
 ## latex 程序框架
