@@ -2,6 +2,12 @@
 
 ## 2024/02/15
 
+- 为*编程*板块添加图标
+
+- 优化*English*板块文章结构
+
+## 2024/02/14
+
 - **更换主题：[Vuepress-theme-hope](https://theme-hope.vuejs.press/zh/)，调整优化博客文件结构**
 
 - 更新主页与个人简介

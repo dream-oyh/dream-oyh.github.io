@@ -1,3 +1,10 @@
+---
+date: 2022-07-26
+icon: ask
+category: 博客
+tag: 问题记录
+---
+
 # Vuepress 博客搭建
 
 ## github 图床建立 (git 语法)

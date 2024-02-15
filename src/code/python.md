@@ -1,3 +1,11 @@
+---
+date: 2024-01-24
+icon: python
+category: 编程
+tag: 教程
+---
+
+
 # Python
 
 ## 为什么我选择了 Python

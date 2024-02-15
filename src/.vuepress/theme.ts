@@ -45,19 +45,20 @@ export default hopeTheme({
     },
     roundAvatar:true,
     timeline:"新的内容正在产出……",
-    articlePerPage:3,
+    articlePerPage:5,
     articleInfo:["Date", "Category", "Tag", "ReadingTime"],
   },
-
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
+    searchPro: true,
     comment: {
       provider: "Waline",
-      serverURL: "https://blog-comments-16fvk11pk-dream-oyhs-projects.vercel.app/",
+      serverURL: "https://blog-comments-glpemzd6z-dream-oyhs-projects.vercel.app/",
       emoji:['//unpkg.com/@waline/emojis@1.2.0/qq'],
       requiredMeta:["nick"],
       pageSize:5,
+      login: "force",
 
     },
     mdEnhance: {
