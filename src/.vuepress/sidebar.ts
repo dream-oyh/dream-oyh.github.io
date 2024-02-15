@@ -16,6 +16,7 @@ export default sidebar({
                 children:[
                     "git.md",
                     "vscode.md",
+                    "latex.md"
                 ],
             },
             {

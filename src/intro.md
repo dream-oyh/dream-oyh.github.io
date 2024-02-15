@@ -77,6 +77,4 @@ cover: /assets/images/Fearless!.png
 
 - `Premiere` 熟悉 Premiere 的基本操作，在[中南大学交小宣](https://space.bilibili.com/1555991769)与[我的 B 站账号——真_Dream 同学](https://space.bilibili.com/1901628168)中均有我的剪辑作品，代表作：[五四星火——交院青年献唱《有我》](https://www.bilibili.com/video/BV1PM4y1b7fL)，[交通院 2023 级的小萌新们，很高兴遇见你！](https://www.bilibili.com/video/BV1su4y1y7pg)。
 
-- `LaTeX` 熟悉$\LaTeX$排版，排版过多次大型文档，该类文档之后也会在`学习资料`板块中见到，现因`latex`笔记存在部分问题，故撤销其在博客的部署。
-
-
+- `LaTeX` 熟悉$\LaTeX$排版，排版过多次大型文档，该类文档之后也会在`学习资料`板块中见到，本博客同时也有自己写的 latex 教程，可[点击此处](code/latex.md)查看。
