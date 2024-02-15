@@ -58,8 +58,6 @@ export default hopeTheme({
       emoji:['//unpkg.com/@waline/emojis@1.2.0/qq'],
       requiredMeta:["nick"],
       pageSize:5,
-      login: "force",
-
     },
     mdEnhance: {
       align: true,
