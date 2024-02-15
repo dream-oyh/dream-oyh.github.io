@@ -101,8 +101,29 @@ export default sidebar({
   ],
   "/article/":[
             {
-                text: "文章",
-                link:"/article/",
+                text: "随笔",
+                icon: "article",
+                children:[
+                    "article.md",
+                    "weakness.md",
+                ]
+            },
+            {
+                text: "推荐",
+                icon: "support",
+                children:[
+                    "software.md",
+                    "web.md",
+                    "film_recommend.md",
+                ]
+            },
+            {
+                text: "读书笔记",
+                icon: "note",
+                children:[
+                    "read.md",
+                    "hamlet.md"
+                ]
             },
   ],
   "/credit/":[
