@@ -15,7 +15,7 @@ devDependencies:
     specifier: ^0.16.9
     version: 0.16.9
   vue:
-    specifier: ^3.4.15
+    specifier: ^3.4.18
     version: 3.4.18
   vuepress:
     specifier: 2.0.0-rc.7

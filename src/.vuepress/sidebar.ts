@@ -31,8 +31,14 @@ export default sidebar({
   ],
   "/english/":[
             {
+                text:"目录",
+                icon:"language",
+                link:"",
+            },
+            {
                 text: "英语视频词汇积累",
                 collapsible: true,
+                icon: "state",
                 prefix: "video/",
                 children:[
                    "1.md",
@@ -49,6 +55,7 @@ export default sidebar({
             {
                 text: "FREE 大学英语阅读写作能力提升课",
                 collapsible: true,
+                icon:"build",
                 prefix: "free/",
                 children:[
                    "1.md",
@@ -65,6 +72,7 @@ export default sidebar({
             {
                 text: "学习强国官方英语资源",
                 collapsible: true,
+                icon: "article",
                 prefix: "china/",
                 children:[
                    "10.22.md",
@@ -100,6 +108,26 @@ export default sidebar({
                 text: "关于博客",
                 link:"/blog/",
                 icon:"vue",
+            },
+            {
+                text: "博客日志",
+                link:"log.md",
+                icon:"blog",
+            },
+            {
+                text: "问题列表",
+                link:"vuepress.md",
+                icon:"ask",
+            },
+            {
+                text:"博客日程",
+                link:"schedule.md",
+                icon:"check"
+            },
+            {
+                text:"博客常用站点跳转",
+                link:"spots.md",
+                icon:"at"
             }
   ]
 })

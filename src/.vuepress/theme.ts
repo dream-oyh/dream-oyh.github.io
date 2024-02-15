@@ -16,7 +16,7 @@ export default hopeTheme({
   logo: "/web_logo.jpg",
 
   repo: "https://github.com/dream-oyh/dream-oyh.github.io",
-  darkmode:"switch",
+  darkmode:"toggle",
   fullscreen: false,
   docsDir: "src",
   // 导航栏
@@ -53,11 +53,16 @@ export default hopeTheme({
     blog: true,
     searchPro: true,
     comment: {
-      provider: "Waline",
-      serverURL: "https://blog-comments-glpemzd6z-dream-oyhs-projects.vercel.app/",
-      emoji:['//unpkg.com/@waline/emojis@1.2.0/qq'],
-      requiredMeta:["nick"],
-      pageSize:5,
+    //   provider: "Waline",
+    //   serverURL: "https://blog-comments-glpemzd6z-dream-oyhs-projects.vercel.app/",
+    //   emoji:['//unpkg.com/@waline/emojis@1.2.0/qq'],
+    //   requiredMeta:["nick"],
+    //   pageSize:5,
+    provider:"Giscus",
+    repo: "dream-oyh/Blog_comments_with_Giscus",
+    repoId: "R_kgDOLSurkg",
+    category: "Announcements",
+    categoryId: "DIC_kwDOLSurks4CdPJJ"
     },
     mdEnhance: {
       align: true,

@@ -5,7 +5,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: 'dream_oyh 的 blog',
+  title: 'Dream_oyh 的 blog',
   description: '穿梭于大千世界的普通人',
   head:[
     ['link', { rel: 'stylesheet', href: '/mask.css' }],
