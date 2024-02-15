@@ -4,7 +4,7 @@ layout: BlogHome
 heroImage: /index_logo.png
 heroText: Dream_oyh 的 blog
 heroFullScreen: true
-tagline: 一名穿梭于世间的普通人
+tagline: 万里蹀躞，以此为归
 projects:
   - icon: python
     name: 典型信号输入下一二阶系统响应仿真

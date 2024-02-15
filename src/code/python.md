@@ -64,3 +64,38 @@ poetry config cache-dir D:\\poetry_enev
 - 激活：`poetry shell`
 - 删除虚拟环境：`poetry env remove --all`
 - 运行：`poetry run python <filename>.py`
+
+### conda
+
+拒绝 Anaconda 的大体积，建议安装 Miniconda 作为环境管理器。
+
+#### 安装
+
+::: tabs 
+
+@tab Windows
+
+scoop 一行搞定
+
+```sh
+scoop install miniconda
+```
+
+@tab Linux
+
+```sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh  # 接下来一路空格
+```
+:::
+
+#### 基本命令
+
+```sh
+conda -V # 查看 conda 版本
+conda create -n <name> python=<version> # 创建环境
+conda activate <name> # 激活环境
+conda deactivate    # 关闭环境
+conda remove -n <name> --all  # 删除环境，也可进入 conda 安装目录下的 /envs/ 删除文件夹
+conda list  # 查看环境内工具包
+````
