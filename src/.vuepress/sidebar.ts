@@ -28,6 +28,13 @@ export default sidebar({
                     "python/web_crawler.md",
                 ],
             },
+            {
+                text: "锦囊",
+                collapsible: true,
+                children:[
+                    "tips/regex.md"
+                ],
+            },
 
   ],
   "/english/":[

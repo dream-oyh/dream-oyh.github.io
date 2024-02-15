@@ -14,6 +14,8 @@ tag: 日志
 
 - 优化*latex*板块，以适应新主题的 katex 新编译引擎
 
+- 更新*正则表达式*内容
+
 ## 2024/02/14
 
 - **更换主题：[Vuepress-theme-hope](https://theme-hope.vuejs.press/zh/)，调整优化博客文件结构**
