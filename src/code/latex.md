@@ -1,6 +1,6 @@
 ---
 date: 2024-02-15
-icon: tex
+icon: latex
 category: 工具
 tag: 教程
 ---
@@ -13,7 +13,7 @@ tag: 教程
 
 安装：见知乎老哥专栏：[如何安装 latex](https://zhuanlan.zhihu.com/p/56982388)
 
-但是我选择把$\latex$集成进 VSCode，集成教程可以看这篇文章：[Visual Studio Code (vscode) 配置 LaTeX](https://zhuanlan.zhihu.com/p/166523064)
+但是我选择把$\LaTeX$集成进 VSCode，集成教程可以看这篇文章：[Visual Studio Code (vscode) 配置 LaTeX](https://zhuanlan.zhihu.com/p/166523064)
 
 学习：想要学习 latex 数学公式编辑语法可以用妈咪说搭建的可视化网站：[在线 Latex 公式编辑器](https://www.latexlive.com/)
 

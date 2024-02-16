@@ -1,6 +1,6 @@
 ---
 date: 2024-02-16
-icon: input
+icon: powershell
 category: 
     - 计算机
     - 底层

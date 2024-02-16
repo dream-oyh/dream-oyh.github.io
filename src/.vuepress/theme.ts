@@ -11,8 +11,8 @@ export default hopeTheme({
     email:"19859860010@163.com",
   },
   favicon: "/web_logo.jpg",
-  iconAssets: "iconfont",
-
+//   iconAssets: "iconfont",
+  iconAssets:"//at.alicdn.com/t/c/font_4435976_opryr49ffz.css",
   logo: "/web_logo.jpg",
 
   repo: "https://github.com/dream-oyh/dream-oyh.github.io",

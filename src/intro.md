@@ -1,6 +1,6 @@
 ---
 Date: 2024-02-14
-icon: profile
+icon: profilefill
 cover: /assets/images/Fearless!.png
 ---
 

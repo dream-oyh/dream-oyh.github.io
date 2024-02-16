@@ -1,3 +1,8 @@
+---
+icon: at
+category: 博客
+---
+
 # 博客常用站点跳转
 
 ::: tip 提示
@@ -8,5 +13,5 @@
 
 [emoji 查询](https://theme-hope.vuejs.press/zh/cookbook/markdown/emoji/)
 
-[icon 查询](https://theme-hope.vuejs.press/zh/guide/interface/icon.html)
+[icon 查询](https://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=4435976)
 

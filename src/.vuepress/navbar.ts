@@ -13,7 +13,7 @@ export default navbar([
   },
   {
     text: "文章",
-    icon: "article",
+    icon: "Article",
     link: "/article/"
   },
   {

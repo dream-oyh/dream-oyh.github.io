@@ -1,6 +1,6 @@
 ---
 date: 2024-02-17
-icon: function
+icon: pytorch
 category: Python 库
 tag: 教程
 ---
@@ -8,6 +8,8 @@ tag: 教程
 # Pytorch
 
 [官网](https://pytorch.org/)
+
+[学习文档](https://tangshusen.me/Dive-into-DL-PyTorch/)
 
 ## Miniconda 配置 Pytorch
 
@@ -29,4 +31,18 @@ tag: 教程
 
 ```sh
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
+使用：
+
+```python
+import torch
+```
+
+## Tensor 创建及基本操作
+
+```python
+x=torch.empty(5,3) # 创建 5x3 空 tensor
+x=torch.rand(5,3) # 创建 5x3 随机 tensor
+x=torch.zeros(5,3,dtype=torch.long)
 ```
