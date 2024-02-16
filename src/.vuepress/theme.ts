@@ -77,6 +77,7 @@ export default hopeTheme({
       include: true,
       katex: true,
       mark: true,
+      mermaid: true,
       stylize: [
         {
           matcher: "Recommended",

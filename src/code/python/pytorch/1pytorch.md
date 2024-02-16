@@ -1,11 +1,8 @@
 ---
-date: 2024-02-17
-icon: pytorch
-category: Python 库
-tag: 教程
+date: 2024-02-16
 ---
 
-# Pytorch
+# Pytorch 的配置与基本操作
 
 [官网](https://pytorch.org/)
 
@@ -23,7 +20,7 @@ tag: 教程
 
 - `Your OS` linux
 
-- `Package` pip
+- `Package` conda
 
 - `Lanuage` python
 
@@ -32,7 +29,19 @@ tag: 教程
 运行以下代码来配置环境：
 
 ```sh
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+
+> **踩坑：**
+>
+> 如果决定采用`conda`做包管理器，就老老实实用`conda`创建虚拟环境，并且在虚拟环境中安装`pytorch`，GPU 加速版会大概占用 7～8 GB 空间，请注意磁盘空间的规划。不要像我一样没搞清楚，用了`conda`管理环境，又反用`pip`作包管理，最后这个环境整了一天才整出来
+
+- 安装脚本
+
+```sh
+conda create -n torch python=3.9
+conda activate torch
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
 使用：
@@ -92,7 +101,6 @@ b = a.numpy()
 
 ### numpy 转 Tensor
 
-
 ```python
 a = torch.rand(2, 3)
 b = a.from_numpy()
@@ -115,7 +123,46 @@ b = a.from_numpy()
 ::: tip
 这个 Function 能够反映该`Tensor`是如何被创建的，`print(x.grad_fn)`后可以显示其对象名称，包括但不限于：`<AddBackward>` , `<MeanBackward1>`, `<SumBackward0>`
 :::
+
 所以，梯度链一定是从一个 `Tensor(requires_grad=True)` 被创建开始的，这个 `Tensor`被称作叶子节点，Pytorch 提供了 `is_leaf()` 函数来角读取其是否为叶子节点。 
 
 ### 梯度
+
+首先我们得明白在计算流中反向传播的概念，推荐参考[colah's blog 有关反向传播的理解](http://colah.github.io/posts/2015-08-Backprop/)
+
+::: important 前向传播与反向传播区别
+
+**前向传播**：只能获得一个输出量对指定自变量的梯度
+
+**反向传播**：遍历一次就可以获得输出量对于计算流图中任意节点的梯度
+:::
+
+**反向传播**的过程是累加的（这一部分还并没有找到相关原理的文章做支撑，暂且先记住），所以在反向传播之前需要将梯度清零。
+
+#### 举例说明
+
+现有如下 python 程序：
+
+```python
+import torch
+x = torch.ones(2, 2, requires_grad=True)
+y = x + 2
+z = y * y * 3
+out = z.mean()
+```
+
+$$out=\frac{1}{4}\Sigma_{i=1}^{4}3(x_i+2)^2$$
+
+现在对`out`反向传播，并求`out`对`x`的梯度（在反向传播之前需要将 x 的梯度清零）。
+
+```python
+x.grad.data.zero_()
+out.backward()
+print(x.grad)
+# 输出
+tensor([[4.5000, 4.5000],
+        [4.5000, 4.5000]])
+```
+
+> 现在看不懂可以不用纠结，因为我也不会（
 

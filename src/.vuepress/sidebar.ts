@@ -24,7 +24,11 @@ export default sidebar({
                 text: "Python 库",
                 children:[
                     "python/pandas.md",
-                    "python/Pytorch.md",
+                    {
+                        text:"Pytorch",
+                        icon:"pytorch",
+                        link:"python/pytorch/1pytorch.md"
+                    },
                     "python/Seaborn.md",
                     "python/web_crawler.md",
                 ],
@@ -37,6 +41,18 @@ export default sidebar({
                 ],
             },
 
+  ],
+  "/code/python/pytorch/":[
+            {
+                text: "Pytorch 学习笔记",
+                icon: "pytorch",
+                children:[
+                    "1pytorch.md",
+                    "2linear_regression.md",
+                ],
+            }
+                
+            
   ],
   "/english/":[
             {

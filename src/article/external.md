@@ -4,6 +4,9 @@
 
 - [计算机教育中缺失的一环](https://missing-semester-cn.github.io/)
 
+## 算法
+
+- [colah's blog 记录了很多深度学习的算法原理，通俗易懂](http://colah.github.io/)
 
 ## 人文关怀
 

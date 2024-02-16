@@ -1,0 +1,287 @@
+---
+date: 2024-02-17
+---
+
+# 线性回归实现
+
+::: tip 需要导入模块
+
+```python
+import torch
+import numpy as np
+import torch.utils.data as Data
+import torch.nn as nn
+
+from torch.nn import init
+import torch.optim as optim
+```
+:::
+
+线性回归实现的 pipes 如下所示：
+
+```mermaid
+---
+title: 线性回归实现流程
+---
+
+flowchart LR 
+   生成并制作数据集 --> 定义模型 --> 初始化模型参数 --> 定义损失函数 --> 定义优化算法 --> 训练模型
+
+```
+
+## 生成并制作数据集
+
+
+
+
+深度学习中，我们把自变量称作`features`，把因变量称作`labels`，我们要制作的数据集就是为了制作==从 features 到 labels 的映射==。
+
+```python title="生成数据集"
+# 生成数据集
+num_inputs = 2
+num_examples = 1000
+true_w = [2, -3.4]
+true_b = 4.2
+features = torch.tensor(
+    np.random.normal(0, 1, (num_examples, num_inputs)), dtype=torch.float
+)
+labels = (
+    true_w[0] * features[:, 0]
+    + true_w[1] * features[:, 1]
+    + true_b
+    + np.random.normal(0, 0.01, num_examples)
+)
+```
+
+利用`torch.utils.data`库制作成数据集（建立映射），再定义`batch_size`，通过数据读取器从数据集里随机读取数据。
+
+> 这个什么“制作数据集”“数据读取器”的表述是基于我自己理解的自造词，并不代表官方描述
+
+::: tip 数据集和数据读取器的类型
+
+数据集 (`Data.TensorDataset`) 的类型是`<class 'torch.utils.data.dataset.TensorDataset'>`
+
+数据读取器 (`Data.DataLoader`) 的类型是`<class 'torch.utils.data.dataloader.DataLoader'>`
+
+:::
+
+```python
+batch_size = 10
+dataset = Data.TensorDataset(features, labels)
+data_iter = Data.DataLoader(dataset, batch_size, shuffle=True)
+print(type(dataset))  # <class 'torch.utils.data.dataset.TensorDataset'>
+print(type(data_iter))  #  <class 'torch.utils.data.dataloader.DataLoader'>
+```
+
+## 定义模型
+
+Pytorch 包提供了大量预定义的**层**，我们只需要关注如何正确调用和排布这些层，以定义神经网络模型，这样能够使得线性回归实现变得简单。定义神经网络用到了`torch.nn`库。
+
+`nn`的核心数据结构是`Module`，它是一个抽象概念，既可以表示神经网络中的某个层（layer），也可以表示一个包含很多层的神经网络。在实际使用中，最常见的做法是继承`nn.Module`，撰写自己的网络/层。一个`nn.Module`实例应该包含一些层以及返回输出的前向传播（forward）方法。
+
+```python
+class LinearNet(nn.Module):
+    def __init__(self, n_feature):
+        super(LinearNet, self).__init__()
+        self.linear = nn.Linear(n_feature, 1)
+        # n_features 为特征数，即：num_inputs
+    def forward(self, x):
+        y = self.linear(x)
+        return y
+
+net = LinearNet(num_inputs)
+print(type(linear_net.linear)) # <class 'torch.nn.modules.linear.Linear'>
+print(net)
+# LinearNet((linear): Linear(in_features=2, out_features=1, bias=True))
+```
+
+值得说明的是，线性网络模型继承自`nn.Module`，定义的成员变量`linear`就是线性层的一个实例，可以通过输入 x，直接得到 y。
+
+::: tip nn.Sequential 提供了更方便的方式来构建网络模型
+
+`Sequential`是一个有序的容器，网络层将按照在传入`Sequential`的顺序依次被添加到计算图中
+
+```python
+# 写法一
+net = nn.Sequential(
+    nn.Linear(num_inputs, 1)
+    # 此处还可以传入其他层
+    )
+
+# 写法二
+net = nn.Sequential()
+net.add_module('linear', nn.Linear(num_inputs, 1))
+# net.add_module ......
+
+# 写法三
+from collections import OrderedDict
+net = nn.Sequential(OrderedDict([
+          ('linear', nn.Linear(num_inputs, 1))
+          # ......
+        ]))
+
+print(net)  # Sequential((linear): Linear(in_features=2, out_features=1, bias=True))
+print(net[0])  # Linear(in_features=2, out_features=1, bias=True)
+```
+
+本文采用正文中的类定义方式建模。
+:::
+
+可以通过`net.parameters()`来查看模型所有的可学习参数，此函数将返回一个生成器。
+
+```python
+for param in net.parameters():
+    print(param)
+```
+
+输出得到的结果为：
+
+```python
+Parameter containing:
+tensor([[-0.6155, -0.1029]], requires_grad=True)
+Parameter containing:
+tensor([0.0955], requires_grad=True)
+```
+
+即：生成了$\omega$与$b$的初值，并且允许追踪梯度。
+
+## 初始化模型参数
+
+在使用 `net` 前，需要对线性回归层中的参数进行初始化。`torch.nn`中的`init`模块提供了多种初始化方法。
+
+- `init.normal_()` 将权重参数初始化为均值为 0，标准差为 0.01 的正态分布
+
+- `init.constant_()` 将参数初始化为同一个固定值，例如 0
+
+``` python
+init.normal_(net.linear.weight, mean=0, std=0.01)
+init.constant_(net.linear.bias, val=0)
+```
+> 可以看出，线性层已经包括了`weight`和`bias`两个参数，不需要我们额外定义。
+
+## 定义损失函数
+
+`nn`模块提供了各种损失函数，这些损失函数可以看作特殊的层，这里定义均方误差 (Mean Square Error) 作为损失函数。
+
+```python
+loss = nn.MSELoss()
+```
+
+## 定义优化算法
+
+`torch.optim`模块提供了各种优化算法，这里使用随机梯度下降（SGD）来更新模型参数，并指定学习率为 0.03。
+
+```python
+optimizer = optim.SGD(net.parameters(), lr=0.03)
+```
+
+::: tip 为不同的网络设定不同的学习率
+
+```python
+optimizer =optim.SGD([
+                # 如果对某个参数不指定学习率，就使用最外层的默认学习率
+                {'params': net.subnet1.parameters()}, # lr=0.03
+                {'params': net.subnet2.parameters(), 'lr': 0.01}
+            ], lr=0.03)
+```
+:::
+
+## 训练模型
+
+通过调用`optimizer.step()`来更新权重，并通过`loss.item()`获取当前的损失值。
+
+```python
+num_epochs = 3
+for epoch in range(1, num_epochs + 1):
+    for X, y in data_iter:
+        X = X.float()
+        y = y.float()
+        output = net(X)
+        l = loss(output, y.view(-1, 1))
+        optimizer.zero_grad()  # 梯度清零，等价于 net.zero_grad()
+        l.backward()
+        optimizer.step()
+    print("epoch %d, loss: %f" % (epoch, l.item()))
+```
+
+将这一步的逻辑细分，可见下图所示：
+
+```mermaid
+---
+title: 训练模型
+---
+flowchart LR
+    读取小批量数据 --> 线性网络输出 --> 计算损失函数 --> 梯度清零 --> 反向传播 --> step递进
+```
+
+::: details RuntimeError: Found dtype Double but expected Float 报错解决
+
+- 报错代码段：
+
+``` python
+num_epochs = 3
+for epoch in range(1, num_epochs + 1):
+    for X, y in data_iter:
+        output = net(X)
+        l = loss(output, y.view(-1, 1))
+        optimizer.zero_grad()  # 梯度清零，等价于 net.zero_grad()
+        l.backward()
+        optimizer.step()
+    print("epoch %d, loss: %f" % (epoch, l.item()))
+```
+- 报错信息：
+```
+Traceback (most recent call last):
+  File "/home/oyh/桌面/Pytorch_learning/mydocs_2024/chapter02/create_tensor.py", line 68, in <module>
+    l.backward()
+  File "/home/oyh/miniconda3/envs/torch/lib/python3.12/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/home/oyh/miniconda3/envs/torch/lib/python3.12/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: Found dtype Double but expected Float
+```
+
+- 报错原因：
+
+You need match the data type of the data to the data type of the model.
+
+- 解决方法：
+
+``` python{4-5}
+num_epochs = 3
+for epoch in range(1, num_epochs + 1):
+    for X, y in data_iter:
+        X = X.float()
+        y = y.float()
+        output = net(X)
+        l = loss(output, y.view(-1, 1))
+        optimizer.zero_grad()  # 梯度清零，等价于 net.zero_grad()
+        l.backward()
+        optimizer.step()
+    print("epoch %d, loss: %f" % (epoch, l.item()))
+```
+- [参考](https://stackoverflow.com/questions/67456368/pytorch-getting-runtimeerror-found-dtype-double-but-expected-float)
+:::
+
+训练所得输出：
+
+```python
+epoch 1, loss: 0.000450
+epoch 2, loss: 0.000046
+epoch 3, loss: 0.000097
+```
+
+::: tip 比较最终参数训练结果和真实值：
+
+```python
+print(net.linear.weight.data, true_w)
+print(net.linear.bias.data, true_b)
+```
+
+输出：
+
+```python
+tensor([[ 1.9997, -3.4004]]) [2, -3.4]
+tensor([4.2001]) 4.2
+```
+:::
