@@ -16,7 +16,8 @@ export default sidebar({
                 children:[
                     "git.md",
                     "vscode.md",
-                    "latex.md"
+                    "latex.md",
+                    "shell.md"
                 ],
             },
             {
@@ -125,6 +126,11 @@ export default sidebar({
                     "hamlet.md"
                 ]
             },
+            {
+                text: "他山之石",
+                icon: "community",
+                link:"external.md"
+            }
   ],
   "/credit/":[
             {
