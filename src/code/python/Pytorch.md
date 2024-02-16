@@ -9,7 +9,9 @@ tag: 教程
 
 [官网](https://pytorch.org/)
 
-[学习文档](https://tangshusen.me/Dive-into-DL-PyTorch/)
+[《动手学深度学习-Pytorch 版》学习文档](https://tangshusen.me/Dive-into-DL-PyTorch/)
+
+[《动手学深度学习》原书文档](https://zh.d2l.ai/index.html)
 
 ## Miniconda 配置 Pytorch
 
@@ -42,7 +44,78 @@ import torch
 ## Tensor 创建及基本操作
 
 ```python
-x=torch.empty(5,3) # 创建 5x3 空 tensor
-x=torch.rand(5,3) # 创建 5x3 随机 tensor
-x=torch.zeros(5,3,dtype=torch.long)
+x = torch.tensor([1, 2])  # 指定数据创建 tensor
+y = torch.empty(2, 3)  # 创建 2x3 空 tensor
+x1 = torch.random(2, 3)  # 创建 2x3 随机 tensor
+x2 = torch.zeros(2, 3, dtype=torch.long)  # 创建 long 型的 0 tensor
+x3 = torch.ones(2, 3)  # 创建 2x3 全 1 tensor
+tuple = x1.size()  # 返回一个 tuple，任何对于 tuple 的操作都可以适用
+
+# 加法
+x + y
+torch.add(x, y, out=result) # 通过 out 参数指定输出
+y.add_(x)  # pytorch 的 inplace 操作都有在最后加上下划线
+
 ```
+
+### 索引
+
+可以采用类似 numpy 的索引，`y=x[0,:]`，但是索引出的数据与原数据共享内存，修改一个另一个也会改变。
+
+### 改变形状
+
+`view(*size)`可以改变`tensor`的形状，同理，与原数据共享内存，可以理解为：view 仅仅是改变了对这个张量的观察角度，内部数据并未改变。
+
+如果需要返回一个新的独立副本，应该先`clone`再`view`，即：`x.clone().view(3,5)`\
+
+### 线性代数
+
+与 MATLAB 语法类似：
+
+|语法 | 功能 |
+|:---:|:---|
+|`trace`|矩阵的迹 |
+|`diag`|对角线元素 |
+|`triu/tril`|上三角或下三角矩阵 |
+|`mm`|矩阵乘法 |
+|`t`|矩阵转置 |
+|`dot`|矩阵内积 |
+|`inverse`|求逆矩阵 |
+|`svd`|奇异值分解 |
+
+### Tensor 转 numpy
+
+```python
+a = torch.rand(2, 3)
+b = a.numpy()
+```
+
+### numpy 转 Tensor
+
+
+```python
+a = torch.rand(2, 3)
+b = a.from_numpy()
+```
+
+::: important 注意
+以上两种方法得到的 Tensor/numpy 共享内存，改变一个另一个也会改变。
+:::
+
+## 自动求梯度
+
+### `Function`对象
+
+如果将其属性`.requires_grad`设置为`True`，它将开始追踪 (track) 在其上的所有操作（这样就可以利用链式法则进行梯度传播了）。完成计算后，可以调用`.backward()`来完成所有梯度计算。此`Tensor`的梯度将累积到`.grad`属性中。
+
+如果不想要被继续追踪，可以调用`.detach()`将其从追踪记录中分离出来，这样就可以防止将来的计算被追踪，这样梯度就传不过去了。此外，还可以用`with torch.no_grad()`将不想被追踪的操作代码块包裹起来，这种方法在评估模型的时候很常用，因为在评估模型时，我们并不需要计算可训练参数`（requires_grad=True）`的梯度。
+
+`Function`是另外一个很重要的类。`Tensor`和`Function`互相结合就可以构建一个记录有整个计算过程的有向无环图（DAG）。每个`Tensor`都有一个`.grad_fn`属性，该属性即创建该`Tensor`的`Function`, 就是说该`Tensor`是不是通过某些运算得到的，若是，则`grad_fn`返回一个与这些运算相关的对象，否则是`None`。
+
+::: tip
+这个 Function 能够反映该`Tensor`是如何被创建的，`print(x.grad_fn)`后可以显示其对象名称，包括但不限于：`<AddBackward>` , `<MeanBackward1>`, `<SumBackward0>`
+:::
+所以，梯度链一定是从一个 `Tensor(requires_grad=True)` 被创建开始的，这个 `Tensor`被称作叶子节点，Pytorch 提供了 `is_leaf()` 函数来角读取其是否为叶子节点。 
+
+### 梯度
+

@@ -15,19 +15,21 @@ tag: index
 
 `2024-02-15` 我受朋友启发，将博客主题修改为[vuepress-theme-hope](https://theme-hope.vuejs.press/zh/)，该主题相较于默认主题提供了更多可选的扩展包，功能性强；并且顺便优化和完善了博客的文档结构。
 
-## <HopeIcon icon="config"/>基本信息
+## 基本信息
 
-- <HopeIcon icon="alias"/> 主题：[vuepress-theme-hope](https://theme-hope.vuejs.press/zh/)
+- 主题：[vuepress-theme-hope](https://theme-hope.vuejs.press/zh/)
 
 - <HopeIcon icon="github"/> [项目地址](https://github.com/dream-oyh/dream-oyh.github.io)，项目源码在 code_hope 分支，code 分支为原先的默认主题的源码。
 
-- <HopeIcon icon="box"/> 包管理器：`pnpm`
+- 包管理器：`pnpm`
 
-- <HopeIcon icon="categoryselected"/> 打包器：`vite`
+- 打包器：`vite`
 
-- <HopeIcon icon="form"/> 协议：`MIT`
+- 协议：`MIT`
 
-## 写在前面
+部署：[Cloudflare Pages](./vuepress.md#博客部署至-cloudflare-pages) | Github Pages
+
+## 碎碎念
 
 之所以开始写博客，是受朋友的影响，后面越来越发现博客是一个非常优质的知识管理工具，美观性和易用性都达到了我心中的标准，但是开发难度对我一个新手小白而言太大，默认主题的拓展性又很低，于是 2023 年以来我只有不定期地更新了小部分内容，并没有太多优质文章，也背离了“知识管理工具”的初衷。
 

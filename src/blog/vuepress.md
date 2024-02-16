@@ -150,3 +150,8 @@ npm config set registry https://registry.npmjs.org
 
 因此本博客的评论区配置转用`Giscus`方案，方便易用，具体步骤可以参考[官方文档](https://plugin-comment2.vuejs.press/zh/guide/giscus.html)。
 
+## 博客部署至 Cloudflare Pages
+
+先将博客静态文件上传至 github repo（仓库名不重要）的 main 分支（其他分支也行）
+
+打开[pages.dev](https://pages.cloudflare.com/)，用邮箱注册帐号并登陆。进入平台后，依照提示选择绑定 github 帐号，链接到仓库的 main 分支（也就是你存放的分支）。按照个人喜好定义`Project name`，比如本博客是`dream-oyh`，生成的域名会显示在下方，有关`build`的选项可以不选，直接点击`Save and deploy`即可完成。
