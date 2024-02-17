@@ -12,7 +12,7 @@ export default hopeTheme({
   },
   favicon: "/web_logo.jpg",
 //   iconAssets: "iconfont",
-  iconAssets:"//at.alicdn.com/t/c/font_4435976_opryr49ffz.css",
+  iconAssets:"//at.alicdn.com/t/c/font_4435976_fsltkkpa5tc.css",
   logo: "/web_logo.jpg",
 
   repo: "https://github.com/dream-oyh/dream-oyh.github.io",
