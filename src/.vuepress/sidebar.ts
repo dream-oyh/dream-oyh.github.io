@@ -9,6 +9,7 @@ export default sidebar({
                     "html.md",
                     "markdown.md",
                     "python.md",
+                    
                 ],
             },
             {
@@ -17,7 +18,8 @@ export default sidebar({
                     "git.md",
                     "vscode.md",
                     "latex.md",
-                    "shell.md"
+                    "shell.md",
+                    "vim.md"
                 ],
             },
             {
