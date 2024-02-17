@@ -17,15 +17,10 @@ date: 2024-02-16
 到[官网的 Get started 文档](https://pytorch.org/get-started/locally/) 选择你的 PC 端配置，可以在终端用`nvidia-smi`命令查看 PC 的 `CUDA` 版本。我的配置是：
 
 - `Pytorch Build` Stable(2.2.0)
-
 - `Your OS` linux
-
 - `Package` conda
-
 - `Lanuage` python
-
 - `Compute Platform` CUDA 11.8
-
 运行以下代码来配置环境：
 
 ```sh
@@ -37,7 +32,6 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 > 如果决定采用`conda`做包管理器，就老老实实用`conda`创建虚拟环境，并且在虚拟环境中安装`pytorch`，GPU 加速版会大概占用 7～8 GB 空间，请注意磁盘空间的规划。不要像我一样没搞清楚，用了`conda`管理环境，又反用`pip`作包管理，最后这个环境整了一天才整出来
 
 - 安装脚本
-
 ```sh
 conda create -n torch python=3.9
 conda activate torch

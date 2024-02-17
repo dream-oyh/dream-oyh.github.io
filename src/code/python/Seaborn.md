@@ -58,9 +58,7 @@ sns.set_context("notebook", font_scale=1.5, rc={"lines.linewidth": 2.5})
 `replot()`函数可以绘制散点图和曲线图，根据`kind`参数改变绘图类型。
 
 - 散点图：`kind='scatter'`(缺省值)
-
 - 曲线图：`kind='line'`
-
 以`tips`数据集为例，读取`tips.head()`，即：读取前 5 行数据。
 
 ::: tip tips
@@ -74,7 +72,6 @@ sns.set_context("notebook", font_scale=1.5, rc={"lines.linewidth": 2.5})
 :::
 
 - 以`total_bill`为横坐标，`tip`为纵坐标画图，可得散点图：
-
 ```python
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -91,7 +88,6 @@ plt.show()
 ![](https://github.com/dream-oyh/dream-oyh.github.io/blob/images/Python_seaborn/Figure_1.png?raw=false)
 
 - 可用`hue`定义不同天数的消费情况，`hue`会根据参数的类型设置不同颜色，并且自动添加图例。
-
 ```python
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -108,7 +104,6 @@ plt.show()
 ![](https://github.com/dream-oyh/dream-oyh.github.io/blob/images/Python_seaborn/Figure_2.png?raw=false)
 
 - 利用`col`参数引入性别的影响
-
 ```python
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -125,7 +120,6 @@ plt.show()
 ![](https://github.com/dream-oyh/dream-oyh.github.io/blob/images/Python_seaborn/Figure_3.png?raw=false)
 
 - 利用`row`参数引入时间的影响
-
 ```python
 import matplotlib.pyplot as plt
 import seaborn as sns

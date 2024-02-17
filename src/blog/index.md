@@ -18,15 +18,10 @@ tag: index
 ## 基本信息
 
 - 主题：[vuepress-theme-hope](https://theme-hope.vuejs.press/zh/)
-
 - <HopeIcon icon="github"/> [项目地址](https://github.com/dream-oyh/dream-oyh.github.io)，项目源码在 code_hope 分支，code 分支为原先的默认主题的源码。
-
 - 包管理器：`pnpm`
-
 - 打包器：`vite`
-
 - 协议：`MIT`
-
 部署：[Cloudflare Pages](./vuepress.md#博客部署至-cloudflare-pages) | Github Pages
 
 ## 碎碎念

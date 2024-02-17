@@ -125,9 +125,7 @@ TypeError: Invalid value used as weak map key
 由于之前在本地搭建了 Blog，现在若需要在 Ubuntu 系统上编辑时，需要调整 `node.js`版本，具体步骤如下：
 
 1. 先删除本地文件内`node_modules`文件夹
-
 2. 执行`npm i`重新安装即可。
-
 ## npm 配置镜像源
 
 采用阿里镜像源：
