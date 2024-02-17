@@ -48,7 +48,9 @@ export default sidebar({
                 icon: "pytorch",
                 children:[
                     "1pytorch.md",
-                    "2linear_regression.md",
+                    "2.1linear_regression.md",
+                    "2.2FashionMNIST.md",
+                    "2.3softmax.md",
                 ],
             }
                 
