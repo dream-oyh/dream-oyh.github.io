@@ -1,7 +1,6 @@
 ---
 date: 2024-02-16
 sidebar: heading
-icon: categoryselected
 category: 推荐
 tag: 文章
 ---
@@ -12,7 +11,7 @@ tag: 文章
 
 ### PC 管理
 
-#### Tai 
+#### Tai
 
 [项目地址](https://github.com/Planshit/Tai)
 
