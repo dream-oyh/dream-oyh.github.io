@@ -49,10 +49,28 @@ export default sidebar({
                 text: "Pytorch 学习笔记",
                 icon: "pytorch",
                 children:[
-                    "1pytorch.md",
-                    "2.1linear_regression.md",
-                    "2.2FashionMNIST.md",
-                    "2.3softmax.md",
+                    {
+                      text:"Pytorch 基础",
+                      link: "1pytorch.md",
+                    },
+                    {
+                      text:"常见的模型源码实现",
+                      collapsible: true,
+                      children:[
+                        "2.1linear_regression.md",
+                        "2.2FashionMNIST.md",
+                        "2.3softmax.md",
+                        "2.4MLP.md",
+                      ]
+                    },
+                    {
+                      text:"走进深度学习",
+                      link: "3.1Deeplearning_basic.md",
+                    },
+                    {
+                      text: "卷积神经网络",
+                      link:"4convolutional_nn.md",
+                    }
                 ],
             }
                 

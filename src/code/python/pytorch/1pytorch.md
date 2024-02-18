@@ -21,7 +21,7 @@ date: 2024-02-16
 - `Package` conda
 - `Lanuage` python
 - `Compute Platform` CUDA 11.8
-运行以下代码来配置环境：
+  运行以下代码来配置环境：
 
 ```sh
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
@@ -29,9 +29,10 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 
 > **踩坑：**
 >
-> 如果决定采用`conda`做包管理器，就老老实实用`conda`创建虚拟环境，并且在虚拟环境中安装`pytorch`，GPU 加速版会大概占用 7～8 GB 空间，请注意磁盘空间的规划。不要像我一样没搞清楚，用了`conda`管理环境，又反用`pip`作包管理，最后这个环境整了一天才整出来
+> 如果决定采用`conda`做包管理器，就老老实实用`conda`创建虚拟环境，并且在虚拟环境中安装`pytorch`，GPU 加速版会大概占用 7 ～ 8 GB 空间，请注意磁盘空间的规划。不要像我一样没搞清楚，用了`conda`管理环境，又反用`pip`作包管理，最后这个环境整了一天才整出来
 
 - 安装脚本
+
 ```sh
 conda create -n torch python=3.9
 conda activate torch
@@ -75,16 +76,16 @@ y.add_(x)  # pytorch 的 inplace 操作都有在最后加上下划线
 
 与 MATLAB 语法类似：
 
-|语法 | 功能 |
-|:---:|:---|
-|`trace`|矩阵的迹 |
-|`diag`|对角线元素 |
-|`triu/tril`|上三角或下三角矩阵 |
-|`mm`|矩阵乘法 |
-|`t`|矩阵转置 |
-|`dot`|矩阵内积 |
-|`inverse`|求逆矩阵 |
-|`svd`|奇异值分解 |
+|    语法     | 功能               |
+| :---------: | :----------------- |
+|   `trace`   | 矩阵的迹           |
+|   `diag`    | 对角线元素         |
+| `triu/tril` | 上三角或下三角矩阵 |
+|    `mm`     | 矩阵乘法           |
+|     `t`     | 矩阵转置           |
+|    `dot`    | 矩阵内积           |
+|  `inverse`  | 求逆矩阵           |
+|    `svd`    | 奇异值分解         |
 
 ### Tensor 转 numpy
 
@@ -104,6 +105,14 @@ b = a.from_numpy()
 以上两种方法得到的 Tensor/numpy 共享内存，改变一个另一个也会改变。
 :::
 
+### `Tensor`的存储和读取
+
+```python
+torch.save(x, 'tensor.pt')  # 保存
+x = torch.load('tensor.pt')  # 读取
+```
+> `Tensor`的保存支持多种数据类型，可以是`Tensor`，也可以是`list`和`dictionary`，保存的 `Tensor` 和读取的 `Tensor` 具有相同的类型。`Tensor`会被保存到以`.pt`为后缀名的文件中。
+
 ## 自动求梯度
 
 ### `Function`对象
@@ -118,7 +127,7 @@ b = a.from_numpy()
 这个 Function 能够反映该`Tensor`是如何被创建的，`print(x.grad_fn)`后可以显示其对象名称，包括但不限于：`<AddBackward>` , `<MeanBackward1>`, `<SumBackward0>`
 :::
 
-所以，梯度链一定是从一个 `Tensor(requires_grad=True)` 被创建开始的，这个 `Tensor`被称作叶子节点，Pytorch 提供了 `is_leaf()` 函数来角读取其是否为叶子节点。 
+所以，梯度链一定是从一个 `Tensor(requires_grad=True)` 被创建开始的，这个 `Tensor`被称作叶子节点，Pytorch 提供了 `is_leaf()` 函数来角读取其是否为叶子节点。
 
 ### 梯度
 
@@ -160,3 +169,6 @@ tensor([[4.5000, 4.5000],
 
 > 现在看不懂可以不用纠结，因为我也不会（
 
+## 学习资料
+
+- [台大李宏毅深度学习作业安排](https://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html)

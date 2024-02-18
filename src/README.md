@@ -25,6 +25,11 @@ projects:
     name: 个人简介
     desc: 点击右侧头像查看更多个人简介
     link: intro.md
+
+  - icon: folder
+    name: 学习资料站
+    desc: 由互助营伙伴们一同组建的大学期间的学习资料站，与同学们分享使用
+    link: /credit
 ---
 
 
