@@ -62,6 +62,23 @@ y.add_(x)  # pytorch 的 inplace 操作都有在最后加上下划线
 
 ```
 
+### Torch 中的乘法
+
+`Torch`包中包括多种乘法方式，具体的细则可以看[这篇博客](https://www.cnblogs.com/HOMEofLowell/p/15962140.html)
+
+::: tip 总结
+
+- `torch.mul()` 有广播机制，各个元素相乘
+- `torch.multiply()` 与`torch.mul()`相同
+- `torch.dot()`计算两向量的点积
+- `torch.mv()` 计算矩阵和向量的乘积（二者一定有一个维度尺寸相同）
+- `torch.mm()` 线代中严格的矩阵乘法
+- `torch.bmm()` 批量矩阵相乘，比如$[b\times m\times n] * [b\times n \times p] = [b\times m \times p]$
+- `torch.matmul()` 混合型矩阵乘法，会根据输入维度自动匹配，易出错，不建议使用。
+  :::
+
+的那是该博文中没有明确写`torch.matmul()`的用法，具体可以查[官方文档](https://pytorch.org/docs/stable/generated/torch.matmul.html)
+
 ### 索引
 
 可以采用类似 numpy 的索引，`y=x[0,:]`，但是索引出的数据与原数据共享内存，修改一个另一个也会改变。
@@ -111,6 +128,7 @@ b = a.from_numpy()
 torch.save(x, 'tensor.pt')  # 保存
 x = torch.load('tensor.pt')  # 读取
 ```
+
 > `Tensor`的保存支持多种数据类型，可以是`Tensor`，也可以是`list`和`dictionary`，保存的 `Tensor` 和读取的 `Tensor` 具有相同的类型。`Tensor`会被保存到以`.pt`为后缀名的文件中。
 
 ## 自动求梯度

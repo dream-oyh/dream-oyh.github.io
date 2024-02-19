@@ -69,7 +69,11 @@ export default sidebar({
                     },
                     {
                       text: "卷积神经网络",
-                      link:"4convolutional_nn.md",
+                      collapsible: true,
+                      children:[
+                        "4.1convolutional_nn_basic.md",
+                        "4.2LeNet.md",
+                      ]
                     }
                 ],
             }

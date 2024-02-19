@@ -17,7 +17,7 @@ Vim 是一个多模态编辑器：它对于插入文字和操纵文字有不同�
 
 [想啃书的话可以看看这里](https://awesome-programming-books.github.io/vim/Vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7.pdf)
 
-> The Missing 里面是这么说的，但是对于一个新手小白实在是不适应 vim 的操作逻辑
+> I try to use vim for a short time, but it can't work for me effectively. I can't get accustomed to the strange operation of vim. In a few moments, I gave up. But! When I shift to the normal keyboard. I find that I can't work without vim. The sharp and rapid movement can let me locate quickly and acuurately. One difficult is that there are many conflicting keys, which I need to make some sets. The other is that it's troublesome to shift from Chinese to English.(~~Well, that's dropout Chinese to wirte!(like this paragraph)~~) 
 
 以下的键位均为个人修改映射后的键位，原键位参考学习文档中的键位设置。
 
@@ -46,7 +46,7 @@ Vim 是一个多模态编辑器：它对于插入文字和操纵文字有不同�
 - 可视模式（Visual mode）——可以用于选择文本块
   ::: tip vim 切换模式键位
   - `<Esc>`键 支持从任意模式返回正常模式
-  - `h` 切换至插入模式(修改后)
+  - `h` 切换至插入模式 (修改后)
   - `R` 进入替换模式
   - `v` 进入可视化（一般）模式
   - `<Shift-v>` 进入可视（行）模式
@@ -105,11 +105,13 @@ Vim 是一个多模态编辑器：它对于插入文字和操纵文字有不同�
 - `%`匹配括号移动（前提是要把光标移动到括号上）
 - `*`匹配光标所在单词，并移动到**下一个**匹配单词
 - `#`匹配光标所在单词，并移动到**上一个**匹配单词
+- `<C-a>`移动至文件首行 (修改)
 
 #### 其他进阶操作
 
 - `u`Undo
 - `<C-w>` Redo(修改)
+- 块选中模式下`S<str>`可为选中的文字两侧加括号/中括号/甚至是 html 标签
 
 #### 组合操作
 
