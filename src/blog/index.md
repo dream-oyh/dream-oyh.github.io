@@ -22,7 +22,7 @@ tag: index
 - 包管理器：`pnpm`
 - 打包器：`vite`
 - 协议：`MIT`
-部署：[Cloudflare Pages](./vuepress.md#博客部署至-cloudflare-pages) | Github Pages
+  部署：[Cloudflare Pages](./vuepress.md#博客部署至-cloudflare-pages) | Github Pages
 
 ## 碎碎念
 
@@ -33,4 +33,3 @@ tag: index
 该板块主要是为了记录开发过程中遇到的问题、博客日志和博客未来的日程，日程部分会记录下一些零碎的想法，便于捕捉灵感，完善博客内容。
 
 最后，Enjoy yourself~
-

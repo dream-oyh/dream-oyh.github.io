@@ -17,13 +17,13 @@ Vim 是一个多模态编辑器：它对于插入文字和操纵文字有不同�
 
 [想啃书的话可以看看这里](https://awesome-programming-books.github.io/vim/Vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7.pdf)
 
-> I try to use vim for a short time, but it can't work for me effectively. I can't get accustomed to the strange operation of vim. In a few moments, I gave up. But! When I shift to the normal keyboard. I find that I can't work without vim. The sharp and rapid movement can let me locate quickly and acuurately. One difficult is that there are many conflicting keys, which I need to make some sets. The other is that it's troublesome to shift from Chinese to English.(~~Well, that's dropout Chinese to wirte!(like this paragraph)~~) 
+> I try to use vim for a short time, but it can't work for me effectively. I can't get accustomed to the strange operation of vim. In a few moments, I gave up. But! When I shift to the normal keyboard. I find that I can't work without vim. The sharp and rapid movement can let me locate quickly and acuurately. One difficult is that there are many conflicting keys, which I need to make some sets. The other is that it's troublesome to shift from Chinese to English.(~~Well, that's dropout Chinese to wirte!(like this paragraph)~~)
 
 以下的键位均为个人修改映射后的键位，原键位参考学习文档中的键位设置。
 
 ## Vim in VScode
 
-以下配置均为我的 Vim 编辑器在 VSCode 中的个性化修改，通过修改`settings.json`可以对键位进行调整，调整方式如下：
+以下有标注“（修改）”的配置均为我的 Vim 编辑器在 VSCode 中的个性化修改，通过修改`settings.json`可以对键位进行调整，调整方式如下：
 
 ```json
  // 正常模式下的非递归按键绑定
@@ -106,12 +106,40 @@ Vim 是一个多模态编辑器：它对于插入文字和操纵文字有不同�
 - `*`匹配光标所在单词，并移动到**下一个**匹配单词
 - `#`匹配光标所在单词，并移动到**上一个**匹配单词
 - `<C-a>`移动至文件首行 (修改)
+- `fa` 到下一个为 a 的字符处，a 可以修改为其他字符
+- `t,` 到逗号前的第一个字符，逗号可以变为其他字符
+- `3fa` 移动到下一个 a 的字符处，并重复 3 次
+- `3t,` 移动到逗号前的第一个字符，并重复 3 次
+- `<Shift-f>`和`<Shift-t>`，和`f` `t`一样，只不过方向相反
+
+::: tip 区域选择
+
+`<action> a <object>` 或 `<action>i<object>`
+
+前者选择（或复制或删除）到的内容会包括`<object>`符号本身，但是后者选择（或复制或删除）到的内容不包括`<object>`符号本身。
+
+- `<action>`可以是任何命令，如`d`删除，`y`拷贝，`v`以可视模式选择
+- `<object>`可以是`w`一个单词、`s`一个句子，一个字符`"` `'` `(` `[` `{`
+
+假设有一串字符`(map (+) ("foo"))`，光标现在在第一个 o 处
+
+- `vi"`，会选择`foo`
+- `va"`，会选择`"foo"`
+- `vi)`，会选择`"foo"`
+- `va)`，会选择`("foo")`
+- `v2i)`，会选择`map (+) ("foo")`
+- `v2a)`，会选择`(map (+) ("foo"))`
+  :::
 
 #### 其他进阶操作
 
 - `u`Undo
 - `<C-w>` Redo(修改)
 - 块选中模式下`S<str>`可为选中的文字两侧加括号/中括号/甚至是 html 标签
+
+::: tip 组合操作
+配合前面的区域选择，`S<str>`操作可以选择任意区域内容并在两边加上指定的符号。
+:::
 
 #### 组合操作
 

@@ -19,7 +19,8 @@ export default sidebar({
                     "vscode.md",
                     "latex.md",
                     "shell.md",
-                    "vim.md"
+                    "vim.md",
+                    "Linux.md"
                 ],
             },
             {
