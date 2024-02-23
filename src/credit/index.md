@@ -34,6 +34,21 @@ sidebar: heading
 当然，我们积极欢迎学有余力的同学向资料站投稿资料，共享资料站需要大家一起来参与，才能做大做全，如果有投稿意向请联系 QQ 1399541701，备注：“资料站投稿，专业 - 班级 - 姓名”。
 :::
 
+### 从<HopeIcon icon="gitee"/>gitee 下载单文件方法
+
+> 由于 github 与 gitee 均为代码仓库托管平台，并不支持分离的文件夹下载，只好麻烦大家分别选取单独的文件独个下载。
+
+下载方式：
+
+1. 进入[ gitee 仓库 ](https://gitee.com/o19859860010/csu_stte_files)后，可以点击文件夹选择内容，也可以通过下方文件索引进入；
+2. 单击想要下载的文件，`注意一定要点开这个文件才会有下载入口`；
+3. 点开文件后就可以看见页面中的下载入口，点击下载即可。
+
+### 从<HopeIcon icon="gitee"/>gitee 下载全仓库方法
+
+1. 进入[ gitee 仓库 ](https://gitee.com/o19859860010/csu_stte_files)后，点击文件夹右上角橙色的`克隆/下载`按钮
+2. 弹出页面后，点击右上角`下载ZIP`即可。
+
 ## 资料站索引
 
 ### [数学物理公共课](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课)
@@ -53,7 +68,7 @@ sidebar: heading
     - 微积分专题练习
     - 泰勒公式
     - [泰勒公式的深层次理解视频](https://www.bilibili.com/video/BV1T44y1e7JQ)
-    :::
+      :::
   - [高数知识点笔记（一）（二）（三）](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/高数笔记)
 - [大学物理（二）](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/大学物理（二）)
   - [整本书公式整理](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/大学物理（二）/整本书公式整理)
