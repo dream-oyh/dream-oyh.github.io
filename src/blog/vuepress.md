@@ -23,9 +23,9 @@ git branch -m images
 git push -u -f origin images
 ```
 
-```origin``` 可自行编辑，ssh 地址优先于 https 地址
+`origin` 可自行编辑，ssh 地址优先于 https 地址
 
-这里需要用```-f```进行强制覆盖，```origin```应与上文中仓库名称相同
+这里需要用`-f`进行强制覆盖，`origin`应与上文中仓库名称相同
 
 ## 博客部署及源码上传
 
@@ -56,6 +56,7 @@ cd -
 `</font>`改用`</text>`标签之后即可正常使用
 
 错误代码如下：
+
 ```
 TypeError: Invalid value used as weak map key
     at WeakMap.set (<anonymous>)
@@ -105,7 +106,7 @@ TypeError: Invalid value used as weak map key
 
 利用 iframe 标签在你的 markdown 中插入思维导图
 
-``` html
+```html
 <iframe :src="$withBase('/markmap/xxx.html')" width="100%" height="800" frameborder="0" scrolling="Yes" leftmargin="0" topmargin="0"></iframe>
 ```
 
@@ -119,18 +120,18 @@ TypeError: Invalid value used as weak map key
 <img alt="思维导图语法" src="https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/vuepress_3.png"  />
 </div>
 
-
 ## 转移 Blog 本地文件至 Ubuntu
 
 由于之前在本地搭建了 Blog，现在若需要在 Ubuntu 系统上编辑时，需要调整 `node.js`版本，具体步骤如下：
 
 1. 先删除本地文件内`node_modules`文件夹
 2. 执行`npm i`重新安装即可。
+
 ## npm 配置镜像源
 
 采用阿里镜像源：
 
-``` sh
+```sh
 npm config set registry https://registry.npmmirror.com
 ```
 
@@ -153,3 +154,28 @@ npm config set registry https://registry.npmjs.org
 先将博客静态文件上传至 github repo（仓库名不重要）的 main 分支（其他分支也行）
 
 打开[pages.dev](https://pages.cloudflare.com/)，用邮箱注册帐号并登陆。进入平台后，依照提示选择绑定 github 帐号，链接到仓库的 main 分支（也就是你存放的分支）。按照个人喜好定义`Project name`，比如本博客是`dream-oyh`，生成的域名会显示在下方，有关`build`的选项可以不选，直接点击`Save and deploy`即可完成。
+
+## 博客访客数据分析-Google Analytics
+
+利用 Google Analytics 提供的服务分析网页数据。直接进[ 官网操作 ](https://analytics.google.com/analytics/web/)，按照提示填写账号和媒体资源，最后填写博客域名，Google 会给出一段 html 代码，将其加入`config.ts`的`head`中即可，代码如下：
+
+```ts
+head:[
+    [
+    "script",
+    {
+      async: true,
+      src:"https://www.googletagmanager.com/gtag/js?id=G-NQR8MZSFKD",
+    },
+    ],
+    [
+    "script",
+    {},
+    `<!-- Google tag (gtag.js) -->
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-xxxxxxxx');`,
+    ],
+]
+```

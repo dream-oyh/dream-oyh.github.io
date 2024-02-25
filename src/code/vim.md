@@ -1,6 +1,6 @@
 ---
 date: 2024-02-16
-icon: keyboard
+icon: vim
 category:
   - 计算机
   - 底层
@@ -114,7 +114,7 @@ Vim 是一个多模态编辑器：它对于插入文字和操纵文字有不同�
 
 ::: tip 区域选择
 
-`<action> a <object>` 或 `<action>i<object>`
+`<action> a <object>` 或 `<action>h<object>`(修改过)
 
 前者选择（或复制或删除）到的内容会包括`<object>`符号本身，但是后者选择（或复制或删除）到的内容不包括`<object>`符号本身。
 
@@ -123,11 +123,11 @@ Vim 是一个多模态编辑器：它对于插入文字和操纵文字有不同�
 
 假设有一串字符`(map (+) ("foo"))`，光标现在在第一个 o 处
 
-- `vi"`，会选择`foo`
+- `vh"`，会选择`foo`
 - `va"`，会选择`"foo"`
-- `vi)`，会选择`"foo"`
+- `vh)`，会选择`"foo"`
 - `va)`，会选择`("foo")`
-- `v2i)`，会选择`map (+) ("foo")`
+- `v2h)`，会选择`map (+) ("foo")`
 - `v2a)`，会选择`(map (+) ("foo"))`
   :::
 
