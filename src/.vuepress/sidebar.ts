@@ -77,7 +77,10 @@ export default sidebar({
                         "4.1convolutional_nn_basic.md",
                         "4.2LeNet.md",
                         "4.3AlexNet.md",
-                        "4.4VGG.md"
+                        "4.4VGG.md",
+                        "4.5NiN.md",
+                        "4.6GoogleNet.md",
+
                       ]
                     }
                 ],
