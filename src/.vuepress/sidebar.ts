@@ -20,7 +20,9 @@ export default sidebar({
                     "latex.md",
                     "shell.md",
                     "vim.md",
-                    "Linux.md"
+                    "Linux.md",
+                    "github.md",
+                  
                 ],
             },
             {
