@@ -40,3 +40,5 @@ clone 仓库后，就可以在该本地仓库自由修改内容，并且通过[ 
 - 创建 pull request
 
 在本地仓库中，点击绿色按键`code`下方的`contribute`，再点击`open pull request`，修改自述文件与提交分支，再点击`Create pull request`，就成功地创建了 pr，之后等待仓库主审核即可。
+
+> gitee 的创建 pr 方法与 github 略有不同，差别在 fork 入口有些许调整。gitee 将 fork 入口放在了`main`分支右侧的`+`号中，点击`+`后再点击`创建 pull request`即可。
