@@ -80,6 +80,8 @@ export default sidebar({
                         "4.4VGG.md",
                         "4.5NiN.md",
                         "4.6GoogleNet.md",
+                        "4.7ResNet.md",
+
 
                       ]
                     }
