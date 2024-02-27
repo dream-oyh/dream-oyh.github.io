@@ -34,6 +34,11 @@ export default hopeTheme({
   // 页脚
   footer: "希望你能在此有所收获",
   displayFooter: true,
+  encrypt:{
+      config:{
+        "/blog/schedule.html":["0712"],
+      }
+  },
 
   // 博客相关
   blog: {
