@@ -169,7 +169,14 @@ export default sidebar({
                     "software.md",
                     "web.md",
                     "film_recommend.md",
+                ]
+            },
+            {
+                text: "学习路线",
+                icon: "graduate",
+                children:[
                     "CSU.md",
+                    "baoyan.md"
                 ]
             },
             {
