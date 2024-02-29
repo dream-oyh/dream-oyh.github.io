@@ -169,6 +169,7 @@ export default sidebar({
                     "software.md",
                     "web.md",
                     "film_recommend.md",
+                    "CSU.md",
                 ]
             },
             {
