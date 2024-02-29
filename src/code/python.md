@@ -5,7 +5,6 @@ category: 编程
 tag: 教程
 ---
 
-
 # Python
 
 ## 为什么我选择了 Python
@@ -16,13 +15,13 @@ tag: 教程
 
 ## 包管理器
 
-### pip 
+### pip
 
 这是 Python 自带的包管理器，但是存在一定的问题，后将其弃用，改用[poetry](/code/python.html#poetry-在用)，其问题可见[产品吐槽](/artical/weakness.html#pip)板块。
 
 ### poetry（在用）
 
-听从[绝对值_x](https://absx.pages.dev/)的意见，选用了更为轻量且方便的 poetry 包管理器，有效解决了 pip 存在的两个问题，以下内容参考来源于[绝对值_x](https://absx.pages.dev/)博客。
+听从[绝对值\_x](https://absx.pages.dev/)的意见，选用了更为轻量且方便的 poetry 包管理器，有效解决了 pip 存在的两个问题，以下内容参考来源于[绝对值\_x](https://absx.pages.dev/)博客。
 
 #### 安装
 
@@ -46,27 +45,28 @@ poetry config cache-dir D:\\poetry_enev
 **新建项目：** `poetry new <package name>`
 
 - 创建 `.toml` 文件：`poetry init`，然后跟着提示填入信息
-**包管理**
+  **包管理**
 
 - 添加包：`poetry add <package name>`
 - 移除包：`poetry remove <package name>`
 - 列出可用包：`poetry show`
-**安装依赖**
+  **安装依赖**
 
 - 从现有 `pyproject.toml` 安装：`poetry install`，会自动新建虚拟环境
 - 从 `requirements.txt` 安装（不够完善）：`cat requirements.txt | xargs -I % sh -c 'poetry add "%"' (ref)`
-**虚拟环境**
+  **虚拟环境**
 
 - 激活：`poetry shell`
 - 删除虚拟环境：`poetry env remove --all`
 - 运行：`poetry run python <filename>.py`
+
 ### conda
 
 拒绝 Anaconda 的大体积，建议安装 Miniconda 作为环境管理器。
 
 #### 安装
 
-::: tabs 
+::: tabs
 
 @tab Windows
 
@@ -82,6 +82,7 @@ scoop install miniconda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh  # 接下来一路空格
 ```
+
 :::
 
 #### 基本命令
@@ -93,4 +94,43 @@ conda activate <name> # 激活环境
 conda deactivate    # 关闭环境
 conda remove -n <name> --all  # 删除环境，也可进入 conda 安装目录下的 /envs/ 删除文件夹
 conda list  # 查看环境内工具包
-````
+```
+
+## 修饰符
+
+### @classmethod
+
+classmethod 修饰的方法不需要实例化，不需要 self 参数，但第一个参数需要是表示自身类的 cls 参数，可以来调用类的属性，类型，实例化对象等。
+
+```python
+class A(object):
+  bar = 1
+  def fun1(self):
+    print("foo")
+  @classmate
+  def func2(cls):
+    print ('func2')
+    print (cls.bar)
+    cls().fun1()   # 调用 foo 方法
+A.func2()               # 不需要实例化
+```
+
+输出：
+
+```
+func2
+1
+foo
+```
+
+## 生成器函数
+
+Python 中提供了关键字`yield`，用来定义生成器函数，可以看看[这篇教程](https://blog.csdn.net/mieleizhi0522/article/details/82142856)
+
+## Async / Await 协程函数
+
+Async 为 Python 提供了协程函数的定义，相较于传统的单线程工作方式，协程函数可以实现异步执行和多线程工作，并且可以暂停和恢复执行。
+
+[tutorial](https://zhuanlan.zhihu.com/p/27258289)
+
+async 定义了协程函数，await 定义了协程函数的暂停和恢复执行。

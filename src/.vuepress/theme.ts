@@ -37,6 +37,7 @@ export default hopeTheme({
   encrypt:{
       config:{
         "/blog/schedule.html":["0712"],
+        "/article/baoyan.html":["1989"],
       }
   },
 
