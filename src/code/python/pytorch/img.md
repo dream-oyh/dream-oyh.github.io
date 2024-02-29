@@ -11,3 +11,68 @@
 ## [NN-SVG](https://alexlenail.me/NN-SVG/)
 
 该网站提供了全连接层、LeNet 和 AlexNet 类型的网络可视化，类型比较受限，但是入手门槛低，参数调整直观方便，对于这三类模型的画图还是挺不错的。
+
+## [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet)
+
+### Getting started
+
+- 环境要求
+
+  - installed [MikTex](https://miktex.org/download)
+  - installed git
+
+- clone 项目
+
+```sh
+git clone git@github.com:HarisIqbal88/PlotNeuralNet.git
+cd PlotNeuralNet
+```
+
+- 执行示例
+
+```sh
+cd pyexamples/
+bash ../tikzmake.sh test_simple
+```
+
+::: details 报错：xdg-open: command not found on Win
+Github 原仓库中已经有[issue](https://github.com/HarisIqbal88/PlotNeuralNet/issues/98)
+
+我对`tikzmake.sh`中的代码进行了修改，修改后如下：
+
+```sh
+python $1.py
+pdflatex $1.tex
+
+rm *.aux *.log *.vscodeLog
+rm *.tex
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    open $1.pdf
+elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    xdg-open $1.pdf
+else
+    start $1.pdf
+fi
+```
+
+:::
+
+### Modify
+
+本项目从本质上来说是用 latex 写的，所以可以通过 shell 控制 tex 文件，进入`/pycore/tikzeng.py`文件，修改`to_generate()`函数。
+
+```python
+def to_generate( arch, pathname="file.tex" ):
+    with open(pathname, "w") as f: 
+        for c in arch:
+            print(c)
+            f.write( c )
+     
+    os.system("pdflatex"+pathname)
+    os.remove("*.log")
+    os.remove("*.aux")
+    os.remove("*.tex")
+```
+
+这样就可以不需要调用脚本文件，直接运行 python 程序并渲染出图像。
