@@ -9,6 +9,11 @@ export default sidebar({
                     "html.md",
                     "markdown.md",
                     "python.md",
+                    {
+                      text:"Arduino 开发板",
+                      icon:"arduino",
+                      link:"/code/Arduino/"
+                    }
                     
                 ],
             },
@@ -85,7 +90,8 @@ export default sidebar({
 
 
                       ]
-                    }
+                    },
+                    "img.md"
                 ],
             }
                 
