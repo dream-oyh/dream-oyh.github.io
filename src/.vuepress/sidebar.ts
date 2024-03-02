@@ -168,6 +168,7 @@ export default sidebar({
                     "weakness.md",
                 ]
             },
+            "diary.md",
             {
                 text: "推荐",
                 icon: "34wujiaoxingpingfenshixin",

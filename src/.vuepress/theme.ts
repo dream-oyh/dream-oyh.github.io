@@ -12,7 +12,7 @@ export default hopeTheme({
   },
   favicon: "/web_logo.jpg",
 //   iconAssets: "iconfont",
-  iconAssets:"//at.alicdn.com/t/c/font_4435976_ub7gm4fddpp.css",
+  iconAssets:"//at.alicdn.com/t/c/font_4435976_w0w7h7l2fjq.css",
 
   logo: "/web_logo.jpg",
 
@@ -38,6 +38,7 @@ export default hopeTheme({
       config:{
         "/blog/schedule.html":["0712"],
         "/article/baoyan.html":["1989"],
+        "/article/diary.html":["0712"],
       }
   },
 
