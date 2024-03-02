@@ -16,6 +16,8 @@
 
 ::: warning 评价
 一个很有新意的想法，利用 latex 画图很有意思，效果也很好，但是 python 核心函数写的依托答辩。。。必要时需要更改核心函数来优化体验。
+
+该程序可以用于科研绘图，但是对于学习过程还是不那么直观，更为直观的可以参考[netron 工作流](#netron工作流)
 :::
 
 ### Getting started
@@ -221,3 +223,90 @@ def to_skip(of,to,pos=1.25)
 - `to_ConvRes()` 残差层
 - `to_ConvSoftMax()` 卷积+Softmax 层
 - `to_SoftMax()` Softmax 层
+
+## [Netron 工作流](https://netron.app/)
+
+### 环境配置
+
+```sh
+conda install onnx
+```
+
+我的 pytorch 是在 conda 虚拟环境下安装的，所以采用了 conda 安装指令。
+
+### pytorch 模型转成 ONNX 模型
+
+运行以上代码，将 pytorch 模型转成 onnx 模型。
+
+```python
+with torch.no_grad():
+    torch.onnx.export(
+        net,  # 要转换的模型
+        x,  # 模型的输入
+        "LeNet.onnx",  # 导出的.onnx 文件名（注意文件扩展名为.onnx）
+        opset_version=11,  # ONNX 算子集版本
+        input_names=["input"],  # 输入张量的名字
+        output_names=["output"],  # 输出张量的名字
+    )
+```
+
+### 导入 Netron
+
+将`.onnx`模型导入[netron](https://netron.app/)，即可生成模型框图。
+
+此处以`LeNet`模型为例，导入 netron 后效果图如下：
+
+![](https://github.com/dream-oyh/dream-oyh.github.io/blob/images/Python_pytorch/LeNet.png?raw=false =100x)
+
+> 可以在 netron 网页左上角的菜单栏中将网络改成水平的。
+
+::: details 模型源码
+
+```python
+import sys
+
+import torch
+import torch.nn as nn
+
+sys.path.append(".")
+
+
+class LeNet(nn.Module):
+    def __init__(self, *args, **kwargs) -> None:
+        super().__init__(*args, **kwargs)
+        self.conv = nn.Sequential(
+            nn.Conv2d(1, 6, 5),
+            nn.Sigmoid(),
+            nn.MaxPool2d(2, 2),
+            nn.Conv2d(6, 16, 5),
+            nn.Sigmoid(),
+            nn.MaxPool2d(2, 2),
+        )
+        self.fc = nn.Sequential(
+            nn.Linear(16 * 4 * 4, 120),
+            nn.Sigmoid(),
+            nn.Linear(120, 84),
+            nn.Sigmoid(),
+            nn.Linear(84, 10),
+        )
+
+    def forward(self, x):
+        return self.fc(self.conv(x).view(x.shape[0], -1))
+
+
+net = LeNet()
+x = torch.randn(size=(1, 1, 28, 28))
+print(net(x).shape)
+with torch.no_grad():
+    torch.onnx.export(
+        net,  # 要转换的模型
+        x,  # 模型的输入
+        "LeNet.onnx",  # 导出的.onnx 文件名（注意文件扩展名为.onnx）
+        opset_version=11,  # ONNX 算子集版本
+        input_names=["input"],  # 输入张量的名字
+        output_names=["output"],  # 输出张量的名字
+    )
+
+```
+
+:::
