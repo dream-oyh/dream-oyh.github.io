@@ -70,3 +70,7 @@ void loop(){
 
 需要在刚产生的`arduino.json`文件里，添加`"output": "../ArduinoOutput"`（这个路径可以自定义和更改），这样这个`warning`就能解决了。 ~~添加时，注意不要漏了逗号~~
 :::
+
+::: details 问题解决：Verify 后终端出现中文乱码
+参考[该文档](https://blog.csdn.net/weixin_42225355/article/details/104906950)修改即可 ~~你就说这个破 arduino 做的是什么东西啊，乱七八糟的问题一堆。。~~
+:::
