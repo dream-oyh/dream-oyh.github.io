@@ -74,3 +74,13 @@ RAM Disk 是一种将内存用作硬盘的虚拟磁盘，用来存放系统临�
 其他选择默认配置，创建后格式化新硬盘即可使用。
 
 该软件优点见[绝对值 x 博客横评](https://absx.pages.dev/articles/ramdisk.html#imdisk-toolkit)
+
+## iPhone
+
+::: tip 提示
+本人是 iPhone 用户，虽然很多优秀的 Android 软件无法使用，但是苹果的细节设计真的很戳我。
+:::
+
+### Code Editor
+
+移动端的代码编辑器，支持连接 github 与 gitee，需要先在网页端构建私人令牌。

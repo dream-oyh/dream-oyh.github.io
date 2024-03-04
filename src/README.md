@@ -3,6 +3,7 @@ home: true
 layout: BlogHome
 heroImage: /index_logo.png
 heroText: Dream_oyh 的 blog
+bgImage: /index_bg.jpg
 heroFullScreen: true
 tagline: 万里蹀躞，以此为归
 projects:
