@@ -123,6 +123,22 @@ func2
 foo
 ```
 
+## 自带模块库
+
+### os
+
+`os`库让 Python 能够与系统命令行交互，通过 python 操作系统文件，运行脚本，基本命令如下：
+
+```python
+import os # 导入 os 库
+os.chdir('/home') # 切换到指定目录
+os.system('<cmd>') # 在命令行运行指定命令
+os.listdir('.') # 列出当前目录下的文件
+os.remove('<file>') # 删除指定文件
+os.mkdir('<dir>') # 创建指定目录
+os.rmdir('<dir>') # 删除指定目录
+```
+
 ## 生成器函数
 
 Python 中提供了关键字`yield`，用来定义生成器函数，可以看看[这篇教程](https://blog.csdn.net/mieleizhi0522/article/details/82142856)
