@@ -49,7 +49,7 @@ export default sidebar({
                 collapsible: true,
                 children:[
                     "tips/regex.md",
-                    "pdf2docx.md"
+                    "tips/pdf2docx.md"
                 ],
             },
 
