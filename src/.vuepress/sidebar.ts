@@ -48,7 +48,8 @@ export default sidebar({
                 text: "锦囊",
                 collapsible: true,
                 children:[
-                    "tips/regex.md"
+                    "tips/regex.md",
+                    "pdf2docx.md"
                 ],
             },
 
