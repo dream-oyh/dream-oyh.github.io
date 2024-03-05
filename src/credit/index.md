@@ -109,6 +109,7 @@ sidebar: heading
 ### [力学类](https://gitee.com/o19859860010/csu_stte_files/tree/main/力学类)
 
 - [材料力学](https://gitee.com/o19859860010/csu_stte_files/tree/main/力学类/材料力学)
+  - [材料力学公式整理](https://mp.weixin.qq.com/s/jkG9NhbX2oJWOiYsTKb6-A)
 - [理论力学](https://gitee.com/o19859860010/csu_stte_files/tree/main/力学类/理论力学)
 
 ### [政治类](https://gitee.com/o19859860010/csu_stte_files/tree/main/政治类/)
@@ -123,6 +124,7 @@ sidebar: heading
 
 - [MATLAB](https://gitee.com/o19859860010/csu_stte_files/tree/main/MATLAB)
 - [计算机图形学](https://gitee.com/o19859860010/csu_stte_files/blob/main/计算机图形学--笔记.pdf)
+  - [计算机图形学 - 大作业](https://gitee.com/o19859860010/csu_stte_files/releases/tag/1.0)
 
 ### 学分之外
 
