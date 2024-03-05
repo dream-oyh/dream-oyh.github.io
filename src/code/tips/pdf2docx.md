@@ -1,5 +1,6 @@
 ---
 date: 2024-03-05
+icon: pdf
 category: 锦囊
 tag: 教程
 ---
