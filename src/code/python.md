@@ -96,6 +96,10 @@ conda remove -n <name> --all  # 删除环境，也可进入 conda 安装目录�
 conda list  # 查看环境内工具包
 ```
 
+## GUI
+
+我现在正在使用的 GUI 库是 customtkinter，其基于 python 原生 tkinter GUI 库开发，对原生控件在美观和易用性上做了处理，用熟练之后个人认为还是挺好用的（反正比原生好看太多），使用文档[在这](https://customtkinter.tomschimansky.com/documentation/widgets/frame) ~~文档写的依托~~，github 源码[点击此处](https://github.com/tomschimansky/customtkinter)
+
 ## 修饰符
 
 ### @classmethod
