@@ -98,7 +98,44 @@ conda list  # 查看环境内工具包
 
 ## GUI
 
-我现在正在使用的 GUI 库是 customtkinter，其基于 python 原生 tkinter GUI 库开发，对原生控件在美观和易用性上做了处理，用熟练之后个人认为还是挺好用的（反正比原生好看太多），使用文档[在这](https://customtkinter.tomschimansky.com/documentation/widgets/frame) ~~文档写的依托~~，github 源码[点击此处](https://github.com/tomschimansky/customtkinter)
+我现在正在使用的 GUI 库是 customtkinter，其基于 python 原生 tkinter GUI 库开发，对原生控件在美观和易用性上做了处理，用熟练之后个人认为还是挺好用的（反正比原生好看太多），使用文档[在这](https://customtkinter.tomschimansky.com/documentation/) ~~文档写的依托~~，github 源码[点击此处](https://github.com/tomschimansky/customtkinter)
+
+### 快捷键绑定
+
+**踩坑 1：快捷键的前提是有焦点，但是焦点一般不在控件身上，而是在整个窗口上**
+
+customtkinter 的每个 widget 都是支持快捷键的，并且提供了`bind()`函数绑定快捷键，但是这个前提在于，计算机系统的焦点要在该 widget 上。但是在刚进入窗口时，计算机的焦点是整个窗口，而非特定的 widget。
+
+在查询很多资料后，我采用的方法是为窗口绑定快捷键。
+
+```python
+import costumtkinter as tk
+app = tk.CTk()
+app.bind("<Return>", lambda _: app.call_func())
+app.mainloop()
+```
+
+这样窗口绑定了快捷键，并且与响应的回调函数匹配。
+
+::: important 理解
+这里的回调函数，是和你想要的那个按钮/标签/滑动条的参数匹配的，比如说，你的按钮回调函数是`step_forward()`，那这里的回调函数也是调用`step_forward()`函数，其实本质上是让 app 窗口替这个按钮执行该函数。
+
+> 但是一般谁会想到让窗口代替执行啊，最直接的想法难道不就是让按钮直接绑定吗？可恶的 Tkinter
+> :::
+
+**踩坑 2：回调函数的写法**
+
+这里的之所以采用`lambda`关键字，是因为`bind()`的第二个参数会返回一个事件作为参数输入后面的函数中。但是在我的项目里，我是不需要这个事件作为输入的，所以采用`_`抛弃了这个参数。
+
+其次，`lambda`里面的可调用对象是需要加`()`的，否则没法用。 ~~这个盲点看了好久才发现~~
+
+**踩坑 3：按键的写法**
+
+这里就不得不提到 python 里`事件`这个概念了，详情可以看[这篇博客](https://www.cnblogs.com/yuanqiangfei/p/11624546.html)，他对`事件`这个概念做了比较深的剖析，在这里说一下我的踩坑点和学到的快捷键。
+
+1. 我本来想要设置`<Enter>`作为快捷键的，但是`<Enter>`代表的意思是鼠标进入窗口，真正的回车键应该打作`<Return>`
+2. `<Key-s>`表示按下`s`键，`Key`三个字决定了这个信号来自键盘
+3. `<Button-1>`表示按下鼠标左键，左中右三者数字分别是`123`，`<Button>`表示信号来自鼠标。
 
 ## 修饰符
 
@@ -139,9 +176,34 @@ os.chdir('/home') # 切换到指定目录
 os.system('<cmd>') # 在命令行运行指定命令
 os.listdir('.') # 列出当前目录下的文件
 os.remove('<file>') # 删除指定文件
-os.mkdir('<dir>') # 创建指定目录
+os.mkdir('<dir>', exist_ok=True) # 创建指定目录
 os.rmdir('<dir>') # 删除指定目录
 ```
+
+### csv
+
+> 2024.3 写视频打标签 GUI 工具的时候，师兄让我把标签写入 csv 文件，但是我对 pandas 又用的不熟练，就只能用 csv 先做一个替代，现将使用方式记录如下
+
+#### csv 读取文件
+
+读取文件我还是觉得 pandas 会更方便一点，用`.head()`和`.tail()`读取头行和尾行，再用`.iloc[]`定位到具体数值，比 csv 方便很多。
+
+#### csv 写入文件
+
+```python
+with open("example.csv",mode = 'w', newline='') as f:
+  csv.writer(f).writerow(data: list)
+```
+
+调用该语句就能在 csv 文件中写入`data`数据
+
+> 我最开始的时候没加`newline=''`导致我遇到一个问题，就是我一旦`writerow`写进一个新的行，软件总会自动先跳一空行，再写入数据，就使文档结构很奇怪
+>
+> 网上查找后才发现需要加上`newline=''`参数，规避空行 ~~（python 设计师你怎么回事）~~
+
+#### csv 追加文件
+
+如果将`mode`设成`'w'`，会导致写入时覆盖已有数据。解决方法时将`'w'`修改为`'a+'`，将模式改为“追加”模式，这样再用`writerow`写入时，就会在 csv 文件的最下方加入新数据，而非完全覆盖了。
 
 ## 生成器函数
 
