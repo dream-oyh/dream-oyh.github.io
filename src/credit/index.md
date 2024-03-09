@@ -111,6 +111,7 @@ sidebar: heading
 - [材料力学](https://gitee.com/o19859860010/csu_stte_files/tree/main/力学类/材料力学)
   - [材料力学公式整理](https://mp.weixin.qq.com/s/jkG9NhbX2oJWOiYsTKb6-A)
 - [理论力学](https://gitee.com/o19859860010/csu_stte_files/tree/main/力学类/理论力学)
+- [流体力学实验报告]()
 
 ### [政治类](https://gitee.com/o19859860010/csu_stte_files/tree/main/政治类/)
 
