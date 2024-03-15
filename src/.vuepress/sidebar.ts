@@ -42,6 +42,7 @@ export default sidebar({
                     "python/Seaborn.md",
                     "python/web_crawler.md",
                     "python/websocket.md",
+                    "python/LocalAugment.md",
                 ],
             },
             {
