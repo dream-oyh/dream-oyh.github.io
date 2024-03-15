@@ -1,13 +1,14 @@
----
-date: 2024-03-15
-icon: Augmentation
----
-
 # LocalAugment
 
 本 python 包用于深度学习的数据增强。不同于 `torchvision.transforms()`转换器，`LocalAugment` 提供在本地进行图像增强，并将增强后的图像保存在本地，以便于之后加入数据集中。
 
 除此之外，`LocalAugment`在对图像变换的同时能够记录下数据集标签变换后的位置与大小，数据集标签采用矩形框中心点与长宽的定位模式，能够保证图像在经过变换后，标签依然能够被正确地定位，省去转换后手动打标签的繁琐工作。
+
+## install
+
+```sh
+pip install local-augment
+```
 
 ## Quickly Start
 
@@ -88,7 +89,7 @@ trans = LA.Transformer(source_dir, output_dir, label_dir, num_images)
 
 经高斯噪声转换器处理后的图像会在其文件名后加入`_n`标识。
 
-### Resize(time, shuffle=True)
+### randomResize(time, shuffle=True)
 
 图像缩放转换器
 
