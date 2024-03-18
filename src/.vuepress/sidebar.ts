@@ -13,7 +13,8 @@ export default sidebar({
                       text:"Arduino 开发板",
                       icon:"arduino",
                       link:"/code/Arduino/"
-                    }
+                    },
+                    "cpp.md"
                     
                 ],
             },

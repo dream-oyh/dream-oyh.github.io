@@ -12,7 +12,7 @@ icon: Augmentation
 - 不同于一般图像增广库，本`LocalAugment`库是先在本地图片上做增强，导出增强后的图片直接作为训练集使用，而不是加在网络的图像预处理部分。
 - `LocalAugment`库采用矩形中心框与长宽的标签定位模式，支持在本地进行图像增强的同时，记录下标签变换后的位置与大小，能够保证图像在经过变换后，标签依然能够被正确地定位，省去转换后手动打标签的繁琐工作。
 
-## install
+## Install
 
 ```sh
 pip install localAugment

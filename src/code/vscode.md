@@ -6,6 +6,47 @@ tag: 教程
 
 # VSCode
 
+## C++ 开发环境配置
+
+_2024.03.18_，我终于狠下心来鼓起勇气开始看 C++ 的环境配置，看了一晚上基本算是看了一个大概。
+
+我采用 Clang-Tidy + Clang-format 作为 linter 和 formatter。
+
+插件下载：_Clang-Format_, _CS 128 Clang-Tidy_
+
+### Clang-Format 配置
+
+在*settings.json*中加入：
+
+```json
+{
+  "editor.formatOnSave": true,
+  "clang-format.executable": "/absolute/path/to/clang-format"
+}
+```
+
+其中第二个参数填入*clang-format.exe*的绝对路径，可以用[ everything ](../article/software.md#everything)查找一下，选择在`.vscode`文件夹下的 exe 文件即可。
+
+同时将`"[c]"`与`"[cpp]"`修改为下方所示的配置。
+
+```json
+{
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  }
+}
+```
+
+### Clang-Tidy 配置
+
+在 *VSCode setting* 中，更改如下配置。
+- `clang-tidy.executable` 可执行文件路径，与format 一样，搜索`clang-tidy.exe`的绝对路径
+- `clang-tidy.lintOnSave` True
+- `clang-tidy.fixOnSave` True
+
 ## Arduino 开发环境配置
 
 踩了无数的坑之后，终于把 Arduino 开发板的配置搞定了。

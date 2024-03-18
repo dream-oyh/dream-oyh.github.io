@@ -42,20 +42,20 @@ poetry config cache-dir D:\\poetry_enev
 
 #### 基本命令
 
-**新建项目：** `poetry new <package name>`
-
+**新建项目：**
+-  `poetry new <package name>`
 - 创建 `.toml` 文件：`poetry init`，然后跟着提示填入信息
-  **包管理**
 
+  **包管理**
 - 添加包：`poetry add <package name>`
 - 移除包：`poetry remove <package name>`
 - 列出可用包：`poetry show`
-  **安装依赖**
 
+  **安装依赖**
 - 从现有 `pyproject.toml` 安装：`poetry install`，会自动新建虚拟环境
 - 从 `requirements.txt` 安装（不够完善）：`cat requirements.txt | xargs -I % sh -c 'poetry add "%"' (ref)`
-  **虚拟环境**
 
+  **虚拟环境**
 - 激活：`poetry shell`
 - 删除虚拟环境：`poetry env remove --all`
 - 运行：`poetry run python <filename>.py`
