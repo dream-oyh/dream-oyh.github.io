@@ -59,4 +59,67 @@ poetry add websocket-client
 - 长连接：`websocket.WebSocketApp()`对象
 - 短连接：`websocket.WebSocket()`对象
 
-两种对象的参数和使用方法不太相同 ~~（设成相同的使用方式不好吗！）~~ ，具体可见[文档](https://websocket-client.readthedocs.io/en/latest/examples.html)
+两种对象的参数和使用方法不太相同 ~~（设成相同的使用方式不好吗！）~~ ，具体可见[文档](https://websocket-client.readthedocs.io/en/latest/examples.html)（文档写的很详细啦！不想写教程啦！）
+
+## Socket
+
+在本次机器人视觉比赛过程中，用到了 TCP 通信协议给另外一台位于相同网段下的电脑传输数据，并且有一定的要求，说明如下。
+
+裁判盒软件接收参赛软件的数据格式
+
+|    内容    | 字节数 | 说明                                                                                                              |
+| :--------: | :----: | :---------------------------------------------------------------------------------------------------------------- |
+|  DataType  |   4    | 数据类型，值为 0 表示发送队伍 ID，要求 ID 格式为字母和数字的组合，中间没有空格；值为 1 表示发送 3D 识别结果文件； |
+| DataLength |   4    | 其值为 N，即本次数据包 Data 的字节数                                                                              |
+|    Data    |   4    | 实际接收数据内容，具体内容类型由 DataType 决定                                                                    |
+
+> 采用大端的方式传输数据，例：直接将 int32 类型的 DataType、DataLength 复制到发送缓冲区的前 8 个字节，再将 Data 复制到发送缓冲区，最后发送数据。
+
+```python
+import socket
+import time
+def send_data(s, data_type, data):
+    data_type_bytes = struct.pack(">I", data_type)
+    data_length_bytes = struct.pack(">I", len(data))
+    # 发送数据类型和数据长度
+    s.sendall(data_type_bytes + data_length_bytes)
+    # 发送实际数据
+    s.sendall(data.encode("utf-8"))  # 假设数据是字符串
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connet(('ip-address', <port>))
+send_data(s, 0, 'team-id')
+time.sleep(1)
+send_data(s, 1, 'START\n'+'Goal_ID=CA001;Num=1\n')
+```
+
+其中，`socket`是 python 自带的库，不需要安装环境，可以直接调用。
+
+函数主体中，通过`socket.socket(socket.AF_INET, socket.SOCK_STREAM)`创建通信协议的客户端，通过`connect()`函数连接服务端。
+
+前面这些都没啥问题，把我们卡住的是发送数据，一开始我们完全没看懂裁判盒给出的缓冲区啥的都是啥意思 ~~（虽然现在也不懂）~~，直到问了 GPT 才知道该怎么写。其中最核心的应该是`struct.pack`的打包机制。
+
+> 有关“大端”数据发送，可以见[这篇文档](https://www.techtarget.com/searchnetworking/definition/big-endian-and-little-endian)，区别于“小端”数据发送，“大端”数据时更符合我们读写数据的自然逻辑的。
+
+[struct 官方文档](https://docs.python.org/3/library/struct.html)——用来将字节打包成二进制数据。其中`>I`是对字节的格式化设置，`>`表示数据以大端的对齐方式发送，`I`表示数据以`Undesigned int`的格式发送。而`.pack(format, v1, v2)`函数返回一个包含值 v1、v2、...根据格式字符串格式打包。参数必须与格式所需的值完全匹配。
+
+::: details 粘包问题解决
+在实际应用的时候，我们需要先输送`0`，来告知队名，再输送`1`，来输送数据，但是如果把两行语句挨一块写，会导致缓冲区的数据量太大，从而导致粘包问题。
+
+为此我们加入了`time.sleep(1)`来解决这个问题，先让前面一批数据传完，再传下一批数据。
+
+这样确实能解决问题，在传完`0`之后，`1`也能够传成功了。但是问题又出现了，由于我们是一行一行传数据的，根据组委会要求，第一行是`START`，第二行数据是`Goal_ID=CA001;Num=0`，这样的话第二行数据传不过去，即使加入`time.sleep()`也只会传成功第一行数据。当时百思不得其解。
+
+然后我同学提醒了我一句，粘包是针对多个包而言的，那你全打成一个包不就可以了，所以最后变成了：
+
+```python
+with open("data.txt", "r") as f:
+    data = f.readlins()
+d = ""
+for i in range(len(data)):
+  d += data[i]
+send_data(s, 1, d)
+```
+
+具体原理是什么我现在也不清楚，但是加停止间隔、打包在一起发送，确实让数据传输变得非常稳定了。 ~~（没改之前也挺稳定的，稳定地每次都输不出去。。。）~~
+:::

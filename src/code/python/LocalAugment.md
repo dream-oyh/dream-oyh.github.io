@@ -1,3 +1,8 @@
+---
+date: 2024-03-18
+icon: Augmentation
+---
+
 # LocalAugment
 
 本 python 包用于深度学习的本地数据增强。
@@ -25,11 +30,11 @@ num_images = 30 # 需要增强的图片数量
 
 `LocalAugment`库提供随机抽取图片的`randomTransformer()`类与可以指定图片列表的`customTransFormer()`类，下面对两个类分别做介绍。两类均需要定义图片数据集路径、标签路径、转换后保存路径，并将其按顺序输入类中生成实例。
 
-### `randomTransformer(source_folder, target_folder, label_folder, img_number)`
+### :arrow_heading_down: `randomTransformer(source_folder, target_folder, label_folder, img_number)`
 
 `img_number`参数指定了需要从`source_folder`中随机抽取`img_number`张图片做数据增强。
 
-### `customTransFormer(source_folder, target_folder, label_folder, images_list)`
+### :arrow_heading_down: `customTransFormer(source_folder, target_folder, label_folder, images_list)`
 
 `images_list`参数指定了需要增广图片文件名列表，需要包含后缀名，目前支持`.png`与`.jpg`两种图片格式。该列表中文件要保证在`source_folder`中存在，若不存在，程序会报错。
 
@@ -37,7 +42,7 @@ num_images = 30 # 需要增强的图片数量
 
 `LocalAugment`提供了以下几种数据增广转换器
 
-### Crop(crop_size)
+### :arrows_clockwise: Crop(crop_size)
 
 图像裁剪转换器
 
@@ -45,7 +50,7 @@ num_images = 30 # 需要增强的图片数量
 
 经裁剪转换器处理后的图像会在其文件名后加入`_c`标识。
 
-### Rotate(angle, shuffle=True)
+### :arrows_clockwise: Rotate(angle, shuffle=True)
 
 图像旋转转换器，该转换器默认以图像中心作为旋转中心，支持自定义旋转角度或采用随机角度。
 
@@ -54,13 +59,13 @@ num_images = 30 # 需要增强的图片数量
 
 经旋转转换器处理后的图像会在其文件名后加入`_rot<angle>`标识。
 
-### flipHorizontal()
+### :arrows_clockwise: flipHorizontal()
 
 图像水平翻转转换器
 
 经水平翻转转换器处理后的图像会在其文件名后加入`_hf`标识。
 
-### randomFlipHorizontal(p)
+### :arrows_clockwise: randomFlipHorizontal(p)
 
 图像随机水平翻转转换器，该转换器支持自定义翻转概率 `p`。
 
@@ -68,13 +73,13 @@ num_images = 30 # 需要增强的图片数量
 
 经水平翻转转换器处理后的图像会在其文件名后加入`_hf`标识。
 
-### flipVertical()
+### :arrows_clockwise: flipVertical()
 
 图像垂直翻转转换器
 
 经垂直翻转转换器处理后的图像会在其文件名后加入`_vf`标识。
 
-### randomFlipVertical(p)
+### :arrows_clockwise: randomFlipVertical(p)
 
 图像随机垂直翻转转换器，该转换器支持自定义翻转概率 `p`。
 
@@ -82,7 +87,7 @@ num_images = 30 # 需要增强的图片数量
 
 经垂直翻转转换器处理后的图像会在其文件名后加入`_vf`标识。
 
-### randomGammaLight(dark,light)
+### :arrows_clockwise: randomGammaLight(dark,light)
 
 图像亮度调整转换器
 
@@ -91,7 +96,7 @@ num_images = 30 # 需要增强的图片数量
 
 经亮度调整转换器处理后的图像会在其文件名后加入`_l`标识。
 
-### randomGaussionNoise(noise_scale)
+### :arrows_clockwise: randomGaussionNoise(noise_scale)
 
 图像高斯噪声随机添加转换器
 
@@ -99,7 +104,7 @@ num_images = 30 # 需要增强的图片数量
 
 经高斯噪声转换器处理后的图像会在其文件名后加入`_n`标识。
 
-### randomResize(time, shuffle=True)
+### :arrows_clockwise: randomResize(time, shuffle=True)
 
 图像缩放转换器
 
@@ -108,7 +113,7 @@ num_images = 30 # 需要增强的图片数量
 
 经缩放转换器处理后的图像会在其文件名后加入`_res`标识。
 
-### Sharpen()
+### :arrows_clockwise: Sharpen()
 
 图像锐化转换器，利用拉普拉斯算子对图像进行锐化处理。
 
