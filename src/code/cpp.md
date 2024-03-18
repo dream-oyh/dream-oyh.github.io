@@ -5,7 +5,7 @@ icon: code
 
 # C++
 
-我采用 Xmake 作为 C++ 项目的编译、构建、包管理工具。
+我采用 Xmake 作为 C++ 项目的构建、包管理工具。
 
 C++ 的开发也秉持 All in VScode 的原则，插件设置可以看[这里](vscode.md#c-开发环境配置)
 
@@ -13,7 +13,7 @@ C++ 的开发也秉持 All in VScode 的原则，插件设置可以看[这里](v
 
 [官网](https://xmake.io/#/)
 
-Xmake 是基于 Lua 的 Cpp 编译器，更准确地来说应该包括三个部分，即：_Build backend + Project Generator + Package Manager_，简单来说，它实现了 c++ 项目的编译、构建和包管理。
+Xmake 是基于 Lua 的 Cpp 构建工具，更准确地来说应该包括三个部分，即：_Build backend + Project Generator + Package Manager_，简单来说，它实现了 c++ 项目的构建和包管理。
 
 ### 基本操作
 
