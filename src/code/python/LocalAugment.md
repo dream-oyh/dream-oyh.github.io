@@ -1,13 +1,16 @@
 # LocalAugment
 
-本 python 包用于深度学习的数据增强。不同于 `torchvision.transforms()`转换器，`LocalAugment` 提供在本地进行图像增强，并将增强后的图像保存在本地，以便于之后加入数据集中。
+本 python 包用于深度学习的本地数据增强。
 
-除此之外，`LocalAugment`在对图像变换的同时能够记录下数据集标签变换后的位置与大小，数据集标签采用矩形框中心点与长宽的定位模式，能够保证图像在经过变换后，标签依然能够被正确地定位，省去转换后手动打标签的繁琐工作。
+## Feature
+
+- 不同于一般图像增广库，本`LocalAugment`库是先在本地图片上做增强，导出增强后的图片直接作为训练集使用，而不是加在网络的图像预处理部分。
+- `LocalAugment`库采用矩形中心框与长宽的标签定位模式，支持在本地进行图像增强的同时，记录下标签变换后的位置与大小，能够保证图像在经过变换后，标签依然能够被正确地定位，省去转换后手动打标签的繁琐工作。
 
 ## install
 
 ```sh
-pip install local-augment
+pip install localAugment
 ```
 
 ## Quickly Start
@@ -17,15 +20,22 @@ import LocalAugment as LA
 source_dir = "dataset\\images"
 output_dir = "dataset\\images\\tested"
 label_dir = "dataset\\labels"
-num_images = 30
-trans = LA.Transformer(source_dir, output_dir, label_dir, num_images)
+num_images = 30 # 需要增强的图片数量
 ```
 
-开始使用该本地图像转换器之前，需要定义图片数据集路径、标签路径、转换后保存路径以及需要增强的图片数量。并且将其输入`Transformer()`类中生成实例化对象。
+`LocalAugment`库提供随机抽取图片的`randomTransformer()`类与可以指定图片列表的`customTransFormer()`类，下面对两个类分别做介绍。两类均需要定义图片数据集路径、标签路径、转换后保存路径，并将其按顺序输入类中生成实例。
 
-## 增强转换器
+### `randomTransformer(source_folder, target_folder, label_folder, img_number)`
 
-`LocalAugment`提供了以下几种数据增强转换器
+`img_number`参数指定了需要从`source_folder`中随机抽取`img_number`张图片做数据增强。
+
+### `customTransFormer(source_folder, target_folder, label_folder, images_list)`
+
+`images_list`参数指定了需要增广图片文件名列表，需要包含后缀名，目前支持`.png`与`.jpg`两种图片格式。该列表中文件要保证在`source_folder`中存在，若不存在，程序会报错。
+
+## 增广转换器
+
+`LocalAugment`提供了以下几种数据增广转换器
 
 ### Crop(crop_size)
 
