@@ -93,8 +93,7 @@ export default sidebar({
     {
       text: "主题语料库",
       icon: "diary",
-      prefix: "repo/",
-      link: "index.md",
+      link: "repo/index.md",
     },
     {
       text: "英语视频词汇积累",
