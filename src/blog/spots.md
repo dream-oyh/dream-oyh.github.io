@@ -9,10 +9,7 @@ category: 博客
 本部分罗列了开发博客时常用的站点跳转，方便日后查询。
 :::
 
-[vuepress-theme-hope 主题官方中文指南](https://theme-hope.vuejs.press/zh/guide/)
-
-[emoji 查询](https://theme-hope.vuejs.press/zh/cookbook/markdown/emoji/)
-
-[icon 查询](https://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=4435976)
-
-[访客数据查询](https://analytics.google.com/analytics/web/)
+- [vuepress-theme-hope 主题官方中文指南](https://theme-hope.vuejs.press/zh/guide/)
+- [emoji 查询](https://theme-hope.vuejs.press/zh/cookbook/markdown/emoji/)
+- [icon 查询](https://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=4435976)
+- [访客数据查询](https://analytics.google.com/analytics/web/)

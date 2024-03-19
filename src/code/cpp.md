@@ -9,13 +9,40 @@ icon: code
 
 C++ 的开发也秉持 All in VScode 的原则，插件设置可以看[这里](vscode.md#c-开发环境配置)
 
-## Xmake
+C++ 的学习需要区分好*编译器、工具链和构建系统*三者的概念，有关 C++ 的编译流程可以参考下图：
+
+![](https://raw.githubusercontent.com/dream-oyh/dream-oyh.github.io/images/C_compile_chain.png)
+
+1. _Preprocessor_ - 预处理器
+2. _Compiler_ - 编译器
+3. _Assemble_ - 汇编
+4. _Linker_ - 链接器
+
+我是看了[ 这篇文章 ](https://www.cnblogs.com/w4ngzhen/p/17695080.html)之后才对*编译*这件事有所了解的，需要的同学可以看看。
+
+微软官方有对 C++ 编译过程给出了更加详细的解释，但是在这套解释里并没有给出汇编的过程：
+
+> 基本 C++ 编译涉及三个主要步骤：
+>
+> - C++ 预处理器会转换每个源文件中的所有 #directives 和宏定义。这会创建翻译单元。
+> - C++ 编译器通过应用已设置的任何编译器选项，将每个翻译单元编译为对象文件 (.obj)。
+> - 链接器通过应用已设置的链接器选项，将对象文件合并为单个可执行文件。
+## 开发环境
+### 编译器
+
+llvm + Clang 分别作为编译器后端和前端，安装可用 scoop。
+
+```sh
+scoop install llvm
+```
+
+### Xmake 构建系统
 
 [官网](https://xmake.io/#/)
 
 Xmake 是基于 Lua 的 Cpp 构建工具，更准确地来说应该包括三个部分，即：_Build backend + Project Generator + Package Manager_，简单来说，它实现了 c++ 项目的构建和包管理。
 
-### 基本操作
+#### 基本操作
 
 **_Install_**
 
@@ -48,7 +75,7 @@ xmake run <project-name> # run project
 
 ![](https://xmake.io/assets/img/index/package_arch.png =300x)
 
-### Lua
+#### Lua
 
 Lua 是 Xmake 编译程序用到的语言，个人感觉不用特意去学，只需要在平常多用多理解就好。在 Xmake 创建项目之后，会自动生成文件结构如下：
 
@@ -67,7 +94,7 @@ target("hello")
     add_files("src/*.c")
 ```
 
-### 包管理
+#### 包管理
 
 Xmake 内置 Xrepo 作为包管理器，基本操作如下：
 

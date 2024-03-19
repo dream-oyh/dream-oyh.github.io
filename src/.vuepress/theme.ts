@@ -58,10 +58,7 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
-    searchPro: {
-      indexContent: true,
-			autoSuggestions: true,
-    },
+    searchPro: true,
     comment: {
     //   provider: "Waline",
     //   serverURL: "https://blog-comments-glpemzd6z-dream-oyhs-projects.vercel.app/",
@@ -108,10 +105,4 @@ export default hopeTheme({
       vPre: true,
     },
   },
-  //   // 加密配置
-//   encrypt: {
-//     config: {
-//       "/demo/encrypt.html": ["1234"],
-//     },
-//   },
 });
