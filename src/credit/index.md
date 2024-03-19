@@ -1,7 +1,8 @@
 ---
 date: 2024-02-17
 icon: folder
-category: 资料站
+category:
+  - 资料站
 tag: index
 sidebar: heading
 ---
