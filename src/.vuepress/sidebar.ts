@@ -90,11 +90,19 @@ export default sidebar({
     },
   ],
   "/english/": [
-    // {
-    //   text: "主题语料库",
-    //   icon: "diary",
-    //   link: "repo/index.md",
-    // },
+    {
+      text: "主题语料库",
+      collapsible: true,
+      icon: "diary",
+      prefix: "repo/",
+      link: "repo/index.md",
+      children: [
+        "negative.md",
+        "life.md",
+        "growth.md",
+        "community.md"
+      ]
+    },
     {
       text: "英语视频词汇积累",
       collapsible: true,
