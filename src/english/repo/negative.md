@@ -2,15 +2,15 @@
 date: 2024-03-24
 ---
 
-# Negative Expression
+# Negative Emotion
 
-## How to describe the negative expression?
+## How to describe the negative emotion?
 
 - withdraw from the activities
 - be sadness, anxiety, irritability
 - become apathetic and unmotivated
 
-## How to do with the negative attitude?
+## How to do with the negative emotion?
 
 _for person_:
 
