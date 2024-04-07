@@ -25,14 +25,14 @@ poetry install bs4
 1. 获取网页内容——从用户端口向网页服务器发送一个请求，服务器针对该请求返回用户网页内容。在浏览器里访问服务器时，服务器返回的内容会被浏览器渲染成可读性好、美观的网站页面，但是对于程序的响应，服务器返回的内容更加原始；
 2. 解析网页内容——通过请求得到的网页内容太多太杂了，需要对内容解析，将我们所需要的内容提取出来；
 3. 储存或分析数据——结合具体需求，对提取得到的数据进行后处理，可以对数据进行可视化处理、图表展示等。
-:::warning 爬虫在使用时必须注意：
+   :::warning 爬虫在使用时必须注意：
 
-1. 不要爬取公民隐私数据
-2. 不要爬取受著作权保护的内容
-3. 不要爬取国家事务、国防建设、尖端领域的计算机系统等保密性内容
-4. 请求频率和数量不能过高
-5. 网站如果明确做出反爬限制，比如加密内容，不要去强行突破
-:::
+4. 不要爬取公民隐私数据
+5. 不要爬取受著作权保护的内容
+6. 不要爬取国家事务、国防建设、尖端领域的计算机系统等保密性内容
+7. 请求频率和数量不能过高
+8. 网站如果明确做出反爬限制，比如加密内容，不要去强行突破
+   :::
 
 ## HTTP 请求和响应
 
@@ -54,8 +54,8 @@ Accept:*/*
 # 请求体
 # {
 #     "username": "admin",
-#     "email":"admin@example.com" 
-# } 
+#     "email":"admin@example.com"
+# }
 ```
 
 请求行包括：请求类型（GET），访问路径（/user/info），HTTP 协议版本（HTTP/1.1）
@@ -86,6 +86,7 @@ Content-Type: text/html; charset=UTF-8
 </html>
 
 ```
+
 状态行中包含 HTTP 响应协议、状态码和状态消息，常见的状态码如下：
 :::tip 常见的状态码
 |状态码 | 状态消息 |状态内容 |
@@ -167,6 +168,7 @@ for price in all_price:
 ```
 
 整理得到爬虫的最终总程序为：
+
 ```python
 import requests
 from bs4 import BeautifulSoup
@@ -189,6 +191,7 @@ for price in all_price:
 ### 一些变式
 
 如果需要爬取的标签，是`h3`元素下的`a`元素，那需要将程序更改为：
+
 ```python
 all_price = soup.findAll("h3")
 for price in all_price:
@@ -196,4 +199,17 @@ for price in all_price:
     for h3_a_price in h3_a:
         print(h3_a_price.string[2:])
 ```
+
 即，`findAll`得到的对象可以再次迭代寻找。
+
+## 模拟浏览器
+
+相较于`requests`库，`selenium` 的模拟浏览器能够进行更复杂的网页点击、跳转操作 ~~（可能`requests`库也行？只是我不会？）~~ ，但是实测之后发现`selenium`槽点太多，需要把`chrome`和`chromedriver`匹配到相同版本（Chrome 浏览器的版本管理又是一坨，至少我找了半天找不到），而且在配置 Github Action 时也非常困难，所以`selenium`只适用于本机跑。
+
+之后发现了`DrissionPage`这个 selenium 的平替包，不需要 driver 驱动器的匹配，可以直接生成模拟浏览器，具体使用可以见我的[校卡余额查询项目](https://github.com/dream-oyh/CSU_card_read)和[官网](https://drissionpage.cn/)。
+
+### Drission Page 前期准备
+
+- 查找 Edge 或 Chrome（支持 Chromium 内核浏览器）执行路径
+
+打开 Chrome 浏览器，在地址栏输入 chrome://version（Edge 输入 edge://version），即可查询执行路径，复制保存。

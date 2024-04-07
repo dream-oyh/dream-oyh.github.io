@@ -31,17 +31,19 @@ export default sidebar({
     },
     {
       text: "Python 库",
+      prefix: "python/",
+      collapsible: true,
       children: [
-        "python/pandas.md",
+        "pandas.md",
         {
           text: "Pytorch",
           icon: "pytorch",
-          link: "python/pytorch/1pytorch.md",
+          link: "pytorch/1pytorch.md",
         },
-        "python/Seaborn.md",
-        "python/web_crawler.md",
-        "python/websocket.md",
-        "python/LocalAugment.md",
+        "Seaborn.md",
+        "web_crawler.md",
+        "websocket.md",
+        "LocalAugment.md",
       ],
     },
     {

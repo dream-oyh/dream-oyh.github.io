@@ -9,6 +9,7 @@ date: 2024-03-24
 - withdraw from the activities
 - be sadness, anxiety, irritability
 - become apathetic and unmotivated
+- face stressful circumstances
 
 ## How to do with the negative emotion?
 
