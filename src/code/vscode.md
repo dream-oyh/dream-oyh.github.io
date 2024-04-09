@@ -25,7 +25,7 @@ _2024.03.18_，我终于狠下心来鼓起勇气开始看 C++ 的环境配置，
 }
 ```
 
-其中第二个参数填入*clang-format.exe*的绝对路径，可以用[ everything ](../article/software.md#everything)查找一下，选择在`.vscode`文件夹下的 exe 文件即可。
+其中第二个参数填入*clang-format.exe*的绝对路径，可以用[ everything ](../article/software.md#everything)查找一下，选择在`llvm`文件夹下的 exe 文件即可。
 
 同时将`"[c]"`与`"[cpp]"`修改为下方所示的配置。
 
