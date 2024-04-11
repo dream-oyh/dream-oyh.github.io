@@ -14,7 +14,7 @@ export default navbar([
 	{
 		text: "文章",
 		icon: "Article",
-		link: "/article/",
+		link: "/articles/",
 	},
 	{
 		text: "资料站",
