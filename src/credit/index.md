@@ -4,7 +4,7 @@ icon: folder
 category:
   - 资料站
 tag: index
-sidebar: heading
+sidebar: false
 ---
 
 # 资料站
