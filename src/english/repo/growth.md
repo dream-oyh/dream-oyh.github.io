@@ -39,8 +39,8 @@ BENEFITS:
 
 HOW TO DESCRIBE THE "SADNESS"
 
-- *feel pain viscerally*: in a way that is based on deep feeling and emotional reactions rather than on reason or thought.
-- *grief*: very great sadness especially at the death of someone
+- _feel pain viscerally_: in a way that is based on deep feeling and emotional reactions rather than on reason or thought.
+- _grief_: very great sadness especially at the death of someone
 
 ::: tip a deep thought
 the pain of heartbreak actually comes from our brain, and is a by-product of love.
@@ -49,7 +49,7 @@ the pain of heartbreak actually comes from our brain, and is a by-product of lov
 HOW TO DO WITH "HEARTBREAK"
 
 - take time to grieve
-  > *grieve*: to feel or express great sadness
+  > _grieve_: to feel or express great sadness
 - reconnect with yourself --与自己寻找共鸣
 - surround yourself with supportive friends.
 
