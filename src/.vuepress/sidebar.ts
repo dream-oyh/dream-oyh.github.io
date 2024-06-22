@@ -15,6 +15,20 @@ export default sidebar({
 					link: "/code/Arduino/",
 				},
 				"cpp.md",
+				{
+					text: "数据结构（全英）",
+					icon: "relation-full",
+					prefix: "/code/data_structure/",
+					link: "/code/data_structure/",
+					collapsible: true,
+					children: [
+						"linked_list.md",
+						"stack.md",
+						"queue.md",
+						"tree.md",
+						"graph.md",
+					],
+				},
 			],
 		},
 		{
@@ -34,7 +48,7 @@ export default sidebar({
 			prefix: "python/",
 			collapsible: true,
 			children: [
-				"pandas.md",
+				//"pandas.md",
 				{
 					text: "Pytorch",
 					icon: "pytorch",
