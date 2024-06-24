@@ -83,6 +83,7 @@ export default hopeTheme({
 			demo: true,
 			figure: true,
 			footnote: true,
+			flowchart: true,
 			hint: true,
 			imgLazyload: true,
 			imgSize: true,
