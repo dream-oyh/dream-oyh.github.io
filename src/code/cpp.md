@@ -38,6 +38,10 @@ MSVC 是一套在 Windows 下处理 C++ 文件的一套工具链，而不是特�
 
 所以需要在 Windows 上构建 C++ 应用，我们需要**编译器工具链**和**标准 C、C++ 库文件以及 Windows 库文件**。
 
+而现在也有用户在使用 MinGW，其本质上是一套 GCC 工具链，但是 GCC 本来是用于 Linux 的，在 Windows 上并不适用，所以需要 MinGW 来使得 GCC 工具链也能在 Win 上运行，我在 Stack Overflow 上搜到了这样的一个简单解释：
+
+> On a computer with Windows installed, the library that contains most ready-made executable code is not compatible with gcc compiler ... so to use this compiler in Windows you need a different library: that's where MinGW enters. MinGW provides, among other things, the library(ies) needed for making a C implementation together with gcc.
+
 ### Linux GCC
 
 GCC 曾经是`GUN C Compiler`的缩写，也就是 GUN 的 C 语言编译器，然而随着不断的发展，GCC 已经能够处理 C++、Object-C、Go 语言等语言了，社区对它的定位也更上了一层，所以它现在的全称是`GNU Compiler Collection`，即 GNU 编译器集。
@@ -77,3 +81,32 @@ st(right)->op1(right)->op2(right)->op3(right)->e
 ## 构建系统
 
 现在已经知道什么是工具链了，接下来说说什么是构建系统。从预处理、编译汇编到链接，这每一步都需要人为去配置，操纵编译器和链接器按流程运行，但是这样的配置非常麻烦，并且随着工程越来越复杂，编译配置项根据场景不同越来越复杂，直接调用命令容易出错，于是构建系统应运而生。构建系统在底层依然使用的是编译工具链，只是进行了一定的用户友好的抽象，并降低了项目编译的复杂度。
+
+### Windows MSBuild 与 sln、vcxproj
+
+构建系统首先要有一定的规则才能构建出一套系统，在 Windows 上的构建系统主流是 MSBuild，它可以调用系统中安装的 MSVC。一般来说，MSBuild 的配置文件是`.sln`和`.vcxproj`文件。这些配置文件通常会指明一些关于编译构建的信息，例如项目工程所包含的源文件有哪些；相关库的头文件查找路径、二进制库文件查找路径；不同场景（Debug 或 Release）下的代码编译方式（是否代码优化，是否移除符号等）。
+
+Visual Studio 在其中参与的作用是可视化和为了用户友好的抽象，当你在 IDE 中编写源码，配置编译选项，其实就在影响`.sln`和`.vsxproj`配置文件。另外，当你按下了 VS 上项目运行/构建的按钮的时候，底层就是在调用`msbuild.exe`。
+
+![](/images/msbuild.png)
+
+### Linux 的 Make 与 Makefile
+
+（我看的别人的博客里已经写得很清楚了，就搬用过来啦）
+
+与 Windows 上的 MSBuild 体系类似，make 这个命令行工具可以认为与 msbuild.exe 是同一层次，而 Makefiles 配置文件则是与.sln 和.vcxproj 文件是一个功能，指明了项目中具有哪些源代码、编译的规则逻辑等信息。当 make 执行的时候，读取 Makefile 配置文件，生成 GCC 相关的调用命令行，再调用 GCC 的相关命令行工具进行编译构建。于是，make、GCC 的关系和流程就可以如下描述了：
+
+![](/images/make.png)
+
+### 生成构建系统的工具：CMake - 元构建系统
+
+如上所说，每个系统都有各自的构建系统，并不通用，因此想要实现跨平台的修改和运行就很困难。此时 CMake 提出，采用统一的构建系统生成工具，统一生成各个平台需要的配置文件，这样能有效解决跨平台问题。
+
+- 如果用户希望在 Windows 上构建应用的时候，那么这个工具就基于配置生成一套 msbuild 能够加载的`.sln`、`.vcxproj` 工程配置。于是，我们可以直接使用 `msbuild` 构建或是用 VS 打开工程开发构建；
+- 如果用户希望在 Linux 上基于同样的代码构建 Linux 平台的应用，那么这个工具就利用同一份配置生成一套 `make` 能够加载的 `Makefile` 配置。于是，在 Linux，我们就可以使用 make 命令来构建这个应用了；
+
+### 是构建系统又是元构建系统：XMake
+
+Xmake 是一个基于 Lua 的轻量级跨平台构建工具，[官方文档](https://xmake.io/#/zh-cn/)很详细，可以直接阅读。
+
+xmake 既可以作为构建系统来直接调用编译工具链进行项目编译（默认的），同时，还可以作为 CMake 的角色来生成特定的构建项目配置
