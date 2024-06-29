@@ -11,7 +11,7 @@ export default hopeTheme({
 	},
 	favicon: "/web_logo.jpg",
 	//   iconAssets: "iconfont",
-	iconAssets: "//at.alicdn.com/t/c/font_4435976_rjzx8xoub3a.css",
+	iconAssets: "//at.alicdn.com/t/c/font_4435976_3hjppc8i3et.css",
 
 	logo: "/web_logo.jpg",
 

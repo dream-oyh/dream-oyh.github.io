@@ -7,6 +7,11 @@ export default navbar([
 		link: "/code/",
 	},
 	{
+		text: "学习",
+		icon: "tubiaozhizuomoban-",
+		link: "/study/",
+	},
+	{
 		text: "English",
 		icon: "language",
 		link: "/english/",

@@ -15,20 +15,6 @@ export default sidebar({
 					link: "/code/Arduino/",
 				},
 				"cpp.md",
-				{
-					text: "数据结构（全英）",
-					icon: "relation-full",
-					prefix: "/code/data_structure/",
-					link: "/code/data_structure/",
-					collapsible: true,
-					children: [
-						"linked_list.md",
-						"stack.md",
-						"queue.md",
-						"tree.md",
-						"graph.md",
-					],
-				},
 			],
 		},
 		{
@@ -198,7 +184,7 @@ export default sidebar({
 	],
 	"/credit/": [
 		{
-			text: "学习资料",
+			text: "学习资料站",
 			link: "/credit/",
 		},
 	],
@@ -222,6 +208,27 @@ export default sidebar({
 		{
 			text: "博客常用站点跳转",
 			link: "spots.md",
+		},
+	],
+	"/study/": [
+		{
+			text: "Summer Camp Reivew",
+			icon: "xialingying",
+			children: ["PhysNet.md"],
+		},
+		{
+			text: "数据结构（全英）",
+			icon: "relation-full",
+			prefix: "/study/data_structure/",
+			link: "/study/data_structure/",
+			collapsible: true,
+			children: [
+				"linked_list.md",
+				"stack.md",
+				"queue.md",
+				"tree.md",
+				"graph.md",
+			],
 		},
 	],
 });
