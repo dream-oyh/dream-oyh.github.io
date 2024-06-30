@@ -214,13 +214,14 @@ export default sidebar({
 		{
 			text: "Summer Camp Reivew",
 			icon: "xialingying",
-			children: ["PhysNet.md"],
+			prefix: "/study/SummerCampReview",
+			children: ["PhysNet.md", "ObjectDetection.md"],
 		},
 		{
 			text: "数据结构（全英）",
 			icon: "relation-full",
-			prefix: "/study/data_structure/",
-			link: "/study/data_structure/",
+			prefix: "/study/DataStructure/",
+			link: "/study/DataStructure/",
 			collapsible: true,
 			children: [
 				"linked_list.md",

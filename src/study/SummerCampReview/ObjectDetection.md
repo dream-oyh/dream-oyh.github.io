@@ -1,0 +1,15 @@
+---
+date: 2024-06-30
+---
+
+# Objects Detection
+
+（搬运来自知乎，但原链接已找不到）
+
+Ground truth 是真实标注框，也就是人工标注，一般被看作“真值”
+
+Bounding box 一般认为 (为什么是一般认为，原因参照下面一段最后括号中的内容) 是网络最终预测的结果，也就是“可能值”，因为网络可能预测正确也可能错误
+
+Anchor box 被称作预选框/锚框，anchor 的机制会更复杂一些，有许多帖子来专门讲解这个。总的来说就是在图像上会按照一定的规律放置一些 anchor，网络会学习 anchor 相对于 ground truth 的偏移量，我们可以把 anchor 看作 bounding box 的“爷爷”，anchor+/-/x/÷偏移量所得到的框是 bounding box 的“父亲”，“父亲”经过非极大值抑制 (NMS) 之后就是 bounding box 了 (但是也可以说“父亲”就是 bounding box 了，只是因为“父亲”很少出现在这个领域的相关内容中，所以一般说 bounding box 的时候指的是 NMS 之后的结果)
+
+IOU 在不同的阶段会代表不同目标之间的交并比，比如在训练阶段需要判断 anchor 是正样本还是负样本，这个时候就需要用 ground truth 和 anchor box 计算 IOU。在推理预测阶段进行 NMS 操作的时候，又要计算“父亲”每个框的 IOU 来进行合并删除操作
