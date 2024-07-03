@@ -53,7 +53,11 @@ s(right)->step1(right)->step2(right)->output1(right)->step3(right)->result(right
 
 ### Loss Function
 
-选择**负皮尔逊相关系数**作为损失函数
+$$Loss=1-\frac{T\Sigma_1^Txy-\Sigma^T_1x\Sigma_1^Ty}{\sqrt{(T\Sigma_1^Tx^2-(\Sigma_1^Tx)^2)(T\Sigma_1^Ty^2-(\Sigma_1^Ty)^2)}}$$
+
+其中，$T$是信号长度，$x$为预测的 rPPG 信号，$y$为真实的 PPG 信号。
+
+该损失函数是 1 减去负皮尔逊相关系数，Loss 越小说明 rPPG 与 Ground Truth 越相关，确保二者的**趋势相似性（Trend-similarity）和最小化峰值位置误差（minimize-peak-location-errors）**
 
 ### Ground Truth
 
