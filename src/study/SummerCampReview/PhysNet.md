@@ -61,7 +61,7 @@ $$Loss=1-\frac{T\Sigma_1^Txy-\Sigma^T_1x\Sigma_1^Ty}{\sqrt{(T\Sigma_1^Tx^2-(\Sig
 
 ### Ground Truth
 
-选择 **PPG 信号**作为真实值
+选择 **PPG 信号** 作为真实值
 
 ::: tip PPG 信号与 ECG（心电图）信号相比较
 因为从手腕上采集的 PPG 信号与我们恢复的 rPPG 信号更相似，ECG 信号包含了肌电的活动，这在 rPPG 上是恢复不出来的，所以采用 PPG 做标定
