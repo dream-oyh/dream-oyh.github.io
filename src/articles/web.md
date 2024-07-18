@@ -66,3 +66,19 @@
   url="https://oi-wiki.org/"
   preview="/images/web/oiwiki.png"
 />
+
+## 格式转换
+
+<SiteInfo
+  name="Free Convert"
+  desc="支持免费在线mp4转换成gif"
+  url="https://www.freeconvert.com/zh/convert/mp4-to-gif"
+  preview="/images/web/MP42gif.png"
+/>
+
+<SiteInfo
+  name="i love pdf"
+  desc="支持免费在线处理pdf文件，支持操作方法多样"
+  url="https://www.ilovepdf.com/zh-cn"
+  preview="/images/web/ilovepdf.png"
+/>
