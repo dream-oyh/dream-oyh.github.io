@@ -1,5 +1,6 @@
 ---
 date: 2024-06-22
+tag: data_structure
 ---
 
 # 🚶‍♂️ Queues

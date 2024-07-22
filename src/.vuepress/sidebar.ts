@@ -202,10 +202,6 @@ export default sidebar({
 			link: "vuepress.md",
 		},
 		{
-			text: "博客日程",
-			link: "schedule.md",
-		},
-		{
 			text: "博客常用站点跳转",
 			link: "spots.md",
 		},
@@ -215,6 +211,7 @@ export default sidebar({
 			text: "Summer Camp Reivew",
 			icon: "xialingying",
 			prefix: "/study/SummerCampReview",
+			collapsible: true,
 			children: ["PhysNet.md", "ObjectDetection.md"],
 		},
 		{
@@ -229,6 +226,7 @@ export default sidebar({
 				"queue.md",
 				"tree.md",
 				"graph.md",
+        "HashTable.md"
 			],
 		},
 	],
