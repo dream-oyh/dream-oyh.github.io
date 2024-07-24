@@ -1,4 +1,4 @@
-import { hopeTheme } from "vuepress-theme-hope";
+  import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
@@ -61,11 +61,11 @@ export default hopeTheme({
 		blog: true,
 		components: {
 			components: ["SiteInfo", "PDF"],
-			componentOptions: {
-				pdf: {
-					pdfjs: "/pdfjs-4.4.168-dist",
-				},
-			},
+			// componentOptions: {
+			// 	pdf: {
+			// 		pdfjs: "/pdfjs-4.0.189-dist",
+			// 	},
+			// },
 		},
 		searchPro: {
 			indexContent: true,

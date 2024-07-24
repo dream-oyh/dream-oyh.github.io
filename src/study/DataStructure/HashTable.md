@@ -21,4 +21,19 @@ tag: data_structure
 
 $$Hash(Key) = a\times Key + b$$
 
-Applications: Keys are known. And the collection of the keys is consecutive and not 
+Applications: Keys are known. And the collection of the keys is greatly consecutive and not have a concentrated distribution.
+
+### Modulo method（取模）
+
+$$Hash(Key) = Key \% p$$
+
+$p$ is a prime number which is less than the length of the hash table.
+
+Applications: Without knowing the distribution of the keys.
+
+::: tip Why $p$ should be a prime number?
+
+To map the hash code into the interval between 0 and $p-1$.
+
+If the $p$ is bigger than the length of the hash table, the hash table will overflow. We suppose that the length of the hash table is 15. If the %p% equals to 17, number whose hash code is 16 can't find a approciate postion to put. Note that the hash code is a index or a key, rather than the key itself.
+:::
