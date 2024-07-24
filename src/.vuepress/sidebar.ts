@@ -229,5 +229,13 @@ export default sidebar({
         "HashTable.md"
 			],
 		},
+    {
+      text:"Literature Review and Management",
+      prefix:"/study/LiteratureReview",
+      collapsible: true,
+      children:[
+        "01.md",
+      ]
+    }
 	],
 });

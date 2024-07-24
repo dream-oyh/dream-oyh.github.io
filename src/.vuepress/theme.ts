@@ -60,7 +60,12 @@ export default hopeTheme({
 	plugins: {
 		blog: true,
 		components: {
-			components: ["SiteInfo"],
+			components: ["SiteInfo", "PDF"],
+			componentOptions: {
+				pdf: {
+					pdfjs: "/pdfjs-4.4.168-dist",
+				},
+			},
 		},
 		searchPro: {
 			indexContent: true,

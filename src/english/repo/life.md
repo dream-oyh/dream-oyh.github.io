@@ -26,3 +26,13 @@ date: 2024-03-24
 - else:
   - **_wanderer_**: who travels from place to place
   - **_gait_**: a particular way of walk
+
+## About wedding
+
+Our **nupital** hour **draws on apace**. --the Midsummer Night's Dream(MND)
+> nupital: belonging or relating to marriage or to the state of being married
+> draw on: something is near
+> apace: quickly
+
+
+

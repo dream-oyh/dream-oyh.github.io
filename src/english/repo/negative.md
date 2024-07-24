@@ -10,6 +10,7 @@ date: 2024-03-24
 - be sadness, anxiety, irritability
 - become apathetic and unmotivated
 - face stressful circumstances
+- **vexation**: something that is worrying or annoying
 
 ## How to do with the negative emotion?
 
