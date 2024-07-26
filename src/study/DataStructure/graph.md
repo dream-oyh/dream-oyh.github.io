@@ -111,3 +111,93 @@ It looks like we don’t save the time by using adjacency list, but the time com
 Moreover, if we want to store, insert or delete some elements, the array maybe ineffective. Linked List can be used to store data dynamically. And if we wanna store a weighted graph, we just need to change the linked list structure, such as create a new cell to store a weight, matched with the node. Furthermore, if we want to enhance the performance of the adjacency list, we can use the binary search tree to replace the linked list. That will be more interesting!!
 
 ![](/images/data_structure/graph/Untitled%204.png)
+
+## Application
+
+### Dijkstra Algorithm
+
+We don't offer what the Dijkstra Algorithm is here. It's rebundant. Let's talk about some details in the implementation. Here is the implementation of Dijkstra in Python.
+
+```python
+def find_lowest_cost_node(node_costs: dict):
+    lowest_cost = float("inf")
+    lowest_cost_node = None
+    for node in node_costs.keys():
+        cost = node_costs[node]
+        if cost < lowest_cost and node not in processed_nodes:
+            lowest_cost = cost
+            lowest_cost_node = node
+    return lowest_cost_node
+
+
+def dijkstra(graph: dict, node_costs: dict, node_parents: dict):
+    lowest_costnode: str = find_lowest_cost_node(node_costs=node_costs)
+    while lowest_costnode is not None:
+        current_cost = node_costs[lowest_costnode]
+        neighbor_node_costs: dict | int = graph[lowest_costnode]
+        for neighbor_node in neighbor_node_costs.keys():
+            new_cost = current_cost + neighbor_node_costs[neighbor_node]
+            if node_costs[neighbor_node] > new_cost:
+                node_costs[neighbor_node] = new_cost
+                node_parents[neighbor_node] = lowest_costnode
+        processed_nodes.append(lowest_costnode)
+        lowest_costnode = find_lowest_cost_node(node_costs)
+    return node_costs, node_parents
+```
+
+For input paraments, we need to offer the graph, the costs, and the parents. We use adjacency list or called [hash table](HashTable.md), which python implemented it with dictionary, to represent a graph. You will see a example below. And we need to a cost list called `node_costs` and a parent list called `node_parents` to update current cost and parent of each node.
+
+Example:
+
+```python
+# Define a cost hash table
+node_costs = {}
+node_costs["a"] = 6
+node_costs["b"] = 2
+node_costs["end"] = float("inf")
+
+# Define a parents hash table
+node_parents = {}
+node_parents["a"] = "start"
+node_parents["b"] = "start"
+node_parents["end"] = None
+```
+
+In the subsequent process, we need to update the `node_costs` and `node_parents`, according to the caculation result. Here is a example:
+
+```python
+# Define a graph
+graph = {}
+graph["start"] = {}
+graph["start"]["a"] = 6
+graph["start"]["b"] = 2
+graph["a"] = {}
+graph["a"]["end"] = 1
+graph["b"] = {}
+graph["b"]["a"] = 3
+graph["b"]["end"] = 5
+graph["end"] = {}
+
+# Define a cost hash table
+node_costs = {}
+node_costs["a"] = 6
+node_costs["b"] = 2
+node_costs["end"] = float("inf")
+
+# Define a parents hash table
+node_parents = {}
+node_parents["a"] = "start"
+node_parents["b"] = "start"
+node_parents["end"] = None
+
+processedNodes = []
+
+cost, parent = dijkstra(graph, nodeCosts, nodeParents)
+print(cost, parent)
+```
+
+output：
+
+```python
+{'a': 5, 'b': 2, 'end': 6} {'a': 'b', 'b': 'start', 'end': 'a'}
+```

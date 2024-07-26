@@ -127,7 +127,7 @@ sidebar: false
 - [MATLAB](https://gitee.com/o19859860010/csu_stte_files/tree/main/MATLAB)
 - [计算机图形学](https://gitee.com/o19859860010/csu_stte_files/blob/main/计算机图形学--笔记.pdf)
   - [计算机图形学 - 大作业](https://gitee.com/o19859860010/csu_stte_files/releases/tag/1.0)
-- [数据结构（全英）](/code/data_structure/index.md)
+- [数据结构（全英）](/study/DataStructure/index.md)
 
 ### 学分之外
 

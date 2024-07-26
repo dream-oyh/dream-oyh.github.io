@@ -1,4 +1,4 @@
-  import { hopeTheme } from "vuepress-theme-hope";
+import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
@@ -51,7 +51,6 @@ export default hopeTheme({
 			XiaoHongShu:
 				"https://www.xiaohongshu.com/user/profile/62fd04b7000000001200ff72",
 		},
-		roundAvatar: true,
 		timeline: "新的内容正在产出……",
 		articlePerPage: 5,
 		articleInfo: ["Date", "Category", "Tag", "ReadingTime"],
@@ -113,6 +112,7 @@ export default hopeTheme({
 				},
 			],
 			tasklist: true,
+			spoiler: true,
 			sub: true,
 			sup: true,
 			tabs: true,

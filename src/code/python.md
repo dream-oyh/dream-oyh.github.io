@@ -43,19 +43,23 @@ poetry config cache-dir D:\\poetry_enev
 #### 基本命令
 
 **新建项目：**
--  `poetry new <package name>`
+
+- `poetry new <package name>`
 - 创建 `.toml` 文件：`poetry init`，然后跟着提示填入信息
 
   **包管理**
+
 - 添加包：`poetry add <package name>`
 - 移除包：`poetry remove <package name>`
 - 列出可用包：`poetry show`
 
   **安装依赖**
+
 - 从现有 `pyproject.toml` 安装：`poetry install`，会自动新建虚拟环境
 - 从 `requirements.txt` 安装（不够完善）：`cat requirements.txt | xargs -I % sh -c 'poetry add "%"' (ref)`
 
   **虚拟环境**
+
 - 激活：`poetry shell`
 - 删除虚拟环境：`poetry env remove --all`
 - 运行：`poetry run python <filename>.py`
@@ -163,6 +167,51 @@ A.func2()               # 不需要实例化
 func2
 1
 foo
+```
+
+## 数据结构
+
+### 列表 list 和元组 tuple
+
+列表为一个由中括号`[]`括起来的一个数组，元组是小括号`()`，一般用列表，因为元组的内容在初始化之后就不可改变
+
+列表支持的操作：
+
+```python
+len(list) # 返回列表个数
+max(list) # 返回最大值
+min(list) # 返回最小值
+list.append(obj) # 在列表末尾添加新的对象
+list.count(obj) # 统计某个元素在列表中出现的次数
+list.sort(cmp=None, key=None, reverse=False) # 对原列表进行排序
+list.pop([index=-1]) # 移除列表中的一个元素（默认最后一个元素），并且返回该元素的值
+```
+
+### 字典 dict
+
+字典是 python 对哈希表的实现，由多项键值对组成
+
+字典支持的操作：
+
+```python
+len(dict) # 返回字典键的个数
+dict.get(key, default=None) # 返回指定键的值，如果值不在字典中返回 default 值
+dict.values() # 以列表返回字典中的所有值
+dict.pop(key[,default]) # 删除字典给定键 key 所对应的值，返回值为被删除的值。key 值必须给出。否则，返回 default 值。
+```
+
+### 集合
+
+集合创建一个无序不重复元素集，可删除重复数据，还可以计算并集、交集、差集
+
+创建集合方式：
+
+```python
+group = set(list) # 创建集合
+x & y # 交集，包括同时在集合 x 和 y 中的共同元素
+x | y # 并集，包括集合 x 和 y 中所有元素
+x - y # 差集，包括在集合 x 中但不在集合 y 中的元素
+x ^ y # 补集，包括集合 x 和 y 的非共同元素
 ```
 
 ## 自带模块库

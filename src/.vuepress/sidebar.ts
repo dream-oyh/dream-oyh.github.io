@@ -226,16 +226,20 @@ export default sidebar({
 				"queue.md",
 				"tree.md",
 				"graph.md",
-        "HashTable.md"
+				"HashTable.md",
 			],
 		},
-    {
-      text:"Literature Review and Management",
-      prefix:"/study/LiteratureReview",
-      collapsible: true,
-      children:[
-        "01.md",
-      ]
-    }
+		{
+			text: "算法（力扣）",
+			prefix: "/study/Algorithm/",
+			collapsible: true,
+			children: ["Enumerate.md", "Sort.md"],
+		},
+		{
+			text: "Literature Review and Management",
+			prefix: "/study/LiteratureReview",
+			collapsible: true,
+			children: ["01.md"],
+		},
 	],
 });

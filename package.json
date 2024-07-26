@@ -11,13 +11,13 @@
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.8",
+    "@vuepress/bundler-vite": "2.0.0-rc.14",
     "flowchart.ts": "^3.0.0",
-    "katex": "^0.16.9",
-    "mermaid": "^10.9.0",
-    "vue": "^3.4.21",
-    "vuepress": "2.0.0-rc.8",
-    "vuepress-plugin-search-pro": "2.0.0-rc.31",
-    "vuepress-theme-hope": "2.0.0-rc.31"
+    "katex": "^0.16.11",
+    "mermaid": "^10.9.1",
+    "vue": "^3.4.34",
+    "vuepress": "2.0.0-rc.14",
+    "vuepress-plugin-search-pro": "2.0.0-rc.52",
+    "vuepress-theme-hope": "2.0.0-rc.52"
   }
 }

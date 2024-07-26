@@ -3,7 +3,7 @@ date: 2024-07-22
 tag: data_structure
 ---
 
-# 📈Hash Table
+# 📈 Hash Table
 
 **Hash Table**: A abstract data structure that maps keys and values.
 
