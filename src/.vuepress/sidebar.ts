@@ -212,7 +212,7 @@ export default sidebar({
 			icon: "xialingying",
 			prefix: "/study/SummerCampReview",
 			collapsible: true,
-			children: ["PhysNet.md", "ObjectDetection.md"],
+			children: ["PhysNet.md", "ObjectDetection.md", "ControlEngineering.md"],
 		},
 		{
 			text: "数据结构（全英）",

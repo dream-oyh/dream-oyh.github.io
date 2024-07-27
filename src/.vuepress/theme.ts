@@ -60,11 +60,11 @@ export default hopeTheme({
 		blog: true,
 		components: {
 			components: ["SiteInfo", "PDF"],
-			// componentOptions: {
-			// 	pdf: {
-			// 		pdfjs: "/pdfjs-4.0.189-dist",
-			// 	},
-			// },
+			componentOptions: {
+				pdf: {
+					pdfjs: "/pdfjs-4.5.136-dist",
+				},
+			},
 		},
 		searchPro: {
 			indexContent: true,
