@@ -198,6 +198,7 @@ len(dict) # 返回字典键的个数
 dict.get(key, default=None) # 返回指定键的值，如果值不在字典中返回 default 值
 dict.values() # 以列表返回字典中的所有值
 dict.pop(key[,default]) # 删除字典给定键 key 所对应的值，返回值为被删除的值。key 值必须给出。否则，返回 default 值。
+dict.items() # 返回由键和值组成的迭代对象，可以用：for key, value in dict.items(): 调用
 ```
 
 ### 集合
