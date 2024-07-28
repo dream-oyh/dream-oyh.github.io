@@ -28,7 +28,7 @@ tag: algorithm
 
 我们需要在美国选取若干广播台，要求选取尽可能少的广播台来覆盖我们需要的洲（每个广播台覆盖范围一定，集：覆盖的洲一定），现已给出需要覆盖的洲和各个广播台的覆盖洲范围，设计算法完成问题。
 
-```python
+``` python
 needed_states = set(["mt", "wa", "or", "id", "nv", "ut", "ca", "az"])  # 要覆盖的洲
 boardcast_stations = {}
 boardcast_stations["kone"] = set(["id", "nv", "ut"])
