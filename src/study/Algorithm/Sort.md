@@ -9,7 +9,7 @@ tag: algorithm
 
 “分而治之”思想的体现，随机选取一个值，列表中比该值小的组成一个列表`less`，列表中比该值大的组成一个列表`greater`；对这两个列表再分别进行快速排序，是一种递归的做法，Python 实现代码如下：
 
-```python
+``` python
 def quick_sort(array: list):
     less = []
     greater = []
