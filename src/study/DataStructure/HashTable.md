@@ -64,3 +64,90 @@ Jump back and forth! But the detection failure may be occur.
 ### Chaining
 
 If different keys have the same hash code, they are synonyms for each other. The Chaining method stores synonyms in a linked list under the same address. Search, delete, and insert are implemented in this linked list.
+
+## 题库
+
+::: tip 两数之和
+给定一个整数数组 `nums` 和一个整数目标值 `target`，请你在该数组中找出 和为目标值 `target` 的那 两个 整数，并返回它们的数组下标。
+
+你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
+
+你可以按任意顺序返回答案。
+:::
+
+```python
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        hashtable = dict()
+        length = len(nums)
+        for i in range(length):
+            if target - nums[i] in hashtable:
+                return [hashtable[target - nums[i]], i]
+            hashtable[nums[i]] = i
+        return []
+```
+
+题解：利用哈希表记录数和数索引。所以建立哈希表主要得搞清楚，键和值都用来记录什么？其次就是当遇到双重循环的时候，可以考虑一下能不能用哈希表来解除循环。
+
+---
+
+::: tip 字母异位词分组
+
+给你一个字符串数组，请你将 字母异位词 组合在一起。可以按任意顺序返回结果列表。
+
+字母异位词 是由重新排列源单词的所有字母得到的一个新单词。
+
+:::
+
+**法一：**
+
+考虑到字母异位词是由具有相同数量的相同字母组成的词，那对其进行排序之后，字母异位词具有相同的字符串序列，因此可以考虑用排序后的字母异位词作为哈希表的键，而用字符串列表作为值。
+
+值得注意的是这里用到了几个我自己没见过的方法：
+
+::: important 小技巧补充
+1. `dict = collections.defaultdict()`可以创建一个值为列表的字典，并且创建后直接调用`dict[key].append()`就能向指定键对应的列表内加入新值
+2. `sorted()`函数可以对任意列表或字符串排序，排序后返回一个有序列表，如：“asn”在`sorted("asn")`后返回`['a','n','s']`
+3. `"".join()`字符串的`join()`函数，可以把一个列表一起 join 进去
+4. 字典的键只能用字符串、整数、浮点数、**元组** （对，元组是可以的！）等数据类型表示，不能用字典或列表作为字典的值
+:::
+
+```python
+class Solution(object):
+    def groupAnagrams(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: List[List[str]]
+        """
+        strs_hash = collections.defaultdict(list)
+        ans = []
+        for str in strs:
+            strs_hash["".join(sorted(str))].append(str)
+        return list(strs_hash.values())
+```
+
+**法二：**
+
+利用计数的方法来建立键值，但是如上所述，字典的键不能用列表来实现，因此需要把列表转换为元组来作为字典的键。
+
+```python
+class Solution(object):
+    def groupAnagrams(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: List[List[str]]
+        """
+        strs_hash = collections.defaultdict(list)
+
+        for str in strs:
+            counts = [0] * 26
+            for ch in str:
+                counts[ord(ch) - ord("a")] += 1
+            strs_hash[tuple(counts)].append(str)
+        return list(strs_hash.values())
+```

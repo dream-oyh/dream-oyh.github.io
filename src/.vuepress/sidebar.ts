@@ -233,13 +233,18 @@ export default sidebar({
 			text: "算法（力扣）",
 			prefix: "/study/Algorithm/",
 			collapsible: true,
-			children: ["Enumerate.md", "Sort.md", "GreedyAlgorithm.md"],
+			children: [
+				"Enumerate.md",
+				"Sort.md",
+				"GreedyAlgorithm.md",
+				"DynamicPlan.md",
+			],
 		},
-		{
-			text: "Literature Review and Management",
-			prefix: "/study/LiteratureReview",
-			collapsible: true,
-			children: ["01.md"],
-		},
+		// {
+		// 	text: "Literature Review and Management",
+		// 	prefix: "/study/LiteratureReview",
+		// 	collapsible: true,
+		// 	children: ["01.md"],
+		// },
 	],
 });
