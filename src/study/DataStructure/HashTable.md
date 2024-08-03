@@ -67,12 +67,16 @@ If different keys have the same hash code, they are synonyms for each other. The
 
 ## 题库
 
+哈希表：主要针对根据特征进行分类的问题
+
 ::: tip 两数之和
 给定一个整数数组 `nums` 和一个整数目标值 `target`，请你在该数组中找出 和为目标值 `target` 的那 两个 整数，并返回它们的数组下标。
 
 你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
 
 你可以按任意顺序返回答案。
+
+[link](https://leetcode.cn/problems/two-sum/?envType=study-plan-v2&envId=top-100-liked)
 :::
 
 ```python
@@ -102,6 +106,7 @@ class Solution(object):
 
 字母异位词 是由重新排列源单词的所有字母得到的一个新单词。
 
+[link](https://leetcode.cn/problems/group-anagrams/?envType=study-plan-v2&envId=top-100-liked)
 :::
 
 **法一：**
@@ -111,11 +116,12 @@ class Solution(object):
 值得注意的是这里用到了几个我自己没见过的方法：
 
 ::: important 小技巧补充
+
 1. `dict = collections.defaultdict()`可以创建一个值为列表的字典，并且创建后直接调用`dict[key].append()`就能向指定键对应的列表内加入新值
 2. `sorted()`函数可以对任意列表或字符串排序，排序后返回一个有序列表，如：“asn”在`sorted("asn")`后返回`['a','n','s']`
 3. `"".join()`字符串的`join()`函数，可以把一个列表一起 join 进去
 4. 字典的键只能用字符串、整数、浮点数、**元组** （对，元组是可以的！）等数据类型表示，不能用字典或列表作为字典的值
-:::
+   :::
 
 ```python
 class Solution(object):
@@ -151,3 +157,100 @@ class Solution(object):
             strs_hash[tuple(counts)].append(str)
         return list(strs_hash.values())
 ```
+
+---
+
+::: tip 最长连续序列
+
+给定一个未排序的整数数组 `nums` ，找出数字连续的最长序列（不要求序列元素在原数组中连续）的长度。
+
+请你设计并实现时间复杂度为 `O(n)` 的算法解决此问题。
+
+[link](https://leetcode.cn/problems/longest-consecutive-sequence/?envType=study-plan-v2&envId=top-100-liked)
+
+:::
+
+题解：先考虑最简单的暴力求解，需要反复循环数组来判断 num+1 在不在数组内。一旦遇到“存在”问题，就可以考虑一下用哈希表，因为哈希表可以用 $O(1)$ 的复杂度来判断某数是否存在。
+
+而如果一个数是连续数列的开头，他就不应该存在前驱数 $x-1$，所以判断一次 $x-1$ 是否存在在数组中，就可以判断是否存在以该数开头的连续数列，然后一直往后找 $x+1$ 直至 $x+1$ 不存在在数组中为止。
+
+```python
+class Solution(object):
+    def longestConsecutive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        longest_streak = 0
+        num_set = set(nums)
+        for value in num_set:
+            if value - 1 not in num_set:
+                current_num = value
+                current_streak = 1
+
+                while current_num + 1 in num_set:
+                    current_num += 1
+                    current_streak += 1
+
+                longest_streak = max(current_streak, longest_streak)
+        return longest_streak
+```
+
+---
+
+::: tip 有效的字母异位词
+
+给定两个字符串 `s` 和 `t` ，编写一个函数来判断 `t` 是否是 `s` 的字母异位词。
+
+注意：若 `s` 和 `t` 中每个字符出现的次数都相同，则称 `s` 和 `t` 互为字母异位词。
+
+[link](https://leetcode.cn/problems/valid-anagram/description/)
+:::
+
+利用`collections.Counter(string)`构建一个哈希表，该哈希表的键是`string`里的不重复元素，值是出现次数。判断两个`Counter()`是否相等即可
+
+```python
+import collections
+class Solution(object):
+    def isAnagram(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        return True if collections.Counter(s) == collections.Counter(t) else False
+```
+
+---
+
+::: tip 有效的数独
+题目见：[link](https://leetcode.cn/problems/valid-sudoku/description/)
+:::
+
+```python
+class Solution(object):
+    def isValidSudoku(self, board):
+        """
+        :type board: List[List[str]]
+        :rtype: bool
+        """
+        rows_count = [[0] * 9 for i in range(9)]
+        columns_count = [[0] * 9 for i in range(9)]
+        subboxes_count = [[[0, 0, 0], [0, 0, 0], [0, 0, 0]] for i in range(9)]
+        for i in range(9):
+            for j in range(9):
+                if board[i][j] != ".":
+                    num = int(board[i][j]) - 1
+                    rows_count[num][i] += 1
+                    columns_count[num][j] += 1
+                    subboxes_count[num][i // 3][j // 3] += 1
+                    if (
+                        rows_count[num][i] > 1
+                        or columns_count[num][j] > 1
+                        or subboxes_count[num][i // 3][j // 3] > 1
+                    ):
+                        return False
+        return True
+```
+
+题解：用行、列、九宫格三个哈希表来记录数字出现次数。其中`rows_count`为 9x9 矩阵，行表示 1~9 中第几个数字，列表示这个数字出现在第几行；`columns_count`也为 9x9 矩阵，行表示 1~9 中第几个数字，列表示这个数字出现在第几列；`subboxes_count`为 9x3x3 矩阵，第一个维度表示 1~9 中第几个数字，第二个维度和第三个维度共同表示了这个数字出现在哪个九宫格中。
