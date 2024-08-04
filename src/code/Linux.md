@@ -1,10 +1,7 @@
 ---
 date: 2024-02-20
 icon: linux
-category:
-  - 计算机
-  - 底层
-tag: 笔记
+tag: Linux
 ---
 
 # Linux
@@ -69,3 +66,25 @@ mount -o remount,rw <mouont dir>
 :::
 
 在解决完上述问题后，`resize/move`可以正常运行，但是仍然无法扩容，原因在于未格式化分区在 ubuntu 系统分区的左侧，gparted 无法支持向左扩容。也因如此，第一次扩容尝试失败了，下次有机会再试试。
+
+2024.08 不考虑扩容了，直接把多余的没用的东西删了，腾出了 13 个 G 的空间。
+
+## 问题解决
+
+### Ubuntu 与 Win 双系统开机默认启动项问题
+
+记住开机启动项的各选项索引（从 0 开始），比如说我的启动项顺序是：
+
+- Ubuntu
+- Advanced ...
+- Win
+
+则 Win 对应的索引是 2。
+
+打开终端：
+
+```sh
+sudo gedit /boot/grub/grub.cfg
+```
+
+将`set_default="0"` 修改为`set_default="2"`即可
