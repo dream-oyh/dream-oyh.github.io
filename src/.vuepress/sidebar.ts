@@ -240,6 +240,12 @@ export default sidebar({
 				"DynamicPlan.md",
 			],
 		},
+		{
+			text: "ROS",
+			prefix: "/study/ROS",
+			collapsible: true,
+			children: ["CLITools.md"],
+		},
 		// {
 		// 	text: "Literature Review and Management",
 		// 	prefix: "/study/LiteratureReview",
