@@ -158,6 +158,10 @@ x = torch.load('tensor.pt')  # 读取
 **反向传播**：遍历一次就可以获得输出量对于计算流图中任意节点的梯度
 :::
 
+From Colah's Blog:
+
+> Forward-mode differentiation tracks how one input affects every node. Reverse-mode differentiation tracks how every node affects one output.That is, forward-mode differentiation applies the operator $\frac{\partial }{\partial x}$ to every node, while reverse mode differentiation applies the operator $\frac{\partial Z}{\partial}$ to every node.
+
 **反向传播**的过程是累加的（这一部分还并没有找到相关原理的文章做支撑，暂且先记住），所以在反向传播之前需要将梯度清零。
 
 #### 举例说明

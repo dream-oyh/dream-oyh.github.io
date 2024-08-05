@@ -254,3 +254,106 @@ class Solution(object):
 ```
 
 题解：用行、列、九宫格三个哈希表来记录数字出现次数。其中`rows_count`为 9x9 矩阵，行表示 1~9 中第几个数字，列表示这个数字出现在第几行；`columns_count`也为 9x9 矩阵，行表示 1~9 中第几个数字，列表示这个数字出现在第几列；`subboxes_count`为 9x3x3 矩阵，第一个维度表示 1~9 中第几个数字，第二个维度和第三个维度共同表示了这个数字出现在哪个九宫格中。
+
+---
+
+::: tip 存在重复元素 II
+给你一个整数数组 `nums` 和一个整数 `k`，判断数组中是否存在两个 不同的索引 `i `和 `j`，满足 `nums[i] == nums[j]` 且 `abs(i - j) <= k`。
+
+如果存在，返回 `true`；否则，返回 `false `
+:::
+
+法一：利用哈希表存储值和索引，遍历一遍即可
+
+```python
+class Solution(object):
+    def containsNearbyDuplicate(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: bool
+        """
+        pos = {}
+        for i, num in enumerate(nums):
+            if num in pos and i - pos[num] <= k:
+                return True
+            else:
+                pos[num] = i
+        return False
+```
+
+法二：滑动窗口，注意一下滑动窗口的写法，最好拿滑动窗口结束位去遍历，这样好写一点（其实拿起始位遍历也一样的了，只不过 `i>k` 这个判断标准就更复杂一点了
+
+```python
+class Solution2(object):
+    def containsNearbyDuplicate(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: bool
+        """
+        pos = set([])
+        for i, num in enumerate(nums):
+            if i > k:
+                pos.remove(nums[i-k-1])
+
+            if num in pos:
+                return True
+
+            pos.add(num)
+
+        return False
+```
+
+---
+
+::: tip 两个数组的交集 II
+给你两个整数数组 `nums1` 和 `nums2` ，请你以数组形式返回两数组的交集。返回结果中每个元素出现的次数，应与元素在两个数组中都出现的次数一致（如果出现次数不一致，则考虑取较小值）。可以不考虑输出结果的顺序。
+:::
+
+法一：哈希表
+
+```python
+import collections
+
+class Solution(object):
+    def intersect(self, nums1, nums2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: List[int]
+        """
+        ans = []
+        nums2_count = collections.Counter(nums2)
+        for num in nums1:
+            if num in nums2 and nums2_count[num] >= 1:
+                ans.append(num)
+                nums2_count[num] -= 1
+        return ans
+```
+
+法二：双指针（但是需要有序数组）
+
+```python
+class Solution(object):
+    def intersect(self, nums1, nums2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: List[int]
+        """
+        i, j = 0, 0
+        nums1 = sorted(nums1)
+        nums2 = sorted(nums2)
+        ans = []
+        while i <= len(nums1) - 1 and j <= len(nums2) - 1:
+            if nums1[i] > nums2[j]:
+                j += 1
+            elif nums1[i] < nums2[j]:
+                i += 1
+            elif nums1[i] == nums2[j]:
+                ans.append(nums1[i])
+                i += 1
+                j += 1
+        return ans
+```
