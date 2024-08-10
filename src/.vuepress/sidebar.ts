@@ -244,7 +244,7 @@ export default sidebar({
 			text: "ROS",
 			prefix: "/study/ROS",
 			collapsible: true,
-			children: ["CLITools.md"],
+			children: ["CLITools.md", "ClientLibraries.md"],
 		},
 		// {
 		// 	text: "Literature Review and Management",
