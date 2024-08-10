@@ -1,6 +1,6 @@
 ---
 date: 2024-08-04
-tag: robot
+tag: ROS
 ---
 
 # CLI Tools
@@ -405,7 +405,7 @@ Action 使用 client - server 模型，类似于 publisher - Subscriber 模型�
 ```sh
 ros2 action list [-t] # 获取 action 列表，[-t] 选项支持显示 action 类型
 ros2 action info <action_name> # 获取 action 信息，返回客户端与服务端的个数与 action 类型
-ros2 interface show <action_type> 
+ros2 interface show <action_type>
 # 返回 action 类型，两条---将返回值分为三个部分，从上到下依次是 goal, result, feedback的结构
 ros2 action send_goal <action_name> <action_type> <values> # 发送 action 语句，<values>支持 YAML 格式
 ros2 action send_goal <action_name> <action_type> <values> --feedback
@@ -423,3 +423,32 @@ ros2 param dump /turtlesim > turtlesim.yaml # 保存参数并重定向
 ros2 param load <node_name> <parameter_file> # 加载参数文件至某一节点
 ros2 run <package_name> <executable_name> --ros-args --params-file <file_name> # 可以在启动节点时就加载参数列表
 ```
+
+## launch Nodes
+
+当构建更为复杂系统的时候，一个个打开终端太麻烦了，因此可以通过 launch files 来自动配置一系列节点。运行单独的 launch files 命令为`ros2 launch `，这将启动你的整个系统。
+
+打开一个新终端并运行：
+
+```sh
+ros2 launch turtlesim multisim.launch.py
+```
+
+这条命令将会运行以下程序：
+
+```python
+from launch import LaunchDescription
+import launch_ros.actions
+
+def generate_launch_description():
+    return LaunchDescription([
+        launch_ros.actions.Node(
+            namespace = "turtlesim1", package = "turtlesim", executable = "turtlesim_node", output = "screen"
+        ),
+        launch_ros.actions.Node(
+            namespace = "turtlesim2", package = "turtlesim", executable = "turtlesim_node", output = "screen"
+        ),
+    ])
+```
+
+这将会在屏幕上启动两个 turtlesim 节点。
