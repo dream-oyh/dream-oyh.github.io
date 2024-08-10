@@ -227,6 +227,7 @@ export default sidebar({
 				"tree.md",
 				"graph.md",
 				"HashTable.md",
+				"Heap.md",
 			],
 		},
 		{

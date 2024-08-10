@@ -126,9 +126,10 @@ ros2 run my_package my_node
 
 ### Create a package
 
-```sh 
+```sh
 ros2 pkg create --build-type ament_python --license Apache-2.0 py_pubsub
 ```
+
 ### Write the publisher node
 
 进入 `ros2_ws/src/py_pubsub/py_pubsub`目录，运行如下指令下载示例：
@@ -212,7 +213,7 @@ entry_points={
 
 检查 `setup.cfg` 内容，保证其被正确产生：
 
-```cfg
+```sh
 [develop]
 script_dir=$base/lib/py_pubsub
 [install]
