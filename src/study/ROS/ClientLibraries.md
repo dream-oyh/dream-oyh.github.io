@@ -284,5 +284,162 @@ entry_points={
 在`ros2_ws`下运行：
 
 ```sh
+rosdep install -i --from-path src --rosdistro iron -y # 检查依赖完整性
+colcon build --packages-select py_pubsub
+```
+
+再在另一个终端运行（导航至`ros2_ws`路径），首先获取安装路径，再运行`ros2 run`：
+
+```sh
+source install/setup.bash
+ros2 run py_pubsub talker
+```
+
+再在另一个终端运行（导航至`ros2_ws`路径）：
+
+```sh
+source install/setup.bash
+ros2 run py_pubsub listener
+```
+
+## Write a simple service and client
+
+在两个节点使用 service 进行数据交换过程中，发出获取数据请求的是 client 节点，而响应要求的节点是 service 节点，请求和响应结构被 `.srv` 文件所定义
+
+官网给出的例子是简单的两数相加系统，一个节点请求两数之和，另一节点通过响应返回计算结果。
+
+### create a package
+
+导航至 `ros2_ws/src`内：
+
+```sh
+ros2 pkg create --build-type ament_python --license Apache-2.0 py_srvcli --dependencies rclpy example_interfaces
+```
+
+其中`--dependencies`参数可以自动将 pkg 添加至`package.xml`文件中，不再需要手动加入。`example_interfaces`提供了请求和响应的数据结构。
+
+### Write the service node
+
+在`ros2_ws/src/py_srvcli/py_srvcli/`路径下，创建`service_member_function.py`，并加入下列代码：
+
+```python
+from example_interfaces.srv import AddTwoInts
+
+import rclpy
+from rclpy.node import Node
+
+
+class MinimalService(Node):
+
+    def __init__(self):
+        super().__init__('minimal_service')
+        self.srv = self.create_service(AddTwoInts, 'add_two_ints', self.add_two_ints_callback)
+
+    def add_two_ints_callback(self, request, response):
+        response.sum = request.a + request.b
+        self.get_logger().info('Incoming request\na: %d b: %d' % (request.a, request.b))
+
+        return response
+
+
+def main():
+    rclpy.init()
+
+    minimal_service = MinimalService()
+
+    rclpy.spin(minimal_service)
+
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
+```
+
+在`setup.py`的`console_scripts`内添加入口点：
+
+```python
+'service = py_srvcli.service_member_function:main'
+```
+
+### Write the client node
+
+在`ros2_ws/src/py_srvcli/py_srvcli/`路径下，创建`client_member_function.py`，并加入下列代码：
+
+```Python
+import sys
+
+from example_interfaces.srv import AddTwoInts
+import rclpy
+from rclpy.node import Node
+
+
+class MinimalClientAsync(Node):
+
+    def __init__(self):
+        super().__init__('minimal_client_async')
+        self.cli = self.create_client(AddTwoInts, 'add_two_ints')
+        while not self.cli.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('service not available, waiting again...')
+        self.req = AddTwoInts.Request()
+
+    def send_request(self, a, b):
+        self.req.a = a
+        self.req.b = b
+        return self.cli.call_async(self.req)
+
+
+def main():
+    rclpy.init()
+
+    minimal_client = MinimalClientAsync()
+    future = minimal_client.send_request(int(sys.argv[1]), int(sys.argv[2]))
+    rclpy.spin_until_future_complete(minimal_client, future)
+    response = future.result()
+    minimal_client.get_logger().info(
+        'Result of add_two_ints: for %d + %d = %d' %
+        (int(sys.argv[1]), int(sys.argv[2]), response.sum))
+
+    minimal_client.destroy_node()
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
+```
+
+`MinimalClientAsync `类构造函数使用名称 `minimal_client_async` 初始化节点。构造函数定义创建一个与服务节点具有相同类型和名称的客户端。**类型和名称必须匹配，客户端和服务才能进行通信。**构造函数中的 `while` 循环每秒检查一次与客户端的类型和名称匹配的服务是否可用。最后，它创建一个新的 `AddTwoInts` 请求对象。
+
+在`setup.py`中`entry_points`里，加入进入点：
+
+```Python
+entry_points={
+    'console_scripts': [
+        'service = py_srvcli.service_member_function:main',
+        'client = py_srvcli.client_member_function:main',
+    ],
+},
+```
+
+### Build and run
+
+导航至`ros2_ws`，运行：
+
+``` sh
 rosdep install -i --from-path src --rosdistro iron -y
+colcon build --packages-select py_srvcli
+```
+
+在新终端内，导航至`ros2_ws`，运行：
+
+```sh 
+source install/setup.bash
+ros2 run py_srvcli service
+```
+
+再在新终端内，导航至`ros2_ws`，运行：
+
+```sh 
+source install/setup.bash
+ros2 run py_srvcli client 2 3
 ```
