@@ -425,21 +425,127 @@ entry_points={
 
 导航至`ros2_ws`，运行：
 
-``` sh
+```sh
 rosdep install -i --from-path src --rosdistro iron -y
 colcon build --packages-select py_srvcli
 ```
 
 在新终端内，导航至`ros2_ws`，运行：
 
-```sh 
+```sh
 source install/setup.bash
 ros2 run py_srvcli service
 ```
 
 再在新终端内，导航至`ros2_ws`，运行：
 
-```sh 
+```sh
 source install/setup.bash
 ros2 run py_srvcli client 2 3
 ```
+
+## Creating custom interface definitions
+
+上述内容在调用消息和服务接口时，是直接利用了`example_interfaces`包中的`AddTwoInts`，下面的内容旨在说明如何自定义自己需要的数据类型，创建自定义的`.msg`和`.srv`文件。
+
+### Create a new package
+
+导航至`ros2_ws/src`，创建一个新的 package：
+
+```sh
+cd ros2_ws/src
+ros2 pkg create --build-type ament_cmake --license Apache-2.0 custom_interfaces
+```
+
+值得注意的是，该接口只能采用`ament_cmake`来创建，然后在由 C++ 或 Python 创建的包内使用它。
+
+`.msg`和`.srv`文件需要被分别存储在`msg`和`srv`文件夹内，请在`ros2_ws/src/custom_interfaces`内创建`msg`和`srv`文件夹
+
+在`msg`文件夹内，新建文件`Num.msg`，并且用一行代码指定其数据结构：
+
+```sh
+int64 num
+```
+
+再创建一个`Sphere.msg`文件，指定数据结构如下。这个`.msg`文件使用了其他 message package.
+
+```sh
+geometry_msgs/Point center
+float64 radius
+```
+
+回到`custom_interfaces/srv` 文件夹内，创建`AddThreeInts.srv`文件，并且写入指定数据结构：
+
+```sh
+int64 a
+int64 b
+int64 c
+---
+int64 sum
+```
+
+为了将自定义的接口转化为特定语言（C++ 或 Python），以便调取使用，需要在`CMakeLists.txt`中，加入下列代码：
+
+```sh{4}
+find_package(geometry_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Num.msg"
+  "msg/Sphere.msg"
+  "srv/AddThreeInts.srv"
+  DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+)
+```
+
+> 注意这里的几行代码，需要加到`find_package(ament_cmake REQUIRED)`语句后面，直接丢到文档最后的话会报错，报错信息如下：
+>
+> ::: details 报错信息
+>
+> ```
+> Starting >>> custom_interfaces
+> --- stderr: custom_interfaces
+> CMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:64 (message):
+>   rosidl_generate_interfaces() must be called before ament_package()
+> Call Stack (most recent call first):
+>   CMakeLists.txt:31 (rosidl_generate_interfaces)
+>
+>
+> ---
+> Failed   <<< custom_interfaces [0.31s, exited with code 1]
+>
+> Summary: 0 packages finished [0.52s]
+>   1 package failed: custom_interfaces
+>   1 package had stderr output: custom_interfaces
+> ```
+>
+> :::
+
+### `Package.xml`
+
+由于接口依赖于`rosidl_generate_interfaces`，以此来产生指定语言的代码，你需要在`package.xml`声明构建工具依赖。而`rosidl_generate_runtime`为运行时或执行阶段的依赖，需要添加在接口之后；`rosidl_interface_packages`是`custom_interfaces`的依赖组，利用`<member_of_group>`标签声明
+
+```xml
+<depend>geometry_msgs</depend>
+<buildtool_depend>rosidl_default_generators</buildtool_depend>
+<exec_depend>rosidl_default_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+```
+
+### Build
+
+在`ros2_ws`路径下：
+
+```sh
+colcon build --packages-select custom_interfaces
+source install/setup.bash
+```
+
+测试：
+
+```sh
+ros2 interface show custom_interfaces/msg/Num
+ros2 interface show custom_interfaces/msg/Sphere
+ros2 interface show custom_interfaces/srv/AddThreeInts
+```
+
