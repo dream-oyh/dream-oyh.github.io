@@ -35,7 +35,7 @@ export default hopeTheme({
 	displayFooter: true,
 	encrypt: {
 		config: {
-			"/articles/baoyan.html": ["1989"],
+			"/articles/baoyan.html": ["2003"],
 			"/articles/diary.html": ["0712"],
 		},
 	},

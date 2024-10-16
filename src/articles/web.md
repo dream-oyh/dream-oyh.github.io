@@ -42,6 +42,20 @@
   preview="/images/web/levitate.png"
 />
 
+<SiteInfo
+  name="RyanLee Blog"
+  desc=""
+  url="https://ryanlee-ljx.pages.dev"
+  preview="/images/web/ryanlee.png"
+/>
+
+<SiteInfo
+  name="代码随想录"
+  desc="优质算法学习网站"
+  url="https://programmercarl.com/"
+  preview="/images/web/code.png"
+/>
+
 ## 数理统计
 
 <SiteInfo

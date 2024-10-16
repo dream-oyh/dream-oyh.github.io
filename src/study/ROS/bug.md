@@ -16,7 +16,7 @@ tag: ros
 
 即：采用如下安装方法：
 
-```sh 
+```sh
 mkdir -p build
 cd build
 cmake -DACADOS_WITH_QPOASES=ON ..
@@ -26,7 +26,7 @@ make install -j4
 添加环境变量的坑：bluerov2 仓库里写的是：
 
 ```sh
-echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/root/acados/lib"' >> ~/.bashrc 
+echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/root/acados/lib"' >> ~/.bashrc
 echo 'export ACADOS_SOURCE_DIR="/root/acados"' >> ~/.bashrc
 source ~/.bashrc
 ```
@@ -34,14 +34,14 @@ source ~/.bashrc
 应该改为：
 
 ```sh
-echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/home/user/acados/lib"' >> ~/.bashrc 
+echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/home/user/acados/lib"' >> ~/.bashrc
 echo 'export ACADOS_SOURCE_DIR="/home/user/acados"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
 注意环境变量里不能用`~`.
 
-##  `catkin_make`编译失败
+## `catkin_make`编译失败
 
 （我全程是按着 bluerov2 给的步骤来运行的，除了上面标出的几处要更改的地方，这里已经运行到 bluerov2 仓库的`getting started`的最后一步）
 
@@ -86,9 +86,9 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 ```sh
 matthew@UBUT:~/catkin_ws$ catkin_make
 ...
--- Using PYTHON_EXECUTABLE: /home/matthew/anaconda3/envs/torch/bin/python3
+-- Using PYTHON_EXECUTABLE: /home/dream/anaconda3/envs/torch/bin/python3
 -- Using Debian Python package layout
--- Could NOT find PY_em (missing: PY_EM) 
+-- Could NOT find PY_em (missing: PY_EM)
 CMake Error at /opt/ros/noetic/share/catkin/cmake/empy.cmake:30 (message):
   Unable to find either executable 'empy' or Python module 'em'...  try
   installing the package 'python3-empy'
@@ -97,16 +97,16 @@ Call Stack (most recent call first):
   /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:20 (include)
   CMakeLists.txt:58 (find_package)
 ...
- 
+
 ```
 
-这是因为 catkin 找的 python 版本为 miniconda3 下面的版本（我的python环境配在虚拟环境里面），所以需要改为指定采用下面的命令：
+这是因为 catkin 找的 python 版本为 miniconda3 下面的版本（我的 python 环境配在虚拟环境里面），所以需要改为指定采用下面的命令：
 
 ```sh
 catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
 
-### 第三和第n次报错
+### 第三和第 n 次报错
 
 ——一直提示找不到包，例如：
 
@@ -143,4 +143,27 @@ sudo apt install ros-noetic-image-transport
 sudo apt install ros-noetic-visualization-msgs
 ...
 ```
+
 （安了好多奇奇怪怪的依赖，安到后面不想记了）
+
+## `sudo rosdep init`运行失败
+
+报错信息：
+
+```sh
+ERROR: cannot download default sources list from:
+https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/sources.list.d/20-default.list
+ERROR: unable to process source [https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/osx-homebrew.yaml]:
+    <urlopen error [Errno 111] Connection refused> (https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/osx-homebrew.yaml)
+```
+
+错误原因：githubusercontent 这个网站已经被墙了，无法连接，所以解决方法就是找到其镜像文件，从镜像源下载，具体解决方法参考[ref](https://blog.csdn.net/XCCCCZ/article/details/131756867)
+
+看完这篇文章后，我用了这个解决方法成功解决问题：
+
+```sh
+sudo apt-get install wget
+sudo mkdir -p /etc/ros/rosdep/sources.list.d
+wget https://mirrors.tuna.tsinghua.edu.cn/github-raw/ros/rosdistro/master/rosdep/sources.list.d/20-default.list -O /etc/ros/rosdep/sources.list.d/20-default.list
+export ROSDISTRO_INDEX_URL=https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml && rosdep update
+```
