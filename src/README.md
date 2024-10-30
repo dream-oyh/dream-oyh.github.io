@@ -8,6 +8,11 @@ heroFullScreen: true
 tagline: 万里蹀躞，以此为归
 projects:
   - icon: python
+    name: System Identification by RNN
+    desc: 基于 RNN 的水下机器人系统参数辨识
+    link: https://github.com/dream-oyh/System-Identification-by-RNN
+
+  - icon: python
     name: 典型信号输入下一二阶系统响应仿真
     desc: 控制工程基础课程设计，不同输入信号下系统响应的 GUI 仿真界面
     link: https://github.com/dream-oyh/Control_Engneering_Twice_Work_Python
