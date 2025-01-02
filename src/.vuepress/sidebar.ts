@@ -174,7 +174,7 @@ export default sidebar({
 			text: "推荐",
 			icon: "34wujiaoxingpingfenshixin",
 			collapsible: true,
-			children: ["software.md", "web.md", "film_recommend.md"],
+			children: ["software.md", "web.md"],
 		},
 		{
 			text: "关于大学",
