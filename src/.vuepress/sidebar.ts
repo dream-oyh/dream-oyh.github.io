@@ -159,7 +159,9 @@ export default sidebar({
 		{
 			text: "他山之石",
 			icon: "communityfill",
-			link: "external.md",
+			collapsible: true,
+			prefix: "external",
+			children: ["2025.md"],
 		},
 		{
 			text: "日拱一卒",
