@@ -157,29 +157,34 @@ export default sidebar({
 	],
 	"/articles/": [
 		{
-			text: "随笔",
+			text: "他山之石",
+			icon: "communityfill",
+			link: "external.md",
+		},
+		{
+			text: "日拱一卒",
 			icon: "pen",
-			children: ["article.md", "weakness.md"],
+			collapsible: true,
+			prefix: "rigongyizu",
+			children: ["2024.md", "2025.md"],
 		},
 		{
 			text: "推荐",
 			icon: "34wujiaoxingpingfenshixin",
+			collapsible: true,
 			children: ["software.md", "web.md", "film_recommend.md"],
 		},
 		{
-			text: "学习路线",
+			text: "关于大学",
 			icon: "graduate",
+			collapsible: true,
 			children: ["CSU.md", "baoyan.md"],
 		},
 		{
 			text: "读书笔记",
+			collapsible: true,
 			icon: "note",
 			children: ["read.md", "hamlet.md"],
-		},
-		{
-			text: "他山之石",
-			icon: "communityfill",
-			link: "external.md",
 		},
 	],
 	"/credit/": [
