@@ -171,6 +171,11 @@ export default sidebar({
 			children: ["2024.md", "2025.md"],
 		},
 		{
+			text: "犯傻记录",
+			icon: "build",
+			link: "fool.md",
+		},
+		{
 			text: "推荐",
 			icon: "34wujiaoxingpingfenshixin",
 			collapsible: true,
