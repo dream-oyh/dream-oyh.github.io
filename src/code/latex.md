@@ -5,19 +5,86 @@ category: 工具
 tag: 教程
 ---
 
-# Latex 公式编辑器
+# Latex
 
 核心思想：内容与格式的分离
 
 ## 安装与学习
 
+::: tip latex 学习建议
+
+建议用[overleaf](https://www.overleaf.com)作为 latex 编辑 IDE，方便！overleaf 社区集合了很多好用的模板，而且不需要占用电脑本地存储空间。
+
+latex 公式指令查询：[在线 Latex 公式编辑器](https://www.latexlive.com/)
+
+latex 表格快速制作：[快速制作表格-web 端工具](https://www.tablesgenerator.com/latex_tables)
+:::
+
+
+::: details 旧版学习建议（包括 VSCode 配置 Latex 方法）
 安装：见知乎老哥专栏：[如何安装 latex](https://zhuanlan.zhihu.com/p/56982388)
 
 但是我选择把$\LaTeX$集成进 VSCode，集成教程可以看这篇文章：[Visual Studio Code (vscode) 配置 LaTeX](https://zhuanlan.zhihu.com/p/166523064)
 
 学习：想要学习 latex 数学公式编辑语法可以用妈咪说搭建的可视化网站：[在线 Latex 公式编辑器](https://www.latexlive.com/)
 
-如果有梯子的话，建议使用[Overleaf](https://www.overleaf.com)网站，在线的 latex 语法编辑器
+建议使用[Overleaf](https://www.overleaf.com)网站，在线的 latex 语法编辑器
+:::
+
+## 我的常用模板
+
+平常在做一些课设时，由于公式较多，我一般都采用 latex 编辑，一般采用的需要调用的外部包如下：
+
+::: details 需要调用的外部包，可直接复制进 overleaf 作为模板
+```latex
+\documentclass[12pt]{ctexart}
+\usepackage{ctex}			%处理中文字体宏包
+\usepackage{graphicx}		%处理图片宏包
+\usepackage{amsmath}		%处理数学公式宏包	
+\usepackage{setspace}		%处理行距宏包
+\usepackage[left=1.91cm,right=1.91cm,top=2.54cm,bottom=2.54cm]{geometry}		%编辑页面格式
+\usepackage{booktabs}		%处理三线表宏包
+\usepackage{color}			%处理颜色宏包
+\usepackage{multirow}       %处理合并单元格宏包
+\usepackage{longtable}
+
+\title{xxx}
+\author{yh o}
+\date{January 2025}
+
+\begin{document}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[scale=0.2]{xxx.png}
+    \caption{xxx}\label{xxx}
+\end{figure}
+
+
+% 三线表
+\begin{table}[htbp]
+    \centering
+    \setlength{\belowcaptionskip}{0.3cm}
+    \caption{xxx}\label{xxx}
+    \begin{tabular}{c c}
+        \toprule
+        符号 & 含义 \\
+        \midrule
+        $N$ & xx\\
+        $Q$ & xx\\
+        $n$ & xx\\
+        $a$ & xx\\
+        $b$ & xx\\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\end{document}
+```
+
+:::
+
+
 
 ## latex 自带帮助文档
 
@@ -25,12 +92,11 @@ cmd 窗口中输入 `texdoc ctex` 打开 ctex 宏集手册
 
 cmd 窗口中输入 `texdoc graphicx` 打开 graphicx 宏集手册
 
-
 ## latex 程序框架
 
-``` latex
+```latex
 % =======导言区（类似于全局设置）=========
-\documentclass{article} % 还有book letter等文档类
+\documentclass{article} % 还有 book letter 等文档类
 
 \title{test} % 文本标题
 \author{o yh} % 作者
@@ -40,7 +106,7 @@ cmd 窗口中输入 `texdoc graphicx` 打开 graphicx 宏集手册
 
 \begin{document}
 
-\maketitle  % 输出文档的作者，文本标题，编辑日期等信息（注：该命令不可用于letter文档类
+\maketitle  % 输出文档的作者，文本标题，编辑日期等信息（注：该命令不可用于 letter 文档类
 
 %  请在此区域内输入你的内容
 Hello dream-oyh!
@@ -55,14 +121,15 @@ Hello dream-oyh!
 :::
 
 - 若需要处理中文，需要在导言区引入`ctex`宏包。
-``` latex
-\usepackage{ctex} % 引入ctex宏包，从而可以输出中文
+
+```latex
+\usepackage{ctex} % 引入 ctex 宏包，从而可以输出中文
 ```
 
 - newcommand 命令
-在导言区加入 newcommand 指令，可自定义命令
+  在导言区加入 newcommand 指令，可自定义命令
 
-``` latex
+```latex
 \newcommand {\自定义命令符}{代码，指令}
 % 如：
 \newcommand {\myfont}{\textit{\textbf{\textsf{Hello World}}}}
@@ -88,9 +155,9 @@ Hello dream-oyh!
   - 伪斜体
   - 小型大写
 - 字体大小
-**设置字体族：**
+  **设置字体族：**
 
-``` latex
+```latex
 
   \textrm{hello dream-oyh}  % 设置罗马字体
   \textsf{hello dream-oyh}  % 设置无衬线字体
@@ -109,15 +176,15 @@ Hello dream-oyh!
 
 预览：
 
-$\textrm{hello dream-oyh}$  % 设置罗马字体
+$\textrm{hello dream-oyh}$ % 设置罗马字体
 
-$\textsf{hello dream-oyh}$  % 设置无衬线字体
+$\textsf{hello dream-oyh}$ % 设置无衬线字体
 
-$\texttt{hello dream-oyh}$  % 设置打字机字体
+$\texttt{hello dream-oyh}$ % 设置打字机字体
 
 **设置字体系列：**
 
-``` latex
+```latex
 \mdseries dream-oyh is dream-oyh % 设置细体
 \bfseries dream-oyh is dream-oyh % 设置粗体
 
@@ -128,13 +195,13 @@ $\texttt{hello dream-oyh}$  % 设置打字机字体
 ```
 
 预览：
-$\textmd{dream-oyh is dream-oyh}$  % 设置细体
+$\textmd{dream-oyh is dream-oyh}$ % 设置细体
 
-$\textbf{dream-oyh is dream-oyh}$  % 设置粗体
+$\textbf{dream-oyh is dream-oyh}$ % 设置粗体
 
 **设置字体形状：**
 
-``` latex
+```latex
 \textup{oyh is messing around}  % 设置直立字体
 \textit{oyh is messing around}  % 设置斜体
 \textsl{oyh is messing around}  % 设置伪斜体
@@ -152,9 +219,9 @@ $\textbf{dream-oyh is dream-oyh}$  % 设置粗体
 
 ::: center
 
-$\textup{oyh is messing around}$  % 设置直立字体
+$\textup{oyh is messing around}$ % 设置直立字体
 
-$\textit{oyh is messing around}$  % 设置斜体
+$\textit{oyh is messing around}$ % 设置斜体
 
 (伪斜体与小型大写不支持在此展示)
 
@@ -221,11 +288,12 @@ ${\Huge dream-oyh}$
 
 字体大小为相对于 $normalsize$ 的大小，而 $normalsize$ 的大小由文档类控制，如：
 
-``` latex
-\documentclass[10pt]{article} % 设置normalsize的大小为10磅（一般选择在10pt,11pt,12pt）
+```latex
+\documentclass[10pt]{article} % 设置 normalsize 的大小为 10 磅（一般选择在 10pt,11pt,12pt）
 ```
 
 - 中文字号设置命令
+
 ```latex
 \zihao{-0} 你好！
 
@@ -237,6 +305,7 @@ ${\Huge dream-oyh}$
 ## latex 篇章结构
 
 - 构建小节
+
 ```latex
   \section{引言}  % 构建“引言”小节
   \section{实验方法}
@@ -257,20 +326,21 @@ ${\Huge dream-oyh}$
 :::
 
 - 正文格式
+
 ```latex
   \section{引言}  % 构建“引言”小节
 
-  oyh 真的在摆烂，他就是一个摆烂王捏~oyh 真的在摆烂，他就是一个摆烂王捏~
-  oyh 真的在摆烂，他就是一个摆烂王捏~oyh 真的在摆烂，他就是一个摆烂王捏~
-  oyh 真的在摆烂，他就是一个摆烂王捏~
+  oyh 真的在摆烂，他就是一个摆烂王~oyh 真的在摆烂，他就是一个摆烂王~
+  oyh 真的在摆烂，他就是一个摆烂王~oyh 真的在摆烂，他就是一个摆烂王~
+  oyh 真的在摆烂，他就是一个摆烂王~
   重要的话要多说几遍，你才能看得出来这个段落是有首行缩进的，
   不然文字内容太少你就看不出来了。
   没啥字可以打的就这么凑合用吧……
 
   真的，跟你说了你爱信不信 % 插入一个空行起分段作用
 
-  有啥好骗你的，他就是一个憨批，\\老坑了 % 可用两个连续的反斜杠强制换行，但并没有产生新的段落 
-  
+  有啥好骗你的，他就是一个憨批，\\老坑了 % 可用两个连续的反斜杠强制换行，但并没有产生新的段落
+
   虽然坑吧，但是也别忘记了“$\backslash$ par”命令可以强制分段，比如说这样： \par 你看就分段了 % 哦对，\backslash 可以输出反斜杠
   \section{实验方法}  % 可用\par 指令强行分段
 ```
@@ -284,6 +354,7 @@ ${\Huge dream-oyh}$
 > 2022 年的 oyh 都在写些什么啊，太羞耻了。
 
 - 目录
+
 ```latex
 \tableofcontents  % 产生大纲目录
 ```
@@ -291,6 +362,7 @@ ${\Huge dream-oyh}$
 ## latex 特殊符号
 
 - 空白符号
+
 ```latex
 %空行分段，多个空行等同一个
 %分段会自动缩进，不需要用空格代替
@@ -303,7 +375,7 @@ a\qquad b % 2em
 a\,b  a\thinspace b % 1/6em
 a\enspace b % 1/2em
 a\ b % 空格
-a~b % 硬空格 
+a~b % 硬空格
 ```
 
 预览：
@@ -324,50 +396,50 @@ $a~b$ % 硬空格
 :::
 
 - 控制符
-|符号 | 控制符表示 |
-|:---:|:---:|
-|#|`\#`|
-|%|`\%`|
-|{|`\{`|
-|}|`\}`|
-|~|`\~{}`|
-|^|`\^{}`|
-|_|`_{}`|
+  |符号 | 控制符表示 |
+  |:---:|:---:|
+  |#|`\#`|
+  |%|`\%`|
+  |{|`\{`|
+  |}|`\}`|
+  |~|`\~{}`|
+  |^|`\^{}`|
+  |_|`_{}`|
 |\ |`\backslash`|
 |&|`\&`|
 
 - 排版符号
-|排版符号 | 代码表示 |
-|:---:|:---:|
-| $\S$ |`\S`|
-| $\P$ |`\P`|
-| $\dag$ |`\dag`|
-| $\ddag$ |`\ddag`|
-| $\copyright$ |`\copyright`|
-| $\pounds$ |`\pounds`|
+  |排版符号 | 代码表示 |
+  |:---:|:---:|
+  | $\S$ |`\S`|
+  | $\P$ |`\P`|
+  | $\dag$ |`\dag`|
+  | $\ddag$ |`\ddag`|
+  | $\copyright$ |`\copyright`|
+  | $\pounds$ |`\pounds`|
 
 (似乎 vuepress 不支持这些符号，哭)
 
 - latex 标志符号
-|标志符号 | 代码表示 |
-|:---:|:---:|
-|$\TeX{}$|`\TeX{}`|
-|$\LaTeX{}$|`\LaTeX{}`|
+  |标志符号 | 代码表示 |
+  |:---:|:---:|
+  |$\TeX{}$|`\TeX{}`|
+  |$\LaTeX{}$|`\LaTeX{}`|
 
 - 引号
-|引号 | 代码表示 |
-|:---:|:---:|
-|‘|`  |
+  |引号 | 代码表示 |
+  |:---:|:---:|
+  |‘|`  |
 |’|`'`|
 |“|` `` `|
-|”|`''`|
+  |”|`''`|
 
 - 连字符
-|连字符 | 代码表示 |
-|:---:|:---:|
-|-|-|
-|--|—|
-|---|——|
+  |连字符 | 代码表示 |
+  |:---:|:---:|
+  |-|-|
+  |--|—|
+  |---|——|
 
 ## latex 插图
 
@@ -402,7 +474,7 @@ $a~b$ % 硬空格
   姓名 & 语文 & 数学 & 外语 & 备注 \\ % 不同列之间用&分割，并且用\\结束一行，进入下一行
   \hline\hline % 两个 hline 命令产生双横线
   张三 & 87 & 100 & 93 & 优秀 \\
-  \hline 
+  \hline
   李四 & 75 & 64 & 52 & 补考另行通知\\
   \hline
   王二 & 80 & 82 & 78 & \\
@@ -420,7 +492,8 @@ $a~b$ % 硬空格
 仅仅用`\includegraphics`与`tabular`语法，只能实现表格与图片的创建，无法对其进行排版，创建浮动体环境，即可对于表格与图片进行位置调整，插入题注，交叉引用等操作。
 
 - 浮动体环境的创建
-``` latex
+
+```latex
 %======图片的浮动体环境=====
 \begin{figure}
   \includegraphics{} % 插入图片
@@ -434,7 +507,7 @@ $a~b$ % 硬空格
 ```
 
 - 居中排版
-在浮动体环境中用`\centering`命令，居中排版，他只影响环境中的内容
+  在浮动体环境中用`\centering`命令，居中排版，他只影响环境中的内容
 
 ```latex
 \begin{figure}
@@ -444,8 +517,8 @@ $a~b$ % 硬空格
 ```
 
 - 参数
-通过可选参数指定浮动体的排版位置
-如：
+  通过可选参数指定浮动体的排版位置
+  如：
 
 `\begin{figure}[htbp]`
 
@@ -460,7 +533,7 @@ $a~b$ % 硬空格
 `htbp`——任意位置均可
 
 - 插入题注
-`\caption{text}`
+  `\caption{text}`
 
 若在其之后添加标签，可为改图片命名，并在其他语句中进行引用
 
@@ -479,7 +552,6 @@ xxx 可见图\ref{figure1}
   \caption{xxx}\label{figure1}
 \end{figure}
 ```
-
 
 预览：
 
@@ -534,57 +606,55 @@ xxx 可见图\ref{figure1}
 % 这在 vuepress 中也无法使用
 ```
 
-
 ### 基本排版
 
-|语句/符号 | 作用 | 示例代码 | 示例效果 |
-|:---:|:---:|:---:|:---:|
-|`□^□`|上标|`$e^x$` `$e^{sinx}$`|$e^x$ $e^{sinx}$|
-|`□_□`|下标|`$a_0$` `$a_{20}$`|$a_0$ $a_{20}$|
-|`\frac{□}{□}`|分式|`$\frac{3}{4}$`|$\frac{3}{4}$|
-|`□_{□}^{□}`|上下标|`$a_2^2$` <br/> `$a_{20}^{20}$`| $a_2^2$ <br/> $a_{20}^{20}$ |
+|   语句/符号   |  作用  |            示例代码             |          示例效果           |
+| :-----------: | :----: | :-----------------------------: | :-------------------------: |
+|     `□^□`     |  上标  |      `$e^x$` `$e^{sinx}$`       |      $e^x$ $e^{sinx}$       |
+|     `□_□`     |  下标  |       `$a_0$` `$a_{20}$`        |       $a_0$ $a_{20}$        |
+| `\frac{□}{□}` |  分式  |         `$\frac{3}{4}$`         |        $\frac{3}{4}$        |
+|  `□_{□}^{□}`  | 上下标 | `$a_2^2$` <br/> `$a_{20}^{20}$` | $a_2^2$ <br/> $a_{20}^{20}$ |
 
 - 常用省略号
-|省略号 | 代码 |
-|:---:|:---:|
-|$\dots$|`$\dots$`|
-|$\vdots$|`$\vdots$`|
-|$\ddots$|`$\ddots$`|
-|…………|`$\hdotsfor{□}$`（跨列省略号）|
+  |省略号 | 代码 |
+  |:---:|:---:|
+  |$\dots$|`$\dots$`|
+  |$\vdots$|`$\vdots$`|
+  |$\ddots$|`$\ddots$`|
+  |…………|`$\hdotsfor{□}$`（跨列省略号）|
 
 - 希腊字母
-|希腊字母 | 代码 |
-|:---:|:---:|
-|$\alpha$|`$\alpha$`|
-|$\beta$|`$\beta$`|
-|$\gamma$|`$\gamma$`|
-|$\epsilon$|`$\epsilon$`|
-|$\pi$|`$\pi$`|
-|$\omega$|`$\omega$`|
-|$\Gamma$|`$\Gamma$`|
-|$\Delta$|`$\Delta$`|
-|$\Theta$|`$\Theta$`|
-|$\Pi$|`$\Pi$`|
-|$\Omega$|`$\Omega$`|
-|$\Sigma$|`$\Sigma$`|
+  |希腊字母 | 代码 |
+  |:---:|:---:|
+  |$\alpha$|`$\alpha$`|
+  |$\beta$|`$\beta$`|
+  |$\gamma$|`$\gamma$`|
+  |$\epsilon$|`$\epsilon$`|
+  |$\pi$|`$\pi$`|
+  |$\omega$|`$\omega$`|
+  |$\Gamma$|`$\Gamma$`|
+  |$\Delta$|`$\Delta$`|
+  |$\Theta$|`$\Theta$`|
+  |$\Pi$|`$\Pi$`|
+  |$\Omega$|`$\Omega$`|
+  |$\Sigma$|`$\Sigma$`|
 
 - 数学函数
-|语句/符号 | 作用 | 示例代码 | 示例效果 |
-|:---:|:---:|:---:|:---:|
-|`\log`|log 函数|`$\log x$`|$\log x$ |
-|`\ln`|ln 函数|`$\ln x$` |$\ln x$|
-|`\log_□`|log 函数搭配下标效果 <br/>（其余函数同理）|`$\log_2 x$`|$\log_2 x$|
-|`\sin`|sin 函数|`$\sin x$`|$\sin x$|
-|`\cos`|cos 函数|`$\cos x$`|$\cos x$|
-|`\tan`|tan 函数|`$\tan x$`|$\tan x$|
-|`\arcsin`|arcsin 函数|`$\arcsin x$`|$\arcsin x$|
-|`\arccos`|arccos 函数|`$\arccos x$`|$\arccos x$|
-|`\arctan`|arctan 函数|`$\arctan x$`|$\arctan x$|
-|`\sin^{□}`|sin 函数搭配上标效果 <br/> （其余函数同理）|`$\sin^{-1} x$`|$\sin^{-1} x$|
-|`sqrt{□}`|根号|`$\sqrt{20}$`|$\sqrt{20}$ |
-|`sqrt[□]{□}`|n 次根号|`$\sqrt[4]{49}$`|$\sqrt[4]{49}$|
-|`°`|角度|`$^{\circ}$`|45$^{\circ}$|
-
+  |语句/符号 | 作用 | 示例代码 | 示例效果 |
+  |:---:|:---:|:---:|:---:|
+  |`\log`|log 函数|`$\log x$`|$\log x$ |
+  |`\ln`|ln 函数|`$\ln x$` |$\ln x$|
+  |`\log_□`|log 函数搭配下标效果 <br/>（其余函数同理）|`$\log_2 x$`|$\log_2 x$|
+  |`\sin`|sin 函数|`$\sin x$`|$\sin x$|
+  |`\cos`|cos 函数|`$\cos x$`|$\cos x$|
+  |`\tan`|tan 函数|`$\tan x$`|$\tan x$|
+  |`\arcsin`|arcsin 函数|`$\arcsin x$`|$\arcsin x$|
+  |`\arccos`|arccos 函数|`$\arccos x$`|$\arccos x$|
+  |`\arctan`|arctan 函数|`$\arctan x$`|$\arctan x$|
+  |`\sin^{□}`|sin 函数搭配上标效果 <br/> （其余函数同理）|`$\sin^{-1} x$`|$\sin^{-1} x$|
+  |`sqrt{□}`|根号|`$\sqrt{20}$`|$\sqrt{20}$ |
+  |`sqrt[□]{□}`|n 次根号|`$\sqrt[4]{49}$`|$\sqrt[4]{49}$|
+  |`°`|角度|`$^{\circ}$`|45$^{\circ}$|
 
 ### 公式编号
 
@@ -598,7 +668,7 @@ xxx 可见图\ref{figure1}
 
 同样，也可使用`\label{□}`进行公式编号，进而通过`ref{□}`实现交叉引用
 
-若不需要公式编号，需要在 equation*中输入公式，使用此环境前需要在导言区引入 amsmath 宏包（语句：`\usepackage{amsmath}`）。
+若不需要公式编号，需要在 equation\*中输入公式，使用此环境前需要在导言区引入 amsmath 宏包（语句：`\usepackage{amsmath}`）。
 
 此环境中允许`\label{□}`标签与`ref{□}`的交叉引用，此时的编号为公式所在小节编号
 
@@ -612,18 +682,19 @@ xxx 可见图\ref{figure1}
 
 引入 amsmath 宏包（语句：`\usepackage{amsmath}`）后，在 matrix 环境下实现矩阵的排版
 
-
 ```latex
 \begin{matrix}
   0&1\\
   1&0
 \end{matrix}
 ```
+
 （行与列的语法同[表格](/code/latex.md#latex中的表格)章节）
 
 但是这样的环境下无法加入两边的括号，于是有不同环境，以加入不同的括号：
 
 ::: details 不同的矩阵环境
+
 ```latex
 %=====不加边线========
 \begin{matrix}
@@ -656,11 +727,14 @@ xxx 可见图\ref{figure1}
   1&0
 \end{Vmatrix}
 ```
+
 :::
 
 预览：
 :::details 矩阵排版
-$$%=====不加边线========
+
+$$
+%=====不加边线========
 \begin{matrix}
   0&1\\
   1&0
@@ -689,10 +763,13 @@ $$%=====不加边线========
 \begin{Vmatrix}
   0&1\\
   1&0
-\end{Vmatrix}$$
+\end{Vmatrix}
+$$
+
 :::
 
 - 插入行内小矩阵
+
 ```latex
 \begin{math}
   \left(% 需要手动加上左括号
@@ -706,16 +783,18 @@ $$%=====不加边线========
 
 预览：
 
-$$\left(
+$$
+\left(
     \begin{smallmatrix}
     x&y\\
     y&x
     \end{smallmatrix}
-  \right)$$
+  \right)
+$$
 
 - array 环境构造更为复杂的矩阵
-下面以一个极为复杂的例子进行研究
-:::details 代码
+  下面以一个极为复杂的例子进行研究
+  :::details 代码
 
 ```latex
 \begin{array}{c@{\hspace{-5pt}}l} % @{<内容>}——添加任意内容，不占据表项计数
@@ -731,11 +810,11 @@ $$\left(
   &        &   & c & \cdots & c \\
   &        &   & \vdots & & \vdots \\
   \multicolumn{3}{c| }{\raisebox{2ex}[0pt]{\Huge 0}}
-  & c & \cdots & c 
+  & c & \cdots & c
   % multicolumn 合并多列，c 表示居中，且“|”添加竖线分割
   %\raisebox 表示将 0 抬高，且不做左右移动
   \end{array}
-\right)  
+\right)
 &
 % 1row 2column
 \begin{array}{l}
@@ -754,6 +833,7 @@ $$\left(
 &% 2row 2column
 \end{array}
 ```
+
 :::
 
 预览：
@@ -769,15 +849,14 @@ $$\left(
 
 整体概述：
 
-|环境名称 | 作用 |
-|:---:|:---|
-|gather|带编号的多行公式排版（可用\notag 阻止编号）|
-|gather*|不带编号的多行公式排版 |
-|align|实现带编号的多行公式排版，可用“&”实现公式在指定位置对齐（\notag 也可取消编号）|
-|align*|相比于 align，取消编号，其余一致 |
-|split|实现一条公式的多行排版，可与 equation 环境搭配使用实现多行公式的单独编号，也可使用"&"使公式在指定位置对齐|、
-|cases|分段函数指令，逗号分隔值与条件，且自带大括号|
-
+| 环境名称 | 作用                                                                                                      |
+| :------: | :-------------------------------------------------------------------------------------------------------- | --- |
+|  gather  | 带编号的多行公式排版（可用\notag 阻止编号）                                                               |
+| gather\* | 不带编号的多行公式排版                                                                                    |
+|  align   | 实现带编号的多行公式排版，可用“&”实现公式在指定位置对齐（\notag 也可取消编号）                            |
+| align\*  | 相比于 align，取消编号，其余一致                                                                          |
+|  split   | 实现一条公式的多行排版，可与 equation 环境搭配使用实现多行公式的单独编号，也可使用"&"使公式在指定位置对齐 | 、  |
+|  cases   | 分段函数指令，逗号分隔值与条件，且自带大括号                                                              |
 
 在 gather 环境中实现**带编号的**多行公式的排版
 
@@ -793,13 +872,15 @@ ba
 
 预览：
 
-$$\begin{gather}
+$$
+\begin{gather}
 f(x)=x^2+3x+2\\
 ab \\
 ba
-\end{gather}$$
+\end{gather}
+$$
 
-在 gather*环境中实现**不带编号的**多行公式的排版
+在 gather\*环境中实现**不带编号的**多行公式的排版
 
 ```latex
 \begin{gather*}
@@ -822,11 +903,14 @@ ba
 ```
 
 预览：
-$$\begin{gather}
+
+$$
+\begin{gather}
 f(x)=x^2+3x+2 \notag\\
 ab \\
 ba
-\end{gather}$$
+\end{gather}
+$$
 
 利用 align 环境实现公式在指定位置（&符号）对齐
 
@@ -837,14 +921,16 @@ x+5y&=2
 \end{align}
 ```
 
-$$\begin{align}
+$$
+\begin{align}
 2x+4y&=3+\sin x\\
 x+5y&=2
-\end{align}$$
+\end{align}
+$$
 
-同理，align*环境能取消编号
+同理，align\*环境能取消编号
 
-但是若多行公式仅需要一个序号，需要 split 环境与 equation 环境结合使用（align*与 align 环境无法与 equation 共用）
+但是若多行公式仅需要一个序号，需要 split 环境与 equation 环境结合使用（align\*与 align 环境无法与 equation 共用）
 
 split 环境下，公式对齐与 align 同理
 
@@ -858,15 +944,18 @@ split 环境下，公式对齐与 align 同理
 ```
 
 预览：
-$$\begin{equation}
+
+$$
+\begin{equation}
 \begin{split}
 \cos 2x&=\cos^2 x-\sin^2 x\\
 &=1-2\sin^2 x
 \end{split}
-\end{equation}$$
+\end{equation}
+$$
 
 - 分段函数的排版
-使用 case 环境，每行公式中使用&分割为两个部分，通常表示值和后面的条件
+  使用 case 环境，每行公式中使用&分割为两个部分，通常表示值和后面的条件
 
 ```latex
 \begin{equation}
@@ -879,16 +968,19 @@ D(x)=\begin{cases}
 
 预览：
 
-$$\begin{equation}
+$$
+\begin{equation}
 D(x)=\begin{cases}
 1,& \text{如果} x \in \mathbb{Q};\\
 0,& \text{如果} x \in \mathbb{R}\setminus\mathbb{Q};
 \end{cases}
-\end{equation}$$
+\end{equation}
+$$
 
 ## latex 有序列表环境
 
 - 有序列表 enumerate 环境
+
 ```latex
 \begin{enumerate}
 \item lalala
@@ -898,6 +990,7 @@ D(x)=\begin{cases}
 ```
 
 - 无序列表 itemize 环境
+
 ```latex
 \begin{itemize}
 \item lalala
@@ -917,6 +1010,7 @@ D(x)=\begin{cases}
 ```
 
 - 描述 decription 环境
+
 ```latex
 \begin{decription}
 \item[lala] lalala
