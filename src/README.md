@@ -19,7 +19,7 @@ projects:
 
   - icon: python
     name: 视频分段 Labeling 工具
-    desc: 为深度学习训练集视频流打标签的 Labeling 工具
+    desc: 深度学习训练集视频流 Labeling GUI 工具
     link: https://github.com/dream-oyh/Video_Label_Tool
 
   - icon: people

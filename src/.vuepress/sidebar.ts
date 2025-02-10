@@ -259,6 +259,7 @@ export default sidebar({
 			collapsible: true,
 			children: ["CLITools.md", "ClientLibraries.md"],
 		},
+		"literature_search.md",
 		// {
 		// 	text: "Literature Review and Management",
 		// 	prefix: "/study/LiteratureReview",
