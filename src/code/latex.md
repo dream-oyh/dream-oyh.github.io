@@ -20,7 +20,6 @@ latex 公式指令查询：[在线 Latex 公式编辑器](https://www.latexlive.
 latex 表格快速制作：[快速制作表格-web 端工具](https://www.tablesgenerator.com/latex_tables)
 :::
 
-
 ::: details 旧版学习建议（包括 VSCode 配置 Latex 方法）
 安装：见知乎老哥专栏：[如何安装 latex](https://zhuanlan.zhihu.com/p/56982388)
 
@@ -36,11 +35,12 @@ latex 表格快速制作：[快速制作表格-web 端工具](https://www.tables
 平常在做一些课设时，由于公式较多，我一般都采用 latex 编辑，一般需要调用的外部包如下：
 
 ::: details 需要调用的外部包，可直接复制进 overleaf 作为模板
+
 ```latex
 \documentclass[12pt]{ctexart}
 \usepackage{ctex}			%处理中文字体宏包
 \usepackage{graphicx}		%处理图片宏包
-\usepackage{amsmath}		%处理数学公式宏包	
+\usepackage{amsmath}		%处理数学公式宏包
 \usepackage{setspace}		%处理行距宏包
 \usepackage[left=1.91cm,right=1.91cm,top=2.54cm,bottom=2.54cm]{geometry}		%编辑页面格式
 \usepackage{booktabs}		%处理三线表宏包
@@ -83,8 +83,6 @@ latex 表格快速制作：[快速制作表格-web 端工具](https://www.tables
 ```
 
 :::
-
-
 
 ## latex 自带帮助文档
 
@@ -325,34 +323,6 @@ ${\Huge dream-oyh}$
 ![](https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/latex_2.png =x300)
 :::
 
-- 正文格式
-
-```latex
-  \section{引言}  % 构建“引言”小节
-
-  oyh 真的在摆烂，他就是一个摆烂王~oyh 真的在摆烂，他就是一个摆烂王~
-  oyh 真的在摆烂，他就是一个摆烂王~oyh 真的在摆烂，他就是一个摆烂王~
-  oyh 真的在摆烂，他就是一个摆烂王~
-  重要的话要多说几遍，你才能看得出来这个段落是有首行缩进的，
-  不然文字内容太少你就看不出来了。
-  没啥字可以打的就这么凑合用吧……
-
-  真的，跟你说了你爱信不信 % 插入一个空行起分段作用
-
-  有啥好骗你的，他就是一个憨批，\\老坑了 % 可用两个连续的反斜杠强制换行，但并没有产生新的段落
-
-  虽然坑吧，但是也别忘记了“$\backslash$ par”命令可以强制分段，比如说这样： \par 你看就分段了 % 哦对，\backslash 可以输出反斜杠
-  \section{实验方法}  % 可用\par 指令强行分段
-```
-
-预览：
-::: center
-![](https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/latex_3.png)
-:::
-
-> 画外音（写于 2024.2）:
-> 2022 年的 oyh 都在写些什么啊，太羞耻了。
-
 - 目录
 
 ```latex
@@ -405,8 +375,6 @@ $a~b$ % 硬空格
   |~|`\~{}`|
   |^|`\^{}`|
   |_|`_{}`|
-|\ |`\backslash`|
-|&|`\&`|
 
 - 排版符号
   |排版符号 | 代码表示 |
@@ -425,14 +393,6 @@ $a~b$ % 硬空格
   |:---:|:---:|
   |$\TeX{}$|`\TeX{}`|
   |$\LaTeX{}$|`\LaTeX{}`|
-
-- 引号
-  |引号 | 代码表示 |
-  |:---:|:---:|
-  |‘|`  |
-|’|`'`|
-|“|` `` `|
-  |”|`''`|
 
 - 连字符
   |连字符 | 代码表示 |
@@ -561,7 +521,7 @@ xxx 可见图\ref{figure1}
 
 ## latex 数学公式初步
 
-注 1：由于跨平台的问题，部分 latex 语法在 vuepress 中无法使用<span class="mask" title="嘿嘿嘿，被发现了~">对，vuepress 太辣鸡了，下次建博客别用 vuepress</span>
+注 1：由于跨平台的问题，部分 latex 语法在 vuepress 中无法使用
 
 注 2：`\text{}`可用于在数学模式下临时切换成文本模式
 
