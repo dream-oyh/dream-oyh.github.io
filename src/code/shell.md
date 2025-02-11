@@ -1,9 +1,9 @@
 ---
 date: 2024-02-16
 icon: powershell
-category: 
-    - 计算机
-    - 底层
+category:
+  - 计算机
+  - 底层
 tag: 教程
 ---
 
@@ -15,9 +15,82 @@ tag: 教程
 
 本文采用 Bourne Again Shell（bash）来学习 Shell 命令行的使用。
 
+## Win-powershell 美化
+
+采用`oh-my-posh`进行终端的美化，通过修改 powershell 的 json 配置文件来配置终端背景图片、是否使用毛玻璃效果、背景图片透明度等参数，修改如下：
+
+```json
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "backgroundImage": "C:/Users//13995/Pictures/background/cmd_background.png",
+            "backgroundImageOpacity": 0.05,
+            "colorScheme": "One Half Dark",
+            "cursorShape": "bar",
+            "elevate": true,
+            "font": 
+            {
+                "face": "MesloLGL Nerd Font"
+            },
+            "intenseTextStyle": "all",
+            "opacity": 80,
+            "useAcrylic": true
+        },
+    }
+
+```
+
+### Oh-my-posh 命令
+
+[官方文档](https://ohmyposh.dev/)
+
+#### Install
+```sh
+winget install JanDeDobbeleer.OhMyPosh -s winget
+```
+并在[此处](https://www.nerdfonts.com/font-downloads)安装`MesloLGL Nerd Font`字体
+
+#### Command
+
+创建自启动配置文件
+
+
+```sh
+New-Item -Path $PROFILE -Type File -Force
+notepad $PROFILE # 打开配置文件
+```
+
+在配置文件中添加：
+
+```sh
+& ([ScriptBlock]::Create((oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" --print) -join "`n"))
+```
+
+其中`jandedobbeleer.omp.json`为主题文件存放位置，可以通过`Get-PoshThemes`获取所有主题显示效果与名字，将`.omp`前的名字修改成对应名字即可更改主题。
+
+运行`.$PROFILE`使配置文件生效
+
+#### 加载`Terminal-Icons`图标库
+
+运行：
+
+```sh
+Install-Module -Name Terminal-Icons -Repository PSGallery
+notepad $PROFILE
+```
+
+在配置文件里添加：
+
+```sh
+Import-Module -Name Terminal-Icons
+```
+
+即可完成配置。
+
 ## Shell 的本质
 
-```sh 
+```sh
 date # 输出时间
 echo <str> # 输出字符串
 ```
@@ -40,7 +113,7 @@ Linux 系统上的`/`代表根目录。Windows 上的每个盘`C:\`也是根目�
 
 导航基本指令：
 
-```sh 
+```sh
 pwd # 显示当前工作目录
 cd <dir> # 切换到指定目录
 ls # 显示当前目录下的文件
@@ -101,15 +174,15 @@ Shell 中的逻辑运算采用`&&` 与 `||`
 
 #### 循环语句
 
-```sh 
-for variable in list  
-do  
-commands  
+```sh
+for variable in list
+do
+commands
 done
 # 或者
-for (( expression1; expression2; expression3 ))  # 注意空格 
-do  
-commands  
+for (( expression1; expression2; expression3 ))  # 注意空格
+do
+commands
 done
 ```
 
@@ -124,6 +197,7 @@ function(){
 bash 使用了很多特殊的变量来表示参数、错误代码和相关变量。
 
 ::: details 特殊变量
+
 - `$0` - 脚本名
 - `$1` 到 `$9` - 脚本的参数
 - `$@` - 所有参数
@@ -132,7 +206,7 @@ bash 使用了很多特殊的变量来表示参数、错误代码和相关变量
 - `$$` - 当前脚本的进程识别码
 - `!!` - 完整的上一条命令
 - `$_` - 上一条命令的最后一个参数
-:::
+  :::
 
 命令行通常以`STDOUT`来返回输出值，以`STDERR`来返回错误值和错误码，便于脚本以更加友好的方式报告错误，返回值为`0`表示正常进行，任何非`0`的值都表示有错误发生
 
@@ -149,12 +223,12 @@ Shell 中`true`代表返回值是`0`，`false`代表返回值是`1`。
 ### 通配
 
 - 通配符
-Bash 执行脚本时，往往会提供一连串形式类似的参数，通配符的出现很好的解决了这个问题，可以使用`?`或`*`来匹配任意的一个或多个字符，这和正则表达式有点像，但是并不相同。
+  Bash 执行脚本时，往往会提供一连串形式类似的参数，通配符的出现很好的解决了这个问题，可以使用`?`或`*`来匹配任意的一个或多个字符，这和正则表达式有点像，但是并不相同。
 
 > 正则表达式中的`?`与`*`是对前一个字符的限定，而此处的通配符是对该位上的字符匹配。
 
 - 花括号
-当你有一系列的指令，其中包含一段公共子串时，可以用花括号来自动展开这些命令。这在批量移动或转换文件时非常方便。
+  当你有一系列的指令，其中包含一段公共子串时，可以用花括号来自动展开这些命令。这在批量移动或转换文件时非常方便。
 
 ```sh
 cp /path/to/project/{foo,bar,baz}.sh /newpath
@@ -212,4 +286,3 @@ rg foo -A 5
 # 打印匹配的统计信息（匹配的行和文件的数量）
 rg --stats PATTERN
 ```
-
