@@ -21,7 +21,6 @@ export default sidebar({
 			text: "工具",
 			children: [
 				"git.md",
-				"vscode.md",
 				"latex.md",
 				"shell.md",
 				"vim.md",
