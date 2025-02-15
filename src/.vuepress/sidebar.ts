@@ -19,7 +19,7 @@ export default sidebar({
     },
     {
       text: "工具",
-      children: ["git.md", "latex.md", "shell.md", "vim.md", "Linux.md", "github.md"],
+      children: ["git.md", "latex.md", "shell.md", "vim.md", "Linux.md", "github.md","vscode.md"],
     },
     {
       text: "Python 库",

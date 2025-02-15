@@ -12,6 +12,11 @@ projects:
     desc: 基于 RNN 的水下机器人系统参数辨识
     link: https://github.com/dream-oyh/System-Identification-by-RNN
 
+  - icon: icon-typescript
+    name: WORDBOOK-app
+    desc: Vite + Solidjs + Tailwindcss 搭建生词本网页
+    link: https://github.com/dream-oyh/wordbook-app
+
   - icon: python
     name: 典型信号输入下一二阶系统响应仿真
     desc: 控制工程基础课程设计，不同输入信号下系统响应的 GUI 仿真界面
