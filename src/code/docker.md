@@ -1,6 +1,6 @@
 ---
 date: 2025-02-15
-icon: icon-docker
+icon: docker
 category: 工具
 tag: 教程
 ---
@@ -15,13 +15,13 @@ tag: 教程
 
 ## 基本概念
 
-- 镜像（Image）：类似于一个模板，通过该模板创建容器，tomcat镜像===>run===>tomcat01容器；一个镜像可以创建多个容器
-- 容器（Container）：通过镜像创建的，可以理解为一个容器就是一个简易的linux系统
+- 镜像（Image）：类似于一个模板，通过该模板创建容器，tomcat 镜像===>run===>tomcat01 容器；一个镜像可以创建多个容器
+- 容器（Container）：通过镜像创建的，可以理解为一个容器就是一个简易的 linux 系统
 - 仓库（Repository）：存储镜像的地方
 
 ## 安装
 
-[windows安装](https://docs.docker.com/desktop/setup/install/windows-install/)
+[windows 安装](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 ## 基础命令
 
@@ -72,7 +72,7 @@ docker ps # 显示当前在运行的容器
 ```shell
 docker stop containerid # 停止容器
 docker rm containerid  # 删除容器，不能删除正在运行的容器
-docker start containerid # 启动容器 
+docker start containerid # 启动容器
 docker restart containerid # 重启容器
 docker stop containerid # 停止容器
 docker kill containerid # 强行停止容器
