@@ -5,7 +5,7 @@ heroImage: /index_logo.png
 heroText: Dream_oyh 的 blog
 bgImage: /index_bg.jpg
 heroFullScreen: true
-tagline: 万里蹀躞，以此为归
+tagline: 那些真正塑造我们的，往往没有被写进简历里
 projects:
   - icon: python
     name: System Identification by RNN

@@ -13,6 +13,14 @@ tag: 教程
 
 [我的 github 账号首页](https://github.com/dream-oyh)
 
+## 我的 Github 项目
+
+- [wordbook-app](https://github.com/dream-oyh/wordbook-app)：基于 vite + Tailwindcss + Solidjs 构建的生词本 web，支持新建词本并对每个单词添加笔记
+- [避障小车](https://github.com/dream-oyh/Arduino_car)：基于 Arduino 开发板的超声波检测避障小车
+- [Signal Instrument](https://github.com/dream-oyh/Arduino_car)：测试技术课设--信号处理器，支持正余弦波合成任意信号，从时域、频域、幅值域、时差域对合成信号进行分析
+- [Video_Label_Tool](https://github.com/dream-oyh/Video_Label_Tool)：为深度学习的视频数据集打标签，方便导入模型进行训练
+- [Control Engneering Work](https://github.com/dream-oyh/Control_Engneering_Twice_Work_Python)：控制工程课设--典型信号输入下任意阶系统响应仿真
+
 ## 公钥配置
 
 在注册 github 账号后，需要用 SSH 公钥将你正在使用的设备与本账号关联起来，这个关联的协议就是 SSH 公钥，可以通过 git 配置，具体方法点击[此处](git.md#ssh-配置)

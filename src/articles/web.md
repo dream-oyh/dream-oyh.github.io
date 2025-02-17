@@ -1,5 +1,12 @@
 # 网站推荐
 
+<SiteInfo
+  name="openLM LLM 排名"
+  desc="当前大模型排行"
+  url="https://openlm.ai/chatbot-arena/"
+  preview="/images/web/openlm.png"
+/>
+
 ## 绘图相关
 
 <SiteInfo

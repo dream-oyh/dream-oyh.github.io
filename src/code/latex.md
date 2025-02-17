@@ -20,7 +20,7 @@ latex 公式指令查询：[在线 Latex 公式编辑器](https://www.latexlive.
 latex 表格快速制作：[快速制作表格-web 端工具](https://www.tablesgenerator.com/latex_tables)
 :::
 
-::: details 旧版学习建议（包括 VSCode 配置 Latex 方法）
+::: details 旧版学习建议（Archived, 包括 VSCode 配置 Latex 方法）
 安装：见知乎老哥专栏：[如何安装 latex](https://zhuanlan.zhihu.com/p/56982388)
 
 但是我选择把$\LaTeX$集成进 VSCode，集成教程可以看这篇文章：[Visual Studio Code (vscode) 配置 LaTeX](https://zhuanlan.zhihu.com/p/166523064)
