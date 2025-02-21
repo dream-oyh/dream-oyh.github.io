@@ -49,6 +49,7 @@ export default hopeTheme({
       GitHub: "https://github.com/dream-oyh",
       WechatMP: "https://mp.weixin.qq.com/s/1RJsBxf1yf5aGAzjEWKtZg",
       XiaoHongShu: "https://www.xiaohongshu.com/user/profile/62fd04b7000000001200ff72",
+      Douban: "https://www.douban.com/people/248255485/?_i=01385087aP_-jr",
     },
     timeline: "新的内容正在产出……",
     articlePerPage: 5,
