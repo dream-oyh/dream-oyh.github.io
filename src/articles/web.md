@@ -8,9 +8,9 @@
     - [青柠起始页](https://microsoftedge.microsoft.com/addons/detail/%E9%9D%92%E6%9F%A0%E8%B5%B7%E5%A7%8B%E9%A1%B5/pcpnigdkpcgemocnjhebmajldpjlbeom?hl=zh-CN)：首页插件——极其简介，但是对快捷跳转的站点不直观，后弃用
 - [uBlock Origin](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak?hl=zh-CN)：网页广告屏蔽，自启动
 - [图片抓取助手](https://microsoftedge.microsoft.com/addons/detail/%E5%9B%BE%E7%89%87%E5%8A%A9%E6%89%8Bimageassistant-%E6%89%B9%E9%87%8F%E5%9B%BE%E7%89%87/odphnbhiddhdpoccbialllejaajemdio)：网页图片自动抓取
-- [global video speed](https://microsoftedge.microsoft.com/addons/detail/global-speed-%E8%A7%86%E9%A2%91%E9%80%9F%E5%BA%A6%E6%8E%A7%E5%88%B6/mjhlabbcmjflkpjknnicihkfnmbdfced)：网页视频倍速控制，最高支持16倍，支持对广告加速
+- [global video speed](https://microsoftedge.microsoft.com/addons/detail/global-speed-%E8%A7%86%E9%A2%91%E9%80%9F%E5%BA%A6%E6%8E%A7%E5%88%B6/mjhlabbcmjflkpjknnicihkfnmbdfced)：网页视频倍速控制，最高支持 16 倍，支持对广告加速，但是优先级高于 B 站倍速控制，启用该拓展后 B 站倍速会失效
 - [Dark Reader](https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc)：暗色模式，支持调整对比度和棕褐色滤镜
-- [elmo chat](https://chromewebstore.google.com/detail/elmo-chat-your-ai-web-cop/ipnlcfhfdicbfbchfoihipknbaeenenm)：支持对B站、Youtube 进行AI视频总结，方便记笔记
+- [elmo chat](https://chromewebstore.google.com/detail/elmo-chat-your-ai-web-cop/ipnlcfhfdicbfbchfoihipknbaeenenm)：支持对 B 站、Youtube 进行 AI 视频总结，方便记笔记
 
 ## 大模型相关
 

@@ -58,7 +58,7 @@ export default hopeTheme({
   plugins: {
     blog: true,
     components: {
-      components: ["SiteInfo", "PDF"],
+      components: ["SiteInfo", "PDF", "Badge"],
       componentOptions: {
         pdf: {
           pdfjs: "/pdfjs-4.5.136-dist",

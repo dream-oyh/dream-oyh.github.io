@@ -120,6 +120,25 @@ p.s. [tg 项目频道地址](https://t.me/SAFC_group)
 
 ## 夏令营
 
+### 投递信息简表
+
+（以下是 2024 年夏令营信息，部分高校夏令营信息已被官方删除）
+
+|           院校及专业           |         夏令营报名时间          |                       夏令营时间                       |                                                     院校夏令营通知                                                     |                                                     夏令营报名入口                                                     |
+| :----------------------------: | :-----------------------------: | :----------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
+|     清华大学车辆与运载学院     | 2024 年 5 月 10 日至 6 月 7 日  |             2024 年 6 月底至 7 月初，待定              |                           [清华夏令营通知](http://www.svm.tsinghua.edu.cn/essay/5/2095.html)                           |                                    [清华夏令营报名入口](https://xlybm.yjszsfw.com)                                     |
+|     上海交通大学密西根学院     | 2024 年 5 月 18 日至 6 月 16 日 | 2024 年 7 月 5 日 -7 月 7 日（具体以正式邮件通知为准） |                        [上交密院夏令营通知](https://mp.weixin.qq.com/s/Y-CGIQ_nB7f5qxhFAvrMCg)                         |                         [上交夏令营报名入口](https://ga.sjtu.edu.cn/zsgl/xlygl/yxhdbfcx.aspx)                          |
+|    同济大学交通运输工程学院    | 2024 年 5 月 20 日至 6 月 15 日 |              2024 年 7 月 5 日 -7 月 8 日              |                          [同济夏令营通知](https://mp.weixin.qq.com/s/iRnV2DIC4qQtg73DVdrdyA)                           |                          [同济夏令营报名入口](https://yjs.tongji.edu.cn/info/1147/12581.htm)                           |
+|        同济电子信息学院        |        2024 年 6 月 7 日        |                   6 月 28-6 月 30 日                   |                      [同济电子信息学院夏令营通知](https://see.tongji.edu.cn/info/1147/12581.htm)                       |                                                                                                                        |
+|        同济大学汽车学院        |       2024 年 6 月 16 日        |                 7 月 7 日 -7 月 10 日                  |                      [同济汽车学院夏令营通知](https://mp.weixin.qq.com/s/iRnV2DIC4qQtg73DVdrdyA)                       |                      [同济汽车学院夏令营报名入口](https://yjs.tongji.edu.cn/info/1147/12581.htm)                       |
+|        上交电子信息学院        |       2024 年 6 月 20 日        |                     7 月 8 日左右                      |                        [上交电院夏令营通知](https://mp.weixin.qq.com/s/Y-CGIQ_nB7f5qxhFAvrMCg)                         |                        [上交电院夏令营报名入口](http://ga.sjtu.edu.cn/zsgl/xlygl/default.aspx)                         |
+| 哈尔滨工业大学（深圳）机械工程 |       2024 年 5 月 30 日        |                       7 月中上旬                       | [哈工大（深圳）机电工程与自动化学院 全国优秀大学生学术夏令营的通知](https://mp.weixin.qq.com/s/iRnV2DIC4qQtg73DVdrdyA) | [哈工大（深圳）机电工程与自动化学院 全国优秀大学生学术夏令营的通知](https://mp.weixin.qq.com/s/iRnV2DIC4qQtg73DVdrdyA) |
+|            中南大学            |       2024 年 6 月 12 日        |                   6 月 28 至 6 月 30                   |                        [中南大学夏令营通知](https://mp.weixin.qq.com/s/iRnV2DIC4qQtg73DVdrdyA)                         |                        [中南大学夏令营报名入口](yjszsgl.csu.edu.cn/zsgl2025/tmsgl/result.aspx)                         |
+|           西交机械院           |       2024 年 6 月 20 日        |                           -                            |                       [西交机械院夏令营通知](https://mp.weixin.qq.com/s/iRnV2DIC4qQtg73DVdrdyA)                        |                     [西交机械院夏令营报名入口](https://mp.weixin.qq.com/s/iRnV2DIC4qQtg73DVdrdyA)                      |
+|      清华（深圳）智能制造      |       2024 年 6 月 20 日        |                    7 月 19-7 月 20                     |                 [清华智能制造夏令营通知](http://me.zju.edu.cn/mecn/2024/0522/c13400a2920860/page.htm)                  |                      [清华智能制造夏令营报名入口](https://yjsy.zju.edu.cn/grsinfo/zs/user/login)                       |
+|            浙大机械            |                -                |                    7 月 26-7 月 28                     |                   [浙大机械夏令营通知](http://me.zju.edu.cn/mecn/2024/0522/c13400a2920860/page.htm)                    |                        [浙大机械夏令营报名入口](https://yjsy.zju.edu.cn/grsinfo/zs/user/login)                         |
+|            东南机械            |                -                |                       8.16-8.17                        |                    [东南机械夏令营通知](https://me.seu.edu.cn/_t44/2024/0625/c1549a495253/page.psp)                    |                                 [东南机械夏令营报名入口](http://gsas.seu.edu.cn/logon)                                 |
+
 ### 2024.7.28 浙江大学机械院夏令营——优营
 
 需要 PPT，5min 展示

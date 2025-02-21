@@ -136,9 +136,8 @@ export default sidebar({
     },
     {
       text: "读书笔记",
-      collapsible: true,
       icon: "note",
-      children: ["read.md", "hamlet.md"],
+      link: "read.md",
     },
   ],
   "/credit/": [
