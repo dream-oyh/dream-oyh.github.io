@@ -126,7 +126,7 @@ export default sidebar({
       text: "推荐",
       icon: "34wujiaoxingpingfenshixin",
       collapsible: true,
-      children: ["software.md", "web.md"],
+      children: ["software.md", "web.md", "boardcast.md"],
     },
     {
       text: "关于大学",
@@ -193,6 +193,7 @@ export default sidebar({
       children: ["CLITools.md", "ClientLibraries.md"],
     },
     "literature_search.md",
+    "academic.md",
     // {
     // 	text: "Literature Review and Management",
     // 	prefix: "/study/LiteratureReview",
