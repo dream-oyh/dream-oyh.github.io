@@ -14,6 +14,30 @@ tag: Linux
 
 有关计算机存储，可以看看[这篇文章](https://blog.csdn.net/weixin_43764974/article/details/132463833)
 
+## WSL
+
+20250226，我卸载了双系统，全面使用 WSL 进行 Linux 开发。
+
+### WSL 迁移
+
+WSL 默认在 C 盘存储，很占位置，准备把存储路径移动到 D 盘。
+
+迁移前请先手动保存`~/.bashrc`文件，导入新路径后，该文件会被重置。
+
+迁移过程：
+
+1. `wsl -l -v` 确保 wsl 停止运行
+2. 创建 D 盘目录：`mkdir D:\WSL\`
+3. 导出 WSL：`wsl --export Ubuntu-20.04 D:\WSL\ubuntu.tar`
+4. 卸载当前 WSL：`wsl --unregister Ubuntu-20.04`
+5. 导入 WSL 进 D 盘：`wsl --import Ubuntu D:\WSL\Ubuntu D:\WSL\ubuntu.tar --version 2`
+6. 设为默认的：`wsl --set-default Ubuntu`
+7. 验证是否成功：`wsl`
+
+移动之后终端会新建一个名叫`Ubuntu`的启动项，可以将原`Ubuntu 22.04 LST`的启动项删除。除此之外，可以在`~/.bashrc`中加入`cd /home/<usrname>`，默认使用原用户名登录（这里应该有更正式的改法，我这个属于歪门邪道了）
+
+重新打开 wsl 后，我的 ros 无法启动，检查后发现 ros 等一系列`~/.bashrc`的环境变量不见了，**建议在迁移系统前额外手动保存一下`~/.bashrc`文件**。
+
 ## 2024/02/21 对扩容的第一次尝试
 
 ::: tip 前置知识
