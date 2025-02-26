@@ -6,6 +6,18 @@ tag: 教程
 
 # VSCode
 
+## VSCode 拓展插件
+
+- [Comment Anchor](https://github.com/StarlaneStudios/vscode-comment-anchors)：在任意语言中，用注释给代码行打上锚点，方便快速跳转，可用标签如下：
+  - ANCHOR - 用于指示文件中的内容
+  - TODO - 待完善的工作
+  - FIXME - 需要修复 bug 的区域
+  - STUB - 用于生成默认代码片段
+  - NOTE - 针对特定代码段的重要说明
+  - REVIEW - 需要额外审核的一段代码
+  - SECTION - 用于定义区域
+  - LINK - 用于链接文件
+
 ## Cursor
 
 [下载地址](https://www.cursor.com/)
@@ -24,7 +36,7 @@ cursor 可以同步 VSCode 配置，并且为代码工作区提供丰富的 AI �
 - 麻烦的是`.env`配置文件不好写
   - 修改`DOMAIN`
     此时需要去阿里云购买一个域名，并且修改域名 DNS 服务器为 Cloudflare 服务器。
-    > 阿里云购买域名的方法见[ref](html.md#域名创建方法)
+    > 阿里云购买域名的方法见[ref](aliyun.md#域名创建方法)
     >
     > 修改 DNS 服务器的方法：
     >

@@ -4,7 +4,7 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://dream-oyh.github.io",
-
+  pure: true,
   author: {
     name: "OYH",
     email: "19859860010@163.com",

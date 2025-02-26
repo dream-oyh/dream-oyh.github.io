@@ -5,7 +5,7 @@ icon: code
 
 # C++
 
-## 开发环境前置知识
+## 开发环境前置知识 (要崩溃了)
 
 C++ 在 win 下的开发环境非常复杂，2024/06/24 我老老实实把[这篇文章](https://www.cnblogs.com/w4ngzhen/p/17695080.html)看了，对编译、工具链等概念名词进行了区分，这在配置 C++ 开发环境之前是必要的。
 
@@ -118,3 +118,79 @@ xmake 既可以作为构建系统来直接调用编译工具链进行项目编�
 简单来说，命名空间中放置了很多关键字，例如类、变量、函数的定义，之所以要用命名空间是因为当程序中导入太多外部库的时候，难免会出现命名冲突问题，此时将同样的关键字名称放入不同的命名空间，可以有效防范冲突。
 
 命名空间的定义和外部调用可以参考官方文档：[Microsoft learn](https://learn.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-170)
+
+## CMake + VSCode [Windows] 环境搭建
+
+[参考教程](https://www.bilibili.com/video/BV13K411M78v)
+
+- 编译器：Mingw-w64（GCC for windows 64bit）
+- 构建系统：CMake
+- VSCode 插件：C/C++, CMake, Cmake tools
+
+### g++ 编译
+
+- 编译 cpp 文件
+
+```shell
+g++ -g <cpp_file_names> -o <output_exe_name>
+# -g 指定是否带有调试信息
+# -o 指定编译后的exe文件名
+```
+
+### 调试
+
+通过`launch.json`文件配置调试信息，选用 GDB 环境，`g++`生成调试文件。
+
+```json {11, 14}
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问：https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) 启动",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe", // 指向待调试的 exe 文件
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "为 gdb 启用整齐打印",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "将反汇编风格设置为 Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: g++.exe 生成活动文件" // 用于在调试前生成 program
+    }
+  ]
+}
+```
+
+### CMakeLists
+
+- 构建单文件
+
+```c title="CMakeLists.txt"
+cmake_minimun_required(VERSION 3.10)  // 指定 CMAKE 最小版本号
+
+project(example)  // 指定工程名字
+
+add_executable(example main.cpp)  // 单个文件编译，创建 example.exe
+```
+
+    - VSCode 上配置 CMakeLists.txt 的方法是：`ctrl`-`Shift`-`P`，调出命令面板，选择`Cmake:Configure`，再选用合适的工具包即可自动配置。配置好的程序会放在`build`文件夹中，然后再打开命令面板，选择`Cmake: Build`，即可自动构建项目。
+    - 命令面板中：`Cmake: Select a Kit`，可以选择合适的工具包。
+    - 命令行工具配置：`cmake -S . -B build`，构建项目：`cmake --build build`
+

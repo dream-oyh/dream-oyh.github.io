@@ -6,7 +6,6 @@ export default sidebar({
       text: "编程",
       link: "/code/",
       children: [
-        "html.md",
         "markdown.md",
         "python.md",
         {
@@ -19,7 +18,7 @@ export default sidebar({
     },
     {
       text: "工具",
-      children: ["git.md", "latex.md", "shell.md", "vim.md", "Linux.md", "docker.md", "github.md", "vscode.md"],
+      children: ["git.md", "latex.md", "shell.md", "vim.md", "Linux.md", "docker.md", "github.md", "vscode.md", "aliyun.md"],
     },
     {
       text: "Python 库",
@@ -139,6 +138,7 @@ export default sidebar({
       icon: "note",
       link: "read.md",
     },
+    "video_game.md",
   ],
   "/credit/": [
     {
@@ -168,16 +168,16 @@ export default sidebar({
     {
       text: "Summer Camp Reivew",
       icon: "xialingying",
-      prefix: "/study/SummerCampReview",
       collapsible: true,
+      prefix: "/study/SummerCampReview",
       children: ["PhysNet.md", "ObjectDetection.md", "ControlEngineering.md"],
     },
     {
       text: "数据结构（全英）",
       icon: "relation-full",
+      collapsible: true,
       prefix: "/study/DataStructure/",
       link: "/study/DataStructure/",
-      collapsible: true,
       children: ["linked_list.md", "stack.md", "queue.md", "tree.md", "graph.md", "HashTable.md", "Heap.md"],
     },
     {
@@ -187,18 +187,9 @@ export default sidebar({
       children: ["Enumerate.md", "Sort.md", "GreedyAlgorithm.md", "DynamicPlan.md"],
     },
     {
-      text: "ROS",
-      prefix: "/study/ROS",
-      collapsible: true,
-      children: ["CLITools.md", "ClientLibraries.md"],
+      text: "科研",
+      prefix: "/study/",
+      children: ["ros.md", "literature_search.md", "academic.md", "proxy.md"],
     },
-    "literature_search.md",
-    "academic.md",
-    // {
-    // 	text: "Literature Review and Management",
-    // 	prefix: "/study/LiteratureReview",
-    // 	collapsible: true,
-    // 	children: ["01.md"],
-    // },
   ],
 });
