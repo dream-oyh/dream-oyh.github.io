@@ -4,13 +4,14 @@
 
 - [BewlyBewly](https://chromewebstore.google.com/detail/bewlybewly/bbbiejemhfihiooipfcjmjmbfdmobobp): 因为侵权的原因，只能在 Chrome 上下载再安装到 Edge 上了。插件对 B 站页面进行了大调整，变得更美观了！
 - 首页插件
-  - [start.me](https://microsoftedge.microsoft.com/addons/detail/startme%E5%88%9B%E4%BD%9C%E7%9A%84%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5/acifeljplikjhjobbicjiknoeafjoddh?hl=zh-CN)：首页插件--便于对网页收藏夹的管理，支持导入 Edge 收藏夹，自定义化程度高，界面美观，动画流畅。
-  - ~~[青柠起始页](https://microsoftedge.microsoft.com/addons/detail/%E9%9D%92%E6%9F%A0%E8%B5%B7%E5%A7%8B%E9%A1%B5/pcpnigdkpcgemocnjhebmajldpjlbeom?hl=zh-CN)：首页插件——极其简介，但是对快捷跳转的站点不直观，后弃用~~
+  - ~~[start.me](https://microsoftedge.microsoft.com/addons/detail/startme%E5%88%9B%E4%BD%9C%E7%9A%84%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5/acifeljplikjhjobbicjiknoeafjoddh?hl=zh-CN)：首页插件--便于对网页收藏夹的管理，支持导入 Edge 收藏夹，自定义化程度高，界面美观，但是完全依赖于 edge 浏览器缓存，删除 C 盘缓存后无法运行。不好用！恢复成青柠了~~
+  - [青柠起始页](https://microsoftedge.microsoft.com/addons/detail/%E9%9D%92%E6%9F%A0%E8%B5%B7%E5%A7%8B%E9%A1%B5/pcpnigdkpcgemocnjhebmajldpjlbeom?hl=zh-CN)：首页插件——极其简介，支持置顶便签，快速跳转站点捷径
 - [uBlock Origin](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak?hl=zh-CN)：网页广告屏蔽，自启动
 - [图片抓取助手](https://microsoftedge.microsoft.com/addons/detail/%E5%9B%BE%E7%89%87%E5%8A%A9%E6%89%8Bimageassistant-%E6%89%B9%E9%87%8F%E5%9B%BE%E7%89%87/odphnbhiddhdpoccbialllejaajemdio)：网页图片自动抓取
 - [global video speed](https://microsoftedge.microsoft.com/addons/detail/global-speed-%E8%A7%86%E9%A2%91%E9%80%9F%E5%BA%A6%E6%8E%A7%E5%88%B6/mjhlabbcmjflkpjknnicihkfnmbdfced)：网页视频倍速控制，最高支持 16 倍，支持对广告加速，但是优先级高于 B 站倍速控制，启用该拓展后 B 站倍速会失效
 - [Dark Reader](https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc)：暗色模式，支持调整对比度和棕褐色滤镜
 - [elmo chat](https://chromewebstore.google.com/detail/elmo-chat-your-ai-web-cop/ipnlcfhfdicbfbchfoihipknbaeenenm)：支持对 B 站、Youtube 进行 AI 视频总结，方便记笔记
+- [魔法葫芦](https://microsoftedge.microsoft.com/addons/detail/%E9%AD%94%E6%B3%95%E8%91%AB%E8%8A%A6-%E6%89%B9%E6%B3%A8%E7%BD%91%E9%A1%B5%E3%80%81pdf%E3%80%81bilibili%E3%80%81/kmoaicpbmfhbocapfopeakkcaoneebhm?hl=zh-CN)：支持对网页划线高亮，标注笔记，但是 UI 界面做的一般，免费
 
 ## 大模型相关
 

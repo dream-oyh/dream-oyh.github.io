@@ -120,6 +120,15 @@ net.ipv6.conf.lo.disable_ipv6 = 0
 
 V2rayA 通过本机 2017 端口部署了网页端的 GUI 设置界面，方便配置代理文件。
 
+启动：
+
+```shell
+# --now 参数表示设置为开机启动并立即启动v2raya
+sudo systemctl enable --now v2raya
+# 查看服务状态
+systemctl status v2raya
+```
+
 - 本机部署网站：`localhost:2017`
 - 服务器部署网站：`<公网IP>/<服务器域名>:2017`
 

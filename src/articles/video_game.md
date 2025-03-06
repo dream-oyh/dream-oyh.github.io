@@ -1,6 +1,6 @@
 ---
 Date: 2025-02-26
-icons: 
+icons: Game
 tag: game
 ---
 
@@ -17,3 +17,4 @@ tag: game
 | Eradication Catastrophe |  12  |  FC  | 2025.2.26 15:49 |
 |       Glaciaxion        |  12  |  FC  | 2025.2.26 16:11 |
 |           光            |  12  |  FC  | 2025.2.26 16:25 |
+|       Sultan Rage       |  12  |  FC  | 2025.2.26 21:35 |
