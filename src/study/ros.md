@@ -259,6 +259,22 @@ rosrun turtlesim turtlesim_node
 rosrun learning_topic velocity_publisher
 ```
 
+## Launch 文件
+
+Launch 文件包含了节点的定义，和其他 Launch 文件（通过 include 标签来实现），可以说我们想在 ROS 内完成什么样的操作都需要用到 Launch 文件。
+
+### 如何启动 launch 文件
+
+- 命令行：`roslaunch package_name launch_file` 指定哪个 package 里的哪个 launch file
+  > 一个 ROS 的 package 里要包含有`launch`,`scripts`文件夹
+  >
+  > - `launch`: 该文件夹中放置这个包的`.launch`文件
+  > - `scripts`: 该文件夹中放置这个包中要用到的脚本文件，一般是 python 或者 c++
+- 命令行：`roslaunch ~/.../.../launch_file` 直接指定 launch file 目录
+
+### 如何写`.launch`文件
+
+`.launch`文件采用`xml`格式，具体标签有：
 
 ## 问题列表
 
@@ -423,4 +439,12 @@ sudo apt-get install wget
 sudo mkdir -p /etc/ros/rosdep/sources.list.d
 wget https://mirrors.tuna.tsinghua.edu.cn/github-raw/ros/rosdistro/master/rosdep/sources.list.d/20-default.list -O /etc/ros/rosdep/sources.list.d/20-default.list
 export ROSDISTRO_INDEX_URL=https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml && rosdep update
+```
+
+### Rviz 无法显示模型
+
+是由于硬件 GPU 加速导致的，修改环境变量：
+
+```shell
+export LIBGL_ALWAYS_SOFTWARE=1
 ```

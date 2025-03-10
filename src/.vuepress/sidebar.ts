@@ -131,7 +131,7 @@ export default sidebar({
       text: "关于大学",
       icon: "graduate",
       collapsible: true,
-      children: ["CSU.md", "baoyan.md"],
+      children: ["CSU.md"],
     },
     {
       text: "读书笔记",

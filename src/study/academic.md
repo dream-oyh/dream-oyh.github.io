@@ -11,7 +11,7 @@ tag: 科研
 
 通过`.xacro`文件配置
 
-xacro 一种 xml 语言，用于构建 urdf 包，这个 urdf 包主要是用来搭建一个机器人的，可以用于配置机器人的传感器、模型、环境等信息。
+xacro 一种 xml 语言，用于构建 urdf 包，这个 urdf 包主要是用来搭建一个机器人的，可以用于配置机器人的传感器、模型、环境等信息。[官方文档](https://wiki.ros.org/xacro)
 
 ### Thruster Unit 推进器单元
 
@@ -80,7 +80,45 @@ xacro 的宏定义包含：
 - `Empty Underwater World`
 - `Ocean waves world`
 
-
 ## Path and trajectory generators 路径和轨迹生成器
 
-基于路径点产生轨迹，把任意路径分成直线和曲线段，利用参数方程定义轨迹，然后再根据方程生成路径点数据
+基于路径点产生轨迹，把任意路径**分成直线和曲线段**，利用参数方程定义轨迹，然后再根据方程生成路径点数据
+
+两个功能包存放于`uuv_trajectory_control`中，分别为`uuv_waypoints`和`uuv_trajectory_generator`
+
+## 项目结构
+
+通过 uuv_simulator 能够创建一个新的机器人，在 uuv 所提供的环境下仿真。
+
+- 创建一个机器人
+
+```shell
+rosrun uuv_assistants create_new_robot_model --robot_name <ROBOT_NAME>
+```
+
+这会创建一个名为`<ROBOT_NAME>_description`文件夹，该文件夹的结构为：
+
+```
+<ROBOT_NAME>_description
+|-- launch
+    |-- upload.launch
+|-- meshes
+    |-- README.md
+|-- robots
+    |-- default.xacro
+|-- urdf
+    |-- actuators.xacro
+    |-- base.xacro
+    |-- gazebo.xacro
+    |-- sensors.xacro
+    |-- snippets.xacro
+`-- CMakeLists.txt
+`-- package.xml
+```
+
+该文件夹可以认为是 ROS 的一个 package
+
+- `upload.launch`: 是加载该机器人的 launch 文件
+- `meshes/`: 该文件夹下放置有该机器人的 3D 模型文件，便于机器人的可视化呈现
+- `urdf/`：该文件夹中包含有用来搭建一个机器人的，可以用于配置机器人的传感器、模型、环境等信息，用`.xacro`文件配置，采用`xml`文件配置，机器人的[Actuators 执行器](#actuators-执行器)就是用这个文件夹来定义的。
+- `robot/`：该文件夹中用`.xacro`配置一个机器人的基本信息，但是通过调用`urdf/`的包，把推进器、传感器等信息连接起来。
