@@ -7,13 +7,15 @@ tag: 科研
 
 [官方文档](https://uuvsimulator.github.io/packages/uuv_simulator/intro/)
 
-## Actuators 执行器
+## UUV_Simulator 特性
+
+### Actuators 执行器
 
 通过`.xacro`文件配置
 
 xacro 一种 xml 语言，用于构建 urdf 包，这个 urdf 包主要是用来搭建一个机器人的，可以用于配置机器人的传感器、模型、环境等信息。[官方文档](https://wiki.ros.org/xacro)
 
-### Thruster Unit 推进器单元
+#### Thruster Unit 推进器单元
 
 推进器单元包含转子的动力学和转换函数（转子角速度 - 输出推力大小之间的 conversion function）
 
@@ -52,7 +54,7 @@ xacro 的宏定义包含：
 - `box_inertial`-定义盒状物体的惯性参数
   - `<origin>`标签用于定义惯性参考系的位置和姿态，包含`xyz`和`rpy`参数
 
-### Fins Unit
+#### Fins Unit
 
 包含：`dynamic model` and `a lift and drag model`
 
@@ -61,7 +63,7 @@ xacro 的宏定义包含：
 
 定义和 thruster 单元类似，把`conversion`模型换成`liftdrag`
 
-## Gazebo World 环境信息配置
+### Gazebo World 环境信息配置
 
 通过`.world`文件配置
 
@@ -80,7 +82,7 @@ xacro 的宏定义包含：
 - `Empty Underwater World`
 - `Ocean waves world`
 
-## Path and trajectory generators 路径和轨迹生成器
+### Path and trajectory generators 路径和轨迹生成器
 
 基于路径点产生轨迹，把任意路径**分成直线和曲线段**，利用参数方程定义轨迹，然后再根据方程生成路径点数据
 
@@ -122,3 +124,9 @@ rosrun uuv_assistants create_new_robot_model --robot_name <ROBOT_NAME>
 - `meshes/`: 该文件夹下放置有该机器人的 3D 模型文件，便于机器人的可视化呈现
 - `urdf/`：该文件夹中包含有用来搭建一个机器人的，可以用于配置机器人的传感器、模型、环境等信息，用`.xacro`文件配置，采用`xml`文件配置，机器人的[Actuators 执行器](#actuators-执行器)就是用这个文件夹来定义的。
 - `robot/`：该文件夹中用`.xacro`配置一个机器人的基本信息，但是通过调用`urdf/`的包，把推进器、传感器等信息连接起来。
+
+## 添加自定义 launch 文件
+
+- 在某个指定功能包的`launch`文件夹内添加`.launch`文件
+- 在该功能包的`scripts`文件夹内添加`.py`脚本文件
+- **运行命令：**`sudo chmod +x /path_to_python_file`为该 python 脚本文件添加权限

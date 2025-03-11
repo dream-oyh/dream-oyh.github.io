@@ -276,6 +276,17 @@ Launch 文件包含了节点的定义，和其他 Launch 文件（通过 include
 
 `.launch`文件采用`xml`格式，具体标签有：
 
+- `<node>`：创建一个节点，含有如下参数：
+  - `type=""`：该节点运行的脚本路径
+    > 直接输入脚本文件名即可，注意脚本要放在`scripts`文件夹下
+  - `pkg=""`：所使用的功能包，指定该脚本是来自于哪个功能包
+  - `name=""`：节点名称，可以自定义
+- `<include>`：执行外部`.launch`文件，含有如下参数：
+  - `file=""`：用绝对路径，例如：`file="$(find bluerov2_description)/launch/upload.launch"`
+  - `<arg name="" default="">`： `<include>`标签中可以添加`<arg>`参数，指定参数名称`name`和默认值`default`作为参数，这里的参数将会传进`<include>`所指定的`.launch`文件。
+- `<arg name="" default="">`：定义参数，指定`name`和`default`
+  > 如果`<arg>`放在最外层，是定义这个`.launch`文件的参数，如果是放在`<include>`里面，则是将参数传入上层`.launch`文件。可以用`$(arg name)`来解码该参数的值。
+
 ## 问题列表
 
 ### WSL Ubuntu 20.04 安装 ros-noetic 失败
@@ -447,4 +458,20 @@ export ROSDISTRO_INDEX_URL=https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-
 
 ```shell
 export LIBGL_ALWAYS_SOFTWARE=1
+```
+
+### Bluerov2 MPC 控制器启动失败
+
+::: danger 报错信息
+
+```
+/home/dream/catkin ws/devel/lib/bluerov2 mpc/bluerov2 mpc node: error while loading shared libraries: libgpAsEs e.so: cannot open shared obiect file: No such file or directory
+```
+
+:::
+
+原因在于读取不到`libgpAsEs e.so`文件，方法是把`/path/to/acados/lib`添加进环境变量`$LD_LIBRARY_PATH`中：
+
+```shell
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/acados/lib
 ```
