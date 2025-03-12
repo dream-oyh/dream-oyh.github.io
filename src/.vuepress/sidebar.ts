@@ -40,7 +40,7 @@ export default sidebar({
     {
       text: "锦囊",
       collapsible: true,
-      children: ["tips/regex.md", "tips/pdf2docx.md"],
+      children: ["tips/regex.md", "tips/pdf2docx.md", "tips/keyboard_remap.md"],
     },
   ],
   "/code/python/pytorch/": [
