@@ -189,7 +189,7 @@ export default sidebar({
     {
       text: "科研",
       prefix: "/study/",
-      children: ["ros.md", "literature_search.md", "academic.md", "proxy.md"],
+      children: ["ros.md", "literature_search.md", "uuvsimulator.md", "proxy.md"],
     },
   ],
 });

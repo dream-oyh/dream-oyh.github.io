@@ -18,6 +18,27 @@ tag: Linux
 
 20250226，我卸载了双系统，全面使用 WSL 进行 Linux 开发。
 
+### WSL 设置默认登录用户
+
+```shell
+wsl -l -v # 列出可用分发版名称列表
+wsl --manage <Distro> --set-default-user <username> # <Distro>指定需要修改的分发版名称
+```
+
+在指定默认登录用户后，VSCode 编辑文件出现权限不足无法保存的情况，采用以下方法解决：
+
+```shell
+sudo chown -R username path
+```
+
+::: detals 报错：权限不足无法保存文件
+
+```shell
+未能保存“plot_thruster.py”: 无法写入文件"vscode-remote://wsl+ubuntu/home/dream/catkin_ws/src/bluerov2/bluerov2_states/scripts/plot_thruster.py"(NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/dream/catkin_ws/src/bluerov2/bluerov2_states/scripts/plot_thruster.py')
+```
+
+:::
+
 ### WSL 迁移
 
 WSL 默认在 C 盘存储，很占位置，准备把存储路径移动到 D 盘。

@@ -66,6 +66,22 @@ cursor 可以同步 VSCode 配置，并且为代码工作区提供丰富的 AI �
     - 点击顶部“路由规则”，把`Catch-All`地址的“活动”状态打开，点击右侧“编辑”，将操作改为“发送到电子邮箱”，目标位置选择你的 QQ 邮箱。
   - 修改好`.env`文件，关闭 Cursor 应用进程，右键以管理员身份运行即可。
 
+### 添加至右键菜单
+
+- `Win-R`，输入`regedit`回车，打开注册表编辑器
+- 分别导航至三个目录：
+  - `计算机\HKEY_CLASSES_ROOT\*\shell` - 为文件添加右键菜单
+  - `计算机\HKEY_CLASSES_ROOT\Directory\shell` - 为文件夹添加右键菜单
+  - `计算机\HKEY_CLASSES_ROOT\Directory\Background\shell` - 为文件夹背景添加右键菜单
+- 在**每个目录下**均进行如下操作：
+  - 右击"shell"文件夹，选择"新建" > “项”，将其命名为"Cursor".
+  - 在右侧窗格中，将"(默认)“值设置为"通过 Cursor 打开”.
+  - 创建一个名为"Icon"的字符串值，将其设置为 Cursor.exe 的完整路径：
+  - `C:\Users\YourUsername\AppData\Local\Programs\Cursor\Cursor.exe`
+  - 在"Cursor"下创建"command"子项。
+  - 在"command"中，将"(默认)"值设置为：
+  - `"C:\Users\YourUsername\AppData\Local\Programs\Cursor\Cursor.exe" "%V"`
+
 ## 常用快捷键
 
 - `ctrl` + `shift` + `K` 删除当前行

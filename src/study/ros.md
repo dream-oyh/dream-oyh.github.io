@@ -286,6 +286,10 @@ Launch 文件包含了节点的定义，和其他 Launch 文件（通过 include
   - `<arg name="" default="">`： `<include>`标签中可以添加`<arg>`参数，指定参数名称`name`和默认值`default`作为参数，这里的参数将会传进`<include>`所指定的`.launch`文件。
 - `<arg name="" default="">`：定义参数，指定`name`和`default`
   > 如果`<arg>`放在最外层，是定义这个`.launch`文件的参数，如果是放在`<include>`里面，则是将参数传入上层`.launch`文件。可以用`$(arg name)`来解码该参数的值。
+- `<group>`：该标签用于定义命名空间，且用于加入 if 逻辑关系。
+  - `<group ns="">`- 用于定义命名空间，防止节点命名冲突
+  - `<group if="">` / `<group unless="">` - 用于引入 if 逻辑关系，一般 if 后的值为 boolean 类型，`if`是当指定条件为**真**时执行，`unless`为当指定条件为**假**时执行。
+- `<remap from="旧话题" to="新话题">`：设置话题重映射，一般在节点标签内部定义。
 
 ## 问题列表
 

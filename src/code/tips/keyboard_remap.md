@@ -16,16 +16,17 @@ icon: keyboard1
 
 ```Lisp
 (defsrc
-    caps
+    caps lctrl rctrl
 )
 
 (defalias
-    escctrl (tap-hold 100 30 esc lctrl)
+    escctrl (tap-hold 100 100 esc lctrl)
+
 )
 
 
 (deflayer base
-    @escctrl
+    @escctrl S-8 caps
 )
 ```
 
@@ -50,3 +51,5 @@ icon: keyboard1
 9. 检查设置，然后点击“完成”。
 
 注意完成之后，会需要输入账户密码，如果是 win 系统，需要输入 Microsoft 账号的密码，而不是开机的密码。
+
+> 注：该方法对键盘重映射无法在注册表内使用，建议优先考虑通过硬件驱动重映射
