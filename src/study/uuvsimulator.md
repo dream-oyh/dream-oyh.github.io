@@ -166,6 +166,96 @@ tam:
   - [0.16652364696949604, -0.16652364696949604, -0.17500892834341342, 0.17500892834341342, 0.0, 0.0]
 ```
 
+### 动力学公式
+
+用 Fossen 的书是最权威的，为了方便查找，我把 Fossen 书中对应的页码索引列在此处
+
+- 叉乘算子定义：P20
+
+$$\boldsymbol{\lambda}\times \boldsymbol{a}:=\boldsymbol{S}(\boldsymbol{\lambda})\boldsymbol{a}$$
+
+$$
+\boldsymbol{S}(\boldsymbol{\lambda})=-\boldsymbol{S}^T(\boldsymbol{\lambda})=\left[
+\begin{matrix}
+0 & -\lambda_3 & \lambda_2 \\
+\lambda_3 & 0 & -\lambda_1 \\
+-\lambda_2 & \lambda_1 & 0 \\
+\end{matrix}
+\right], \boldsymbol{\lambda}=\left[
+\begin{matrix}
+\lambda_1 \\
+\lambda_2 \\
+\lambda_3 \\
+\end{matrix}
+
+\right]
+$$
+
+- 附加质量 + 质量矩阵：P182
+
+$$
+M=\left[
+\begin{matrix}
+    (m-X_{\dot{u}}) & 0 & 0 & 0 & 0 & 0 \\
+    0 & (m-Y_{\dot{v}}) & 0 & 0 & 0 & 0 \\
+    0 & 0 & (m-Z_{\dot{w}}) & 0 & 0 & 0 \\
+    0 & 0 & 0 & (I_x-K_{\dot{p}}) & 0 & 0 \\
+    0 & 0 & 0 & 0 & (I_y-M_{\dot{q}}) & 0 \\
+    0 & 0 & 0 & 0 & 0 & (I_z-N_{\dot{r}}) \\
+\end{matrix}
+\right]
+$$
+
+- 阻尼矩阵：P182
+
+$$
+D=\left[
+\small
+\begin{matrix}
+    -X_u & 0 & 0 & 0 & 0 & 0 \\
+    0 & -Y_v & 0 & 0 & 0 & 0 \\
+    0 & 0 & -Z_w & 0 & 0 & 0 \\
+    0 & 0 & 0 & -K_p & 0 & 0 \\
+    0 & 0 & 0 & 0 & -M_q & 0 \\
+    0 & 0 & 0 & 0 & 0 & -N_r \\
+\end{matrix}
+\right]
+$$
+
+- 科里奥利力矩阵：刚体质量科里奥利力矩阵 P56，附加质量科里奥利力矩阵：P120
+
+$$
+C(v)=\left[
+\begin{matrix}
+    0 & 0 & 0 & 0 & (m-Z_{\dot{w}})w & (Y_{\dot{v}}-m)v \\
+    0 & 0 & 0 & (Z_{\dot{w}}-m)w & 0 & (m-X_{\dot{u}})u \\
+    0 & 0 & 0 & (m-Y_{\dot{v}})v & (X_{\dot{u}}-m)u & 0 \\
+    0 & (m-Z_{\dot{w}})w & (Y_{\dot{v}}-m)v & 0 & (I_z-N_{\dot{r}})r & (M_{\dot{q}}-I_y)q \\
+    (Z_{\dot{w}}-m)w & 0 & (m-X_{\dot{u}})u & (N_{\dot{r}}-I_z)r & 0 & (I_x-K_{\dot{p}})p \\
+    (m-Y_{\dot{v}})v & (X_{\dot{u}}-m)u & 0 & (I_y-M_{\dot{q}})q & (K_{\dot{p}}-I_x)p & 0 \\
+\end{matrix}
+\right]
+$$
+
+- 动力学模型：P110
+
+- 静态水动力恢复力计算：P60，下面这是当重合
+
+$$
+\boldsymbol{\eta } = \left[
+\begin{matrix}
+(W-B)\sin (\theta) \\
+-(W-B)\cos (\theta )\sin(\phi) \\
+-(W-B)\cos (\theta )\cos(\phi) \\
+0 \\
+0 \\
+0 \\
+\end{matrix}
+\right]
+$$
+
+$$M\dot{v} + C(v)v + D(v)v + g(\eta) = \tau$$
+
 ## 话题用法记录
 
 - `/bluerov2/pose_gt`：存有当前 UUV 所处**位置坐标**和在**全局坐标系**下的 UUV **当前速度**
