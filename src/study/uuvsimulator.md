@@ -237,24 +237,21 @@ C(v)=\left[
 \right]
 $$
 
+- 静态水动力恢复力计算：P60，下面这是当重心和浮心重合时的情况
+  $$
+  \boldsymbol{\eta } = \left[
+  \begin{matrix}
+  (W-B)\sin (\theta) \\
+  -(W-B)\cos (\theta )\sin(\phi) \\
+  -(W-B)\cos (\theta )\cos(\phi) \\
+  0 \\
+  0 \\
+  0 \\
+  \end{matrix}
+  \right]
+  $$
 - 动力学模型：P110
-
-- 静态水动力恢复力计算：P60，下面这是当重合
-
-$$
-\boldsymbol{\eta } = \left[
-\begin{matrix}
-(W-B)\sin (\theta) \\
--(W-B)\cos (\theta )\sin(\phi) \\
--(W-B)\cos (\theta )\cos(\phi) \\
-0 \\
-0 \\
-0 \\
-\end{matrix}
-\right]
-$$
-
-$$M\dot{v} + C(v)v + D(v)v + g(\eta) = \tau$$
+  $$M\dot{v} + C(v)v + D(v)v + g(\eta) = \tau$$
 
 ## 话题用法记录
 
