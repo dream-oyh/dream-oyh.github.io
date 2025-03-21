@@ -2,6 +2,33 @@
 
 **唯有文字能够担当此任，宣告生命曾经在场。**
 
+## 读书记录
+
+我原先使用豆瓣来记录我的影视剧和读书经历，但是豆瓣存在以下缺点：
+
+1. 封闭，现在开始封禁爬虫了
+2. 评论区和小组氛围实在说不上好
+3. 缺少外文书籍条目
+4. 有些条目被封禁
+
+所以我把书影音记录转移到 Neodb。
+
+- 手机端（IOS）APP：[Piecelet Neodb](https://github.com/lcandy2/neodb-app)
+- PC 端 web：[Neodb](https://neodb.social/discover/)
+
+### 豆瓣数据转移至 neodb
+
+[文档参考](https://about.neodb.social/doc/doufen/)
+
+- 下载[豆坟浏览器插件](https://microsoftedge.microsoft.com/addons/detail/豆伴：豆瓣账号备份工具/dgdleiopbmoglledcdoncpciklggaplj)，适用于 Chrome，edge 浏览器
+- 进入[豆瓣官网](https://www.douban.com/)，登录账号
+- 在登陆账号后的豆瓣界面下，点击工具栏豆坟浏览器插件图标，点击“+新建任务”，选择“书/影/音/游”“评论”“豆列”，点击新建，即可进入备份过程
+- 点击右上角“浏览备份”
+- 点击对应账号
+- 点击右上角“导出数据”，依然选择“书/影/音/游”“评论”“豆列”，点击导出，即可将豆瓣数据导出成 excel 格式
+- 进入[neodb 官网](https://neodb.social/discover/)，注册账号并登录，点击右上角个人头像，再点击"data"
+- 进入数据导入界面后，选择第一个“Import Marks and Reviews from Douban”，然后选择导出的 excel 格式文件，“Import method”选“Overwrite”，“Visibility”选“Public”后，点击“Import”即可。
+
 ## 已读书目（大学期间）
 
 |书目 | 作者 | 简评 | 时间 |
@@ -36,7 +63,7 @@
 |书目 | 作者 | 简评 | 时间 |
 | :----------: | :----------: | :---------- |:---:|
 |A Midsummer Night’s Dream <Badge type="danger" text="Abandoned" />|Shakespeare |古英语的写法看的是爽，押韵押的跟诗歌一样朗朗上口，不愧是欧美文化的奠基石，但是确实古英语读起来太累，且对于现代英语无太大帮助，后放弃 |2024.7.20-2024.9.8|
-|Educated: the memoir <Badge type="tip" text="在读" />|Tara Takeover|超棒的英语原著入门书籍！|2025.2.7-|
+|Educated: the memoir <Badge type="tip" text="已读" />|Tara Takeover|超棒的英语原著入门书籍！话题有关个人成长，教育，家庭，女性主义|2025.2.1-2025.3.19|
 
 ## 读书笔记
 
@@ -194,3 +221,23 @@
 
 - **朱云崃女戏**
 西施歌舞，对舞者五人，长袖缓带，绕身若环，曾挠摩地，扶旋倚那，弱如求药。女宫内侍，执扇葆璇盖、金莲宝炬、纨扇宫灯二十余人，光焰荧煌，锦绣纷叠，见者错愕。
+
+## 语录合集
+
+When life itself seems lunatic, who knows where madness lies?
+当生活本身已经如此荒唐，谁知道什么才能算作疯狂？
+::: right
+——Educated: the memoir
+:::
+
+For them, I believed I could don armor and charge at giants, even if I saw only windmills. 即使我看到的只是风车，但是我也愿意为了他们披上盔甲，向巨人冲锋。
+::: right
+——Educated: the memoir
+:::
+
+No matter how much I appeared to have changed - how illustrious my education, how altered my appearance - I was still her. At best I was two people, a fractured mind. She was inside, and emerged whenever I crossed the threshold of my father's house.
+
+You could call this selfhoodd many things. Transformation. Metamorphosis. Falsity. Betrayal. -- I called it education. 
+::: right
+——Educated: the memoir
+:::

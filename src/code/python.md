@@ -169,6 +169,19 @@ func2
 foo
 ```
 
+### @property
+
+`@property`适用于无参的“属性获取”。这个修饰符可以将函数当作变量用，这个变量的名称与函数名称同名，变量的值是函数的返回值，但是这样这个函数就不是不可调用的了。被`@property`修饰时，被修饰的函数（通常作为 getter 方法）默认不能直接传入额外参数
+
+#### @<property_variable>.setter
+
+类中某`@property`变量的`setter`方法，其中`<property_variable>`是变量名称。`@property`修饰的变量有`getter`和`setter`两个方法，该修饰符`@<property_variable>.setter`定义的函数函数名与`@property`修饰的变量名相同，需要定义一个传入参数。`@<>.setter`修饰符定义的函数，**会在这个变量的值被设定时触发**，运行被定义的函数程序，进行相应的修改。
+
+#### @<property_variable>.getter
+
+一般直接写`<property_variable>.value`就是在调用`getter`函数，返回该变量的值。
+
+
 ## 数据结构
 
 ### 列表 list 和元组 tuple

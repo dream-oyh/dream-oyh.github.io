@@ -7,6 +7,12 @@ tag: 教程
 
 # 服务器相关
 
+## 常用命令
+
+```shell
+netstat -anp | grep <port> # 查看指定端口占用情况
+```
+
 ## 阿里云服务器部署
 
 [学生认证领券入口](https://university.aliyun.com/)
