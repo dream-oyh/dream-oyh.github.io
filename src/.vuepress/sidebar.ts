@@ -23,7 +23,6 @@ export default sidebar({
     {
       text: "Python 库",
       prefix: "python/",
-      collapsible: true,
       children: [
         //"pandas.md",
         {
@@ -39,8 +38,7 @@ export default sidebar({
     },
     {
       text: "锦囊",
-      collapsible: true,
-      children: ["tips/regex.md", "tips/pdf2docx.md", "tips/keyboard_remap.md"],
+      children: ["tips/regex.md", "tips/pdf2docx.md", "tips/keyboard_remap.md", "tips/voc.md"],
     },
   ],
   "/code/python/pytorch/": [
