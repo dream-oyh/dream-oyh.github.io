@@ -137,6 +137,7 @@ export default sidebar({
       link: "read.md",
     },
     "video_game.md",
+    "rss.md",
   ],
   "/credit/": [
     {
