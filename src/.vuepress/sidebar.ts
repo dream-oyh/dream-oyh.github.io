@@ -46,22 +46,14 @@ export default sidebar({
       text: "Pytorch 学习笔记",
       icon: "pytorch",
       children: [
-        {
-          text: "Pytorch 基础",
-          link: "1pytorch.md",
-        },
+        "1pytorch.md",
         {
           text: "常见的模型源码实现",
-          collapsible: true,
           children: ["2.1linear_regression.md", "2.2FashionMNIST.md", "2.3softmax.md", "2.4MLP.md"],
         },
-        {
-          text: "走进深度学习",
-          link: "3.1Deeplearning_basic.md",
-        },
+        "3.1Deeplearning_basic.md",
         {
           text: "卷积神经网络",
-          collapsible: true,
           children: ["4.1convolutional_nn_basic.md", "4.2LeNet.md", "4.3AlexNet.md", "4.4VGG.md", "4.5NiN.md", "4.6GoogleNet.md"],
         },
         "img.md",
@@ -180,15 +172,23 @@ export default sidebar({
       children: ["linked_list.md", "stack.md", "queue.md", "tree.md", "graph.md", "HashTable.md", "Heap.md"],
     },
     {
-      text: "算法（力扣）",
+      text: "算法学习",
       prefix: "/study/Algorithm/",
+      icon: "code",
       collapsible: true,
-      children: ["Enumerate.md", "Sort.md", "GreedyAlgorithm.md", "DynamicPlan.md"],
+      link: "/study/Algorithm/index.md",
     },
     {
       text: "科研",
       prefix: "/study/",
       children: ["ros.md", "literature_search.md", "uuvsimulator.md", "proxy.md"],
+    },
+  ],
+  "/study/Algorithm/": [
+    {
+      text: "算法学习",
+      icon: "code",
+      children: ["array.md"],
     },
   ],
 });

@@ -15,7 +15,9 @@ Rime 是一款高度自定义，可以通过 yaml 文件进行自定义输入方
 
 ### 配置
 
-[配置](https://github.com/dream-oyh/Rime)已经上传 github，方便词库的管理
+我采用雾凇输入方案，[配置](https://github.com/dream-oyh/Rime)已经上传 github，方便词库的管理，对雾凇方案进行了部分微调和词库搭建。
+
+推荐用[rime-formatter](https://marketplace.visualstudio.com/items?itemName=lxl66566.rime-formatter)来对 rime 词库格式化，朋友自己写的工具，好用！
 
 ## 微软输入法
 

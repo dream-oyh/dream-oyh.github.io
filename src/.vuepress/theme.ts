@@ -10,11 +10,7 @@ export default hopeTheme({
     email: "19859860010@163.com",
   },
   favicon: "/web_logo.jpg",
-  //   iconAssets: "iconfont",
-  iconAssets: "//at.alicdn.com/t/c/font_4435976_ijvl2qe5ocd.css",
-
   logo: "/web_logo.jpg",
-
   repo: "https://github.com/dream-oyh/dream-oyh.github.io",
   darkmode: "toggle",
   fullscreen: false,
@@ -26,10 +22,8 @@ export default hopeTheme({
     center: ["Links"],
     end: ["Repo", "Outlook", "Search"],
   },
-
   // 侧边栏
   sidebar,
-
   // 页脚
   footer: "希望你能在此有所收获",
   displayFooter: true,
@@ -39,7 +33,43 @@ export default hopeTheme({
       "/articles/CSU.html": ["0712"],
     },
   },
-
+  markdown: {
+    align: true,
+    attrs: true,
+    codeTabs: true,
+    component: true,
+    tabs: true,
+    highlighter: "shiki",
+    hint: true,
+    figure: true,
+    footnote: true,
+    imgLazyload: true,
+    imgSize: true,
+    include: true,
+    math: true,
+    tasklist: true,
+    vPre: true,
+    spoiler: true,
+    demo: true,
+    flowchart: true,
+    mark: true,
+    mermaid: true,
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({ tag }) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: { type: "tip" },
+              content: "Recommended",
+            };
+        },
+      },
+    ],
+    sub: true,
+    sup: true,
+  },
   // 博客相关
   blog: {
     intro: "/intro.html",
@@ -57,6 +87,10 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
+    slimsearch: {
+      indexContent: true,
+      suggestion: true,
+    },
     components: {
       components: ["SiteInfo", "PDF", "Badge"],
       componentOptions: {
@@ -65,9 +99,8 @@ export default hopeTheme({
         },
       },
     },
-    searchPro: {
-      indexContent: true,
-      autoSuggestions: true,
+    icon: {
+      assets: "//at.alicdn.com/t/c/font_4435976_izjutlkh83.css",
     },
     comment: {
       //   provider: "Waline",
@@ -80,42 +113,6 @@ export default hopeTheme({
       repoId: "R_kgDOLSurkg",
       category: "Announcements",
       categoryId: "DIC_kwDOLSurks4CdPJJ",
-    },
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      codetabs: true,
-      component: true,
-      demo: true,
-      figure: true,
-      footnote: true,
-      flowchart: true,
-      hint: true,
-      imgLazyload: true,
-      imgSize: true,
-      include: true,
-      katex: true,
-      mark: true,
-      mermaid: true,
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      tasklist: true,
-      spoiler: true,
-      sub: true,
-      sup: true,
-      tabs: true,
-      vPre: true,
     },
   },
 });
