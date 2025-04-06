@@ -109,3 +109,36 @@ class Solution(object):
 用双指针好巧妙！记一下双指针的这种思路，遇到“原地”处理的时候会很好用
 
 ### 844. 比较含退格的字符串
+
+```python {14,18}
+class Solution(object):
+    def backspaceCompare(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        return self.remove_s(s) == self.remove_s(t)
+    def remove_s(self, arr):
+        arr = list(arr)
+        slow = 0
+        for fast in range(len(arr)):
+            if arr[fast] == "#":
+                slow = max(0, slow - 1)
+            else:
+                arr[slow] = arr[fast]
+                slow += 1
+        return arr[:slow]
+```
+
+力扣官方给的题解是用逆序的双指针思想来做（当然用栈做会更方便），但是逆序写真的很丑，这题用正序也可以做，代码如上。在遇到`#`号时，让慢指针回退一格，同时要做一下判断，回退有没有超出数组边界，最后返回的值注意是没有包括慢指针所指项的。
+
+## 滑动窗口
+
+相关题目：
+
+- [209.长度最小的子数组<Badge type="warning" text="中等" />](https://leetcode.cn/problems/minimum-size-subarray-sum/description/)
+- [904.水果成篮<Badge type="warning" text="中等" />](https://leetcode.cn/problems/fruit-into-baskets/description/)
+- [76.最小覆盖子串<Badge type="danger" text="困难" />](https://leetcode.cn/problems/minimum-window-substring/description/)
+
+滑动窗口经常用来解决**最短/最长子序列**的问题，滑动窗口的范围又双指针来限定，如果满足条件，尾部指针先向前进，不满足条件，头部再往前跟上。为了判断这个条件，很多时候需要用到其他模型，like 哈希表等。
