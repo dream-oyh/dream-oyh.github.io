@@ -5,16 +5,7 @@ export default sidebar({
     {
       text: "编程",
       link: "/code/",
-      children: [
-        "markdown.md",
-        "python.md",
-        {
-          text: "嵌入式开发",
-          icon: "arduino",
-          link: "/code/Arduino/",
-        },
-        "cpp.md",
-      ],
+      children: ["markdown.md", "python.md", "Arduino/index.md", "cpp.md"],
     },
     {
       text: "工具",
@@ -25,11 +16,7 @@ export default sidebar({
       prefix: "python/",
       children: [
         //"pandas.md",
-        {
-          text: "Pytorch",
-          icon: "pytorch",
-          link: "pytorch/1pytorch.md",
-        },
+        "pytorch/",
         "Seaborn.md",
         "web_crawler.md",
         "websocket.md",
@@ -107,54 +94,20 @@ export default sidebar({
       children: ["2024.md", "2025.md"],
     },
     {
-      text: "犯傻记录",
-      icon: "build",
-      link: "fool.md",
-    },
-    {
       text: "推荐",
       icon: "34wujiaoxingpingfenshixin",
       collapsible: true,
       children: ["software.md", "web.md", "boardcast.md"],
     },
-    {
-      text: "关于大学",
-      icon: "graduate",
-      collapsible: true,
-      children: ["CSU.md"],
-    },
-    {
-      text: "读书笔记",
-      icon: "note",
-      link: "read.md",
-    },
+    "fool.md",
+    "pcdiy.md",
+    "CSU.md",
+    "read.md",
     "video_game.md",
     "rss.md",
   ],
-  "/credit/": [
-    {
-      text: "学习资料站",
-      link: "/credit/",
-    },
-  ],
-  "/blog/": [
-    {
-      text: "关于博客",
-      link: "/blog/",
-    },
-    {
-      text: "博客日志",
-      link: "log.md",
-    },
-    {
-      text: "问题列表",
-      link: "vuepress.md",
-    },
-    {
-      text: "博客常用站点跳转",
-      link: "spots.md",
-    },
-  ],
+  "/credit/": ["index.md"],
+  "/blog/": ["index.md", "log.md", "vuepress.md", "spots.md"],
   "/study/": [
     {
       text: "Summer Camp Reivew",
