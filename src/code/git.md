@@ -13,6 +13,8 @@ tag: 教程
 
 [绝对值\_x 个人博客](https://absx.pages.dev/coding/Git.html)
 
+[码农高天-github 极简工作流程](https://www.bilibili.com/video/BV19e4y1q7JJ)
+
 ## 安装与配置
 
 ### Git 的安装
@@ -53,7 +55,7 @@ ssh-keygen -C "YourEmail@example.com"
 在 git bash 输入以上命令，会要求输入密钥对保存路径，以及密钥对密码，密码为空即可。可以一路回车，但是要注意密钥对的保存路径，生成完毕后要到该路径下读取密钥对文件，选择“id_rsa.pub”文件并打开，里面“看起来像乱码的东西”就是 SSH 公钥。
 
 2. 进入 Github 配置 SSH 公钥
-  
+
 在 Github 右上角头像处选择 Settings，进入设置页面后选择 SSH and GPG keys，点击 New SSH key 按钮，在 Title 处填写一个名字，在 Key 处填写密钥对文件中的公钥内容，最后点击 Add SSH key 按钮即可。
 
 3. 测试 SSH 连接
@@ -106,15 +108,15 @@ commit 命令会在提交树上新建一个新节点，例如原节点为`C0`，
 - `-m` 参数用来为提交撰写注释
 - `git commit -m 'deploy:'$(date "+%Y%m%d-%H:%M:%S")` 可以把 push 的时间作为提交注释
 - 多行注释的写法如下：
-    ```sh
-    git commit -m "第一行注释 \
-                 第二行注释 \
-                 第三行注释"
-    # 或者
-    git commit -m "第一行注释 |
-                 第二行注释 |
-                 第三行注释"
-    ```
+  ```sh
+  git commit -m "第一行注释 \
+               第二行注释 \
+               第三行注释"
+  # 或者
+  git commit -m "第一行注释 |
+               第二行注释 |
+               第三行注释"
+  ```
 - 注释规范：[ref](https://www.cnblogs.com/Bubgit/p/15034656.html)
 
 ```sh
@@ -124,23 +126,24 @@ commit 命令会在提交树上新建一个新节点，例如原节点为`C0`，
 ```
 
 ::: details **type**(必需)
-- br: 此项特别针对 bug 号，用于向测试反馈 bug 列表的 bug 修改情况
-- feat：新功能（feature）
-- fix：修补
-- docs：文档（documentation）
-- style：格式（不影响代码运行的变动）
-- refactor：重构（即不是新增功能，也不是修改 bug 的代码变动）
-- test：增加测试
-- chore：其他的小改动。一般为仅仅一两行的改动，或者连续几次提交的小改动属于这种
-- revert：feat(pencil): add 'graphiteWidth' option (撤销之前的 commit)
-- upgrade：升级改造
-- bugfix：修补 bug
-- optimize：优化
-- perf: Performance 的缩写，提升代码性能
-- test：新增测试用例或是更新现有测试
-- ci:主要目的是修改项目继续完成集成流程 (例如 Travis，Jenkins，GitLab CI,Circle) 的提交
-- build: 主要目的是修改项目构建系统 (例如 glup，webpack，rollup 的配置等) 的提交
-:::
+
+- `br`: 此项特别针对 bug 号，用于向测试反馈 bug 列表的 bug 修改情况
+- `feat`：新功能（feature）
+- `fix`：修补
+- `docs`：文档（documentation）
+- `style`：格式（不影响代码运行的变动）
+- `refactor`：重构（即不是新增功能，也不是修改 bug 的代码变动）
+- `test`：增加测试
+- `chore`：其他的小改动。一般为仅仅一两行的改动，或者连续几次提交的小改动属于这种
+- `revert`：feat(pencil): add 'graphiteWidth' option (撤销之前的 commit)
+- `upgrade`：升级改造
+- `bugfix`：修补 bug
+- `optimize`：优化
+- `perf`: Performance 的缩写，提升代码性能
+- `test`：新增测试用例或是更新现有测试
+- `ci`:主要目的是修改项目继续完成集成流程 (例如 Travis，Jenkins，GitLab CI,Circle) 的提交
+- `build`: 主要目的是修改项目构建系统 (例如 glup，webpack，rollup 的配置等) 的提交
+  :::
 
 ::: details scope(可选)
 scope 用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同。
@@ -156,7 +159,6 @@ subject 是 commit 目的的简短描述，不超过 50 个字符。
 ::: details body(可选)
 对本次 commit 的详细描述，可以分成多行
 :::
-
 
 ### 分支
 
@@ -237,20 +239,10 @@ git push origin -d <branch_name> # 删除远程分支
 
 - `git clone <ssh path>`可以从 github 上克隆一个仓库，并将该远程仓库与克隆后的本地仓库建立连接。
 - 链接远程仓库
-  ::: code-tabs
-  @tab SSH
 
 ```sh
 git remote add origin git@github.com:<yourgithubID>/<Repo>.git
 ```
-
-@ tab HTTPS
-
-```sh
-git remote add origin https://github.com/yourgithubID/gitRepo.git
-```
-
-:::
 
 > 优先使用 SSH 链接，但需要[配置](#ssh-配置)
 >
