@@ -137,8 +137,8 @@ class Solution(object):
 
 相关题目：
 
-- [209.长度最小的子数组<Badge type="warning" text="中等" />](https://leetcode.cn/problems/minimum-size-subarray-sum/description/)
-- [904.水果成篮<Badge type="warning" text="中等" />](https://leetcode.cn/problems/fruit-into-baskets/description/)
-- [76.最小覆盖子串<Badge type="danger" text="困难" />](https://leetcode.cn/problems/minimum-window-substring/description/)
+- [209.长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/description/)<Badge type="warning" text="中等" />
+- [904.水果成篮](https://leetcode.cn/problems/fruit-into-baskets/description/)<Badge type="warning" text="中等" />
+- [76.最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/description/)<Badge type="danger" text="困难" />
 
 滑动窗口经常用来解决**最短/最长子序列**的问题，滑动窗口的范围由双指针来限定，如果满足条件，尾部指针先向前进，不满足条件，头部再往前跟上。为了判断这个条件，很多时候需要用到其他模型，like 哈希表等。
