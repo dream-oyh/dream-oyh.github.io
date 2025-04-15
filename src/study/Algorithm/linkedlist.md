@@ -1,5 +1,7 @@
 ---
 Date: 2025-04-14
+tag: algorithm
+icon: code
 ---
 
 # 链表
@@ -33,6 +35,10 @@ class ListNode:
 - [19.删除倒数第 N 个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) <Badge type="tips" text="简单" />
 - [02.07.链表相交](https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/description/) <Badge type="tips" text="简单" />
 - [142.环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/description/) <Badge type="danger" text="困难" />
+
+环形链表的题可以抽象为一种母模型，涉及到**通过一种固定操作就能完成状态循环**的题目，可以优先考虑快慢指针，快指针向前移动 2 个状态，慢指针再向前移动 1 个状态，直到二者相遇，确定相遇状态点。**“成环”**代表达成了一种状态的循环，这个是关键。
+
+- [例：快乐数](https://leetcode.cn/problems/happy-number/description/) <Badge type="warning" text="中等" /> 这题里的快乐数，就是一种状态的循环，考虑用快慢指针法解决。
 
 ## 递归
 
