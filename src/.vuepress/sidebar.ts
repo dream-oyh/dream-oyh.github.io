@@ -142,7 +142,7 @@ export default sidebar({
       text: "算法学习",
       icon: "code",
       link: "index.md",
-      children: ["array.md", "linkedlist.md", "hashtable.md"],
+      children: ["array.md", "linkedlist.md", "hashtable.md", "string.md"],
     },
   ],
 });
