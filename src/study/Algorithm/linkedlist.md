@@ -29,14 +29,16 @@ class ListNode:
 
 ## 双指针
 
-这个在数组里就见到过很多次了，双指针可能被用于“需要判断两个节点相等”的题目中 _（不准确，有点以偏概全的嫌疑）_，最麻烦的题是环形链表 II，这个看[解析](https://programmercarl.com/0142.环形链表II.html)说得很清楚了，这里不做记录。
+这个在数组里就见到过很多次了，最麻烦的题是环形链表 II，这个看[解析](https://programmercarl.com/0142.环形链表II.html)说得很清楚了，这里不做记录。双指针的好处是可以降低时间复杂度，一般能把$O(n^2)$的时间复杂度降低到$O(n)$
 
 - [206.翻转链表](https://leetcode.cn/problems/reverse-linked-list/description/) <Badge type="tips" text="简单" />
 - [19.删除倒数第 N 个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) <Badge type="tips" text="简单" />
 - [02.07.链表相交](https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/description/) <Badge type="tips" text="简单" />
 - [142.环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/description/) <Badge type="danger" text="困难" />
 
-环形链表的题可以抽象为一种母模型，涉及到**通过一种固定操作就能完成状态循环**的题目，可以优先考虑快慢指针，快指针向前移动 2 个状态，慢指针再向前移动 1 个状态，直到二者相遇，确定相遇状态点。**“成环”**代表达成了一种状态的循环，这个是关键。
+### 环形链表模型
+
+环形链表的题可以抽象为一种母模型，涉及到**通过一种固定操作就能完成状态循环**的题目，可以优先考虑快慢指针，快指针向前移动 2 个状态，慢指针再向前移动 1 个状态，直到二者相遇，确定相遇状态点。**“成环”**代表达成了一种状态的循环，这个是关键。他可以用来**判断状态转换是否达成了循环**，应该算是一种特殊的状态机算法（还没学到，学到了再来补充）。
 
 - [例：快乐数](https://leetcode.cn/problems/happy-number/description/) <Badge type="warning" text="中等" /> 这题里的快乐数，就是一种状态的循环，考虑用快慢指针法解决。
 
@@ -55,5 +57,6 @@ class ListNode:
 链表里目前碰到的递归有：
 
 - [24.两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/description/) <Badge type="warning" text="中等" />
+- 打印链表：可以采用递归的形式实现
 
 别急，链表里的递归都是简单的，等到了动态规划才有的受。

@@ -12,6 +12,7 @@
 - [Dark Reader](https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc)：暗色模式，支持调整对比度和棕褐色滤镜
 - [elmo chat](https://chromewebstore.google.com/detail/elmo-chat-your-ai-web-cop/ipnlcfhfdicbfbchfoihipknbaeenenm)：支持对 B 站、Youtube 进行 AI 视频总结，方便记笔记
 - [魔法葫芦](https://microsoftedge.microsoft.com/addons/detail/%E9%AD%94%E6%B3%95%E8%91%AB%E8%8A%A6-%E6%89%B9%E6%B3%A8%E7%BD%91%E9%A1%B5%E3%80%81pdf%E3%80%81bilibili%E3%80%81/kmoaicpbmfhbocapfopeakkcaoneebhm?hl=zh-CN)：支持对网页划线高亮，标注笔记，但是 UI 界面做的一般，免费
+- [AI Code Finder](https://microsoftedge.microsoft.com/addons/detail/ai-code-finder-alerts-f/mflbgfojghoglejmalekheopgadjmlkm)：很好用的论文代码查找器，对于开源代码能直接读取出 github 仓库链接，科研人必备！
 
 ## 大模型相关
 
