@@ -11,6 +11,11 @@ export default navbar([
 		icon: "tubiaozhizuomoban-",
 		link: "/study/",
 	},
+    {
+		text: "项目",
+		icon: "Article",
+		link: "/project/",
+	},
 	{
 		text: "English",
 		icon: "language",

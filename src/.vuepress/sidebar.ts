@@ -107,6 +107,7 @@ export default sidebar({
     "rss.md",
   ],
   "/credit/": ["index.md"],
+  "/project/": ["youenjie.md"],
   "/blog/": ["index.md", "log.md", "vuepress.md", "spots.md"],
   "/study/": [
     {
