@@ -18,6 +18,9 @@ stm32 采取 ARM Cortex-M 内核开发。相同内核意味着编写启动文件
 |   RTC    |        Real-Time Clock        |          实时时钟           |
 |   RCC    |    Reset and Clock Control    |       复位和时钟控制        |
 |   AFIO   |     Alternate function io     | 复用功能重映射/中断引脚选择 |
+|    OC    |        Output Compare         |          输出比较           |
+|    IC    |         Input Capture         |          输入捕获           |
+|    CC    |        Capture/Compare        |          捕获/比较          |
 
 ::: tip
 
@@ -29,14 +32,15 @@ stm32 采取 ARM Cortex-M 内核开发。相同内核意味着编写启动文件
 
 stm32 的库函数内各种外设的函数基本上都是有迹可循的，常见的有如下几种：
 
-- `xxxx_InitTypeDef`: 用于外设初始化的结构体类型名
-- `xxxx_Init()`:对某个外设初始化，常常以对应结构体作为参数。
-- `xxxx_DeInit()`:去初始化，恢复默认配置
-- `xxxx_StructInit()`:对结构体变量赋默认值
-- `xxxx_GetFlagStatus()`:读取状态寄存器内**状态标志位**的值
-- `xxxx_ClearFlag()`:清空**状态标志位**
-- `xxxx_GetITFlag()`:获取**中断标志位**
-- `xxxx_ClearITPendingBit()`:清除**中断标志位**
+- `xxxx_InitTypeDef` 用于外设初始化的结构体类型名
+- `xxxx_Init()` 对某个外设初始化，常常以对应结构体作为参数。
+- `xxxx_DeInit()` 去初始化，恢复默认配置
+- `xxxx_StructInit()` 对结构体变量赋默认值
+- `xxxx_ITConfig()` 使能外设的中断输出
+- `xxxx_GetFlagStatus()` 读取状态寄存器内**状态标志位**的值
+- `xxxx_ClearFlag()` 清空**状态标志位**
+- `xxxx_GetITFlag()` 获取**中断标志位**
+- `xxxx_ClearITPendingBit()` 清除**中断标志位**
   > 最后四个函数的本质是操作状态寄存器，每个外设的状态寄存器里会有对应的状态标志位，比如说串口的状态标志位表示是否收到信息，`xxxx_GetFlagStatus()` 和 `xxxx_ClearFlag()`就是对这个标志位操作；最后两个处理的是和中断有关的标志位。
 
 ## GPIO
@@ -47,10 +51,16 @@ stm32 的库函数内各种外设的函数基本上都是有迹可循的，常�
 
 #### 配置方法：
 
-1. 使能时钟
+1. 使能时钟 `RCC_APB1.2PeriphClockCmd()`
 2. 配置结构体，stm32 中采用`GPIO_InitTypeDef`结构体类型，一般要定义该结构体下的`GPIO_Mode`，`GPIO_Pin`，`GPIO_Speed`这三个参数。Pin 口如果有多个，用`|`连接，比如：`GPIO_InitStructure.GPIO_Pin=GPIO_Pin_1 | GPIO_Pin_2`
 3. 初始化：`GPIO_Init(GPIOx, &GPIO_InitStructure)`
 4. 指定对应操作
+
+### 引脚重映射
+
+1. 开启 AFIO 时钟
+2. `GPIO_PinRemapConfig()` 配置引脚重映射
+3. 查数据手册，查看重映射方式，确认`GPIO_PinRemapConfig()`函数的参数；注意有时要解除调试端口（JTRST/JTAG/SWD）的复用，但是解除调试端口后，就无法通过 TLink 烧录程序，只能用串口烧录，得注意。
 
 ## 中断
 
@@ -80,12 +90,12 @@ EXTI 中断结构：
 
 #### 配置方法
 
-1. 打开对应外设时钟，包括：GPIO，AFIO，注意 EXTI，NVIC 的时钟不用单独开启，保持默认打开
+1. 打开对应外设时钟，包括：GPIO，AFIO，**注意 EXTI，NVIC 的时钟不用单独开启，保持默认打开**
 2. 配置 GPIO，AFIO
    > AFIO 没有专门的库函数，包含在 GPIO 的库函数里了，其中`GPIO_PinRemapConfig()`用于引脚的重映射；`GPIO_EXTILineConfig()`用于 EXTI 的通道选择，具体参数见库函数说明。
 3. 配置 EXTI 的响应通道和响应方式，包括：`EXTI_Line`, `EXTI_LineCmd`, `EXTI_Mode`, `EXTI_Trigger`
 4. 配置 NVIC，包括配置优先级分组和初始化 NVIC
-5. 写中断函数，中断函数的名字需要参考启动文件中的`startup_stm32f10x_md.s`，参考其中断向量表中以`EXTI`开头的函数名，注意中断函数是无参无返回值的。
+5. 写中断函数，中断函数的名字需要参考启动文件中的`startup_stm32f10x_md.s`，参考其中断向量表中以`EXTI`开头的函数名，**注意中断函数是无参无返回值的。**
    1. 判断中断标志位，在中断函数里使用`EXTI_GetITStatus()`函数
    2. 写中断时需要的操作
    3. 清除中断标志位
@@ -93,6 +103,12 @@ EXTI 中断结构：
 ### TIM 定时器中断
 
 定时器可以对输入的时钟进行计数，并在计数值达到设定值时触发中断。内容极多。
+
+主要功能包括：
+
+1. [定时中断](#定时中断)
+2. [输出比较](#输出比较-oc-output-compare)
+3. [输入捕获](#输入捕获-ic-input-capture)
 
 #### 定时器类型
 
@@ -105,3 +121,130 @@ EXTI 中断结构：
 #### TIM 中断结构
 
 ![](/images/stm32/TIM_structure.png)
+
+#### 基本定时器结构
+
+![](/images/stm32/基本定时器结构.png =700x)
+
+- `CK_PSC` 预分频器的输入时钟，选内部时钟一般是 72MHz
+- `CNT_EN` 计数器使能，高电平计数器正常运行
+- `CK_CNT` 计数器时钟
+
+#### 时序图细节解析
+
+定时时间的计算如下，后面是解释说明。`
+
+$$CK\_ CNT\_ OV = \frac{CK\_ CNT}{ARR + 1} = \frac{CK\_ PSC}{(PSC+1)(ARR+1)}$$
+
+##### 当预分频器的参数从 0 变到 1 时，计数器的时序图
+
+![](/images/stm32/预分频器时序.png =700x)
+
+$$CK\_ CNT= \frac{CK\_ PSC}{PSC+1}$$
+
+- `PSC` 分频系数
+- `计数器寄存器` 计数用，下图中寄存器跟随时钟上升沿递增计数
+- `更新事件` 在 FC 之后达到 ARR 重装值，下一个时钟来临时计数器清 0，更新事件产生脉冲
+- `预分频控制寄存器` 为预分频寄存器提供了一种**缓冲机制**，在任意时刻，程序将预分频系数从 0 改成 1,此时并不会马上对预分频系数进行更改，而是先更改影子寄存器（或者叫缓冲寄存器），等待这个循环周期结束之后（即：计数器达到 ARR 自动重装值后），才会将预分频系数正式改为 1，防止了一些不必要的麻烦。
+- 计数器寄存器的计数频率，是靠另一个计数器实现的，这个计数器是图中最下方的预分频计数器，当预分频系数为 0 时，不动；当预分频计数器为 1 时，0,1,0,1 交替计数，计数到 1 时向计数器寄存器发送递增信号，计数器寄存器递增+1。
+
+##### 内部时钟分频因子为 2 时，计数器的时序图
+
+![](/images/stm32/计数器时序.png =700x)
+
+- `CK_INT` 内部时钟 72MHz
+- `CNT_EN` 时钟使能，高电平启动
+- `CK_CNT` 计数器时钟
+- 等计数器寄存器递增到 ARR 重装值时，计数器溢出，更新事件产生一个脉冲信号，更新中断标志位置 1,让中断控制器去 NVIC 申请中断。所以我们要的定时，就是计数器溢出的两个脉冲之间的距离，把这个频率称为`CK_CNT_OV`。**所以在设置定时的时候，我们主要要算的就是这个`CK_CNT_OV`，就是要根据内部时钟频率，计算出`PSC`和`ARR`的具体取值**。
+
+这样，这个定时时间的计算就是：
+
+$$CK\_ CNT\_ OV = \frac{CK\_ CNT}{ARR + 1} = \frac{CK\_ PSC}{(PSC+1)(ARR+1)}$$
+
+#### 定时中断
+
+1. 使能 RCC 时钟
+2. 选择时钟源为**内部时钟模式**
+   - `void TIM_InternalClockConfig();` 配置内部时钟
+   - `void TIM_ITRxExternalClockConfig();` 配置其他定时器的外部时钟模式 1
+   - `void TIM_TIxExternalClockConfig();`选择捕获通道的外部时钟模式 1
+   - `void TIM_ETRClockMode1Config();` 选择 ETR 外部时钟模式 1
+   - `void TIM_ETRClockMode2Config();` 选择 ETR 外部时钟模式 2
+   - `void TIM_ETRConfig();` 单独配置 ETR 引脚的极性、滤波器等
+3. 时基单元初始化`TIM_TimeBaseInit()`：预分频器，计数器，自动重装器，用结构体`TIM_TimeBaseInitTypeDef`配置
+   - 这个结构体里面有一个`TIM_RepetitionCounter`这个值，是高级计数器才有的，其他计数器不用，直接赋值给 0 就行
+   - `TIM_Period` 指的是 ARR 自动重装器的值，数字格式为`int`，取值范围在 0~65535
+   - `TIM_Prescaler` 指的是 PSC 预分频器的值，数字格式为`int`，取值范围在 0~65535
+4. 配置输出中断控制`TIM_ITConfig()`
+5. 配置 NVIC，打开定时器中断通道
+6. 定时器启动`TIM_Cmd()`，写定时器中断函数
+
+其他函数：
+
+- `TIM_PrescalerConfig()` 单独修改PSC预分频值
+- `TIM_CounterModeConfig()` 单独修改计数器计数模式
+- `TIM_ARRPreloadConfig()` 单独修改自动重装器预装功能
+- `TIM_SetCounter()` 给计数器写入一个值
+- `TIM_SetAutoreload()` 给自动重装器写入一个值
+- `TIM_GetCounter()` 获取当前计数器的值
+- `TIM_GetPrescaler()` 获取当前预分频器的值
+
+#### 输出比较 OC（Output Compare）
+
+用于输出 PWM 波形，控制电机。
+
+输出比较通过比较 CNT 计数器和 CCR 寄存器值的关系，对输出电平进行置 1、置 0 或翻转的操作，用于输出一定频率和占空比的 PWM 波形。（CNT 就是前面说的定时跳变的计数器，CCR 是有一个预设的值，CNT 计数达到 CCR 了之后，就会让输出依次置 1,置 0）
+
+![输出比较模式表格](/images/stm32/输出比较模式.png =700x )
+
+![PWM模式基本结构](/images/stm32/PWM-基本结构.png =700x )
+
+时基单元之前的时钟选择，和[定时中断](#定时中断)的配置一致，与之区别是最后不需要配置中断，而是配置输出比较单元和 IO 口。
+
+PWM 相关参数：
+
+| 物理量 |     表达式     |              计算方法               |
+| :----: | :------------: | :---------------------------------: |
+|  频率  |    $1/T_s$     | $f=\frac{CK\_ PSC}{(PSC+1)(ARR+1)}$ |
+| 占空比 |  $T_{ON}/T_s$  |    $Duty = \frac{CCR}{ARR + 1}$     |
+| 分辨率 | 占空比变化步距 |         $Reso = 1/(ARR+1)$          |
+
+::: tip PWM波形频率与占空比的调整
+- 通过调整PSC以调整PWM的频率，利用`TIM_PrescalerConfig()`函数
+- 通过调整CCR以调整PWM的占空比，利用`TIM_SetComparex()`函数
+- 而ARR是确定分辨率，如果分辨率取1%，则直接定ARR为`100-1`
+:::
+
+
+**配置方法**
+
+1. 打开时钟
+2. 配置输出比较单元
+   - `TIM_OCxInit()` 输出比较单元初始化，利用`TIM_OCInitTypeDef`结构体初始化
+     - `TIM_OCMode` 设置输出比较的模式
+     - `TIM_OCPolarity` 设置输出比较的极性
+     - `TIM_OutputState` 设置输出使能
+     - `TIM_Pulse` 设置 CCR，决定了占空比
+   - `TIM_SelectOCxM()` 选择输出比较模式
+   - `TIM_SetComparex()` 更改 CCR 的值进而占空比，可以由此实现 PWM 占空比的连续变化
+3. 查引脚定义表定义 GPIO 口，定时器控制引脚需要使用复用开漏/推挽输出模式。
+
+#### 输入捕获 IC （Input Capture）
+
+输入捕获模式下，当通道输入引脚出现指定电平跳变时，当前 CNT 的值将被锁存到 CCR 中，可用于测量 PWM 波形的频率、占空比、脉冲间隔、电平持续时间等参数。可配置为 PWMI 模式，同时测量频率和占空比；可配合主从触发模式，实现硬件全自动测量
+
+输入捕获测量频率采用测周法，即：测量两个上升沿到达之间的间隔时间。
+
+
+**PWMI 模式**
+
+![PWMI模式基本结构](/images/stm32/PWMI-基本结构.png =700x )
+
+一个信号通给两个数据选择器，使得两个通道同时测量占空比和频率成为了可能。
+
+**主从触发模式**
+
+- 主模式是将定时器的内部信号，映射到TRGO引脚，进而驱动其他外设
+- 从模式是接收其他外设或者自身外设的一些信号，映射到TRGI引脚，用于控制自身定时器的运行（如复位、关闭等）
+- 具体可以用于哪些信号和哪些外设，查手册吧
+- 主从模式的操作由硬件自动化进行，软件上只需要一行代码解决。

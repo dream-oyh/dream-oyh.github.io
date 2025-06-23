@@ -46,6 +46,7 @@ export default hopeTheme({
     imgLazyload: true,
     imgSize: true,
     include: true,
+    imgMark: true,
     math: true,
     tasklist: true,
     vPre: true,
