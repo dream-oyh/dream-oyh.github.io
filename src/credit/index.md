@@ -52,11 +52,11 @@ sidebar: false
 
 ## 资料站索引
 
-### [数学物理公共课](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课)
+### [数学物理公共课](https://github.com/dream-oyh/csu_stte_files/tree/main/数学物理公共课)
 
-- [高等数学](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/高数笔记)
-  - [同济版高数教材电子书](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/高数笔记/同济版高数教材)
-  - [高等数学专题笔记](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/高数笔记/高等数学专题笔记)
+- [高等数学](https://github.com/dream-oyh/csu_stte_files/tree/main/数学物理公共课/高数笔记)
+  - [同济版高数教材电子书](https://github.com/dream-oyh/csu_stte_files/tree/main/数学物理公共课/高数笔记/同济版高数教材)
+  - [高等数学专题笔记](https://github.com/dream-oyh/csu_stte_files/tree/main/数学物理公共课/高数笔记/高等数学专题笔记)
     ::: details 高等数学专题笔记条目
     - 关于反三角函数
     - 用定义证明数列极限方法积累
@@ -70,68 +70,68 @@ sidebar: false
     - 泰勒公式
     - [泰勒公式的深层次理解视频](https://www.bilibili.com/video/BV1T44y1e7JQ)
       :::
-  - [高数知识点笔记（一）（二）（三）](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/高数笔记)
-- [大学物理（二）](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/大学物理（二）)
-  - [整本书公式整理](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/大学物理（二）/整本书公式整理)
-  - [大学物理（二）课件 - 周良玉老师](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/大学物理（二）/课件)
-  - [量子力学思维导图 (下载`.html` 文件即可)](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/大学物理（二）)
-- [概率论](https://gitee.com/o19859860010/csu_stte_files/tree/main/数学物理公共课/概率论)
-  - [交通院 T 班辅学第三弹——概率大题辅学笔记](https://gitee.com/o19859860010/csu_stte_files/blob/main/数学物理公共课/概率论/T班辅学第三弹——概率论辅学笔记.pdf)
+  - [高数知识点笔记（一）（二）（三）](https://github.com/dream-oyh/csu_stte_files/tree/main/数学物理公共课/高数笔记)
+- [大学物理（二）](https://github.com/dream-oyh/csu_stte_files/tree/main/数学物理公共课/大学物理（二）)
+  - [整本书公式整理](https://github.com/dream-oyh/csu_stte_files/tree/main/数学物理公共课/大学物理（二）/整本书公式整理)
+  - [大学物理（二）课件 - 周良玉老师](https://github.com/dream-oyh/csu_stte_files/tree/main/数学物理公共课/大学物理（二）/课件)
+  - [量子力学思维导图 (下载`.html` 文件即可)](https://github.com/dream-oyh/csu_stte_files/tree/main/数学物理公共课/大学物理（二）)
+- [概率论](https://github.com/dream-oyh/csu_stte_files/tree/main/数学物理公共课/概率论)
+  - [交通院 T 班辅学第三弹——概率大题辅学笔记](https://github.com/dream-oyh/csu_stte_files/blob/main/数学物理公共课/概率论/T班辅学第三弹——概率论辅学笔记.pdf)
 
-### [工图类](https://gitee.com/o19859860010/csu_stte_files/tree/main/工图类)
+### [工图类](https://github.com/dream-oyh/csu_stte_files/tree/main/工图类)
 
-- [画法几何习题答案](https://gitee.com/o19859860010/csu_stte_files/tree/main/工图类/画法几何作业解析)
-- [机械制图习题答案](https://gitee.com/o19859860010/csu_stte_files/tree/main/工图类/机械制图习题答案)
+- [画法几何习题答案](https://github.com/dream-oyh/csu_stte_files/tree/main/工图类/画法几何作业解析)
+- [机械制图习题答案](https://github.com/dream-oyh/csu_stte_files/tree/main/工图类/机械制图习题答案)
 
-### [电路类](https://gitee.com/o19859860010/csu_stte_files/tree/main/电路类)
+### [电路类](https://github.com/dream-oyh/csu_stte_files/tree/main/电路类)
 
-- [数字电子技术课程设计](https://gitee.com/o19859860010/csu_stte_files/tree/main/电路类/数字电子技术课程设计)
-- [模拟电子技术](https://gitee.com/o19859860010/csu_stte_files/tree/main/电路类/模拟电子技术)
-  - [模拟电子技术 - 基本放大电路笔记及讲义](https://gitee.com/o19859860010/csu_stte_files/tree/main/电路类/模拟电子技术/基本放大电路)
+- [数字电子技术课程设计](https://github.com/dream-oyh/csu_stte_files/tree/main/电路类/数字电子技术课程设计)
+- [模拟电子技术](https://github.com/dream-oyh/csu_stte_files/tree/main/电路类/模拟电子技术)
+  - [模拟电子技术 - 基本放大电路笔记及讲义](https://github.com/dream-oyh/csu_stte_files/tree/main/电路类/模拟电子技术/基本放大电路)
   - [模拟电子技术 - 基本放大电路辅学视频](https://www.bilibili.com/video/BV1Pc411A7sD)
-  - [模拟电子技术 - 模拟集成电路基础笔记及讲义](https://gitee.com/o19859860010/csu_stte_files/tree/main/电路类/模拟电子技术/模拟集成电路基础)
+  - [模拟电子技术 - 模拟集成电路基础笔记及讲义](https://github.com/dream-oyh/csu_stte_files/tree/main/电路类/模拟电子技术/模拟集成电路基础)
   - [模拟电子技术 - 模拟集成电路基础辅学视频](https://www.bilibili.com/video/BV1Rh4y1s7V9)
 
-### [机械类](https://gitee.com/o19859860010/csu_stte_files/tree/main/机械类)
+### [机械类](https://github.com/dream-oyh/csu_stte_files/tree/main/机械类)
 
-- [互换性](https://gitee.com/o19859860010/csu_stte_files/tree/main/机械类/互换性)
-- [控制工程基础](https://gitee.com/o19859860010/csu_stte_files/tree/main/机械类/控制工程基础)
+- [互换性](https://github.com/dream-oyh/csu_stte_files/tree/main/机械类/互换性)
+- [控制工程基础](https://github.com/dream-oyh/csu_stte_files/tree/main/机械类/控制工程基础)
   - [控制工程学期末课程设计 - 典型信号输入下一二阶系统响应仿真](https://github.com/dream-oyh/Control_Engneering_Twice_Work_Python)
-- [机械工程材料整本书知识点整理](https://gitee.com/o19859860010/csu_stte_files/tree/main/机械类/机械工程材料)
-- [机械设计基础](https://gitee.com/o19859860010/csu_stte_files/tree/main/机械类/机械设计基础)
-  - [机械设计基础实验报告](https://gitee.com/o19859860010/csu_stte_files/tree/main/机械类/机械设计基础/实验)
-  - [机械设计基础课程设计 - 减速器设计有关资料](https://gitee.com/o19859860010/csu_stte_files/tree/main/机械类/机械设计基础/课程设计)
+- [机械工程材料整本书知识点整理](https://github.com/dream-oyh/csu_stte_files/tree/main/机械类/机械工程材料)
+- [机械设计基础](https://github.com/dream-oyh/csu_stte_files/tree/main/机械类/机械设计基础)
+  - [机械设计基础实验报告](https://github.com/dream-oyh/csu_stte_files/tree/main/机械类/机械设计基础/实验)
+  - [机械设计基础课程设计 - 减速器设计有关资料](https://github.com/dream-oyh/csu_stte_files/tree/main/机械类/机械设计基础/课程设计)
     - [减速器总体设计讲解视频](https://www.bilibili.com/video/BV1ye411v7hQ)
     - [减速器总体设计 Python 辅助计算讲解视频](https://www.bilibili.com/video/BV1dg4y1S7v5)
     - [减速器轴的设计讲解视频](https://www.bilibili.com/video/BV1264y1P7tb)
     - [减速器轴的校核讲解视频](https://www.bilibili.com/video/BV1Ng4y1U7xz)
     - [减速器装配图的设计讲解视频](https://www.bilibili.com/video/BV1rU421d7AT)
 
-### [力学类](https://gitee.com/o19859860010/csu_stte_files/tree/main/力学类)
+### [力学类](https://github.com/dream-oyh/csu_stte_files/tree/main/力学类)
 
-- [材料力学](https://gitee.com/o19859860010/csu_stte_files/tree/main/力学类/材料力学)
+- [材料力学](https://github.com/dream-oyh/csu_stte_files/tree/main/力学类/材料力学)
   - [材料力学公式整理](https://mp.weixin.qq.com/s/jkG9NhbX2oJWOiYsTKb6-A)
-- [理论力学](https://gitee.com/o19859860010/csu_stte_files/tree/main/力学类/理论力学)
+- [理论力学](https://github.com/dream-oyh/csu_stte_files/tree/main/力学类/理论力学)
 - [流体力学实验报告]()
 
-### [政治类](https://gitee.com/o19859860010/csu_stte_files/tree/main/政治类/)
+### [政治类](https://github.com/dream-oyh/csu_stte_files/tree/main/政治类/)
 
-- [军事理论](https://gitee.com/o19859860010/csu_stte_files/tree/main/政治类/军事理论)
-- [思修](https://gitee.com/o19859860010/csu_stte_files/tree/main/政治类/思修)
-- [毛概 -2023 电子版教材](https://gitee.com/o19859860010/csu_stte_files/tree/main/政治类/毛概)
-- [近代史 - 整本书知识点整理](https://gitee.com/o19859860010/csu_stte_files/tree/main/政治类/近代史)
-- [马原 -2023 电子版教材](https://gitee.com/o19859860010/csu_stte_files/tree/main/政治类/马原)
+- [军事理论](https://github.com/dream-oyh/csu_stte_files/tree/main/政治类/军事理论)
+- [思修](https://github.com/dream-oyh/csu_stte_files/tree/main/政治类/思修)
+- [毛概 -2023 电子版教材](https://github.com/dream-oyh/csu_stte_files/tree/main/政治类/毛概)
+- [近代史 - 整本书知识点整理](https://github.com/dream-oyh/csu_stte_files/tree/main/政治类/近代史)
+- [马原 -2023 电子版教材](https://github.com/dream-oyh/csu_stte_files/tree/main/政治类/马原)
 
 ### 其他杂项
 
-- [MATLAB](https://gitee.com/o19859860010/csu_stte_files/tree/main/MATLAB)
-- [计算机图形学](https://gitee.com/o19859860010/csu_stte_files/blob/main/计算机图形学--笔记.pdf)
-  - [计算机图形学 - 大作业](https://gitee.com/o19859860010/csu_stte_files/releases/tag/1.0)
+- [MATLAB](https://github.com/dream-oyh/csu_stte_files/tree/main/MATLAB)
+- [计算机图形学](https://github.com/dream-oyh/csu_stte_files/blob/main/计算机图形学--笔记.pdf)
+  - [计算机图形学 - 大作业](https://github.com/dream-oyh/csu_stte_files/releases/tag/1.0)
 - [数据结构（全英）](/study/DataStructure/index.md)
 
 ### 学分之外
 
-- [LATEX 模板](https://gitee.com/o19859860010/csu_stte_files/tree/main/学分之外/LATEX模板)
+- [LATEX 模板](https://github.com/dream-oyh/csu_stte_files/tree/main/学分之外/LATEX模板)
 
 ## 贡献者（Contributors）
 
