@@ -1,0 +1,2441 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/index.html-h-M9zWe9.js","assets/plugin-vue_export-helper-DlAUqK2U.js","assets/intro.html-OG2FoPgL.js","assets/CPC.html-B1qYsFX9.js","assets/CSU.html-Cq5R2WU4.js","assets/baoyan.html-DKFHKPgV.js","assets/boardcast.html-CB3iZ7pc.js","assets/fool.html-Mfapkka1.js","assets/index.html-Ci6PfBcr.js","assets/pcdiy.html-KnOMZUsp.js","assets/read.html-YCdXA6Xi.js","assets/rss.html-Besemhf-.js","assets/software.html-70RNZOqB.js","assets/video_game.html-Cjac6UCL.js","assets/web.html-BOqvYSsP.js","assets/index.html-UNWUCHRQ.js","assets/log.html-DTUCFMa1.js","assets/spots.html-CKIuI-wL.js","assets/vuepress.html-I1382Hc-.js","assets/Linux.html-Bu4lmnuK.js","assets/aliyun.html-kXskqnGI.js","assets/cpp.html-DO56wzLq.js","assets/docker.html-BWcYTLp-.js","assets/git.html-CVP-4v1C.js","assets/github.html-3Wpz_8vH.js","assets/index.html-DAqq_Kex.js","assets/latex.html-DPl6k2C9.js","assets/markdown.html-Dqwfv4lw.js","assets/python.html-D1TuVA3h.js","assets/shell.html-CCcI3yyx.js","assets/v2ray.html-rmoKQZYN.js","assets/vim.html-Czfj0YOL.js","assets/vscode.html-CrJONlnO.js","assets/index.html-spgArBke.js","assets/index.html-GN7FGs-u.js","assets/youenjie.html-Dn9c96Rq.js","assets/literature_search.html-D_G65qCJ.js","assets/proxy.html-BT_dVH5C.js","assets/ros.html-8-yHqekX.js","assets/uuvsimulator.html-De8BCy6L.js","assets/2025.html-Ga3Oq-qq.js","assets/2024.html-2A0wWWvJ.js","assets/2025.html-BwzazA2G.js","assets/index.html-Dv9N4B4L.js","assets/stm32.html-CeZQRpUt.js","assets/LocalAugment.html-m-2gonKY.js","assets/Seaborn.html-B1P30aoN.js","assets/pandas.html-RGxuEQiS.js","assets/web_crawler.html--7PmDqiP.js","assets/websocket.html-DNtVEIhx.js","assets/keyboard_remap.html-D90oopxq.js","assets/pdf2docx.html-vMajBKTn.js","assets/regex.html-CVYXmDe5.js","assets/voc.html-D4LAKL3Z.js","assets/10.22.html-vN_x-ncz.js","assets/10.23.html-B1p5tx1w.js","assets/10.24.html-BVe6c6jL.js","assets/10.25.html-CSLVkQRu.js","assets/10.26.html-BGMMbiSl.js","assets/10.27.html-BPniMDPY.js","assets/10.28.html-CsIobwfr.js","assets/10.29.html-C0oWxQyl.js","assets/10.30.html-TCi1X0sX.js","assets/10.31.html-CEzvlNZa.js","assets/11.1.html-eV5hNjnD.js","assets/11.2.html-CbQg_nGD.js","assets/1.html-CJnDd9TC.js","assets/2.html-BH_AGIuE.js","assets/3.html-Cpo-sEqm.js","assets/4.html-DdlGvHZJ.js","assets/5.html-Ce2m-yo-.js","assets/6.html-UO_srNoq.js","assets/7.html-341aX1T7.js","assets/8.html-DgtvzkoS.js","assets/9.html-Dzvaoa6-.js","assets/community.html-CtdiOgpW.js","assets/growth.html-CJhHotb5.js","assets/index.html-n4hUcTZb.js","assets/life.html-DPakJqlr.js","assets/negative.html-CPSEKa56.js","assets/unarchived.html-CTejAiSZ.js","assets/1.html-1jzNDKVf.js","assets/2.html-BEN068tR.js","assets/3.html-DC1yraAv.js","assets/4.html-CZIuz05Y.js","assets/5.html-dvln7mx5.js","assets/6.html-BprinDye.js","assets/7.html-KZiSW2kh.js","assets/8.html-iZe5JyoB.js","assets/9.html-DQQ5SBNB.js","assets/array.html-8KcyFWxF.js","assets/hashtable.html-COAGLCtI.js","assets/index.html-BTfjcmRb.js","assets/linkedlist.html-ZshAEg0y.js","assets/string.html-SxscO4kV.js","assets/HashTable.html-BunrokNF.js","assets/Heap.html-BfsvoEIF.js","assets/graph.html-irNHmkCp.js","assets/index.html-kqZL92ez.js","assets/linked_list.html-dhdaonoI.js","assets/queue.html-YAs4EFiS.js","assets/stack.html-D-jfkobL.js","assets/tree.html-BQcIU0VV.js","assets/ControlEngineering.html-Dt8_-oqo.js","assets/ObjectDetection.html-YJdmdv0n.js","assets/PhysNet.html-69HGtOrC.js","assets/1pytorch.html-CLahzb4-.js","assets/2.1linear_regression.html-B42-J1vi.js","assets/2.2FashionMNIST.html-lmEzsxa6.js","assets/2.3softmax.html-hHo454cg.js","assets/2.4MLP.html--AmYEeUn.js","assets/3.1Deeplearning_basic.html-D7LHvDkY.js","assets/4.1convolutional_nn_basic.html-YSNOamhZ.js","assets/4.2LeNet.html-BNKMzxpD.js","assets/4.3AlexNet.html-CFubU_ee.js","assets/4.4VGG.html-CUZEFSHm.js","assets/4.5NiN.html-Cb6jiM0p.js","assets/4.6GoogleNet.html-DYBAMVg3.js","assets/img.html-B3Kx4SBc.js","assets/index.html-lQpSOriB.js","assets/404.html-DK644Wki.js","assets/index.html-DL_quCZW.js","assets/index.html-DuTesFTu.js","assets/index.html-kvHSixOM.js","assets/index.html-CDSNToLd.js","assets/index.html-BHDDC1jd.js","assets/index.html-CTZcRLlo.js","assets/index.html-h3Sl1TH2.js","assets/index.html-DSj08uXn.js","assets/index.html-CSVLTHcN.js","assets/index.html-BdzhJteI.js","assets/index.html-CiwTY5OU.js","assets/index.html-BZZOwxoh.js","assets/index.html-DvaOAkZ4.js","assets/index.html-BHc4ZYca.js","assets/index.html-DX3KfTUq.js","assets/index.html-Bnm5c67t.js","assets/index.html-Djor_DgL.js","assets/index.html-exYAaPLa.js","assets/index.html-Bgr8U1ru.js","assets/index.html-Bz9jG-DK.js","assets/index.html-D4fzmld6.js","assets/index.html-nVDgep_S.js","assets/index.html-D_uHPety.js","assets/index.html-Z0UafESi.js","assets/index.html-90jXswgw.js","assets/index.html-Crvcb83b.js","assets/index.html-s2wI9ok0.js","assets/index.html-Bsv-CuKj.js","assets/index.html-C-7f6GvW.js","assets/index.html-BF-EUbCC.js","assets/index.html-D4OY87zJ.js","assets/index.html-D436tnRj.js","assets/index.html-C9RZfs9a.js","assets/index.html-DK0QXWXv.js","assets/index.html-Bk0kTK0o.js","assets/index.html-_ANKX24K.js","assets/index.html-0l7Hjpng.js","assets/index.html-CP4u_CWM.js","assets/index.html-CeuuqcU5.js"])))=>i.map(i=>d[i]);
+var vp=Object.defineProperty;var yp=(e,t,n)=>t in e?vp(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n;var tl=(e,t,n)=>yp(e,typeof t!="symbol"?t+"":t,n);/**
+* @vue/shared v3.5.13
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**//*! #__NO_SIDE_EFFECTS__ */function di(e){const t=Object.create(null);for(const n of e.split(","))t[n]=1;return n=>n in t}const Ce={},qn=[],jt=()=>{},bp=()=>!1,Nr=e=>e.charCodeAt(0)===111&&e.charCodeAt(1)===110&&(e.charCodeAt(2)>122||e.charCodeAt(2)<97),ui=e=>e.startsWith("onUpdate:"),$e=Object.assign,pi=(e,t)=>{const n=e.indexOf(t);n>-1&&e.splice(n,1)},kp=Object.prototype.hasOwnProperty,ye=(e,t)=>kp.call(e,t),ae=Array.isArray,vr=e=>Ma(e)==="[object Map]",xp=e=>Ma(e)==="[object Set]",re=e=>typeof e=="function",Me=e=>typeof e=="string",lr=e=>typeof e=="symbol",Pe=e=>e!==null&&typeof e=="object",Wo=e=>(Pe(e)||re(e))&&re(e.then)&&re(e.catch),_p=Object.prototype.toString,Ma=e=>_p.call(e),wp=e=>Ma(e).slice(8,-1),Ap=e=>Ma(e)==="[object Object]",hi=e=>Me(e)&&e!=="NaN"&&e[0]!=="-"&&""+parseInt(e,10)===e,Wn=di(",key,ref,ref_for,ref_key,onVnodeBeforeMount,onVnodeMounted,onVnodeBeforeUpdate,onVnodeUpdated,onVnodeBeforeUnmount,onVnodeUnmounted"),ja=e=>{const t=Object.create(null);return n=>t[n]||(t[n]=e(n))},Ep=/-(\w)/g,tt=ja(e=>e.replace(Ep,(t,n)=>n?n.toUpperCase():"")),Tp=/\B([A-Z])/g,Ln=ja(e=>e.replace(Tp,"-$1").toLowerCase()),zr=ja(e=>e.charAt(0).toUpperCase()+e.slice(1)),nl=ja(e=>e?`on${zr(e)}`:""),on=(e,t)=>!Object.is(e,t),rl=(e,...t)=>{for(let n=0;n<e.length;n++)e[n](...t)},Go=(e,t,n,r=!1)=>{Object.defineProperty(e,t,{configurable:!0,enumerable:!1,writable:r,value:n})},Cp=e=>{const t=parseFloat(e);return isNaN(t)?e:t},Sp=e=>{const t=Me(e)?Number(e):NaN;return isNaN(t)?e:t};let ps;const Va=()=>ps||(ps=typeof globalThis<"u"?globalThis:typeof self<"u"?self:typeof window<"u"?window:typeof global<"u"?global:{});function fi(e){if(ae(e)){const t={};for(let n=0;n<e.length;n++){const r=e[n],a=Me(r)?Bp(r):fi(r);if(a)for(const l in a)t[l]=a[l]}return t}else if(Me(e)||Pe(e))return e}const Dp=/;(?![^(]*\))/g,Lp=/:([^]+)/,Pp=/\/\*[^]*?\*\//g;function Bp(e){const t={};return e.replace(Pp,"").split(Dp).forEach(n=>{if(n){const r=n.split(Lp);r.length>1&&(t[r[0].trim()]=r[1].trim())}}),t}function gi(e){let t="";if(Me(e))t=e;else if(ae(e))for(let n=0;n<e.length;n++){const r=gi(e[n]);r&&(t+=r+" ")}else if(Pe(e))for(const n in e)e[n]&&(t+=n+" ");return t.trim()}const Ip="itemscope,allowfullscreen,formnovalidate,ismap,nomodule,novalidate,readonly",Op=di(Ip);function Uo(e){return!!e||e===""}/**
+* @vue/reactivity v3.5.13
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/let Ke;class Rp{constructor(t=!1){this.detached=t,this._active=!0,this.effects=[],this.cleanups=[],this._isPaused=!1,this.parent=Ke,!t&&Ke&&(this.index=(Ke.scopes||(Ke.scopes=[])).push(this)-1)}get active(){return this._active}pause(){if(this._active){this._isPaused=!0;let t,n;if(this.scopes)for(t=0,n=this.scopes.length;t<n;t++)this.scopes[t].pause();for(t=0,n=this.effects.length;t<n;t++)this.effects[t].pause()}}resume(){if(this._active&&this._isPaused){this._isPaused=!1;let t,n;if(this.scopes)for(t=0,n=this.scopes.length;t<n;t++)this.scopes[t].resume();for(t=0,n=this.effects.length;t<n;t++)this.effects[t].resume()}}run(t){if(this._active){const n=Ke;try{return Ke=this,t()}finally{Ke=n}}}on(){Ke=this}off(){Ke=this.parent}stop(t){if(this._active){this._active=!1;let n,r;for(n=0,r=this.effects.length;n<r;n++)this.effects[n].stop();for(this.effects.length=0,n=0,r=this.cleanups.length;n<r;n++)this.cleanups[n]();if(this.cleanups.length=0,this.scopes){for(n=0,r=this.scopes.length;n<r;n++)this.scopes[n].stop(!0);this.scopes.length=0}if(!this.detached&&this.parent&&!t){const a=this.parent.scopes.pop();a&&a!==this&&(this.parent.scopes[this.index]=a,a.index=this.index)}this.parent=void 0}}}function Ko(){return Ke}function Fp(e,t=!1){Ke&&Ke.cleanups.push(e)}let Te;const al=new WeakSet;class Jo{constructor(t){this.fn=t,this.deps=void 0,this.depsTail=void 0,this.flags=5,this.next=void 0,this.cleanup=void 0,this.scheduler=void 0,Ke&&Ke.active&&Ke.effects.push(this)}pause(){this.flags|=64}resume(){this.flags&64&&(this.flags&=-65,al.has(this)&&(al.delete(this),this.trigger()))}notify(){this.flags&2&&!(this.flags&32)||this.flags&8||Qo(this)}run(){if(!(this.flags&1))return this.fn();this.flags|=2,hs(this),Xo(this);const t=Te,n=wt;Te=this,wt=!0;try{return this.fn()}finally{Zo(this),Te=t,wt=n,this.flags&=-3}}stop(){if(this.flags&1){for(let t=this.deps;t;t=t.nextDep)yi(t);this.deps=this.depsTail=void 0,hs(this),this.onStop&&this.onStop(),this.flags&=-2}}trigger(){this.flags&64?al.add(this):this.scheduler?this.scheduler():this.runIfDirty()}runIfDirty(){Ol(this)&&this.run()}get dirty(){return Ol(this)}}let Yo=0,yr,br;function Qo(e,t=!1){if(e.flags|=8,t){e.next=br,br=e;return}e.next=yr,yr=e}function mi(){Yo++}function vi(){if(--Yo>0)return;if(br){let t=br;for(br=void 0;t;){const n=t.next;t.next=void 0,t.flags&=-9,t=n}}let e;for(;yr;){let t=yr;for(yr=void 0;t;){const n=t.next;if(t.next=void 0,t.flags&=-9,t.flags&1)try{t.trigger()}catch(r){e||(e=r)}t=n}}if(e)throw e}function Xo(e){for(let t=e.deps;t;t=t.nextDep)t.version=-1,t.prevActiveLink=t.dep.activeLink,t.dep.activeLink=t}function Zo(e){let t,n=e.depsTail,r=n;for(;r;){const a=r.prevDep;r.version===-1?(r===n&&(n=a),yi(r),$p(r)):t=r,r.dep.activeLink=r.prevActiveLink,r.prevActiveLink=void 0,r=a}e.deps=t,e.depsTail=n}function Ol(e){for(let t=e.deps;t;t=t.nextDep)if(t.dep.version!==t.version||t.dep.computed&&(ec(t.dep.computed)||t.dep.version!==t.version))return!0;return!!e._dirty}function ec(e){if(e.flags&4&&!(e.flags&16)||(e.flags&=-17,e.globalVersion===Cr))return;e.globalVersion=Cr;const t=e.dep;if(e.flags|=2,t.version>0&&!e.isSSR&&e.deps&&!Ol(e)){e.flags&=-3;return}const n=Te,r=wt;Te=e,wt=!0;try{Xo(e);const a=e.fn(e._value);(t.version===0||on(a,e._value))&&(e._value=a,t.version++)}catch(a){throw t.version++,a}finally{Te=n,wt=r,Zo(e),e.flags&=-3}}function yi(e,t=!1){const{dep:n,prevSub:r,nextSub:a}=e;if(r&&(r.nextSub=a,e.prevSub=void 0),a&&(a.prevSub=r,e.nextSub=void 0),n.subs===e&&(n.subs=r,!r&&n.computed)){n.computed.flags&=-5;for(let l=n.computed.deps;l;l=l.nextDep)yi(l,!0)}!t&&!--n.sc&&n.map&&n.map.delete(n.key)}function $p(e){const{prevDep:t,nextDep:n}=e;t&&(t.nextDep=n,e.prevDep=void 0),n&&(n.prevDep=t,e.nextDep=void 0)}let wt=!0;const tc=[];function dn(){tc.push(wt),wt=!1}function un(){const e=tc.pop();wt=e===void 0?!0:e}function hs(e){const{cleanup:t}=e;if(e.cleanup=void 0,t){const n=Te;Te=void 0;try{t()}finally{Te=n}}}let Cr=0;class Mp{constructor(t,n){this.sub=t,this.dep=n,this.version=n.version,this.nextDep=this.prevDep=this.nextSub=this.prevSub=this.prevActiveLink=void 0}}class Na{constructor(t){this.computed=t,this.version=0,this.activeLink=void 0,this.subs=void 0,this.map=void 0,this.key=void 0,this.sc=0}track(t){if(!Te||!wt||Te===this.computed)return;let n=this.activeLink;if(n===void 0||n.sub!==Te)n=this.activeLink=new Mp(Te,this),Te.deps?(n.prevDep=Te.depsTail,Te.depsTail.nextDep=n,Te.depsTail=n):Te.deps=Te.depsTail=n,nc(n);else if(n.version===-1&&(n.version=this.version,n.nextDep)){const r=n.nextDep;r.prevDep=n.prevDep,n.prevDep&&(n.prevDep.nextDep=r),n.prevDep=Te.depsTail,n.nextDep=void 0,Te.depsTail.nextDep=n,Te.depsTail=n,Te.deps===n&&(Te.deps=r)}return n}trigger(t){this.version++,Cr++,this.notify(t)}notify(t){mi();try{for(let n=this.subs;n;n=n.prevSub)n.sub.notify()&&n.sub.dep.notify()}finally{vi()}}}function nc(e){if(e.dep.sc++,e.sub.flags&4){const t=e.dep.computed;if(t&&!e.dep.subs){t.flags|=20;for(let r=t.deps;r;r=r.nextDep)nc(r)}const n=e.dep.subs;n!==e&&(e.prevSub=n,n&&(n.nextSub=e)),e.dep.subs=e}}const Sa=new WeakMap,An=Symbol(""),Rl=Symbol(""),Sr=Symbol("");function qe(e,t,n){if(wt&&Te){let r=Sa.get(e);r||Sa.set(e,r=new Map);let a=r.get(n);a||(r.set(n,a=new Na),a.map=r,a.key=n),a.track()}}function Ut(e,t,n,r,a,l){const i=Sa.get(e);if(!i){Cr++;return}const o=c=>{c&&c.trigger()};if(mi(),t==="clear")i.forEach(o);else{const c=ae(e),d=c&&hi(n);if(c&&n==="length"){const u=Number(r);i.forEach((p,h)=>{(h==="length"||h===Sr||!lr(h)&&h>=u)&&o(p)})}else switch((n!==void 0||i.has(void 0))&&o(i.get(n)),d&&o(i.get(Sr)),t){case"add":c?d&&o(i.get("length")):(o(i.get(An)),vr(e)&&o(i.get(Rl)));break;case"delete":c||(o(i.get(An)),vr(e)&&o(i.get(Rl)));break;case"set":vr(e)&&o(i.get(An));break}}vi()}function jp(e,t){const n=Sa.get(e);return n&&n.get(t)}function Rn(e){const t=de(e);return t===e?t:(qe(t,"iterate",Sr),At(e)?t:t.map(Je))}function bi(e){return qe(e=de(e),"iterate",Sr),e}const Vp={__proto__:null,[Symbol.iterator](){return ll(this,Symbol.iterator,Je)},concat(...e){return Rn(this).concat(...e.map(t=>ae(t)?Rn(t):t))},entries(){return ll(this,"entries",e=>(e[1]=Je(e[1]),e))},every(e,t){return zt(this,"every",e,t,void 0,arguments)},filter(e,t){return zt(this,"filter",e,t,n=>n.map(Je),arguments)},find(e,t){return zt(this,"find",e,t,Je,arguments)},findIndex(e,t){return zt(this,"findIndex",e,t,void 0,arguments)},findLast(e,t){return zt(this,"findLast",e,t,Je,arguments)},findLastIndex(e,t){return zt(this,"findLastIndex",e,t,void 0,arguments)},forEach(e,t){return zt(this,"forEach",e,t,void 0,arguments)},includes(...e){return il(this,"includes",e)},indexOf(...e){return il(this,"indexOf",e)},join(e){return Rn(this).join(e)},lastIndexOf(...e){return il(this,"lastIndexOf",e)},map(e,t){return zt(this,"map",e,t,void 0,arguments)},pop(){return ur(this,"pop")},push(...e){return ur(this,"push",e)},reduce(e,...t){return fs(this,"reduce",e,t)},reduceRight(e,...t){return fs(this,"reduceRight",e,t)},shift(){return ur(this,"shift")},some(e,t){return zt(this,"some",e,t,void 0,arguments)},splice(...e){return ur(this,"splice",e)},toReversed(){return Rn(this).toReversed()},toSorted(e){return Rn(this).toSorted(e)},toSpliced(...e){return Rn(this).toSpliced(...e)},unshift(...e){return ur(this,"unshift",e)},values(){return ll(this,"values",Je)}};function ll(e,t,n){const r=bi(e),a=r[t]();return r!==e&&!At(e)&&(a._next=a.next,a.next=()=>{const l=a._next();return l.value&&(l.value=n(l.value)),l}),a}const Np=Array.prototype;function zt(e,t,n,r,a,l){const i=bi(e),o=i!==e&&!At(e),c=i[t];if(c!==Np[t]){const p=c.apply(e,l);return o?Je(p):p}let d=n;i!==e&&(o?d=function(p,h){return n.call(this,Je(p),h,e)}:n.length>2&&(d=function(p,h){return n.call(this,p,h,e)}));const u=c.call(i,d,r);return o&&a?a(u):u}function fs(e,t,n,r){const a=bi(e);let l=n;return a!==e&&(At(e)?n.length>3&&(l=function(i,o,c){return n.call(this,i,o,c,e)}):l=function(i,o,c){return n.call(this,i,Je(o),c,e)}),a[t](l,...r)}function il(e,t,n){const r=de(e);qe(r,"iterate",Sr);const a=r[t](...n);return(a===-1||a===!1)&&_i(n[0])?(n[0]=de(n[0]),r[t](...n)):a}function ur(e,t,n=[]){dn(),mi();const r=de(e)[t].apply(e,n);return vi(),un(),r}const zp=di("__proto__,__v_isRef,__isVue"),rc=new Set(Object.getOwnPropertyNames(Symbol).filter(e=>e!=="arguments"&&e!=="caller").map(e=>Symbol[e]).filter(lr));function Hp(e){lr(e)||(e=String(e));const t=de(this);return qe(t,"has",e),t.hasOwnProperty(e)}class ac{constructor(t=!1,n=!1){this._isReadonly=t,this._isShallow=n}get(t,n,r){if(n==="__v_skip")return t.__v_skip;const a=this._isReadonly,l=this._isShallow;if(n==="__v_isReactive")return!a;if(n==="__v_isReadonly")return a;if(n==="__v_isShallow")return l;if(n==="__v_raw")return r===(a?l?Zp:oc:l?sc:ic).get(t)||Object.getPrototypeOf(t)===Object.getPrototypeOf(r)?t:void 0;const i=ae(t);if(!a){let c;if(i&&(c=Vp[n]))return c;if(n==="hasOwnProperty")return Hp}const o=Reflect.get(t,n,Oe(t)?t:r);return(lr(n)?rc.has(n):zp(n))||(a||qe(t,"get",n),l)?o:Oe(o)?i&&hi(n)?o:o.value:Pe(o)?a?Dt(o):Cn(o):o}}class lc extends ac{constructor(t=!1){super(!1,t)}set(t,n,r,a){let l=t[n];if(!this._isShallow){const c=Sn(l);if(!At(r)&&!Sn(r)&&(l=de(l),r=de(r)),!ae(t)&&Oe(l)&&!Oe(r))return c?!1:(l.value=r,!0)}const i=ae(t)&&hi(n)?Number(n)<t.length:ye(t,n),o=Reflect.set(t,n,r,Oe(t)?t:a);return t===de(a)&&(i?on(r,l)&&Ut(t,"set",n,r):Ut(t,"add",n,r)),o}deleteProperty(t,n){const r=ye(t,n);t[n];const a=Reflect.deleteProperty(t,n);return a&&r&&Ut(t,"delete",n,void 0),a}has(t,n){const r=Reflect.has(t,n);return(!lr(n)||!rc.has(n))&&qe(t,"has",n),r}ownKeys(t){return qe(t,"iterate",ae(t)?"length":An),Reflect.ownKeys(t)}}class qp extends ac{constructor(t=!1){super(!0,t)}set(t,n){return!0}deleteProperty(t,n){return!0}}const Wp=new lc,Gp=new qp,Up=new lc(!0);const Fl=e=>e,da=e=>Reflect.getPrototypeOf(e);function Kp(e,t,n){return function(...r){const a=this.__v_raw,l=de(a),i=vr(l),o=e==="entries"||e===Symbol.iterator&&i,c=e==="keys"&&i,d=a[e](...r),u=n?Fl:t?$l:Je;return!t&&qe(l,"iterate",c?Rl:An),{next(){const{value:p,done:h}=d.next();return h?{value:p,done:h}:{value:o?[u(p[0]),u(p[1])]:u(p),done:h}},[Symbol.iterator](){return this}}}}function ua(e){return function(...t){return e==="delete"?!1:e==="clear"?void 0:this}}function Jp(e,t){const n={get(a){const l=this.__v_raw,i=de(l),o=de(a);e||(on(a,o)&&qe(i,"get",a),qe(i,"get",o));const{has:c}=da(i),d=t?Fl:e?$l:Je;if(c.call(i,a))return d(l.get(a));if(c.call(i,o))return d(l.get(o));l!==i&&l.get(a)},get size(){const a=this.__v_raw;return!e&&qe(de(a),"iterate",An),Reflect.get(a,"size",a)},has(a){const l=this.__v_raw,i=de(l),o=de(a);return e||(on(a,o)&&qe(i,"has",a),qe(i,"has",o)),a===o?l.has(a):l.has(a)||l.has(o)},forEach(a,l){const i=this,o=i.__v_raw,c=de(o),d=t?Fl:e?$l:Je;return!e&&qe(c,"iterate",An),o.forEach((u,p)=>a.call(l,d(u),d(p),i))}};return $e(n,e?{add:ua("add"),set:ua("set"),delete:ua("delete"),clear:ua("clear")}:{add(a){!t&&!At(a)&&!Sn(a)&&(a=de(a));const l=de(this);return da(l).has.call(l,a)||(l.add(a),Ut(l,"add",a,a)),this},set(a,l){!t&&!At(l)&&!Sn(l)&&(l=de(l));const i=de(this),{has:o,get:c}=da(i);let d=o.call(i,a);d||(a=de(a),d=o.call(i,a));const u=c.call(i,a);return i.set(a,l),d?on(l,u)&&Ut(i,"set",a,l):Ut(i,"add",a,l),this},delete(a){const l=de(this),{has:i,get:o}=da(l);let c=i.call(l,a);c||(a=de(a),c=i.call(l,a)),o&&o.call(l,a);const d=l.delete(a);return c&&Ut(l,"delete",a,void 0),d},clear(){const a=de(this),l=a.size!==0,i=a.clear();return l&&Ut(a,"clear",void 0,void 0),i}}),["keys","values","entries",Symbol.iterator].forEach(a=>{n[a]=Kp(a,e,t)}),n}function ki(e,t){const n=Jp(e,t);return(r,a,l)=>a==="__v_isReactive"?!e:a==="__v_isReadonly"?e:a==="__v_raw"?r:Reflect.get(ye(n,a)&&a in r?n:r,a,l)}const Yp={get:ki(!1,!1)},Qp={get:ki(!1,!0)},Xp={get:ki(!0,!1)};const ic=new WeakMap,sc=new WeakMap,oc=new WeakMap,Zp=new WeakMap;function eh(e){switch(e){case"Object":case"Array":return 1;case"Map":case"Set":case"WeakMap":case"WeakSet":return 2;default:return 0}}function th(e){return e.__v_skip||!Object.isExtensible(e)?0:eh(wp(e))}function Cn(e){return Sn(e)?e:xi(e,!1,Wp,Yp,ic)}function cc(e){return xi(e,!1,Up,Qp,sc)}function Dt(e){return xi(e,!0,Gp,Xp,oc)}function xi(e,t,n,r,a){if(!Pe(e)||e.__v_raw&&!(t&&e.__v_isReactive))return e;const l=a.get(e);if(l)return l;const i=th(e);if(i===0)return e;const o=new Proxy(e,i===2?r:n);return a.set(e,o),o}function Gn(e){return Sn(e)?Gn(e.__v_raw):!!(e&&e.__v_isReactive)}function Sn(e){return!!(e&&e.__v_isReadonly)}function At(e){return!!(e&&e.__v_isShallow)}function _i(e){return e?!!e.__v_raw:!1}function de(e){const t=e&&e.__v_raw;return t?de(t):e}function nh(e){return!ye(e,"__v_skip")&&Object.isExtensible(e)&&Go(e,"__v_skip",!0),e}const Je=e=>Pe(e)?Cn(e):e,$l=e=>Pe(e)?Dt(e):e;function Oe(e){return e?e.__v_isRef===!0:!1}function Q(e){return dc(e,!1)}function ee(e){return dc(e,!0)}function dc(e,t){return Oe(e)?e:new rh(e,t)}class rh{constructor(t,n){this.dep=new Na,this.__v_isRef=!0,this.__v_isShallow=!1,this._rawValue=n?t:de(t),this._value=n?t:Je(t),this.__v_isShallow=n}get value(){return this.dep.track(),this._value}set value(t){const n=this._rawValue,r=this.__v_isShallow||At(t)||Sn(t);t=r?t:de(t),on(t,n)&&(this._rawValue=t,this._value=r?t:Je(t),this.dep.trigger())}}function vt(e){return Oe(e)?e.value:e}function ue(e){return re(e)?e():vt(e)}const ah={get:(e,t,n)=>t==="__v_raw"?e:vt(Reflect.get(e,t,n)),set:(e,t,n,r)=>{const a=e[t];return Oe(a)&&!Oe(n)?(a.value=n,!0):Reflect.set(e,t,n,r)}};function uc(e){return Gn(e)?e:new Proxy(e,ah)}class lh{constructor(t){this.__v_isRef=!0,this._value=void 0;const n=this.dep=new Na,{get:r,set:a}=t(n.track.bind(n),n.trigger.bind(n));this._get=r,this._set=a}get value(){return this._value=this._get()}set value(t){this._set(t)}}function pc(e){return new lh(e)}class ih{constructor(t,n,r){this._object=t,this._key=n,this._defaultValue=r,this.__v_isRef=!0,this._value=void 0}get value(){const t=this._object[this._key];return this._value=t===void 0?this._defaultValue:t}set value(t){this._object[this._key]=t}get dep(){return jp(de(this._object),this._key)}}class sh{constructor(t){this._getter=t,this.__v_isRef=!0,this.__v_isReadonly=!0,this._value=void 0}get value(){return this._value=this._getter()}}function Pn(e,t,n){return Oe(e)?e:re(e)?new sh(e):Pe(e)&&arguments.length>1?oh(e,t,n):Q(e)}function oh(e,t,n){const r=e[t];return Oe(r)?r:new ih(e,t,n)}class ch{constructor(t,n,r){this.fn=t,this.setter=n,this._value=void 0,this.dep=new Na(this),this.__v_isRef=!0,this.deps=void 0,this.depsTail=void 0,this.flags=16,this.globalVersion=Cr-1,this.next=void 0,this.effect=this,this.__v_isReadonly=!n,this.isSSR=r}notify(){if(this.flags|=16,!(this.flags&8)&&Te!==this)return Qo(this,!0),!0}get value(){const t=this.dep.track();return ec(this),t&&(t.version=this.dep.version),this._value}set value(t){this.setter&&this.setter(t)}}function dh(e,t,n=!1){let r,a;return re(e)?r=e:(r=e.get,a=e.set),new ch(r,a,n)}const pa={},Da=new WeakMap;let xn;function uh(e,t=!1,n=xn){if(n){let r=Da.get(n);r||Da.set(n,r=[]),r.push(e)}}function ph(e,t,n=Ce){const{immediate:r,deep:a,once:l,scheduler:i,augmentJob:o,call:c}=n,d=E=>a?E:At(E)||a===!1||a===0?sn(E,1):sn(E);let u,p,h,f,m=!1,y=!1;if(Oe(e)?(p=()=>e.value,m=At(e)):Gn(e)?(p=()=>d(e),m=!0):ae(e)?(y=!0,m=e.some(E=>Gn(E)||At(E)),p=()=>e.map(E=>{if(Oe(E))return E.value;if(Gn(E))return d(E);if(re(E))return c?c(E,2):E()})):re(e)?t?p=c?()=>c(e,2):e:p=()=>{if(h){dn();try{h()}finally{un()}}const E=xn;xn=u;try{return c?c(e,3,[f]):e(f)}finally{xn=E}}:p=jt,t&&a){const E=p,B=a===!0?1/0:a;p=()=>sn(E(),B)}const k=Ko(),w=()=>{u.stop(),k&&k.active&&pi(k.effects,u)};if(l&&t){const E=t;t=(...B)=>{E(...B),w()}}let x=y?new Array(e.length).fill(pa):pa;const v=E=>{if(!(!(u.flags&1)||!u.dirty&&!E))if(t){const B=u.run();if(a||m||(y?B.some((q,L)=>on(q,x[L])):on(B,x))){h&&h();const q=xn;xn=u;try{const L=[B,x===pa?void 0:y&&x[0]===pa?[]:x,f];c?c(t,3,L):t(...L),x=B}finally{xn=q}}}else u.run()};return o&&o(v),u=new Jo(p),u.scheduler=i?()=>i(v,!1):v,f=E=>uh(E,!1,u),h=u.onStop=()=>{const E=Da.get(u);if(E){if(c)c(E,4);else for(const B of E)B();Da.delete(u)}},t?r?v(!0):x=u.run():i?i(v.bind(null,!0),!0):u.run(),w.pause=u.pause.bind(u),w.resume=u.resume.bind(u),w.stop=w,w}function sn(e,t=1/0,n){if(t<=0||!Pe(e)||e.__v_skip||(n=n||new Set,n.has(e)))return e;if(n.add(e),t--,Oe(e))sn(e.value,t,n);else if(ae(e))for(let r=0;r<e.length;r++)sn(e[r],t,n);else if(xp(e)||vr(e))e.forEach(r=>{sn(r,t,n)});else if(Ap(e)){for(const r in e)sn(e[r],t,n);for(const r of Object.getOwnPropertySymbols(e))Object.prototype.propertyIsEnumerable.call(e,r)&&sn(e[r],t,n)}return e}/**
+* @vue/runtime-core v3.5.13
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/function Hr(e,t,n,r){try{return r?e(...r):e()}catch(a){qr(a,t,n)}}function Tt(e,t,n,r){if(re(e)){const a=Hr(e,t,n,r);return a&&Wo(a)&&a.catch(l=>{qr(l,t,n)}),a}if(ae(e)){const a=[];for(let l=0;l<e.length;l++)a.push(Tt(e[l],t,n,r));return a}}function qr(e,t,n,r=!0){const a=t?t.vnode:null,{errorHandler:l,throwUnhandledErrorInProduction:i}=t&&t.appContext.config||Ce;if(t){let o=t.parent;const c=t.proxy,d=`https://vuejs.org/error-reference/#runtime-${n}`;for(;o;){const u=o.ec;if(u){for(let p=0;p<u.length;p++)if(u[p](e,c,d)===!1)return}o=o.parent}if(l){dn(),Hr(l,null,10,[e,c,d]),un();return}}hh(e,n,a,r,i)}function hh(e,t,n,r=!0,a=!1){if(a)throw e;console.error(e)}const Ye=[];let $t=-1;const Un=[];let nn=null,jn=0;const hc=Promise.resolve();let La=null;function pn(e){const t=La||hc;return e?t.then(this?e.bind(this):e):t}function fh(e){let t=$t+1,n=Ye.length;for(;t<n;){const r=t+n>>>1,a=Ye[r],l=Dr(a);l<e||l===e&&a.flags&2?t=r+1:n=r}return t}function wi(e){if(!(e.flags&1)){const t=Dr(e),n=Ye[Ye.length-1];!n||!(e.flags&2)&&t>=Dr(n)?Ye.push(e):Ye.splice(fh(t),0,e),e.flags|=1,fc()}}function fc(){La||(La=hc.then(gc))}function gh(e){ae(e)?Un.push(...e):nn&&e.id===-1?nn.splice(jn+1,0,e):e.flags&1||(Un.push(e),e.flags|=1),fc()}function gs(e,t,n=$t+1){for(;n<Ye.length;n++){const r=Ye[n];if(r&&r.flags&2){if(e&&r.id!==e.uid)continue;Ye.splice(n,1),n--,r.flags&4&&(r.flags&=-2),r(),r.flags&4||(r.flags&=-2)}}}function Pa(e){if(Un.length){const t=[...new Set(Un)].sort((n,r)=>Dr(n)-Dr(r));if(Un.length=0,nn){nn.push(...t);return}for(nn=t,jn=0;jn<nn.length;jn++){const n=nn[jn];n.flags&4&&(n.flags&=-2),n.flags&8||n(),n.flags&=-2}nn=null,jn=0}}const Dr=e=>e.id==null?e.flags&2?-1:1/0:e.id;function gc(e){try{for($t=0;$t<Ye.length;$t++){const t=Ye[$t];t&&!(t.flags&8)&&(t.flags&4&&(t.flags&=-2),Hr(t,t.i,t.i?15:14),t.flags&4||(t.flags&=-2))}}finally{for(;$t<Ye.length;$t++){const t=Ye[$t];t&&(t.flags&=-2)}$t=-1,Ye.length=0,Pa(),La=null,(Ye.length||Un.length)&&gc()}}let ct=null,mc=null;function Ba(e){const t=ct;return ct=e,mc=e&&e.type.__scopeId||null,t}function mh(e,t=ct,n){if(!t||e._n)return e;const r=(...a)=>{r._d&&Cs(-1);const l=Ba(t);let i;try{i=e(...a)}finally{Ba(l),r._d&&Cs(1)}return i};return r._n=!0,r._c=!0,r._d=!0,r}function Mt(e,t,n,r){const a=e.dirs,l=t&&t.dirs;for(let i=0;i<a.length;i++){const o=a[i];l&&(o.oldValue=l[i].value);let c=o.dir[r];c&&(dn(),Tt(c,n,8,[e.el,o,e,t]),un())}}const vh=Symbol("_vte"),vc=e=>e.__isTeleport,rn=Symbol("_leaveCb"),ha=Symbol("_enterCb");function yc(){const e={isMounted:!1,isLeaving:!1,isUnmounting:!1,leavingVNodes:new Map};return oe(()=>{e.isMounted=!0}),Ti(()=>{e.isUnmounting=!0}),e}const ht=[Function,Array],bc={mode:String,appear:Boolean,persisted:Boolean,onBeforeEnter:ht,onEnter:ht,onAfterEnter:ht,onEnterCancelled:ht,onBeforeLeave:ht,onLeave:ht,onAfterLeave:ht,onLeaveCancelled:ht,onBeforeAppear:ht,onAppear:ht,onAfterAppear:ht,onAppearCancelled:ht},kc=e=>{const t=e.subTree;return t.component?kc(t.component):t},yh={name:"BaseTransition",props:bc,setup(e,{slots:t}){const n=ir(),r=yc();return()=>{const a=t.default&&Ai(t.default(),!0);if(!a||!a.length)return;const l=xc(a),i=de(e),{mode:o}=i;if(r.isLeaving)return sl(l);const c=ms(l);if(!c)return sl(l);let d=Lr(c,i,r,n,p=>d=p);c.type!==Qe&&Dn(c,d);let u=n.subTree&&ms(n.subTree);if(u&&u.type!==Qe&&!_n(c,u)&&kc(n).type!==Qe){let p=Lr(u,i,r,n);if(Dn(u,p),o==="out-in"&&c.type!==Qe)return r.isLeaving=!0,p.afterLeave=()=>{r.isLeaving=!1,n.job.flags&8||n.update(),delete p.afterLeave,u=void 0},sl(l);o==="in-out"&&c.type!==Qe?p.delayLeave=(h,f,m)=>{const y=_c(r,u);y[String(u.key)]=u,h[rn]=()=>{f(),h[rn]=void 0,delete d.delayedLeave,u=void 0},d.delayedLeave=()=>{m(),delete d.delayedLeave,u=void 0}}:u=void 0}else u&&(u=void 0);return l}}};function xc(e){let t=e[0];if(e.length>1){for(const n of e)if(n.type!==Qe){t=n;break}}return t}const bh=yh;function _c(e,t){const{leavingVNodes:n}=e;let r=n.get(t.type);return r||(r=Object.create(null),n.set(t.type,r)),r}function Lr(e,t,n,r,a){const{appear:l,mode:i,persisted:o=!1,onBeforeEnter:c,onEnter:d,onAfterEnter:u,onEnterCancelled:p,onBeforeLeave:h,onLeave:f,onAfterLeave:m,onLeaveCancelled:y,onBeforeAppear:k,onAppear:w,onAfterAppear:x,onAppearCancelled:v}=t,E=String(e.key),B=_c(n,e),q=(I,M)=>{I&&Tt(I,r,9,M)},L=(I,M)=>{const F=M[1];q(I,M),ae(I)?I.every(D=>D.length<=1)&&F():I.length<=1&&F()},W={mode:i,persisted:o,beforeEnter(I){let M=c;if(!n.isMounted)if(l)M=k||c;else return;I[rn]&&I[rn](!0);const F=B[E];F&&_n(e,F)&&F.el[rn]&&F.el[rn](),q(M,[I])},enter(I){let M=d,F=u,D=p;if(!n.isMounted)if(l)M=w||d,F=x||u,D=v||p;else return;let z=!1;const le=I[ha]=ge=>{z||(z=!0,ge?q(D,[I]):q(F,[I]),W.delayedLeave&&W.delayedLeave(),I[ha]=void 0)};M?L(M,[I,le]):le()},leave(I,M){const F=String(e.key);if(I[ha]&&I[ha](!0),n.isUnmounting)return M();q(h,[I]);let D=!1;const z=I[rn]=le=>{D||(D=!0,M(),le?q(y,[I]):q(m,[I]),I[rn]=void 0,B[F]===e&&delete B[F])};B[F]=e,f?L(f,[I,z]):z()},clone(I){const M=Lr(I,t,n,r,a);return a&&a(M),M}};return W}function sl(e){if(Wr(e))return e=cn(e),e.children=null,e}function ms(e){if(!Wr(e))return vc(e.type)&&e.children?xc(e.children):e;const{shapeFlag:t,children:n}=e;if(n){if(t&16)return n[0];if(t&32&&re(n.default))return n.default()}}function Dn(e,t){e.shapeFlag&6&&e.component?(e.transition=t,Dn(e.component.subTree,t)):e.shapeFlag&128?(e.ssContent.transition=t.clone(e.ssContent),e.ssFallback.transition=t.clone(e.ssFallback)):e.transition=t}function Ai(e,t=!1,n){let r=[],a=0;for(let l=0;l<e.length;l++){let i=e[l];const o=n==null?i.key:String(n)+String(i.key!=null?i.key:l);i.type===st?(i.patchFlag&128&&a++,r=r.concat(Ai(i.children,t,o))):(t||i.type!==Qe)&&r.push(o!=null?cn(i,{key:o}):i)}if(a>1)for(let l=0;l<r.length;l++)r[l].patchFlag=-2;return r}/*! #__NO_SIDE_EFFECTS__ */function R(e,t){return re(e)?$e({name:e.name},t,{setup:e}):e}function Ei(e){e.ids=[e.ids[0]+e.ids[2]+++"-",0,0]}function Pr(e,t,n,r,a=!1){if(ae(e)){e.forEach((m,y)=>Pr(m,t&&(ae(t)?t[y]:t),n,r,a));return}if(Kn(r)&&!a){r.shapeFlag&512&&r.type.__asyncResolved&&r.component.subTree.component&&Pr(e,t,n,r.component.subTree);return}const l=r.shapeFlag&4?Pi(r.component):r.el,i=a?null:l,{i:o,r:c}=e,d=t&&t.r,u=o.refs===Ce?o.refs={}:o.refs,p=o.setupState,h=de(p),f=p===Ce?()=>!1:m=>ye(h,m);if(d!=null&&d!==c&&(Me(d)?(u[d]=null,f(d)&&(p[d]=null)):Oe(d)&&(d.value=null)),re(c))Hr(c,o,12,[i,u]);else{const m=Me(c),y=Oe(c);if(m||y){const k=()=>{if(e.f){const w=m?f(c)?p[c]:u[c]:c.value;a?ae(w)&&pi(w,l):ae(w)?w.includes(l)||w.push(l):m?(u[c]=[l],f(c)&&(p[c]=u[c])):(c.value=[l],e.k&&(u[e.k]=c.value))}else m?(u[c]=i,f(c)&&(p[c]=i)):y&&(c.value=i,e.k&&(u[e.k]=i))};i?(k.id=-1,it(k,n)):k()}}}let vs=!1;const Fn=()=>{vs||(console.error("Hydration completed but contains mismatches."),vs=!0)},kh=e=>e.namespaceURI.includes("svg")&&e.tagName!=="foreignObject",xh=e=>e.namespaceURI.includes("MathML"),fa=e=>{if(e.nodeType===1){if(kh(e))return"svg";if(xh(e))return"mathml"}},zn=e=>e.nodeType===8;function _h(e){const{mt:t,p:n,o:{patchProp:r,createText:a,nextSibling:l,parentNode:i,remove:o,insert:c,createComment:d}}=e,u=(v,E)=>{if(!E.hasChildNodes()){n(null,v,E),Pa(),E._vnode=v;return}p(E.firstChild,v,null,null,null),Pa(),E._vnode=v},p=(v,E,B,q,L,W=!1)=>{W=W||!!E.dynamicChildren;const I=zn(v)&&v.data==="[",M=()=>y(v,E,B,q,L,I),{type:F,ref:D,shapeFlag:z,patchFlag:le}=E;let ge=v.nodeType;E.el=v,le===-2&&(W=!1,E.dynamicChildren=null);let K=null;switch(F){case Tn:ge!==3?E.children===""?(c(E.el=a(""),i(v),v),K=v):K=M():(v.data!==E.children&&(Fn(),v.data=E.children),K=l(v));break;case Qe:x(v)?(K=l(v),w(E.el=v.content.firstChild,v,B)):ge!==8||I?K=M():K=l(v);break;case xr:if(I&&(v=l(v),ge=v.nodeType),ge===1||ge===3){K=v;const Z=!E.children.length;for(let J=0;J<E.staticCount;J++)Z&&(E.children+=K.nodeType===1?K.outerHTML:K.data),J===E.staticCount-1&&(E.anchor=K),K=l(K);return I?l(K):K}else M();break;case st:I?K=m(v,E,B,q,L,W):K=M();break;default:if(z&1)(ge!==1||E.type.toLowerCase()!==v.tagName.toLowerCase())&&!x(v)?K=M():K=h(v,E,B,q,L,W);else if(z&6){E.slotScopeIds=L;const Z=i(v);if(I?K=k(v):zn(v)&&v.data==="teleport start"?K=k(v,v.data,"teleport end"):K=l(v),t(E,Z,null,B,q,fa(Z),W),Kn(E)&&!E.type.__asyncResolved){let J;I?(J=Ie(st),J.anchor=K?K.previousSibling:Z.lastChild):J=v.nodeType===3?Yc(""):Ie("div"),J.el=v,E.component.subTree=J}}else z&64?ge!==8?K=M():K=E.type.hydrate(v,E,B,q,L,W,e,f):z&128&&(K=E.type.hydrate(v,E,B,q,fa(i(v)),L,W,e,p))}return D!=null&&Pr(D,null,q,E),K},h=(v,E,B,q,L,W)=>{W=W||!!E.dynamicChildren;const{type:I,props:M,patchFlag:F,shapeFlag:D,dirs:z,transition:le}=E,ge=I==="input"||I==="option";if(ge||F!==-1){z&&Mt(E,null,B,"created");let K=!1;if(x(v)){K=jc(null,le)&&B&&B.vnode.props&&B.vnode.props.appear;const J=v.content.firstChild;K&&le.beforeEnter(J),w(J,v,B),E.el=v=J}if(D&16&&!(M&&(M.innerHTML||M.textContent))){let J=f(v.firstChild,E,v,B,q,L,W);for(;J;){ga(v,1)||Fn();const me=J;J=J.nextSibling,o(me)}}else if(D&8){let J=E.children;J[0]===`
+`&&(v.tagName==="PRE"||v.tagName==="TEXTAREA")&&(J=J.slice(1)),v.textContent!==J&&(ga(v,0)||Fn(),v.textContent=E.children)}if(M){if(ge||!W||F&48){const J=v.tagName.includes("-");for(const me in M)(ge&&(me.endsWith("value")||me==="indeterminate")||Nr(me)&&!Wn(me)||me[0]==="."||J)&&r(v,me,null,M[me],void 0,B)}else if(M.onClick)r(v,"onClick",null,M.onClick,void 0,B);else if(F&4&&Gn(M.style))for(const J in M.style)M.style[J]}let Z;(Z=M&&M.onVnodeBeforeMount)&&ft(Z,B,E),z&&Mt(E,null,B,"beforeMount"),((Z=M&&M.onVnodeMounted)||z||K)&&Gc(()=>{Z&&ft(Z,B,E),K&&le.enter(v),z&&Mt(E,null,B,"mounted")},q)}return v.nextSibling},f=(v,E,B,q,L,W,I)=>{I=I||!!E.dynamicChildren;const M=E.children,F=M.length;for(let D=0;D<F;D++){const z=I?M[D]:M[D]=mt(M[D]),le=z.type===Tn;v?(le&&!I&&D+1<F&&mt(M[D+1]).type===Tn&&(c(a(v.data.slice(z.children.length)),B,l(v)),v.data=z.children),v=p(v,z,q,L,W,I)):le&&!z.children?c(z.el=a(""),B):(ga(B,1)||Fn(),n(null,z,B,null,q,L,fa(B),W))}return v},m=(v,E,B,q,L,W)=>{const{slotScopeIds:I}=E;I&&(L=L?L.concat(I):I);const M=i(v),F=f(l(v),E,M,B,q,L,W);return F&&zn(F)&&F.data==="]"?l(E.anchor=F):(Fn(),c(E.anchor=d("]"),M,F),F)},y=(v,E,B,q,L,W)=>{if(ga(v.parentElement,1)||Fn(),E.el=null,W){const F=k(v);for(;;){const D=l(v);if(D&&D!==F)o(D);else break}}const I=l(v),M=i(v);return o(v),n(null,E,M,I,B,q,fa(M),L),B&&(B.vnode.el=E.el,qc(B,E.el)),I},k=(v,E="[",B="]")=>{let q=0;for(;v;)if(v=l(v),v&&zn(v)&&(v.data===E&&q++,v.data===B)){if(q===0)return l(v);q--}return v},w=(v,E,B)=>{const q=E.parentNode;q&&q.replaceChild(v,E);let L=B;for(;L;)L.vnode.el===E&&(L.vnode.el=L.subTree.el=v),L=L.parent},x=v=>v.nodeType===1&&v.tagName==="TEMPLATE";return[u,p]}const ys="data-allow-mismatch",wh={0:"text",1:"children",2:"class",3:"style",4:"attribute"};function ga(e,t){if(t===0||t===1)for(;e&&!e.hasAttribute(ys);)e=e.parentElement;const n=e&&e.getAttribute(ys);if(n==null)return!1;if(n==="")return!0;{const r=n.split(",");return t===0&&r.includes("children")?!0:n.split(",").includes(wh[t])}}Va().requestIdleCallback;Va().cancelIdleCallback;function Ah(e,t){if(zn(e)&&e.data==="["){let n=1,r=e.nextSibling;for(;r;){if(r.nodeType===1){if(t(r)===!1)break}else if(zn(r))if(r.data==="]"){if(--n===0)break}else r.data==="["&&n++;r=r.nextSibling}}else t(e)}const Kn=e=>!!e.type.__asyncLoader;/*! #__NO_SIDE_EFFECTS__ */function wc(e){re(e)&&(e={loader:e});const{loader:t,loadingComponent:n,errorComponent:r,delay:a=200,hydrate:l,timeout:i,suspensible:o=!0,onError:c}=e;let d=null,u,p=0;const h=()=>(p++,d=null,f()),f=()=>{let m;return d||(m=d=t().catch(y=>{if(y=y instanceof Error?y:new Error(String(y)),c)return new Promise((k,w)=>{c(y,()=>k(h()),()=>w(y),p+1)});throw y}).then(y=>m!==d&&d?d:(y&&(y.__esModule||y[Symbol.toStringTag]==="Module")&&(y=y.default),u=y,y)))};return R({name:"AsyncComponentWrapper",__asyncLoader:f,__asyncHydrate(m,y,k){const w=l?()=>{const x=l(k,v=>Ah(m,v));x&&(y.bum||(y.bum=[])).push(x)}:k;u?w():f().then(()=>!y.isUnmounted&&w())},get __asyncResolved(){return u},setup(){const m=Re;if(Ei(m),u)return()=>ol(u,m);const y=v=>{d=null,qr(v,m,13,!r)};if(o&&m.suspense||Xn)return f().then(v=>()=>ol(v,m)).catch(v=>(y(v),()=>r?Ie(r,{error:v}):null));const k=Q(!1),w=Q(),x=Q(!!a);return a&&setTimeout(()=>{x.value=!1},a),i!=null&&setTimeout(()=>{if(!k.value&&!w.value){const v=new Error(`Async component timed out after ${i}ms.`);y(v),w.value=v}},i),f().then(()=>{k.value=!0,m.parent&&Wr(m.parent.vnode)&&m.parent.update()}).catch(v=>{y(v),w.value=v}),()=>{if(k.value&&u)return ol(u,m);if(w.value&&r)return Ie(r,{error:w.value});if(n&&!x.value)return Ie(n)}}})}function ol(e,t){const{ref:n,props:r,children:a,ce:l}=t.vnode,i=Ie(e,r,a);return i.ref=n,i.ce=l,delete t.vnode.ce,i}const Wr=e=>e.type.__isKeepAlive;function Eh(e,t){Ac(e,"a",t)}function Th(e,t){Ac(e,"da",t)}function Ac(e,t,n=Re){const r=e.__wdc||(e.__wdc=()=>{let a=n;for(;a;){if(a.isDeactivated)return;a=a.parent}return e()});if(za(t,r,n),n){let a=n.parent;for(;a&&a.parent;)Wr(a.parent.vnode)&&Ch(r,t,n,a),a=a.parent}}function Ch(e,t,n,r){const a=za(t,e,r,!0);Vt(()=>{pi(r[t],a)},n)}function za(e,t,n=Re,r=!1){if(n){const a=n[e]||(n[e]=[]),l=t.__weh||(t.__weh=(...i)=>{dn();const o=Gr(n),c=Tt(t,n,e,i);return o(),un(),c});return r?a.unshift(l):a.push(l),l}}const Kt=e=>(t,n=Re)=>{(!Xn||e==="sp")&&za(e,(...r)=>t(...r),n)},Sh=Kt("bm"),oe=Kt("m"),Dh=Kt("bu"),Ec=Kt("u"),Ti=Kt("bum"),Vt=Kt("um"),Lh=Kt("sp"),Ph=Kt("rtg"),Bh=Kt("rtc");function Ih(e,t=Re){za("ec",e,t)}const Oh="components";function Le(e,t){return Fh(Oh,e,!0,t)||e}const Rh=Symbol.for("v-ndc");function Fh(e,t,n=!0,r=!1){const a=ct||Re;if(a){const l=a.type;{const o=x1(l,!1);if(o&&(o===t||o===tt(t)||o===zr(tt(t))))return l}const i=bs(a[e]||l[e],t)||bs(a.appContext[e],t);return!i&&r?l:i}}function bs(e,t){return e&&(e[t]||e[tt(t)]||e[zr(tt(t))])}const Ml=e=>e?Qc(e)?Pi(e):Ml(e.parent):null,kr=$e(Object.create(null),{$:e=>e,$el:e=>e.vnode.el,$data:e=>e.data,$props:e=>e.props,$attrs:e=>e.attrs,$slots:e=>e.slots,$refs:e=>e.refs,$parent:e=>Ml(e.parent),$root:e=>Ml(e.root),$host:e=>e.ce,$emit:e=>e.emit,$options:e=>Cc(e),$forceUpdate:e=>e.f||(e.f=()=>{wi(e.update)}),$nextTick:e=>e.n||(e.n=pn.bind(e.proxy)),$watch:e=>n1.bind(e)}),cl=(e,t)=>e!==Ce&&!e.__isScriptSetup&&ye(e,t),$h={get({_:e},t){if(t==="__v_skip")return!0;const{ctx:n,setupState:r,data:a,props:l,accessCache:i,type:o,appContext:c}=e;let d;if(t[0]!=="$"){const f=i[t];if(f!==void 0)switch(f){case 1:return r[t];case 2:return a[t];case 4:return n[t];case 3:return l[t]}else{if(cl(r,t))return i[t]=1,r[t];if(a!==Ce&&ye(a,t))return i[t]=2,a[t];if((d=e.propsOptions[0])&&ye(d,t))return i[t]=3,l[t];if(n!==Ce&&ye(n,t))return i[t]=4,n[t];jl&&(i[t]=0)}}const u=kr[t];let p,h;if(u)return t==="$attrs"&&qe(e.attrs,"get",""),u(e);if((p=o.__cssModules)&&(p=p[t]))return p;if(n!==Ce&&ye(n,t))return i[t]=4,n[t];if(h=c.config.globalProperties,ye(h,t))return h[t]},set({_:e},t,n){const{data:r,setupState:a,ctx:l}=e;return cl(a,t)?(a[t]=n,!0):r!==Ce&&ye(r,t)?(r[t]=n,!0):ye(e.props,t)||t[0]==="$"&&t.slice(1)in e?!1:(l[t]=n,!0)},has({_:{data:e,setupState:t,accessCache:n,ctx:r,appContext:a,propsOptions:l}},i){let o;return!!n[i]||e!==Ce&&ye(e,i)||cl(t,i)||(o=l[0])&&ye(o,i)||ye(r,i)||ye(kr,i)||ye(a.config.globalProperties,i)},defineProperty(e,t,n){return n.get!=null?e._.accessCache[t]=0:ye(n,"value")&&this.set(e,t,n.value,null),Reflect.defineProperty(e,t,n)}};function ks(e){return ae(e)?e.reduce((t,n)=>(t[n]=null,t),{}):e}let jl=!0;function Mh(e){const t=Cc(e),n=e.proxy,r=e.ctx;jl=!1,t.beforeCreate&&xs(t.beforeCreate,e,"bc");const{data:a,computed:l,methods:i,watch:o,provide:c,inject:d,created:u,beforeMount:p,mounted:h,beforeUpdate:f,updated:m,activated:y,deactivated:k,beforeDestroy:w,beforeUnmount:x,destroyed:v,unmounted:E,render:B,renderTracked:q,renderTriggered:L,errorCaptured:W,serverPrefetch:I,expose:M,inheritAttrs:F,components:D,directives:z,filters:le}=t;if(d&&jh(d,r,null),i)for(const Z in i){const J=i[Z];re(J)&&(r[Z]=J.bind(n))}if(a){const Z=a.call(n,n);Pe(Z)&&(e.data=Cn(Z))}if(jl=!0,l)for(const Z in l){const J=l[Z],me=re(J)?J.bind(n,n):re(J.get)?J.get.bind(n,n):jt,It=!re(J)&&re(J.set)?J.set.bind(n):jt,pt=_({get:me,set:It});Object.defineProperty(r,Z,{enumerable:!0,configurable:!0,get:()=>pt.value,set:je=>pt.value=je})}if(o)for(const Z in o)Tc(o[Z],r,n,Z);if(c){const Z=re(c)?c.call(n):c;Reflect.ownKeys(Z).forEach(J=>{Et(J,Z[J])})}u&&xs(u,e,"c");function K(Z,J){ae(J)?J.forEach(me=>Z(me.bind(n))):J&&Z(J.bind(n))}if(K(Sh,p),K(oe,h),K(Dh,f),K(Ec,m),K(Eh,y),K(Th,k),K(Ih,W),K(Bh,q),K(Ph,L),K(Ti,x),K(Vt,E),K(Lh,I),ae(M))if(M.length){const Z=e.exposed||(e.exposed={});M.forEach(J=>{Object.defineProperty(Z,J,{get:()=>n[J],set:me=>n[J]=me})})}else e.exposed||(e.exposed={});B&&e.render===jt&&(e.render=B),F!=null&&(e.inheritAttrs=F),D&&(e.components=D),z&&(e.directives=z),I&&Ei(e)}function jh(e,t,n=jt){ae(e)&&(e=Vl(e));for(const r in e){const a=e[r];let l;Pe(a)?"default"in a?l=we(a.from||r,a.default,!0):l=we(a.from||r):l=we(a),Oe(l)?Object.defineProperty(t,r,{enumerable:!0,configurable:!0,get:()=>l.value,set:i=>l.value=i}):t[r]=l}}function xs(e,t,n){Tt(ae(e)?e.map(r=>r.bind(t.proxy)):e.bind(t.proxy),t,n)}function Tc(e,t,n,r){let a=r.includes(".")?zc(n,r):()=>n[r];if(Me(e)){const l=t[e];re(l)&&Ae(a,l)}else if(re(e))Ae(a,e.bind(n));else if(Pe(e))if(ae(e))e.forEach(l=>Tc(l,t,n,r));else{const l=re(e.handler)?e.handler.bind(n):t[e.handler];re(l)&&Ae(a,l,e)}}function Cc(e){const t=e.type,{mixins:n,extends:r}=t,{mixins:a,optionsCache:l,config:{optionMergeStrategies:i}}=e.appContext,o=l.get(t);let c;return o?c=o:!a.length&&!n&&!r?c=t:(c={},a.length&&a.forEach(d=>Ia(c,d,i,!0)),Ia(c,t,i)),Pe(t)&&l.set(t,c),c}function Ia(e,t,n,r=!1){const{mixins:a,extends:l}=t;l&&Ia(e,l,n,!0),a&&a.forEach(i=>Ia(e,i,n,!0));for(const i in t)if(!(r&&i==="expose")){const o=Vh[i]||n&&n[i];e[i]=o?o(e[i],t[i]):t[i]}return e}const Vh={data:_s,props:ws,emits:ws,methods:gr,computed:gr,beforeCreate:Ue,created:Ue,beforeMount:Ue,mounted:Ue,beforeUpdate:Ue,updated:Ue,beforeDestroy:Ue,beforeUnmount:Ue,destroyed:Ue,unmounted:Ue,activated:Ue,deactivated:Ue,errorCaptured:Ue,serverPrefetch:Ue,components:gr,directives:gr,watch:zh,provide:_s,inject:Nh};function _s(e,t){return t?e?function(){return $e(re(e)?e.call(this,this):e,re(t)?t.call(this,this):t)}:t:e}function Nh(e,t){return gr(Vl(e),Vl(t))}function Vl(e){if(ae(e)){const t={};for(let n=0;n<e.length;n++)t[e[n]]=e[n];return t}return e}function Ue(e,t){return e?[...new Set([].concat(e,t))]:t}function gr(e,t){return e?$e(Object.create(null),e,t):t}function ws(e,t){return e?ae(e)&&ae(t)?[...new Set([...e,...t])]:$e(Object.create(null),ks(e),ks(t??{})):t}function zh(e,t){if(!e)return t;if(!t)return e;const n=$e(Object.create(null),e);for(const r in t)n[r]=Ue(e[r],t[r]);return n}function Sc(){return{app:null,config:{isNativeTag:bp,performance:!1,globalProperties:{},optionMergeStrategies:{},errorHandler:void 0,warnHandler:void 0,compilerOptions:{}},mixins:[],components:{},directives:{},provides:Object.create(null),optionsCache:new WeakMap,propsCache:new WeakMap,emitsCache:new WeakMap}}let Hh=0;function qh(e,t){return function(r,a=null){re(r)||(r=$e({},r)),a!=null&&!Pe(a)&&(a=null);const l=Sc(),i=new WeakSet,o=[];let c=!1;const d=l.app={_uid:Hh++,_component:r,_props:a,_container:null,_context:l,_instance:null,version:w1,get config(){return l.config},set config(u){},use(u,...p){return i.has(u)||(u&&re(u.install)?(i.add(u),u.install(d,...p)):re(u)&&(i.add(u),u(d,...p))),d},mixin(u){return l.mixins.includes(u)||l.mixins.push(u),d},component(u,p){return p?(l.components[u]=p,d):l.components[u]},directive(u,p){return p?(l.directives[u]=p,d):l.directives[u]},mount(u,p,h){if(!c){const f=d._ceVNode||Ie(r,a);return f.appContext=l,h===!0?h="svg":h===!1&&(h=void 0),p&&t?t(f,u):e(f,u,h),c=!0,d._container=u,u.__vue_app__=d,Pi(f.component)}},onUnmount(u){o.push(u)},unmount(){c&&(Tt(o,d._instance,16),e(null,d._container),delete d._container.__vue_app__)},provide(u,p){return l.provides[u]=p,d},runWithContext(u){const p=En;En=d;try{return u()}finally{En=p}}};return d}}let En=null;function Et(e,t){if(Re){let n=Re.provides;const r=Re.parent&&Re.parent.provides;r===n&&(n=Re.provides=Object.create(r)),n[e]=t}}function we(e,t,n=!1){const r=Re||ct;if(r||En){const a=En?En._context.provides:r?r.parent==null?r.vnode.appContext&&r.vnode.appContext.provides:r.parent.provides:void 0;if(a&&e in a)return a[e];if(arguments.length>1)return n&&re(t)?t.call(r&&r.proxy):t}}function Dc(){return!!(Re||ct||En)}const Lc={},Pc=()=>Object.create(Lc),Bc=e=>Object.getPrototypeOf(e)===Lc;function Wh(e,t,n,r=!1){const a={},l=Pc();e.propsDefaults=Object.create(null),Ic(e,t,a,l);for(const i in e.propsOptions[0])i in a||(a[i]=void 0);n?e.props=r?a:cc(a):e.type.props?e.props=a:e.props=l,e.attrs=l}function Gh(e,t,n,r){const{props:a,attrs:l,vnode:{patchFlag:i}}=e,o=de(a),[c]=e.propsOptions;let d=!1;if((r||i>0)&&!(i&16)){if(i&8){const u=e.vnode.dynamicProps;for(let p=0;p<u.length;p++){let h=u[p];if(Ha(e.emitsOptions,h))continue;const f=t[h];if(c)if(ye(l,h))f!==l[h]&&(l[h]=f,d=!0);else{const m=tt(h);a[m]=Nl(c,o,m,f,e,!1)}else f!==l[h]&&(l[h]=f,d=!0)}}}else{Ic(e,t,a,l)&&(d=!0);let u;for(const p in o)(!t||!ye(t,p)&&((u=Ln(p))===p||!ye(t,u)))&&(c?n&&(n[p]!==void 0||n[u]!==void 0)&&(a[p]=Nl(c,o,p,void 0,e,!0)):delete a[p]);if(l!==o)for(const p in l)(!t||!ye(t,p))&&(delete l[p],d=!0)}d&&Ut(e.attrs,"set","")}function Ic(e,t,n,r){const[a,l]=e.propsOptions;let i=!1,o;if(t)for(let c in t){if(Wn(c))continue;const d=t[c];let u;a&&ye(a,u=tt(c))?!l||!l.includes(u)?n[u]=d:(o||(o={}))[u]=d:Ha(e.emitsOptions,c)||(!(c in r)||d!==r[c])&&(r[c]=d,i=!0)}if(l){const c=de(n),d=o||Ce;for(let u=0;u<l.length;u++){const p=l[u];n[p]=Nl(a,c,p,d[p],e,!ye(d,p))}}return i}function Nl(e,t,n,r,a,l){const i=e[n];if(i!=null){const o=ye(i,"default");if(o&&r===void 0){const c=i.default;if(i.type!==Function&&!i.skipFactory&&re(c)){const{propsDefaults:d}=a;if(n in d)r=d[n];else{const u=Gr(a);r=d[n]=c.call(null,t),u()}}else r=c;a.ce&&a.ce._setProp(n,r)}i[0]&&(l&&!o?r=!1:i[1]&&(r===""||r===Ln(n))&&(r=!0))}return r}const Uh=new WeakMap;function Oc(e,t,n=!1){const r=n?Uh:t.propsCache,a=r.get(e);if(a)return a;const l=e.props,i={},o=[];let c=!1;if(!re(e)){const u=p=>{c=!0;const[h,f]=Oc(p,t,!0);$e(i,h),f&&o.push(...f)};!n&&t.mixins.length&&t.mixins.forEach(u),e.extends&&u(e.extends),e.mixins&&e.mixins.forEach(u)}if(!l&&!c)return Pe(e)&&r.set(e,qn),qn;if(ae(l))for(let u=0;u<l.length;u++){const p=tt(l[u]);As(p)&&(i[p]=Ce)}else if(l)for(const u in l){const p=tt(u);if(As(p)){const h=l[u],f=i[p]=ae(h)||re(h)?{type:h}:$e({},h),m=f.type;let y=!1,k=!0;if(ae(m))for(let w=0;w<m.length;++w){const x=m[w],v=re(x)&&x.name;if(v==="Boolean"){y=!0;break}else v==="String"&&(k=!1)}else y=re(m)&&m.name==="Boolean";f[0]=y,f[1]=k,(y||ye(f,"default"))&&o.push(p)}}const d=[i,o];return Pe(e)&&r.set(e,d),d}function As(e){return e[0]!=="$"&&!Wn(e)}const Rc=e=>e[0]==="_"||e==="$stable",Ci=e=>ae(e)?e.map(mt):[mt(e)],Kh=(e,t,n)=>{if(t._n)return t;const r=mh((...a)=>Ci(t(...a)),n);return r._c=!1,r},Fc=(e,t,n)=>{const r=e._ctx;for(const a in e){if(Rc(a))continue;const l=e[a];if(re(l))t[a]=Kh(a,l,r);else if(l!=null){const i=Ci(l);t[a]=()=>i}}},$c=(e,t)=>{const n=Ci(t);e.slots.default=()=>n},Mc=(e,t,n)=>{for(const r in t)(n||r!=="_")&&(e[r]=t[r])},Jh=(e,t,n)=>{const r=e.slots=Pc();if(e.vnode.shapeFlag&32){const a=t._;a?(Mc(r,t,n),n&&Go(r,"_",a,!0)):Fc(t,r)}else t&&$c(e,t)},Yh=(e,t,n)=>{const{vnode:r,slots:a}=e;let l=!0,i=Ce;if(r.shapeFlag&32){const o=t._;o?n&&o===1?l=!1:Mc(a,t,n):(l=!t.$stable,Fc(t,a)),i=t}else t&&($c(e,t),i={default:1});if(l)for(const o in a)!Rc(o)&&i[o]==null&&delete a[o]},it=Gc;function Qh(e){return Xh(e,_h)}function Xh(e,t){const n=Va();n.__VUE__=!0;const{insert:r,remove:a,patchProp:l,createElement:i,createText:o,createComment:c,setText:d,setElementText:u,parentNode:p,nextSibling:h,setScopeId:f=jt,insertStaticContent:m}=e,y=(g,b,T,P=null,S=null,O=null,H=void 0,V=null,j=!!b.dynamicChildren)=>{if(g===b)return;g&&!_n(g,b)&&(P=C(g),je(g,S,O,!0),g=null),b.patchFlag===-2&&(j=!1,b.dynamicChildren=null);const{type:$,ref:te,shapeFlag:U}=b;switch($){case Tn:k(g,b,T,P);break;case Qe:w(g,b,T,P);break;case xr:g==null&&x(b,T,P,H);break;case st:D(g,b,T,P,S,O,H,V,j);break;default:U&1?B(g,b,T,P,S,O,H,V,j):U&6?z(g,b,T,P,S,O,H,V,j):(U&64||U&128)&&$.process(g,b,T,P,S,O,H,V,j,Y)}te!=null&&S&&Pr(te,g&&g.ref,O,b||g,!b)},k=(g,b,T,P)=>{if(g==null)r(b.el=o(b.children),T,P);else{const S=b.el=g.el;b.children!==g.children&&d(S,b.children)}},w=(g,b,T,P)=>{g==null?r(b.el=c(b.children||""),T,P):b.el=g.el},x=(g,b,T,P)=>{[g.el,g.anchor]=m(g.children,b,T,P,g.el,g.anchor)},v=({el:g,anchor:b},T,P)=>{let S;for(;g&&g!==b;)S=h(g),r(g,T,P),g=S;r(b,T,P)},E=({el:g,anchor:b})=>{let T;for(;g&&g!==b;)T=h(g),a(g),g=T;a(b)},B=(g,b,T,P,S,O,H,V,j)=>{b.type==="svg"?H="svg":b.type==="math"&&(H="mathml"),g==null?q(b,T,P,S,O,H,V,j):I(g,b,S,O,H,V,j)},q=(g,b,T,P,S,O,H,V)=>{let j,$;const{props:te,shapeFlag:U,transition:X,dirs:ne}=g;if(j=g.el=i(g.type,O,te&&te.is,te),U&8?u(j,g.children):U&16&&W(g.children,j,null,P,S,dl(g,O),H,V),ne&&Mt(g,null,P,"created"),L(j,g,g.scopeId,H,P),te){for(const Ee in te)Ee!=="value"&&!Wn(Ee)&&l(j,Ee,null,te[Ee],O,P);"value"in te&&l(j,"value",null,te.value,O),($=te.onVnodeBeforeMount)&&ft($,P,g)}ne&&Mt(g,null,P,"beforeMount");const ce=jc(S,X);ce&&X.beforeEnter(j),r(j,b,T),(($=te&&te.onVnodeMounted)||ce||ne)&&it(()=>{$&&ft($,P,g),ce&&X.enter(j),ne&&Mt(g,null,P,"mounted")},S)},L=(g,b,T,P,S)=>{if(T&&f(g,T),P)for(let O=0;O<P.length;O++)f(g,P[O]);if(S){let O=S.subTree;if(b===O||Wc(O.type)&&(O.ssContent===b||O.ssFallback===b)){const H=S.vnode;L(g,H,H.scopeId,H.slotScopeIds,S.parent)}}},W=(g,b,T,P,S,O,H,V,j=0)=>{for(let $=j;$<g.length;$++){const te=g[$]=V?an(g[$]):mt(g[$]);y(null,te,b,T,P,S,O,H,V)}},I=(g,b,T,P,S,O,H)=>{const V=b.el=g.el;let{patchFlag:j,dynamicChildren:$,dirs:te}=b;j|=g.patchFlag&16;const U=g.props||Ce,X=b.props||Ce;let ne;if(T&&yn(T,!1),(ne=X.onVnodeBeforeUpdate)&&ft(ne,T,b,g),te&&Mt(b,g,T,"beforeUpdate"),T&&yn(T,!0),(U.innerHTML&&X.innerHTML==null||U.textContent&&X.textContent==null)&&u(V,""),$?M(g.dynamicChildren,$,V,T,P,dl(b,S),O):H||J(g,b,V,null,T,P,dl(b,S),O,!1),j>0){if(j&16)F(V,U,X,T,S);else if(j&2&&U.class!==X.class&&l(V,"class",null,X.class,S),j&4&&l(V,"style",U.style,X.style,S),j&8){const ce=b.dynamicProps;for(let Ee=0;Ee<ce.length;Ee++){const be=ce[Ee],rt=U[be],He=X[be];(He!==rt||be==="value")&&l(V,be,rt,He,S,T)}}j&1&&g.children!==b.children&&u(V,b.children)}else!H&&$==null&&F(V,U,X,T,S);((ne=X.onVnodeUpdated)||te)&&it(()=>{ne&&ft(ne,T,b,g),te&&Mt(b,g,T,"updated")},P)},M=(g,b,T,P,S,O,H)=>{for(let V=0;V<b.length;V++){const j=g[V],$=b[V],te=j.el&&(j.type===st||!_n(j,$)||j.shapeFlag&70)?p(j.el):T;y(j,$,te,null,P,S,O,H,!0)}},F=(g,b,T,P,S)=>{if(b!==T){if(b!==Ce)for(const O in b)!Wn(O)&&!(O in T)&&l(g,O,b[O],null,S,P);for(const O in T){if(Wn(O))continue;const H=T[O],V=b[O];H!==V&&O!=="value"&&l(g,O,V,H,S,P)}"value"in T&&l(g,"value",b.value,T.value,S)}},D=(g,b,T,P,S,O,H,V,j)=>{const $=b.el=g?g.el:o(""),te=b.anchor=g?g.anchor:o("");let{patchFlag:U,dynamicChildren:X,slotScopeIds:ne}=b;ne&&(V=V?V.concat(ne):ne),g==null?(r($,T,P),r(te,T,P),W(b.children||[],T,te,S,O,H,V,j)):U>0&&U&64&&X&&g.dynamicChildren?(M(g.dynamicChildren,X,T,S,O,H,V),(b.key!=null||S&&b===S.subTree)&&Vc(g,b,!0)):J(g,b,T,te,S,O,H,V,j)},z=(g,b,T,P,S,O,H,V,j)=>{b.slotScopeIds=V,g==null?b.shapeFlag&512?S.ctx.activate(b,T,P,H,j):le(b,T,P,S,O,H,j):ge(g,b,j)},le=(g,b,T,P,S,O,H)=>{const V=g.component=m1(g,P,S);if(Wr(g)&&(V.ctx.renderer=Y),v1(V,!1,H),V.asyncDep){if(S&&S.registerDep(V,K,H),!g.el){const j=V.subTree=Ie(Qe);w(null,j,b,T)}}else K(V,g,b,T,S,O,H)},ge=(g,b,T)=>{const P=b.component=g.component;if(s1(g,b,T))if(P.asyncDep&&!P.asyncResolved){Z(P,b,T);return}else P.next=b,P.update();else b.el=g.el,P.vnode=b},K=(g,b,T,P,S,O,H)=>{const V=()=>{if(g.isMounted){let{next:U,bu:X,u:ne,parent:ce,vnode:Ee}=g;{const at=Nc(g);if(at){U&&(U.el=Ee.el,Z(g,U,H)),at.asyncDep.then(()=>{g.isUnmounted||V()});return}}let be=U,rt;yn(g,!1),U?(U.el=Ee.el,Z(g,U,H)):U=Ee,X&&rl(X),(rt=U.props&&U.props.onVnodeBeforeUpdate)&&ft(rt,ce,U,Ee),yn(g,!0);const He=ul(g),xt=g.subTree;g.subTree=He,y(xt,He,p(xt.el),C(xt),g,S,O),U.el=He.el,be===null&&qc(g,He.el),ne&&it(ne,S),(rt=U.props&&U.props.onVnodeUpdated)&&it(()=>ft(rt,ce,U,Ee),S)}else{let U;const{el:X,props:ne}=b,{bm:ce,m:Ee,parent:be,root:rt,type:He}=g,xt=Kn(b);if(yn(g,!1),ce&&rl(ce),!xt&&(U=ne&&ne.onVnodeBeforeMount)&&ft(U,be,b),yn(g,!0),X&&_e){const at=()=>{g.subTree=ul(g),_e(X,g.subTree,g,S,null)};xt&&He.__asyncHydrate?He.__asyncHydrate(X,g,at):at()}else{rt.ce&&rt.ce._injectChildStyle(He);const at=g.subTree=ul(g);y(null,at,T,P,g,S,O),b.el=at.el}if(Ee&&it(Ee,S),!xt&&(U=ne&&ne.onVnodeMounted)){const at=b;it(()=>ft(U,be,at),S)}(b.shapeFlag&256||be&&Kn(be.vnode)&&be.vnode.shapeFlag&256)&&g.a&&it(g.a,S),g.isMounted=!0,b=T=P=null}};g.scope.on();const j=g.effect=new Jo(V);g.scope.off();const $=g.update=j.run.bind(j),te=g.job=j.runIfDirty.bind(j);te.i=g,te.id=g.uid,j.scheduler=()=>wi(te),yn(g,!0),$()},Z=(g,b,T)=>{b.component=g;const P=g.vnode.props;g.vnode=b,g.next=null,Gh(g,b.props,P,T),Yh(g,b.children,T),dn(),gs(g),un()},J=(g,b,T,P,S,O,H,V,j=!1)=>{const $=g&&g.children,te=g?g.shapeFlag:0,U=b.children,{patchFlag:X,shapeFlag:ne}=b;if(X>0){if(X&128){It($,U,T,P,S,O,H,V,j);return}else if(X&256){me($,U,T,P,S,O,H,V,j);return}}ne&8?(te&16&&ze($,S,O),U!==$&&u(T,U)):te&16?ne&16?It($,U,T,P,S,O,H,V,j):ze($,S,O,!0):(te&8&&u(T,""),ne&16&&W(U,T,P,S,O,H,V,j))},me=(g,b,T,P,S,O,H,V,j)=>{g=g||qn,b=b||qn;const $=g.length,te=b.length,U=Math.min($,te);let X;for(X=0;X<U;X++){const ne=b[X]=j?an(b[X]):mt(b[X]);y(g[X],ne,T,null,S,O,H,V,j)}$>te?ze(g,S,O,!0,!1,U):W(b,T,P,S,O,H,V,j,U)},It=(g,b,T,P,S,O,H,V,j)=>{let $=0;const te=b.length;let U=g.length-1,X=te-1;for(;$<=U&&$<=X;){const ne=g[$],ce=b[$]=j?an(b[$]):mt(b[$]);if(_n(ne,ce))y(ne,ce,T,null,S,O,H,V,j);else break;$++}for(;$<=U&&$<=X;){const ne=g[U],ce=b[X]=j?an(b[X]):mt(b[X]);if(_n(ne,ce))y(ne,ce,T,null,S,O,H,V,j);else break;U--,X--}if($>U){if($<=X){const ne=X+1,ce=ne<te?b[ne].el:P;for(;$<=X;)y(null,b[$]=j?an(b[$]):mt(b[$]),T,ce,S,O,H,V,j),$++}}else if($>X)for(;$<=U;)je(g[$],S,O,!0),$++;else{const ne=$,ce=$,Ee=new Map;for($=ce;$<=X;$++){const lt=b[$]=j?an(b[$]):mt(b[$]);lt.key!=null&&Ee.set(lt.key,$)}let be,rt=0;const He=X-ce+1;let xt=!1,at=0;const dr=new Array(He);for($=0;$<He;$++)dr[$]=0;for($=ne;$<=U;$++){const lt=g[$];if(rt>=He){je(lt,S,O,!0);continue}let Rt;if(lt.key!=null)Rt=Ee.get(lt.key);else for(be=ce;be<=X;be++)if(dr[be-ce]===0&&_n(lt,b[be])){Rt=be;break}Rt===void 0?je(lt,S,O,!0):(dr[Rt-ce]=$+1,Rt>=at?at=Rt:xt=!0,y(lt,b[Rt],T,null,S,O,H,V,j),rt++)}const ds=xt?Zh(dr):qn;for(be=ds.length-1,$=He-1;$>=0;$--){const lt=ce+$,Rt=b[lt],us=lt+1<te?b[lt+1].el:P;dr[$]===0?y(null,Rt,T,us,S,O,H,V,j):xt&&(be<0||$!==ds[be]?pt(Rt,T,us,2):be--)}}},pt=(g,b,T,P,S=null)=>{const{el:O,type:H,transition:V,children:j,shapeFlag:$}=g;if($&6){pt(g.component.subTree,b,T,P);return}if($&128){g.suspense.move(b,T,P);return}if($&64){H.move(g,b,T,Y);return}if(H===st){r(O,b,T);for(let U=0;U<j.length;U++)pt(j[U],b,T,P);r(g.anchor,b,T);return}if(H===xr){v(g,b,T);return}if(P!==2&&$&1&&V)if(P===0)V.beforeEnter(O),r(O,b,T),it(()=>V.enter(O),S);else{const{leave:U,delayLeave:X,afterLeave:ne}=V,ce=()=>r(O,b,T),Ee=()=>{U(O,()=>{ce(),ne&&ne()})};X?X(O,ce,Ee):Ee()}else r(O,b,T)},je=(g,b,T,P=!1,S=!1)=>{const{type:O,props:H,ref:V,children:j,dynamicChildren:$,shapeFlag:te,patchFlag:U,dirs:X,cacheIndex:ne}=g;if(U===-2&&(S=!1),V!=null&&Pr(V,null,T,g,!0),ne!=null&&(b.renderCache[ne]=void 0),te&256){b.ctx.deactivate(g);return}const ce=te&1&&X,Ee=!Kn(g);let be;if(Ee&&(be=H&&H.onVnodeBeforeUnmount)&&ft(be,b,g),te&6)Ot(g.component,T,P);else{if(te&128){g.suspense.unmount(T,P);return}ce&&Mt(g,null,b,"beforeUnmount"),te&64?g.type.remove(g,b,T,Y,P):$&&!$.hasOnce&&(O!==st||U>0&&U&64)?ze($,b,T,!1,!0):(O===st&&U&384||!S&&te&16)&&ze(j,b,T),P&&nt(g)}(Ee&&(be=H&&H.onVnodeUnmounted)||ce)&&it(()=>{be&&ft(be,b,g),ce&&Mt(g,null,b,"unmounted")},T)},nt=g=>{const{type:b,el:T,anchor:P,transition:S}=g;if(b===st){Nt(T,P);return}if(b===xr){E(g);return}const O=()=>{a(T),S&&!S.persisted&&S.afterLeave&&S.afterLeave()};if(g.shapeFlag&1&&S&&!S.persisted){const{leave:H,delayLeave:V}=S,j=()=>H(T,O);V?V(g.el,O,j):j()}else O()},Nt=(g,b)=>{let T;for(;g!==b;)T=h(g),a(g),g=T;a(b)},Ot=(g,b,T)=>{const{bum:P,scope:S,job:O,subTree:H,um:V,m:j,a:$}=g;Es(j),Es($),P&&rl(P),S.stop(),O&&(O.flags|=8,je(H,g,b,T)),V&&it(V,b),it(()=>{g.isUnmounted=!0},b),b&&b.pendingBranch&&!b.isUnmounted&&g.asyncDep&&!g.asyncResolved&&g.suspenseId===b.pendingId&&(b.deps--,b.deps===0&&b.resolve())},ze=(g,b,T,P=!1,S=!1,O=0)=>{for(let H=O;H<g.length;H++)je(g[H],b,T,P,S)},C=g=>{if(g.shapeFlag&6)return C(g.component.subTree);if(g.shapeFlag&128)return g.suspense.next();const b=h(g.anchor||g.el),T=b&&b[vh];return T?h(T):b};let G=!1;const N=(g,b,T)=>{g==null?b._vnode&&je(b._vnode,null,null,!0):y(b._vnode||null,g,b,null,null,null,T),b._vnode=g,G||(G=!0,gs(),Pa(),G=!1)},Y={p:y,um:je,m:pt,r:nt,mt:le,mc:W,pc:J,pbc:M,n:C,o:e};let pe,_e;return t&&([pe,_e]=t(Y)),{render:N,hydrate:pe,createApp:qh(N,pe)}}function dl({type:e,props:t},n){return n==="svg"&&e==="foreignObject"||n==="mathml"&&e==="annotation-xml"&&t&&t.encoding&&t.encoding.includes("html")?void 0:n}function yn({effect:e,job:t},n){n?(e.flags|=32,t.flags|=4):(e.flags&=-33,t.flags&=-5)}function jc(e,t){return(!e||e&&!e.pendingBranch)&&t&&!t.persisted}function Vc(e,t,n=!1){const r=e.children,a=t.children;if(ae(r)&&ae(a))for(let l=0;l<r.length;l++){const i=r[l];let o=a[l];o.shapeFlag&1&&!o.dynamicChildren&&((o.patchFlag<=0||o.patchFlag===32)&&(o=a[l]=an(a[l]),o.el=i.el),!n&&o.patchFlag!==-2&&Vc(i,o)),o.type===Tn&&(o.el=i.el)}}function Zh(e){const t=e.slice(),n=[0];let r,a,l,i,o;const c=e.length;for(r=0;r<c;r++){const d=e[r];if(d!==0){if(a=n[n.length-1],e[a]<d){t[r]=a,n.push(r);continue}for(l=0,i=n.length-1;l<i;)o=l+i>>1,e[n[o]]<d?l=o+1:i=o;d<e[n[l]]&&(l>0&&(t[r]=n[l-1]),n[l]=r)}}for(l=n.length,i=n[l-1];l-- >0;)n[l]=i,i=t[i];return n}function Nc(e){const t=e.subTree.component;if(t)return t.asyncDep&&!t.asyncResolved?t:Nc(t)}function Es(e){if(e)for(let t=0;t<e.length;t++)e[t].flags|=8}const e1=Symbol.for("v-scx"),t1=()=>we(e1);function Si(e,t){return Di(e,null,t)}function Ae(e,t,n){return Di(e,t,n)}function Di(e,t,n=Ce){const{immediate:r,deep:a,flush:l,once:i}=n,o=$e({},n),c=t&&r||!t&&l!=="post";let d;if(Xn){if(l==="sync"){const f=t1();d=f.__watcherHandles||(f.__watcherHandles=[])}else if(!c){const f=()=>{};return f.stop=jt,f.resume=jt,f.pause=jt,f}}const u=Re;o.call=(f,m,y)=>Tt(f,u,m,y);let p=!1;l==="post"?o.scheduler=f=>{it(f,u&&u.suspense)}:l!=="sync"&&(p=!0,o.scheduler=(f,m)=>{m?f():wi(f)}),o.augmentJob=f=>{t&&(f.flags|=4),p&&(f.flags|=2,u&&(f.id=u.uid,f.i=u))};const h=ph(e,t,o);return Xn&&(d?d.push(h):c&&h()),h}function n1(e,t,n){const r=this.proxy,a=Me(e)?e.includes(".")?zc(r,e):()=>r[e]:e.bind(r,r);let l;re(t)?l=t:(l=t.handler,n=t);const i=Gr(this),o=Di(a,l.bind(r),n);return i(),o}function zc(e,t){const n=t.split(".");return()=>{let r=e;for(let a=0;a<n.length&&r;a++)r=r[n[a]];return r}}const r1=(e,t)=>t==="modelValue"||t==="model-value"?e.modelModifiers:e[`${t}Modifiers`]||e[`${tt(t)}Modifiers`]||e[`${Ln(t)}Modifiers`];function a1(e,t,...n){if(e.isUnmounted)return;const r=e.vnode.props||Ce;let a=n;const l=t.startsWith("update:"),i=l&&r1(r,t.slice(7));i&&(i.trim&&(a=n.map(u=>Me(u)?u.trim():u)),i.number&&(a=n.map(Cp)));let o,c=r[o=nl(t)]||r[o=nl(tt(t))];!c&&l&&(c=r[o=nl(Ln(t))]),c&&Tt(c,e,6,a);const d=r[o+"Once"];if(d){if(!e.emitted)e.emitted={};else if(e.emitted[o])return;e.emitted[o]=!0,Tt(d,e,6,a)}}function Hc(e,t,n=!1){const r=t.emitsCache,a=r.get(e);if(a!==void 0)return a;const l=e.emits;let i={},o=!1;if(!re(e)){const c=d=>{const u=Hc(d,t,!0);u&&(o=!0,$e(i,u))};!n&&t.mixins.length&&t.mixins.forEach(c),e.extends&&c(e.extends),e.mixins&&e.mixins.forEach(c)}return!l&&!o?(Pe(e)&&r.set(e,null),null):(ae(l)?l.forEach(c=>i[c]=null):$e(i,l),Pe(e)&&r.set(e,i),i)}function Ha(e,t){return!e||!Nr(t)?!1:(t=t.slice(2).replace(/Once$/,""),ye(e,t[0].toLowerCase()+t.slice(1))||ye(e,Ln(t))||ye(e,t))}function ul(e){const{type:t,vnode:n,proxy:r,withProxy:a,propsOptions:[l],slots:i,attrs:o,emit:c,render:d,renderCache:u,props:p,data:h,setupState:f,ctx:m,inheritAttrs:y}=e,k=Ba(e);let w,x;try{if(n.shapeFlag&4){const E=a||r,B=E;w=mt(d.call(B,E,u,p,f,h,m)),x=o}else{const E=t;w=mt(E.length>1?E(p,{attrs:o,slots:i,emit:c}):E(p,null)),x=t.props?o:l1(o)}}catch(E){_r.length=0,qr(E,e,1),w=Ie(Qe)}let v=w;if(x&&y!==!1){const E=Object.keys(x),{shapeFlag:B}=v;E.length&&B&7&&(l&&E.some(ui)&&(x=i1(x,l)),v=cn(v,x,!1,!0))}return n.dirs&&(v=cn(v,null,!1,!0),v.dirs=v.dirs?v.dirs.concat(n.dirs):n.dirs),n.transition&&Dn(v,n.transition),w=v,Ba(k),w}const l1=e=>{let t;for(const n in e)(n==="class"||n==="style"||Nr(n))&&((t||(t={}))[n]=e[n]);return t},i1=(e,t)=>{const n={};for(const r in e)(!ui(r)||!(r.slice(9)in t))&&(n[r]=e[r]);return n};function s1(e,t,n){const{props:r,children:a,component:l}=e,{props:i,children:o,patchFlag:c}=t,d=l.emitsOptions;if(t.dirs||t.transition)return!0;if(n&&c>=0){if(c&1024)return!0;if(c&16)return r?Ts(r,i,d):!!i;if(c&8){const u=t.dynamicProps;for(let p=0;p<u.length;p++){const h=u[p];if(i[h]!==r[h]&&!Ha(d,h))return!0}}}else return(a||o)&&(!o||!o.$stable)?!0:r===i?!1:r?i?Ts(r,i,d):!0:!!i;return!1}function Ts(e,t,n){const r=Object.keys(t);if(r.length!==Object.keys(e).length)return!0;for(let a=0;a<r.length;a++){const l=r[a];if(t[l]!==e[l]&&!Ha(n,l))return!0}return!1}function qc({vnode:e,parent:t},n){for(;t;){const r=t.subTree;if(r.suspense&&r.suspense.activeBranch===e&&(r.el=e.el),r===e)(e=t.vnode).el=n,t=t.parent;else break}}const Wc=e=>e.__isSuspense;function Gc(e,t){t&&t.pendingBranch?ae(e)?t.effects.push(...e):t.effects.push(e):gh(e)}const st=Symbol.for("v-fgt"),Tn=Symbol.for("v-txt"),Qe=Symbol.for("v-cmt"),xr=Symbol.for("v-stc"),_r=[];let dt=null;function o1(e=!1){_r.push(dt=e?null:[])}function c1(){_r.pop(),dt=_r[_r.length-1]||null}let Br=1;function Cs(e,t=!1){Br+=e,e<0&&dt&&t&&(dt.hasOnce=!0)}function Uc(e){return e.dynamicChildren=Br>0?dt||qn:null,c1(),Br>0&&dt&&dt.push(e),e}function f6(e,t,n,r,a,l){return Uc(Jc(e,t,n,r,a,l,!0))}function d1(e,t,n,r,a){return Uc(Ie(e,t,n,r,a,!0))}function Oa(e){return e?e.__v_isVNode===!0:!1}function _n(e,t){return e.type===t.type&&e.key===t.key}const Kc=({key:e})=>e??null,wa=({ref:e,ref_key:t,ref_for:n})=>(typeof e=="number"&&(e=""+e),e!=null?Me(e)||Oe(e)||re(e)?{i:ct,r:e,k:t,f:!!n}:e:null);function Jc(e,t=null,n=null,r=0,a=null,l=e===st?0:1,i=!1,o=!1){const c={__v_isVNode:!0,__v_skip:!0,type:e,props:t,key:t&&Kc(t),ref:t&&wa(t),scopeId:mc,slotScopeIds:null,children:n,component:null,suspense:null,ssContent:null,ssFallback:null,dirs:null,transition:null,el:null,anchor:null,target:null,targetStart:null,targetAnchor:null,staticCount:0,shapeFlag:l,patchFlag:r,dynamicProps:a,dynamicChildren:null,appContext:null,ctx:ct};return o?(Li(c,n),l&128&&e.normalize(c)):n&&(c.shapeFlag|=Me(n)?8:16),Br>0&&!i&&dt&&(c.patchFlag>0||l&6)&&c.patchFlag!==32&&dt.push(c),c}const Ie=u1;function u1(e,t=null,n=null,r=0,a=null,l=!1){if((!e||e===Rh)&&(e=Qe),Oa(e)){const o=cn(e,t,!0);return n&&Li(o,n),Br>0&&!l&&dt&&(o.shapeFlag&6?dt[dt.indexOf(e)]=o:dt.push(o)),o.patchFlag=-2,o}if(_1(e)&&(e=e.__vccOpts),t){t=p1(t);let{class:o,style:c}=t;o&&!Me(o)&&(t.class=gi(o)),Pe(c)&&(_i(c)&&!ae(c)&&(c=$e({},c)),t.style=fi(c))}const i=Me(e)?1:Wc(e)?128:vc(e)?64:Pe(e)?4:re(e)?2:0;return Jc(e,t,n,r,a,i,l,!0)}function p1(e){return e?_i(e)||Bc(e)?$e({},e):e:null}function cn(e,t,n=!1,r=!1){const{props:a,ref:l,patchFlag:i,children:o,transition:c}=e,d=t?h1(a||{},t):a,u={__v_isVNode:!0,__v_skip:!0,type:e.type,props:d,key:d&&Kc(d),ref:t&&t.ref?n&&l?ae(l)?l.concat(wa(t)):[l,wa(t)]:wa(t):l,scopeId:e.scopeId,slotScopeIds:e.slotScopeIds,children:o,target:e.target,targetStart:e.targetStart,targetAnchor:e.targetAnchor,staticCount:e.staticCount,shapeFlag:e.shapeFlag,patchFlag:t&&e.type!==st?i===-1?16:i|16:i,dynamicProps:e.dynamicProps,dynamicChildren:e.dynamicChildren,appContext:e.appContext,dirs:e.dirs,transition:c,component:e.component,suspense:e.suspense,ssContent:e.ssContent&&cn(e.ssContent),ssFallback:e.ssFallback&&cn(e.ssFallback),el:e.el,anchor:e.anchor,ctx:e.ctx,ce:e.ce};return c&&r&&Dn(u,c.clone(u)),u}function Yc(e=" ",t=0){return Ie(Tn,null,e,t)}function g6(e,t){const n=Ie(xr,null,e);return n.staticCount=t,n}function m6(e="",t=!1){return t?(o1(),d1(Qe,null,e)):Ie(Qe,null,e)}function mt(e){return e==null||typeof e=="boolean"?Ie(Qe):ae(e)?Ie(st,null,e.slice()):Oa(e)?an(e):Ie(Tn,null,String(e))}function an(e){return e.el===null&&e.patchFlag!==-1||e.memo?e:cn(e)}function Li(e,t){let n=0;const{shapeFlag:r}=e;if(t==null)t=null;else if(ae(t))n=16;else if(typeof t=="object")if(r&65){const a=t.default;a&&(a._c&&(a._d=!1),Li(e,a()),a._c&&(a._d=!0));return}else{n=32;const a=t._;!a&&!Bc(t)?t._ctx=ct:a===3&&ct&&(ct.slots._===1?t._=1:(t._=2,e.patchFlag|=1024))}else re(t)?(t={default:t,_ctx:ct},n=32):(t=String(t),r&64?(n=16,t=[Yc(t)]):n=8);e.children=t,e.shapeFlag|=n}function h1(...e){const t={};for(let n=0;n<e.length;n++){const r=e[n];for(const a in r)if(a==="class")t.class!==r.class&&(t.class=gi([t.class,r.class]));else if(a==="style")t.style=fi([t.style,r.style]);else if(Nr(a)){const l=t[a],i=r[a];i&&l!==i&&!(ae(l)&&l.includes(i))&&(t[a]=l?[].concat(l,i):i)}else a!==""&&(t[a]=r[a])}return t}function ft(e,t,n,r=null){Tt(e,t,7,[n,r])}const f1=Sc();let g1=0;function m1(e,t,n){const r=e.type,a=(t?t.appContext:e.appContext)||f1,l={uid:g1++,vnode:e,type:r,parent:t,appContext:a,root:null,next:null,subTree:null,effect:null,update:null,job:null,scope:new Rp(!0),render:null,proxy:null,exposed:null,exposeProxy:null,withProxy:null,provides:t?t.provides:Object.create(a.provides),ids:t?t.ids:["",0,0],accessCache:null,renderCache:[],components:null,directives:null,propsOptions:Oc(r,a),emitsOptions:Hc(r,a),emit:null,emitted:null,propsDefaults:Ce,inheritAttrs:r.inheritAttrs,ctx:Ce,data:Ce,props:Ce,attrs:Ce,slots:Ce,refs:Ce,setupState:Ce,setupContext:null,suspense:n,suspenseId:n?n.pendingId:0,asyncDep:null,asyncResolved:!1,isMounted:!1,isUnmounted:!1,isDeactivated:!1,bc:null,c:null,bm:null,m:null,bu:null,u:null,um:null,bum:null,da:null,a:null,rtg:null,rtc:null,ec:null,sp:null};return l.ctx={_:l},l.root=t?t.root:l,l.emit=a1.bind(null,l),e.ce&&e.ce(l),l}let Re=null;const ir=()=>Re||ct;let Ra,zl;{const e=Va(),t=(n,r)=>{let a;return(a=e[n])||(a=e[n]=[]),a.push(r),l=>{a.length>1?a.forEach(i=>i(l)):a[0](l)}};Ra=t("__VUE_INSTANCE_SETTERS__",n=>Re=n),zl=t("__VUE_SSR_SETTERS__",n=>Xn=n)}const Gr=e=>{const t=Re;return Ra(e),e.scope.on(),()=>{e.scope.off(),Ra(t)}},Ss=()=>{Re&&Re.scope.off(),Ra(null)};function Qc(e){return e.vnode.shapeFlag&4}let Xn=!1;function v1(e,t=!1,n=!1){t&&zl(t);const{props:r,children:a}=e.vnode,l=Qc(e);Wh(e,r,l,t),Jh(e,a,n);const i=l?y1(e,t):void 0;return t&&zl(!1),i}function y1(e,t){const n=e.type;e.accessCache=Object.create(null),e.proxy=new Proxy(e.ctx,$h);const{setup:r}=n;if(r){dn();const a=e.setupContext=r.length>1?k1(e):null,l=Gr(e),i=Hr(r,e,0,[e.props,a]),o=Wo(i);if(un(),l(),(o||e.sp)&&!Kn(e)&&Ei(e),o){if(i.then(Ss,Ss),t)return i.then(c=>{Ds(e,c)}).catch(c=>{qr(c,e,0)});e.asyncDep=i}else Ds(e,i)}else Xc(e)}function Ds(e,t,n){re(t)?e.type.__ssrInlineRender?e.ssrRender=t:e.render=t:Pe(t)&&(e.setupState=uc(t)),Xc(e)}function Xc(e,t,n){const r=e.type;e.render||(e.render=r.render||jt);{const a=Gr(e);dn();try{Mh(e)}finally{un(),a()}}}const b1={get(e,t){return qe(e,"get",""),e[t]}};function k1(e){const t=n=>{e.exposed=n||{}};return{attrs:new Proxy(e.attrs,b1),slots:e.slots,emit:e.emit,expose:t}}function Pi(e){return e.exposed?e.exposeProxy||(e.exposeProxy=new Proxy(uc(nh(e.exposed)),{get(t,n){if(n in t)return t[n];if(n in kr)return kr[n](e)},has(t,n){return n in t||n in kr}})):e.proxy}function x1(e,t=!0){return re(e)?e.displayName||e.name:e.name||t&&e.__name}function _1(e){return re(e)&&"__vccOpts"in e}const _=(e,t)=>dh(e,t,Xn);function s(e,t,n){const r=arguments.length;return r===2?Pe(t)&&!ae(t)?Oa(t)?Ie(e,null,[t]):Ie(e,t):Ie(e,null,t):(r>3?n=Array.prototype.slice.call(arguments,2):r===3&&Oa(n)&&(n=[n]),Ie(e,t,n))}const w1="3.5.13";/**
+* @vue/runtime-dom v3.5.13
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/let Hl;const Ls=typeof window<"u"&&window.trustedTypes;if(Ls)try{Hl=Ls.createPolicy("vue",{createHTML:e=>e})}catch{}const Zc=Hl?e=>Hl.createHTML(e):e=>e,A1="http://www.w3.org/2000/svg",E1="http://www.w3.org/1998/Math/MathML",Gt=typeof document<"u"?document:null,Ps=Gt&&Gt.createElement("template"),T1={insert:(e,t,n)=>{t.insertBefore(e,n||null)},remove:e=>{const t=e.parentNode;t&&t.removeChild(e)},createElement:(e,t,n,r)=>{const a=t==="svg"?Gt.createElementNS(A1,e):t==="mathml"?Gt.createElementNS(E1,e):n?Gt.createElement(e,{is:n}):Gt.createElement(e);return e==="select"&&r&&r.multiple!=null&&a.setAttribute("multiple",r.multiple),a},createText:e=>Gt.createTextNode(e),createComment:e=>Gt.createComment(e),setText:(e,t)=>{e.nodeValue=t},setElementText:(e,t)=>{e.textContent=t},parentNode:e=>e.parentNode,nextSibling:e=>e.nextSibling,querySelector:e=>Gt.querySelector(e),setScopeId(e,t){e.setAttribute(t,"")},insertStaticContent(e,t,n,r,a,l){const i=n?n.previousSibling:t.lastChild;if(a&&(a===l||a.nextSibling))for(;t.insertBefore(a.cloneNode(!0),n),!(a===l||!(a=a.nextSibling)););else{Ps.innerHTML=Zc(r==="svg"?`<svg>${e}</svg>`:r==="mathml"?`<math>${e}</math>`:e);const o=Ps.content;if(r==="svg"||r==="mathml"){const c=o.firstChild;for(;c.firstChild;)o.appendChild(c.firstChild);o.removeChild(c)}t.insertBefore(o,n)}return[i?i.nextSibling:t.firstChild,n?n.previousSibling:t.lastChild]}},Xt="transition",pr="animation",Zn=Symbol("_vtc"),ed={name:String,type:String,css:{type:Boolean,default:!0},duration:[String,Number,Object],enterFromClass:String,enterActiveClass:String,enterToClass:String,appearFromClass:String,appearActiveClass:String,appearToClass:String,leaveFromClass:String,leaveActiveClass:String,leaveToClass:String},td=$e({},bc,ed),C1=e=>(e.displayName="Transition",e.props=td,e),er=C1((e,{slots:t})=>s(bh,nd(e),t)),bn=(e,t=[])=>{ae(e)?e.forEach(n=>n(...t)):e&&e(...t)},Bs=e=>e?ae(e)?e.some(t=>t.length>1):e.length>1:!1;function nd(e){const t={};for(const D in e)D in ed||(t[D]=e[D]);if(e.css===!1)return t;const{name:n="v",type:r,duration:a,enterFromClass:l=`${n}-enter-from`,enterActiveClass:i=`${n}-enter-active`,enterToClass:o=`${n}-enter-to`,appearFromClass:c=l,appearActiveClass:d=i,appearToClass:u=o,leaveFromClass:p=`${n}-leave-from`,leaveActiveClass:h=`${n}-leave-active`,leaveToClass:f=`${n}-leave-to`}=e,m=S1(a),y=m&&m[0],k=m&&m[1],{onBeforeEnter:w,onEnter:x,onEnterCancelled:v,onLeave:E,onLeaveCancelled:B,onBeforeAppear:q=w,onAppear:L=x,onAppearCancelled:W=v}=t,I=(D,z,le,ge)=>{D._enterCancelled=ge,tn(D,z?u:o),tn(D,z?d:i),le&&le()},M=(D,z)=>{D._isLeaving=!1,tn(D,p),tn(D,f),tn(D,h),z&&z()},F=D=>(z,le)=>{const ge=D?L:x,K=()=>I(z,D,le);bn(ge,[z,K]),Is(()=>{tn(z,D?c:l),Ft(z,D?u:o),Bs(ge)||Os(z,r,y,K)})};return $e(t,{onBeforeEnter(D){bn(w,[D]),Ft(D,l),Ft(D,i)},onBeforeAppear(D){bn(q,[D]),Ft(D,c),Ft(D,d)},onEnter:F(!1),onAppear:F(!0),onLeave(D,z){D._isLeaving=!0;const le=()=>M(D,z);Ft(D,p),D._enterCancelled?(Ft(D,h),ql()):(ql(),Ft(D,h)),Is(()=>{D._isLeaving&&(tn(D,p),Ft(D,f),Bs(E)||Os(D,r,k,le))}),bn(E,[D,le])},onEnterCancelled(D){I(D,!1,void 0,!0),bn(v,[D])},onAppearCancelled(D){I(D,!0,void 0,!0),bn(W,[D])},onLeaveCancelled(D){M(D),bn(B,[D])}})}function S1(e){if(e==null)return null;if(Pe(e))return[pl(e.enter),pl(e.leave)];{const t=pl(e);return[t,t]}}function pl(e){return Sp(e)}function Ft(e,t){t.split(/\s+/).forEach(n=>n&&e.classList.add(n)),(e[Zn]||(e[Zn]=new Set)).add(t)}function tn(e,t){t.split(/\s+/).forEach(r=>r&&e.classList.remove(r));const n=e[Zn];n&&(n.delete(t),n.size||(e[Zn]=void 0))}function Is(e){requestAnimationFrame(()=>{requestAnimationFrame(e)})}let D1=0;function Os(e,t,n,r){const a=e._endId=++D1,l=()=>{a===e._endId&&r()};if(n!=null)return setTimeout(l,n);const{type:i,timeout:o,propCount:c}=rd(e,t);if(!i)return r();const d=i+"end";let u=0;const p=()=>{e.removeEventListener(d,h),l()},h=f=>{f.target===e&&++u>=c&&p()};setTimeout(()=>{u<c&&p()},o+1),e.addEventListener(d,h)}function rd(e,t){const n=window.getComputedStyle(e),r=m=>(n[m]||"").split(", "),a=r(`${Xt}Delay`),l=r(`${Xt}Duration`),i=Rs(a,l),o=r(`${pr}Delay`),c=r(`${pr}Duration`),d=Rs(o,c);let u=null,p=0,h=0;t===Xt?i>0&&(u=Xt,p=i,h=l.length):t===pr?d>0&&(u=pr,p=d,h=c.length):(p=Math.max(i,d),u=p>0?i>d?Xt:pr:null,h=u?u===Xt?l.length:c.length:0);const f=u===Xt&&/\b(transform|all)(,|$)/.test(r(`${Xt}Property`).toString());return{type:u,timeout:p,propCount:h,hasTransform:f}}function Rs(e,t){for(;e.length<t.length;)e=e.concat(e);return Math.max(...t.map((n,r)=>Fs(n)+Fs(e[r])))}function Fs(e){return e==="auto"?0:Number(e.slice(0,-1).replace(",","."))*1e3}function ql(){return document.body.offsetHeight}function L1(e,t,n){const r=e[Zn];r&&(t=(t?[t,...r]:[...r]).join(" ")),t==null?e.removeAttribute("class"):n?e.setAttribute("class",t):e.className=t}const $s=Symbol("_vod"),P1=Symbol("_vsh"),B1=Symbol(""),I1=/(^|;)\s*display\s*:/;function O1(e,t,n){const r=e.style,a=Me(n);let l=!1;if(n&&!a){if(t)if(Me(t))for(const i of t.split(";")){const o=i.slice(0,i.indexOf(":")).trim();n[o]==null&&Aa(r,o,"")}else for(const i in t)n[i]==null&&Aa(r,i,"");for(const i in n)i==="display"&&(l=!0),Aa(r,i,n[i])}else if(a){if(t!==n){const i=r[B1];i&&(n+=";"+i),r.cssText=n,l=I1.test(n)}}else t&&e.removeAttribute("style");$s in e&&(e[$s]=l?r.display:"",e[P1]&&(r.display="none"))}const Ms=/\s*!important$/;function Aa(e,t,n){if(ae(n))n.forEach(r=>Aa(e,t,r));else if(n==null&&(n=""),t.startsWith("--"))e.setProperty(t,n);else{const r=R1(e,t);Ms.test(n)?e.setProperty(Ln(r),n.replace(Ms,""),"important"):e[r]=n}}const js=["Webkit","Moz","ms"],hl={};function R1(e,t){const n=hl[t];if(n)return n;let r=tt(t);if(r!=="filter"&&r in e)return hl[t]=r;r=zr(r);for(let a=0;a<js.length;a++){const l=js[a]+r;if(l in e)return hl[t]=l}return t}const Vs="http://www.w3.org/1999/xlink";function Ns(e,t,n,r,a,l=Op(t)){r&&t.startsWith("xlink:")?n==null?e.removeAttributeNS(Vs,t.slice(6,t.length)):e.setAttributeNS(Vs,t,n):n==null||l&&!Uo(n)?e.removeAttribute(t):e.setAttribute(t,l?"":lr(n)?String(n):n)}function zs(e,t,n,r,a){if(t==="innerHTML"||t==="textContent"){n!=null&&(e[t]=t==="innerHTML"?Zc(n):n);return}const l=e.tagName;if(t==="value"&&l!=="PROGRESS"&&!l.includes("-")){const o=l==="OPTION"?e.getAttribute("value")||"":e.value,c=n==null?e.type==="checkbox"?"on":"":String(n);(o!==c||!("_value"in e))&&(e.value=c),n==null&&e.removeAttribute(t),e._value=n;return}let i=!1;if(n===""||n==null){const o=typeof e[t];o==="boolean"?n=Uo(n):n==null&&o==="string"?(n="",i=!0):o==="number"&&(n=0,i=!0)}try{e[t]=n}catch{}i&&e.removeAttribute(a||t)}function F1(e,t,n,r){e.addEventListener(t,n,r)}function $1(e,t,n,r){e.removeEventListener(t,n,r)}const Hs=Symbol("_vei");function M1(e,t,n,r,a=null){const l=e[Hs]||(e[Hs]={}),i=l[t];if(r&&i)i.value=r;else{const[o,c]=j1(t);if(r){const d=l[t]=z1(r,a);F1(e,o,d,c)}else i&&($1(e,o,i,c),l[t]=void 0)}}const qs=/(?:Once|Passive|Capture)$/;function j1(e){let t;if(qs.test(e)){t={};let r;for(;r=e.match(qs);)e=e.slice(0,e.length-r[0].length),t[r[0].toLowerCase()]=!0}return[e[2]===":"?e.slice(3):Ln(e.slice(2)),t]}let fl=0;const V1=Promise.resolve(),N1=()=>fl||(V1.then(()=>fl=0),fl=Date.now());function z1(e,t){const n=r=>{if(!r._vts)r._vts=Date.now();else if(r._vts<=n.attached)return;Tt(H1(r,n.value),t,5,[r])};return n.value=e,n.attached=N1(),n}function H1(e,t){if(ae(t)){const n=e.stopImmediatePropagation;return e.stopImmediatePropagation=()=>{n.call(e),e._stopped=!0},t.map(r=>a=>!a._stopped&&r&&r(a))}else return t}const Ws=e=>e.charCodeAt(0)===111&&e.charCodeAt(1)===110&&e.charCodeAt(2)>96&&e.charCodeAt(2)<123,q1=(e,t,n,r,a,l)=>{const i=a==="svg";t==="class"?L1(e,r,i):t==="style"?O1(e,n,r):Nr(t)?ui(t)||M1(e,t,n,r,l):(t[0]==="."?(t=t.slice(1),!0):t[0]==="^"?(t=t.slice(1),!1):W1(e,t,r,i))?(zs(e,t,r),!e.tagName.includes("-")&&(t==="value"||t==="checked"||t==="selected")&&Ns(e,t,r,i,l,t!=="value")):e._isVueCE&&(/[A-Z]/.test(t)||!Me(r))?zs(e,tt(t),r,l,t):(t==="true-value"?e._trueValue=r:t==="false-value"&&(e._falseValue=r),Ns(e,t,r,i))};function W1(e,t,n,r){if(r)return!!(t==="innerHTML"||t==="textContent"||t in e&&Ws(t)&&re(n));if(t==="spellcheck"||t==="draggable"||t==="translate"||t==="form"||t==="list"&&e.tagName==="INPUT"||t==="type"&&e.tagName==="TEXTAREA")return!1;if(t==="width"||t==="height"){const a=e.tagName;if(a==="IMG"||a==="VIDEO"||a==="CANVAS"||a==="SOURCE")return!1}return Ws(t)&&Me(n)?!1:t in e}const ad=new WeakMap,ld=new WeakMap,Fa=Symbol("_moveCb"),Gs=Symbol("_enterCb"),G1=e=>(delete e.props.mode,e),U1=G1({name:"TransitionGroup",props:$e({},td,{tag:String,moveClass:String}),setup(e,{slots:t}){const n=ir(),r=yc();let a,l;return Ec(()=>{if(!a.length)return;const i=e.moveClass||`${e.name||"v"}-move`;if(!Q1(a[0].el,n.vnode.el,i))return;a.forEach(K1),a.forEach(J1);const o=a.filter(Y1);ql(),o.forEach(c=>{const d=c.el,u=d.style;Ft(d,i),u.transform=u.webkitTransform=u.transitionDuration="";const p=d[Fa]=h=>{h&&h.target!==d||(!h||/transform$/.test(h.propertyName))&&(d.removeEventListener("transitionend",p),d[Fa]=null,tn(d,i))};d.addEventListener("transitionend",p)})}),()=>{const i=de(e),o=nd(i);let c=i.tag||st;if(a=[],l)for(let d=0;d<l.length;d++){const u=l[d];u.el&&u.el instanceof Element&&(a.push(u),Dn(u,Lr(u,o,r,n)),ad.set(u,u.el.getBoundingClientRect()))}l=t.default?Ai(t.default()):[];for(let d=0;d<l.length;d++){const u=l[d];u.key!=null&&Dn(u,Lr(u,o,r,n))}return Ie(c,null,l)}}}),id=U1;function K1(e){const t=e.el;t[Fa]&&t[Fa](),t[Gs]&&t[Gs]()}function J1(e){ld.set(e,e.el.getBoundingClientRect())}function Y1(e){const t=ad.get(e),n=ld.get(e),r=t.left-n.left,a=t.top-n.top;if(r||a){const l=e.el.style;return l.transform=l.webkitTransform=`translate(${r}px,${a}px)`,l.transitionDuration="0s",e}}function Q1(e,t,n){const r=e.cloneNode(),a=e[Zn];a&&a.forEach(o=>{o.split(/\s+/).forEach(c=>c&&r.classList.remove(c))}),n.split(/\s+/).forEach(o=>o&&r.classList.add(o)),r.style.display="none";const l=t.nodeType===1?t:t.parentNode;l.appendChild(r);const{hasTransform:i}=rd(r);return l.removeChild(r),i}const X1=$e({patchProp:q1},T1);let gl,Us=!1;function Z1(){return gl=Us?gl:Qh(X1),Us=!0,gl}const e2=(...e)=>{const t=Z1().createApp(...e),{mount:n}=t;return t.mount=r=>{const a=n2(r);if(a)return n(a,!0,t2(a))},t};function t2(e){if(e instanceof SVGElement)return"svg";if(typeof MathMLElement=="function"&&e instanceof MathMLElement)return"mathml"}function n2(e){return Me(e)?document.querySelector(e):e}var Ur=e=>/^[a-z][a-z0-9+.-]*:/.test(e)||e.startsWith("//"),r2=/.md((\?|#).*)?$/,Bi=(e,t="/")=>Ur(e)||e.startsWith("/")&&!e.startsWith(t)&&!r2.test(e),hn=e=>/^(https?:)?\/\//.test(e),Ks=e=>{if(!e||e.endsWith("/"))return e;let t=e.replace(/(^|\/)README.md$/i,"$1index.html");return t.endsWith(".md")?t=`${t.substring(0,t.length-3)}.html`:t.endsWith(".html")||(t=`${t}.html`),t.endsWith("/index.html")&&(t=t.substring(0,t.length-10)),t},a2="http://.",l2=(e,t)=>{if(!e.startsWith("/")&&t){const n=t.slice(0,t.lastIndexOf("/"));return Ks(new URL(`${n}/${e}`,a2).pathname)}return Ks(e)},i2=(e,t)=>{const n=Object.keys(e).sort((r,a)=>{const l=a.split("/").length-r.split("/").length;return l!==0?l:a.length-r.length});for(const r of n)if(t.startsWith(r))return r;return"/"},s2=/(#|\?)/,sd=e=>{const[t,...n]=e.split(s2);return{pathname:t,hashAndQueries:n.join("")}},o2=["link","meta","script","style","noscript","template"],c2=["title","base"],d2=([e,t,n])=>c2.includes(e)?e:o2.includes(e)?e==="meta"&&t.name?`${e}.${t.name}`:e==="template"&&t.id?`${e}.${t.id}`:JSON.stringify([e,Object.entries(t).map(([r,a])=>typeof a=="boolean"?a?[r,""]:null:[r,a]).filter(r=>r!=null).sort(([r],[a])=>r.localeCompare(a)),n]):null,u2=e=>{const t=new Set,n=[];return e.forEach(r=>{const a=d2(r);a&&!t.has(a)&&(t.add(a),n.push(r))}),n},p2=e=>e.startsWith("/")?e:`/${e}`,Ii=e=>e.endsWith("/")||e.endsWith(".html")?e:`${e}/`,Oi=e=>e.endsWith("/")?e.slice(0,-1):e,od=e=>e.startsWith("/")?e.slice(1):e,h2=e=>typeof e=="function",sr=e=>Object.prototype.toString.call(e)==="[object Object]",De=e=>typeof e=="string";const f2="modulepreload",g2=function(e){return"/"+e},Js={},A=function(t,n,r){let a=Promise.resolve();if(n&&n.length>0){document.getElementsByTagName("link");const i=document.querySelector("meta[property=csp-nonce]"),o=(i==null?void 0:i.nonce)||(i==null?void 0:i.getAttribute("nonce"));a=Promise.allSettled(n.map(c=>{if(c=g2(c),c in Js)return;Js[c]=!0;const d=c.endsWith(".css"),u=d?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${c}"]${u}`))return;const p=document.createElement("link");if(p.rel=d?"stylesheet":f2,d||(p.as="script"),p.crossOrigin="",p.href=c,o&&p.setAttribute("nonce",o),document.head.appendChild(p),d)return new Promise((h,f)=>{p.addEventListener("load",h),p.addEventListener("error",()=>f(new Error(`Unable to preload CSS for ${c}`)))})}))}function l(i){const o=new Event("vite:preloadError",{cancelable:!0});if(o.payload=i,window.dispatchEvent(o),!o.defaultPrevented)throw i}return a.then(i=>{for(const o of i||[])o.status==="rejected"&&l(o.reason);return t().catch(l)})},m2=JSON.parse("{}"),v2=Object.fromEntries([["/",{loader:()=>A(()=>import("./index.html-h-M9zWe9.js"),__vite__mapDeps([0,1])),meta:{title:""}}],["/intro.html",{loader:()=>A(()=>import("./intro.html-OG2FoPgL.js"),__vite__mapDeps([2,1])),meta:{date:1707929375e3,cover:"/assets/images/Fearless!.png",excerpt:`
+<p>🎉 欢迎来到 Dream_oyh 的 blog！</p>
+<h2>For you</h2>
+`,readingTime:{minutes:4.77,words:1430},title:"个人简介",icon:"profilefill",type:"article"}}],["/articles/CPC.html",{loader:()=>A(()=>import("./CPC.html-B1qYsFX9.js"),__vite__mapDeps([3,1])),meta:{date:1707929375e3,excerpt:`
+<h2>入党誓词</h2>
+<p>我志愿加入中国共产党，拥护党的纲领，遵守党的章程，履行党员义务，执行党的决定，严守党的纪律，保守党的秘密，对党忠诚，积极工作，为共产主义奋斗终身，随时准备为党和人民牺牲一切，永不叛党。</p>
+<h2>党的二十大精神学习</h2>
+<ul>
+<li><strong>大会主题：</strong> 高举中国特色社会主义伟大旗帜，全面贯彻新时代中国特色社会主义思想，弘扬伟大建党精神，自信自强，守正创新，踔厉奋发，勇毅前行，为全面建设社会主义现代化国家、全面推进中华民族伟大复兴而团结奋斗</li>
+</ul>
+<hr>
+<ul>
+<li><strong>十年来的三件大事：</strong></li>
+</ul>`,readingTime:{minutes:7.29,words:2187},title:"党的理论学习",type:"article"}}],["/articles/CSU.html",{loader:()=>A(()=>import("./CSU.html-Cq5R2WU4.js"),__vite__mapDeps([4,1])),meta:{date:17091648e5,localizedDate:"2024年2月29日",isEncrypted:!0,readingTime:{minutes:6.14,words:1841},title:"CSU 记录",icon:"tubiaozhizuomoban-",type:"article"}}],["/articles/baoyan.html",{loader:()=>A(()=>import("./baoyan.html-DKFHKPgV.js"),__vite__mapDeps([5,1])),meta:{date:17091648e5,localizedDate:"2024年2月29日",excerpt:`
+<div class="hint-container tip">
+<p class="hint-container-title">写在前面</p>
+<p>2024.02，我进入大三下学期，开始了保研的最后冲刺，博客作为优质的知识管理工具，我将这次保研过程中收集到的资料放进这个文档中，以方便查询和分享。</p>
+<p>本文档中的资源很多是各大论坛网友的原创，本博客仅作收集、转载，而非个人原创，并且本博客不保证资源信息的准确性。</p>
+</div>
+<p>保研箴言：尽早准备和联系老师；要有自信，别怕，大胆问大胆说；多多和学长学姐交流，多多在社交媒体平台搜索经验贴</p>
+<!-- bg（背景）:
+
+- 专业排名：4/150
+- 竞赛：交科校一、机器人视觉比赛校三、数模国赛 M 奖
+- 论文：SCI 一区二作（综述）
+- 投递夏令营：清华车辆直博（被拒）、上交电院直博（被拒）、浙大机械直博（优营）、同济汽车硕士（优营）、西交机械硕士（优营）、东南机械（入营但没参加） -->`,readingTime:{minutes:18.92,words:5677},title:"保研资源站",type:"article"}}],["/articles/boardcast.html",{loader:()=>A(()=>import("./boardcast.html-CB3iZ7pc.js"),__vite__mapDeps([6,1])),meta:{date:1740140304e3,category:["推荐"],tag:["文章"],excerpt:`
+<h2>小宇宙</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">播客名称</th>
+<th style="text-align:left">简介</th>
+<th style="text-align:left">主要话题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">可以谈谈</td>
+<td style="text-align:left">清华马克思主义博士可妈家的账号</td>
+<td style="text-align:left">婚姻、爱情、读博、育儿等社会性议题</td>
+</tr>
+<tr>
+<td style="text-align:center">我有一个朋友</td>
+<td style="text-align:left">董晨宇老师开的个人播客分享账号</td>
+<td style="text-align:left">互联网、网红、社交媒体、社会热点等媒体议题</td>
+</tr>
+<tr>
+<td style="text-align:center">是个人物</td>
+<td style="text-align:left">“人物”公众号的播客</td>
+<td style="text-align:left">人性、故事等社会性议题</td>
+</tr>
+<tr>
+<td style="text-align:center">正面连接</td>
+<td style="text-align:left">和“人物”类似的一个播客，有自己的同名公众号，质量也很棒</td>
+<td style="text-align:left">社会、人性等社社会性议题</td>
+</tr>
+<tr>
+<td style="text-align:center">阿弥晚安</td>
+<td style="text-align:left">狂阿弥的个人播客，平常我自己听得比较少</td>
+<td style="text-align:left">日常生活分享，轻松向</td>
+</tr>
+<tr>
+<td style="text-align:center">史蒂夫说</td>
+<td style="text-align:left">“拓展意识边界，看见人的复杂和伟大”</td>
+<td style="text-align:left">人生、困境、爱等心理议题</td>
+</tr>
+<tr>
+<td style="text-align:center">去大理走小路 and 旷野迷雾</td>
+<td style="text-align:left">一位大理独立书店人的播客</td>
+<td style="text-align:left">阅读、生活、人生等人生议题</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:.85,words:254},title:"播客推荐",type:"article"}}],["/articles/fool.html",{loader:()=>A(()=>import("./fool.html-Mfapkka1.js"),__vite__mapDeps([7,1])),meta:{date:173590801e4,excerpt:`
+<p>我写代码光想着赶紧写完拉倒，导致产生一堆低级错误，最后被这些低级错误绊了个大趔趄。</p>
+<h2>1. 把加速度数据错读成速度数据</h2>
+<p>2024.11.30，现在要做 UUV 的模型辨识，需要对加速度数据进行坐标变换，从世界坐标系变换到局部机体坐标系。因为我对这个变换没有学过，我的注意力全在如何写这个变换矩阵上，但是不管这个变换矩阵怎么写，变换出来的加速度始终和真值匹配不上。</p>
+<p>修了整整一天，找了整整一天的资料，最后发现和变换矩阵相乘的数不是全局坐标系下的加速度，而是速度，因为最开始的时候用 pd 数据读错列了……</p>
+<h2>2. 分不清正负号</h2>`,readingTime:{minutes:1.38,words:414},title:"犯傻记录",icon:"build",type:"article"}}],["/articles/",{loader:()=>A(()=>import("./index.html-Ci6PfBcr.js"),__vite__mapDeps([8,1])),meta:{date:1708053243e3,excerpt:`
+<p>该板块会记录我写的个人随笔、杂项文章、在 CSU 的学习生活和他山之石，目录可见侧边栏。</p>
+`,readingTime:{minutes:.13,words:38},title:"文章",type:"article"}}],["/articles/pcdiy.html",{loader:()=>A(()=>import("./pcdiy.html-KnOMZUsp.js"),__vite__mapDeps([9,1])),meta:{date:17441568e5,localizedDate:"2025年4月9日",category:["工具"],excerpt:`
+<p>装机小白也要开始学习台式机的 diy 了，但是具体的装机还得到了浙大再搞，否则到时候搬箱倒柜的真是个麻烦事。</p>
+<p>这两天在学习装机基础，我是完全不懂的新手小白，所以下面内容会很基础。</p>
+<h2>装机九大部件</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">项目</th>
+<th style="text-align:center">主流厂家</th>
+<th style="text-align:center">型号区分</th>
+<th style="text-align:center">相关链接</th>
+<th style="text-align:center">常见参数</th>
+<th style="text-align:center">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">显卡</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="https://www.mydrivers.com/zhuanti/tianti/gpu/" target="_blank" rel="noopener noreferrer">显卡天梯图</a></td>
+<td style="text-align:center">频率、显存、功耗（注意功耗要和电源匹配）</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">CPU</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="https://www.mydrivers.com/zhuanti/tianti/cpu/" target="_blank" rel="noopener noreferrer">CPU 天梯图</a></td>
+<td style="text-align:center">核心数、线程、IPC（效率）、频率</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">主板</td>
+<td style="text-align:center">分类：ATX 板型（大板）、MATX 板型（中板）、ITX 板型（小板）</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">芯片组型号</td>
+<td style="text-align:center">芯片组决定主板档次</td>
+</tr>
+<tr>
+<td style="text-align:center">内存条</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">容量、频率（&gt;2666H 要开启主板 XMP）</td>
+<td style="text-align:center">能双不单，能二不四</td>
+</tr>
+<tr>
+<td style="text-align:center">固态硬盘</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">接口、协议、颗粒</td>
+<td style="text-align:center">机械硬盘就不单拎出来细说了，没啥可以写的</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>电源</strong></td>
+<td style="text-align:center">海韵、振华、全汉、华硕、银欣等</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center"><a href="https://www.fcpowerup.com/5090-psu/" target="_blank" rel="noopener noreferrer">FCPPOWERUP 极电魔方电源匹配图</a></td>
+<td style="text-align:center">瓦数！要和 CPU 和显卡匹配</td>
+<td style="text-align:center">瓦数要仔细挑选，电源一炸整台机报废</td>
+</tr>
+<tr>
+<td style="text-align:center">散热器</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">水冷、风冷</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">挑选参考<a href="https://www.bilibili.com/video/BV1k64y1h7QP" target="_blank" rel="noopener noreferrer">德柱视频</a>的建议</td>
+</tr>
+<tr>
+<td style="text-align:center">机箱</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">注意主板兼容性、显卡兼容性、散热器兼容性、硬盘位数量、机箱散热</td>
+</tr>
+<tr>
+<td style="text-align:center">散热风扇</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">大 4D、小 3pin、<strong>小 4pin 接口风扇（推荐）</strong></td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:1.64,words:492},title:"装机",icon:"keyboard",type:"article"}}],["/articles/read.html",{loader:()=>A(()=>import("./read.html-YCdXA6Xi.js"),__vite__mapDeps([10,1])),meta:{date:1707929375e3,excerpt:`
+<p><strong>唯有文字能够担当此任，宣告生命曾经在场。</strong></p>
+<h2>读书记录</h2>
+<p>我原先使用豆瓣来记录我的影视剧和读书经历，但是豆瓣存在以下缺点：</p>
+<ol>
+<li>封闭，现在开始封禁爬虫了</li>
+<li>评论区和小组氛围实在说不上好</li>
+<li>缺少外文书籍条目</li>
+<li>有些条目被封禁</li>
+</ol>
+<p>所以我把书影音记录转移到 Neodb。</p>
+<ul>
+<li>手机端（IOS）APP：<a href="https://github.com/lcandy2/neodb-app" target="_blank" rel="noopener noreferrer">Piecelet Neodb</a></li>
+<li>PC 端 web：<a href="https://neodb.social/discover/" target="_blank" rel="noopener noreferrer">Neodb</a></li>
+</ul>`,readingTime:{minutes:21.84,words:6552},title:"读书",icon:"note",type:"article"}}],["/articles/rss.html",{loader:()=>A(()=>import("./rss.html-Besemhf-.js"),__vite__mapDeps([11,1])),meta:{date:1742816721e3,tag:["教程"],excerpt:`
+<p>我采用 folo 进行互联网的信息整合和订阅，在订阅过程中出现了很多问题，记录在此。</p>
+<p>2025.03.23，因为folo要invitation code，限制了订阅feed的数量，故弃用，计划改为freshrss，但是还在调试中。</p>
+<h2>安装</h2>
+<p><a href="https://github.com/RSSNext/Folo/tree/v0.3.12" target="_blank" rel="noopener noreferrer">folo 项目地址</a></p>
+<p>安装直接下载 release 的最新版本即可</p>
+<h2>RSS 链接获取</h2>`,readingTime:{minutes:1.09,words:327},title:"RSS 订阅",icon:"dingyue",type:"article"}}],["/articles/software.html",{loader:()=>A(()=>import("./software.html-70RNZOqB.js"),__vite__mapDeps([12,1])),meta:{date:17080416e5,localizedDate:"2024年2月16日",category:["推荐"],tag:["文章"],excerpt:`
+<h2>Windows</h2>
+<h3>Tai</h3>
+<p><a href="https://github.com/Planshit/Tai" target="_blank" rel="noopener noreferrer">项目地址</a></p>
+<p>该软件用于统计 Windows 各应用或网站的使用时长，统计准确，图表直观。</p>
+<h3><a class="header-anchor" href="#bandzip"><span></span></a><a href="https://www.bandisoft.com/" target="_blank" rel="noopener noreferrer">Bandzip</a></h3>`,readingTime:{minutes:1.96,words:587},title:"软件推荐",type:"article"}}],["/articles/video_game.html",{loader:()=>A(()=>import("./video_game.html-Cjac6UCL.js"),__vite__mapDeps([13,1])),meta:{date:1740571121e3,tag:["game"],excerpt:`
+<p>在 absolute_x 的影响下，初中就有稍微玩一点音游，主要是 phigros。arcaea 就玩过几次，没有玩的多深。</p>
+<h2>phigros</h2>
+<p>音游小白，在此记录解锁曲目。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">曲目</th>
+<th style="text-align:center">级别</th>
+<th style="text-align:center">成就</th>
+<th style="text-align:center">时间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Eradication Catastrophe</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">FC</td>
+<td style="text-align:center">2025.2.26 15:49</td>
+</tr>
+<tr>
+<td style="text-align:center">Glaciaxion</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">FC</td>
+<td style="text-align:center">2025.2.26 16:11</td>
+</tr>
+<tr>
+<td style="text-align:center">光</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">FC</td>
+<td style="text-align:center">2025.2.26 16:25</td>
+</tr>
+<tr>
+<td style="text-align:center">Sultan Rage</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">FC</td>
+<td style="text-align:center">2025.2.26 21:35</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:.3,words:90},title:"音游",icon:"keyboard1",type:"article"}}],["/articles/web.html",{loader:()=>A(()=>import("./web.html-BOqvYSsP.js"),__vite__mapDeps([14,1])),meta:{date:1707929375e3,excerpt:`
+<h2>Edge 插件推荐</h2>
+<ul>
+<li><a href="https://chromewebstore.google.com/detail/bewlybewly/bbbiejemhfihiooipfcjmjmbfdmobobp" target="_blank" rel="noopener noreferrer">BewlyBewly</a>: 因为侵权的原因，只能在 Chrome 上下载再安装到 Edge 上了。插件对 B 站页面进行了大调整，变得更美观了！</li>
+<li>首页插件
+<ul>
+<li><s><a href="https://microsoftedge.microsoft.com/addons/detail/startme%E5%88%9B%E4%BD%9C%E7%9A%84%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5/acifeljplikjhjobbicjiknoeafjoddh?hl=zh-CN" target="_blank" rel="noopener noreferrer">start.me</a>：首页插件--便于对网页收藏夹的管理，支持导入 Edge 收藏夹，自定义化程度高，界面美观，但是完全依赖于 edge 浏览器缓存，删除 C 盘缓存后无法运行。不好用！恢复成青柠了</s></li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/%E9%9D%92%E6%9F%A0%E8%B5%B7%E5%A7%8B%E9%A1%B5/pcpnigdkpcgemocnjhebmajldpjlbeom?hl=zh-CN" target="_blank" rel="noopener noreferrer">青柠起始页</a>：首页插件——极其简介，支持置顶便签，快速跳转站点捷径</li>
+</ul>
+</li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak?hl=zh-CN" target="_blank" rel="noopener noreferrer">uBlock Origin</a>：网页广告屏蔽，自启动</li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/%E5%9B%BE%E7%89%87%E5%8A%A9%E6%89%8Bimageassistant-%E6%89%B9%E9%87%8F%E5%9B%BE%E7%89%87/odphnbhiddhdpoccbialllejaajemdio" target="_blank" rel="noopener noreferrer">图片抓取助手</a>：网页图片自动抓取</li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/global-speed-%E8%A7%86%E9%A2%91%E9%80%9F%E5%BA%A6%E6%8E%A7%E5%88%B6/mjhlabbcmjflkpjknnicihkfnmbdfced" target="_blank" rel="noopener noreferrer">global video speed</a>：网页视频倍速控制，最高支持 16 倍，支持对广告加速，但是优先级高于 B 站倍速控制，启用该拓展后 B 站倍速会失效</li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc" target="_blank" rel="noopener noreferrer">Dark Reader</a>：暗色模式，支持调整对比度和棕褐色滤镜</li>
+<li><a href="https://chromewebstore.google.com/detail/elmo-chat-your-ai-web-cop/ipnlcfhfdicbfbchfoihipknbaeenenm" target="_blank" rel="noopener noreferrer">elmo chat</a>：支持对 B 站、Youtube 进行 AI 视频总结，方便记笔记</li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/%E9%AD%94%E6%B3%95%E8%91%AB%E8%8A%A6-%E6%89%B9%E6%B3%A8%E7%BD%91%E9%A1%B5%E3%80%81pdf%E3%80%81bilibili%E3%80%81/kmoaicpbmfhbocapfopeakkcaoneebhm?hl=zh-CN" target="_blank" rel="noopener noreferrer">魔法葫芦</a>：支持对网页划线高亮，标注笔记，但是 UI 界面做的一般，免费</li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/ai-code-finder-alerts-f/mflbgfojghoglejmalekheopgadjmlkm" target="_blank" rel="noopener noreferrer">AI Code Finder</a>：很好用的论文代码查找器，对于开源代码能直接读取出 github 仓库链接，科研人必备！</li>
+</ul>`,readingTime:{minutes:2.88,words:863},title:"网站推荐",type:"article"}}],["/blog/",{loader:()=>A(()=>import("./index.html-UNWUCHRQ.js"),__vite__mapDeps([15,1])),meta:{date:17079552e5,localizedDate:"2024年2月15日",category:["博客"],tag:["index"],excerpt:`
+<p>🎉 欢迎来到我的博客，这里是有关博客的配置信息。</p>
+<h2>主题变迁</h2>
+<p><code>2022-07-26</code> 我第一次搭建此博客时，采用的是<a href="https://v2.vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">vuepress2 提供的默认主题</a>，但默认主题功能少，并且存在较多 bug，最后博客逐渐停更。</p>
+<p><code>2024-02-15</code> 我受朋友启发，将博客主题修改为<a href="https://theme-hope.vuejs.press/zh/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a>，该主题相较于默认主题提供了更多可选的扩展包，功能性强；并且顺便优化和完善了博客的文档结构。</p>`,readingTime:{minutes:1.64,words:492},title:"Dream_oyh 的 blog",icon:"vue",type:"article"}}],["/blog/log.html",{loader:()=>A(()=>import("./log.html-DTUCFMa1.js"),__vite__mapDeps([16,1])),meta:{date:1707929375e3,category:["博客"],tag:["日志"],excerpt:`
+<h2>2024/02/17-2024/02/20</h2>
+<p>更新大量 <em>Pytorch</em> 内容</p>
+<h2>2024/02/16</h2>
+<ul>
+<li>新增<em>shell</em>内容</li>
+</ul>
+<h2>2024/02/15</h2>
+<ul>
+<li>为<em>编程</em>板块添加图标</li>
+<li>优化<em>English</em>板块文章结构</li>
+<li>优化<em>latex</em>板块，以适应新主题的 katex 新编译引擎</li>
+<li>更新<em>正则表达式</em>内容</li>
+</ul>
+<h2>2024/02/14</h2>`,readingTime:{minutes:6.3,words:1890},title:"博客日志",icon:"blog-solid",type:"article"}}],["/blog/spots.html",{loader:()=>A(()=>import("./spots.html-CKIuI-wL.js"),__vite__mapDeps([17,1])),meta:{date:1707976316e3,category:["博客"],excerpt:`
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>本部分罗列了开发博客时常用的站点跳转，方便日后查询。</p>
+</div>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope 主题官方中文指南</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/cookbook/markdown/emoji/" target="_blank" rel="noopener noreferrer">emoji 查询</a></li>
+<li><a href="https://www.iconfont.cn/manage/index?manage_type=myprojects&amp;projectId=4435976" target="_blank" rel="noopener noreferrer">icon 查询</a></li>
+</ul>`,readingTime:{minutes:.23,words:69},title:"博客常用站点跳转",icon:"at",type:"article"}}],["/blog/vuepress.html",{loader:()=>A(()=>import("./vuepress.html-I1382Hc-.js"),__vite__mapDeps([18,1])),meta:{date:16587936e5,localizedDate:"2022年7月26日",category:["博客"],tag:["问题记录"],excerpt:`
+<h2>github 图床建立</h2>
+<p>建立 tuchuang.sh 脚本，脚本内容如下（在 git bash 中运行命令）：</p>
+<p>首先需要在 github 中创建 images 分支，作图床载体</p>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">cd</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">文件目录地</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">址&gt; </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#我这里是docs/.vuepress/public/images    # 1.进入images文件目录下</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> init</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">      # 2.创建仓库</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> add</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -A</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">     # 3.添加目录下所有文件至暂存区</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> remote</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> add</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> origin</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> git@github.com:dream-oyh/dream-oyh.github.io.git</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">     # 4.连接远程仓库</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> commit</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -m</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '注释'</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    #此处注释可改为$(date "+%Y%m%d-%H:%M:%S")，以用系统时间代替</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> branch</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -m</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> images</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> push</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -u</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -f</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> origin</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> images</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,readingTime:{minutes:4.05,words:1215},title:"问题列表",icon:"ask",type:"article"}}],["/code/Linux.html",{loader:()=>A(()=>import("./Linux.html-Bu4lmnuK.js"),__vite__mapDeps([19,1])),meta:{date:17083872e5,localizedDate:"2024年2月20日",tag:["Linux"],excerpt:`
+<p>我对 Linux 的了解不深，甚至可以说只知道<code>sudo</code>在命令行提权，其他都没有做很深入的了解，目前我电脑上搭载的是 win 和 kubuntu 的双系统，之前在安装正统 ubuntu 的时候出现了极大的困难（读取不到显卡导致屏幕亮度无法调暗，极其影响使用体验）最后在朋友的帮助下安装了<code>kubuntu</code>。但是由于之前只分配了 40G 的内存，现在 linux 内存告急，以扩容为契机，我准备系统学习一下 linux 操作系统，所以也就新增了这个版块。</p>
+<h2>学习资料</h2>
+<p>在一个野生计算机学习者面前，目前我有的最详尽的资料就是<a href="https://absx.pages.dev/articles/linux" target="_blank" rel="noopener noreferrer">绝对值_x 博客里的 Linux 介绍</a></p>`,readingTime:{minutes:4.84,words:1451},title:"Linux",icon:"linux",type:"article"}}],["/code/aliyun.html",{loader:()=>A(()=>import("./aliyun.html-kXskqnGI.js"),__vite__mapDeps([20,1])),meta:{date:17022528e5,localizedDate:"2023年12月11日",category:["前端"],tag:["教程"],excerpt:`
+<h2>常用命令</h2>
+<div class="language-shell line-numbers-mode" data-highlighter="shiki" data-ext="shell" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">netstat</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -anp</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">grep</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">por</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">t&gt; </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 查看指定端口占用情况</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>`,readingTime:{minutes:2.18,words:655},title:"服务器相关",icon:"code",type:"article"}}],["/code/cpp.html",{loader:()=>A(()=>import("./cpp.html-DO56wzLq.js"),__vite__mapDeps([21,1])),meta:{date:171072e7,localizedDate:"2024年3月18日",excerpt:`
+<h2>开发环境前置知识 (要崩溃了)</h2>
+<p>C++ 在 win 下的开发环境非常复杂，2024/06/24 我老老实实把<a href="https://www.cnblogs.com/w4ngzhen/p/17695080.html" target="_blank" rel="noopener noreferrer">这篇文章</a>看了，对编译、工具链等概念名词进行了区分，这在配置 C++ 开发环境之前是必要的。</p>
+<p>首先，C++ 从<code>.cpp</code>文件到<code>.exe</code>文件需要很多步骤，具体如下图所示。主要分为四个部分，预处理器、编译器、汇编、链接。</p>`,readingTime:{minutes:9.83,words:2949},title:"C++",icon:"code",type:"article"}}],["/code/docker.html",{loader:()=>A(()=>import("./docker.html-BWcYTLp-.js"),__vite__mapDeps([22,1])),meta:{date:17395776e5,localizedDate:"2025年2月15日",category:["工具"],tag:["教程"],excerpt:`
+<p><a href="https://www.bilibili.com/video/BV1og4y1q7M4" target="_blank" rel="noopener noreferrer">教程</a></p>
+<p><a href="https://docs.docker.com/reference/" target="_blank" rel="noopener noreferrer">docs</a></p>
+<p><a href="https://hub.docker.com/" target="_blank" rel="noopener noreferrer">Docker Hub</a></p>`,readingTime:{minutes:4.9,words:1470},title:"docker",icon:"docker",type:"article"}}],["/code/git.html",{loader:()=>A(()=>import("./git.html-CVP-4v1C.js"),__vite__mapDeps([23,1])),meta:{date:17073504e5,localizedDate:"2024年2月8日",category:["工具"],tag:["教程"],excerpt:`
+<h2>学习材料</h2>
+<p><a href="https://learngitbranching.js.org/?locale=zh_CN" target="_blank" rel="noopener noreferrer">畅游提交树学习网站</a></p>
+<p><a href="https://absx.pages.dev/coding/Git.html" target="_blank" rel="noopener noreferrer">绝对值_x 个人博客</a></p>
+<p><a href="https://www.bilibili.com/video/BV19e4y1q7JJ" target="_blank" rel="noopener noreferrer">码农高天-github 极简工作流程</a></p>`,readingTime:{minutes:12.97,words:3891},title:"Git",icon:"git",type:"article"}}],["/code/github.html",{loader:()=>A(()=>import("./github.html-3Wpz_8vH.js"),__vite__mapDeps([24,1])),meta:{date:17089056e5,localizedDate:"2024年2月26日",category:["工具"],tag:["教程"],excerpt:`
+<blockquote>
+<p>GitHub is a developer platform that allows developers to create, store, manage and share their code. --WikiPedia</p>
+</blockquote>
+<p><a href="https://github.com/" target="_blank" rel="noopener noreferrer">官网</a></p>
+<p><a href="https://github.com/dream-oyh" target="_blank" rel="noopener noreferrer">我的 github 账号首页</a></p>`,readingTime:{minutes:2.37,words:710},title:"Github",icon:"github",type:"article"}}],["/code/",{loader:()=>A(()=>import("./index.html-DAqq_Kex.js"),__vite__mapDeps([25,1])),meta:{date:17079552e5,localizedDate:"2024年2月15日",category:["编程"],tag:["index"],excerpt:`
+<h2>学习路径</h2>
+<ul>
+<li>2022-02(大一下)，因为学校的课程安排，入门了 C++，但是现在已经忘光了，在自学<a href="/study/DataStructure/" target="_blank">数据结构</a>的时候补了一下 C++ 基础。</li>
+<li>2022-03，因为参加了纽狐科技公司的交通项目，开始接触 matlab，做一些简单的数据处理</li>
+<li>2022-07，和队友一起备战数模，仍然在使用 matlab 作为数据处理的主力工具</li>
+<li>2023-11，此时开始正式转入 python 做课程设计，写了第一个控制工程的 python GUI 项目</li>
+<li>2023-12，matlab 课程结业后，立即在电脑上卸载了 matlab，全力转向 python 作为主力语言</li>
+<li>2024-01，寒假期间制作了视频流分段打标签的 labeling 工具，为之后的交科赛做准备；同时，出于个人兴趣，开始接触 html 等前端三大件</li>
+</ul>`,readingTime:{minutes:1.11,words:332},title:"编程",icon:"code",type:"article"}}],["/code/latex.html",{loader:()=>A(()=>import("./latex.html-DPl6k2C9.js"),__vite__mapDeps([26,1])),meta:{date:17079552e5,localizedDate:"2024年2月15日",category:["工具"],tag:["教程"],excerpt:`
+<p>核心思想：内容与格式的分离</p>
+<h2>安装与学习</h2>
+<div class="hint-container tip">
+<p class="hint-container-title">latex 学习建议</p>
+<p>建议用<a href="https://www.overleaf.com" target="_blank" rel="noopener noreferrer">overleaf</a>作为 latex 编辑 IDE，方便！overleaf 社区集合了很多好用的模板，而且不需要占用电脑本地存储空间。</p>
+<p>latex 公式指令查询：<a href="https://www.latexlive.com/" target="_blank" rel="noopener noreferrer">在线 Latex 公式编辑器</a></p>
+<p>latex 表格快速制作：<a href="https://www.tablesgenerator.com/latex_tables" target="_blank" rel="noopener noreferrer">快速制作表格-web 端工具</a></p>
+</div>`,readingTime:{minutes:14.28,words:4285},title:"Latex",icon:"latex",type:"article"}}],["/code/markdown.html",{loader:()=>A(()=>import("./markdown.html-Dqwfv4lw.js"),__vite__mapDeps([27,1])),meta:{date:16995744e5,localizedDate:"2023年11月10日",category:["笔记"],tag:["教程"],excerpt:`
+<h2>Markdown 是什么</h2>
+<p>Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。Markdown 的语法十分简单。相对于更为复杂的 HTML 标记语言来说，Markdown 可谓是轻量级的产品，相较于日常广泛使用的 word，markdown 语言能够使文档内容在不同的设备间无损传递，具有良好的兼容性。</p>
+<p>综上所述，Markdown 是一种简单的、轻量的、兼容性强的电子笔记工具</p>
+<h2>Markdown 使用语法积累</h2>
+<h3>表格绘制</h3>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">| 表头 | 表头 |</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">| ---------- | ---------- | # 区分表头和单元格</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">| 单元格 | 单元格 |</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">| 单元格 | 单元格 |</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,readingTime:{minutes:1.16,words:349},title:"Markdown",icon:"markdown",type:"article"}}],["/code/python.html",{loader:()=>A(()=>import("./python.html-D1TuVA3h.js"),__vite__mapDeps([28,1])),meta:{date:17060544e5,localizedDate:"2024年1月24日",category:["编程"],tag:["教程"],excerpt:`
+<h2>为什么我选择了 Python</h2>
+<p>从大一我就开始接触 MATLAB，并且认为 python 能做的，MATLAB 也能做，而且实现起来更简单，毕竟 MATLAB 作为一个已经商业化的工具，其工作区的可视化和交互性、对于环境的依赖程度确实是 python 不可比拟的。</p>
+<p>但是 MATLAB 完整体量高达 50G，对于磁盘的占用率是不言而喻的，Python 借用包管理器，将体量减小到 MATLAB 远不及的水平。其次，MATLAB 在拟合、神经网络、深度学习等领域，采用已经打包好的工具箱，这对于算法学习是极其不利的，但是 Python 通过各种库的调用，能够从底层逻辑实现各算法，对于个人学习而言是更为有益的。</p>`,readingTime:{minutes:8.93,words:2679},title:"Python",icon:"python",type:"article"}}],["/code/shell.html",{loader:()=>A(()=>import("./shell.html-CCcI3yyx.js"),__vite__mapDeps([29,1])),meta:{date:17080416e5,localizedDate:"2024年2月16日",category:["计算机","底层"],tag:["教程"],excerpt:`
+<h2>学习</h2>
+<p><a href="https://missing-semester-cn.github.io/" target="_blank" rel="noopener noreferrer">The Missing</a></p>
+<p>本文采用 Bourne Again Shell（bash）来学习 Shell 命令行的使用。</p>
+<h2>Win-powershell 美化</h2>
+<p>采用<code>oh-my-posh</code>进行终端的美化，通过修改 powershell 的 json 配置文件来配置终端背景图片、是否使用毛玻璃效果、背景图片透明度等参数，修改如下：</p>`,readingTime:{minutes:6.22,words:1865},title:"Shell",icon:"powershell",type:"article"}}],["/code/v2ray.html",{loader:()=>A(()=>import("./v2ray.html-rmoKQZYN.js"),__vite__mapDeps([30,1])),meta:{date:1740127962e3,excerpt:`
+<p><a href="https://www.v2ray.com/" target="_blank" rel="noopener noreferrer">官方文档</a></p>
+<h2>Install</h2>
+<p>Linux：</p>
+<p>有桌面端的用户可以直接去 github 下载使用，下面是对于服务器无桌面交互界面的安装介绍：</p>
+<p>官方给的安装<code>bash &lt;(curl -L -s https://install.direct/go.sh)</code>已经过时了，运行之后会报错：</p>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">ERROR:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> This</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> script</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> has</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> been</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> DISCARDED,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> please</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> switch</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> to</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> fhs-install-v2ray</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> project.</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">HOW</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> TO</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> USE:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> https://github.com/v2fly/fhs-install-v2ray</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">TO</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> MIGRATE:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> https://github.com/v2fly/fhs-install-v2ray/wiki/Migrate-from-the-old-script-to-this</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,readingTime:{minutes:.74,words:221},title:"V2ray",type:"article"}}],["/code/vim.html",{loader:()=>A(()=>import("./vim.html-Czfj0YOL.js"),__vite__mapDeps([31,1])),meta:{date:17080416e5,localizedDate:"2024年2月16日",category:["计算机","底层"],tag:["教程"],excerpt:`
+<blockquote>
+<p>Vim 是从 vi 发展出来的一个文本编辑器。其代码补完、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用。——<a href="https://zh.wikipedia.org/wiki/Vim" target="_blank" rel="noopener noreferrer">维基百科</a></p>
+</blockquote>
+<p>Vim 是一个多模态编辑器：它对于插入文字和操纵文字有不同的模式。Vim 是可编程的（可以使用 Vimscript 或者像 Python 一样的其他程序语言），Vim 的接口本身也是一个程序语言：键入操作（以及其助记名）是命令，这些命令也是可组合的。Vim 避免了使用鼠标，因为那样太慢了；Vim 甚至避免用上下左右键因为那样需要太多的手指移动。</p>`,readingTime:{minutes:4.6,words:1380},title:"vim 编辑器",icon:"vim",type:"article"}}],["/code/vscode.html",{loader:()=>A(()=>import("./vscode.html-CrJONlnO.js"),__vite__mapDeps([32,1])),meta:{date:1707929375e3,category:["工具"],tag:["教程"],excerpt:`
+<h2>VSCode 拓展插件</h2>
+<ul>
+<li><a href="https://github.com/StarlaneStudios/vscode-comment-anchors" target="_blank" rel="noopener noreferrer">Comment Anchor</a>：在任意语言中，用注释给代码行打上锚点，方便快速跳转，可用标签如下：
+<ul>
+<li>ANCHOR - 用于指示文件中的内容</li>
+<li>TODO - 待完善的工作</li>
+<li>FIXME - 需要修复 bug 的区域</li>
+<li>STUB - 用于生成默认代码片段</li>
+<li>NOTE - 针对特定代码段的重要说明</li>
+<li>REVIEW - 需要额外审核的一段代码</li>
+<li>SECTION - 用于定义区域</li>
+<li>LINK - 用于链接文件</li>
+</ul>
+</li>
+</ul>`,readingTime:{minutes:3.06,words:918},title:"VSCode",icon:"vscode",type:"article"}}],["/credit/",{loader:()=>A(()=>import("./index.html-spgArBke.js"),__vite__mapDeps([33,1])),meta:{date:1708128e6,localizedDate:"2024年2月17日",category:["资料站"],tag:["index"],excerpt:`
+<h2></h2>
+<p><strong>资料站主要内容</strong>：中南大学交通院与计算机院大多数公共课与部分专业课的课程备考资料</p>
+<p>资料站以<code>Dream-oyh的blog</code>为中心站点，将电子版文档部署在 </p>
+`,readingTime:{minutes:6.32,words:1897},title:"资料站",icon:"folder",type:"article"}}],["/project/",{loader:()=>A(()=>import("./index.html-GN7FGs-u.js"),__vite__mapDeps([34,1])),meta:{date:17502912e5,localizedDate:"2025年6月19日",excerpt:`
+<p>2025.06，我提前来到浙大，开启学术研究之旅。</p>
+<h2>项目内容</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">项目名称</th>
+<th style="text-align:center">时间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BMS(Battery Manage System)系统的 CAN 通信协议编写</td>
+<td style="text-align:center">2025.06.19-</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:.16,words:47},title:"简介",type:"article"}}],["/project/youenjie.html",{loader:()=>A(()=>import("./youenjie.html-Dn9c96Rq.js"),__vite__mapDeps([35,1])),meta:{date:17502912e5,localizedDate:"2025年6月19日",excerpt:`
+<h2>一些名词解释</h2>
+<ul>
+<li>复旦微开发板型号为 FM33FG0614A AutoEVB UM，<strong>而不是</strong> FM33FG0614A <strong>Rev.A</strong> AutoEVB UM，我们用的是 B 型板而非 A 型板，后面参考原理图和程序例程，也都要注意是 B 型的板子</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">英文缩写</th>
+<th style="text-align:center">全拼</th>
+<th style="text-align:center">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">MCU</td>
+<td style="text-align:center">Micro Control Unit</td>
+<td style="text-align:center">微型控制单元</td>
+</tr>
+<tr>
+<td style="text-align:center">SWD</td>
+<td style="text-align:center">Serial Wire Debug</td>
+<td style="text-align:center">串行接口，另外一种测试叫作 JTAG 接口，主要用于芯片内部测试，测试芯片制造出来之后引脚的连通信</td>
+</tr>
+<tr>
+<td style="text-align:center">SVD</td>
+<td style="text-align:center">Supply Voltage Detector</td>
+<td style="text-align:center">电源电压检测器</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:4.48,words:1343},title:"CAN 通信协议编写",type:"article"}}],["/study/literature_search.html",{loader:()=>A(()=>import("./literature_search.html-D_G65qCJ.js"),__vite__mapDeps([36,1])),meta:{date:1739172667e3,excerpt:`
+<details class="hint-container details"><summary>intro</summary>
+<blockquote>
+<p>大四莫名其妙被一个老师叫去做什么文献整理，实则就是一场行政闹剧，注意避雷</p>
+<p>但是！从这里面收获的文献查找经验还是有用的，以此记录。</p>
+<p>之所以称作是<strong>行政闹剧</strong>的原因是：</p>
+<ol>
+<li>
+<p>研究方向老套，<strong>无意义</strong>，只是为了凑一篇论文，方向具体就不说了</p>
+</li>
+<li>
+<p>有一种道德绑架的感觉，经常催进度要电话沟通，但是又反复强调说你们有时间再做，不急</p>
+</li>
+<li>
+<p>老师自己无学术思路，只会让学生自己琢磨</p>
+</li>
+<li>
+<p>交流沟通一股子行政味儿，一大段话就只有两三个词的重点。</p>
+</li>
+</ol>
+</blockquote>
+</details>`,readingTime:{minutes:1.53,words:460},title:"高级文献检索",type:"article"}}],["/study/proxy.html",{loader:()=>A(()=>import("./proxy.html-BT_dVH5C.js"),__vite__mapDeps([37,1])),meta:{date:1740571121e3,tag:["proxy"],excerpt:`
+<h2>代理基础知识</h2>
+<h3>什么是代理？</h3>
+<p>我们在浏览器进入某个网站时，会通过<strong>端口</strong>把这个需求给到代理软件，代理软件通过端口分流规则来决定是直连还是走代理。如果走代理，如：google.com，就需要把这个浏览器请求通过远程服务器的 inbound 端口输入给服务器，再由远程服务器的 outbound 端口发送请求给网站，这样就实现了墙内与墙外的连接。</p>
+<p>V2ray 系列的代理实现逻辑是：</p>
+<div class="language-shell line-numbers-mode" data-highlighter="shiki" data-ext="shell" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{浏览器} &lt;--(socks)--&gt; {V2Ray 客户端 inbound &lt;-&gt; V2Ray 客户端 outbound} &lt;--(VMess)--&gt;  {V2Ray 服务器 inbound &lt;-&gt; V2Ray 服务器 outbound} &lt;--(Freedom)--&gt; {目标网站}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>`,readingTime:{minutes:4.94,words:1483},title:"代理相关",type:"article"}}],["/study/ros.html",{loader:()=>A(()=>import("./ros.html-8-yHqekX.js"),__vite__mapDeps([38,1])),meta:{date:1740571121e3,tag:["ros"],excerpt:`
+<h2>Install</h2>
+<p><a href="https://wiki.ros.org/noetic/Installation/Ubuntu" target="_blank" rel="noopener noreferrer">Ubuntu 安装 ROS-noetic 官方文档</a></p>
+<h2>安装步骤</h2>
+<ul>
+<li>添加源</li>
+</ul>
+<div class="language-shell line-numbers-mode" data-highlighter="shiki" data-ext="shell" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> sh</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -c</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" &gt; /etc/apt/sources.list.d/ros-latest.list'</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>`,readingTime:{minutes:8.87,words:2660},title:"ROS",type:"article"}}],["/study/uuvsimulator.html",{loader:()=>A(()=>import("./uuvsimulator.html-De8BCy6L.js"),__vite__mapDeps([39,1])),meta:{date:1740140304e3,tag:["科研"],excerpt:`
+<p><a href="https://uuvsimulator.github.io/packages/uuv_simulator/intro/" target="_blank" rel="noopener noreferrer">官方文档</a></p>
+<h2>UUV_Simulator 特性</h2>
+<h3>Actuators 执行器</h3>
+<p>通过<code>.xacro</code>文件配置</p>
+<p>xacro 一种 xml 语言，用于构建 urdf 包，这个 urdf 包主要是用来搭建一个机器人的，可以用于配置机器人的传感器、模型、环境等信息。<a href="https://wiki.ros.org/xacro" target="_blank" rel="noopener noreferrer">官方文档</a></p>`,readingTime:{minutes:5.76,words:1727},title:"UUV Simulator",type:"article"}}],["/articles/external/2025.html",{loader:()=>A(()=>import("./2025.html-Ga3Oq-qq.js"),__vite__mapDeps([40,1])),meta:{date:1708053243e3,excerpt:`
+<figure><img src="/tashan.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<blockquote>
+<p>🟧 <em>输入的核心思路是不摘抄，只做有启发的点的复述，不知为不知，允许有些问题暂时还没有找到答案。</em></p>
+<p>🟦 <em>输出的核心思路是不记流水账，让复盘承担更多的深度思考作用。</em></p>
+<div align="right">——🍊</div>
+</blockquote>
+<h2>写在前面</h2>
+<p>2025 年，我开始注重复盘和思考留痕的重要性，新增“他山之石”和“日拱一卒”模块。</p>`,readingTime:{minutes:11.35,words:3406},title:"2025",type:"article"}}],["/articles/rigongyizu/2024.html",{loader:()=>A(()=>import("./2024.html-2A0wWWvJ.js"),__vite__mapDeps([41,1])),meta:{date:1708009614e3,excerpt:`
+<p>心生而言立，言立而文明，自然之道也。——《文心雕龙·原道》</p>
+<h2>19 岁的感慨</h2>
+<p>小欧同学：</p>
+<p>  Hi！</p>
+<p>  不得不说你很幸运，毕竟生日在 7 月，往年的这个时候，包括此刻，都是一个旧阶段的结束，一个崭新阶段的开始。阶梯般更迭，飞蝶般成长。不过别太得意了，7 月 12 日，明天，不过是万千日子中再平凡不过的一天而已，你的生日，不算什么。无非太阳自你出生那一刻起，走过了 19 个春夏秋冬，月亮出演了 228 次阴晴圆缺。明天一早，你还得背上书包，前往工训基地，一切都如往常。</p>
+<p>  一年以来，你的 18 岁已悄然结束，精彩吗？一时不知如何回答。可能丰富的经历，多彩的大学生活，的确足够让你在父辈、小学以及初高中老师面前吹嘘一个上午，但，相较于那些大神，你的 18 岁，一点也算不上精彩。但，你是幸运的。</p>`,readingTime:{minutes:16.16,words:4848},title:"Before 2024",type:"article"}}],["/articles/rigongyizu/2025.html",{loader:()=>A(()=>import("./2025.html-BwzazA2G.js"),__vite__mapDeps([42,1])),meta:{date:1735837792e3,excerpt:`
+<figure><img src="/rigong.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2>【自我挖掘】对 Who am I? 的探索</h2>
+<ol>
+<li>我有很高很高的执行力，一旦事情有了思路我会立马去做，并且能够很快地完成</li>
+<li>我是一名完美主义者，但是要牢记完成比完美更重要，完成是实现完美的第一步</li>
+<li>1.6 日，我开始建立自身的配得感，并且有意识地拒绝那些“影响我心情”的糟糕事进入我的生活。原来的我，陷入了“低配得感”的困局。</li>
+</ol>`,readingTime:{minutes:11.19,words:3358},title:"2025",type:"article"}}],["/code/Arduino/",{loader:()=>A(()=>import("./index.html-Dv9N4B4L.js"),__vite__mapDeps([43,1])),meta:{date:17092512e5,localizedDate:"2024年3月1日",excerpt:`
+<h2>学习路线</h2>
+<ul>
+<li>
+<p>前置学习课程：模电、数电、单片机原理（51）、C++</p>
+</li>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1th411z7sn" target="_blank" rel="noopener noreferrer">STM32 江协科技学习课程</a></p>
+</li>
+</ul>
+<h2>Arduino 开发板</h2>
+<p><a href="https://docs.arduino.cc/" target="_blank" rel="noopener noreferrer">官方 tutorials</a></p>`,readingTime:{minutes:10.88,words:3263},title:"嵌入式开发",icon:"arduino",type:"article"}}],["/code/Arduino/stm32.html",{loader:()=>A(()=>import("./stm32.html-CeZQRpUt.js"),__vite__mapDeps([44,1])),meta:{date:1750464e6,localizedDate:"2025年6月21日",excerpt:`
+<p>stm32 采取 ARM Cortex-M 内核开发。相同内核意味着编写启动文件、处理中断服务程序、进行堆栈管理的基本逻辑是相通的，ARM 架构是最底层的，各大厂商在内核上添加其他的存储器和外设，做出各大厂商的芯片，然后再把芯片连接成最小系统电路板。我是在做横向的时候遇到了一个完全没啥教程的芯片，然后打算先把 stm32 的教程学了，看看对这个 arm 架构能不能有个比较好的理解。</p>
+<p><a href="https://www.bilibili.com/video/BV1th411z7sn" target="_blank" rel="noopener noreferrer">参考课程</a></p>`,readingTime:{minutes:5.68,words:1705},title:"stm32",icon:"cpu-full",type:"article"}}],["/code/python/LocalAugment.html",{loader:()=>A(()=>import("./LocalAugment.html-m-2gonKY.js"),__vite__mapDeps([45,1])),meta:{date:171072e7,localizedDate:"2024年3月18日",excerpt:`
+<p>本 python 包用于深度学习的本地数据增强。</p>
+<h2>Feature</h2>
+<ul>
+<li>不同于一般图像增广库，本<code>LocalAugment</code>库是先在本地图片上做增强，导出增强后的图片直接作为训练集使用，而不是加在网络的图像预处理部分。</li>
+<li><code>LocalAugment</code>库采用矩形中心框与长宽的标签定位模式，支持在本地进行图像增强的同时，记录下标签变换后的位置与大小，能够保证图像在经过变换后，标签依然能够被正确地定位，省去转换后手动打标签的繁琐工作。</li>
+</ul>
+<h2>Install</h2>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">pip</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> localAugment</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>`,readingTime:{minutes:4.61,words:1383},title:"LocalAugment",icon:"Augmentation",type:"article"}}],["/code/python/Seaborn.html",{loader:()=>A(()=>import("./Seaborn.html-B1P30aoN.js"),__vite__mapDeps([46,1])),meta:{date:17075232e5,localizedDate:"2024年2月10日",category:["Python 库"],tag:["教程"],excerpt:`
+<blockquote>
+<p>Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.</p>
+</blockquote>
+<p><a href="https://seaborn.pydata.org/" target="_blank" rel="noopener noreferrer">官方文档</a></p>
+<p>相较于 matplotlib，<code>Seaborn</code> 提供了 API 封装，使得图形绘制较底层的 matplotlib 更简单，也兼容了 numpy、Pandas 等数据处理库，兼容性好。同时，<code>Seaborn</code>库提供了更为高级的绘图功能，支持多维数据处理。</p>`,readingTime:{minutes:2.56,words:769},title:"Seaborn",icon:"Graph",type:"article"}}],["/code/python/pandas.html",{loader:()=>A(()=>import("./pandas.html-RGxuEQiS.js"),__vite__mapDeps([47,1])),meta:{date:17074368e5,localizedDate:"2024年2月9日",category:["Python 库"],tag:["教程"],excerpt:`
+<h2>学习</h2>
+<p><a href="https://pandas.pydata.org/docs/index.html#" target="_blank" rel="noopener noreferrer">官方文档</a></p>
+<h2>安装</h2>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">poetry</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> add</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> pandas</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>`,readingTime:{minutes:4.51,words:1352},title:"Pandas",icon:"pandas",type:"article"}}],["/code/python/web_crawler.html",{loader:()=>A(()=>import("./web_crawler.html--7PmDqiP.js"),__vite__mapDeps([48,1])),meta:{date:17076096e5,localizedDate:"2024年2月11日",category:["Python 库"],tag:["教程"],excerpt:`
+<h2>环境安装</h2>
+<p>使用爬虫需要安装<code>requests</code>和<code>bs4</code>两个第三方库</p>
+<p>安装命令为：</p>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">poetry</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> requests</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">poetry</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> bs4</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div>`,readingTime:{minutes:6.1,words:1830},title:"Python 爬虫教程",icon:"pachong",type:"article"}}],["/code/python/websocket.html",{loader:()=>A(()=>import("./websocket.html-DNtVEIhx.js"),__vite__mapDeps([49,1])),meta:{date:1708992e6,localizedDate:"2024年2月27日",category:["Python 库"],tag:["教程"],excerpt:`
+<p>突然想学这个包是因为我院测试技术与信号处理课程作业，老师给出的题目是：“调用手机中的传感器，显示参数的动态变化”，经过一番搜索我发现了 python 中<code>websocket</code>这个包，可以实现实时的手机传感器数据传输。</p>
+<h2>Sensor Server</h2>
+<p><a href="https://github.com/umer0586/SensorServer" target="_blank" rel="noopener noreferrer">Sensor Server 的 Github 仓库链接</a></p>
+<p>Github 提供了一个开源的 Android apk，名为：“Sensor Server”，可以用来提供移动端传感器接口，利用<code>ws</code>互联网协议传输数据。移动端启动后，会提供一个 url，我们需要保证 PC 和移动端均连接到该 url 上。</p>`,readingTime:{minutes:5.75,words:1725},title:"Websocket",icon:"bianzubeifen8",type:"article"}}],["/code/tips/keyboard_remap.html",{loader:()=>A(()=>import("./keyboard_remap.html-D90oopxq.js"),__vite__mapDeps([50,1])),meta:{date:1741747907e3,excerpt:`
+<p>参考 Youtuber 的<a href="https://www.youtube.com/watch?v=XuQVbZ0wENE" target="_blank" rel="noopener noreferrer">视频</a>，<code>Caps Lock</code>的使用频率太低了，将其改为其他按键。采用<a href="https://github.com/jtroo/kanata" target="_blank" rel="noopener noreferrer">kanata</a>应用实现键盘的重映射功能。</p>
+<p><a href="https://jtroo.github.io/config-1.8.0.html#concurrent-tap-hold" target="_blank" rel="noopener noreferrer">kanata 文档</a></p>`,readingTime:{minutes:1.5,words:450},title:"键盘重映射",icon:"keyboard1",type:"article"}}],["/code/tips/pdf2docx.html",{loader:()=>A(()=>import("./pdf2docx.html-vMajBKTn.js"),__vite__mapDeps([51,1])),meta:{date:17095968e5,localizedDate:"2024年3月5日",category:["锦囊"],tag:["教程"],excerpt:`
+<p>Python 的第三方库能够实现 PDF 转 word 的操作，不要再去花冤枉钱了家人们。</p>
+<h2>安装</h2>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">poetry</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> add</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> pdf2docx</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>`,readingTime:{minutes:.32,words:97},title:"PDF 转 word",icon:"pdf",type:"article"}}],["/code/tips/regex.html",{loader:()=>A(()=>import("./regex.html-CVYXmDe5.js"),__vite__mapDeps([52,1])),meta:{date:17080416e5,localizedDate:"2024年2月16日",category:["锦囊"],tag:["教程"],excerpt:`
+<h2>是什么</h2>
+<p>正则表达式（regular expressions），简称 regex，或 regexp，用于搜索或匹配字符串中符合某个模式的文本。</p>
+<p>regex 在不同的编程语言下有不同的呈现形式，但是总体语法规则是不变的。</p>
+<h2>学习</h2>
+<p><a href="https://regex101.com/" target="_blank" rel="noopener noreferrer">正则表达式在线测试工具</a></p>
+<p><a href="https://www.bilibili.com/video/BV1da4y1p7iZ" target="_blank" rel="noopener noreferrer">奇乐编程学院视频教程</a></p>`,readingTime:{minutes:3.5,words:1051},title:"正则表达式",icon:"boolean",type:"article"}}],["/code/tips/voc.html",{loader:()=>A(()=>import("./voc.html-D4LAKL3Z.js"),__vite__mapDeps([53,1])),meta:{date:1742613292e3,tag:["教程"],excerpt:`
+<h2>Rime</h2>
+<p>Rime 是一款高度自定义，可以通过 yaml 文件进行自定义输入方案、管理词库的输入法，且可跨平台使用</p>
+<p>好用，但是使用门槛确实高，不方便入门，折腾了 2 天才大概搞懂，参考了贴吧老哥的<a href="https://tieba.baidu.com/p/3288634121" target="_blank" rel="noopener noreferrer">帖子</a>，UI 界面配色、词库均可以自定义，有意思！</p>
+<h3>配置</h3>
+<p>我采用雾凇输入方案，<a href="https://github.com/dream-oyh/Rime" target="_blank" rel="noopener noreferrer">配置</a>已经上传 github，方便词库的管理，对雾凇方案进行了部分微调和词库搭建。</p>`,readingTime:{minutes:1.76,words:527},title:"输入法",icon:"keyboard1",type:"article"}}],["/english/china/10.22.html",{loader:()=>A(()=>import("./10.22.html-vN_x-ncz.js"),__vite__mapDeps([54,1])),meta:{date:1707969149e3,excerpt:`
+<p>近日，中国科学院国家天文台利用被誉为“中国天眼”的 500 米口径球面射电望远镜（FAST）进行成像观测，在致密星系群及周围天区，发现了 1 个尺度大约为两百万光年的巨大原子气体系统。这是迄今为止，在宇宙中探测到的最大的原子气体系统。</p>
+<p>The "China Sky Eye", also known as the Five-hundred-meter Aperture Spherical Radio Telescope (FAST), has spotted a huge atomic gas structure in the vicinity of a galaxy group. The linear scale of the atomic hydrogen structure reaches some two million light-years, the largest one of its kind ever discovered in the universe.</p>`,readingTime:{minutes:1.89,words:566},title:"10.22 原子气体结构  atomic gas structure",type:"article"}}],["/english/china/10.23.html",{loader:()=>A(()=>import("./10.23.html-B1p5tx1w.js"),__vite__mapDeps([55,1])),meta:{date:1707969149e3,excerpt:`
+<p>第132届中国进出口商品交易会（广交会）10月15日线上开幕。10月17日，第132届广交会跨国头部企业供采对接周启动，助力中国外贸企业开拓国际市场。</p>
+<p>The 132nd session of the China Import and Export Fair, also known as the Canton Fair, opened online on October 15. Organizers of the fair have launched a supply and purchase matchmaking event for leading multinational enterprise, which kicked off online on Monday, in order to help Chinese export-oriented businesses better make deals with global buyers.</p>`,readingTime:{minutes:1.57,words:470},title:"10.23 供采对接周 a supply and purchase matchmaking event",type:"article"}}],["/english/china/10.24.html",{loader:()=>A(()=>import("./10.24.html-BVe6c6jL.js"),__vite__mapDeps([56,1])),meta:{date:1707969149e3,excerpt:`
+<p>近日，广湛高铁湛江湾海底隧道工程盾构机累计掘进进尺3000米，入海超1600米，标志着广湛高铁项目建设实现又一重要节点突破。</p>
+<p>The China Railway Design Corp announced on Oct. 20 that its Tunnel Boring Machine has already dug a 3,000-meter section of the Zhanjiang Bay undersea tunnel, some 1,600 meters of which runs under the seabed, marking an important stage in the construction of the Guangzhou-Zhanjiang high-speed railway.</p>`,readingTime:{minutes:1.23,words:368},title:"10.24 湛江湾海底隧道 Zhanjiang Bay undersea tunnel",type:"article"}}],["/english/china/10.25.html",{loader:()=>A(()=>import("./10.25.html-CSLVkQRu.js"),__vite__mapDeps([57,1])),meta:{date:1707969149e3,excerpt:`
+<p>海关总署 10 月 24 日发布数据，今年前三季度，我国货物贸易进出口总值 31.11 万亿元，同比增长 9.9%。具体来看，前三季度出口 17.67 万亿元，增长 13.8%；进口 13.44 万亿元，增长 5.2%。</p>
+<p>China's foreign trade of goods jumped 9.9 percent year on year to 31.11 trillion yuan during the first nine months of the year, official data showed Monday. Exports rose 13.8 percent year on year to 17.67 trillion yuan, while imports increased 5.2 percent from a year ago to 13.44 trillion yuan, according to the General Administration of Customs.</p>`,readingTime:{minutes:2.13,words:638},title:"10.25 中国货物贸易 China's foreign trade of goods",type:"article"}}],["/english/china/10.26.html",{loader:()=>A(()=>import("./10.26.html-BGMMbiSl.js"),__vite__mapDeps([58,1])),meta:{date:1707969149e3,excerpt:`
+<p>日前，一列满载纸浆、石英砂、建筑陶瓷等货物的集装箱列车抵达重庆。这是全国西部陆海新通道海铁联运班列今年开行的第7000列，于10月21日从广西钦州出发。</p>
+<p>A cargo train carrying containers of goods, including paper pulp, quartz sand, and ceramics, arrived in southwest China's Chongqing Municipality on Oct. 22, marking the completion of the 7,000th rail-sea intermodal train trip running along the New International Land-Sea Trade Corridor this year. The train departed from Qinzhou port, Guangxi Zhuang autonomous region on Friday and arrived at the Tuanjie Village Station in Chongqing around 11 pm on Saturday.</p>`,readingTime:{minutes:1.26,words:378},title:"10.26 海铁联运班列  rail-sea intermodel train",type:"article"}}],["/english/china/10.27.html",{loader:()=>A(()=>import("./10.27.html-BPniMDPY.js"),__vite__mapDeps([59,1])),meta:{date:1707969149e3,excerpt:`
+<p>10 月 24 日，全国人大常委会法制工作委员会发言人臧铁伟介绍，妇女权益保障法修订草案（三次审议稿）10 月将提请十三届全国人大常委会第三十七次会议审议。修订草案明确人力资源和社会保障部门可以联合工会、妇女联合会约谈用人单位，保护妇女劳动和社会保障权益。</p>
+<p>A draft revision to the Law on the Protection of the Rights and Interests of Women will be further reviewed during an upcoming session of the Standing Committee of the National People's Congress, China's top legislature, which is set to convene from Oct. 26 to 30. Under the draft, the human resources and social security departments are also allowed to work with trade unions or women federations to have regulatory talks with employers if companies are found to be having trouble guaranteeing women's labor rights and interests, Zang Tiewei, spokesman for the NPC Standing Committee's Legislative Affairs Commission, said while introducing the draft's contents to media on Oct. 24.</p>`,readingTime:{minutes:1.84,words:553},title:"10.27 妇女权益保障法修订草案 the draft revision to the Law on the Protection of the Rights and Interests of Women",type:"article"}}],["/english/china/10.28.html",{loader:()=>A(()=>import("./10.28.html-CsIobwfr.js"),__vite__mapDeps([60,1])),meta:{date:1707969149e3,excerpt:`
+<p>民政部日前会同相关部门和单位联合印发的指导意见明确指出，到 2023 年底前，我国将基本建立特殊困难老年人探访关爱服务机制。</p>
+<p>China will basically establish a system of home visit and care services for the elderly with special difficulties before the end of 2023, according to a guideline jointly released by the Ministry of Civil Affairs and other related departments.</p>`,readingTime:{minutes:.98,words:293},title:"10.28  特殊困难老年人探访关爱服务 home visit and care services for the elderly with special difficulties",type:"article"}}],["/english/china/10.29.html",{loader:()=>A(()=>import("./10.29.html-C0oWxQyl.js"),__vite__mapDeps([61,1])),meta:{date:1707969149e3,excerpt:`
+<p>十三届全国人大常委会第三十七次会议10月30日表决通过了新修订的畜牧法，将于2023年3月1日起施行。</p>
+<p>China's National People's Congress Standing Committee on Sunday passed the newly revised Animal Husbandry Law. The revised law will come into force on March 1, 2023.</p>
+<p>come into force —— 实施</p>
+<p>【重要讲话】</p>
+<p>我们要坚持走中国特色社会主义法治道路，建设中国特色社会主义法治体系、建设社会主义法治国家，围绕保障和促进社会公平正义，坚持依法治国、依法执政、依法行政共同推进，坚持法治国家、法治政府、法治社会一体建设，全面推进科学立法、严格执法、公正司法、全民守法，全面推进国家各方面工作法治化。</p>`,readingTime:{minutes:1.81,words:542},title:"10.29 新修订的畜牧法 the newly revised Animal Husbandry Law",type:"article"}}],["/english/china/10.30.html",{loader:()=>A(()=>import("./10.30.html-TCi1X0sX.js"),__vite__mapDeps([62,1])),meta:{date:1707969149e3,excerpt:`
+<p>module  n.单元；模块；功能块；程序块；舱</p>
+<p>10月31日15时37分，搭载空间站梦天实验舱的长征五号B遥四运载火箭，在我国文昌航天发射场准时点火发射，约8分钟后，梦天实验舱与火箭成功分离并准确进入预定轨道——距离地球约400千米的近地轨道。发射任务取得圆满成功。</p>
+<p>China's Mengtian space lab module was launched on Monday afternoon. The lab module's carrier — a Long March 5B heavy-lift rocket — blasted off at 3:37 pm at the Wenchang Space Launch Center in the southernmost island province of Hainan. After flying more than eight minutes, the rocket placed the spacecraft into a low-Earth orbit nearly 400 kilometers above the ground.</p>`,readingTime:{minutes:2.33,words:699},title:"10.30 梦天实验舱 Mengtian space lab module",type:"article"}}],["/english/china/10.31.html",{loader:()=>A(()=>import("./10.31.html-CEzvlNZa.js"),__vite__mapDeps([63,1])),meta:{date:1707969149e3,excerpt:`
+<p>十三届全国人大常委会第三十七次会议 10 月 30 日表决通过黄河保护法。这部法律将从 2023 年 4 月 1 日起施行。</p>
+<p>Chinese lawmakers voted on October 30 to adopt a law on the conservation of the Yellow River. The law, passed at the 37th standing committee session of the 13th National People's Congress (NPC), will take effect on April 1, 2023.</p>`,readingTime:{minutes:.91,words:272},title:"10.31 黄河保护法 law on Yellow River conservation",type:"article"}}],["/english/china/11.1.html",{loader:()=>A(()=>import("./11.1.html-eV5hNjnD.js"),__vite__mapDeps([64,1])),meta:{date:1707969149e3,excerpt:`
+<p>2022年世界城市日全球主场活动暨第二届城市可持续发展全球大会日前在上海开幕。本届世界城市日主题为“行动，从地方走向全球”，由住房和城乡建设部、上海市人民政府、联合国人居署共同举办。</p>
+<p>Themed "Act Local to Go Global", the Global Observance of World Cities Day 2022 and the Second Sustainable Development Goals Cities Global Conference were co-hosted by the Ministry of Housing and Urban-Rural Development, the Shanghai municipal government and the United Nations Human Settlements Programme, with an opening ceremony held in Shanghai on Oct 31.</p>`,readingTime:{minutes:1.41,words:422},title:"11.1 世界城市日全球主场活动 Global Observance of World Cities Day",type:"article"}}],["/english/china/11.2.html",{loader:()=>A(()=>import("./11.2.html-CbQg_nGD.js"),__vite__mapDeps([65,1])),meta:{date:1707969149e3,excerpt:`
+<p>10 月 31 日，中共中央总书记、国家主席习近平在北京人民大会堂向越共中央总书记阮富仲授予中华人民共和国“友谊勋章”，并举行隆重颁授仪式。</p>
+<p>Xi Jinping, general secretary of the Communist Party of China (CPC) Central Committee and Chinese president, awarded Nguyen Phu Trong, general secretary of the Communist Party of Vietnam (CPV) Central Committee, the Friendship Medal of the People's Republic of China during a ceremony held at the Great Hall of the People in Beijing on Oct. 31.</p>`,readingTime:{minutes:1.12,words:337},title:"11.2 中华人民共和国“友谊勋章”the Friendship Medal of the People's Republic of China",type:"article"}}],["/english/free/1.html",{loader:()=>A(()=>import("./1.html-CJnDd9TC.js"),__vite__mapDeps([66,1])),meta:{date:1707969149e3,excerpt:`
+<p>source：<a href="https://time.com/charter/6216047/prepared-leader-erika-james-lynn-wooten/" target="_blank" rel="noopener noreferrer">The 5 Phases of Leading Through a Crisis</a></p>
+<p>课程链接：<a href="https://www.bilibili.com/video/BV13B4y1E7cV/?spm_id_from=333.337.search-card.all.click&amp;vd_source=489ffc649530594b28a5b31b125daf69" target="_blank" rel="noopener noreferrer">FREE 大学英语阅读写作能力提升第一次课</a></p>`,readingTime:{minutes:3.82,words:1145},title:"1First：The 5 Phases of Leading Through a Crisis",type:"article"}}],["/english/free/2.html",{loader:()=>A(()=>import("./2.html-BH_AGIuE.js"),__vite__mapDeps([67,1])),meta:{date:1707969149e3,excerpt:`
+<p>Issue: On Leadership</p>
+<p>写作：</p>
+<p>1	模板式写作 — 最初级写作方式</p>
+<p>2	参考式写作 — 基于大量语料的重新组合（改删编）</p>
+<p>3	原创式写作 — 高级写作方式</p>
+<p>个人写作思路 + 现有写作素材</p>
+<p><em><strong>写作主题</strong></em>：领导力</p>
+<div class="hint-container tip">
+<p class="hint-container-title">写作内容：</p>
+<p>1、我们为什么需要领导力？背景</p>
+<p>2、什么是领导力？总括</p>
+<p>3、领导力具体有哪些体现？具体细节</p>
+<p>4、我们应该如何提高领导力？建议</p>
+<p>5、提高领导力会带来什么结果？作用</p>
+</div>`,readingTime:{minutes:2.32,words:697},title:"2Second【写作】：The 5 Phases of Leading Through a Crisis",type:"article"}}],["/english/free/3.html",{loader:()=>A(()=>import("./3.html-Cpo-sEqm.js"),__vite__mapDeps([68,1])),meta:{date:1707969149e3,excerpt:`
+<p>1	three pillars of a Good Job  好工作的三个重要因素</p>
+<p>2	stagnating  负态度 stagnate  停滞</p>
+<p>3	read and heed (think) 读 + 思考  尾韵</p>
+<p>read and share</p>
+<p>read and write</p>
+<p>4</p>
+<div class="hint-container tip">
+<p class="hint-container-title">Good jobs are essential to :</p>
+<p>a healthy economy</p>
+<p>successful business</p>
+<p>strong communities</p>
+<p>thriving families</p>
+<p>a well-functioning society</p>
+</div>`,readingTime:{minutes:1.2,words:361},title:"3Third：The 3 Pillars of a Good Job",type:"article"}}],["/english/free/4.html",{loader:()=>A(()=>import("./4.html-DdlGvHZJ.js"),__vite__mapDeps([69,1])),meta:{date:1707969149e3,excerpt:`
+<p>1	reckoning	认知  idea / belief / thought / opinion</p>
+<p>2	define ourselves less by what we do for a living</p>
+<div class="hint-container warning">
+<p class="hint-container-title">写作句式</p>
+<p>define sth less by … more by …</p>
+<p>不要通过……定义，而要通过……定义</p>
+<p>e.g.  We should define food less by price, more by flavour.</p>
+</div>`,readingTime:{minutes:1.57,words:470},title:"4Forth：The 3 Pillars of a Good Job",type:"article"}}],["/english/free/5.html",{loader:()=>A(()=>import("./5.html-Ce2m-yo-.js"),__vite__mapDeps([70,1])),meta:{date:1707969149e3,excerpt:`
+<p>1	literally	字面意义上的，确实如此（表强调）</p>
+<p>2	shelter – in – place 居家</p>
+<p>3	a fleeting declines  少 – inescapable 多 负态度</p>
+<p>表示某个东西到处都是，且是负态度，可以用 inescapable</p>
+<p>fleet  n 舰队 v 快速</p>
+<p>4	nuisance 令人讨厌的人或事物</p>
+<p>5	let sth slip away  让某物溜走 = lose sth（是眼睁睁看着溜走的，有挽回机会但是不珍惜）</p>
+<p>let the time slip away = waste time</p>`,readingTime:{minutes:1.45,words:434},title:"5Fifth：How Listening to Silence Changes Our Brains",type:"article"}}],["/english/free/6.html",{loader:()=>A(()=>import("./6.html-UO_srNoq.js"),__vite__mapDeps([71,1])),meta:{date:1707969149e3,excerpt:`
+<p>Issue：如何写负态度bad / worse / worst ?</p>
+<p>1	be behind 落后了</p>
+<p>2	falter  v 变差，变坏，衰退 = worsen</p>
+<p>e.g.	My math education falter.  数学成绩变差了</p>
+<p><strong>sth falter 某事变差，某事做主语</strong></p>
+<p>3	a rocky transition  不稳定的，不牢固的转变</p>
+<p>4	remote learning  远程学习，线上学习</p>
+<p>5	flounder		v不知所措 迷茫</p>
+`,readingTime:{minutes:3.03,words:908},title:"6Sixth：The Pandemic Generation Goes to College",type:"article"}}],["/english/free/7.html",{loader:()=>A(()=>import("./7.html-341aX1T7.js"),__vite__mapDeps([72,1])),meta:{date:1707969149e3,excerpt:`
+<div class="hint-container warning">
+<p class="hint-container-title">1 提问——做出假设 写作句型</p>
+<p>Could the next Leo Tolstoy or Jane Austen be a well-engineered AI software programme? It’s a question that is becoming increasingly pressing as machine language-learning software continues to evolve.</p>
+<p>问题开场——结合主题做出假设——可能性</p>
+<p>e.g. <em>It’s a question that is becoming increasingly pressing</em> <u><strong>as</strong></u> machine language-learning software continues to evolve. 现在的真实情况</p>
+</div>`,readingTime:{minutes:1.44,words:432},title:"7Seventh：When Algorithms Lend Authors A Helping Hand",type:"article"}}],["/english/free/8.html",{loader:()=>A(()=>import("./8.html-DgtvzkoS.js"),__vite__mapDeps([73,1])),meta:{date:1707969149e3,excerpt:`
+<p>1	the knockout (K.O.) stages 	淘汰赛</p>
+<p>2	win - win the trophy 	取得胜利</p>
+<p>3	four games in the knockout rounds were <strong>tied</strong> 平局</p>
+<p>4	convert	转化 用在次数/概率中</p>
+<p>5	stay stationary 	保持静止，一动不动（立场、坚持）</p>
+<p>6	has a <strong>flaw</strong> in sth  在某方面有缺陷</p>
+<p>7	rival	对手、竞争对手；势均力敌的两个人</p>`,readingTime:{minutes:.83,words:250},title:"8Eighth：How to emerge a hero from the tension of a World Cup penalty shootout",type:"article"}}],["/english/free/9.html",{loader:()=>A(()=>import("./9.html-Dzvaoa6-.js"),__vite__mapDeps([74,1])),meta:{date:1707969149e3,excerpt:`
+<p>01	I <text style="color:red;">commissioned</text> a haiku  委托他人撰写</p>
+<p>02	a double wordplay 双关</p>
+<p>03	a dodgy 差劲的 metre and stolid 呆板的 rhymes</p>
+<p>04	the <text style="color:red;">ersatz</text> 人造的，低一个档次的 creativity</p>
+<p>05	sth <text style="color:red;">creaked</text> under the strain of demands from sb. 某物在某人的要求压力下不堪重负</p>`,readingTime:{minutes:1.16,words:348},title:"9Ninth：ChatGPT is fluent, clever and dangerously creative",type:"article"}}],["/english/repo/community.html",{loader:()=>A(()=>import("./community.html-CtdiOgpW.js"),__vite__mapDeps([75,1])),meta:{date:17112384e5,localizedDate:"2024年3月24日",excerpt:`
+<h2>City</h2>
+<h3>Should we put roads underground?</h3>
+<p>-- for urban planners and engineers</p>
+<p>A NEW THING: roads underground? How might underground roads <strong><em>reshape our cities</em></strong> or <strong><em>redefine the daily commute</em></strong>?</p>
+<p>ADVANTAGES:</p>
+<ul>
+<li>pedestrianize the roads and revitalize the city center
+<blockquote>
+<p><strong>pedestrianize</strong>: to moke an area into one where the vehicles are not allowed to go.</p>
+<p><strong>revitalize</strong>: to give new life, energy and activities.</p>
+</blockquote>
+</li>
+<li>free up space for more public amenities
+<blockquote>
+<p><strong>amenity</strong>:sth. that is intended to make life more pleasant or comfortable for the people in the town, hotel or other space.</p>
+</blockquote>
+</li>
+<li>reduce the traffic congestions / free from the sight of gridlocked traffic</li>
+<li>free from the air and the noise pollution</li>
+<li>self-driving cars become popular, which are more <strong><em>energy-efficient</em></strong></li>
+</ul>`,readingTime:{minutes:1.32,words:395},title:"Community",type:"article"}}],["/english/repo/growth.html",{loader:()=>A(()=>import("./growth.html-CJhHotb5.js"),__vite__mapDeps([76,1])),meta:{date:17112384e5,localizedDate:"2024年3月24日",excerpt:`
+<h2>Growing Pain</h2>
+<h3>About Individual Limitations</h3>
+<ul>
+<li><strong>The less expertise in sth., the more likely you are to overestimate your competence in it.</strong></li>
+</ul>
+<p>QUESTIONS:</p>
+<ul>
+<li>less expertise, but over-estimate competence</li>
+<li>less skilled, but over-confidence</li>
+<li>be ignorant of limitations</li>
+</ul>`,readingTime:{minutes:1.22,words:366},title:"Growth",type:"article"}}],["/english/repo/",{loader:()=>A(()=>import("./index.html-n4hUcTZb.js"),__vite__mapDeps([77,1])),meta:{date:17108064e5,localizedDate:"2024年3月19日",excerpt:`
+<p>（以下是一位不追求应试的英语小白还未开始实践的只是初步想法的存在许多纰漏的对英语学习的浅薄的思考过程，仅供参考）</p>
+<p><em>2024-03-19</em>，我开启了这个全新的板块来学习英语，之前一直在忙其他事情，并且对英语学习没有很深刻的认知，导致英语的学习一直坚持不下来。这两天偶然在小红书上刷到了英语播客推荐的图文，经过实践后便开始走上英语学习这条“不归路”。</p>
+<p><a href="http://xhslink.com/mAfb6D" target="_blank" rel="noopener noreferrer">图文链接</a></p>
+<p>其实在刷到这篇图文的前一周，我已经开始一点点拆解英语学习的过程，逐步思考我应该追求纯纸化还是无纸化的学习，列出了两类学习方法的 <em>pros and cons</em>，并且针对朋友自己编程的<code>wordinfo</code>和<code>wordsreciter</code>提出了很多新的构想，但是这些都还并没有被实践所验证，仅停留于想法。我觉得这些也值得被记录下来，以下是我对无纸化、纯纸化以及英语学习的“旧”思考。之后在尝试了听播客之后，又有了很多新的想法，原来“旧”思考中一些不切实际的幻想也被抹除，而以下是我的学习和思考路径——</p>`,readingTime:{minutes:6.91,words:2072},title:"对英语学习的一些迷思",icon:"diary",type:"article"}}],["/english/repo/life.html",{loader:()=>A(()=>import("./life.html-DPakJqlr.js"),__vite__mapDeps([78,1])),meta:{date:17112384e5,localizedDate:"2024年3月24日",excerpt:`
+<h2>Walking for leisure</h2>
+<p><strong>"Going for a walk" is a popular pastime.</strong></p>
+<ul>
+<li>walking slowly in no clear directions
+<ul>
+<li><strong><em>meander</em></strong>: meander through pretty streets / woods</li>
+<li><a href="https://www.vocabulary.com/word-of-the-day/2022-06-26" target="_blank" rel="noopener noreferrer"><strong><em>saunter</em></strong></a>: saunter over fields and hills</li>
+<li><strong><em>stroll</em></strong>: take a stroll / a casual stroller</li>
+<li><strong><em>loiter</em></strong>: loiter in conversation
+<blockquote>
+<p>walk slowly, with stopping often</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>walking quickly
+<ul>
+<li><strong><em>march</em></strong>: march through streets
+<blockquote>
+<p>walking quickly especially when angry</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>a long walk:
+<ul>
+<li><strong><em>tramp</em></strong>: tramp around the countryside</li>
+<li><strong><em>hike</em></strong>: hike along mountain ridges
+<blockquote>
+<p>a long walk, especially in the countryside</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>walk with a long step:
+<ul>
+<li><strong><em>stride</em></strong>: a purposeful strider (similar to <code>the casual stroller</code>)</li>
+</ul>
+</li>
+<li>else:
+<ul>
+<li><strong><em>wanderer</em></strong>: who travels from place to place</li>
+<li><strong><em>gait</em></strong>: a particular way of walk</li>
+</ul>
+</li>
+</ul>`,readingTime:{minutes:.51,words:153},title:"Life",type:"article"}}],["/english/repo/negative.html",{loader:()=>A(()=>import("./negative.html-CPSEKa56.js"),__vite__mapDeps([79,1])),meta:{date:17112384e5,localizedDate:"2024年3月24日",excerpt:`
+<h2>How to describe the negative emotion?</h2>
+<ul>
+<li>withdraw from the activities</li>
+<li>be sadness, anxiety, irritability</li>
+<li>become apathetic and unmotivated</li>
+<li>face stressful circumstances</li>
+<li><strong>vexation</strong>: something that is worrying or annoying</li>
+</ul>
+<h2>How to do with the negative emotion?</h2>`,readingTime:{minutes:.24,words:72},title:"Negative Emotion",type:"article"}}],["/english/repo/unarchived.html",{loader:()=>A(()=>import("./unarchived.html-CTejAiSZ.js"),__vite__mapDeps([80,1])),meta:{date:17216928e5,localizedDate:"2024年7月23日",excerpt:`
+<ul>
+<li>
+<p>How slow this old moon <strong>wanes</strong>.</p>
+<blockquote>
+<p>wane: to become weaker in strength or fluence</p>
+</blockquote>
+</li>
+<li>
+<p>She lingers my desires, like to a <strong>step-dame</strong> or a dowager, long withering out a young man's revenue.</p>
+<blockquote>
+<p>step-dame: 后娘，继母</p>
+<p>dowager: an old woman who is, or behaves as if she is, of high social rank</p>
+<p>wither: to become weak and dry and decay</p>
+</blockquote>
+</li>
+<li>
+<p>Four days will quickly <strong>steep</strong> themselves in night;</p>
+<p>Four nights will quickly dream away the time.</p>
+<p>And then the moon, like to a silver <strong>bow</strong> new-bent in the heaven, shall <strong>behold</strong> the night of our <strong>solemnities</strong>.</p>
+<blockquote>
+<p>steep: sink</p>
+<p>bow: 弓</p>
+<p>behold: look at someone or something</p>
+<p>solemnity: 庄严的仪式，指代 the marriage ceremony</p>
+</blockquote>
+</li>
+<li>
+<p>Hippolyta, I woo'd thee with my sword,</p>
+<p>And won thy love doing thee injuries</p>
+<p>But I will wed thee in another <strong>key</strong>,</p>
+<p>With <strong>pomp</strong>, with <strong>triumph</strong>, with <strong>revelling</strong>.</p>
+<blockquote>
+<p>key: 曲调</p>
+<p>pomp: splendid ceremonial</p>
+<p>triumph: a feeling of satisfication caused by having a great success and victory</p>
+<p>revel: to dance, drink, sing, at a party or in public</p>
+</blockquote>
+</li>
+</ul>`,readingTime:{minutes:.63,words:189},title:"Unarchived",type:"article"}}],["/english/video/1.html",{loader:()=>A(()=>import("./1.html-1jzNDKVf.js"),__vite__mapDeps([81,1])),meta:{date:1707969149e3,excerpt:`
+<p>video：<a href="https://www.bilibili.com/video/BV1rZ4y187ZE?p=1&amp;vd_source=489ffc649530594b28a5b31b125daf69" target="_blank" rel="noopener noreferrer">博士霉 Taylor Swift 在纽约大学 2022 届毕业典礼完整演讲</a></p>
+<p>(Why not watch both raw video and biolanguage-video twice?)</p>
+<h2>Words</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">英语生词</th>
+<th style="text-align:center">中文释义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">philanthropist <text style="color:grey;">[fɪˈlænθrəpɪst]</text></td>
+<td style="text-align:center">n.慈善家</td>
+</tr>
+<tr>
+<td style="text-align:center">bring joy and resolve to sb.</td>
+<td style="text-align:center">为某人/某些人群带去快乐和信念</td>
+</tr>
+<tr>
+<td style="text-align:center">genres <text style="color:grey;">[ˈ(d)ʒɑːŋrəz]</text></td>
+<td style="text-align:center">n.（音乐，文章）体裁</td>
+</tr>
+<tr>
+<td style="text-align:center">genders</td>
+<td style="text-align:center">n.性别</td>
+</tr>
+<tr>
+<td style="text-align:center">demographic</td>
+<td style="text-align:center">n.人口 adj.人口学的</td>
+</tr>
+<tr>
+<td style="text-align:center">original studio albums</td>
+<td style="text-align:center">原始录音室专辑</td>
+</tr>
+<tr>
+<td style="text-align:center">extended plays（EP）</td>
+<td style="text-align:center">迷你专辑</td>
+</tr>
+<tr>
+<td style="text-align:center">live album</td>
+<td style="text-align:center">现场专辑</td>
+</tr>
+<tr>
+<td style="text-align:center">compilation</td>
+<td style="text-align:center">n.选辑，编著</td>
+</tr>
+<tr>
+<td style="text-align:center">galvanize</td>
+<td style="text-align:center">v.刺激，激励</td>
+</tr>
+<tr>
+<td style="text-align:center">discrimination</td>
+<td style="text-align:center">n.歧视</td>
+</tr>
+<tr>
+<td style="text-align:center">sexual orientation</td>
+<td style="text-align:center">性取向</td>
+</tr>
+<tr>
+<td style="text-align:center">gender identity</td>
+<td style="text-align:center">性别认同</td>
+</tr>
+<tr>
+<td style="text-align:center">prevent discrimination on the basis of <text style="color:green;">sexual orientation</text> and <text style="color:green;">gender identity</text></td>
+<td style="text-align:center">遏制基于性取向与性别认同的歧视</td>
+</tr>
+<tr>
+<td style="text-align:center">initiative</td>
+<td style="text-align:center">n.倡议</td>
+</tr>
+<tr>
+<td style="text-align:center">harassment</td>
+<td style="text-align:center">n.骚扰</td>
+</tr>
+<tr>
+<td style="text-align:center">assault</td>
+<td style="text-align:center">n.攻击，侵犯人身</td>
+</tr>
+<tr>
+<td style="text-align:center">sexual <text style="color:green;">assault</text></td>
+<td style="text-align:center">性侵害</td>
+</tr>
+<tr>
+<td style="text-align:center">support initiatives to protect women and girls from <text style="color:green;">harassment</text> and <text style="color:green;">sexual assault</text></td>
+<td style="text-align:center">支持保护妇女和女孩免受性侵害和骚扰的倡议</td>
+</tr>
+<tr>
+<td style="text-align:center">tornadoes</td>
+<td style="text-align:center">n.龙卷风</td>
+</tr>
+<tr>
+<td style="text-align:center">cancer research</td>
+<td style="text-align:center">癌症研究</td>
+</tr>
+<tr>
+<td style="text-align:center">literacy</td>
+<td style="text-align:center">n.读写能力</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">literacy</text> program for children</td>
+<td style="text-align:center">儿童扫盲计划</td>
+</tr>
+<tr>
+<td style="text-align:center">exploitation</td>
+<td style="text-align:center">n.剥削，开发</td>
+</tr>
+<tr>
+<td style="text-align:center">champion</td>
+<td style="text-align:center">n.冠军，第一名    v.捍卫，为……而争斗</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">champion</text> right</td>
+<td style="text-align:center">捍卫权利</td>
+</tr>
+<tr>
+<td style="text-align:center">compensate</td>
+<td style="text-align:center">v.补偿，弥补</td>
+</tr>
+<tr>
+<td style="text-align:center">eloquently</td>
+<td style="text-align:center">v.有力地，雄辩地</td>
+</tr>
+<tr>
+<td style="text-align:center">speak out forcefully, <text style="color:green;">eloquently</text> and effectively</td>
+<td style="text-align:center">坚定地，有力地，有效地发声</td>
+</tr>
+<tr>
+<td style="text-align:center">virtue</td>
+<td style="text-align:center">n.高尚的道德，正直的品行</td>
+</tr>
+<tr>
+<td style="text-align:center">vest</td>
+<td style="text-align:center">v.给予，授予某人某种权利</td>
+</tr>
+<tr>
+<td style="text-align:center">by virtue of the authority vested in me</td>
+<td style="text-align:center">我仅代表赋予我的权利</td>
+</tr>
+<tr>
+<td style="text-align:center">confer</td>
+<td style="text-align:center">v.商讨，协商；授予（荣誉，学术学位）</td>
+</tr>
+<tr>
+<td style="text-align:center">glittery</td>
+<td style="text-align:center">adj.亮闪闪的</td>
+</tr>
+<tr>
+<td style="text-align:center">heels</td>
+<td style="text-align:center">n.高跟鞋</td>
+</tr>
+<tr>
+<td style="text-align:center">humble</td>
+<td style="text-align:center">adj.谦虚的，v.使感到卑微</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">humble</text> me with their works</td>
+<td style="text-align:center">他们的工作使我甘拜下风</td>
+</tr>
+<tr>
+<td style="text-align:center">elated</td>
+<td style="text-align:center">adj.高兴的，欢欣鼓舞的</td>
+</tr>
+<tr>
+<td style="text-align:center">patchwork</td>
+<td style="text-align:center">n.拼凑的东西</td>
+</tr>
+<tr>
+<td style="text-align:center">incredible</td>
+<td style="text-align:center">adj.不可思议的，极好的，不可置信的</td>
+</tr>
+<tr>
+<td style="text-align:center">ally</td>
+<td style="text-align:center">n.盟友</td>
+</tr>
+<tr>
+<td style="text-align:center">mentor</td>
+<td style="text-align:center">n.导师</td>
+</tr>
+<tr>
+<td style="text-align:center">the persuit of educational enrichment</td>
+<td style="text-align:center">追求丰富多样的教育</td>
+</tr>
+<tr>
+<td style="text-align:center">cathy</td>
+<td style="text-align:center">adj.悦耳易记的</td>
+</tr>
+<tr>
+<td style="text-align:center">cathartic</td>
+<td style="text-align:center">adj.起宣泄作用的</td>
+</tr>
+<tr>
+<td style="text-align:center">hook</td>
+<td style="text-align:center">n.钩，也指音乐中最吸引的人的部分</td>
+</tr>
+<tr>
+<td style="text-align:center">song with a <text style="color:green;">cathy hook</text> and an intensly <text style="color:green;">cathartic</text> bridge section</td>
+<td style="text-align:center">一首有朗朗上口的副歌和一个强烈桥段的歌曲</td>
+</tr>
+<tr>
+<td style="text-align:center">breed</td>
+<td style="text-align:center">n.品种</td>
+</tr>
+<tr>
+<td style="text-align:center">terminals</td>
+<td style="text-align:center">n.航空站，（火车，公共汽车或船的）终点站</td>
+</tr>
+<tr>
+<td style="text-align:center">glamorous</td>
+<td style="text-align:center">adj.十分迷人的</td>
+</tr>
+<tr>
+<td style="text-align:center">essentially</td>
+<td style="text-align:center">adv.根本地，基本地，本质上</td>
+</tr>
+<tr>
+<td style="text-align:center">unsolicited</td>
+<td style="text-align:center">adj.未被要求的，自发的</td>
+</tr>
+<tr>
+<td style="text-align:center">solicit</td>
+<td style="text-align:center">vt.恳求，征求；索求，请求……给予</td>
+</tr>
+<tr>
+<td style="text-align:center">impart</td>
+<td style="text-align:center">vt.传授，给予，透露</td>
+</tr>
+<tr>
+<td style="text-align:center">grudge</td>
+<td style="text-align:center">n.积怨，怨恨 v.勉强做</td>
+</tr>
+<tr>
+<td style="text-align:center">toxic</td>
+<td style="text-align:center">adj.有毒的</td>
+</tr>
+<tr>
+<td style="text-align:center">outweigh</td>
+<td style="text-align:center">adv.胜过，超过</td>
+</tr>
+<tr>
+<td style="text-align:center">discerning</td>
+<td style="text-align:center">adj.敏锐的，有识别力的，有洞察力的</td>
+</tr>
+<tr>
+<td style="text-align:center">cringe</td>
+<td style="text-align:center">n.尴尬，难为情；v.畏缩，退却</td>
+</tr>
+<tr>
+<td style="text-align:center">retrospectively</td>
+<td style="text-align:center">adv.回溯性地，回顾地</td>
+</tr>
+<tr>
+<td style="text-align:center">deem</td>
+<td style="text-align:center">v.认为，视为，相信</td>
+</tr>
+<tr>
+<td style="text-align:center">be <text style="color:green;">deemed</text> as</td>
+<td style="text-align:center">被视为=be treated as = be viewed as</td>
+</tr>
+<tr>
+<td style="text-align:center">revolting</td>
+<td style="text-align:center">adj.令人作呕的，令人讨厌的</td>
+</tr>
+<tr>
+<td style="text-align:center">hilarious</td>
+<td style="text-align:center">adj.令人捧腹的，极其滑稽的</td>
+</tr>
+<tr>
+<td style="text-align:center">phase</td>
+<td style="text-align:center">n.阶段，时期 <text style="color:grey;">注：霉霉在演讲时，提到“时期”这个词几乎不用 period，而是用 phase</text></td>
+</tr>
+<tr>
+<td style="text-align:center">squirm</td>
+<td style="text-align:center">v.无地自容，十分尴尬</td>
+</tr>
+<tr>
+<td style="text-align:center">stigma</td>
+<td style="text-align:center">n.耻辱，羞耻</td>
+</tr>
+<tr>
+<td style="text-align:center">unbothered</td>
+<td style="text-align:center">adj.不相关的</td>
+</tr>
+<tr>
+<td style="text-align:center">ambivalence</td>
+<td style="text-align:center">n.矛盾心理</td>
+</tr>
+<tr>
+<td style="text-align:center">perpetuate</td>
+<td style="text-align:center">v.使延续</td>
+</tr>
+<tr>
+<td style="text-align:center">chic</td>
+<td style="text-align:center">adj.时髦的，别致的，优雅的</td>
+</tr>
+<tr>
+<td style="text-align:center">direct videos</td>
+<td style="text-align:center">导演视频</td>
+</tr>
+<tr>
+<td style="text-align:center">create the visuals for a tour</td>
+<td style="text-align:center">为巡演做视觉效果</td>
+</tr>
+<tr>
+<td style="text-align:center">ensnare</td>
+<td style="text-align:center">v.使陷入陷阱、困境</td>
+</tr>
+<tr>
+<td style="text-align:center">sth  <text style="color:green;">ensnares</text> sb.</td>
+<td style="text-align:center">某物使某人陷入困境</td>
+</tr>
+<tr>
+<td style="text-align:center">senior thesis</td>
+<td style="text-align:center">n.毕业论文</td>
+</tr>
+<tr>
+<td style="text-align:center">chameleons</td>
+<td style="text-align:center">n.变色龙</td>
+</tr>
+<tr>
+<td style="text-align:center">veiled</td>
+<td style="text-align:center">adj.含蓄的，掩饰的</td>
+</tr>
+<tr>
+<td style="text-align:center">obsess</td>
+<td style="text-align:center">v.迷恋，使痴迷</td>
+</tr>
+<tr>
+<td style="text-align:center">our society/world are absolutely <text style="color:green;">obsessed</text> with the idea that……</td>
+<td style="text-align:center">我们的世界/社会极其推崇的一个观念是……</td>
+</tr>
+<tr>
+<td style="text-align:center">slight</td>
+<td style="text-align:center">adj.轻微的，略微的；v.冷落，轻视</td>
+</tr>
+<tr>
+<td style="text-align:center">barb</td>
+<td style="text-align:center">n.挖苦，中伤人的话</td>
+</tr>
+<tr>
+<td style="text-align:center">run off the rails</td>
+<td style="text-align:center">跑偏，发展不再完美</td>
+</tr>
+<tr>
+<td style="text-align:center">slip up</td>
+<td style="text-align:center">出小差错</td>
+</tr>
+<tr>
+<td style="text-align:center">axis</td>
+<td style="text-align:center">n.轴</td>
+</tr>
+<tr>
+<td style="text-align:center">get back up</td>
+<td style="text-align:center">跌倒了就站起来</td>
+</tr>
+<tr>
+<td style="text-align:center">dust yourself off</td>
+<td style="text-align:center">拂去身上的灰尘</td>
+</tr>
+<tr>
+<td style="text-align:center">hang out with you</td>
+<td style="text-align:center">和你在一起</td>
+</tr>
+<tr>
+<td style="text-align:center">make the cut</td>
+<td style="text-align:center">取得资格</td>
+</tr>
+<tr>
+<td style="text-align:center">crucial</td>
+<td style="text-align:center">adj.重要的，至关重要的</td>
+</tr>
+<tr>
+<td style="text-align:center">roster</td>
+<td style="text-align:center">n.名册，名单</td>
+</tr>
+<tr>
+<td style="text-align:center">perceive</td>
+<td style="text-align:center">v.感知，认为，察觉到，注意到</td>
+</tr>
+<tr>
+<td style="text-align:center">weird</td>
+<td style="text-align:center">adj.奇怪的</td>
+</tr>
+<tr>
+<td style="text-align:center">simulation</td>
+<td style="text-align:center">n.模拟，仿真</td>
+</tr>
+<tr>
+<td style="text-align:center">excruciatingly</td>
+<td style="text-align:center">adv.极痛苦地，极度地</td>
+</tr>
+<tr>
+<td style="text-align:center">devalue</td>
+<td style="text-align:center">v.贬值，降低</td>
+</tr>
+<tr>
+<td style="text-align:center">fluctuating</td>
+<td style="text-align:center">adj.波动起伏的</td>
+</tr>
+<tr>
+<td style="text-align:center">relevance</td>
+<td style="text-align:center">n.关联的，相关性的，交往</td>
+</tr>
+<tr>
+<td style="text-align:center">consummate</td>
+<td style="text-align:center">adj.技艺高超的，完美的</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">consummate</text> optimist</td>
+<td style="text-align:center">完美主义者</td>
+</tr>
+<tr>
+<td style="text-align:center">misspeak</td>
+<td style="text-align:center">v.说错话</td>
+</tr>
+<tr>
+<td style="text-align:center">underreact</td>
+<td style="text-align:center">v.反应太慢</td>
+</tr>
+<tr>
+<td style="text-align:center">overreact</td>
+<td style="text-align:center">v.过度反应</td>
+</tr>
+<tr>
+<td style="text-align:center">self sabotage</td>
+<td style="text-align:center">自暴自弃</td>
+</tr>
+<tr>
+<td style="text-align:center">hit rock bottom</td>
+<td style="text-align:center">跌到谷底</td>
+</tr>
+<tr>
+<td style="text-align:center">not take the steps to make it right</td>
+<td style="text-align:center">不思悔改</td>
+</tr>
+<tr>
+<td style="text-align:center">rinse</td>
+<td style="text-align:center">v.漂洗，清洗</td>
+</tr>
+<tr>
+<td style="text-align:center">leave the structure and framework of school</td>
+<td style="text-align:center">离开学校的条条框框</td>
+</tr>
+<tr>
+<td style="text-align:center">let go with grace</td>
+<td style="text-align:center">优雅地放手</td>
+</tr>
+<tr>
+<td style="text-align:center">gut</td>
+<td style="text-align:center">adj.本能的</td>
+</tr>
+<tr>
+<td style="text-align:center">instinct</td>
+<td style="text-align:center">n.本能，直觉</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">gut instinct</text></td>
+<td style="text-align:center">直觉</td>
+</tr>
+<tr>
+<td style="text-align:center">intuition</td>
+<td style="text-align:center">n.直觉</td>
+</tr>
+<tr>
+<td style="text-align:center">screw up</td>
+<td style="text-align:center">搞砸一切</td>
+</tr>
+<tr>
+<td style="text-align:center">resilient</td>
+<td style="text-align:center">adj.有适应力的，有韧性的</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:8.12,words:2437},title:"01. Doctor Degree Graduation Speech of Taylor Swift",type:"article"}}],["/english/video/2.html",{loader:()=>A(()=>import("./2.html-BEN068tR.js"),__vite__mapDeps([82,1])),meta:{date:1707969149e3,excerpt:`
+<p>video：<a href="https://www.bilibili.com/video/BV1L94y1X76Q?spm_id_from=333.999.0.0&amp;vd_source=489ffc649530594b28a5b31b125daf69" target="_blank" rel="noopener noreferrer">原神 - 辉金盛夏 - 过场 pv-中英双语</a></p>
+<h2>Words</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">英语生词</th>
+<th style="text-align:center">中文释义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">murmur</td>
+<td style="text-align:center">v.嘟囔，喃喃细语</td>
+</tr>
+<tr>
+<td style="text-align:center">enlighten</td>
+<td style="text-align:center">v.启发，开导，阐明</td>
+</tr>
+<tr>
+<td style="text-align:center">enlightened</td>
+<td style="text-align:center">adj.开明的，有见识的</td>
+</tr>
+<tr>
+<td style="text-align:center">hatred</td>
+<td style="text-align:center">n.仇恨，憎恨，厌恶</td>
+</tr>
+<tr>
+<td style="text-align:center">embark</td>
+<td style="text-align:center">v.上船</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">embark</text> on a journey</td>
+<td style="text-align:center">踏上旅途</td>
+</tr>
+<tr>
+<td style="text-align:center">erect</td>
+<td style="text-align:center">v.建起，竖起，搭起；adj.垂直的，竖直的</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">erect</text> castles and towns</td>
+<td style="text-align:center">搭建城堡与乡镇</td>
+</tr>
+<tr>
+<td style="text-align:center">magnificent</td>
+<td style="text-align:center">adj.壮丽的，宏伟的</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">magnificent</text> kingdom</td>
+<td style="text-align:center">金碧辉煌的王国</td>
+</tr>
+<tr>
+<td style="text-align:center">crystal</td>
+<td style="text-align:center">n.结晶，水晶 adj.水晶般的，晶莹的</td>
+</tr>
+<tr>
+<td style="text-align:center">mortal</td>
+<td style="text-align:center">n.凡人，人，普通人  adj.致命的，不共戴天的</td>
+</tr>
+<tr>
+<td style="text-align:center">let alone</td>
+<td style="text-align:center">更不用说，更别提</td>
+</tr>
+<tr>
+<td style="text-align:center">flap</td>
+<td style="text-align:center">v.拍打，振翅</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">flap</text> wings</td>
+<td style="text-align:center">（鸟儿）拍打翅膀</td>
+</tr>
+<tr>
+<td style="text-align:center">dazzling</td>
+<td style="text-align:center">adj.耀眼的，夺目的，灿烂的</td>
+</tr>
+<tr>
+<td style="text-align:center">illuminate</td>
+<td style="text-align:center">v.照亮，照明；阐明，解释</td>
+</tr>
+<tr>
+<td style="text-align:center">voice a complain</td>
+<td style="text-align:center">抱怨</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:1.75,words:525},title:"02. [Genshin Impact] Golden Midsummer",type:"article"}}],["/english/video/3.html",{loader:()=>A(()=>import("./3.html-DC1yraAv.js"),__vite__mapDeps([83,1])),meta:{date:1707969149e3,excerpt:`
+<p>video：<a href="https://www.bilibili.com/video/BV1XJ411C78R?spm_id_from=333.337.search-card.all.click&amp;vd_source=489ffc649530594b28a5b31b125daf69" target="_blank" rel="noopener noreferrer"><strong>Taylor Swift</strong> Accepts Woman of the Decade Award | Women In Music</a></p>
+<h2>Words</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">英语生词</th>
+<th style="text-align:center">中文释义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">This is going great so far</td>
+<td style="text-align:center">这一切真是顺利极了</td>
+</tr>
+<tr>
+<td style="text-align:center">put out</td>
+<td style="text-align:center">出版</td>
+</tr>
+<tr>
+<td style="text-align:center">debut</td>
+<td style="text-align:center">v.首次亮相，首次出演</td>
+</tr>
+<tr>
+<td style="text-align:center">self-titled</td>
+<td style="text-align:center">同名</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">self-titled debut </text>album</td>
+<td style="text-align:center">首张同名专辑</td>
+</tr>
+<tr>
+<td style="text-align:center">breakthrough</td>
+<td style="text-align:center">n.重大进展，突破</td>
+</tr>
+<tr>
+<td style="text-align:center">reservation</td>
+<td style="text-align:center">n.预约，预订；<text style="color:red;">迷惑</text></td>
+</tr>
+<tr>
+<td style="text-align:center">savvy</td>
+<td style="text-align:center">adj.有见识的；通情达理的</td>
+</tr>
+<tr>
+<td style="text-align:center">record label</td>
+<td style="text-align:center">唱片公司</td>
+</tr>
+<tr>
+<td style="text-align:center">detractor</td>
+<td style="text-align:center">n.诋毁者，贬低者</td>
+</tr>
+<tr>
+<td style="text-align:center">satire</td>
+<td style="text-align:center">n.讽刺，讽刺作品</td>
+</tr>
+<tr>
+<td style="text-align:center">anthem</td>
+<td style="text-align:center">n.国歌，（组织或群体的）社歌</td>
+</tr>
+<tr>
+<td style="text-align:center">lyrical</td>
+<td style="text-align:center">adj.抒情的</td>
+</tr>
+<tr>
+<td style="text-align:center">dictate</td>
+<td style="text-align:center">v.命令；口述</td>
+</tr>
+<tr>
+<td style="text-align:center">backlash</td>
+<td style="text-align:center">n.强烈抵制，集体反对</td>
+</tr>
+<tr>
+<td style="text-align:center">pitchy</td>
+<td style="text-align:center">adj.沥青似的，粘性的</td>
+</tr>
+<tr>
+<td style="text-align:center">harsh</td>
+<td style="text-align:center">adj.严厉的，严苛的；恶劣的；残酷的</td>
+</tr>
+<tr>
+<td style="text-align:center">this wave of <text style="color:green;">harsh</text> criticism had hit me so hard</td>
+<td style="text-align:center">这样严苛残酷的批评浪潮非常打击我<br>1.wave of……  要说“……的浪潮”的时候用“wave”一词<br>2.hit 可以表示“击打”，不只物理的，还能像这句一样用<br>3.掌握“harsh”的用法</td>
+</tr>
+<tr>
+<td style="text-align:center">clever</td>
+<td style="text-align:center">adj.聪明的，<text style="color:red;">油腔滑调的</text></td>
+</tr>
+<tr>
+<td style="text-align:center">vocal</td>
+<td style="text-align:center">adj.噪音的；直言不讳的；n.（乐曲中的）歌唱部分</td>
+</tr>
+<tr>
+<td style="text-align:center">stamina</td>
+<td style="text-align:center">n.耐力，持久力</td>
+</tr>
+<tr>
+<td style="text-align:center">appease</td>
+<td style="text-align:center">v.抚慰，安抚</td>
+</tr>
+<tr>
+<td style="text-align:center">manipulator</td>
+<td style="text-align:center">n.操纵者</td>
+</tr>
+<tr>
+<td style="text-align:center">calculated <text style="color:green;">manipulator</text></td>
+<td style="text-align:center">精打细算的控制狂</td>
+</tr>
+<tr>
+<td style="text-align:center">public view</td>
+<td style="text-align:center">公众视野</td>
+</tr>
+<tr>
+<td style="text-align:center">reserve</td>
+<td style="text-align:center">v.拥有，保留</td>
+</tr>
+<tr>
+<td style="text-align:center">scrutiny</td>
+<td style="text-align:center">n.仔细检查，认真仔细的审查</td>
+</tr>
+<tr>
+<td style="text-align:center">ruthlessly</td>
+<td style="text-align:center">adv.无情地，残忍地</td>
+</tr>
+<tr>
+<td style="text-align:center">aesthetic<text style="color:grey;">[iːsˈθetɪk]</text></td>
+<td style="text-align:center">n.美学；美感；审美观</td>
+</tr>
+<tr>
+<td style="text-align:center">repurpose</td>
+<td style="text-align:center">v.（为适合新用途）对……稍加修改</td>
+</tr>
+<tr>
+<td style="text-align:center">nominate</td>
+<td style="text-align:center">v.提名；推荐；任命</td>
+</tr>
+<tr>
+<td style="text-align:center">motion</td>
+<td style="text-align:center">n.移动，运动</td>
+</tr>
+<tr>
+<td style="text-align:center">crush</td>
+<td style="text-align:center">v.压坏，压伤</td>
+</tr>
+<tr>
+<td style="text-align:center">pressure may <text style="color:green;">crush</text> sb.</td>
+<td style="text-align:center">压力可能会压垮某人</td>
+</tr>
+<tr>
+<td style="text-align:center">mixing board</td>
+<td style="text-align:center">n.混音台</td>
+</tr>
+<tr>
+<td style="text-align:center">frontier</td>
+<td style="text-align:center">n.边界，边境，国界</td>
+</tr>
+<tr>
+<td style="text-align:center">the streaming world</td>
+<td style="text-align:center">流媒体世界</td>
+</tr>
+<tr>
+<td style="text-align:center">drop a song</td>
+<td style="text-align:center">发布歌曲</td>
+</tr>
+<tr>
+<td style="text-align:center">revenue</td>
+<td style="text-align:center">n.收入，财政收入</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">revenue</text> flow</td>
+<td style="text-align:center">财政收入流</td>
+</tr>
+<tr>
+<td style="text-align:center">unregulated</td>
+<td style="text-align:center">adj.不受约束的，不受监管的</td>
+</tr>
+<tr>
+<td style="text-align:center">estate</td>
+<td style="text-align:center">n.庄园，个人财产</td>
+</tr>
+<tr>
+<td style="text-align:center">prior</td>
+<td style="text-align:center">adj.先前的；优先的；较重要的</td>
+</tr>
+<tr>
+<td style="text-align:center">misconduct</td>
+<td style="text-align:center">n.不当行为</td>
+</tr>
+<tr>
+<td style="text-align:center">call out unfairness and <text style="color:green;">misconduct</text></td>
+<td style="text-align:center">指出不公平与不当行为</td>
+</tr>
+<tr>
+<td style="text-align:center">advent</td>
+<td style="text-align:center">n.到来，（重要事件，人物，发明）的出现</td>
+</tr>
+<tr>
+<td style="text-align:center">the <text style="color:green;">advent</text> of social media</td>
+<td style="text-align:center">社交媒体的面世</td>
+</tr>
+<tr>
+<td style="text-align:center">contractual</td>
+<td style="text-align:center">adj.合同的</td>
+</tr>
+<tr>
+<td style="text-align:center">unrecoupable</td>
+<td style="text-align:center">adj.不可挽回的</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:4.31,words:1293},title:"03.Taylor Swift Accepts Woman of the Decade Award",type:"article"}}],["/english/video/4.html",{loader:()=>A(()=>import("./4.html-CZIuz05Y.js"),__vite__mapDeps([84,1])),meta:{date:1707969149e3,excerpt:`
+<p>video:<a href="https://www.bilibili.com/video/BV1fR4y1s7ij?spm_id_from=333.999.0.0&amp;vd_source=489ffc649530594b28a5b31b125daf69" target="_blank" rel="noopener noreferrer">[新华社]南京大屠杀唯一动态影像</a></p>
+<h2>Words</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">英语生词</th>
+<th style="text-align:center">中文释义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">massacre <text style="color:grey;">[ˈmæsəkə(r)]</text></td>
+<td style="text-align:center">n.大屠杀，屠杀</td>
+</tr>
+<tr>
+<td style="text-align:center">atrocity</td>
+<td style="text-align:center">n.战争中的暴行</td>
+</tr>
+<tr>
+<td style="text-align:center">the most direct and powerful evidence</td>
+<td style="text-align:center">最直接有力的证据</td>
+</tr>
+<tr>
+<td style="text-align:center">Japanese invasion</td>
+<td style="text-align:center">日本侵华</td>
+</tr>
+<tr>
+<td style="text-align:center">horrifying</td>
+<td style="text-align:center">adj.极其震惊的（horrify 的现在分词）</td>
+</tr>
+<tr>
+<td style="text-align:center">torture</td>
+<td style="text-align:center">v.&amp;n.拷打，酷刑，折磨</td>
+</tr>
+<tr>
+<td style="text-align:center">receive medical treatment</td>
+<td style="text-align:center">接受医院治疗</td>
+</tr>
+<tr>
+<td style="text-align:center">the only motion picture images of the Nanjing Massacre</td>
+<td style="text-align:center">有关南京大屠杀的唯一动态画面</td>
+</tr>
+<tr>
+<td style="text-align:center">brutally</td>
+<td style="text-align:center">adv.残忍地，野蛮地</td>
+</tr>
+<tr>
+<td style="text-align:center">smuggle</td>
+<td style="text-align:center">v.走私，偷运</td>
+</tr>
+<tr>
+<td style="text-align:center">tribunal</td>
+<td style="text-align:center">n.法庭，特别法庭</td>
+</tr>
+<tr>
+<td style="text-align:center">Nanjing War Crimes <text style="color:green;">Tribunal</text></td>
+<td style="text-align:center">南京国防部审判战犯军事法庭</td>
+</tr>
+<tr>
+<td style="text-align:center">face justice</td>
+<td style="text-align:center">受到正义的制裁（主动表被动）</td>
+</tr>
+<tr>
+<td style="text-align:center">reel</td>
+<td style="text-align:center">n.卷轴，胶卷，卷筒</td>
+</tr>
+<tr>
+<td style="text-align:center">Nanjing Memorial Hall</td>
+<td style="text-align:center">南京大屠杀遇难同胞纪念馆</td>
+</tr>
+<tr>
+<td style="text-align:center">retrace</td>
+<td style="text-align:center">v.回溯，追溯，回顾</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">retrace</text> one's footsteps</td>
+<td style="text-align:center">重温某人的足迹</td>
+</tr>
+<tr>
+<td style="text-align:center">began a visual dialoge</td>
+<td style="text-align:center">展开镜头对话</td>
+</tr>
+<tr>
+<td style="text-align:center">the present prosperity and peace</td>
+<td style="text-align:center">今日的繁荣祥和</td>
+</tr>
+<tr>
+<td style="text-align:center">a dark period of history</td>
+<td style="text-align:center">黑暗的历史时期</td>
+</tr>
+<tr>
+<td style="text-align:center">humanitarian</td>
+<td style="text-align:center">n.人道主义</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:1.64,words:493},title:"04.The Only Motion images of the Nanjing Massacre",type:"article"}}],["/english/video/5.html",{loader:()=>A(()=>import("./5.html-dvln7mx5.js"),__vite__mapDeps([85,1])),meta:{date:1707969149e3,excerpt:`
+<p>video:<a href="https://www.bilibili.com/video/BV1vB4y157Ug?p=1&amp;vd_source=489ffc649530594b28a5b31b125daf69" target="_blank" rel="noopener noreferrer">原神 -3.0 版本 PV-「千朵玫瑰带来的黎明」- 双语字幕</a></p>
+<h2>Words</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">英语生词</th>
+<th style="text-align:center">中文释义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">calamity</td>
+<td style="text-align:center">n.灾难，灾祸</td>
+</tr>
+<tr>
+<td style="text-align:center">sage</td>
+<td style="text-align:center">n.哲人，圣者</td>
+</tr>
+<tr>
+<td style="text-align:center">whisk</td>
+<td style="text-align:center">v.匆匆带走，迅速送走</td>
+</tr>
+<tr>
+<td style="text-align:center">countless</td>
+<td style="text-align:center">adj.无数的，数不清的，数量多的</td>
+</tr>
+<tr>
+<td style="text-align:center">divine</td>
+<td style="text-align:center">adj.神圣的；神的；n.牧师，神学家</td>
+</tr>
+<tr>
+<td style="text-align:center">trainee</td>
+<td style="text-align:center">n.实习生，见习生，练习生</td>
+</tr>
+<tr>
+<td style="text-align:center">ranger</td>
+<td style="text-align:center">n.护林员；园林管理员</td>
+</tr>
+<tr>
+<td style="text-align:center">withering</td>
+<td style="text-align:center">adj.尖刻的，使人难堪的 v.枯萎，凋谢</td>
+</tr>
+<tr>
+<td style="text-align:center">millennium</td>
+<td style="text-align:center">n.一千年，千周年纪念日</td>
+</tr>
+<tr>
+<td style="text-align:center">nip</td>
+<td style="text-align:center">v.夹，掐；啃咬；n.啃；寒意；掐；少量的烈酒</td>
+</tr>
+<tr>
+<td style="text-align:center">utilize</td>
+<td style="text-align:center">v.使用，运用，应用</td>
+</tr>
+<tr>
+<td style="text-align:center">legacy</td>
+<td style="text-align:center">n.遗产，遗留，后遗症</td>
+</tr>
+<tr>
+<td style="text-align:center">auction</td>
+<td style="text-align:center">n.拍卖</td>
+</tr>
+<tr>
+<td style="text-align:center">merchant</td>
+<td style="text-align:center">n.商人</td>
+</tr>
+<tr>
+<td style="text-align:center">retribution</td>
+<td style="text-align:center">n.严惩，惩罚；报应，报答</td>
+</tr>
+<tr>
+<td style="text-align:center">confirmation</td>
+<td style="text-align:center">n.确认书；证实；证明书；坚振</td>
+</tr>
+<tr>
+<td style="text-align:center">frivolous</td>
+<td style="text-align:center">adj.轻浮的，无聊的，愚蠢的</td>
+</tr>
+<tr>
+<td style="text-align:center">pursue <text style="color:green;">frivolous</text> and meaningless activities</td>
+<td style="text-align:center">追求轻浮而虚无的东西</td>
+</tr>
+<tr>
+<td style="text-align:center">extract</td>
+<td style="text-align:center">v.摘取，提取；索取；（用力）取出，拔出；获得</td>
+</tr>
+<tr>
+<td style="text-align:center">utopia</td>
+<td style="text-align:center">n.乌托邦</td>
+</tr>
+<tr>
+<td style="text-align:center">validity</td>
+<td style="text-align:center">n.有效性，正确；合法性</td>
+</tr>
+<tr>
+<td style="text-align:center">verity</td>
+<td style="text-align:center">n.（关于生命的）准则，信念</td>
+</tr>
+<tr>
+<td style="text-align:center">defile</td>
+<td style="text-align:center">v.弄脏，玷污；糟蹋</td>
+</tr>
+<tr>
+<td style="text-align:center">seek <text style="color:green;">validity, verity,</text> and truth</td>
+<td style="text-align:center">追求真实、真相与真理</td>
+</tr>
+<tr>
+<td style="text-align:center">denial</td>
+<td style="text-align:center">n.拒绝，否定；剥夺（应有的权利）</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:1.05,words:315},title:"05. [Genshin Impact] The Morn a Thousand Roses Brings",type:"article"}}],["/english/video/6.html",{loader:()=>A(()=>import("./6.html-BprinDye.js"),__vite__mapDeps([86,1])),meta:{date:1707969149e3,excerpt:`
+<div class="hint-container tip">
+<p class="hint-container-title">我有话说</p>
+<p>《中国瞭望塔》的链接在这：<a href="https://m.weibo.cn/status/4782591880727150?sourceType=weixin&amp;from=10C8195010&amp;wm=9006_2001&amp;featurecode=newtitle" target="_blank" rel="noopener noreferrer">点击进入</a></p>
+<p>音乐，故事，镜头，三者交相融合浑然一体，无缝转场的高级运用，强烈安利！！！你会感受到什么叫做中华文化的“博大精深”“敦实厚重”！</p>
+</div>`,readingTime:{minutes:2.19,words:658},title:"06. 意大利导演 Leonardo Dalessandri 拍《中国瞭望塔》（Watchtower of China）有感",type:"article"}}],["/english/video/7.html",{loader:()=>A(()=>import("./7.html-KZiSW2kh.js"),__vite__mapDeps([87,1])),meta:{date:1707969149e3,excerpt:`
+<h2>Words</h2>
+<p>video：<a href="https://www.bilibili.com/video/BV1cG41147Jf?spm_id_from=333.337.search-card.all.click&amp;vd_source=489ffc649530594b28a5b31b125daf69" target="_blank" rel="noopener noreferrer">【孟庆旸】“千里江山，不止青绿”</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">英语生词</th>
+<th style="text-align:center">中文释义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">rolling</td>
+<td style="text-align:center">adj.起伏的，规则的<br>v.翻滚，滚动（roll 的现在分词）</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">rolling</text> mountains，flowing rivers</td>
+<td style="text-align:center">青绿氤氲，山河无垠</td>
+</tr>
+<tr>
+<td style="text-align:center">hue</td>
+<td style="text-align:center">n.颜色，色度，色调</td>
+</tr>
+<tr>
+<td style="text-align:center">come alive</td>
+<td style="text-align:center">走向现在，恢复生机</td>
+</tr>
+<tr>
+<td style="text-align:center">legendary</td>
+<td style="text-align:center">adj.非常著名的，享有盛名的；传奇的</td>
+</tr>
+<tr>
+<td style="text-align:center">ancient sentiment</td>
+<td style="text-align:center">adj.古老的情感</td>
+</tr>
+<tr>
+<td style="text-align:center">conceptualize</td>
+<td style="text-align:center">v.构思，使形成观念</td>
+</tr>
+<tr>
+<td style="text-align:center">the <text style="color:green;">ancient sentiments</text> are <text style="color:green;">conceptualized</text> as the green mountains and rivers</td>
+<td style="text-align:center">古老的情感化作青绿，化作山水</td>
+</tr>
+<tr>
+<td style="text-align:center">gracefully</td>
+<td style="text-align:center">v.优雅地，温文地</td>
+</tr>
+<tr>
+<td style="text-align:center">roam</td>
+<td style="text-align:center">v.漫游，漫步；徜徉；闲逛</td>
+</tr>
+<tr>
+<td style="text-align:center">aesthetic</td>
+<td style="text-align:center">n.美学；美感；审美观</td>
+</tr>
+<tr>
+<td style="text-align:center">They dance <text style="color:green;">gracefully</text>, <text style="color:green;">roaming</text> through the traditional Chinese <text style="color:green;">aesthetic</text> charm</td>
+<td style="text-align:center">翩若惊鸿间，是东方美学的意韵</td>
+</tr>
+<tr>
+<td style="text-align:center">embrace</td>
+<td style="text-align:center">v.拥抱；欣然接受；乐意采纳（思想，建议等）</td>
+</tr>
+<tr>
+<td style="text-align:center">panorama</td>
+<td style="text-align:center">n.全景；全景画卷</td>
+</tr>
+<tr>
+<td style="text-align:center">The <text style="color:green;">Panorama</text> of Rivers and Mountains is far more than a piece of painting</td>
+<td style="text-align:center">千里江山，不止青绿</td>
+</tr>
+<tr>
+<td style="text-align:center">preface</td>
+<td style="text-align:center">n.前言；（书的）序言</td>
+</tr>
+<tr>
+<td style="text-align:center">postscript</td>
+<td style="text-align:center">n.后记；跋；补充</td>
+</tr>
+<tr>
+<td style="text-align:center">surviving work</td>
+<td style="text-align:center">现存作品</td>
+</tr>
+<tr>
+<td style="text-align:center">masterwork</td>
+<td style="text-align:center">n.杰作，代表作</td>
+</tr>
+<tr>
+<td style="text-align:center">depict   [dɪˈpɪkt]</td>
+<td style="text-align:center">v.描绘；绘画；描写</td>
+</tr>
+<tr>
+<td style="text-align:center"><em>A Thousand Li of Rivers and Mountains</em></td>
+<td style="text-align:center">《千里江山图》</td>
+</tr>
+<tr>
+<td style="text-align:center">gala</td>
+<td style="text-align:center">n.庆典，盛会；演出</td>
+</tr>
+<tr>
+<td style="text-align:center">CCTV Spring Festival <text style="color:green;">Gala</text></td>
+<td style="text-align:center">央视春晚</td>
+</tr>
+<tr>
+<td style="text-align:center">segment</td>
+<td style="text-align:center">n.部分；份；片；段</td>
+</tr>
+<tr>
+<td style="text-align:center"><em>The Journey of a Legendary Landscape Painting</em></td>
+<td style="text-align:center">《只此青绿》</td>
+</tr>
+<tr>
+<td style="text-align:center">dominant</td>
+<td style="text-align:center">adj.占主导地位的；占优势的；首要的</td>
+</tr>
+<tr>
+<td style="text-align:center">serve as the <text style="color:green;">dominant</text> hue</td>
+<td style="text-align:center">成为主要色调</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>literati</strong></td>
+<td style="text-align:center">n.文人；文人学士</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>literature</strong></td>
+<td style="text-align:center">n.文学；文学作品；文献</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>literacy</strong></td>
+<td style="text-align:center">n.读写能力</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>literate</strong></td>
+<td style="text-align:center">adj.有读写能力的；有文化的<br>n.有学问的人</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>literary</strong></td>
+<td style="text-align:center">adj.文学上的；文学的</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>literally</strong></td>
+<td style="text-align:center">adv.字面上；（强调事实可能令人惊讶）真正地，确实地</td>
+</tr>
+<tr>
+<td style="text-align:center">azurite</td>
+<td style="text-align:center">n.石青，蓝铜矿</td>
+</tr>
+<tr>
+<td style="text-align:center">malachite</td>
+<td style="text-align:center">n.孔雀石</td>
+</tr>
+<tr>
+<td style="text-align:center">extract</td>
+<td style="text-align:center">v.摘录；提取；提炼；（用力）取出</td>
+</tr>
+<tr>
+<td style="text-align:center">copper</td>
+<td style="text-align:center">n.铜</td>
+</tr>
+<tr>
+<td style="text-align:center">ore</td>
+<td style="text-align:center">n.矿；矿石</td>
+</tr>
+<tr>
+<td style="text-align:center">marvelous</td>
+<td style="text-align:center">adj.不可思议的，了不起的；非凡的</td>
+</tr>
+<tr>
+<td style="text-align:center">the <text style="color:green;">marvelous</text> colors of hills and waters</td>
+<td style="text-align:center">色彩壮丽的丘壑林泉</td>
+</tr>
+<tr>
+<td style="text-align:center">(the color) remain bright</td>
+<td style="text-align:center">不褪色，保持原来的色彩</td>
+</tr>
+<tr>
+<td style="text-align:center">rehearsal</td>
+<td style="text-align:center">n.排练；预演；复述；重复</td>
+</tr>
+<tr>
+<td style="text-align:center">transquility</td>
+<td style="text-align:center">n.宁静；安静</td>
+</tr>
+<tr>
+<td style="text-align:center">restrained</td>
+<td style="text-align:center">adj.克制的，有节制的</td>
+</tr>
+<tr>
+<td style="text-align:center">the calm and <text style="color:green;">restrained</text> beauty of Song dynasty</td>
+<td style="text-align:center">沉稳内敛的宋代审美意境</td>
+</tr>
+<tr>
+<td style="text-align:center">achieve inner peace</td>
+<td style="text-align:center">收获平和的心态</td>
+</tr>
+<tr>
+<td style="text-align:center">portray</td>
+<td style="text-align:center">v.描绘，描画；描写</td>
+</tr>
+<tr>
+<td style="text-align:center">fragility</td>
+<td style="text-align:center">n.脆弱，易碎性；虚弱</td>
+</tr>
+<tr>
+<td style="text-align:center">divergent</td>
+<td style="text-align:center">adj.发散的，有分歧的</td>
+</tr>
+<tr>
+<td style="text-align:center">temperament</td>
+<td style="text-align:center">n.性情；（人或动物的）气质；性格</td>
+</tr>
+<tr>
+<td style="text-align:center">imitate</td>
+<td style="text-align:center">v.效仿；模仿（某人的讲话，举止）</td>
+</tr>
+<tr>
+<td style="text-align:center">mimic</td>
+<td style="text-align:center">v.模仿（人的言行举止）</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">mimic</text> the stunning mountainside in the paintings</td>
+<td style="text-align:center">比喻险峰</td>
+</tr>
+<tr>
+<td style="text-align:center">the aesthetics of Song dynasty</td>
+<td style="text-align:center">宋代美学</td>
+</tr>
+<tr>
+<td style="text-align:center">horticultural</td>
+<td style="text-align:center">adj.文艺学的</td>
+</tr>
+<tr>
+<td style="text-align:center">hashtag</td>
+<td style="text-align:center">n.话题标签；推文话题</td>
+</tr>
+<tr>
+<td style="text-align:center">trendy</td>
+<td style="text-align:center">n.热搜</td>
+</tr>
+<tr>
+<td style="text-align:center">phenomenal</td>
+<td style="text-align:center">adj.了不起的，非凡的</td>
+</tr>
+<tr>
+<td style="text-align:center">dynamism</td>
+<td style="text-align:center">n.精力；活力；劲头</td>
+</tr>
+<tr>
+<td style="text-align:center">The only impression towards Chinese culture was respect</td>
+<td style="text-align:center">对中华文明的印象只有尊敬</td>
+</tr>
+<tr>
+<td style="text-align:center">ponder</td>
+<td style="text-align:center">v.思索，掂量</td>
+</tr>
+<tr>
+<td style="text-align:center">gravitation</td>
+<td style="text-align:center">n.万有引力；引力</td>
+</tr>
+<tr>
+<td style="text-align:center">the magical <text style="color:green;">gravitation</text> in Chinese culture</td>
+<td style="text-align:center">中华文化本身的魅力</td>
+</tr>
+<tr>
+<td style="text-align:center">mission</td>
+<td style="text-align:center">n.使命</td>
+</tr>
+<tr>
+<td style="text-align:center">a sense of <text style="color:green;">mission</text></td>
+<td style="text-align:center">使命感</td>
+</tr>
+<tr>
+<td style="text-align:center">grandeur</td>
+<td style="text-align:center">n.宏伟；壮丽；堂皇</td>
+</tr>
+<tr>
+<td style="text-align:center">exquisite</td>
+<td style="text-align:center">n.精致<br>adj.精致的；精美的</td>
+</tr>
+<tr>
+<td style="text-align:center">tremendous</td>
+<td style="text-align:center">adj.巨大的，极大的，极好的</td>
+</tr>
+<tr>
+<td style="text-align:center">epic</td>
+<td style="text-align:center">n.史诗；叙事诗；壮举</td>
+</tr>
+<tr>
+<td style="text-align:center">a sense of magnificent epic</td>
+<td style="text-align:center">壮美史诗感</td>
+</tr>
+<tr>
+<td style="text-align:center">aboriginal</td>
+<td style="text-align:center">n.原住民；（尤指澳大利亚的）土著<br>adj.澳大利亚土著的</td>
+</tr>
+<tr>
+<td style="text-align:center">dedicated</td>
+<td style="text-align:center">adj.献身的；专用的；专心致志的<br>v.把……奉献给</td>
+</tr>
+<tr>
+<td style="text-align:center">traverse</td>
+<td style="text-align:center">v.超越；穿过；横过</td>
+</tr>
+<tr>
+<td style="text-align:center">traverse all the barriers of language</td>
+<td style="text-align:center">超越了所有语言隔阂</td>
+</tr>
+<tr>
+<td style="text-align:center">oriental</td>
+<td style="text-align:center">adj.东方（尤指中国和日本的）；东方人的</td>
+</tr>
+<tr>
+<td style="text-align:center">touch the soul</td>
+<td style="text-align:center">触动灵魂</td>
+</tr>
+<tr>
+<td style="text-align:center">interlock</td>
+<td style="text-align:center">v.扣紧；（使）连锁；紧密连接</td>
+</tr>
+<tr>
+<td style="text-align:center">Along the River During the Qingming Festival</td>
+<td style="text-align:center">清明上河图</td>
+</tr>
+<tr>
+<td style="text-align:center">merge</td>
+<td style="text-align:center">v.合并，融入；（使）结合</td>
+</tr>
+<tr>
+<td style="text-align:center">intrigues</td>
+<td style="text-align:center">v.激起……的兴趣；引发……的好奇心<br>n.密谋策划；阴谋</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:4.65,words:1394},title:"07. 【孟庆旸】“千里江山，不止青绿”The Panorama of Rivers and Mountains is far more than a piece of painting",type:"article"}}],["/english/video/8.html",{loader:()=>A(()=>import("./8.html-iZe5JyoB.js"),__vite__mapDeps([88,1])),meta:{date:1707969149e3,excerpt:`
+<h2>Words</h2>
+<p>video：<a href="https://www.bilibili.com/video/BV1M14y1b7kT?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&amp;vd_source=489ffc649530594b28a5b31b125daf69" target="_blank" rel="noopener noreferrer">【TED】宇宙中最神秘的恒星</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">英语生词</th>
+<th style="text-align:center">中文释义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">hypothesis</td>
+<td style="text-align:center">n.假设；（有少量事实依据但是未被证明的）假说</td>
+</tr>
+<tr>
+<td style="text-align:center">a last resort</td>
+<td style="text-align:center">最后一根稻草</td>
+</tr>
+<tr>
+<td style="text-align:center">stare</td>
+<td style="text-align:center">v.观测；盯着</td>
+</tr>
+<tr>
+<td style="text-align:center"><text style="color:green;">stare</text> at a single field in the sky</td>
+<td style="text-align:center">观测一小块天区</td>
+</tr>
+<tr>
+<td style="text-align:center">align</td>
+<td style="text-align:center">v.排列，校准，使……成一条直线</td>
+</tr>
+<tr>
+<td style="text-align:center">dip</td>
+<td style="text-align:center">v.蘸，浸；<br>n.（暂时的）下降；低洼处</td>
+</tr>
+<tr>
+<td style="text-align:center">sophisticated</td>
+<td style="text-align:center">adj.复杂的，精密的，先进的，见多识广的</td>
+</tr>
+<tr>
+<td style="text-align:center">citizen science project</td>
+<td style="text-align:center">公民科学项目</td>
+</tr>
+<tr>
+<td style="text-align:center">pattern recognition</td>
+<td style="text-align:center">模式识别</td>
+</tr>
+<tr>
+<td style="text-align:center">skepticism</td>
+<td style="text-align:center">n.怀疑论；怀疑主义者</td>
+</tr>
+<tr>
+<td style="text-align:center">versus</td>
+<td style="text-align:center">v.对抗；（比较两种不同选择，想法）与……相比</td>
+</tr>
+<tr>
+<td style="text-align:center">gamble</td>
+<td style="text-align:center">n.赌博；冒险；打赌</td>
+</tr>
+<tr>
+<td style="text-align:center">forum</td>
+<td style="text-align:center">n.论坛；公开讨论场所</td>
+</tr>
+<tr>
+<td style="text-align:center">asymmetric</td>
+<td style="text-align:center">adj.不对称的</td>
+</tr>
+<tr>
+<td style="text-align:center">dim</td>
+<td style="text-align:center">adj.昏暗的；黯淡的；v.变暗，变微弱</td>
+</tr>
+<tr>
+<td style="text-align:center">superimpose</td>
+<td style="text-align:center">v.叠加；使重叠</td>
+</tr>
+<tr>
+<td style="text-align:center">firsthand</td>
+<td style="text-align:center">adj.第一手的，直接的;adv.直接地</td>
+</tr>
+<tr>
+<td style="text-align:center">collide</td>
+<td style="text-align:center">v.碰撞；冲突；抵触；不一致</td>
+</tr>
+<tr>
+<td style="text-align:center">a huge swam of</td>
+<td style="text-align:center">一大群，一大批</td>
+</tr>
+<tr>
+<td style="text-align:center">contrive</td>
+<td style="text-align:center">v.（不顾困难而）设法做到；（克服困难）促成（某事）</td>
+</tr>
+<tr>
+<td style="text-align:center">acronym</td>
+<td style="text-align:center">n.缩略语，梗</td>
+</tr>
+<tr>
+<td style="text-align:center">megastructure</td>
+<td style="text-align:center">n.巨型结构，超级建筑</td>
+</tr>
+<tr>
+<td style="text-align:center">leak</td>
+<td style="text-align:center">v.漏；泄露（秘密信息）；n.漏洞；裂缝</td>
+</tr>
+</tbody>
+</table>`,readingTime:{minutes:1.01,words:304},title:"08. 【TED】宇宙中最神秘的恒星",type:"article"}}],["/english/video/9.html",{loader:()=>A(()=>import("./9.html-DQQ5SBNB.js"),__vite__mapDeps([89,1])),meta:{date:1707969149e3,excerpt:`
+<div style="text-align: center; ">
+<img alt="math_2" src="https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/English_1.jpg">
+</div>
+<div style="text-align: center; ">
+We lie awake in love and in fear, in <text style="color:green;">turmoil</text> and in tears.
+<p>We stare at walls and drink until they <text style="color:green;">speak back</text>.We <text style="color:green;">twist</text> in our self-made cages and pray that we aren't - right this minute - about to make some <text style="color:green;">fateful</text> life-altering mistake.</p>
+<p>This is a collection of music written in the middle of the night, a journey through terrors and sweet dreams. The floors we pace and the <text style="color:green;">demons</text> we face.For all of us who have <text style="color:green;">tossed</text> and turned and decided to keep the lanterns lit and go searching - hoping the just maybe, when the clock strikes twelve……we'll meet ourselves.</p>
+<p>Midnights, the stories of 13 sleepless nights <text style="color:green;">scattered</text> throughout my life, will be out October 21. Meet me at midnight.</p>
+</div>`,readingTime:{minutes:.9,words:269},title:"09. 【Taylor Swift】Midnights 新专辑！！",type:"article"}}],["/study/Algorithm/array.html",{loader:()=>A(()=>import("./array.html-8KcyFWxF.js"),__vite__mapDeps([90,1])),meta:{date:1743439493e3,tag:["algorithm"],excerpt:`
+<h2>二分查找</h2>
+<p>二分查找的模板代码：</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">class</span><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B"> Solution</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> search</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E5C07B;--shiki-dark-font-style:italic">self</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic"> nums</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> List[</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">int</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">]</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic"> target</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) -&gt; </span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line highlighted"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        left, right </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">len</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(nums) </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">-</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  # 定义 target 在左闭右闭的区间里，[left, right]</span></span>
+<span class="line"></span>
+<span class="line highlighted"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        while</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> left </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">&lt;=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> right:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            middle </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> left </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (right </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">-</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> left) </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">//</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 2</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">            if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nums[middle] </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">&gt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> target:</span></span>
+<span class="line highlighted"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                right </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> middle </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">-</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  # target 在左区间，所以 [left, middle - 1]</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">            elif</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nums[middle] </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">&lt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> target:</span></span>
+<span class="line highlighted"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                left </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> middle </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  # target 在右区间，所以 [middle + 1, right]</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">            else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">                return</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> middle  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 数组中找到目标值，直接返回下标</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        return</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> -</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  # 未找到目标值</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,readingTime:{minutes:3.71,words:1112},title:"数组",icon:"code",type:"article"}}],["/study/Algorithm/hashtable.html",{loader:()=>A(()=>import("./hashtable.html-COAGLCtI.js"),__vite__mapDeps([91,1])),meta:{date:1721660389e3,tag:["algorithm"],excerpt:`
+<p>哈希表：主要针对根据特征进行分类的问题</p>
+<h2>python 实现形式</h2>
+<ul>
+<li>字典 (<code>dict()</code> or <code>{}</code>)：python 中的字典就是哈希表，存储了多个键值对，其中“键”可以是字符串，也可以是<code>int</code>型整数</li>
+<li>列表 (<code>list()</code> or <code>[]</code>)：python 中的列表其实是一种特殊的字典形式，该字典的键是下标索引，值是列表中每个索引对应的值</li>
+<li><code>collections.Counter(list)</code>：计数器，是封装好的哈希表函数，调用时的输入参数是一个列表，该函数会返回一个字典，字典中存储各项值在列表中的出现次数，也是一个哈希表。在使用前需要<code>import collections</code>导入需要的库。</li>
+</ul>`,readingTime:{minutes:2.79,words:836},title:"哈希表",icon:"code",type:"article"}}],["/study/Algorithm/",{loader:()=>A(()=>import("./index.html-BTfjcmRb.js"),__vite__mapDeps([92,1])),meta:{date:1743439493e3,tag:["algorithm"],excerpt:`
+<p>感谢<a href="https://programmercarl.com/" target="_blank" rel="noopener noreferrer">代码随想录</a>提供的力扣刷题顺序，我按照代码随想录上给的题目顺序刷题，但是发现他上面也有很多解答不够详细的地方，根据我的理解我会在博客内进行补充</p>
+<h2>刷题注意事项</h2>
+<ul>
+<li>不要愧于看答案，看题解不寒碜，多看题解才能多学到很多方法</li>
+<li>思考时间一般 10 分钟，完全没思路的话就可以去看答案了</li>
+<li>如果有一点思路的话，先把自己的思路实现并提交通过，哪怕是暴力解法也最好先写出来，然后再去看答案学习。（因为有的时候答案也挺暴力的）</li>
+<li>看完答案后，如果和自己的想法不一样，再去修改自己的思路，拓展并记录想法</li>
+</ul>`,readingTime:{minutes:.77,words:230},title:"算法学习",icon:"code",type:"article"}}],["/study/Algorithm/linkedlist.html",{loader:()=>A(()=>import("./linkedlist.html-ZshAEg0y.js"),__vite__mapDeps([93,1])),meta:{date:1744647135e3,tag:["algorithm"],excerpt:`
+<p>有关链表的基础结构，我已经写在了博客的<a href="/study/DataStructure/linked_list.html" target="_blank">数据结构</a>栏目里，具体的 C++ 代码可以查看仓库。<a href="https://github.com/dream-oyh/data-structure-code" target="_blank" rel="noopener noreferrer">ref</a></p>
+<p>链表里面涉及的算法主要是双指针和递归。</p>
+<p>链表数据在内存里不是连续分布的，而是离散分布，通过指针指向另外一个内存地址。也就是说，我只要知道了一个链表头结点的地址，我就能依次拎起整个链表，而不需要像数组那样，把整个数据块都告诉我。但是也由于链表的指针特性，导致链表只能单向查找 <em>（或者构建双向链表实现双向的查找）</em>，链表查找数据的时间复杂度达到了<span v-pre="" class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span>。</p>`,readingTime:{minutes:3.93,words:1180},title:"链表",icon:"code",type:"article"}}],["/study/Algorithm/string.html",{loader:()=>A(()=>import("./string.html-SxscO4kV.js"),__vite__mapDeps([94,1])),meta:{date:1745060085e3,tag:["algorithm"],excerpt:`
+<p>字符串这里如果用 python 写，会跳过很多算法的思想，因为 python 就算不调用库函数，用列表存储字符串也是非常的方便，不需要像 C++ 那样各种双指针扩写。最麻烦的应该是子字符串匹配算法，也就是大名鼎鼎的 KMP 算法，这个算法网上已经有很多教程了，我把我看过的比较好的链接都放在这里。</p>
+<h2>KMP 算法</h2>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1AY4y157yL" target="_blank" rel="noopener noreferrer">KMP 算法概述</a></li>
+</ul>`,readingTime:{minutes:1.73,words:518},title:"字符串",icon:"code",type:"article"}}],["/study/DataStructure/HashTable.html",{loader:()=>A(()=>import("./HashTable.html-BunrokNF.js"),__vite__mapDeps([95,1])),meta:{date:17216064e5,localizedDate:"2024年7月22日",tag:["data_structure"],excerpt:`
+<p><strong>Hash Table</strong>: A abstract data structure that maps keys and values.</p>
+<figure><img src="/images/data_structure/hash_table/logistic_view.png" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p><strong>Hash Function</strong>: A <strong>hash function</strong> is any function that can be used to map data of arbitrary size to fixed-size values (used for storage address), namely <span v-pre="" class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>H</mi><mi>a</mi><mi>s</mi><mi>h</mi><mo stretchy="false">(</mo><mi>k</mi><mi>e</mi><mi>y</mi><mi>s</mi><mo stretchy="false">)</mo><mo>=</mo><mi>A</mi><mi>d</mi><mi>d</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">Hash(keys)=Address</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="mord mathnormal">a</span><span class="mord mathnormal">s</span><span class="mord mathnormal">h</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal">eys</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal">dd</span><span class="mord mathnormal">ress</span></span></span></span></p>`,readingTime:{minutes:1.38,words:413},title:"📈 Hash Table",type:"article"}}],["/study/DataStructure/Heap.html",{loader:()=>A(()=>import("./Heap.html-BfsvoEIF.js"),__vite__mapDeps([96,1])),meta:{date:1723248e6,localizedDate:"2024年8月10日",tag:["data_structure"],excerpt:`
+<h2>二叉堆</h2>
+<p>二叉堆是一种完全二叉树，每个节点存有一个权值。</p>
+<blockquote>
+<p><a href="/study/DataStructure/tree.html#binary-tree" target="_blank">完全二叉树</a>的定义：</p>
+<ol>
+<li>
+<p>完全二叉树只允许最后一行不为满</p>
+</li>
+<li>
+<p>且最后一行必须从左往右排序</p>
+</li>
+<li>
+<p>最后一行元素之间不可以有间隔</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>注意：二叉堆不是二叉搜索树，并不满足左节点小于右节点</p>
+</blockquote>`,readingTime:{minutes:1.37,words:410},title:"堆",type:"article"}}],["/study/DataStructure/graph.html",{loader:()=>A(()=>import("./graph.html-irNHmkCp.js"),__vite__mapDeps([97,1])),meta:{date:17190144e5,localizedDate:"2024年6月22日",tag:["data_structure"],excerpt:`
+<p><strong>Graph:</strong> A graph G is an ordered pair of a set V of vertices and a set E of edges.</p>
+<p v-pre="" class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>G</mi><mo>=</mo><mo stretchy="false">(</mo><mi>V</mi><mo separator="true">,</mo><mi>E</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">G=(V,E)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mclose">)</span></span></span></span></span></p>`,readingTime:{minutes:3.58,words:1073},title:"🗺 Graph",type:"article"}}],["/study/DataStructure/",{loader:()=>A(()=>import("./index.html-kqZL92ez.js"),__vite__mapDeps([98,1])),meta:{date:17190144e5,localizedDate:"2024年6月22日",tag:["data_structure"],excerpt:`
+<p>For the summer camp of Shanghai Jiao Tong University, I decided to learn data structure to prepare for the oncoming exam.</p>
+<p>From 2024/06/20 to 2024/06/22, I spent three days to learn it simply, and challenge myself to learn it in English. Surprsingly, I did it!</p>
+<p>My learning source is <a href="https://www.bilibili.com/video/BV1Fv4y1f7T1" target="_blank" rel="noopener noreferrer">the class from bilibili</a>. 9 hours of lesson can get started in the data structure quickly. It's enough for exam (maybe). Because of I major in the transportation equipment, the data structure is not my major lesson. So I don't know how difficult the exam is. But I think, for some simple application, I can use suitable data structure to achieve something at least.</p>`,readingTime:{minutes:.71,words:213},title:"Data structure",type:"article"}}],["/study/DataStructure/linked_list.html",{loader:()=>A(()=>import("./linked_list.html-dhdaonoI.js"),__vite__mapDeps([99,1])),meta:{date:17190144e5,localizedDate:"2024年6月22日",tag:["data_structure"],excerpt:`
+<h2>Why should we create the linked list?</h2>
+<p>For normal arrays, the data in the memory is stored jointly. But if we need modify some data or extend the arrays, it is hard. Linked list leverages the fixed data sequence, link disjoint data by <strong>Link.</strong> There are two parts in each data block, including data itself, and a pointer, which declared who is the next data block.</p>`,readingTime:{minutes:2.69,words:806},title:"🧮 Linked List",type:"article"}}],["/study/DataStructure/queue.html",{loader:()=>A(()=>import("./queue.html-YAs4EFiS.js"),__vite__mapDeps([100,1])),meta:{date:17190144e5,localizedDate:"2024年6月22日",tag:["data_structure"],excerpt:`
+<h2>The Features of Queue</h2>
+<p>Queue is a list or collection with the restriction that insertion can be performed at one end(rear) and deletion can be performed at other end(head). —First In First Out(FIFO)</p>
+<p>Operation:</p>
+<ol>
+<li>EnQueue(x) or Push(x);</li>
+<li>DeQueue() or Pop();</li>
+<li>Front() or Peek();</li>
+<li>IsEmpty()</li>
+<li>IsFull()</li>
+</ol>`,readingTime:{minutes:2.4,words:721},title:"🚶‍♂️ Queues",type:"article"}}],["/study/DataStructure/stack.html",{loader:()=>A(()=>import("./stack.html-D-jfkobL.js"),__vite__mapDeps([101,1])),meta:{date:17190144e5,localizedDate:"2024年6月22日",tag:["data_structure"],excerpt:`
+<h2>The Features of Stack</h2>
+<p>The item in the stack must be inserted or removed from the top of the stack. —“Last in First Out”(LIFO)</p>
+<p><strong>Definition:</strong> The Stack is a list with the restriction that insertion and deletion must be performed only from the end, called the top.</p>`,readingTime:{minutes:2.59,words:777},title:"🗄 Stack",type:"article"}}],["/study/DataStructure/tree.html",{loader:()=>A(()=>import("./tree.html-BQcIU0VV.js"),__vite__mapDeps([102,1])),meta:{date:17190144e5,localizedDate:"2024年6月22日",tag:["data_structure"],excerpt:`
+<p><strong>Definition:</strong> A tree is a set consisting of several finite nodes with hierarchical relationships.</p>
+<p><strong>Features:</strong> root, children, parent, sibling, leaves, (ancestor, descendent, cousin)</p>
+<ul>
+<li>Tree can be seen recursive data structure.</li>
+<li>Tree has N Nodes, and N-1 edges.</li>
+<li><strong>Depth of x</strong> is defined as the number of edges in path from root to that node.</li>
+<li><strong>Hight of x</strong> is defined as the number of edges in the longest path from the node to a leaf node.</li>
+</ul>`,readingTime:{minutes:4.33,words:1299},title:"🌳 Trees",type:"article"}}],["/study/SummerCampReview/ControlEngineering.html",{loader:()=>A(()=>import("./ControlEngineering.html-Dt8_-oqo.js"),__vite__mapDeps([103,1])),meta:{date:17220384e5,localizedDate:"2024年7月27日",tag:["PID"],excerpt:`
+<h2>PID 调节器</h2>
+<p v-pre="" class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>G</mi><mi>C</mi></msub><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>K</mi><mi>p</mi></msub><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><msub><mi>T</mi><mi>i</mi></msub><mi>s</mi></mrow></mfrac><mo>+</mo><msub><mi>T</mi><mi>d</mi></msub><mi>s</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">G_C(s) = K_p(1+\\frac{1}{T_is}+T_ds)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.07153em;">C</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0361em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:2.1574em;vertical-align:-0.836em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathnormal">s</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.836em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathnormal">s</span><span class="mclose">)</span></span></span></span></span></p>`,readingTime:{minutes:3.45,words:1034},title:"自动控制原理",type:"article"}}],["/study/SummerCampReview/ObjectDetection.html",{loader:()=>A(()=>import("./ObjectDetection.html-YJdmdv0n.js"),__vite__mapDeps([104,1])),meta:{date:17197056e5,localizedDate:"2024年6月30日",excerpt:`
+<h2>Ground Truth, Bounding Box, Anchor Box 区分</h2>
+<p>（搬运来自知乎，但原链接已找不到）</p>
+<p>Ground truth 是真实标注框，也就是人工标注，一般被看作“真值”</p>
+<p>Bounding box 一般认为 (为什么是一般认为，原因参照下面一段最后括号中的内容) 是网络最终预测的结果，也就是“可能值”，因为网络可能预测正确也可能错误</p>
+<p>Anchor box 被称作预选框/锚框，anchor 的机制会更复杂一些，有许多帖子来专门讲解这个。总的来说就是在图像上会按照一定的规律放置一些 anchor，网络会学习 anchor 相对于 ground truth 的偏移量，我们可以把 anchor 看作 bounding box 的“爷爷”，anchor+/-/x/÷ 偏移量所得到的框是 bounding box 的“父亲”，“父亲”经过非极大值抑制 (NMS) 之后就是 bounding box 了 (但是也可以说“父亲”就是 bounding box 了，只是因为“父亲”很少出现在这个领域的相关内容中，所以一般说 bounding box 的时候指的是 NMS 之后的结果)</p>`,readingTime:{minutes:2.09,words:627},title:"Objects Detection",type:"article"}}],["/study/SummerCampReview/PhysNet.html",{loader:()=>A(()=>import("./PhysNet.html-69HGtOrC.js"),__vite__mapDeps([105,1])),meta:{date:17196192e5,localizedDate:"2024年6月29日",excerpt:`
+<h2>Conventional Model Drawbacks</h2>
+<ol>
+<li>Only one simple output - HR, which limits usage in demanding medical applications.</li>
+<li>end-to-end neural networks lost the pre-processing and post-processing steps.</li>
+<li>Without considering temporal context features.</li>
+<li>Need pure empirical knowledge and handcrafted processing, which may cause crucial features lost.</li>
+</ol>`,readingTime:{minutes:1.44,words:432},title:"rPPG: PhysNet Review",type:"article"}}],["/code/python/pytorch/1pytorch.html",{loader:()=>A(()=>import("./1pytorch.html-CLahzb4-.js"),__vite__mapDeps([106,1])),meta:{date:17080416e5,localizedDate:"2024年2月16日",excerpt:`
+<p><a href="https://pytorch.org/" target="_blank" rel="noopener noreferrer">官网</a></p>
+<p><a href="https://tangshusen.me/Dive-into-DL-PyTorch/" target="_blank" rel="noopener noreferrer">《动手学深度学习-Pytorch 版》学习文档</a></p>
+<p><a href="https://zh.d2l.ai/index.html" target="_blank" rel="noopener noreferrer">《动手学深度学习》原书文档</a></p>`,readingTime:{minutes:5.36,words:1608},title:"Pytorch 的配置与基本操作",type:"article"}}],["/code/python/pytorch/2.1linear_regression.html",{loader:()=>A(()=>import("./2.1linear_regression.html-B42-J1vi.js"),__vite__mapDeps([107,1])),meta:{date:1708128e6,localizedDate:"2024年2月17日",excerpt:`
+<div class="hint-container tip">
+<p class="hint-container-title">需要导入模块</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> numpy </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> np</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch.utils.data </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> Data</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch.nn </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nn</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch.nn </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> init</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch.optim </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> optim</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div>`,readingTime:{minutes:5.21,words:1564},title:"线性回归实现",type:"article"}}],["/code/python/pytorch/2.2FashionMNIST.html",{loader:()=>A(()=>import("./2.2FashionMNIST.html-lmEzsxa6.js"),__vite__mapDeps([108,1])),meta:{date:1708128e6,localizedDate:"2024年2月17日",excerpt:`
+<p>FashionMNIST 数据集是一个包含 60,000 个训练图像和 10,000 个测试图像的数据集。引入该数据集后，我们可以更方便和直观地比较模型精度和计算效率。</p>
+<h2>导入本文所需要的包</h2>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch.utils.data </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> Data</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torchvision</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> . </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> d2lzh_pytorch </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> d2l  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 需要根据实际目录更改</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,readingTime:{minutes:2.63,words:788},title:"FashionMNIST 数据集",type:"article"}}],["/code/python/pytorch/2.3softmax.html",{loader:()=>A(()=>import("./2.3softmax.html-hHo454cg.js"),__vite__mapDeps([109,1])),meta:{date:1708128e6,localizedDate:"2024年2月17日",excerpt:`
+<p><a href="https://tangshusen.me/Dive-into-DL-PyTorch/#/chapter03_DL-basics/3.4_softmax-regression" target="_blank" rel="noopener noreferrer">softmax 原理介绍</a></p>
+<h2>导入所需的包和库</h2>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch.nn </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nn</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> d2lzh_pytorch </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> d2l</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,readingTime:{minutes:1.98,words:593},title:"softmax 回归实现",type:"article"}}],["/code/python/pytorch/2.4MLP.html",{loader:()=>A(()=>import("./2.4MLP.html--AmYEeUn.js"),__vite__mapDeps([110,1])),meta:{date:17082144e5,localizedDate:"2024年2月18日",excerpt:`
+<p><a href="https://zh.wikipedia.org/wiki/%E5%A4%9A%E5%B1%82%E6%84%9F%E7%9F%A5%E5%99%A8" target="_blank" rel="noopener noreferrer">是什么？</a></p>
+<h2>导入需要的包</h2>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch.nn </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nn</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> sys</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sys.path.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">append</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"."</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> d2lzh_pytorch </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> d2l</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch.nn </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> init</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,readingTime:{minutes:1.57,words:472},title:"多层感知机（MLP）",type:"article"}}],["/code/python/pytorch/3.1Deeplearning_basic.html",{loader:()=>A(()=>import("./3.1Deeplearning_basic.html-D7LHvDkY.js"),__vite__mapDeps([111,1])),meta:{date:17082144e5,localizedDate:"2024年2月18日",excerpt:`
+<h2>模型构建</h2>
+<p>根据之前章节，我们已经能够发现，利用<code>nn.Module</code>和<code>nn.Sequential</code>可以很方便地构建模型，并且<code>nn.Sequential</code>本身也是<code>nn.Module</code>的一个继承类。所以，通过<code>nn.Module</code>来构建继承类也是非常通用的模型构建方式，一般来说，在继承类中我们会重载<code>nn.Module</code>的<code>forward()</code>函数，比如说我们可以通过继承类很容易地构建一个多层感知机模型：</p>
+`,readingTime:{minutes:12.99,words:3897},title:"走进深度学习",type:"article"}}],["/code/python/pytorch/4.1convolutional_nn_basic.html",{loader:()=>A(()=>import("./4.1convolutional_nn_basic.html-YSNOamhZ.js"),__vite__mapDeps([112,1])),meta:{date:17083008e5,localizedDate:"2024年2月19日",excerpt:`
+<h2>导入需要的包</h2>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch.nn </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nn</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torchvision</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,readingTime:{minutes:7.84,words:2353},title:"卷积神经网络基础",type:"article"}}],["/code/python/pytorch/4.2LeNet.html",{loader:()=>A(()=>import("./4.2LeNet.html-BNKMzxpD.js"),__vite__mapDeps([113,1])),meta:{date:17083008e5,localizedDate:"2024年2月19日",excerpt:`
+<div class="hint-container tip">
+<p class="hint-container-title">本节学习要点</p>
+<ol>
+<li>了解 LeNet 网络结构</li>
+<li>从搭建<code>LeNet</code>网络扩展到一般的 CNN 模型搭建</li>
+<li>学习如何设置 GPU 加速模型训练，并学习如何定义训练函数</li>
+</ol>
+</div>
+<h2>网络结构图</h2>
+<figure><img src="https://tangshusen.me/Dive-into-DL-PyTorch/img/chapter05/5.5_lenet.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>`,readingTime:{minutes:1.78,words:533},title:"LeNet",type:"article"}}],["/code/python/pytorch/4.3AlexNet.html",{loader:()=>A(()=>import("./4.3AlexNet.html-CFubU_ee.js"),__vite__mapDeps([114,1])),meta:{date:17083872e5,localizedDate:"2024年2月20日",excerpt:`
+<div class="hint-container tip">
+<p class="hint-container-title">本节学习要点</p>
+<ol>
+<li>了解 AlexNet 网络结构</li>
+<li>学习<code>torchvision.transforms.Resize()</code>的使用并拓展到更多<code>torchvision.transforms</code>实例的用法，可以见<a href="/code/python/pytorch/3.1Deeplearning_basic.html#torchvision-transforms%E5%AE%9E%E4%BE%8B" target="_blank">此处</a>。</li>
+</ol>
+</div>`,readingTime:{minutes:1.83,words:549},title:"AlexNet",type:"article"}}],["/code/python/pytorch/4.4VGG.html",{loader:()=>A(()=>import("./4.4VGG.html-CUZEFSHm.js"),__vite__mapDeps([115,1])),meta:{date:17088192e5,localizedDate:"2024年2月25日",excerpt:`
+<blockquote>
+<p>What is the VGG?</p>
+</blockquote>
+<p>VGG 块一般规律是连续几个填充为 1，卷积层尺寸为 3x3 的卷积层，之后接上一个步幅为 2，形状为 2x2 的最大池化层。我们可以定义一个函数，来定义 VGG 块，该 VGG 块又可以运用到其他模型的定义中。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">本节学习要点</p>
+<ol>
+<li>学习如何用函数构建模块</li>
+<li>学习 VGG 块的使用</li>
+</ol>
+</div>`,readingTime:{minutes:2.98,words:894},title:"VGG（使用重复元素的网络）",type:"article"}}],["/code/python/pytorch/4.5NiN.html",{loader:()=>A(()=>import("./4.5NiN.html-Cb6jiM0p.js"),__vite__mapDeps([116,1])),meta:{date:17088192e5,localizedDate:"2024年2月25日",excerpt:`
+<div class="hint-container tip">
+<p class="hint-container-title">本节学习要点</p>
+<ol>
+<li>掌握 1x1 卷积层代替全连接层的设计思路</li>
+<li>学会 1x1 卷积层的定义和使用</li>
+<li>了解 NiN 结构的定义</li>
+</ol>
+</div>
+<blockquote>
+<p>What is it NiN?</p>
+</blockquote>
+<p>相较于 LeNet, AlexNet 与 VGG 提供了更为深度的学习网络，能够学习更复杂的特征，但是 AlexNet 与 VGG 的基本结构都是卷积层 + 全连接层，而全连接层作为最后一端，参数过多，计算量大，因此 NiN 提出，将卷积层与全连接层交替排列，减少计算，提高效率。但是问题在于，卷积层的输入输出均为四维数组，可是全连接层的输入输出为二维数组，难以实现，这时候需要用到 1x1 卷积层用来充当全连接层的作用。</p>`,readingTime:{minutes:3.65,words:1096},title:"NiN（网络中的网络）",type:"article"}}],["/code/python/pytorch/4.6GoogleNet.html",{loader:()=>A(()=>import("./4.6GoogleNet.html-DYBAMVg3.js"),__vite__mapDeps([117,1])),meta:{date:17089056e5,localizedDate:"2024年2月26日",excerpt:`
+<h2>导入需要的包</h2>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> sys</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch.nn </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nn</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> torch.nn </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> functional </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> F</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sys.path.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">append</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"."</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> d2lzh_pytorch </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> d2l</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,readingTime:{minutes:1.75,words:526},title:"GoogleNet",type:"article"}}],["/code/python/pytorch/img.html",{loader:()=>A(()=>import("./img.html-B3Kx4SBc.js"),__vite__mapDeps([118,1])),meta:{date:1709037353e3,excerpt:`
+<p>在我学习 pytorch 文档学到残差神经网络的时候，我发现网络的 python 搭建已经不是一个难事了，难的应该是网络的设计，而 pytorch 学习文档提供了非常多现代卷积神经网络的实现，但是并没有为这些神经网络提供一个可视化的模型出来，这样对于初学者而言，并不能准确 get 到各种网络之间的区别与联系，所以我在想能不能有什么工具是能把这些网络可视化出来的。</p>
+<p>第一个念头是数学建模时经常用到的 PPT，用 PPT 来画神经网络可视化，但是一想到要这么多的卷积核，还要保证相对尺寸符合实际，再想到全连接层满满的线条，我果断放弃了 PPT 作图，试着在 b 站上搜一搜有没有针对于神经网络的可视化工具，没想到还真有，而且很多很丰富。所以我单开了这一部分内容，来呈现好用的可视化工具以及其做出的效果。</p>`,readingTime:{minutes:6.75,words:2024},title:"神经网络可视化工具",type:"article"}}],["/code/python/pytorch/",{loader:()=>A(()=>import("./index.html-lQpSOriB.js"),__vite__mapDeps([119,1])),meta:{date:1744217776e3,excerpt:`
+`,readingTime:{minutes:.01,words:3},title:"Pytorch",icon:"pytorch",type:"article"}}],["/404.html",{loader:()=>A(()=>import("./404.html-DK644Wki.js"),__vite__mapDeps([120,1])),meta:{title:""}}],["/study/",{loader:()=>A(()=>import("./index.html-DL_quCZW.js"),__vite__mapDeps([121,1])),meta:{title:"Study"}}],["/articles/external/",{loader:()=>A(()=>import("./index.html-DuTesFTu.js"),__vite__mapDeps([122,1])),meta:{title:"External"}}],["/articles/rigongyizu/",{loader:()=>A(()=>import("./index.html-kvHSixOM.js"),__vite__mapDeps([123,1])),meta:{title:"Rigongyizu"}}],["/code/python/",{loader:()=>A(()=>import("./index.html-CDSNToLd.js"),__vite__mapDeps([124,1])),meta:{title:"Python"}}],["/code/tips/",{loader:()=>A(()=>import("./index.html-BHDDC1jd.js"),__vite__mapDeps([125,1])),meta:{title:"Tips"}}],["/english/china/",{loader:()=>A(()=>import("./index.html-CTZcRLlo.js"),__vite__mapDeps([126,1])),meta:{title:"China"}}],["/english/",{loader:()=>A(()=>import("./index.html-h3Sl1TH2.js"),__vite__mapDeps([127,1])),meta:{title:"English"}}],["/english/free/",{loader:()=>A(()=>import("./index.html-DSj08uXn.js"),__vite__mapDeps([128,1])),meta:{title:"Free"}}],["/english/video/",{loader:()=>A(()=>import("./index.html-CSVLTHcN.js"),__vite__mapDeps([129,1])),meta:{title:"Video"}}],["/study/SummerCampReview/",{loader:()=>A(()=>import("./index.html-BdzhJteI.js"),__vite__mapDeps([130,1])),meta:{title:"Summer Camp Review"}}],["/category/",{loader:()=>A(()=>import("./index.html-CiwTY5OU.js"),__vite__mapDeps([131,1])),meta:{title:"分类",index:!1}}],["/category/%E6%8E%A8%E8%8D%90/",{loader:()=>A(()=>import("./index.html-BZZOwxoh.js"),__vite__mapDeps([132,1])),meta:{title:"推荐 分类",index:!1}}],["/category/%E5%B7%A5%E5%85%B7/",{loader:()=>A(()=>import("./index.html-DvaOAkZ4.js"),__vite__mapDeps([133,1])),meta:{title:"工具 分类",index:!1}}],["/category/%E5%8D%9A%E5%AE%A2/",{loader:()=>A(()=>import("./index.html-BHc4ZYca.js"),__vite__mapDeps([134,1])),meta:{title:"博客 分类",index:!1}}],["/category/%E5%89%8D%E7%AB%AF/",{loader:()=>A(()=>import("./index.html-DX3KfTUq.js"),__vite__mapDeps([135,1])),meta:{title:"前端 分类",index:!1}}],["/category/%E7%BC%96%E7%A8%8B/",{loader:()=>A(()=>import("./index.html-Bnm5c67t.js"),__vite__mapDeps([136,1])),meta:{title:"编程 分类",index:!1}}],["/category/%E7%AC%94%E8%AE%B0/",{loader:()=>A(()=>import("./index.html-Djor_DgL.js"),__vite__mapDeps([137,1])),meta:{title:"笔记 分类",index:!1}}],["/category/%E8%AE%A1%E7%AE%97%E6%9C%BA/",{loader:()=>A(()=>import("./index.html-exYAaPLa.js"),__vite__mapDeps([138,1])),meta:{title:"计算机 分类",index:!1}}],["/category/%E5%BA%95%E5%B1%82/",{loader:()=>A(()=>import("./index.html-Bgr8U1ru.js"),__vite__mapDeps([139,1])),meta:{title:"底层 分类",index:!1}}],["/category/%E8%B5%84%E6%96%99%E7%AB%99/",{loader:()=>A(()=>import("./index.html-Bz9jG-DK.js"),__vite__mapDeps([140,1])),meta:{title:"资料站 分类",index:!1}}],["/category/python-%E5%BA%93/",{loader:()=>A(()=>import("./index.html-D4fzmld6.js"),__vite__mapDeps([141,1])),meta:{title:"Python 库 分类",index:!1}}],["/category/%E9%94%A6%E5%9B%8A/",{loader:()=>A(()=>import("./index.html-nVDgep_S.js"),__vite__mapDeps([142,1])),meta:{title:"锦囊 分类",index:!1}}],["/tag/",{loader:()=>A(()=>import("./index.html-D_uHPety.js"),__vite__mapDeps([143,1])),meta:{title:"标签",index:!1}}],["/tag/%E6%96%87%E7%AB%A0/",{loader:()=>A(()=>import("./index.html-Z0UafESi.js"),__vite__mapDeps([144,1])),meta:{title:"标签: 文章",index:!1}}],["/tag/%E6%95%99%E7%A8%8B/",{loader:()=>A(()=>import("./index.html-90jXswgw.js"),__vite__mapDeps([145,1])),meta:{title:"标签: 教程",index:!1}}],["/tag/game/",{loader:()=>A(()=>import("./index.html-Crvcb83b.js"),__vite__mapDeps([146,1])),meta:{title:"标签: game",index:!1}}],["/tag/index/",{loader:()=>A(()=>import("./index.html-s2wI9ok0.js"),__vite__mapDeps([147,1])),meta:{title:"标签: index",index:!1}}],["/tag/%E6%97%A5%E5%BF%97/",{loader:()=>A(()=>import("./index.html-Bsv-CuKj.js"),__vite__mapDeps([148,1])),meta:{title:"标签: 日志",index:!1}}],["/tag/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/",{loader:()=>A(()=>import("./index.html-C-7f6GvW.js"),__vite__mapDeps([149,1])),meta:{title:"标签: 问题记录",index:!1}}],["/tag/linux/",{loader:()=>A(()=>import("./index.html-BF-EUbCC.js"),__vite__mapDeps([150,1])),meta:{title:"标签: Linux",index:!1}}],["/tag/proxy/",{loader:()=>A(()=>import("./index.html-D4OY87zJ.js"),__vite__mapDeps([151,1])),meta:{title:"标签: proxy",index:!1}}],["/tag/ros/",{loader:()=>A(()=>import("./index.html-D436tnRj.js"),__vite__mapDeps([152,1])),meta:{title:"标签: ros",index:!1}}],["/tag/%E7%A7%91%E7%A0%94/",{loader:()=>A(()=>import("./index.html-C9RZfs9a.js"),__vite__mapDeps([153,1])),meta:{title:"标签: 科研",index:!1}}],["/tag/algorithm/",{loader:()=>A(()=>import("./index.html-DK0QXWXv.js"),__vite__mapDeps([154,1])),meta:{title:"标签: algorithm",index:!1}}],["/tag/data-structure/",{loader:()=>A(()=>import("./index.html-Bk0kTK0o.js"),__vite__mapDeps([155,1])),meta:{title:"标签: data_structure",index:!1}}],["/tag/pid/",{loader:()=>A(()=>import("./index.html-_ANKX24K.js"),__vite__mapDeps([156,1])),meta:{title:"标签: PID",index:!1}}],["/article/",{loader:()=>A(()=>import("./index.html-0l7Hjpng.js"),__vite__mapDeps([157,1])),meta:{title:"文章",index:!1}}],["/star/",{loader:()=>A(()=>import("./index.html-CP4u_CWM.js"),__vite__mapDeps([158,1])),meta:{title:"星标",index:!1}}],["/timeline/",{loader:()=>A(()=>import("./index.html-CeuuqcU5.js"),__vite__mapDeps([159,1])),meta:{title:"时间轴",index:!1}}]]);/*!
+  * vue-router v4.5.0
+  * (c) 2024 Eduardo San Martin Morote
+  * @license MIT
+  */const Vn=typeof document<"u";function cd(e){return typeof e=="object"||"displayName"in e||"props"in e||"__vccOpts"in e}function y2(e){return e.__esModule||e[Symbol.toStringTag]==="Module"||e.default&&cd(e.default)}const ve=Object.assign;function ml(e,t){const n={};for(const r in t){const a=t[r];n[r]=Ct(a)?a.map(e):e(a)}return n}const wr=()=>{},Ct=Array.isArray,dd=/#/g,b2=/&/g,k2=/\//g,x2=/=/g,_2=/\?/g,ud=/\+/g,w2=/%5B/g,A2=/%5D/g,pd=/%5E/g,E2=/%60/g,hd=/%7B/g,T2=/%7C/g,fd=/%7D/g,C2=/%20/g;function Ri(e){return encodeURI(""+e).replace(T2,"|").replace(w2,"[").replace(A2,"]")}function S2(e){return Ri(e).replace(hd,"{").replace(fd,"}").replace(pd,"^")}function Wl(e){return Ri(e).replace(ud,"%2B").replace(C2,"+").replace(dd,"%23").replace(b2,"%26").replace(E2,"`").replace(hd,"{").replace(fd,"}").replace(pd,"^")}function D2(e){return Wl(e).replace(x2,"%3D")}function L2(e){return Ri(e).replace(dd,"%23").replace(_2,"%3F")}function P2(e){return e==null?"":L2(e).replace(k2,"%2F")}function Ir(e){try{return decodeURIComponent(""+e)}catch{}return""+e}const B2=/\/$/,I2=e=>e.replace(B2,"");function vl(e,t,n="/"){let r,a={},l="",i="";const o=t.indexOf("#");let c=t.indexOf("?");return o<c&&o>=0&&(c=-1),c>-1&&(r=t.slice(0,c),l=t.slice(c+1,o>-1?o:t.length),a=e(l)),o>-1&&(r=r||t.slice(0,o),i=t.slice(o,t.length)),r=$2(r??t,n),{fullPath:r+(l&&"?")+l+i,path:r,query:a,hash:Ir(i)}}function O2(e,t){const n=t.query?e(t.query):"";return t.path+(n&&"?")+n+(t.hash||"")}function Ys(e,t){return!t||!e.toLowerCase().startsWith(t.toLowerCase())?e:e.slice(t.length)||"/"}function R2(e,t,n){const r=t.matched.length-1,a=n.matched.length-1;return r>-1&&r===a&&tr(t.matched[r],n.matched[a])&&gd(t.params,n.params)&&e(t.query)===e(n.query)&&t.hash===n.hash}function tr(e,t){return(e.aliasOf||e)===(t.aliasOf||t)}function gd(e,t){if(Object.keys(e).length!==Object.keys(t).length)return!1;for(const n in e)if(!F2(e[n],t[n]))return!1;return!0}function F2(e,t){return Ct(e)?Qs(e,t):Ct(t)?Qs(t,e):e===t}function Qs(e,t){return Ct(t)?e.length===t.length&&e.every((n,r)=>n===t[r]):e.length===1&&e[0]===t}function $2(e,t){if(e.startsWith("/"))return e;if(!e)return t;const n=t.split("/"),r=e.split("/"),a=r[r.length-1];(a===".."||a===".")&&r.push("");let l=n.length-1,i,o;for(i=0;i<r.length;i++)if(o=r[i],o!==".")if(o==="..")l>1&&l--;else break;return n.slice(0,l).join("/")+"/"+r.slice(i).join("/")}const Wt={path:"/",name:void 0,params:{},query:{},hash:"",fullPath:"/",matched:[],meta:{},redirectedFrom:void 0};var Or;(function(e){e.pop="pop",e.push="push"})(Or||(Or={}));var Ar;(function(e){e.back="back",e.forward="forward",e.unknown=""})(Ar||(Ar={}));function M2(e){if(!e)if(Vn){const t=document.querySelector("base");e=t&&t.getAttribute("href")||"/",e=e.replace(/^\w+:\/\/[^\/]+/,"")}else e="/";return e[0]!=="/"&&e[0]!=="#"&&(e="/"+e),I2(e)}const j2=/^[^#]+#/;function V2(e,t){return e.replace(j2,"#")+t}function N2(e,t){const n=document.documentElement.getBoundingClientRect(),r=e.getBoundingClientRect();return{behavior:t.behavior,left:r.left-n.left-(t.left||0),top:r.top-n.top-(t.top||0)}}const qa=()=>({left:window.scrollX,top:window.scrollY});function z2(e){let t;if("el"in e){const n=e.el,r=typeof n=="string"&&n.startsWith("#"),a=typeof n=="string"?r?document.getElementById(n.slice(1)):document.querySelector(n):n;if(!a)return;t=N2(a,e)}else t=e;"scrollBehavior"in document.documentElement.style?window.scrollTo(t):window.scrollTo(t.left!=null?t.left:window.scrollX,t.top!=null?t.top:window.scrollY)}function Xs(e,t){return(history.state?history.state.position-t:-1)+e}const Gl=new Map;function H2(e,t){Gl.set(e,t)}function q2(e){const t=Gl.get(e);return Gl.delete(e),t}let W2=()=>location.protocol+"//"+location.host;function md(e,t){const{pathname:n,search:r,hash:a}=t,l=e.indexOf("#");if(l>-1){let o=a.includes(e.slice(l))?e.slice(l).length:1,c=a.slice(o);return c[0]!=="/"&&(c="/"+c),Ys(c,"")}return Ys(n,e)+r+a}function G2(e,t,n,r){let a=[],l=[],i=null;const o=({state:h})=>{const f=md(e,location),m=n.value,y=t.value;let k=0;if(h){if(n.value=f,t.value=h,i&&i===m){i=null;return}k=y?h.position-y.position:0}else r(f);a.forEach(w=>{w(n.value,m,{delta:k,type:Or.pop,direction:k?k>0?Ar.forward:Ar.back:Ar.unknown})})};function c(){i=n.value}function d(h){a.push(h);const f=()=>{const m=a.indexOf(h);m>-1&&a.splice(m,1)};return l.push(f),f}function u(){const{history:h}=window;h.state&&h.replaceState(ve({},h.state,{scroll:qa()}),"")}function p(){for(const h of l)h();l=[],window.removeEventListener("popstate",o),window.removeEventListener("beforeunload",u)}return window.addEventListener("popstate",o),window.addEventListener("beforeunload",u,{passive:!0}),{pauseListeners:c,listen:d,destroy:p}}function Zs(e,t,n,r=!1,a=!1){return{back:e,current:t,forward:n,replaced:r,position:window.history.length,scroll:a?qa():null}}function U2(e){const{history:t,location:n}=window,r={value:md(e,n)},a={value:t.state};a.value||l(r.value,{back:null,current:r.value,forward:null,position:t.length-1,replaced:!0,scroll:null},!0);function l(c,d,u){const p=e.indexOf("#"),h=p>-1?(n.host&&document.querySelector("base")?e:e.slice(p))+c:W2()+e+c;try{t[u?"replaceState":"pushState"](d,"",h),a.value=d}catch(f){console.error(f),n[u?"replace":"assign"](h)}}function i(c,d){const u=ve({},t.state,Zs(a.value.back,c,a.value.forward,!0),d,{position:a.value.position});l(c,u,!0),r.value=c}function o(c,d){const u=ve({},a.value,t.state,{forward:c,scroll:qa()});l(u.current,u,!0);const p=ve({},Zs(r.value,c,null),{position:u.position+1},d);l(c,p,!1),r.value=c}return{location:r,state:a,push:o,replace:i}}function K2(e){e=M2(e);const t=U2(e),n=G2(e,t.state,t.location,t.replace);function r(l,i=!0){i||n.pauseListeners(),history.go(l)}const a=ve({location:"",base:e,go:r,createHref:V2.bind(null,e)},t,n);return Object.defineProperty(a,"location",{enumerable:!0,get:()=>t.location.value}),Object.defineProperty(a,"state",{enumerable:!0,get:()=>t.state.value}),a}function J2(e){return typeof e=="string"||e&&typeof e=="object"}function vd(e){return typeof e=="string"||typeof e=="symbol"}const yd=Symbol("");var eo;(function(e){e[e.aborted=4]="aborted",e[e.cancelled=8]="cancelled",e[e.duplicated=16]="duplicated"})(eo||(eo={}));function nr(e,t){return ve(new Error,{type:e,[yd]:!0},t)}function Ht(e,t){return e instanceof Error&&yd in e&&(t==null||!!(e.type&t))}const to="[^/]+?",Y2={sensitive:!1,strict:!1,start:!0,end:!0},Q2=/[.+*?^${}()[\]/\\]/g;function X2(e,t){const n=ve({},Y2,t),r=[];let a=n.start?"^":"";const l=[];for(const d of e){const u=d.length?[]:[90];n.strict&&!d.length&&(a+="/");for(let p=0;p<d.length;p++){const h=d[p];let f=40+(n.sensitive?.25:0);if(h.type===0)p||(a+="/"),a+=h.value.replace(Q2,"\\$&"),f+=40;else if(h.type===1){const{value:m,repeatable:y,optional:k,regexp:w}=h;l.push({name:m,repeatable:y,optional:k});const x=w||to;if(x!==to){f+=10;try{new RegExp(`(${x})`)}catch(E){throw new Error(`Invalid custom RegExp for param "${m}" (${x}): `+E.message)}}let v=y?`((?:${x})(?:/(?:${x}))*)`:`(${x})`;p||(v=k&&d.length<2?`(?:/${v})`:"/"+v),k&&(v+="?"),a+=v,f+=20,k&&(f+=-8),y&&(f+=-20),x===".*"&&(f+=-50)}u.push(f)}r.push(u)}if(n.strict&&n.end){const d=r.length-1;r[d][r[d].length-1]+=.7000000000000001}n.strict||(a+="/?"),n.end?a+="$":n.strict&&!a.endsWith("/")&&(a+="(?:/|$)");const i=new RegExp(a,n.sensitive?"":"i");function o(d){const u=d.match(i),p={};if(!u)return null;for(let h=1;h<u.length;h++){const f=u[h]||"",m=l[h-1];p[m.name]=f&&m.repeatable?f.split("/"):f}return p}function c(d){let u="",p=!1;for(const h of e){(!p||!u.endsWith("/"))&&(u+="/"),p=!1;for(const f of h)if(f.type===0)u+=f.value;else if(f.type===1){const{value:m,repeatable:y,optional:k}=f,w=m in d?d[m]:"";if(Ct(w)&&!y)throw new Error(`Provided param "${m}" is an array but it is not repeatable (* or + modifiers)`);const x=Ct(w)?w.join("/"):w;if(!x)if(k)h.length<2&&(u.endsWith("/")?u=u.slice(0,-1):p=!0);else throw new Error(`Missing required param "${m}"`);u+=x}}return u||"/"}return{re:i,score:r,keys:l,parse:o,stringify:c}}function Z2(e,t){let n=0;for(;n<e.length&&n<t.length;){const r=t[n]-e[n];if(r)return r;n++}return e.length<t.length?e.length===1&&e[0]===80?-1:1:e.length>t.length?t.length===1&&t[0]===80?1:-1:0}function bd(e,t){let n=0;const r=e.score,a=t.score;for(;n<r.length&&n<a.length;){const l=Z2(r[n],a[n]);if(l)return l;n++}if(Math.abs(a.length-r.length)===1){if(no(r))return 1;if(no(a))return-1}return a.length-r.length}function no(e){const t=e[e.length-1];return e.length>0&&t[t.length-1]<0}const e0={type:0,value:""},t0=/[a-zA-Z0-9_]/;function n0(e){if(!e)return[[]];if(e==="/")return[[e0]];if(!e.startsWith("/"))throw new Error(`Invalid path "${e}"`);function t(f){throw new Error(`ERR (${n})/"${d}": ${f}`)}let n=0,r=n;const a=[];let l;function i(){l&&a.push(l),l=[]}let o=0,c,d="",u="";function p(){d&&(n===0?l.push({type:0,value:d}):n===1||n===2||n===3?(l.length>1&&(c==="*"||c==="+")&&t(`A repeatable param (${d}) must be alone in its segment. eg: '/:ids+.`),l.push({type:1,value:d,regexp:u,repeatable:c==="*"||c==="+",optional:c==="*"||c==="?"})):t("Invalid state to consume buffer"),d="")}function h(){d+=c}for(;o<e.length;){if(c=e[o++],c==="\\"&&n!==2){r=n,n=4;continue}switch(n){case 0:c==="/"?(d&&p(),i()):c===":"?(p(),n=1):h();break;case 4:h(),n=r;break;case 1:c==="("?n=2:t0.test(c)?h():(p(),n=0,c!=="*"&&c!=="?"&&c!=="+"&&o--);break;case 2:c===")"?u[u.length-1]=="\\"?u=u.slice(0,-1)+c:n=3:u+=c;break;case 3:p(),n=0,c!=="*"&&c!=="?"&&c!=="+"&&o--,u="";break;default:t("Unknown state");break}}return n===2&&t(`Unfinished custom RegExp for param "${d}"`),p(),i(),a}function r0(e,t,n){const r=X2(n0(e.path),n),a=ve(r,{record:e,parent:t,children:[],alias:[]});return t&&!a.record.aliasOf==!t.record.aliasOf&&t.children.push(a),a}function a0(e,t){const n=[],r=new Map;t=io({strict:!1,end:!0,sensitive:!1},t);function a(p){return r.get(p)}function l(p,h,f){const m=!f,y=ao(p);y.aliasOf=f&&f.record;const k=io(t,p),w=[y];if("alias"in p){const E=typeof p.alias=="string"?[p.alias]:p.alias;for(const B of E)w.push(ao(ve({},y,{components:f?f.record.components:y.components,path:B,aliasOf:f?f.record:y})))}let x,v;for(const E of w){const{path:B}=E;if(h&&B[0]!=="/"){const q=h.record.path,L=q[q.length-1]==="/"?"":"/";E.path=h.record.path+(B&&L+B)}if(x=r0(E,h,k),f?f.alias.push(x):(v=v||x,v!==x&&v.alias.push(x),m&&p.name&&!lo(x)&&i(p.name)),kd(x)&&c(x),y.children){const q=y.children;for(let L=0;L<q.length;L++)l(q[L],x,f&&f.children[L])}f=f||x}return v?()=>{i(v)}:wr}function i(p){if(vd(p)){const h=r.get(p);h&&(r.delete(p),n.splice(n.indexOf(h),1),h.children.forEach(i),h.alias.forEach(i))}else{const h=n.indexOf(p);h>-1&&(n.splice(h,1),p.record.name&&r.delete(p.record.name),p.children.forEach(i),p.alias.forEach(i))}}function o(){return n}function c(p){const h=s0(p,n);n.splice(h,0,p),p.record.name&&!lo(p)&&r.set(p.record.name,p)}function d(p,h){let f,m={},y,k;if("name"in p&&p.name){if(f=r.get(p.name),!f)throw nr(1,{location:p});k=f.record.name,m=ve(ro(h.params,f.keys.filter(v=>!v.optional).concat(f.parent?f.parent.keys.filter(v=>v.optional):[]).map(v=>v.name)),p.params&&ro(p.params,f.keys.map(v=>v.name))),y=f.stringify(m)}else if(p.path!=null)y=p.path,f=n.find(v=>v.re.test(y)),f&&(m=f.parse(y),k=f.record.name);else{if(f=h.name?r.get(h.name):n.find(v=>v.re.test(h.path)),!f)throw nr(1,{location:p,currentLocation:h});k=f.record.name,m=ve({},h.params,p.params),y=f.stringify(m)}const w=[];let x=f;for(;x;)w.unshift(x.record),x=x.parent;return{name:k,path:y,params:m,matched:w,meta:i0(w)}}e.forEach(p=>l(p));function u(){n.length=0,r.clear()}return{addRoute:l,resolve:d,removeRoute:i,clearRoutes:u,getRoutes:o,getRecordMatcher:a}}function ro(e,t){const n={};for(const r of t)r in e&&(n[r]=e[r]);return n}function ao(e){const t={path:e.path,redirect:e.redirect,name:e.name,meta:e.meta||{},aliasOf:e.aliasOf,beforeEnter:e.beforeEnter,props:l0(e),children:e.children||[],instances:{},leaveGuards:new Set,updateGuards:new Set,enterCallbacks:{},components:"components"in e?e.components||null:e.component&&{default:e.component}};return Object.defineProperty(t,"mods",{value:{}}),t}function l0(e){const t={},n=e.props||!1;if("component"in e)t.default=n;else for(const r in e.components)t[r]=typeof n=="object"?n[r]:n;return t}function lo(e){for(;e;){if(e.record.aliasOf)return!0;e=e.parent}return!1}function i0(e){return e.reduce((t,n)=>ve(t,n.meta),{})}function io(e,t){const n={};for(const r in e)n[r]=r in t?t[r]:e[r];return n}function s0(e,t){let n=0,r=t.length;for(;n!==r;){const l=n+r>>1;bd(e,t[l])<0?r=l:n=l+1}const a=o0(e);return a&&(r=t.lastIndexOf(a,r-1)),r}function o0(e){let t=e;for(;t=t.parent;)if(kd(t)&&bd(e,t)===0)return t}function kd({record:e}){return!!(e.name||e.components&&Object.keys(e.components).length||e.redirect)}function c0(e){const t={};if(e===""||e==="?")return t;const r=(e[0]==="?"?e.slice(1):e).split("&");for(let a=0;a<r.length;++a){const l=r[a].replace(ud," "),i=l.indexOf("="),o=Ir(i<0?l:l.slice(0,i)),c=i<0?null:Ir(l.slice(i+1));if(o in t){let d=t[o];Ct(d)||(d=t[o]=[d]),d.push(c)}else t[o]=c}return t}function so(e){let t="";for(let n in e){const r=e[n];if(n=D2(n),r==null){r!==void 0&&(t+=(t.length?"&":"")+n);continue}(Ct(r)?r.map(l=>l&&Wl(l)):[r&&Wl(r)]).forEach(l=>{l!==void 0&&(t+=(t.length?"&":"")+n,l!=null&&(t+="="+l))})}return t}function d0(e){const t={};for(const n in e){const r=e[n];r!==void 0&&(t[n]=Ct(r)?r.map(a=>a==null?null:""+a):r==null?r:""+r)}return t}const u0=Symbol(""),oo=Symbol(""),Wa=Symbol(""),Fi=Symbol(""),Ul=Symbol("");function hr(){let e=[];function t(r){return e.push(r),()=>{const a=e.indexOf(r);a>-1&&e.splice(a,1)}}function n(){e=[]}return{add:t,list:()=>e.slice(),reset:n}}function ln(e,t,n,r,a,l=i=>i()){const i=r&&(r.enterCallbacks[a]=r.enterCallbacks[a]||[]);return()=>new Promise((o,c)=>{const d=h=>{h===!1?c(nr(4,{from:n,to:t})):h instanceof Error?c(h):J2(h)?c(nr(2,{from:t,to:h})):(i&&r.enterCallbacks[a]===i&&typeof h=="function"&&i.push(h),o())},u=l(()=>e.call(r&&r.instances[a],t,n,d));let p=Promise.resolve(u);e.length<3&&(p=p.then(d)),p.catch(h=>c(h))})}function yl(e,t,n,r,a=l=>l()){const l=[];for(const i of e)for(const o in i.components){let c=i.components[o];if(!(t!=="beforeRouteEnter"&&!i.instances[o]))if(cd(c)){const u=(c.__vccOpts||c)[t];u&&l.push(ln(u,n,r,i,o,a))}else{let d=c();l.push(()=>d.then(u=>{if(!u)throw new Error(`Couldn't resolve component "${o}" at "${i.path}"`);const p=y2(u)?u.default:u;i.mods[o]=u,i.components[o]=p;const f=(p.__vccOpts||p)[t];return f&&ln(f,n,r,i,o,a)()}))}}return l}function co(e){const t=we(Wa),n=we(Fi),r=_(()=>{const c=vt(e.to);return t.resolve(c)}),a=_(()=>{const{matched:c}=r.value,{length:d}=c,u=c[d-1],p=n.matched;if(!u||!p.length)return-1;const h=p.findIndex(tr.bind(null,u));if(h>-1)return h;const f=uo(c[d-2]);return d>1&&uo(u)===f&&p[p.length-1].path!==f?p.findIndex(tr.bind(null,c[d-2])):h}),l=_(()=>a.value>-1&&m0(n.params,r.value.params)),i=_(()=>a.value>-1&&a.value===n.matched.length-1&&gd(n.params,r.value.params));function o(c={}){if(g0(c)){const d=t[vt(e.replace)?"replace":"push"](vt(e.to)).catch(wr);return e.viewTransition&&typeof document<"u"&&"startViewTransition"in document&&document.startViewTransition(()=>d),d}return Promise.resolve()}return{route:r,href:_(()=>r.value.href),isActive:l,isExactActive:i,navigate:o}}function p0(e){return e.length===1?e[0]:e}const h0=R({name:"RouterLink",compatConfig:{MODE:3},props:{to:{type:[String,Object],required:!0},replace:Boolean,activeClass:String,exactActiveClass:String,custom:Boolean,ariaCurrentValue:{type:String,default:"page"}},useLink:co,setup(e,{slots:t}){const n=Cn(co(e)),{options:r}=we(Wa),a=_(()=>({[po(e.activeClass,r.linkActiveClass,"router-link-active")]:n.isActive,[po(e.exactActiveClass,r.linkExactActiveClass,"router-link-exact-active")]:n.isExactActive}));return()=>{const l=t.default&&p0(t.default(n));return e.custom?l:s("a",{"aria-current":n.isExactActive?e.ariaCurrentValue:null,href:n.href,onClick:n.navigate,class:a.value},l)}}}),f0=h0;function g0(e){if(!(e.metaKey||e.altKey||e.ctrlKey||e.shiftKey)&&!e.defaultPrevented&&!(e.button!==void 0&&e.button!==0)){if(e.currentTarget&&e.currentTarget.getAttribute){const t=e.currentTarget.getAttribute("target");if(/\b_blank\b/i.test(t))return}return e.preventDefault&&e.preventDefault(),!0}}function m0(e,t){for(const n in t){const r=t[n],a=e[n];if(typeof r=="string"){if(r!==a)return!1}else if(!Ct(a)||a.length!==r.length||r.some((l,i)=>l!==a[i]))return!1}return!0}function uo(e){return e?e.aliasOf?e.aliasOf.path:e.path:""}const po=(e,t,n)=>e??t??n,v0=R({name:"RouterView",inheritAttrs:!1,props:{name:{type:String,default:"default"},route:Object},compatConfig:{MODE:3},setup(e,{attrs:t,slots:n}){const r=we(Ul),a=_(()=>e.route||r.value),l=we(oo,0),i=_(()=>{let d=vt(l);const{matched:u}=a.value;let p;for(;(p=u[d])&&!p.components;)d++;return d}),o=_(()=>a.value.matched[i.value]);Et(oo,_(()=>i.value+1)),Et(u0,o),Et(Ul,a);const c=Q();return Ae(()=>[c.value,o.value,e.name],([d,u,p],[h,f,m])=>{u&&(u.instances[p]=d,f&&f!==u&&d&&d===h&&(u.leaveGuards.size||(u.leaveGuards=f.leaveGuards),u.updateGuards.size||(u.updateGuards=f.updateGuards))),d&&u&&(!f||!tr(u,f)||!h)&&(u.enterCallbacks[p]||[]).forEach(y=>y(d))},{flush:"post"}),()=>{const d=a.value,u=e.name,p=o.value,h=p&&p.components[u];if(!h)return ho(n.default,{Component:h,route:d});const f=p.props[u],m=f?f===!0?d.params:typeof f=="function"?f(d):f:null,k=s(h,ve({},m,t,{onVnodeUnmounted:w=>{w.component.isUnmounted&&(p.instances[u]=null)},ref:c}));return ho(n.default,{Component:k,route:d})||k}}});function ho(e,t){if(!e)return null;const n=e(t);return n.length===1?n[0]:n}const y0=v0;function b0(e){const t=a0(e.routes,e),n=e.parseQuery||c0,r=e.stringifyQuery||so,a=e.history,l=hr(),i=hr(),o=hr(),c=ee(Wt);let d=Wt;Vn&&e.scrollBehavior&&"scrollRestoration"in history&&(history.scrollRestoration="manual");const u=ml.bind(null,C=>""+C),p=ml.bind(null,P2),h=ml.bind(null,Ir);function f(C,G){let N,Y;return vd(C)?(N=t.getRecordMatcher(C),Y=G):Y=C,t.addRoute(Y,N)}function m(C){const G=t.getRecordMatcher(C);G&&t.removeRoute(G)}function y(){return t.getRoutes().map(C=>C.record)}function k(C){return!!t.getRecordMatcher(C)}function w(C,G){if(G=ve({},G||c.value),typeof C=="string"){const b=vl(n,C,G.path),T=t.resolve({path:b.path},G),P=a.createHref(b.fullPath);return ve(b,T,{params:h(T.params),hash:Ir(b.hash),redirectedFrom:void 0,href:P})}let N;if(C.path!=null)N=ve({},C,{path:vl(n,C.path,G.path).path});else{const b=ve({},C.params);for(const T in b)b[T]==null&&delete b[T];N=ve({},C,{params:p(b)}),G.params=p(G.params)}const Y=t.resolve(N,G),pe=C.hash||"";Y.params=u(h(Y.params));const _e=O2(r,ve({},C,{hash:S2(pe),path:Y.path})),g=a.createHref(_e);return ve({fullPath:_e,hash:pe,query:r===so?d0(C.query):C.query||{}},Y,{redirectedFrom:void 0,href:g})}function x(C){return typeof C=="string"?vl(n,C,c.value.path):ve({},C)}function v(C,G){if(d!==C)return nr(8,{from:G,to:C})}function E(C){return L(C)}function B(C){return E(ve(x(C),{replace:!0}))}function q(C){const G=C.matched[C.matched.length-1];if(G&&G.redirect){const{redirect:N}=G;let Y=typeof N=="function"?N(C):N;return typeof Y=="string"&&(Y=Y.includes("?")||Y.includes("#")?Y=x(Y):{path:Y},Y.params={}),ve({query:C.query,hash:C.hash,params:Y.path!=null?{}:C.params},Y)}}function L(C,G){const N=d=w(C),Y=c.value,pe=C.state,_e=C.force,g=C.replace===!0,b=q(N);if(b)return L(ve(x(b),{state:typeof b=="object"?ve({},pe,b.state):pe,force:_e,replace:g}),G||N);const T=N;T.redirectedFrom=G;let P;return!_e&&R2(r,Y,N)&&(P=nr(16,{to:T,from:Y}),pt(Y,Y,!0,!1)),(P?Promise.resolve(P):M(T,Y)).catch(S=>Ht(S)?Ht(S,2)?S:It(S):J(S,T,Y)).then(S=>{if(S){if(Ht(S,2))return L(ve({replace:g},x(S.to),{state:typeof S.to=="object"?ve({},pe,S.to.state):pe,force:_e}),G||T)}else S=D(T,Y,!0,g,pe);return F(T,Y,S),S})}function W(C,G){const N=v(C,G);return N?Promise.reject(N):Promise.resolve()}function I(C){const G=Nt.values().next().value;return G&&typeof G.runWithContext=="function"?G.runWithContext(C):C()}function M(C,G){let N;const[Y,pe,_e]=k0(C,G);N=yl(Y.reverse(),"beforeRouteLeave",C,G);for(const b of Y)b.leaveGuards.forEach(T=>{N.push(ln(T,C,G))});const g=W.bind(null,C,G);return N.push(g),ze(N).then(()=>{N=[];for(const b of l.list())N.push(ln(b,C,G));return N.push(g),ze(N)}).then(()=>{N=yl(pe,"beforeRouteUpdate",C,G);for(const b of pe)b.updateGuards.forEach(T=>{N.push(ln(T,C,G))});return N.push(g),ze(N)}).then(()=>{N=[];for(const b of _e)if(b.beforeEnter)if(Ct(b.beforeEnter))for(const T of b.beforeEnter)N.push(ln(T,C,G));else N.push(ln(b.beforeEnter,C,G));return N.push(g),ze(N)}).then(()=>(C.matched.forEach(b=>b.enterCallbacks={}),N=yl(_e,"beforeRouteEnter",C,G,I),N.push(g),ze(N))).then(()=>{N=[];for(const b of i.list())N.push(ln(b,C,G));return N.push(g),ze(N)}).catch(b=>Ht(b,8)?b:Promise.reject(b))}function F(C,G,N){o.list().forEach(Y=>I(()=>Y(C,G,N)))}function D(C,G,N,Y,pe){const _e=v(C,G);if(_e)return _e;const g=G===Wt,b=Vn?history.state:{};N&&(Y||g?a.replace(C.fullPath,ve({scroll:g&&b&&b.scroll},pe)):a.push(C.fullPath,pe)),c.value=C,pt(C,G,N,g),It()}let z;function le(){z||(z=a.listen((C,G,N)=>{if(!Ot.listening)return;const Y=w(C),pe=q(Y);if(pe){L(ve(pe,{replace:!0,force:!0}),Y).catch(wr);return}d=Y;const _e=c.value;Vn&&H2(Xs(_e.fullPath,N.delta),qa()),M(Y,_e).catch(g=>Ht(g,12)?g:Ht(g,2)?(L(ve(x(g.to),{force:!0}),Y).then(b=>{Ht(b,20)&&!N.delta&&N.type===Or.pop&&a.go(-1,!1)}).catch(wr),Promise.reject()):(N.delta&&a.go(-N.delta,!1),J(g,Y,_e))).then(g=>{g=g||D(Y,_e,!1),g&&(N.delta&&!Ht(g,8)?a.go(-N.delta,!1):N.type===Or.pop&&Ht(g,20)&&a.go(-1,!1)),F(Y,_e,g)}).catch(wr)}))}let ge=hr(),K=hr(),Z;function J(C,G,N){It(C);const Y=K.list();return Y.length?Y.forEach(pe=>pe(C,G,N)):console.error(C),Promise.reject(C)}function me(){return Z&&c.value!==Wt?Promise.resolve():new Promise((C,G)=>{ge.add([C,G])})}function It(C){return Z||(Z=!C,le(),ge.list().forEach(([G,N])=>C?N(C):G()),ge.reset()),C}function pt(C,G,N,Y){const{scrollBehavior:pe}=e;if(!Vn||!pe)return Promise.resolve();const _e=!N&&q2(Xs(C.fullPath,0))||(Y||!N)&&history.state&&history.state.scroll||null;return pn().then(()=>pe(C,G,_e)).then(g=>g&&z2(g)).catch(g=>J(g,C,G))}const je=C=>a.go(C);let nt;const Nt=new Set,Ot={currentRoute:c,listening:!0,addRoute:f,removeRoute:m,clearRoutes:t.clearRoutes,hasRoute:k,getRoutes:y,resolve:w,options:e,push:E,replace:B,go:je,back:()=>je(-1),forward:()=>je(1),beforeEach:l.add,beforeResolve:i.add,afterEach:o.add,onError:K.add,isReady:me,install(C){const G=this;C.component("RouterLink",f0),C.component("RouterView",y0),C.config.globalProperties.$router=G,Object.defineProperty(C.config.globalProperties,"$route",{enumerable:!0,get:()=>vt(c)}),Vn&&!nt&&c.value===Wt&&(nt=!0,E(a.location).catch(pe=>{}));const N={};for(const pe in Wt)Object.defineProperty(N,pe,{get:()=>c.value[pe],enumerable:!0});C.provide(Wa,G),C.provide(Fi,cc(N)),C.provide(Ul,c);const Y=C.unmount;Nt.add(C),C.unmount=function(){Nt.delete(C),Nt.size<1&&(d=Wt,z&&z(),z=null,c.value=Wt,nt=!1,Z=!1),Y()}}};function ze(C){return C.reduce((G,N)=>G.then(()=>I(N)),Promise.resolve())}return Ot}function k0(e,t){const n=[],r=[],a=[],l=Math.max(t.matched.length,e.matched.length);for(let i=0;i<l;i++){const o=t.matched[i];o&&(e.matched.find(d=>tr(d,o))?r.push(o):n.push(o));const c=e.matched[i];c&&(t.matched.find(d=>tr(d,c))||a.push(c))}return[n,r,a]}function fn(){return we(Wa)}function Jt(e){return we(Fi)}var $i=Symbol(""),Lt=()=>{const e=we($i);if(!e)throw new Error("useClientData() is called without provider.");return e},x0=()=>Lt().pageComponent,Ve=()=>Lt().pageData,he=()=>Lt().pageFrontmatter,_0=()=>Lt().pageHead,Kr=()=>Lt().pageLang,w0=()=>Lt().pageLayout,bt=()=>Lt().routeLocale,Jr=()=>Lt().routePath,A0=()=>Lt().routes,xd=()=>Lt().siteData,Yr=()=>Lt().siteLocaleData,Ea=ee([]),Yt=e=>{Ea.value.push(e),Vt(()=>{Ea.value=Ea.value.filter(t=>t!==e)})},E0=Symbol(""),Kl=ee(m2),Jn=ee(v2),_d=(e,t)=>{const n=l2(e,t);if(Jn.value[n])return n;const r=encodeURI(n);if(Jn.value[r])return r;const a=Kl.value[n]||Kl.value[r];return a||n},yt=(e,t)=>{const{pathname:n,hashAndQueries:r}=sd(e),a=_d(n,t),l=a+r;return Jn.value[a]?{...Jn.value[a],path:l,notFound:!1}:{...Jn.value["/404.html"],path:l,notFound:!0}},T0=(e,t)=>{const{pathname:n,hashAndQueries:r}=sd(e);return _d(n,t)+r},C0=e=>{if(!(e.metaKey||e.altKey||e.ctrlKey||e.shiftKey)&&!e.defaultPrevented&&!(e.button!==void 0&&e.button!==0)){if(e.currentTarget){const t=e.currentTarget.getAttribute("target");if(t!=null&&t.match(/\b_blank\b/i))return}return e.preventDefault(),!0}},Fe=R({name:"RouteLink",props:{to:{type:String,required:!0},active:Boolean,activeClass:{type:String,default:"route-link-active"}},slots:Object,setup(e,{slots:t}){const n=fn(),r=Jt(),a=_(()=>e.to.startsWith("#")||e.to.startsWith("?")?e.to:`/${T0(e.to,r.path).substring(1)}`);return()=>s("a",{class:["route-link",{[e.activeClass]:e.active}],href:a.value,onClick:(l={})=>{C0(l)&&n.push(e.to).catch()}},t.default())}}),S0=R({name:"AutoLink",props:{config:{type:Object,required:!0}},slots:Object,setup(e,{slots:t}){const n=Pn(e,"config"),r=Jt(),a=xd(),l=_(()=>Ur(n.value.link)),i=_(()=>n.value.target||(l.value?"_blank":void 0)),o=_(()=>i.value==="_blank"),c=_(()=>!l.value&&!o.value),d=_(()=>n.value.rel||(o.value?"noopener noreferrer":null)),u=_(()=>n.value.ariaLabel??n.value.text),p=_(()=>{if(n.value.exact)return!1;const f=Object.keys(a.value.locales);return f.length?f.every(m=>m!==n.value.link):n.value.link!=="/"}),h=_(()=>c.value?n.value.activeMatch?(n.value.activeMatch instanceof RegExp?n.value.activeMatch:new RegExp(n.value.activeMatch,"u")).test(r.path):p.value?r.path.startsWith(n.value.link):r.path===n.value.link:!1);return()=>{const{before:f,after:m,default:y}=t,k=(y==null?void 0:y(n.value))??[f==null?void 0:f(n.value),n.value.text,m==null?void 0:m(n.value)];return c.value?s(Fe,{class:"auto-link",to:n.value.link,active:h.value,"aria-label":u.value},()=>k):s("a",{class:"auto-link external-link",href:n.value.link,"aria-label":u.value,rel:d.value,target:i.value},k)}}}),Mi=R({name:"ClientOnly",setup(e,t){const n=Q(!1);return oe(()=>{n.value=!0}),()=>{var r,a;return n.value?(a=(r=t.slots).default)==null?void 0:a.call(r):null}}}),ma=e=>{Ea.value.forEach(t=>t(e))},wd=R({name:"Content",props:{path:{type:String,required:!1,default:""}},setup(e){const t=x0(),n=_(()=>{if(!e.path)return t.value;const a=yt(e.path);return wc(async()=>a.loader().then(({comp:l})=>l))}),r=he();return Ae(r,()=>{ma("updated")},{deep:!0,flush:"post"}),()=>s(n.value,{onVnodeMounted:()=>{ma("mounted")},onVnodeUpdated:()=>{ma("updated")},onVnodeBeforeUnmount:()=>{ma("beforeUnmount")}})}}),D0="Layout",L0="en-US",kn=Cn({resolveLayouts:e=>e.reduce((t,n)=>({...t,...n.layouts}),{}),resolvePageHead:(e,t,n)=>{const r=De(t.description)?t.description:n.description,a=[...Array.isArray(t.head)?t.head:[],...n.head,["title",{},e],["meta",{name:"description",content:r}]];return u2(a)},resolvePageHeadTitle:(e,t)=>[e.title,t.title].filter(n=>!!n).join(" | "),resolvePageLang:(e,t)=>e.lang||t.lang||L0,resolvePageLayout:(e,t)=>{const n=De(e.frontmatter.layout)?e.frontmatter.layout:D0;if(!t[n])throw new Error(`[vuepress] Cannot resolve layout: ${n}`);return t[n]},resolveRouteLocale:(e,t)=>i2(e,decodeURI(t)),resolveSiteLocaleData:({base:e,locales:t,...n},r)=>{var a;return{...n,...t[r],head:[...((a=t[r])==null?void 0:a.head)??[],...n.head]}}}),Pt=(e={})=>e,ke=e=>hn(e)?e:`/${od(e)}`,P0=Object.defineProperty,B0=(e,t)=>{for(var n in t)P0(e,n,{get:t[n],enumerable:!0})},I0={};B0(I0,{COMPONENT_STATE_TYPE:()=>O0,INSPECTOR_ID:()=>R0,INSPECTOR_LABEL:()=>F0,INSPECTOR_NODES:()=>$0,INSPECTOR_STATE_SECTION_NAME:()=>M0,PLUGIN_ID:()=>Ad,PLUGIN_LABEL:()=>ji});var Ad="org.vuejs.vuepress",ji="VuePress",O0=ji,R0=Ad,F0=ji,fo={id:"INTERNAL",label:"Internal",keys:["layouts","routes","redirects"]},go={id:"SITE",label:"Site",keys:["siteData","siteLocaleData"]},mo={id:"ROUTE",label:"Route",keys:["routePath","routeLocale"]},vo={id:"PAGE",label:"Page",keys:["pageData","pageFrontmatter","pageLang","pageHead","pageHeadTitle","pageLayout","pageComponent"]},$0={[fo.id]:fo,[go.id]:go,[mo.id]:mo,[vo.id]:vo},M0="State";const yo=e=>typeof e=="number"?`${e}px`:e,Qr=({size:e=48,stroke:t=4,wrapper:n=!0,height:r=2*e})=>{const a=s("span",{style:`--loading-icon: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='xMidYMid' viewBox='25 25 50 50'%3E%3CanimateTransform attributeName='transform' type='rotate' dur='2s' keyTimes='0;1' repeatCount='indefinite' values='0;360'%3E%3C/animateTransform%3E%3Ccircle cx='50' cy='50' r='20' fill='none' stroke='currentColor' stroke-width='${t}' stroke-linecap='round'%3E%3Canimate attributeName='stroke-dasharray' dur='1.5s' keyTimes='0;0.5;1' repeatCount='indefinite' values='1,200;90,200;1,200'%3E%3C/animate%3E%3Canimate attributeName='stroke-dashoffset' dur='1.5s' keyTimes='0;0.5;1' repeatCount='indefinite' values='0;-35px;-125px'%3E%3C/animate%3E%3C/circle%3E%3C/svg%3E");
+--icon-size: ${yo(e)};
+display: inline-block;
+width: var(--icon-size);
+height: var(--icon-size);
+background-color: currentcolor;
+-webkit-mask-image: var(--loading-icon);
+mask-image: var(--loading-icon);
+`});return n?s("div",{style:`display: flex;
+align-items: center;
+justify-content: center;
+height: ${yo(r)}`},a):a};Qr.displayName="LoadingIcon";function gn(e){return Ko()?(Fp(e),!0):!1}const bl=new WeakMap,j0=(...e)=>{var t;const n=e[0],r=(t=ir())==null?void 0:t.proxy;if(r==null&&!Dc())throw new Error("injectLocal must be called in setup");return r&&bl.has(r)&&n in bl.get(r)?bl.get(r)[n]:we(...e)},Xr=typeof window<"u"&&typeof document<"u";typeof WorkerGlobalScope<"u"&&globalThis instanceof WorkerGlobalScope;const V0=e=>e!=null,N0=Object.prototype.toString,z0=e=>N0.call(e)==="[object Object]",Ze=()=>{},Jl=H0();function H0(){var e,t;return Xr&&((e=window==null?void 0:window.navigator)==null?void 0:e.userAgent)&&(/iP(?:ad|hone|od)/.test(window.navigator.userAgent)||((t=window==null?void 0:window.navigator)==null?void 0:t.maxTouchPoints)>2&&/iPad|Macintosh/.test(window==null?void 0:window.navigator.userAgent))}function Ed(...e){if(e.length!==1)return Pn(...e);const t=e[0];return typeof t=="function"?Dt(pc(()=>({get:t,set:Ze}))):Q(t)}function Vi(e,t){function n(...r){return new Promise((a,l)=>{Promise.resolve(e(()=>t.apply(this,r),{fn:t,thisArg:this,args:r})).then(a).catch(l)})}return n}const Td=e=>e();function q0(e,t={}){let n,r,a=Ze;const l=c=>{clearTimeout(c),a(),a=Ze};let i;return c=>{const d=ue(e),u=ue(t.maxWait);return n&&l(n),d<=0||u!==void 0&&u<=0?(r&&(l(r),r=null),Promise.resolve(c())):new Promise((p,h)=>{a=t.rejectOnCancel?h:p,i=c,u&&!r&&(r=setTimeout(()=>{n&&l(n),r=null,p(i())},u)),n=setTimeout(()=>{r&&l(r),r=null,p(c())},d)})}}function W0(...e){let t=0,n,r=!0,a=Ze,l,i,o,c,d;!Oe(e[0])&&typeof e[0]=="object"?{delay:i,trailing:o=!0,leading:c=!0,rejectOnCancel:d=!1}=e[0]:[i,o=!0,c=!0,d=!1]=e;const u=()=>{n&&(clearTimeout(n),n=void 0,a(),a=Ze)};return h=>{const f=ue(i),m=Date.now()-t,y=()=>l=h();return u(),f<=0?(t=Date.now(),y()):(m>f&&(c||!r)?(t=Date.now(),y()):o&&(l=new Promise((k,w)=>{a=d?w:k,n=setTimeout(()=>{t=Date.now(),r=!0,k(y()),u()},Math.max(0,f-m))})),!c&&!n&&(n=setTimeout(()=>r=!0,f)),r=!1,l)}}function G0(e=Td,t={}){const{initialState:n="active"}=t,r=Ed(n==="active");function a(){r.value=!1}function l(){r.value=!0}const i=(...o)=>{r.value&&e(...o)};return{isActive:Dt(r),pause:a,resume:l,eventFilter:i}}function U0(e){let t;function n(){return t||(t=e()),t}return n.reset=async()=>{const r=t;t=void 0,r&&await r},n}function bo(e){return e.endsWith("rem")?Number.parseFloat(e)*16:Number.parseFloat(e)}function Er(e){return Array.isArray(e)?e:[e]}function K0(e){return ir()}function Ga(e,t=200,n={}){return Vi(q0(t,n),e)}function Cd(e,t=200,n=!1,r=!0,a=!1){return Vi(W0(t,n,r,a),e)}function J0(e,t,n={}){const{eventFilter:r=Td,...a}=n;return Ae(e,Vi(r,t),a)}function Y0(e,t,n={}){const{eventFilter:r,initialState:a="active",...l}=n,{eventFilter:i,pause:o,resume:c,isActive:d}=G0(r,{initialState:a});return{stop:J0(e,t,{...l,eventFilter:i}),pause:o,resume:c,isActive:d}}function Zr(e,t=!0,n){K0()?oe(e,n):t?e():pn(e)}function Q0(e,t,n={}){const{immediate:r=!0,immediateCallback:a=!1}=n,l=ee(!1);let i=null;function o(){i&&(clearTimeout(i),i=null)}function c(){l.value=!1,o()}function d(...u){a&&e(),o(),l.value=!0,i=setTimeout(()=>{l.value=!1,i=null,e(...u)},ue(t))}return r&&(l.value=!0,Xr&&d()),gn(c),{isPending:Dt(l),start:d,stop:c}}function rr(e=!1,t={}){const{truthyValue:n=!0,falsyValue:r=!1}=t,a=Oe(e),l=ee(e);function i(o){if(arguments.length)return l.value=o,l.value;{const c=ue(n);return l.value=l.value===c?ue(r):c,l.value}}return a?i:[l,i]}function ut(e,t,n){return Ae(e,t,{...n,immediate:!0})}const Ge=Xr?window:void 0,Sd=Xr?window.document:void 0,Dd=Xr?window.navigator:void 0;function Ne(e){var t;const n=ue(e);return(t=n==null?void 0:n.$el)!=null?t:n}function ie(...e){const t=[],n=()=>{t.forEach(o=>o()),t.length=0},r=(o,c,d,u)=>(o.addEventListener(c,d,u),()=>o.removeEventListener(c,d,u)),a=_(()=>{const o=Er(ue(e[0])).filter(c=>c!=null);return o.every(c=>typeof c!="string")?o:void 0}),l=ut(()=>{var o,c;return[(c=(o=a.value)==null?void 0:o.map(d=>Ne(d)))!=null?c:[Ge].filter(d=>d!=null),Er(ue(a.value?e[1]:e[0])),Er(vt(a.value?e[2]:e[1])),ue(a.value?e[3]:e[2])]},([o,c,d,u])=>{if(n(),!(o!=null&&o.length)||!(c!=null&&c.length)||!(d!=null&&d.length))return;const p=z0(u)?{...u}:u;t.push(...o.flatMap(h=>c.flatMap(f=>d.map(m=>r(h,f,m,p)))))},{flush:"post"}),i=()=>{l(),n()};return gn(n),i}let ko=!1;function X0(e,t,n={}){const{window:r=Ge,ignore:a=[],capture:l=!0,detectIframe:i=!1,controls:o=!1}=n;if(!r)return o?{stop:Ze,cancel:Ze,trigger:Ze}:Ze;if(Jl&&!ko){ko=!0;const k={passive:!0};Array.from(r.document.body.children).forEach(w=>ie(w,"click",Ze,k)),ie(r.document.documentElement,"click",Ze,k)}let c=!0;const d=k=>ue(a).some(w=>{if(typeof w=="string")return Array.from(r.document.querySelectorAll(w)).some(x=>x===k.target||k.composedPath().includes(x));{const x=Ne(w);return x&&(k.target===x||k.composedPath().includes(x))}});function u(k){const w=ue(k);return w&&w.$.subTree.shapeFlag===16}function p(k,w){const x=ue(k),v=x.$.subTree&&x.$.subTree.children;return v==null||!Array.isArray(v)?!1:v.some(E=>E.el===w.target||w.composedPath().includes(E.el))}const h=k=>{const w=Ne(e);if(k.target!=null&&!(!(w instanceof Element)&&u(e)&&p(e,k))&&!(!w||w===k.target||k.composedPath().includes(w))){if("detail"in k&&k.detail===0&&(c=!d(k)),!c){c=!0;return}t(k)}};let f=!1;const m=[ie(r,"click",k=>{f||(f=!0,setTimeout(()=>{f=!1},0),h(k))},{passive:!0,capture:l}),ie(r,"pointerdown",k=>{const w=Ne(e);c=!d(k)&&!!(w&&!k.composedPath().includes(w))},{passive:!0}),i&&ie(r,"blur",k=>{setTimeout(()=>{var w;const x=Ne(e);((w=r.document.activeElement)==null?void 0:w.tagName)==="IFRAME"&&!(x!=null&&x.contains(r.document.activeElement))&&t(k)},0)},{passive:!0})].filter(Boolean),y=()=>m.forEach(k=>k());return o?{stop:y,cancel:()=>{c=!1},trigger:k=>{c=!0,h(k),c=!1}}:y}function Z0(){const e=ee(!1),t=ir();return t&&oe(()=>{e.value=!0},t),e}function Bn(e){const t=Z0();return _(()=>(t.value,!!e()))}function Ld(e,t,n={}){const{window:r=Ge,...a}=n;let l;const i=Bn(()=>r&&"MutationObserver"in r),o=()=>{l&&(l.disconnect(),l=void 0)},c=_(()=>{const h=ue(e),f=Er(h).map(Ne).filter(V0);return new Set(f)}),d=Ae(()=>c.value,h=>{o(),i.value&&h.size&&(l=new MutationObserver(t),h.forEach(f=>l.observe(f,a)))},{immediate:!0,flush:"post"}),u=()=>l==null?void 0:l.takeRecords(),p=()=>{d(),o()};return gn(p),{isSupported:i,stop:p,takeRecords:u}}function ef(e,t,n={}){const{window:r=Ge,document:a=r==null?void 0:r.document,flush:l="sync"}=n;if(!r||!a)return Ze;let i;const o=u=>{i==null||i(),i=u},c=Si(()=>{const u=Ne(e);if(u){const{stop:p}=Ld(a,h=>{h.map(m=>[...m.removedNodes]).flat().some(m=>m===u||m.contains(u))&&t(h)},{window:r,childList:!0,subtree:!0});o(p)}},{flush:l}),d=()=>{c(),o()};return gn(d),d}const tf=Symbol("vueuse-ssr-width");function nf(){const e=Dc()?j0(tf,null):null;return typeof e=="number"?e:void 0}function Ni(e,t={}){const{window:n=Ge,ssrWidth:r=nf()}=t,a=Bn(()=>n&&"matchMedia"in n&&typeof n.matchMedia=="function"),l=ee(typeof r=="number"),i=ee(),o=ee(!1),c=d=>{o.value=d.matches};return Si(()=>{if(l.value){l.value=!a.value;const d=ue(e).split(",");o.value=d.some(u=>{const p=u.includes("not all"),h=u.match(/\(\s*min-width:\s*(-?\d+(?:\.\d*)?[a-z]+\s*)\)/),f=u.match(/\(\s*max-width:\s*(-?\d+(?:\.\d*)?[a-z]+\s*)\)/);let m=!!(h||f);return h&&m&&(m=r>=bo(h[1])),f&&m&&(m=r<=bo(f[1])),p?!m:m});return}a.value&&(i.value=n.matchMedia(ue(e)),o.value=i.value.matches)}),ie(i,"change",c,{passive:!0}),_(()=>o.value)}function xo(e,t={}){const{controls:n=!1,navigator:r=Dd}=t,a=Bn(()=>r&&"permissions"in r),l=ee(),i=typeof e=="string"?{name:e}:e,o=ee(),c=()=>{var u,p;o.value=(p=(u=l.value)==null?void 0:u.state)!=null?p:"prompt"};ie(l,"change",c,{passive:!0});const d=U0(async()=>{if(a.value){if(!l.value)try{l.value=await r.permissions.query(i)}catch{l.value=void 0}finally{c()}if(n)return de(l.value)}});return d(),n?{state:o,isSupported:a,query:d}:o}function rf(e={}){const{navigator:t=Dd,read:n=!1,source:r,copiedDuring:a=1500,legacy:l=!1}=e,i=Bn(()=>t&&"clipboard"in t),o=xo("clipboard-read"),c=xo("clipboard-write"),d=_(()=>i.value||l),u=ee(""),p=ee(!1),h=Q0(()=>p.value=!1,a,{immediate:!1});async function f(){let x=!(i.value&&w(o.value));if(!x)try{u.value=await t.clipboard.readText()}catch{x=!0}x&&(u.value=k())}d.value&&n&&ie(["copy","cut"],f,{passive:!0});async function m(x=ue(r)){if(d.value&&x!=null){let v=!(i.value&&w(c.value));if(!v)try{await t.clipboard.writeText(x)}catch{v=!0}v&&y(x),u.value=x,p.value=!0,h.start()}}function y(x){const v=document.createElement("textarea");v.value=x??"",v.style.position="absolute",v.style.opacity="0",document.body.appendChild(v),v.select(),document.execCommand("copy"),v.remove()}function k(){var x,v,E;return(E=(v=(x=document==null?void 0:document.getSelection)==null?void 0:x.call(document))==null?void 0:v.toString())!=null?E:""}function w(x){return x==="granted"||x==="prompt"}return{isSupported:d,text:u,copied:p,copy:m}}const va=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},ya="__vueuse_ssr_handlers__",af=lf();function lf(){return ya in va||(va[ya]=va[ya]||{}),va[ya]}function sf(e,t){return af[e]||t}function of(e){return Ni("(prefers-color-scheme: dark)",e)}function cf(e){return e==null?"any":e instanceof Set?"set":e instanceof Map?"map":e instanceof Date?"date":typeof e=="boolean"?"boolean":typeof e=="string"?"string":typeof e=="object"?"object":Number.isNaN(e)?"any":"number"}const df={boolean:{read:e=>e==="true",write:e=>String(e)},object:{read:e=>JSON.parse(e),write:e=>JSON.stringify(e)},number:{read:e=>Number.parseFloat(e),write:e=>String(e)},any:{read:e=>e,write:e=>String(e)},string:{read:e=>e,write:e=>String(e)},map:{read:e=>new Map(JSON.parse(e)),write:e=>JSON.stringify(Array.from(e.entries()))},set:{read:e=>new Set(JSON.parse(e)),write:e=>JSON.stringify(Array.from(e))},date:{read:e=>new Date(e),write:e=>e.toISOString()}},_o="vueuse-storage";function In(e,t,n,r={}){var a;const{flush:l="pre",deep:i=!0,listenToStorageChanges:o=!0,writeDefaults:c=!0,mergeDefaults:d=!1,shallow:u,window:p=Ge,eventFilter:h,onError:f=F=>{console.error(F)},initOnMounted:m}=r,y=(u?ee:Q)(typeof t=="function"?t():t),k=_(()=>ue(e));if(!n)try{n=sf("getDefaultStorage",()=>{var F;return(F=Ge)==null?void 0:F.localStorage})()}catch(F){f(F)}if(!n)return y;const w=ue(t),x=cf(w),v=(a=r.serializer)!=null?a:df[x],{pause:E,resume:B}=Y0(y,()=>L(y.value),{flush:l,deep:i,eventFilter:h});Ae(k,()=>I(),{flush:l}),p&&o&&Zr(()=>{n instanceof Storage?ie(p,"storage",I,{passive:!0}):ie(p,_o,M),m&&I()}),m||I();function q(F,D){if(p){const z={key:k.value,oldValue:F,newValue:D,storageArea:n};p.dispatchEvent(n instanceof Storage?new StorageEvent("storage",z):new CustomEvent(_o,{detail:z}))}}function L(F){try{const D=n.getItem(k.value);if(F==null)q(D,null),n.removeItem(k.value);else{const z=v.write(F);D!==z&&(n.setItem(k.value,z),q(D,z))}}catch(D){f(D)}}function W(F){const D=F?F.newValue:n.getItem(k.value);if(D==null)return c&&w!=null&&n.setItem(k.value,v.write(w)),w;if(!F&&d){const z=v.read(D);return typeof d=="function"?d(z,w):x==="object"&&!Array.isArray(z)?{...w,...z}:z}else return typeof D!="string"?D:v.read(D)}function I(F){if(!(F&&F.storageArea!==n)){if(F&&F.key==null){y.value=w;return}if(!(F&&F.key!==k.value)){E();try{(F==null?void 0:F.newValue)!==v.write(y.value)&&(y.value=W(F))}catch(D){f(D)}finally{F?pn(B):B()}}}}function M(F){I(F.detail)}return y}function uf(e,t,n={}){const{window:r=Ge,...a}=n;let l;const i=Bn(()=>r&&"ResizeObserver"in r),o=()=>{l&&(l.disconnect(),l=void 0)},c=_(()=>{const p=ue(e);return Array.isArray(p)?p.map(h=>Ne(h)):[Ne(p)]}),d=Ae(c,p=>{if(o(),i.value&&r){l=new ResizeObserver(t);for(const h of p)h&&l.observe(h,a)}},{immediate:!0,flush:"post"}),u=()=>{o(),d()};return gn(u),{isSupported:i,stop:u}}function pf(e,t={}){const{delayEnter:n=0,delayLeave:r=0,triggerOnRemoval:a=!1,window:l=Ge}=t,i=ee(!1);let o;const c=d=>{const u=d?n:r;o&&(clearTimeout(o),o=void 0),u?o=setTimeout(()=>i.value=d,u):i.value=d};return l&&(ie(e,"mouseenter",()=>c(!0),{passive:!0}),ie(e,"mouseleave",()=>c(!1),{passive:!0}),a&&ef(_(()=>Ne(e)),()=>c(!1))),i}function hf(e,t={width:0,height:0},n={}){const{window:r=Ge,box:a="content-box"}=n,l=_(()=>{var p,h;return(h=(p=Ne(e))==null?void 0:p.namespaceURI)==null?void 0:h.includes("svg")}),i=ee(t.width),o=ee(t.height),{stop:c}=uf(e,([p])=>{const h=a==="border-box"?p.borderBoxSize:a==="content-box"?p.contentBoxSize:p.devicePixelContentBoxSize;if(r&&l.value){const f=Ne(e);if(f){const m=f.getBoundingClientRect();i.value=m.width,o.value=m.height}}else if(h){const f=Er(h);i.value=f.reduce((m,{inlineSize:y})=>m+y,0),o.value=f.reduce((m,{blockSize:y})=>m+y,0)}else i.value=p.contentRect.width,o.value=p.contentRect.height},n);Zr(()=>{const p=Ne(e);p&&(i.value="offsetWidth"in p?p.offsetWidth:t.width,o.value="offsetHeight"in p?p.offsetHeight:t.height)});const d=Ae(()=>Ne(e),p=>{i.value=p?t.width:0,o.value=p?t.height:0});function u(){c(),d()}return{width:i,height:o,stop:u}}const wo=["fullscreenchange","webkitfullscreenchange","webkitendfullscreen","mozfullscreenchange","MSFullscreenChange"];function Ua(e,t={}){const{document:n=Sd,autoExit:r=!1}=t,a=_(()=>{var x;return(x=Ne(e))!=null?x:n==null?void 0:n.documentElement}),l=ee(!1),i=_(()=>["requestFullscreen","webkitRequestFullscreen","webkitEnterFullscreen","webkitEnterFullScreen","webkitRequestFullScreen","mozRequestFullScreen","msRequestFullscreen"].find(x=>n&&x in n||a.value&&x in a.value)),o=_(()=>["exitFullscreen","webkitExitFullscreen","webkitExitFullScreen","webkitCancelFullScreen","mozCancelFullScreen","msExitFullscreen"].find(x=>n&&x in n||a.value&&x in a.value)),c=_(()=>["fullScreen","webkitIsFullScreen","webkitDisplayingFullscreen","mozFullScreen","msFullscreenElement"].find(x=>n&&x in n||a.value&&x in a.value)),d=["fullscreenElement","webkitFullscreenElement","mozFullScreenElement","msFullscreenElement"].find(x=>n&&x in n),u=Bn(()=>a.value&&n&&i.value!==void 0&&o.value!==void 0&&c.value!==void 0),p=()=>d?(n==null?void 0:n[d])===a.value:!1,h=()=>{if(c.value){if(n&&n[c.value]!=null)return n[c.value];{const x=a.value;if((x==null?void 0:x[c.value])!=null)return!!x[c.value]}}return!1};async function f(){if(!(!u.value||!l.value)){if(o.value)if((n==null?void 0:n[o.value])!=null)await n[o.value]();else{const x=a.value;(x==null?void 0:x[o.value])!=null&&await x[o.value]()}l.value=!1}}async function m(){if(!u.value||l.value)return;h()&&await f();const x=a.value;i.value&&(x==null?void 0:x[i.value])!=null&&(await x[i.value](),l.value=!0)}async function y(){await(l.value?f():m())}const k=()=>{const x=h();(!x||x&&p())&&(l.value=x)},w={capture:!1,passive:!0};return ie(n,wo,k,w),ie(()=>Ne(a),wo,k,w),r&&gn(f),{isSupported:u,isFullscreen:l,enter:m,exit:f,toggle:y}}function kl(e){return typeof Window<"u"&&e instanceof Window?e.document.documentElement:typeof Document<"u"&&e instanceof Document?e.documentElement:e}const Ao=1;function ff(e,t={}){const{throttle:n=0,idle:r=200,onStop:a=Ze,onScroll:l=Ze,offset:i={left:0,right:0,top:0,bottom:0},eventListenerOptions:o={capture:!1,passive:!0},behavior:c="auto",window:d=Ge,onError:u=L=>{console.error(L)}}=t,p=ee(0),h=ee(0),f=_({get(){return p.value},set(L){y(L,void 0)}}),m=_({get(){return h.value},set(L){y(void 0,L)}});function y(L,W){var I,M,F,D;if(!d)return;const z=ue(e);if(!z)return;(F=z instanceof Document?d.document.body:z)==null||F.scrollTo({top:(I=ue(W))!=null?I:m.value,left:(M=ue(L))!=null?M:f.value,behavior:ue(c)});const le=((D=z==null?void 0:z.document)==null?void 0:D.documentElement)||(z==null?void 0:z.documentElement)||z;f!=null&&(p.value=le.scrollLeft),m!=null&&(h.value=le.scrollTop)}const k=ee(!1),w=Cn({left:!0,right:!1,top:!0,bottom:!1}),x=Cn({left:!1,right:!1,top:!1,bottom:!1}),v=L=>{k.value&&(k.value=!1,x.left=!1,x.right=!1,x.top=!1,x.bottom=!1,a(L))},E=Ga(v,n+r),B=L=>{var W;if(!d)return;const I=((W=L==null?void 0:L.document)==null?void 0:W.documentElement)||(L==null?void 0:L.documentElement)||Ne(L),{display:M,flexDirection:F,direction:D}=getComputedStyle(I),z=D==="rtl"?-1:1,le=I.scrollLeft;x.left=le<p.value,x.right=le>p.value;const ge=Math.abs(le*z)<=(i.left||0),K=Math.abs(le*z)+I.clientWidth>=I.scrollWidth-(i.right||0)-Ao;M==="flex"&&F==="row-reverse"?(w.left=K,w.right=ge):(w.left=ge,w.right=K),p.value=le;let Z=I.scrollTop;L===d.document&&!Z&&(Z=d.document.body.scrollTop),x.top=Z<h.value,x.bottom=Z>h.value;const J=Math.abs(Z)<=(i.top||0),me=Math.abs(Z)+I.clientHeight>=I.scrollHeight-(i.bottom||0)-Ao;M==="flex"&&F==="column-reverse"?(w.top=me,w.bottom=J):(w.top=J,w.bottom=me),h.value=Z},q=L=>{var W;if(!d)return;const I=(W=L.target.documentElement)!=null?W:L.target;B(I),k.value=!0,E(L),l(L)};return ie(e,"scroll",n?Cd(q,n,!0,!1):q,o),Zr(()=>{try{const L=ue(e);if(!L)return;B(L)}catch(L){u(L)}}),ie(e,"scrollend",v,o),{x:f,y:m,isScrolling:k,arrivedState:w,directions:x,measure(){const L=ue(e);d&&L&&B(L)}}}function gf(e,t,n={}){const{window:r=Ge}=n;return In(e,t,r==null?void 0:r.localStorage,n)}function mf(e={}){const{window:t=Ge}=e;if(!t)return Q(["en"]);const n=t.navigator,r=Q(n.languages);return ie(t,"languagechange",()=>{r.value=n.languages},{passive:!0}),r}function Pd(e){const t=window.getComputedStyle(e);if(t.overflowX==="scroll"||t.overflowY==="scroll"||t.overflowX==="auto"&&e.clientWidth<e.scrollWidth||t.overflowY==="auto"&&e.clientHeight<e.scrollHeight)return!0;{const n=e.parentNode;return!n||n.tagName==="BODY"?!1:Pd(n)}}function vf(e){const t=e||window.event,n=t.target;return Pd(n)?!1:t.touches.length>1?!0:(t.preventDefault&&t.preventDefault(),!1)}const xl=new WeakMap;function ea(e,t=!1){const n=ee(t);let r=null,a="";Ae(Ed(e),o=>{const c=kl(ue(o));if(c){const d=c;if(xl.get(d)||xl.set(d,d.style.overflow),d.style.overflow!=="hidden"&&(a=d.style.overflow),d.style.overflow==="hidden")return n.value=!0;if(n.value)return d.style.overflow="hidden"}},{immediate:!0});const l=()=>{const o=kl(ue(e));!o||n.value||(Jl&&(r=ie(o,"touchmove",c=>{vf(c)},{passive:!1})),o.style.overflow="hidden",n.value=!0)},i=()=>{const o=kl(ue(e));!o||!n.value||(Jl&&(r==null||r()),o.style.overflow=a,xl.delete(o),n.value=!1)};return gn(i),_({get(){return n.value},set(o){o?l():i()}})}function zi(e,t,n={}){const{window:r=Ge}=n;return In(e,t,r==null?void 0:r.sessionStorage,n)}let yf=0;function bf(e,t={}){const n=ee(!1),{document:r=Sd,immediate:a=!0,manual:l=!1,id:i=`vueuse_styletag_${++yf}`}=t,o=ee(e);let c=()=>{};const d=()=>{if(!r)return;const p=r.getElementById(i)||r.createElement("style");p.isConnected||(p.id=i,t.media&&(p.media=t.media),r.head.appendChild(p)),!n.value&&(c=Ae(o,h=>{p.textContent=h},{immediate:!0}),n.value=!0)},u=()=>{!r||!n.value||(c(),r.head.removeChild(r.getElementById(i)),n.value=!1)};return a&&!l&&Zr(d),l||gn(u),{id:i,css:o,unload:u,load:d,isLoaded:Dt(n)}}function kf(e={}){const{window:t=Ge,...n}=e;return ff(t,n)}function xf(e={}){const{window:t=Ge,initialWidth:n=Number.POSITIVE_INFINITY,initialHeight:r=Number.POSITIVE_INFINITY,listenOrientation:a=!0,includeScrollbar:l=!0,type:i="inner"}=e,o=ee(n),c=ee(r),d=()=>{if(t)if(i==="outer")o.value=t.outerWidth,c.value=t.outerHeight;else if(i==="visual"&&t.visualViewport){const{width:p,height:h,scale:f}=t.visualViewport;o.value=Math.round(p*f),c.value=Math.round(h*f)}else l?(o.value=t.innerWidth,c.value=t.innerHeight):(o.value=t.document.documentElement.clientWidth,c.value=t.document.documentElement.clientHeight)};d(),Zr(d);const u={passive:!0};if(ie("resize",d,u),t&&i==="visual"&&t.visualViewport&&ie(t.visualViewport,"resize",d,u),a){const p=Ni("(orientation: portrait)");Ae(p,()=>d())}return{width:o,height:c}}var ot=Uint8Array,Hn=Uint16Array,_f=Int32Array,Bd=new ot([0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,0,0,0,0]),Id=new ot([0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,0,0]),wf=new ot([16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15]),Od=function(e,t){for(var n=new Hn(31),r=0;r<31;++r)n[r]=t+=1<<e[r-1];for(var a=new _f(n[30]),r=1;r<30;++r)for(var l=n[r];l<n[r+1];++l)a[l]=l-n[r]<<5|r;return{b:n,r:a}},Rd=Od(Bd,2),Fd=Rd.b,Af=Rd.r;Fd[28]=258,Af[258]=28;var Ef=Od(Id,0),Tf=Ef.b,Yl=new Hn(32768);for(var Se=0;Se<32768;++Se){var Zt=(Se&43690)>>1|(Se&21845)<<1;Zt=(Zt&52428)>>2|(Zt&13107)<<2,Zt=(Zt&61680)>>4|(Zt&3855)<<4,Yl[Se]=((Zt&65280)>>8|(Zt&255)<<8)>>1}var Tr=function(e,t,n){for(var r=e.length,a=0,l=new Hn(t);a<r;++a)e[a]&&++l[e[a]-1];var i=new Hn(t);for(a=1;a<t;++a)i[a]=i[a-1]+l[a-1]<<1;var o;if(n){o=new Hn(1<<t);var c=15-t;for(a=0;a<r;++a)if(e[a])for(var d=a<<4|e[a],u=t-e[a],p=i[e[a]-1]++<<u,h=p|(1<<u)-1;p<=h;++p)o[Yl[p]>>c]=d}else for(o=new Hn(r),a=0;a<r;++a)e[a]&&(o[a]=Yl[i[e[a]-1]++]>>15-e[a]);return o},ta=new ot(288);for(var Se=0;Se<144;++Se)ta[Se]=8;for(var Se=144;Se<256;++Se)ta[Se]=9;for(var Se=256;Se<280;++Se)ta[Se]=7;for(var Se=280;Se<288;++Se)ta[Se]=8;var $d=new ot(32);for(var Se=0;Se<32;++Se)$d[Se]=5;var Cf=Tr(ta,9,1),Sf=Tr($d,5,1),_l=function(e){for(var t=e[0],n=1;n<e.length;++n)e[n]>t&&(t=e[n]);return t},_t=function(e,t,n){var r=t/8|0;return(e[r]|e[r+1]<<8)>>(t&7)&n},wl=function(e,t){var n=t/8|0;return(e[n]|e[n+1]<<8|e[n+2]<<16)>>(t&7)},Df=function(e){return(e+7)/8|0},Md=function(e,t,n){return(t==null||t<0)&&(t=0),(n==null||n>e.length)&&(n=e.length),new ot(e.subarray(t,n))},Lf=["unexpected EOF","invalid block type","invalid length/literal","invalid distance","stream finished","no stream handler",,"no callback","invalid UTF-8 data","extra field too long","date not in range 1980-2099","filename too long","stream finishing","invalid zip data"],gt=function(e,t,n){var r=new Error(t||Lf[e]);if(r.code=e,Error.captureStackTrace&&Error.captureStackTrace(r,gt),!n)throw r;return r},Pf=function(e,t,n,r){var a=e.length,l=0;if(!a||t.f&&!t.l)return n||new ot(0);var i=!n,o=i||t.i!=2,c=t.i;i&&(n=new ot(a*3));var d=function(pe){var _e=n.length;if(pe>_e){var g=new ot(Math.max(_e*2,pe));g.set(n),n=g}},u=t.f||0,p=t.p||0,h=t.b||0,f=t.l,m=t.d,y=t.m,k=t.n,w=a*8;do{if(!f){u=_t(e,p,1);var x=_t(e,p+1,3);if(p+=3,x)if(x==1)f=Cf,m=Sf,y=9,k=5;else if(x==2){var q=_t(e,p,31)+257,L=_t(e,p+10,15)+4,W=q+_t(e,p+5,31)+1;p+=14;for(var I=new ot(W),M=new ot(19),F=0;F<L;++F)M[wf[F]]=_t(e,p+F*3,7);p+=L*3;for(var D=_l(M),z=(1<<D)-1,le=Tr(M,D,1),F=0;F<W;){var ge=le[_t(e,p,z)];p+=ge&15;var v=ge>>4;if(v<16)I[F++]=v;else{var K=0,Z=0;for(v==16?(Z=3+_t(e,p,3),p+=2,K=I[F-1]):v==17?(Z=3+_t(e,p,7),p+=3):v==18&&(Z=11+_t(e,p,127),p+=7);Z--;)I[F++]=K}}var J=I.subarray(0,q),me=I.subarray(q);y=_l(J),k=_l(me),f=Tr(J,y,1),m=Tr(me,k,1)}else gt(1);else{var v=Df(p)+4,E=e[v-4]|e[v-3]<<8,B=v+E;if(B>a){c&&gt(0);break}o&&d(h+E),n.set(e.subarray(v,B),h),t.b=h+=E,t.p=p=B*8,t.f=u;continue}if(p>w){c&&gt(0);break}}o&&d(h+131072);for(var It=(1<<y)-1,pt=(1<<k)-1,je=p;;je=p){var K=f[wl(e,p)&It],nt=K>>4;if(p+=K&15,p>w){c&&gt(0);break}if(K||gt(2),nt<256)n[h++]=nt;else if(nt==256){je=p,f=null;break}else{var Nt=nt-254;if(nt>264){var F=nt-257,Ot=Bd[F];Nt=_t(e,p,(1<<Ot)-1)+Fd[F],p+=Ot}var ze=m[wl(e,p)&pt],C=ze>>4;ze||gt(3),p+=ze&15;var me=Tf[C];if(C>3){var Ot=Id[C];me+=wl(e,p)&(1<<Ot)-1,p+=Ot}if(p>w){c&&gt(0);break}o&&d(h+131072);var G=h+Nt;if(h<me){var N=l-me,Y=Math.min(me,G);for(N+h<0&&gt(3);h<Y;++h)n[h]=r[N+h]}for(;h<G;++h)n[h]=n[h-me]}}t.l=f,t.p=je,t.b=h,t.f=u,f&&(u=1,t.m=y,t.d=m,t.n=k)}while(!u);return h!=n.length&&i?Md(n,0,h):n.subarray(0,h)},Bf=new ot(0),If=function(e,t){return((e[0]&15)!=8||e[0]>>4>7||(e[0]<<8|e[1])%31)&&gt(6,"invalid zlib data"),(e[1]>>5&1)==1&&gt(6,"invalid zlib data: "+(e[1]&32?"need":"unexpected")+" dictionary"),(e[1]>>3&4)+2};function Of(e,t){return Pf(e.subarray(If(e),-4),{i:2},t,t)}var Ql=typeof TextDecoder<"u"&&new TextDecoder,Rf=0;try{Ql.decode(Bf,{stream:!0}),Rf=1}catch{}var Ff=function(e){for(var t="",n=0;;){var r=e[n++],a=(r>127)+(r>223)+(r>239);if(n+a>e.length)return{s:t,r:Md(e,n-1)};a?a==3?(r=((r&15)<<18|(e[n++]&63)<<12|(e[n++]&63)<<6|e[n++]&63)-65536,t+=String.fromCharCode(55296|r>>10,56320|r&1023)):a&1?t+=String.fromCharCode((r&31)<<6|e[n++]&63):t+=String.fromCharCode((r&15)<<12|(e[n++]&63)<<6|e[n++]&63):t+=String.fromCharCode(r)}};function $f(e,t){{for(var n=new ot(e.length),r=0;r<e.length;++r)n[r]=e.charCodeAt(r);return n}for(var a=e.length,r=0;r<a;++r);}function Mf(e,t){var n;if(Ql)return Ql.decode(e);var r=Ff(e),a=r.s,n=r.r;return n.length&&gt(8),a}const Rr=e=>{const t=atob(e);return Mf(Of($f(t)))},jf=e=>/\b(?:Android|iPhone)/i.test(e),Vf=e=>/version\/([\w.]+) .*(mobile ?safari|safari)/i.test(e),jd=e=>[/\((ipad);[-\w),; ]+apple/i,/applecoremedia\/[\w.]+ \((ipad)/i,/\b(ipad)\d\d?,\d\d?[;\]].+ios/i].some(t=>t.test(e)),Nf=e=>[/ip[honead]{2,4}\b(?:.*os ([\w]+) like mac|; opera)/i,/cfnetwork\/.+darwin/i].some(t=>t.test(e)),zf=e=>[/(mac os x) ?([\w. ]*)/i,/(macintosh|mac_powerpc\b)(?!.+haiku)/i].some(t=>t.test(e)),Eo=()=>document.documentElement.getAttribute("data-theme")==="dark",Vd=[...new Array(6)].map((e,t)=>`[vp-content] h${t+1}`).join(","),Hf=(e,t=2)=>{if(t===!1)return[];const[n,r]=typeof t=="number"?[t,t]:t==="deep"?[2,6]:t,a=e.filter(i=>i.level>=n&&i.level<=r),l=[];e:for(let i=0;i<a.length;i++){const o=a[i];if(i===0)l.push(o);else{for(let c=i-1;c>=0;c--){const d=a[c];if(d.level<o.level){d.children.push(o);continue e}}l.push(o)}}return l},qf=(e,t=[])=>{let n;if(t.length){const r=e.cloneNode(!0);r.querySelectorAll(t.join(",")).forEach(a=>{a.remove()}),n=r.textContent||""}else n=e.textContent||"";return n.trim()},Wf=(e=Vd,t=[])=>Array.from(document.querySelectorAll(e)).filter(n=>n.id&&n.hasChildNodes()).map(n=>({element:n,title:qf(n,t),link:`#${n.id}`,slug:n.id,level:Number(n.tagName[1]),children:[]})),Gf=({selector:e=Vd,levels:t=2,ignore:n=[]}={})=>Hf(Wf(e,n),t),Uf=e=>e instanceof Element?document.activeElement===e&&(["TEXTAREA","SELECT","INPUT"].includes(e.tagName)||e.hasAttribute("contenteditable")):!1,Kf=(e,t)=>t.some(n=>{if(De(n))return n===e.key;const{key:r,ctrl:a=!1,shift:l=!1,alt:i=!1}=n;return r===e.key&&a===e.ctrlKey&&l===e.shiftKey&&i===e.altKey}),We=(e,t)=>{var r;const n=(r=(t==null?void 0:t._instance)??ir())==null?void 0:r.appContext.components;return n?e in n||tt(e)in n||zr(tt(e))in n:!1},Ka=e=>typeof e<"u",Ta=e=>typeof e=="number",{isArray:Fr}=Array,ar=(e,t)=>De(e)&&e.startsWith(t),Jf=(e,t)=>De(e)&&e.endsWith(t),{entries:On}=Object,{keys:St}=Object,{values:Yf}=Object,Hi=e=>{if(e){if(typeof e=="number")return new Date(e);const t=Date.parse(e.toString());if(!Number.isNaN(t))return new Date(t)}return null},Ja=e=>ar(e,"/")&&e[1]!=="/";let Qf=null;const Xf=()=>{const e=Q(!1);return oe(()=>{e.value=Eo(),Ld(document.documentElement,()=>{e.value=Eo()},{attributeFilter:["data-theme"],attributes:!0})}),Dt(e)},Zf=()=>Qf??(Qf=Xf()),eg=(e={})=>{const t=Q([]);return Yt(n=>{t.value=n==="beforeUnmount"?[]:Gf(ue(e))}),t},kt=e=>{const t=bt();return _(()=>ue(e)[t.value]??{})},tg=(e,t)=>{ie("keydown",r=>{const a=ue(e);a!=null&&a.length&&Kf(r,a)&&!Uf(r.target)&&(r.preventDefault(),t())})},ng=(e=!0)=>{const t=he(),n=Ve();return _(()=>{var r;return t.value.contributors===!1||!ue(e)?[]:((r=n.value.git)==null?void 0:r.contributors)??[]})};var To={"/":{contributors:"贡献者",changelog:"更新日志",timeOn:"于",viewChangelog:"查看所有更新日志",latestUpdateAt:"最近更新："}};const rg=typeof To>"u"?{}:To,Nd=()=>kt(rg),ag=(e=!0)=>{const t=Kr(),n=Nd(),r=Ve();return _(()=>{var o,c,d;if(!ue(e))return null;const a=((o=r.value.git)==null?void 0:o.updatedTime)??((d=(c=r.value.git)==null?void 0:c.changelog)==null?void 0:d[0].time);if(!a)return null;const l=new Date(a),i=new Intl.DateTimeFormat(t.value,{dateStyle:"short",timeStyle:"short"}).format(a);return{date:l,text:i,iso:l.toISOString(),locale:n.value.latestUpdateAt}})},lg=({level:e=2,text:t,anchor:n})=>s(`h${e||2}`,{id:n,tabindex:"-1"},s("a",{href:`#${n}`,class:"header-anchor"},s("span",t))),ig=({name:e,url:t,avatar:n})=>s(t?"a":"span",{href:t,target:"_blank",rel:"noreferrer",class:"vp-contributor"},[n?s("img",{src:n,alt:"",class:"vp-contributor-avatar"}):null,s("span",{class:"vp-contributor-name"},e)]),sg=R({name:"GitContributors",props:{title:String,headerLevel:{type:Number,default:2}},setup(e){const t=ng(),n=Nd();return()=>t.value.length?[s(lg,{level:e.headerLevel,anchor:"doc-contributors",text:e.title||n.value.contributors}),s("div",{class:"vp-contributors"},t.value.map(r=>s(ig,r)))]:null}}),og={enhance:({app:e})=>{e.component("GitContributors",sg)}},cg=Object.freeze(Object.defineProperty({__proto__:null,default:og},Symbol.toStringTag,{value:"Module"})),dg=Object.freeze(Object.defineProperty({__proto__:null},Symbol.toStringTag,{value:"Module"})),ug=Object.freeze(Object.defineProperty({__proto__:null},Symbol.toStringTag,{value:"Module"})),pg=Object.freeze(Object.defineProperty({__proto__:null},Symbol.toStringTag,{value:"Module"})),hg=Pt({setup(){ie("beforeprint",()=>{document.querySelectorAll("details").forEach(e=>{e.open=!0})},{passive:!0})}}),fg=Object.freeze(Object.defineProperty({__proto__:null,default:hg},Symbol.toStringTag,{value:"Module"})),gg=Object.freeze(Object.defineProperty({__proto__:null},Symbol.toStringTag,{value:"Module"})),mg="VUEPRESS_CODE_TAB_STORE",ba=In(mg,{}),vg=R({name:"CodeTabs",props:{active:{type:Number,default:0},data:{type:Array,required:!0},id:{type:String,required:!0},tabId:String},slots:Object,setup(e,{slots:t}){const n=Q(e.active),r=ee([]),a=()=>{e.tabId&&(ba.value[e.tabId]=e.data[n.value].id)},l=(d=n.value)=>{n.value=d<r.value.length-1?d+1:0,r.value[n.value].focus()},i=(d=n.value)=>{n.value=d>0?d-1:r.value.length-1,r.value[n.value].focus()},o=(d,u)=>{d.key===" "||d.key==="Enter"?(d.preventDefault(),n.value=u):d.key==="ArrowRight"?(d.preventDefault(),l()):d.key==="ArrowLeft"&&(d.preventDefault(),i()),e.tabId&&(ba.value[e.tabId]=e.data[n.value].id)},c=()=>{if(e.tabId){const d=e.data.findIndex(({id:u})=>ba.value[e.tabId]===u);if(d!==-1)return d}return e.active};return oe(()=>{n.value=c(),Ae(()=>e.tabId&&ba.value[e.tabId],(d,u)=>{if(e.tabId&&d!==u){const p=e.data.findIndex(({id:h})=>h===d);p!==-1&&(n.value=p)}})}),()=>e.data.length?s("div",{class:"vp-code-tabs"},[s("div",{class:"vp-code-tabs-nav",role:"tablist"},e.data.map(({id:d},u)=>{const p=u===n.value;return s("button",{type:"button",ref:h=>{h&&(r.value[u]=h)},class:["vp-code-tab-nav",{active:p}],role:"tab","aria-controls":`codetab-${e.id}-${u}`,"aria-selected":p,onClick:()=>{n.value=u,a()},onKeydown:h=>{o(h,u)}},t[`title${u}`]({value:d,isActive:p}))})),e.data.map(({id:d},u)=>{const p=u===n.value;return s("div",{class:["vp-code-tab",{active:p}],id:`codetab-${e.id}-${u}`,role:"tabpanel","aria-expanded":p},[s("div",{class:"vp-code-tab-title"},t[`title${u}`]({value:d,isActive:p})),t[`tab${u}`]({value:d,isActive:p})])})]):null}}),yg="VUEPRESS_TAB_STORE",Al=In(yg,{}),bg=R({name:"Tabs",props:{active:{type:Number,default:0},data:{type:Array,required:!0},id:{type:String,required:!0},tabId:String},slots:Object,setup(e,{slots:t}){const n=Q(e.active),r=ee([]),a=()=>{e.tabId&&(Al.value[e.tabId]=e.data[n.value].id)},l=(d=n.value)=>{n.value=d<r.value.length-1?d+1:0,r.value[n.value].focus()},i=(d=n.value)=>{n.value=d>0?d-1:r.value.length-1,r.value[n.value].focus()},o=(d,u)=>{d.key===" "||d.key==="Enter"?(d.preventDefault(),n.value=u):d.key==="ArrowRight"?(d.preventDefault(),l()):d.key==="ArrowLeft"&&(d.preventDefault(),i()),a()},c=()=>{if(e.tabId){const d=e.data.findIndex(({id:u})=>Al.value[e.tabId]===u);if(d!==-1)return d}return e.active};return oe(()=>{n.value=c(),Ae(()=>e.tabId&&Al.value[e.tabId],(d,u)=>{if(e.tabId&&d!==u){const p=e.data.findIndex(({id:h})=>h===d);p!==-1&&(n.value=p)}})}),()=>e.data.length?s("div",{class:"vp-tabs"},[s("div",{class:"vp-tabs-nav",role:"tablist"},e.data.map(({id:d},u)=>{const p=u===n.value;return s("button",{type:"button",ref:h=>{h&&(r.value[u]=h)},class:["vp-tab-nav",{active:p}],role:"tab","aria-controls":`tab-${e.id}-${u}`,"aria-selected":p,onClick:()=>{n.value=u,a()},onKeydown:h=>{o(h,u)}},t[`title${u}`]({value:d,isActive:p}))})),e.data.map(({id:d},u)=>{const p=u===n.value;return s("div",{class:["vp-tab",{active:p}],id:`tab-${e.id}-${u}`,role:"tabpanel","aria-expanded":p},[s("div",{class:"vp-tab-title"},t[`title${u}`]({value:d,isActive:p})),t[`tab${u}`]({value:d,isActive:p})])})]):null}}),kg={enhance:({app:e})=>{e.component("CodeTabs",vg),e.component("Tabs",bg)}},xg=Object.freeze(Object.defineProperty({__proto__:null,default:kg},Symbol.toStringTag,{value:"Module"})),_g='<svg class="codepen-icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M123.429 668L468 897.714V692.571L277.143 565.143zM88 585.714L198.286 512 88 438.286v147.428zm468 312L900.571 668 746.857 565.143 556 692.57v205.143zM512 616l155.429-104L512 408 356.571 512zM277.143 458.857L468 331.43V126.286L123.429 356zM825.714 512L936 585.714V438.286zm-78.857-53.143L900.571 356 556 126.286v205.143zM1024 356v312q0 23.429-19.429 36.571l-468 312Q524.571 1024 512 1024t-24.571-7.429l-468-312Q0 691.43 0 668V356q0-23.429 19.429-36.571l468-312Q499.429 0 512 0t24.571 7.429l468 312Q1024 332.57 1024 356z"/></svg>',wg='<svg class="jsfiddle-icon" viewBox="0 0 1170 1024" xmlns="http://www.w3.org/2000/svg"><path d="M1028.571 441.143q63.429 26.286 102.572 83.143t39.143 126.571q0 93.714-67.429 160.286T940 877.714q-2.286 0-6.571-.285t-6-.286H232q-97.143-5.714-164.571-71.714T0 645.143q0-62.857 31.429-116t84-84q-6.858-22.286-6.858-46.857 0-65.715 46.858-112T269.143 240q54.286 0 98.286 33.143 42.857-88 127.142-141.714t186.572-53.715q94.857 0 174.857 46t126.571 124.857 46.572 172q0 3.429-.286 10.286t-.286 10.286zm-761.142 152q0 69.714 48 110.286T434.286 744q78.285 0 137.143-56.571-9.143-11.429-27.143-32.286t-24.857-28.857q-38.286 37.143-82.286 37.143-31.429 0-53.429-19.143t-22-50q0-30.286 22-49.715T436 525.143q25.143 0 48.286 12T526 568.57t37.143 42.858 39.428 46.857 44 42.857T702 732.57t69.429 12q69.142 0 116.857-40.857T936 594.857q0-69.143-48-109.714T769.714 444.57Q688 444.571 632 500l53.143 61.714q37.714-36.571 81.143-36.571 29.714 0 52.571 18.857t22.857 48q0 32.571-21.143 52.286T766.857 664q-24.571 0-47.143-12t-41.143-31.429-37.428-42.857-39.714-46.857T557.143 488 502 456.571t-67.714-12q-69.715 0-118.286 40.286t-48.571 108.286z"/></svg>';var Ag={useBabel:!1,jsLib:[],cssLib:[],codepenLayout:"left",codepenEditors:"101",babel:"https://unpkg.com/@babel/standalone/babel.min.js",vue:"https://unpkg.com/vue/dist/vue.global.prod.js",react:"https://unpkg.com/react/umd/react.production.min.js",reactDOM:"https://unpkg.com/react-dom/umd/react-dom.production.min.js"};const El=Ag,Co={html:{types:["html","slim","haml","md","markdown","vue"],map:{html:"none",vue:"none",md:"markdown"}},js:{types:["js","javascript","coffee","coffeescript","ts","typescript","ls","livescript"],map:{js:"none",javascript:"none",coffee:"coffeescript",ls:"livescript",ts:"typescript"}},css:{types:["css","less","sass","scss","stylus","styl"],map:{css:"none",styl:"stylus"}}},Eg=(e,t,n)=>{const r=document.createElement(e);return sr(t)&&St(t).forEach(a=>{if(a.indexOf("data"))r[a]=t[a];else{const l=a.replace("data","");r.dataset[l]=t[a]}}),r},qi=e=>({...El,...e,jsLib:Array.from(new Set([El.jsLib,e.jsLib??[]].flat())),cssLib:Array.from(new Set([El.cssLib,e.cssLib??[]].flat()))}),Yn=(e,t)=>{if(Ka(e[t]))return e[t];const n=new Promise(r=>{var l;const a=document.createElement("script");a.src=t,(l=document.querySelector("body"))==null||l.appendChild(a),a.onload=()=>{r()}});return e[t]=n,n},Tg=(e,t)=>{if(t.css&&Array.from(e.childNodes).every(n=>n.nodeName!=="STYLE")){const n=Eg("style",{innerHTML:t.css});e.appendChild(n)}},Cg=(e,t,n)=>{const r=n.getScript();if(r&&Array.from(t.childNodes).every(a=>a.nodeName!=="SCRIPT")){const a=document.createElement("script");a.appendChild(document.createTextNode(`{const document=window.document.querySelector('#${e} .vp-code-demo-display').shadowRoot;
+${r}}`)),t.appendChild(a)}},Sg=["html","js","css"],Dg=e=>{const t=St(e),n={html:[],js:[],css:[],isLegal:!1};return Sg.forEach(r=>{const a=t.filter(l=>Co[r].types.includes(l));if(a.length){const l=a[0];n[r]=[e[l].replace(/^\n|\n$/g,""),Co[r].map[l]??l]}}),n.isLegal=(!n.html.length||n.html[1]==="none")&&(!n.js.length||n.js[1]==="none")&&(!n.css.length||n.css[1]==="none"),n},zd=e=>e.replace(/<br \/>/g,"<br>").replace(/<((\S+)[^<]*?)\s+\/>/g,"<$1></$2>"),Hd=e=>`<div id="app">
+${zd(e)}
+</div>`,Lg=e=>`${e.replace("export default ","const $reactApp = ").replace(/App\.__style__(\s*)=(\s*)`([\s\S]*)?`/,"")};
+ReactDOM.createRoot(document.getElementById("app")).render(React.createElement($reactApp))`,Pg=e=>e.replace(/export\s+default\s*\{(\n*[\s\S]*)\n*\}\s*;?$/u,"Vue.createApp({$1}).mount('#app')").replace(/export\s+default\s*define(Async)?Component\s*\(\s*\{(\n*[\s\S]*)\n*\}\s*\)\s*;?$/u,"Vue.createApp({$1}).mount('#app')").trim(),qd=e=>`(function(exports){var module={};module.exports=exports;${e};return module.exports.__esModule?exports.default:module.exports;})({})`,Bg=(e,t)=>{const n=qi(t),r=e.js[0]??"";return{...n,html:zd(e.html[0]??""),js:r,css:e.css[0]??"",isLegal:e.isLegal,getScript:()=>{var a,l;return n.useBabel?((l=(a=window.Babel)==null?void 0:a.transform(r,{presets:["es2015"]}))==null?void 0:l.code)??"":r}}},Ig=/<template>([\s\S]+)<\/template>/u,Og=/<script(\s*lang=(['"])(.*?)\2)?>([\s\S]+)<\/script>/u,Rg=/<style(\s*lang=(['"])(.*?)\2)?\s*(?:scoped)?>([\s\S]+)<\/style>/u,Fg=(e,t)=>{const n=qi(t),r=e.html[0]??"",a=Ig.exec(r),l=Og.exec(r),i=Rg.exec(r),o=(a==null?void 0:a[1].replace(/^\n|\n$/g,""))??"",[c="",d=""]=l?[l[4].replace(/^\n|\n$/g,""),l[3]]:[],[u="",p=""]=i?[i[4].replace(/^\n|\n$/g,""),i[3]]:[],h=d===""&&(p===""||p==="css");return{...n,html:Hd(o),js:Pg(c),css:u,isLegal:h,jsLib:[n.vue,...n.jsLib],getScript:()=>{var m,y;const f=t.useBabel?((y=(m=window.Babel)==null?void 0:m.transform(c,{presets:["es2015"]}))==null?void 0:y.code)??"":c.replace(/export\s+default/u,"return");return`const app=window.document.createElement('div');document.firstElementChild.appendChild(app);const appOptions=${qd(f)};appOptions.template=\`${o.replace("`",'\\`"')}\`;window.Vue.createApp(appOptions).mount(app);`}}},$g=(e,t)=>{var a;const n=qi(t),r=e.js[0]??"";return{...n,html:Hd(""),js:Lg(r),css:e.css[0]??((a=e.js[0])==null?void 0:a.replace(/App\.__style__(?:\s*)=(?:\s*)`([\s\S]*)?`/,"$1").trim())??"",isLegal:e.isLegal,jsLib:[n.react,n.reactDOM,...n.jsLib],jsx:!0,getScript:()=>{var i,o;const l=((o=(i=window.Babel)==null?void 0:i.transform(r,{presets:["es2015","react"]}))==null?void 0:o.code)??"";return`window.ReactDOM.createRoot(document.firstElementChild).render(window.React.createElement(${qd(l)}))`}}},Qn={},Mg=e=>Promise.all([Yn(Qn,e.babel),Yn(Qn,e.react),Yn(Qn,e.reactDOM)]),jg=e=>{const t=[Yn(Qn,e.vue)];return e.useBabel&&t.push(Yn(Qn,e.babel)),Promise.all(t)},Vg=e=>e.useBabel?Yn(Qn,e.babel):Promise.resolve();var Ng=R({name:"CodeDemo",props:{id:{type:String,required:!0},type:{type:String,default:"normal"},title:String,config:String,code:{type:String,required:!0}},slots:Object,setup(e,{slots:t}){const[n,r]=rr(!1),a=ee(),l=ee(),i=Q("0"),o=Q(!1),c=_(()=>JSON.parse(e.config?Rr(e.config):"{}")),d=_(()=>{const m=JSON.parse(Rr(e.code));return Dg(m)}),u=_(()=>e.type==="react"?$g(d.value,c.value):e.type==="vue"?Fg(d.value,c.value):Bg(d.value,c.value)),p=_(()=>u.value.isLegal),h=(m=!1)=>{const y=a.value.attachShadow({mode:"open"}),k=document.createElement("div");k.classList.add("code-demo-app"),y.appendChild(k),p.value?(m&&(k.innerHTML=u.value.html),Tg(y,u.value),Cg(e.id,y,u.value),i.value="0"):i.value="auto",o.value=!0},f=()=>{switch(e.type){case"react":return Mg(u.value).then(()=>{h()});case"vue":return jg(u.value).then(()=>{h()});default:return Vg(u.value).then(()=>{h(!0)})}};return ie("beforeprint",()=>{r(!0)}),oe(async()=>{await f()}),()=>s("div",{class:"vp-container vp-code-demo",id:e.id},[s("div",{class:"vp-container-header"},[u.value.isLegal?s("button",{type:"button",title:"toggle",class:["vp-code-demo-toggle-button",n.value?"down":"end"],onClick:()=>{i.value=n.value?"0":`${l.value.clientHeight+13.8}px`,r()}}):null,e.title?s("span",{class:"vp-container-title"},decodeURIComponent(e.title)):null,u.value.isLegal&&(u.value.jsfiddle??!0)?s("form",{class:"code-demo-jsfiddle",target:"_blank",action:"https://jsfiddle.net/api/post/library/pure/",method:"post"},[s("input",{type:"hidden",name:"html",value:u.value.html}),s("input",{type:"hidden",name:"js",value:u.value.js}),s("input",{type:"hidden",name:"css",value:u.value.css}),s("input",{type:"hidden",name:"wrap",value:"1"}),s("input",{type:"hidden",name:"panel_js",value:"3"}),s("input",{type:"hidden",name:"resources",value:[...u.value.cssLib,...u.value.jsLib].join(",")}),s("button",{type:"submit",class:"jsfiddle-button",innerHTML:wg,"aria-label":"JSFiddle","data-balloon-pos":"down"})]):null,!u.value.isLegal||(u.value.codepen??!0)?s("form",{class:"code-demo-codepen",target:"_blank",action:"https://codepen.io/pen/define",method:"post"},[s("input",{type:"hidden",name:"data",value:JSON.stringify({html:u.value.html,js:u.value.js,css:u.value.css,js_external:u.value.jsLib.join(";"),css_external:u.value.cssLib.join(";"),layout:u.value.codepenLayout,html_pre_processor:d.value.html[1]??"none",js_pre_processor:d.value.js[1]??(u.value.jsx?"babel":"none"),css_pre_processor:d.value.css[1]??"none",editors:u.value.codepenEditors})}),s("button",{type:"submit",innerHTML:_g,class:"codepen-button","aria-label":"Codepen","data-balloon-pos":"down"})]):null]),o.value?null:s(Qr,{class:"vp-code-demo-loading"}),s("div",{ref:a,class:"vp-code-demo-display",style:{display:p.value&&o.value?"block":"none"}}),s("div",{class:"vp-code-demo-code-wrapper",style:{height:i.value}},s("div",{ref:l,class:"vp-code-demo-codes"},t.default()))])}}),zg=R({name:"MdDemo",props:{id:{type:String,required:!0},title:String},slots:Object,setup(e,{slots:t}){const[n,r]=rr(!1),a=ee(),l=Q("0");return ie("beforeprint",()=>{r(!0)}),()=>s("div",{class:"vp-container vp-md-demo",id:e.id},[s("div",{class:"vp-container-header"},[s("button",{type:"button",title:"toggle",class:["vp-md-demo-toggle-button",n.value?"down":"end"],onClick:()=>{l.value=n.value?"0":`${a.value.clientHeight+13.8}px`,r()}}),e.title?s("div",{class:"vp-container-title"},decodeURIComponent(e.title)):null]),s("div",{class:"vp-md-demo-display"},t.default()),s("div",{class:"vp-md-demo-code-wrapper",style:{height:l.value}},s("div",{ref:a,class:"vp-md-demo-codes"},t.code()))])}}),Wi={x:0,y:0,"line-width":2,"line-length":40,"text-margin":8,"font-size":14,"font-color":"#8DA1AC","line-color":"#8DA1AC","element-color":"black",fill:"white","yes-text":"Yes","no-text":"No","arrow-end":"block",scale:1},Hg={...Wi,symbols:{start:{class:"start-element","font-color":"#fff",fill:"#595959","line-width":"0px"},end:{class:"end-element","font-color":"#fff",fill:"#595959","line-width":"0px"},operation:{class:"operation-element","font-color":"#fff",fill:"#1890ff","line-width":"0px"},inputoutput:{class:"inputoutput-element","font-color":"#fff",fill:"#1890ff","line-width":"0px"},subroutine:{class:"subroutine-element","font-color":"#fff",fill:"#FF485E","element-color":"#fff","line-color":"red"},condition:{class:"condition-element","font-color":"#fff",fill:"#FF485E","line-width":"0px"},parallel:{class:"parallel-element","font-color":"#fff",fill:"#1890ff","line-width":"0px"}}},qg={...Wi,"line-width":1,symbols:{start:{class:"start-element",fill:"#ccc","line-color":"#5c6ac4","font-color":"#000"},end:{class:"end-element",fill:"#ccc","line-color":"#5c6ac4","font-color":"#000"},operation:{class:"operation-element",fill:"#f1f1f1","line-color":"#5c6ac4","font-color":"#000"},inputoutput:{class:"inputoutput-element",fill:"#f1f1f1","line-color":"#5c6ac4","font-color":"#000"},subroutine:{class:"subroutine-element",fill:"#f1f1f1","line-color":"#5c6ac4","font-color":"#000"},condition:{class:"condition-element",fill:"#f1f1f1","line-color":"#5c6ac4","font-color":"#000"},parallel:{class:"parallel-element",fill:"#f1f1f1","line-color":"#5c6ac4","font-color":"#000"}}},Wg={...Wi,symbols:{start:{class:"start-element","font-color":"#fff",fill:"#2F495F","line-width":"0px"},end:{class:"end-element","font-color":"#fff",fill:"#2F495F","line-width":"0px"},operation:{class:"operation-element","font-color":"#fff",fill:"#00BC7D","line-width":"0px"},inputoutput:{class:"inputoutput-element","font-color":"#fff",fill:"#EB4D5D","line-width":"0px"},subroutine:{class:"subroutine-element","font-color":"#fff",fill:"#937AC4","element-color":"#fff","line-color":"red"},condition:{class:"condition-element","font-color":"#fff",fill:"#FFB500","line-width":"0px"},parallel:{class:"parallel-element","font-color":"#fff",fill:"#2F495F","line-width":"0px"}}};const Gg={ant:Hg,vue:Wg,pie:qg};var Ug=R({name:"FlowChart",props:{code:{type:String,required:!0},id:{type:String,required:!0},preset:{type:String,default:"vue"}},setup(e){let t=null;const n=ee(),r=Q(!0),a=Q(1),l=_(()=>Gg[e.preset]),i=o=>o<419?.8:o>1280?1:.9;return ie("resize",Ga(()=>{if(t){const o=i(window.innerWidth);a.value!==o&&(a.value=o,t.draw(e.id,{...l.value,scale:o}))}},100)),oe(async()=>{const{parse:o}=await A(()=>import("./flowchart-CTwbLKUk.js"),[]);t=o(Rr(e.code)),a.value=i(window.innerWidth),r.value=!1,t.draw(e.id,{...l.value,scale:a.value})}),Vt(()=>{t==null||t.clean(),t=null}),()=>[r.value?s(Qr,{class:"flowchart-loading",height:192}):null,s("div",{ref:n,class:["flowchart-wrapper",e.preset],id:e.id,style:{display:r.value?"none":"block"}})]}});let Kg={};const Jg=()=>Kg,$n={useMaxWidth:!1},Yg=e=>({dark:e,background:e?"#1e1e1e":"#fff",primaryColor:e?"#389d70":"#4abf8a",primaryBorderColor:e?"#389d70":"#4abf8a",primaryTextColor:e?"#fff":"#000",secondaryColor:"#ffb500",secondaryBorderColor:e?"#fff":"#000",secondaryTextColor:e?"#ddd":"#333",tertiaryColor:e?"#282828":"#efeef4",tertiaryBorderColor:e?"#bbb":"#242424",tertiaryTextColor:e?"#ddd":"#333",noteBkgColor:e?"#f6d365":"#fff5ad",noteTextColor:"#242424",noteBorderColor:e?"#f6d365":"#333",lineColor:e?"#d3d3d3":"#333",textColor:e?"#fff":"#242424",mainBkg:e?"#389d70":"#4abf8a",errorBkgColor:"#eb4d5d",errorTextColor:"#fff",nodeBorder:e?"#389d70":"#4abf8a",nodeTextColor:e?"#fff":"#242424",signalTextColor:e?"#9e9e9e":"#242424",classText:"#fff",labelColor:"#fff",attributeBackgroundColorEven:e?"#0d1117":"#fff",attributeBackgroundColorOdd:e?"#161b22":"#f8f8f8",fillType0:e?"#cf1322":"#f1636e",fillType1:"#f39c12",fillType2:"#2ecc71",fillType3:"#fa541c",fillType4:"#25a55b",fillType5:"#13c2c2",fillType6:"#096dd9",fillType7:"#aa6fe9"});var Qg=R({name:"Mermaid",props:{id:{type:String,required:!0},code:{type:String,required:!0},title:String},setup(e){const t=Zf(),{themeVariables:n,...r}=Jg(),a=ee(),l=_(()=>Rr(e.code)),i=Q(""),o=async()=>{const{default:u}=await A(()=>import("./mermaid.esm.min-D1YKJ06m.js").then(p=>p.b8),[]);u.initialize({theme:"base",themeVariables:{...Yg(t.value),...h2(n)?n(t.value):n},flowchart:$n,sequence:$n,journey:$n,gantt:$n,er:$n,pie:$n,...r,startOnLoad:!1}),i.value=(await u.render(e.id,l.value)).svg},c=()=>{const{body:u}=document,p=document.createElement("div");p.classList.add("mermaid-preview"),p.innerHTML=i.value,u.appendChild(p),p.addEventListener("click",()=>{u.removeChild(p)})},d=()=>{const u=`data:image/svg+xml;charset=utf8,${i.value.replace(/<br>/g,"<br />").replace(/%/g,"%25").replace(/"/g,"%22").replace(/'/g,"%27").replace(/&/g,"%26").replace(/#/g,"%23").replace(/{/g,"%7B").replace(/}/g,"%7D").replace(/</g,"%3C").replace(/>/g,"%3E")}`,p=document.createElement("a");p.setAttribute("href",u),p.setAttribute("download",`${e.title?Rr(e.title):e.id}.svg`),p.click()};return oe(()=>{ut(t,()=>o(),{flush:"post"})}),()=>[s("div",{class:"mermaid-actions"},[s("button",{class:"preview-button",onClick:()=>{c()},title:"preview",innerHTML:'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1316 1024" fill="currentColor"><path d="M658.286 0C415.89 0 0 297.106 0 512c0 214.82 415.89 512 658.286 512 242.322 0 658.285-294.839 658.285-512S900.608 0 658.286 0zm0 877.714c-161.573 0-512-221.769-512-365.714 0-144.018 350.427-365.714 512-365.714 161.572 0 512 217.16 512 365.714s-350.428 365.714-512 365.714z"/><path d="M658.286 292.571a219.429 219.429 0 1 0 0 438.858 219.429 219.429 0 0 0 0-438.858zm0 292.572a73.143 73.143 0 1 1 0-146.286 73.143 73.143 0 0 1 0 146.286z"/></svg>'}),s("button",{class:"download-button",onClick:()=>{d()},title:"download",innerHTML:'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="currentColor"><path d="M828.976 894.125H190.189c-70.55 0-127.754-57.185-127.754-127.753V606.674c0-17.634 14.31-31.933 31.933-31.933h63.889c17.634 0 31.932 14.299 31.932 31.933v95.822c0 35.282 28.596 63.877 63.877 63.877h511.033c35.281 0 63.877-28.595 63.877-63.877v-95.822c0-17.634 14.298-31.933 31.943-31.933h63.878c17.635 0 31.933 14.299 31.933 31.933v159.7c0 70.566-57.191 127.751-127.754 127.751zM249.939 267.51c12.921-12.92 33.885-12.92 46.807 0l148.97 148.972V94.893c0-17.634 14.302-31.947 31.934-31.947h63.876c17.638 0 31.946 14.313 31.946 31.947v321.589l148.97-148.972c12.922-12.92 33.876-12.92 46.797 0l46.814 46.818c12.922 12.922 12.922 33.874 0 46.807L552.261 624.93c-1.14 1.138-21.664 13.684-42.315 13.693-20.877.01-41.88-12.542-43.021-13.693L203.122 361.135c-12.923-12.934-12.923-33.885 0-46.807l46.817-46.818z"/></svg>'})]),s("div",{ref:a,class:"mermaid-wrapper"},i.value?s("div",{class:"mermaid-content",innerHTML:i.value}):s(Qr,{class:"mermaid-loading",height:96}))]}});const Xg={enhance:({app:e})=>{e.component("CodeDemo",Ng),e.component("MdDemo",zg),e.component("FlowChart",Ug),e.component("Mermaid",Qg)}},Zg=Object.freeze(Object.defineProperty({__proto__:null,default:Xg},Symbol.toStringTag,{value:"Module"})),em=Object.freeze(Object.defineProperty({__proto__:null},Symbol.toStringTag,{value:"Module"})),tm=Object.freeze(Object.defineProperty({__proto__:null},Symbol.toStringTag,{value:"Module"})),nm=JSON.parse('{"encrypt":{"config":{"/articles/diary.html":{"tokens":["$2b$10$OV4ymJmUINlpBB2jX2PCU.M7W3HgAOYf5I5oGaTdGQTiWKOrsfzcy"]},"/articles/CSU.html":{"tokens":["$2b$10$DThST9DczEx7oJV/5JmRHONMMEmaDlqAUDn92HJTOO7Xj1jTi1TTG"]}}},"pure":true,"author":{"name":"OYH","email":"19859860010@163.com"},"logo":"/web_logo.jpg","repo":"https://github.com/dream-oyh/dream-oyh.github.io","darkmode":"toggle","fullscreen":false,"docsDir":"src","navbarLayout":{"start":["Brand"],"center":["Links"],"end":["Repo","Outlook","Search"]},"footer":"希望你能在此有所收获","displayFooter":true,"blog":{"intro":"/intro.html","medias":{"BiliBili":"https://space.bilibili.com/1901628168?spm_id_from=333.1007.0.0","GitHub":"https://github.com/dream-oyh","WechatMP":"https://mp.weixin.qq.com/s/1RJsBxf1yf5aGAzjEWKtZg","XiaoHongShu":"https://www.xiaohongshu.com/user/profile/62fd04b7000000001200ff72","Douban":"https://www.douban.com/people/248255485/?_i=01385087aP_-jr"},"timeline":"新的内容正在产出……","articlePerPage":5,"articleInfo":["Date","Category","Tag","ReadingTime"]},"locales":{"/":{"lang":"zh-CN","navbarLocales":{"langName":"简体中文","selectLangAriaLabel":"选择语言"},"metaLocales":{"author":"作者","date":"写作日期","origin":"原创","views":"访问量","category":"分类","tag":"标签","readingTime":"阅读时间","words":"字数","toc":"此页内容","prev":"上一页","next":"下一页","contributors":"贡献者","editLink":"编辑此页","print":"打印"},"blogLocales":{"article":"文章","articleList":"文章列表","category":"分类","tag":"标签","timeline":"时间轴","timelineTitle":"昨日不在","all":"全部","intro":"个人介绍","star":"星标","empty":"$text 为空"},"paginationLocales":{"prev":"上一页","next":"下一页","navigate":"跳转到","action":"前往","errorText":"请输入 1 到 $page 之前的页码！"},"outlookLocales":{"themeColor":"主题色","darkmode":"外观","fullscreen":"全屏"},"encryptLocales":{"iconLabel":"文章已加密","placeholder":"输入密码","remember":"记住密码","errorHint":"请输入正确的密码"},"routeLocales":{"skipToContent":"跳至主要內容","notFoundTitle":"页面不存在","notFoundMsg":["这里什么也没有","我们是怎么来到这儿的？","这 是 四 零 四 !","看起来你访问了一个失效的链接"],"back":"返回上一页","home":"带我回家"},"navbar":[{"text":"编程","icon":"code","link":"/code/"},{"text":"学习","icon":"tubiaozhizuomoban-","link":"/study/"},{"text":"项目","icon":"xiangmu","link":"/project/"},{"text":"English","icon":"language","link":"/english/"},{"text":"文章","icon":"Article","link":"/articles/"},{"text":"资料站","icon":"folder","link":"/credit/"},{"text":"Blog","icon":"vue","link":"/blog/"}],"sidebar":{"/code/":[{"text":"编程","link":"/code/","children":["markdown.md","python.md","Arduino/index.md","Arduino/stm32.md","cpp.md"]},{"text":"工具","children":["git.md","latex.md","shell.md","vim.md","Linux.md","docker.md","github.md","vscode.md","aliyun.md"]},{"text":"Python 库","prefix":"python/","children":["pytorch/","Seaborn.md","web_crawler.md","websocket.md","LocalAugment.md"]},{"text":"锦囊","children":["tips/regex.md","tips/pdf2docx.md","tips/keyboard_remap.md","tips/voc.md"]}],"/code/python/pytorch/":[{"text":"Pytorch 学习笔记","icon":"pytorch","children":["1pytorch.md",{"text":"常见的模型源码实现","children":["2.1linear_regression.md","2.2FashionMNIST.md","2.3softmax.md","2.4MLP.md"]},"3.1Deeplearning_basic.md",{"text":"卷积神经网络","children":["4.1convolutional_nn_basic.md","4.2LeNet.md","4.3AlexNet.md","4.4VGG.md","4.5NiN.md","4.6GoogleNet.md"]},"img.md"]}],"/english/":[{"text":"主题语料库","collapsible":true,"icon":"diary","prefix":"repo/","link":"repo/index.md","children":["negative.md","life.md","growth.md","community.md"]},{"text":"英语视频词汇积累","collapsible":true,"icon":"state","prefix":"video/","children":["1.md","2.md","3.md","4.md","5.md","6.md","7.md","8.md","9.md"]},{"text":"FREE 大学英语阅读写作能力提升课","collapsible":true,"icon":"build","prefix":"free/","children":["1.md","2.md","3.md","4.md","5.md","6.md","7.md","8.md","9.md"]},{"text":"学习强国官方英语资源","collapsible":true,"icon":"Article","prefix":"china/","children":["10.22.md","10.23.md","10.24.md","10.25.md","10.26.md","10.27.md","10.28.md","10.29.md","10.30.md","10.31.md","11.1.md","11.2.md"]}],"/articles/":[{"text":"他山之石","icon":"communityfill","collapsible":true,"prefix":"external","children":["2025.md"]},{"text":"日拱一卒","icon":"pen","collapsible":true,"prefix":"rigongyizu","children":["2024.md","2025.md"]},{"text":"推荐","icon":"34wujiaoxingpingfenshixin","collapsible":true,"children":["software.md","web.md","boardcast.md"]},"fool.md","pcdiy.md","CSU.md","read.md","video_game.md","rss.md"],"/credit/":["index.md"],"/project/":["youenjie.md"],"/blog/":["index.md","log.md","vuepress.md","spots.md"],"/study/":[{"text":"Summer Camp Reivew","icon":"xialingying","collapsible":true,"prefix":"/study/SummerCampReview","children":["PhysNet.md","ObjectDetection.md","ControlEngineering.md"]},{"text":"数据结构（全英）","icon":"relation-full","collapsible":true,"prefix":"/study/DataStructure/","link":"/study/DataStructure/","children":["linked_list.md","stack.md","queue.md","tree.md","graph.md","HashTable.md","Heap.md"]},{"text":"算法学习","prefix":"/study/Algorithm/","icon":"code","collapsible":true,"link":"/study/Algorithm/index.md"},{"text":"科研","prefix":"/study/","children":["ros.md","literature_search.md","uuvsimulator.md","proxy.md"]}],"/study/Algorithm/":[{"text":"算法学习","icon":"code","link":"index.md","children":["array.md","linkedlist.md","hashtable.md","string.md"]}]}}}}'),rm=Q(nm),Wd=()=>rm,Gd=Symbol(""),am=()=>{const e=we(Gd);if(!e)throw new Error("useThemeLocaleData() is called without provider.");return e},lm=(e,t)=>{const{locales:n,...r}=e;return{...r,...n==null?void 0:n[t]}},im=Pt({enhance({app:e}){const t=Wd(),n=e._context.provides[$i],r=_(()=>lm(t.value,n.routeLocale.value));e.provide(Gd,r),Object.defineProperties(e.config.globalProperties,{$theme:{get(){return t.value}},$themeLocale:{get(){return r.value}}})}}),sm=Object.freeze(Object.defineProperty({__proto__:null,default:im},Symbol.toStringTag,{value:"Module"}));var om={"/":{backToTop:"返回顶部"}};const cm=R({name:"BackToTop",setup(){const e=he(),t=kt(om),n=ee(),{height:r}=hf(n),{height:a}=xf(),{y:l}=kf(),i=_(()=>(e.value.backToTop??!0)&&l.value>100),o=_(()=>l.value/(r.value-a.value)*100);return oe(()=>{n.value=document.body}),()=>s(er,{name:"back-to-top"},()=>i.value?s("button",{type:"button",class:"vp-back-to-top-button","aria-label":t.value.backToTop,onClick:()=>{window.scrollTo({top:0,behavior:"smooth"})}},[s("span",{class:"vp-scroll-progress",role:"progressbar","aria-labelledby":"loadinglabel","aria-valuenow":o.value},s("svg",s("circle",{cx:"26",cy:"26",r:"24",fill:"none",stroke:"currentColor","stroke-width":"4","stroke-dasharray":`${Math.PI*o.value*.48} ${Math.PI*(100-o.value)*.48}`}))),s("div",{class:"back-to-top-icon"})]):null)}}),dm=Pt({rootComponents:[cm]}),um=Object.freeze(Object.defineProperty({__proto__:null,default:dm},Symbol.toStringTag,{value:"Module"})),pm=/language-(shellscript|shell|bash|sh|zsh)/,hm=({selector:e,ignoreSelector:t,inlineSelector:n,duration:r=2e3,locales:a,showInMobile:l,transform:i})=>{const o=Ni("(max-width: 419px)"),c=_(()=>!o.value||l),d=kt(a),u=y=>{var w;if(y.hasAttribute("copy-code"))return;const k=document.createElement("button");k.type="button",k.classList.add("vp-copy-code-button"),k.setAttribute("aria-label",d.value.copy),k.setAttribute("data-copied",d.value.copied),(w=y.parentElement)==null||w.insertBefore(k,y),y.setAttribute("copy-code","")},p=()=>{document.body.classList.toggle("no-copy-code",!c.value),c.value&&document.querySelectorAll(e).forEach(u)};ut(c,p,{flush:"post"}),Yt(y=>{y!=="beforeUnmount"&&p()});const{copy:h}=rf({legacy:!0}),f=new WeakMap,m=async(y,k,w)=>{const x=k.cloneNode(!0);i&&i(x);let v=x.textContent||"";if(pm.test(y.className)&&(v=v.replace(/^ *(\$|>) /gm,"")),await h(v),r<=0)return;w.classList.add("copied"),clearTimeout(f.get(w));const E=setTimeout(()=>{w.classList.remove("copied"),w.blur(),f.delete(w)},r);f.set(w,E)};ie("click",y=>{const k=y.target;if(c.value&&k.matches('div[class*="language-"] > button.vp-copy-code-button')){const w=k.parentElement,x=k.nextElementSibling;if(!w||!x)return;m(w,x,k)}},{passive:!0})};var fm={"/":{copy:"复制代码",copied:"已复制"}};const gm=Pt({setup:()=>{hm({selector:'[vp-content] div[class*="language-"] pre',ignoreSelector:"",inlineSelector:"",locales:fm,duration:2e3,showInMobile:!1})}}),mm=Object.freeze(Object.defineProperty({__proto__:null,default:gm},Symbol.toStringTag,{value:"Module"})),vm=R({name:"VPIcon",props:{type:{type:String,default:"unknown"},prefix:String,icon:String,color:String,size:[String,Number],verticalAlign:String,sizing:{type:String,default:"height"}},setup(e){const t=_(()=>e.icon?hn(e.icon)?e.icon:Ja(e.icon)?ke(e.icon):null:null),n=_(()=>{const a={},l={},{type:i,verticalAlign:o,size:c,sizing:d}=e;return e.color&&(l.color=e.color),c&&(l["--icon-size"]=Number.isNaN(Number(c))?c:`${c}px`),o&&(l["--icon-vertical-align"]=o),i==="iconify"&&(d!=="height"&&(a.width=e.size||"1em"),d!=="width"&&(a.height=e.size||"1em")),e.sizing&&(a.sizing=e.sizing),St(l).length&&(a.style=l),a}),r=a=>a.includes("fa-")||/^fa.$/.test(a)?a:`fa-${a}`;return()=>{const{type:a,icon:l,prefix:i="",sizing:o}=e;if(!l)return null;if(t.value)return s("img",{class:"vp-icon",src:t.value,alt:"","aria-hidden":"","no-view":"",...n.value});if(a==="iconify")return s("iconify-icon",{key:l,class:"vp-icon",icon:l.includes(":")?l:`${i}${l}`,...n.value});if(a==="fontawesome"){const[c,d]=l.includes(":")?l.split(":",2):["fas",l];return s("i",{key:l,class:["vp-icon",c.length===1?`fa${c}`:r(c),...d.split(" ").map(r),o==="height"?"":"fa-fw"],...n.value})}return s("i",{key:l,class:["vp-icon",l.includes(" ")?l:`${i}${l}`],...n.value})}}}),ym={enhance:({app:e})=>{We("VPIcon")||e.component("VPIcon",t=>s(vm,{type:"iconfont",prefix:"iconfont icon-",...t}))},setup:()=>{bf(`@import url("//at.alicdn.com/t/c/font_4435976_nx6nfnrgt4m.css");
+`)}},bm=Object.freeze(Object.defineProperty({__proto__:null,default:ym},Symbol.toStringTag,{value:"Module"})),km=Q({}),Ud=Symbol(""),xm=()=>we(Ud),_m=e=>{e.provide(Ud,km)},Kd=e=>new Promise((t,n)=>{e.complete?t({type:"image",element:e,src:e.src,width:e.naturalWidth,height:e.naturalHeight,alt:e.alt,msrc:e.src}):(e.onload=()=>{t(Kd(e))},e.onerror=()=>{n()})}),wm='<div class="photo-swipe-loading"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" preserveAspectRatio="xMidYMid" viewBox="25 25 50 50"><animateTransform attributeName="transform" type="rotate" dur="2s" keyTimes="0;1" repeatCount="indefinite" values="0;360"></animateTransform><circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"><animate attributeName="stroke-dasharray" dur="1.5s" keyTimes="0;0.5;1" repeatCount="indefinite" values="1,200;90,200;1,200"></animate><animate attributeName="stroke-dashoffset" dur="1.5s" keyTimes="0;0.5;1" repeatCount="indefinite" values="0;-35px;-125px"></animate></circle></svg></div>',Am=(e,{download:t=!0,fullscreen:n=!0}={})=>{e.on("uiRegister",()=>{if(e.ui.registerElement({name:"bulletsIndicator",className:"photo-swipe-bullets-indicator",appendTo:"wrapper",onInit:r=>{const a=[];let l=-1;for(let i=0;i<e.getNumItems();i++){const o=document.createElement("div");o.className="photo-swipe-bullet",o.onclick=c=>{e.goTo(a.indexOf(c.target))},a.push(o),r.appendChild(o)}e.on("change",()=>{l>=0&&a[l].classList.remove("active"),a[e.currIndex].classList.add("active"),l=e.currIndex})}}),n){const{isSupported:r,toggle:a}=Ua();r.value&&e.ui.registerElement({name:"fullscreen",order:7,isButton:!0,html:'<svg class="pswp__icn" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M249.5 270.833H437v-75H212a37.5 37.5 0 0 0-37.5 37.5v225h75v-187.5zm-37.5 600h225v-75H249.5v-187.5h-75v225a37.5 37.5 0 0 0 37.5 37.5zm637.5-37.5v-225h-75v187.5H587v75h225a37.5 37.5 0 0 0 37.5-37.5zM587 270.833h187.5v187.5h75v-225a37.5 37.5 0 0 0-37.5-37.5H587v75z"/></svg>',onClick:()=>{a()}})}t&&e.ui.registerElement({name:"download",order:8,isButton:!0,tagName:"a",html:{isCustomSVG:!0,inner:'<path d="M20.5 14.3 17.1 18V10h-2.2v7.9l-3.4-3.6L10 16l6 6.1 6-6.1-1.5-1.6ZM23 23H9v2h14" id="pswp__icn-download"/>',outlineID:"pswp__icn-download"},onInit:r=>{r.setAttribute("download",""),r.setAttribute("target","_blank"),r.setAttribute("rel","noopener"),e.on("change",()=>{r.setAttribute("href",e.currSlide.data.src)})}})})},Em=({selector:e,locales:t,download:n=!0,fullscreen:r=!0,scrollToClose:a=!0})=>{const l=xm(),i=kt(t),o=he(),c=_(()=>{const{photoSwipe:m}=o.value;return m===!1?null:De(m)?m:Fr(e)?e.join(", "):e}),d=_(()=>({...l.value,...i.value,download:n,fullscreen:r,scrollToClose:a}));let u=null,p=0,h=null;const f=async m=>{const y=m.target;if(!c.value||!u||!y.matches(c.value))return;p!==0&&h.destroy();const k=Date.now(),w=await u,x=Array.from(document.querySelectorAll(c.value)),v=x.map(B=>({html:wm,element:B,msrc:B.src})),E=x.findIndex(B=>B===y);h=new w({preloaderDelay:0,showHideAnimationType:"zoom",...d,dataSource:v,index:E,...a?{closeOnVerticalDrag:!0,wheelToZoom:!1}:{}}),p=k,Am(h,{download:n,fullscreen:r}),h.init(),h.on("destroy",()=>{h=null,p=0}),x.map((B,q)=>Kd(B).then(L=>{p===k&&(v.splice(q,1,L),h==null||h.refreshSlideContent(q))}))};oe(()=>{const m="requestIdleCallback"in window?window.requestIdleCallback:setTimeout;ie("click",f,{passive:!0}),ie("wheel",()=>{d.value.scrollToClose&&(h==null||h.close())}),m(()=>{u=A(async()=>{const{default:y}=await import("./photoswipe.esm-DXWKOczD.js");return{default:y}},[]).then(({default:y})=>y)})}),Vt(()=>{h==null||h.destroy()})};var Tm={"/":{closeTitle:"关闭",downloadTitle:"下载图片",fullscreenTitle:"切换全屏",zoomTitle:"缩放",arrowPrevTitle:"上一个 (左箭头)",arrowNextTitle:"下一个 (右箭头)"}};const Cm="[vp-content] :not(a) > img:not([no-view])",Sm=Tm,Dm=!0,Lm=!0,Pm=!0;var Bm=Pt({enhance:({app:e})=>{_m(e)},setup:()=>{Em({selector:Cm,locales:Sm,download:Dm,fullscreen:Lm,scrollToClose:Pm})}});const Im=Object.freeze(Object.defineProperty({__proto__:null,default:Bm},Symbol.toStringTag,{value:"Module"})),xe=({name:e="",color:t="currentColor",ariaLabel:n},{attrs:r,slots:a})=>s("svg",{xmlns:"http://www.w3.org/2000/svg",class:["icon",`${e}-icon`],viewBox:"0 0 1024 1024",fill:t,"aria-label":n??`${e} icon`,...r},a.default());xe.displayName="IconBase";const Ya=(e,{slots:t})=>t.default(),Jd=()=>s(xe,{name:"enter-fullscreen"},()=>s("path",{d:"M762.773 90.24h-497.28c-96.106 0-174.4 78.293-174.4 174.4v497.28c0 96.107 78.294 174.4 174.4 174.4h497.28c96.107 0 175.04-78.293 174.4-174.4V264.64c0-96.213-78.186-174.4-174.4-174.4zm-387.2 761.173H215.04c-21.867 0-40.427-17.92-41.067-41.066V649.92c0-22.507 17.92-40.427 40.427-40.427 11.307 0 21.227 4.694 28.48 11.947 7.253 7.253 11.947 17.92 11.947 28.48v62.293l145.28-145.28c15.893-15.893 41.813-15.893 57.706 0 15.894 15.894 15.894 41.814 0 57.707l-145.28 145.28h62.294c22.506 0 40.426 17.92 40.426 40.427s-17.173 41.066-39.68 41.066zM650.24 165.76h160.427c21.866 0 40.426 17.92 41.066 41.067v160.426c0 22.507-17.92 40.427-40.426 40.427-11.307 0-21.227-4.693-28.48-11.947-7.254-7.253-11.947-17.92-11.947-28.48v-62.186L625.6 450.347c-15.893 15.893-41.813 15.893-57.707 0-15.893-15.894-15.893-41.814 0-57.707l145.28-145.28H650.88c-22.507 0-40.427-17.92-40.427-40.427s17.174-41.173 39.787-41.173z"}));Jd.displayName="EnterFullScreenIcon";const Yd=()=>s(xe,{name:"cancel-fullscreen"},()=>s("path",{d:"M778.468 78.62H247.922c-102.514 0-186.027 83.513-186.027 186.027V795.08c0 102.514 83.513 186.027 186.027 186.027h530.432c102.514 0 186.71-83.513 186.026-186.027V264.647C964.494 162.02 880.981 78.62 778.468 78.62zM250.88 574.35h171.122c23.324 0 43.122 19.115 43.804 43.805v171.121c0 24.008-19.114 43.122-43.122 43.122-12.06 0-22.641-5.006-30.378-12.743s-12.743-19.115-12.743-30.379V722.83L224.597 877.91c-16.953 16.952-44.6 16.952-61.553 0-16.953-16.954-16.953-44.602 0-61.554L318.009 661.39h-66.446c-24.007 0-43.122-19.114-43.122-43.122 0-24.12 18.432-43.918 42.439-43.918zm521.899-98.873H601.657c-23.325 0-43.122-19.114-43.805-43.804V260.55c0-24.007 19.115-43.122 43.122-43.122 12.06 0 22.642 5.007 30.379 12.743s12.743 19.115 12.743 30.38v66.445l154.965-154.965c16.953-16.953 44.601-16.953 61.554 0 16.953 16.953 16.953 44.6 0 61.554L705.536 388.55h66.446c24.007 0 43.122 19.115 43.122 43.122.114 24.007-18.318 43.804-42.325 43.804z"}));Yd.displayName="CancelFullScreenIcon";const Om=e=>hn(e)?e:`https://github.com/${e}`,Gi=(e="")=>!hn(e)||e.includes("github.com")?"GitHub":e.includes("bitbucket.org")?"Bitbucket":e.includes("gitlab.com")?"GitLab":e.includes("gitee.com")?"Gitee":null,Qd=()=>s(xe,{name:"github"},()=>s("path",{d:"M511.957 21.333C241.024 21.333 21.333 240.981 21.333 512c0 216.832 140.544 400.725 335.574 465.664 24.49 4.395 32.256-10.07 32.256-23.083 0-11.69.256-44.245 0-85.205-136.448 29.61-164.736-64.64-164.736-64.64-22.315-56.704-54.4-71.765-54.4-71.765-44.587-30.464 3.285-29.824 3.285-29.824 49.195 3.413 75.179 50.517 75.179 50.517 43.776 75.008 114.816 53.333 142.762 40.79 4.523-31.66 17.152-53.377 31.19-65.537-108.971-12.458-223.488-54.485-223.488-242.602 0-53.547 19.114-97.323 50.517-131.67-5.035-12.33-21.93-62.293 4.779-129.834 0 0 41.258-13.184 134.912 50.346a469.803 469.803 0 0 1 122.88-16.554c41.642.213 83.626 5.632 122.88 16.554 93.653-63.488 134.784-50.346 134.784-50.346 26.752 67.541 9.898 117.504 4.864 129.834 31.402 34.347 50.474 78.123 50.474 131.67 0 188.586-114.73 230.016-224.042 242.09 17.578 15.232 33.578 44.672 33.578 90.454v135.85c0 13.142 7.936 27.606 32.854 22.87C862.25 912.597 1002.667 728.747 1002.667 512c0-271.019-219.648-490.667-490.71-490.667z"}));Qd.displayName="GitHubIcon";const Xd=()=>s(xe,{name:"gitee"},()=>s("path",{d:"M512 992C246.92 992 32 777.08 32 512S246.92 32 512 32s480 214.92 480 480-214.92 480-480 480zm242.97-533.34H482.39a23.7 23.7 0 0 0-23.7 23.7l-.03 59.28c0 13.08 10.59 23.7 23.7 23.7h165.96a23.7 23.7 0 0 1 23.7 23.7v11.85a71.1 71.1 0 0 1-71.1 71.1H375.71a23.7 23.7 0 0 1-23.7-23.7V423.11a71.1 71.1 0 0 1 71.1-71.1h331.8a23.7 23.7 0 0 0 23.7-23.7l.06-59.25a23.73 23.73 0 0 0-23.7-23.73H423.11a177.78 177.78 0 0 0-177.78 177.75v331.83c0 13.08 10.62 23.7 23.7 23.7h349.62a159.99 159.99 0 0 0 159.99-159.99V482.33a23.7 23.7 0 0 0-23.7-23.7z"}));Xd.displayName="GiteeIcon";const Zd=()=>s(xe,{name:"bitbucket"},()=>s("path",{d:"M575.256 490.862c6.29 47.981-52.005 85.723-92.563 61.147-45.714-20.004-45.714-92.562-1.133-113.152 38.29-23.442 93.696 7.424 93.696 52.005zm63.451-11.996c-10.276-81.152-102.29-134.839-177.152-101.156-47.433 21.138-79.433 71.424-77.129 124.562 2.853 69.705 69.157 126.866 138.862 120.576S647.3 548.571 638.708 478.83zm136.558-309.723c-25.161-33.134-67.986-38.839-105.728-45.13-106.862-17.151-216.576-17.7-323.438 1.134-35.438 5.706-75.447 11.996-97.719 43.996 36.572 34.304 88.576 39.424 135.424 45.129 84.553 10.862 171.447 11.447 256 .585 47.433-5.705 99.987-10.276 135.424-45.714zm32.585 591.433c-16.018 55.99-6.839 131.438-66.304 163.986-102.29 56.576-226.304 62.867-338.87 42.862-59.43-10.862-129.135-29.696-161.72-85.723-14.3-54.858-23.442-110.848-32.585-166.84l3.438-9.142 10.276-5.157c170.277 112.567 408.576 112.567 579.438 0 26.844 8.01 6.84 40.558 6.29 60.014zm103.424-549.157c-19.42 125.148-41.728 249.71-63.415 374.272-6.29 36.572-41.728 57.162-71.424 72.558-106.862 53.724-231.424 62.866-348.562 50.286-79.433-8.558-160.585-29.696-225.134-79.433-30.28-23.443-30.28-63.415-35.986-97.134-20.005-117.138-42.862-234.277-57.161-352.585 6.839-51.42 64.585-73.728 107.447-89.71 57.16-21.138 118.272-30.866 178.87-36.571 129.134-12.58 261.157-8.01 386.304 28.562 44.581 13.13 92.563 31.415 122.844 69.705 13.714 17.7 9.143 40.01 6.29 60.014z"}));Zd.displayName="BitbucketIcon";const eu=()=>s(xe,{name:"source"},()=>s("path",{d:"M601.92 475.2c0 76.428-8.91 83.754-28.512 99.594-14.652 11.88-43.956 14.058-78.012 16.434-18.81 1.386-40.392 2.97-62.172 6.534-18.612 2.97-36.432 9.306-53.064 17.424V299.772c37.818-21.978 63.36-62.766 63.36-109.692 0-69.894-56.826-126.72-126.72-126.72S190.08 120.186 190.08 190.08c0 46.926 25.542 87.714 63.36 109.692v414.216c-37.818 21.978-63.36 62.766-63.36 109.692 0 69.894 56.826 126.72 126.72 126.72s126.72-56.826 126.72-126.72c0-31.086-11.286-59.598-29.7-81.576 13.266-9.504 27.522-17.226 39.996-19.206 16.038-2.574 32.868-3.762 50.688-5.148 48.312-3.366 103.158-7.326 148.896-44.55 61.182-49.698 74.25-103.158 75.24-187.902V475.2h-126.72zM316.8 126.72c34.848 0 63.36 28.512 63.36 63.36s-28.512 63.36-63.36 63.36-63.36-28.512-63.36-63.36 28.512-63.36 63.36-63.36zm0 760.32c-34.848 0-63.36-28.512-63.36-63.36s28.512-63.36 63.36-63.36 63.36 28.512 63.36 63.36-28.512 63.36-63.36 63.36zM823.68 158.4h-95.04V63.36h-126.72v95.04h-95.04v126.72h95.04v95.04h126.72v-95.04h95.04z"}));eu.displayName="SourceIcon";const tu=({link:e,type:t=Gi(e??"")})=>{if(!t)return null;const n=t.toLowerCase();return s(n==="bitbucket"?Zd:n==="github"?Qd:n==="gitlab"?"GitLab":n==="gitee"?Xd:eu)},Rm=(e,t=0)=>{let n=3735928559^t,r=1103547991^t;for(let a=0,l;a<e.length;a++)l=e.charCodeAt(a),n=Math.imul(n^l,2654435761),r=Math.imul(r^l,1597334677);return n=Math.imul(n^n>>>16,2246822507),n^=Math.imul(r^r>>>13,3266489909),r=Math.imul(r^r>>>16,2246822507),r^=Math.imul(n^n>>>13,3266489909),4294967296*(2097151&r)+(n>>>0)},na=(e,t)=>Rm(e)%t;let Fm=class{constructor(){tl(this,"containerElement");tl(this,"messageElements",{});const t="message-container",n=document.getElementById(t);n?this.containerElement=n:(this.containerElement=document.createElement("div"),this.containerElement.id=t,document.body.appendChild(this.containerElement))}pop(t,n=2e3){const r=document.createElement("div"),a=Date.now();return r.className="message move-in",r.innerHTML=t,this.containerElement.appendChild(r),this.messageElements[a]=r,n>0&&setTimeout(()=>{this.close(a)},n),a}close(t){if(t){const n=this.messageElements[t];n.classList.remove("move-in"),n.classList.add("move-out"),n.addEventListener("animationend",()=>{n.remove(),delete this.messageElements[t]})}else St(this.messageElements).forEach(n=>{this.close(Number(n))})}destroy(){document.body.removeChild(this.containerElement)}};const nu=/#.*$/u,$m=e=>{const t=nu.exec(e);return t?t[0]:""},So=e=>decodeURI(e).replace(nu,"").replace(/\/index\.html$/iu,"/").replace(/\/(README|index)\.md$/iu,"/").replace(/\.(?:html|md)$/iu,""),ru=(e,t)=>{if(!Ka(t))return!1;const n=So(e.path),r=So(t),a=$m(t);return a?a===e.hash&&(!r||n===r):n===r};var Mm=e=>Object.prototype.toString.call(e)==="[object Object]",$r=e=>typeof e=="string";const{isArray:au}=Array,Do=e=>Mm(e)&&$r(e.name),Mr=(e,t=!1)=>e?au(e)?e.map(n=>$r(n)?{name:n}:Do(n)?n:null).filter(n=>n!==null):$r(e)?[{name:e}]:Do(e)?[e]:(console.error(`Expect "author" to be \`AuthorInfo[] | AuthorInfo | string[] | string ${t?"":"| false"} | undefined\`, but got`,e),[]):[],lu=(e,t)=>{if(e){if(au(e)&&e.every($r))return e;if($r(e))return[e];console.error(`Expect ${t} to be \`string[] | string | undefined\`, but got`,e)}return[]},iu=e=>lu(e,"category"),su=e=>lu(e,"tag");var jm={"/":{source:"源代码"}},Vm=R({name:"SiteInfo",props:{name:{type:String,required:!0},url:{type:String,required:!0},preview:{type:String,required:!0},desc:String,logo:String,repo:[String,Array]},setup(e){const t=kt(jm),n=_(()=>{const{repo:r}=e;return Fr(r)?r:r?[r]:null});return()=>s("div",{class:"vp-site-info","data-name":e.name},[s("a",{class:["vp-site-info-navigator","no-external-link-icon"],title:e.name,href:e.url,target:"_blank"}),e.preview?s("div",{class:"vp-site-info-preview",style:{background:`url(${ke(e.preview)}) center/cover no-repeat`}}):null,s("div",{class:"vp-site-info-detail"},[e.logo?s("img",{class:"vp-site-info-logo",src:e.logo,alt:"",loading:"lazy","no-view":""}):null,s("div",{class:"vp-site-info-name"},e.name),e.desc?s("div",{class:"vp-site-info-desc"},e.desc):null]),n.value?s("div",{class:"vp-site-info-repo-wrapper"},n.value.map(r=>s("a",{class:"vp-site-info-repo no-external-link-icon",href:r,"aria-label":t.value.source,"data-balloon-pos":"left",title:t.value.source,target:"_blank"},s(tu,{link:r})))):null])}});const Lo=e=>De(e)?e:`${e}px`,Nm=(e,t=0)=>{const n=ee(),r=_(()=>Lo(vt(e.width)??"100%")),a=Q("auto"),l=c=>{if(De(c)){const[d,u]=c.split(":"),p=Number(d)/Number(u);if(!Number.isNaN(p))return p}return typeof c=="number"?c:16/9},i=c=>{const d=vt(e.height),u=l(vt(e.ratio));return d?Lo(d):`${Number(c)/u+vt(t)}px`},o=()=>{n.value&&(a.value=i(n.value.clientWidth))};return oe(()=>{o(),Oe(t)&&Ae(t,o),ie("orientationchange",o),ie("resize",o)}),{el:n,width:r,height:a,resize:o}},zm=e=>hn(e)?e:ke(e);var Hm={"/":{hint:"<p>此浏览器不支持嵌入式 PDF。请下载 PDF 查看：<a href='[url]' target='_blank'>下载 PDF</a></p>"}};const Tl=e=>{console.error(`[PDF]: ${e}`)},qm=e=>{for(;e.firstChild;)e.removeChild(e.firstChild)},Wm=e=>e instanceof HTMLElement?e:e==="string"?document.querySelector(e):document.body,Gm=e=>{let t=On(e).map(([n,r])=>n==="noToolbar"?`toolbar=${r?"0":"1"}`:`${encodeURIComponent(n)}=${encodeURIComponent(r)}`).join("&");return t&&(t=`#${t.slice(0,t.length-1)}`),t},Cl=(e,t,n,r,a)=>{qm(t);const l=`${e==="pdfjs"?`${Ii(ke("/pdfjs-4.5.136-dist"))}web/viewer.html?file=${encodeURIComponent(n)}`:n}${Gm(r)}`,i=e==="pdfjs"||e==="iframe"?"iframe":"embed",o=document.createElement(i);return o.className="pdf-viewer",o.type="application/pdf",o.title=a,o.src=l,o instanceof HTMLIFrameElement&&(o.allow="fullscreen"),t.classList.add("pdf-viewer-container"),t.appendChild(o),t.getElementsByTagName(i)[0]},Um=(e,t,{title:n,hint:r,options:a={},force:l})=>{var k,w;if(typeof window>"u"||!((k=window==null?void 0:window.navigator)!=null&&k.userAgent))return null;const{navigator:i}=window,{userAgent:o}=i,c=Ka(window.Promise),d=jd(o)||jf(o),u=!d&&Vf(o),p=!d&&/firefox/iu.test(o)&&o.split("rv:").length>1?parseInt(o.split("rv:")[1].split(".")[0],10)>18:!1,h=!d&&(c||p),f=Wm(t);if(!f)return Tl("Target element cannot be determined"),null;const m=hn(e)?e:`${window.origin}${e}`,y=n??((w=/\/([^/]+).pdf/.exec(e))==null?void 0:w[1])??"PDF Viewer";return l?m?Cl("pdfjs",f,e,a,y):(Tl("PDF link is not accessible."),null):h||!d?Cl(u?"iframe":"embed",f,e,a,y):m?Cl("pdfjs",f,e,a,y):(f.innerHTML=r.replace(/\[url\]/g,e),Tl("This browser does not support embedded PDFs"),null)};var Km=R({name:"PDF",props:{url:{type:String,required:!0},title:String,width:{type:[String,Number],default:"100%"},height:[String,Number],ratio:{type:[String,Number],default:16/9},page:{type:[String,Number],default:1},noToolbar:Boolean,noFullscreen:Boolean,zoom:[String,Number],viewer:Boolean},setup(e){const{el:t,width:n,height:r,resize:a}=Nm(e),l=kt(Hm),i=ee(),o=ee(),c=ea(i),d=Q(!1);return Ae(d,u=>{c.value=u}),oe(()=>{i.value=document.body,Um(zm(e.url),o.value,{title:e.title,hint:l.value.hint,options:{page:e.page,noToolbar:e.noToolbar,...e.zoom&&e.zoom.toString()!=="100"?{zoom:e.zoom}:{}},force:e.viewer}),a()}),Vt(()=>{c.value=!1}),()=>s("div",{class:["pdf-viewer-wrapper",{fullscreen:d.value}],ref:t,style:d.value?{}:{width:n.value,height:r.value}},[s("div",{ref:o}),e.noFullscreen?null:s("button",{class:"pdf-fullscreen-button",onClick:()=>{d.value=!d.value}},s(d.value?Yd:Jd,{class:"pdf-fullscreen-icon"}))])}});const ou=({type:e="info",text:t="",vertical:n,color:r,bgColor:a},{slots:l})=>{var i;return s("span",{class:["vp-badge",e,{diy:!!(r||a)}],style:{backgroundColor:a??!1,color:r??!1,verticalAlign:n??!1}},((i=l.default)==null?void 0:i.call(l))??t)};ou.displayName="Badge";const Jm={enhance:({app:e})=>{We("SiteInfo")||e.component("SiteInfo",Vm),We("PDF")||e.component("PDF",Km),We("Badge")||e.component("Badge",ou)},setup:()=>{},rootComponents:[]},Ym=Object.freeze(Object.defineProperty({__proto__:null,default:Jm},Symbol.toStringTag,{value:"Module"})),Po=async(e,t)=>{const{path:n,query:r}=e.currentRoute.value,{scrollBehavior:a}=e.options;e.options.scrollBehavior=void 0,await e.replace({path:n,query:r,hash:t}),e.options.scrollBehavior=a},Qm=({headerLinkSelector:e,headerAnchorSelector:t,delay:n,offset:r=5})=>{const a=fn();ie("scroll",Ga(()=>{var m,y;const i=Math.max(window.scrollY,document.documentElement.scrollTop,document.body.scrollTop);if(Math.abs(i-0)<r){Po(a,"");return}const c=window.innerHeight+i,d=Math.max(document.documentElement.scrollHeight,document.body.scrollHeight),u=Math.abs(d-c)<r,p=Array.from(document.querySelectorAll(e)),f=Array.from(document.querySelectorAll(t)).filter(k=>p.some(w=>w.hash===k.hash));for(let k=0;k<f.length;k++){const w=f[k],x=f[k+1],v=i>=(((m=w.parentElement)==null?void 0:m.offsetTop)??0)-r,E=!x||i<(((y=x.parentElement)==null?void 0:y.offsetTop)??0)-r;if(!(v&&E))continue;const q=decodeURIComponent(a.currentRoute.value.hash),L=decodeURIComponent(w.hash);if(q===L)return;if(u){for(let W=k+1;W<f.length;W++)if(q===decodeURIComponent(f[W].hash))return}Po(a,L);return}},n))},Xm=".vp-sidebar-link, .vp-toc-link",Zm=".header-anchor",e3=200,t3=5,n3=Pt({setup(){Qm({headerLinkSelector:Xm,headerAnchorSelector:Zm,delay:e3,offset:t3})}}),r3=Object.freeze(Object.defineProperty({__proto__:null,default:n3},Symbol.toStringTag,{value:"Module"}));let cu=e=>De(e.title)?{title:e.title}:null;const du=Symbol(""),a3=e=>{cu=e},l3=()=>we(du),i3=e=>{e.provide(du,cu)};var s3={"/":{title:"目录",empty:"暂无目录"}},o3=R({name:"Catalog",props:{base:String,level:{type:Number,default:3},index:Boolean,hideHeading:Boolean},setup(e){const t=l3(),n=kt(s3),r=Ve(),a=A0(),l=xd(),i=ee(On(a.value).map(([c,{meta:d}])=>{const u=t(d);if(!u)return null;const p=c.split("/").length;return{level:Jf(c,"/")?p-2:p-1,base:c.replace(/\/[^/]+\/?$/,"/"),path:c,...u}}).filter(c=>sr(c)&&De(c.title))),o=_(()=>{const c=e.base?p2(Ii(e.base)):r.value.path.replace(/\/[^/]+$/,"/"),d=c.split("/").length-2,u=[];return i.value.filter(({level:p,path:h})=>{if(!ar(h,c)||h===c)return!1;if(c==="/"){const f=St(l.value.locales).filter(m=>m!=="/");if(h==="/404.html"||f.some(m=>ar(h,m)))return!1}return p-d<=e.level}).sort(({title:p,level:h,order:f},{title:m,level:y,order:k})=>h-y||(Ta(f)?Ta(k)?f>0?k>0?f-k:-1:k<0?f-k:1:f:Ta(k)?k:p.localeCompare(m))).forEach(p=>{var m;const{base:h,level:f}=p;switch(f-d){case 1:{u.push(p);break}case 2:{const y=u.find(k=>k.path===h);y&&(y.children??(y.children=[])).push(p);break}default:{const y=u.find(k=>k.path===h.replace(/\/[^/]+\/$/,"/"));if(y){const k=(m=y.children)==null?void 0:m.find(w=>w.path===h);k&&(k.children??(k.children=[])).push(p)}}}}),u});return()=>{const c=o.value.some(d=>d.children);return s("div",{class:["vp-catalog",{index:e.index}]},[e.hideHeading?null:s("h2",{class:"vp-catalog-main-title"},n.value.title),o.value.length?s(e.index?"ol":"ul",{class:["vp-catalog-list",{deep:c}]},o.value.map(({children:d=[],title:u,path:p,content:h})=>{const f=s(Fe,{class:"vp-catalog-title",to:p},()=>h?s(h):u);return s("li",{class:"vp-catalog-item"},c?[s("h3",{id:u,class:["vp-catalog-child-title",{"has-children":d.length}]},[s("a",{href:`#${u}`,class:"vp-catalog-header-anchor","aria-hidden":!0}),f]),d.length?s(e.index?"ol":"ul",{class:"vp-child-catalogs"},d.map(({children:m=[],content:y,path:k,title:w})=>s("li",{class:"vp-child-catalog"},[s("div",{class:["vp-catalog-sub-title",{"has-children":m.length}]},[s("a",{href:`#${w}`,class:"vp-catalog-header-anchor"}),s(Fe,{class:"vp-catalog-title",to:k},()=>y?s(y):w)]),m.length?s(e.index?"ol":"div",{class:e.index?"vp-sub-catalogs":"vp-sub-catalogs-wrapper"},m.map(({content:x,path:v,title:E})=>e.index?s("li",{class:"vp-sub-catalog"},s(Fe,{to:v},()=>x?s(x):E)):s(Fe,{class:"vp-sub-catalog-link",to:v},()=>x?s(x):E))):null]))):null]:s("div",{class:"vp-catalog-child-title"},f))})):s("p",{class:"vp-empty-catalog"},n.value.empty)])}}}),c3=Pt({enhance:({app:e})=>{i3(e),We("Catalog",e)||e.component("Catalog",o3)}});const d3=Object.freeze(Object.defineProperty({__proto__:null,default:c3},Symbol.toStringTag,{value:"Module"}));/**
+ * NProgress, (c) 2013, 2014 Rico Sta. Cruz - http://ricostacruz.com/nprogress
+ * @license MIT
+ */const Bo=(e,t)=>{e.classList.add(t)},Io=(e,t)=>{e.classList.remove(t)},u3=e=>{var t;(t=e==null?void 0:e.parentNode)==null||t.removeChild(e)},Sl=(e,t,n)=>e<t?t:e>n?n:e,Oo=e=>(-1+e)*100,p3=(()=>{const e=[],t=()=>{const n=e.shift();n&&n(t)};return n=>{e.push(n),e.length===1&&t()}})(),h3=e=>e.replace(/^-ms-/,"ms-").replace(/-([\da-z])/gi,(t,n)=>n.toUpperCase()),ka=(()=>{const e=["Webkit","O","Moz","ms"],t={},n=l=>{const{style:i}=document.body;if(l in i)return l;const o=l.charAt(0).toUpperCase()+l.slice(1);let c=e.length;for(;c--;){const d=`${e[c]}${o}`;if(d in i)return d}return l},r=l=>{const i=h3(l);return t[i]??(t[i]=n(i))},a=(l,i,o)=>{l.style[r(i)]=o};return(l,i)=>{for(const o in i){const c=i[o];Object.hasOwn(i,o)&&Ka(c)&&a(l,o,c)}}})(),qt={minimum:.08,easing:"ease",speed:200,trickleRate:.02,trickleSpeed:800,barSelector:'[role="bar"]',parent:"body",template:'<div class="bar" role="bar"></div>'},Be={percent:null,isRendered:()=>!!document.getElementById("nprogress"),set:e=>{const{speed:t,easing:n}=qt,r=Be.isStarted(),a=Sl(e,qt.minimum,1);Be.percent=a===1?null:a;const l=Be.render(!r),i=l.querySelector(qt.barSelector);return l.offsetWidth,p3(o=>{ka(i,{transform:`translate3d(${Oo(a)}%,0,0)`,transition:`all ${t}ms ${n}`}),a===1?(ka(l,{transition:"none",opacity:"1"}),l.offsetWidth,setTimeout(()=>{ka(l,{transition:`all ${t}ms linear`,opacity:"0"}),setTimeout(()=>{Be.remove(),o()},t)},t)):setTimeout(()=>{o()},t)}),Be},isStarted:()=>typeof Be.percent=="number",start:()=>{Be.percent||Be.set(0);const e=()=>{setTimeout(()=>{Be.percent&&(Be.trickle(),e())},qt.trickleSpeed)};return e(),Be},done:e=>!e&&!Be.percent?Be:Be.increase(.3+.5*Math.random()).set(1),increase:e=>{let{percent:t}=Be;return t?(t=Sl(t+(typeof e=="number"?e:(1-t)*Sl(Math.random()*t,.1,.95)),0,.994),Be.set(t)):Be.start()},trickle:()=>Be.increase(Math.random()*qt.trickleRate),render:e=>{if(Be.isRendered())return document.getElementById("nprogress");Bo(document.documentElement,"nprogress-busy");const t=document.createElement("div");t.id="nprogress",t.innerHTML=qt.template;const n=t.querySelector(qt.barSelector),r=document.querySelector(qt.parent),a=e?"-100":Oo(Be.percent??0);return ka(n,{transition:"all 0 linear",transform:`translate3d(${a}%,0,0)`}),r&&(r!==document.body&&Bo(r,"nprogress-custom-parent"),r.appendChild(t)),t},remove:()=>{Io(document.documentElement,"nprogress-busy"),Io(document.querySelector(qt.parent),"nprogress-custom-parent"),u3(document.getElementById("nprogress"))}},f3=()=>{oe(()=>{const e=fn(),t=new Set;t.add(e.currentRoute.value.path),e.beforeEach(n=>{t.has(n.path)||Be.start()}),e.afterEach(n=>{t.add(n.path),Be.done()})})},g3=Pt({setup(){f3()}}),m3=Object.freeze(Object.defineProperty({__proto__:null,default:g3},Symbol.toStringTag,{value:"Module"}));var v3={provider:"Giscus",lightTheme:"https://unpkg.com/vuepress-theme-hope@2.0.0-rc.77/templates/giscus/light.css",darkTheme:"https://unpkg.com/vuepress-theme-hope@2.0.0-rc.77/templates/giscus/dark.css",repo:"dream-oyh/Blog_comments_with_Giscus",repoId:"R_kgDOLSurkg",category:"Announcements",categoryId:"DIC_kwDOLSurks4CdPJJ"};const y3=v3,b3=Q(y3),uu=Symbol(""),pu=()=>we(uu),k3=pu,x3=e=>{e.provide(uu,Dt(b3))},Ro=["ar","be","bg","ca","cs","da","de","en","eo","es","eu","fa","fr","gr","hbs","he","hu","id","it","ja","kh","ko","nl","pl","pt","ro","ru","th","tr","uk","uz","vi","zh-CN","zh-HK","zh-TW"];var _3=R({name:"GiscusComment",props:{identifier:{type:String,required:!0},darkmode:Boolean},setup(e){const t=k3(),n=Kr(),r=_(()=>!!(t.value.repo&&t.value.repoId&&t.value.category&&t.value.categoryId)),a=Q(!1),l=_(()=>{if(Ro.includes(n.value))return n.value;const o=n.value.split("-")[0];return Ro.includes(o)?o:"en"}),i=_(()=>({repo:t.value.repo,repoId:t.value.repoId,category:t.value.category,categoryId:t.value.categoryId,lang:l.value,theme:e.darkmode?t.value.darkTheme||"dark":t.value.lightTheme||"light",mapping:t.value.mapping||"pathname",term:e.identifier,inputPosition:t.value.inputPosition||"top",reactionsEnabled:t.value.reactionsEnabled===!1?"0":"1",strict:t.value.strict===!1?"0":"1",loading:t.value.lazyLoading===!1?"eager":"lazy",emitMetadata:"0"}));return oe(async()=>{await A(()=>import("./giscus-BwIGYrs0.js"),[]),a.value=!0}),()=>r.value?s("div",{id:"comment",class:["giscus-wrapper",{"input-top":t.value.inputPosition!=="bottom"}]},a.value?s("giscus-widget",i.value):s(Qr)):null}}),w3=R({name:"CommentService",props:{identifier:String,darkmode:Boolean},setup(e){const t=pu(),n=Ve(),r=he(),a=_(()=>r.value.comment??t.value.comment??!0);return()=>s(_3,{class:"vp-comment","vp-comment":"",identifier:e.identifier??r.value.commentID??n.value.path,darkmode:e.darkmode,style:{display:a.value?"block":"none"}})}}),A3=Pt({enhance:({app:e})=>{x3(e),e.component("CommentService",w3)}});const E3=Object.freeze(Object.defineProperty({__proto__:null,default:A3},Symbol.toStringTag,{value:"Module"}));var T3={0:{"/":{0:"分",1:"类",2:":",3:" ",4:"$",5:"c",6:"o",7:"n",8:"t",9:"e",10:"n",11:"t"}},1:{"/":{0:"标",1:"签",2:":",3:" ",4:"$",5:"c",6:"o",7:"n",8:"t",9:"e",10:"n",11:"t"}}},C3={"/":{cancel:"取消",placeholder:"搜索",search:"搜索",clear:"清除搜索文字",remove:"删除当前项目",searching:"搜索中",defaultTitle:"文档",select:"选择",navigate:"切换",autocomplete:"自动补全",exit:"关闭",queryHistory:"搜索历史",resultHistory:"历史结果",emptyHistory:"无搜索历史",emptyResult:"没有找到结果",loading:"正在加载搜索索引..."}},S3={searchDelay:150,suggestDelay:0,queryHistoryCount:5,resultHistoryCount:5,hotKeys:[{key:"k",ctrl:!0},{key:"/",ctrl:!0}],worker:"slimsearch.worker.js"};const y6=T3,jr=S3,Qa=C3,Dl="Canceled because of new search request.",D3=()=>{const e=new Worker(`/${jr.worker}`,{}),t={suggest:null,search:null,all:null};return e.addEventListener("message",({data:n})=>{const[r,a,l]=n,i=t[r];(i==null?void 0:i.id)===a&&i.resolve(l)}),e.addEventListener("error",n=>{console.warn("Search Worker error:",n)}),{suggest:(n,r,a)=>new Promise((l,i)=>{var c;(c=t.suggest)==null||c.reject(new Error(Dl));const o=Date.now();e.postMessage({type:"suggest",id:o,query:n,locale:r,options:a}),t.suggest={id:o,resolve:l,reject:i}}),search:(n,r,a)=>new Promise((l,i)=>{var c;(c=t.search)==null||c.reject(new Error(Dl));const o=Date.now();e.postMessage({type:"search",id:o,query:n,locale:r,options:a}),t.search={id:o,resolve:l,reject:i}}),all:(n,r,a)=>new Promise((l,i)=>{var c;(c=t.all)==null||c.reject(new Error(Dl));const o=Date.now();e.postMessage({type:"all",id:o,query:n,locale:r,options:a}),t.all={id:o,resolve:l,reject:i}}),terminate:()=>{e.terminate(),Yf(t).forEach(n=>{n==null||n.reject(new Error("Worker has been terminated."))})}}},L3=Q({}),hu=Symbol(""),fu=()=>{const e=bt(),t=we(hu);return _(()=>{const{locales:n={},...r}=t.value;return{...r,...n[e.value]}})},P3=e=>{e.provide(hu,Dt(L3))},B3='<svg width="20" height="20" viewBox="0 0 20 20"><path d="M10 10l5.09-5.09L10 10l5.09 5.09L10 10zm0 0L4.91 4.91 10 10l-5.09 5.09L10 10z" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',gu=({class:e,hint:t})=>s("div",{class:[e,"loading"]},[s("svg",{xmlns:"http://www.w3.org/2000/svg",width:"32",height:"32",preserveAspectRatio:"xMidYMid",viewBox:"0 0 100 100"},[s("circle",{cx:"28",cy:"75",r:"11",fill:"currentColor"},s("animate",{attributeName:"fill-opacity",begin:"0s",dur:"1s",keyTimes:"0;0.2;1",repeatCount:"indefinite",values:"0;1;1"})),s("path",{fill:"none",stroke:"#88baf0","stroke-width":"10",d:"M28 47a28 28 0 0 1 28 28"},s("animate",{attributeName:"stroke-opacity",begin:"0.1s",dur:"1s",keyTimes:"0;0.2;1",repeatCount:"indefinite",values:"0;1;1"})),s("path",{fill:"none",stroke:"#88baf0","stroke-width":"10",d:"M28 25a50 50 0 0 1 50 50"},s("animate",{attributeName:"stroke-opacity",begin:"0.2s",dur:"1s",keyTimes:"0;0.2;1",repeatCount:"indefinite",values:"0;1;1"}))]),t]);gu.displayName="SearchLoading";const or=({name:e="",color:t="currentColor"},{slots:n})=>s("svg",{xmlns:"http://www.w3.org/2000/svg",class:["icon",`${e}-icon`],viewBox:"0 0 1024 1024",fill:t,"aria-label":`${e} icon`},n.default());or.displayName="SVGWrapper";const I3=()=>s(or,{name:"heading"},()=>s("path",{d:"M250.4 704.6H64V595.4h202.4l26.2-166.6H94V319.6h214.4L352 64h127.8l-43.6 255.4h211.2L691 64h126.2l-43.6 255.4H960v109.2H756.2l-24.6 166.6H930v109.2H717L672 960H545.8l43.6-255.4H376.6L333 960H206.8l43.6-255.4zm168.4-276L394 595.4h211.2l24.6-166.6h-211z"}));I3.displayName="HeadingIcon";const O3=()=>s(or,{name:"heart"},()=>s("path",{d:"M1024 358.156C1024 195.698 892.3 64 729.844 64c-86.362 0-164.03 37.218-217.844 96.49C458.186 101.218 380.518 64 294.156 64 131.698 64 0 195.698 0 358.156 0 444.518 37.218 522.186 96.49 576H96l320 320c32 32 64 64 96 64s64-32 96-64l320-320h-.49c59.272-53.814 96.49-131.482 96.49-217.844zM841.468 481.232 517.49 805.49a2981.962 2981.962 0 0 1-5.49 5.48c-1.96-1.95-3.814-3.802-5.49-5.48L182.532 481.234C147.366 449.306 128 405.596 128 358.156 128 266.538 202.538 192 294.156 192c47.44 0 91.15 19.366 123.076 54.532L512 350.912l94.768-104.378C638.696 211.366 682.404 192 729.844 192 821.462 192 896 266.538 896 358.156c0 47.44-19.368 91.15-54.532 123.076z"}));O3.displayName="HeartIcon";const R3=()=>s(or,{name:"history"},()=>s("path",{d:"M512 1024a512 512 0 1 1 512-512 512 512 0 0 1-512 512zm0-896a384 384 0 1 0 384 384 384 384 0 0 0-384-384zm192 448H512a64 64 0 0 1-64-64V320a64 64 0 0 1 128 0v128h128a64 64 0 0 1 0 128z"}));R3.displayName="HistoryIcon";const F3=()=>s(or,{name:"title"},()=>s("path",{d:"M512 256c70.656 0 134.656 28.672 180.992 75.008A254.933 254.933 0 0 1 768 512c0 83.968-41.024 157.888-103.488 204.48C688.96 748.736 704 788.48 704 832c0 105.984-86.016 192-192 192-106.048 0-192-86.016-192-192h128a64 64 0 1 0 128 0 64 64 0 0 0-64-64 255.19 255.19 0 0 1-181.056-75.008A255.403 255.403 0 0 1 256 512c0-83.968 41.024-157.824 103.488-204.544C335.04 275.264 320 235.584 320 192A192 192 0 0 1 512 0c105.984 0 192 85.952 192 192H576a64.021 64.021 0 0 0-128 0c0 35.328 28.672 64 64 64zM384 512c0 70.656 57.344 128 128 128s128-57.344 128-128-57.344-128-128-128-128 57.344-128 128z"}));F3.displayName="TitleIcon";const Ui=()=>s(or,{name:"search"},()=>s("path",{d:"M192 480a256 256 0 1 1 512 0 256 256 0 0 1-512 0m631.776 362.496-143.2-143.168A318.464 318.464 0 0 0 768 480c0-176.736-143.264-320-320-320S128 303.264 128 480s143.264 320 320 320a318.016 318.016 0 0 0 184.16-58.592l146.336 146.368c12.512 12.48 32.768 12.48 45.28 0 12.48-12.512 12.48-32.768 0-45.28"}));Ui.displayName="SearchIcon";let $3=null;const mu=()=>$3??($3=rr()),M3=(e,t=!1)=>{const n=Q(0),r=_(()=>e.value[n.value]),a=()=>{n.value=n.value>0?n.value-1:e.value.length-1},l=()=>{n.value=n.value<e.value.length-1?n.value+1:0};return Ae(e,()=>{t||(n.value=0)}),{index:n,item:r,prev:a,next:l}},j3=()=>{const e=Bn(()=>typeof window<"u"&&"userAgent"in window.navigator);return _(()=>e.value&&/\b(?:Android|iPhone)/i.test(navigator.userAgent))},V3=/[\u4e00-\u9fff\u3400-\u4dbf\u3040-\u309f\u30a0-\u30ff\uac00-\ud7af]/,N3=(e="")=>e.split(/\s+/).map(t=>{if(t.length>3){const n=t.split("");if(n.every(r=>V3.test(r)))return n}return t}).flat(),z3=e=>{const t=Q([]);{const n=fu(),r=Ve(),a=bt();oe(()=>{const{suggest:l,terminate:i}=D3(),o=c=>{const{resultsFilter:d,querySplitter:u,suggestionsFilter:p=f=>f,...h}=n.value;c.length>=3?l(c,a.value,h).then(f=>p(f,c,a.value,r.value)).then(f=>{t.value=f.length?ar(f[0],c)&&!f[0].slice(c.length).includes(" ")?f:[c,...f]:[]}).catch(f=>{console.error(f)}):t.value=[]};ut([e,a],([c])=>{o(c.join(" "))}),Vt(()=>{i()})})}return{enabled:!0,suggestions:t}},H3='<svg width="15" height="15" aria-label="Enter key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M12 3.53088v3c0 1-1 2-2 2H4M7 11.53088l-3-3 3-3"></path></g></svg>',q3='<svg width="15" height="15" aria-label="Arrow down" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 3.5v8M10.5 8.5l-3 3-3-3"></path></g></svg>',W3='<svg width="15" height="15" aria-label="Arrow up" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 11.5v-8M10.5 6.5l-3-3-3 3"></path></g></svg>',G3='<svg width="15" height="15" aria-label="Escape key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M13.6167 8.936c-.1065.3583-.6883.962-1.4875.962-.7993 0-1.653-.9165-1.653-2.1258v-.5678c0-1.2548.7896-2.1016 1.653-2.1016.8634 0 1.3601.4778 1.4875 1.0724M9 6c-.1352-.4735-.7506-.9219-1.46-.8972-.7092.0246-1.344.57-1.344 1.2166s.4198.8812 1.3445.9805C8.465 7.3992 8.968 7.9337 9 8.5c.032.5663-.454 1.398-1.4595 1.398C6.6593 9.898 6 9 5.963 8.4851m-1.4748.5368c-.2635.5941-.8099.876-1.5443.876s-1.7073-.6248-1.7073-2.204v-.4603c0-1.0416.721-2.131 1.7073-2.131.9864 0 1.6425 1.031 1.5443 2.2492h-2.956"></path></g></svg>',Ll=jr.hotKeys[0];var U3=R({name:"SearchBox",setup(){const e=kt(Qa),[t,n]=mu(),r=Q(!1);tg(jr.hotKeys,()=>{t.value||n()});const a=_(()=>Ll?[...(r.value?["⌃","⇧","⌥","⌘"]:["Ctrl","Shift","Alt","Win"]).filter((l,i)=>Ll[["ctrl","shift","alt","meta"][i]]),Ll.key.toUpperCase()]:null);return oe(()=>{const{userAgent:l}=navigator;r.value=zf(l)||Nf(l)||jd(l)}),()=>[s("button",{type:"button",class:"slimsearch-button","aria-label":e.value.search,onClick:()=>{n(!0)}},[s(Ui),s("div",{class:"slimsearch-placeholder"},e.value.search),a.value?s("div",{class:"slimsearch-key-hints"},a.value.map(l=>s("kbd",{class:"slimsearch-key"},l))):null])]}}),K3=R({name:"SearchKeyHints",setup(){const e=kt(Qa),t=j3();return()=>t.value?null:s("div",{class:"slimsearch-hints"},[s("span",{class:"slimsearch-hint"},[s("kbd",{innerHTML:H3}),e.value.select]),s("span",{class:"slimsearch-hint"},[s("kbd",{innerHTML:W3}),s("kbd",{innerHTML:q3}),e.value.navigate]),s("span",{class:"slimsearch-hint"},[s("kbd",{innerHTML:G3}),e.value.exit])])}});const J3=wc({loader:()=>A(()=>import("./SearchResult-BrlA5CWB.js"),[]),loadingComponent:()=>{const e=kt(Qa);return s(gu,{class:"slimsearch-result-wrapper",hint:e.value.loading})}}),Y3=["ArrowDown","ArrowUp","Escape","Tab","Enter"];var Q3=R({name:"SearchModal",setup(){const[e,t]=mu(),n=Yr(),r=kt(Qa),a=fu(),l=Q(""),i=Q([]),{suggestions:o}=z3(i),c=Q(!1),{index:d,prev:u,next:p}=M3(o),h=ee(),f=ee(),m=ee(),y=ea(m.value),k=_(()=>c.value&&o.value.length),w=(x=d.value)=>{l.value=o.value[x],c.value=!1};return ie("keydown",x=>{k.value?x.key==="ArrowUp"?u():x.key==="ArrowDown"?p():x.key==="Tab"?w():(x.key==="Enter"||x.key==="Escape")&&(c.value=!1):x.key==="Escape"&&t(!1)},{passive:!0}),X0(f,()=>{c.value=!1}),ut(l,Ga(()=>{var x,v;return(((v=(x=a.value).querySplitter)==null?void 0:v.call(x,l.value))??Promise.resolve(N3(l.value))).then(E=>{i.value=E.filter(B=>B.length)})},Math.min(jr.searchDelay,jr.suggestDelay))),oe(()=>{m.value=document.body,Ae(e,x=>{var v;x&&((v=h.value)==null||v.focus())},{flush:"post"})}),Vt(()=>{y.value=!1}),()=>e.value?s("div",{class:"slimsearch-modal-wrapper"},[s("div",{class:"slimsearch-mask",onClick:()=>{t(!1),l.value=""}}),s("div",{class:"slimsearch-modal"},[s("div",{class:"slimsearch-box"},[s("form",[s("label",{id:"slimsearch-label",for:"slimsearch-input","aria-label":r.value.search},s(Ui)),s("input",{ref:h,type:"search",class:"slimsearch-input",id:"slimsearch-input",placeholder:r.value.placeholder,spellcheck:"false",autocapitalize:"off",autocomplete:"off",autocorrect:"off",name:`${n.value.title}-search`,value:l.value,"aria-controls":"slimsearch-results",onKeydown:x=>{k.value&&Y3.includes(x.key)&&x.preventDefault()},onInput:({target:x})=>{l.value=x.value,c.value=!0,d.value=0}}),l.value?s("button",{type:"reset",class:"slimsearch-clear-button",title:r.value.clear,"aria-label":r.value.clear,innerHTML:B3,onClick:()=>{l.value=""}}):null,k.value?s("ul",{class:"slimsearch-suggestions",ref:f},o.value.map((x,v)=>s("li",{class:["slimsearch-suggestion",{active:v===d.value}],onClick:()=>{w(v)}},[s("kbd",{class:"slimsearch-auto-complete",title:`Tab ${r.value.autocomplete}`},"Tab"),x]))):null]),s("button",{type:"button",class:"slimsearch-close-button",onClick:()=>{t(!1),l.value=""}},r.value.cancel)]),s(J3,{queries:i.value,isFocusing:!k.value,onClose:()=>{t(!1)},onUpdateQuery:x=>{l.value=x}}),s(K3)])]):null}}),X3=Pt({enhance({app:e}){P3(e),e.component("SearchBox",U3)},rootComponents:[Q3]});const Z3=Object.freeze(Object.defineProperty({__proto__:null,default:X3},Symbol.toStringTag,{value:"Module"})),vu="VUEPRESS_REDIRECT_STATUS",Fo=gf(vu,{}),$o=zi(vu,{}),e4=e=>{const t=mf(),n=bt(),r=On(e.config);return _(()=>{if(r.some(([a])=>n.value===a)){for(const a of t.value)for(const[l,i]of r)if(i.includes(a))return l===n.value?null:{lang:a,localePath:l}}return null})};var t4=R({name:"RedirectModal",props:{config:{type:Object,required:!0},locales:{type:Object,required:!0}},setup(e){const t=fn(),n=Jr(),r=bt(),a=e4(e.config),l=Q(),i=ea(l),o=Q(!1),c=_(()=>{if(!a.value)return null;const{lang:u,localePath:p}=a.value,h=[e.locales[p],e.locales[r.value]];return{hint:h.map(({hint:f})=>f.replace("$1",u)),switch:h.map(({switch:f})=>f.replace("$1",u)).join(" / "),cancel:h.map(({cancel:f})=>f).join(" / "),remember:h.map(({remember:f})=>f).join(" / ")}}),d=()=>{$o.value[r.value]=!0,o.value&&(Fo.value[r.value]=!0),i.value=!1};return Ae(n,()=>{i.value=!1}),oe(async()=>{l.value=document.body,await pn(),a.value&&!$o.value[r.value]&&!Fo.value[r.value]&&(i.value=!0)}),Ti(()=>{i.value=!1}),()=>s(id,{name:"redirect-modal-fade"},()=>{var u,p,h,f;return i.value?s("div",{key:"mask",class:"redirect-modal-mask"},s("div",{key:"popup",class:"redirect-modal-wrapper"},[s("div",{class:"redirect-modal-content"},(u=c.value)==null?void 0:u.hint.map(m=>s("p",m))),s("div",{class:"redirect-modal-hint"},[s("input",{id:"remember-redirect",type:"checkbox",value:o.value,onChange:()=>{o.value=!o.value}}),s("label",{for:"remember-redirect"},(p=c.value)==null?void 0:p.remember)]),s("button",{type:"button",class:"redirect-modal-action primary",onClick:()=>{d(),t.replace(n.value.replace(r.value,a.value.localePath))}},(h=c.value)==null?void 0:h.switch),s("button",{type:"button",class:"redirect-modal-action",onClick:()=>{d()}},(f=c.value)==null?void 0:f.cancel)])):null})}}),n4={config:{},autoLocale:!1,localeFallback:!0,defaultBehavior:"defaultLocale"},r4={"/":{name:"简体中文",hint:"您的首选语言是 $1，是否切换到该语言？",switch:"切换到 $1",cancel:"取消",remember:"记住我的选择"}};const yu=n4;var a4=Pt({setup(){},rootComponents:[()=>s(t4,{config:yu,locales:r4})]});const l4=Object.freeze(Object.defineProperty({__proto__:null,config:yu,default:a4},Symbol.toStringTag,{value:"Module"}));var Mo={"/":{word:"约 $word 字",less1Minute:"小于 1 分钟",time:"大约 $time 分钟"}};const bu=()=>{const e=Ve();return _(()=>e.value.readingTime??null)},ku=(e,t)=>{const{minutes:n,words:r}=e,{less1Minute:a,word:l,time:i}=t;return{time:n<1?a:i.replace("$time",Math.round(n).toString()),words:l.replace("$word",r.toString())}},jo={words:"",time:""},Xl=typeof Mo>"u"?null:Mo,xu=()=>Xl?kt(Xl):_(()=>null),i4=()=>{if(typeof Xl>"u")return _(()=>jo);const e=bu(),t=xu();return _(()=>e.value&&t.value?ku(e.value,t.value):jo)},Ca=()=>null,s4="719px",o4="1440px",c4="9",cr={mobileBreakPoint:s4,pcBreakPoint:o4,colorNumber:c4},_u=()=>{const e=fe();return _(()=>e.value.author)},d4="http://.",Qt=()=>{const e=fn(),t=Jt();return n=>{if(!n)return;if(Ur(n))return window.open(n);if(Ja(n))return t.fullPath===n?void 0:void e.push(n);const r=t.path.slice(0,t.path.lastIndexOf("/"));return void e.push(new URL(`${r}/${encodeURI(n)}`,d4).pathname)}},Bt=()=>Wd(),fe=()=>am(),wu=()=>{const e=he(),t=_u();return _(()=>{const{author:n}=e.value;return n?Mr(n):n===!1?[]:Mr(t.value,!1)})},u4=()=>{const e=he(),t=we(Symbol.for("categoryMap"));return _(()=>iu(e.value.category??e.value.categories).map(n=>{var r;return{name:n,path:((r=t==null?void 0:t.value.map[n])==null?void 0:r.path)??""}}))},p4=()=>{const e=he(),t=we(Symbol.for("tagMap"));return _(()=>su(e.value.tag??e.value.tags).map(n=>{var r;return{name:n,path:((r=t==null?void 0:t.value.map[n])==null?void 0:r.path)??""}}))},h4=()=>{const e=he(),t=Ve();return _(()=>{const n=Hi(e.value.date);if(n)return n;const{createdTime:r}=t.value.git??{};return r?new Date(r):null})},f4=()=>{const e=fe(),t=Ve(),n=he(),r=wu(),a=u4(),l=p4(),i=h4(),o=bu(),c=i4(),d=_(()=>({author:r.value,category:a.value,date:i.value,localizedDate:t.value.localizedDate,tag:l.value,isOriginal:n.value.isOriginal??!1,readingTime:o.value,readingTimeLocale:c.value,pageview:n.value.pageview??!0})),u=_(()=>n.value.pageInfo??e.value.pageInfo??null);return{info:d,items:u}},Xe=()=>{const e=Bt();return _(()=>!!e.value.pure)},Au=()=>s(xe,{name:"author"},()=>s("path",{d:"M649.6 633.6c86.4-48 147.2-144 147.2-249.6 0-160-128-288-288-288s-288 128-288 288c0 108.8 57.6 201.6 147.2 249.6-121.6 48-214.4 153.6-240 288-3.2 9.6 0 19.2 6.4 25.6 3.2 9.6 12.8 12.8 22.4 12.8h704c9.6 0 19.2-3.2 25.6-12.8 6.4-6.4 9.6-16 6.4-25.6-25.6-134.4-121.6-240-243.2-288z"}));Au.displayName="AuthorIcon";const Eu=()=>s(xe,{name:"calendar"},()=>s("path",{d:"M716.4 110.137c0-18.753-14.72-33.473-33.472-33.473-18.753 0-33.473 14.72-33.473 33.473v33.473h66.993v-33.473zm-334.87 0c0-18.753-14.72-33.473-33.473-33.473s-33.52 14.72-33.52 33.473v33.473h66.993v-33.473zm468.81 33.52H716.4v100.465c0 18.753-14.72 33.473-33.472 33.473a33.145 33.145 0 01-33.473-33.473V143.657H381.53v100.465c0 18.753-14.72 33.473-33.473 33.473a33.145 33.145 0 01-33.473-33.473V143.657H180.6A134.314 134.314 0 0046.66 277.595v535.756A134.314 134.314 0 00180.6 947.289h669.74a134.36 134.36 0 00133.94-133.938V277.595a134.314 134.314 0 00-133.94-133.938zm33.473 267.877H147.126a33.145 33.145 0 01-33.473-33.473c0-18.752 14.72-33.473 33.473-33.473h736.687c18.752 0 33.472 14.72 33.472 33.473a33.145 33.145 0 01-33.472 33.473z"}));Eu.displayName="CalendarIcon";const Tu=()=>s(xe,{name:"category"},()=>s("path",{d:"M148.41 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H148.41c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.311-40.31zM147.556 553.478H429.73c22.263 0 40.311 18.048 40.311 40.31v282.176c0 22.263-18.048 40.312-40.31 40.312H147.555c-22.263 0-40.311-18.049-40.311-40.312V593.79c0-22.263 18.048-40.311 40.31-40.311zM593.927 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H593.927c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.31-40.31zM730.22 920.502H623.926c-40.925 0-74.22-33.388-74.22-74.425V623.992c0-41.038 33.387-74.424 74.425-74.424h222.085c41.038 0 74.424 33.226 74.424 74.067v114.233c0 10.244-8.304 18.548-18.547 18.548s-18.548-8.304-18.548-18.548V623.635c0-20.388-16.746-36.974-37.33-36.974H624.13c-20.585 0-37.331 16.747-37.331 37.33v222.086c0 20.585 16.654 37.331 37.126 37.331H730.22c10.243 0 18.547 8.304 18.547 18.547 0 10.244-8.304 18.547-18.547 18.547z"}));Tu.displayName="CategoryIcon";const Cu=()=>s(xe,{name:"print"},()=>s("path",{d:"M819.2 364.8h-44.8V128c0-17.067-14.933-32-32-32H281.6c-17.067 0-32 14.933-32 32v236.8h-44.8C145.067 364.8 96 413.867 96 473.6v192c0 59.733 49.067 108.8 108.8 108.8h44.8V896c0 17.067 14.933 32 32 32h460.8c17.067 0 32-14.933 32-32V774.4h44.8c59.733 0 108.8-49.067 108.8-108.8v-192c0-59.733-49.067-108.8-108.8-108.8zM313.6 160h396.8v204.8H313.6V160zm396.8 704H313.6V620.8h396.8V864zM864 665.6c0 25.6-19.2 44.8-44.8 44.8h-44.8V588.8c0-17.067-14.933-32-32-32H281.6c-17.067 0-32 14.933-32 32v121.6h-44.8c-25.6 0-44.8-19.2-44.8-44.8v-192c0-25.6 19.2-44.8 44.8-44.8h614.4c25.6 0 44.8 19.2 44.8 44.8v192z"}));Cu.displayName="PrintIcon";const Su=()=>s(xe,{name:"tag"},()=>s("path",{d:"M939.902 458.563L910.17 144.567c-1.507-16.272-14.465-29.13-30.737-30.737L565.438 84.098h-.402c-3.215 0-5.726 1.005-7.634 2.913l-470.39 470.39a10.004 10.004 0 000 14.164l365.423 365.424c1.909 1.908 4.42 2.913 7.132 2.913s5.223-1.005 7.132-2.913l470.39-470.39c2.01-2.11 3.014-5.023 2.813-8.036zm-240.067-72.121c-35.458 0-64.286-28.828-64.286-64.286s28.828-64.285 64.286-64.285 64.286 28.828 64.286 64.285-28.829 64.286-64.286 64.286z"}));Su.displayName="TagIcon";const Du=()=>s(xe,{name:"timer"},()=>s("path",{d:"M799.387 122.15c4.402-2.978 7.38-7.897 7.38-13.463v-1.165c0-8.933-7.38-16.312-16.312-16.312H256.33c-8.933 0-16.311 7.38-16.311 16.312v1.165c0 5.825 2.977 10.874 7.637 13.592 4.143 194.44 97.22 354.963 220.201 392.763-122.204 37.542-214.893 196.511-220.2 389.397-4.661 5.049-7.638 11.651-7.638 19.03v5.825h566.49v-5.825c0-7.379-2.849-13.981-7.509-18.9-5.049-193.016-97.867-351.985-220.2-389.527 123.24-37.67 216.446-198.453 220.588-392.892zM531.16 450.445v352.632c117.674 1.553 211.787 40.778 211.787 88.676H304.097c0-48.286 95.149-87.382 213.728-88.676V450.445c-93.077-3.107-167.901-81.297-167.901-177.093 0-8.803 6.99-15.793 15.793-15.793 8.803 0 15.794 6.99 15.794 15.793 0 80.261 63.69 145.635 142.01 145.635s142.011-65.374 142.011-145.635c0-8.803 6.99-15.793 15.794-15.793s15.793 6.99 15.793 15.793c0 95.019-73.789 172.82-165.96 177.093z"}));Du.displayName="TimerIcon";const Lu=()=>s(xe,{name:"word"},()=>[s("path",{d:"M518.217 432.64V73.143A73.143 73.143 0 01603.43 1.097a512 512 0 01419.474 419.474 73.143 73.143 0 01-72.046 85.212H591.36a73.143 73.143 0 01-73.143-73.143z"}),s("path",{d:"M493.714 566.857h340.297a73.143 73.143 0 0173.143 85.577A457.143 457.143 0 11371.566 117.76a73.143 73.143 0 0185.577 73.143v339.383a36.571 36.571 0 0036.571 36.571z"})]);Lu.displayName="WordIcon";const mn=()=>{const e=fe();return _(()=>e.value.metaLocales)};var g4=R({name:"AuthorInfo",inheritAttrs:!1,props:{author:{type:Array,required:!0}},setup(e){const t=mn(),n=Xe();return()=>e.author.length?s("span",{class:"page-author-info","aria-label":`${t.value.author}${n.value?"":"🖊"}`,...n.value?{}:{"data-balloon-pos":"up"}},[s(Au),s("span",e.author.map(r=>r.url?s("a",{class:"page-author-item",href:r.url,target:"_blank",rel:"noopener noreferrer"},r.name):s("span",{class:"page-author-item"},r.name))),s("span",{property:"author",content:e.author.map(r=>r.name).join(", ")})]):null}}),m4=R({name:"CategoryInfo",inheritAttrs:!1,props:{category:{type:Array,required:!0}},setup(e){const t=mn(),n=Qt(),r=Xe();return()=>e.category.length?s("span",{class:"page-category-info","aria-label":`${t.value.category}${r.value?"":"🌈"}`,...r.value?{}:{"data-balloon-pos":"up"}},[s(Tu),e.category.map(({name:a,path:l})=>s("span",{class:["page-category-item",{[`color${na(a,Number(cr.colorNumber))}`]:!r.value,clickable:l}],role:l?"navigation":"",onClick:()=>{l&&n(l)}},a)),s("meta",{property:"articleSection",content:e.category.map(({name:a})=>a).join(",")})]):null}}),v4=R({name:"DateInfo",inheritAttrs:!1,props:{date:Object,localizedDate:String},setup(e){const t=Kr(),n=mn(),r=Xe();return()=>e.date?s("span",{class:"page-date-info","aria-label":`${n.value.date}${r.value?"":"📅"}`,...r.value?{}:{"data-balloon-pos":"up"}},[s(Eu),s("span",{"data-allow-mismatch":"text"},e.localizedDate??e.date.toLocaleDateString(t.value)),s("meta",{property:"datePublished",content:e.date.toISOString()||""})]):null}}),y4=R({name:"OriginalInfo",inheritAttrs:!1,props:{isOriginal:Boolean},setup(e){const t=mn();return()=>e.isOriginal?s("span",{class:"page-original-info"},t.value.origin):null}}),b4=R({name:"ReadingTimeInfo",inheritAttrs:!1,props:{readingTime:Object,readingTimeLocale:Object},setup(e){const t=mn(),n=Xe(),r=_(()=>{if(!e.readingTime)return null;const{minutes:a}=e.readingTime;return a<1?"PT1M":`PT${Math.round(a)}M`});return()=>{var a;return(a=e.readingTimeLocale)!=null&&a.time?s("span",{class:"page-reading-time-info","aria-label":`${t.value.readingTime}${n.value?"":"⌛"}`,...n.value?{}:{"data-balloon-pos":"up"}},[s(Du),s("span",e.readingTimeLocale.time),s("meta",{property:"timeRequired",content:r.value})]):null}}}),k4=R({name:"TagInfo",inheritAttrs:!1,props:{tag:Array},setup(e){const t=mn(),n=Qt(),r=Xe();return()=>{var a;return(a=e.tag)!=null&&a.length?s("span",{class:"page-tag-info","aria-label":`${t.value.tag}${r.value?"":"🏷"}`,...r.value?{}:{"data-balloon-pos":"up"}},[s(Su),e.tag.map(({name:l,path:i})=>s("span",{class:["page-tag-item",{[`color${na(l,Number(cr.colorNumber))}`]:!r.value,clickable:i}],role:i?"navigation":"",onClick:()=>{i&&n(i)}},l)),s("meta",{property:"keywords",content:e.tag.map(({name:l})=>l).join(",")})]):null}}}),x4=R({name:"ReadTimeInfo",inheritAttrs:!1,props:{readingTime:Object,readingTimeLocale:Object},setup(e){const t=mn(),n=Xe();return()=>{var r,a;return(r=e.readingTimeLocale)!=null&&r.words?s("span",{class:"page-word-info","aria-label":`${t.value.words}${n.value?"":"🔠"}`,...n.value?{}:{"data-balloon-pos":"up"}},[s(Lu),s("span",e.readingTimeLocale.words),s("meta",{property:"wordCount",content:(a=e.readingTime)==null?void 0:a.words})]):null}}}),Pu=R({name:"PageInfo",components:{AuthorInfo:g4,CategoryInfo:m4,DateInfo:v4,OriginalInfo:y4,PageViewInfo:Ca,ReadingTimeInfo:b4,TagInfo:k4,WordInfo:x4},props:{items:[Boolean,Array],info:{type:Object,required:!0}},setup(e){const t=Xe();return()=>{const n=e.items??["Author","Original","Date","PageView","ReadingTime","Category","Tag"];return n?s("div",{class:"page-info"},n.map(r=>s(Le(`${r}Info`),{...e.info,isPure:t.value}))):null}}});const Ki={},Ji=(e,t)=>t.activeMatch?new RegExp(t.activeMatch,"u").test(e.path):ru(e,t.link),Yi=(e,t)=>"children"in t?!!t.prefix&&ru(e,t.prefix)||t.children.some(n=>Yi(e,n)):Ji(e,t),Zl=e=>!Ur(e)&&!Bi(e),$a=(e,t=!1,n)=>{const{meta:r,path:a,notFound:l}=yt(e,n);return l?{text:a,link:a}:{text:!t&&r.shortTitle?r.shortTitle:r.title||a,link:a,icon:r.icon}},wn=(e="",t="")=>Ur(t)||Ja(t)?t:`${Ii(e)}${t}`,Bu=(e,t)=>{const n=De(e)?$a(wn(t,e)):e.link?{...e,link:Zl(e.link)?yt(wn(t,e.link)).path:e.link}:e;if("children"in n){const r=wn(t,n.prefix),a=n.children==="structure"?Ki[r]:n.children;return{...n,prefix:r,children:a.map(l=>Bu(l,r))}}return{...n}},ei=({config:e,prefix:t=""})=>e.map(n=>Bu(n,t)),_4=({config:e,routePath:t,headerDepth:n})=>{const r=St(e).sort((a,l)=>l.length-a.length);for(const a of r)if(ar(decodeURI(t),a)){const l=e[a];return ei({config:l==="structure"?Ki[a]:l||[],prefix:a})}return console.warn(`${decodeURI(t)} is missing it's sidebar config.`),[]},w4=({config:e,headerDepth:t,routeLocale:n,routePath:r})=>e==="structure"?ei({config:Ki[n],prefix:n}):Fr(e)?ei({config:e}):sr(e)?_4({config:e,routePath:r,headerDepth:t}):[],Iu=Symbol(""),A4=()=>{const e=he(),t=fe(),n=bt(),r=Jr(),a=_(()=>e.value.home?!1:e.value.sidebar??t.value.sidebar??"structure"),l=_(()=>e.value.headerDepth??t.value.headerDepth??2),i=_(()=>w4({config:a.value,headerDepth:l.value,routeLocale:n.value,routePath:r.value}));Et(Iu,i)},Qi=()=>{const e=we(Iu);if(!e)throw new Error("useSidebarItems() is called without provider.");return e},{mobileBreakPoint:E4,pcBreakPoint:T4}=cr,Vo=e=>e.endsWith("px")?Number(e.slice(0,-2)):null,ra=()=>{const e=Q(!1),t=Q(!1),n=()=>{e.value=window.innerWidth<=(Vo(E4)??719),t.value=window.innerWidth>=(Vo(T4)??1440)};return ie("resize",n,!1),ie("orientationchange",n,!1),oe(()=>{n()}),{isMobile:e,isPC:t}},Ou=Symbol(""),aa=()=>{const e=we(Ou);if(!e)throw new Error("useDarkMode() is called without provider.");return e},C4=e=>{const t=of(),n=Bt(),r=_(()=>n.value.darkmode??"switch"),a=In("vuepress-theme-hope-scheme","auto"),l=_(()=>{const o=r.value;return o==="disable"?!1:o==="enable"?!0:o==="auto"?t.value:o==="toggle"?a.value==="dark":a.value==="dark"||a.value==="auto"&&t.value}),i=_(()=>{const o=r.value;return o==="switch"||o==="toggle"});e.provide(Ou,{canToggle:i,config:r,isDarkMode:l,status:a}),Object.defineProperties(e.config.globalProperties,{$isDarkMode:{get:()=>l.value}})},S4=()=>{const{config:e,isDarkMode:t,status:n}=aa();Si(()=>{e.value==="disable"?n.value="light":e.value==="enable"?n.value="dark":e.value==="toggle"&&n.value==="auto"&&(n.value="light")}),ie("beforeprint",()=>{t.value&&document.documentElement.setAttribute("data-theme","light")}),ie("afterprint",()=>{t.value&&document.documentElement.setAttribute("data-theme","dark")}),oe(()=>{ut(t,r=>{document.documentElement.setAttribute("data-theme",r?"dark":"light")})})};var D4=R({name:"PageFooter",setup(){const e=Bt(),t=fe(),n=he(),r=wu(),a=_(()=>{const{copyright:d,footer:u}=n.value;return u!==!1&&!!(d||u||t.value.displayFooter)}),l=_(()=>{const{footer:d}=n.value;return De(d)?d:t.value.footer??""}),i=_(()=>r.value.map(({name:d})=>d).join(", ")),o=d=>`Copyright © ${new Date().getFullYear()} ${i.value} ${d?`${d} Licensed`:""}`,c=_(()=>{const{copyright:d,license:u=""}=n.value,{license:p}=e.value,{copyright:h}=t.value;return d??(u?o(u):h??(i.value||p?o(p):!1))});return()=>a.value?s("footer",{class:"vp-footer-wrapper","vp-footer":""},[l.value?s("div",{class:"vp-footer",innerHTML:l.value}):null,c.value?s("div",{class:"vp-copyright",innerHTML:c.value}):null]):null}}),et=R({name:"AutoLink",props:{config:{type:Object,required:!0},iconSizing:{type:String,default:"both"}},emits:["focusout"],slots:Object,setup(e,{emit:t,slots:n}){return()=>{const{icon:r}=e.config;return s(S0,{...e,onFocusout:()=>{t("focusout")}},{default:n.default,before:n.before??(r?()=>s(Le("VPIcon"),{icon:r,sizing:e.iconSizing}):null),after:n.after})}}}),L4=R({name:"NavbarDropdown",props:{config:{type:Object,required:!0}},slots:Object,setup(e,{slots:t}){const n=Pn(e,"config"),r=_(()=>n.value.ariaLabel??n.value.text),a=Q(!1),l=i=>{i.detail===0&&(a.value=!a.value)};return Yt(()=>{a.value=!1}),()=>{var i;return s("div",{class:["vp-dropdown-wrapper",{open:a.value}]},[s("button",{type:"button",class:"vp-dropdown-title","aria-label":r.value,onClick:l},[((i=t.title)==null?void 0:i.call(t))??[s(Le("VPIcon"),{icon:n.value.icon}),e.config.text],s("span",{class:"arrow"}),s("ul",{class:"vp-dropdown"},n.value.children.map((o,c)=>{const d=c===n.value.children.length-1;return s("li",{class:"vp-dropdown-item"},"children"in o?[s("h4",{class:"vp-dropdown-subtitle"},o.link?s(et,{config:o,onFocusout:()=>{o.children.length===0&&d&&(a.value=!1)}}):o.text),s("ul",{class:"vp-dropdown-subitems"},o.children.map((u,p)=>s("li",{class:"vp-dropdown-subitem"},s(et,{config:u,onFocusout:()=>{p===o.children.length-1&&d&&(a.value=!1)}}))))]:s(et,{config:o,onFocusout:()=>{d&&(a.value=!1)}}))}))])])}}});const Ru=(e,t="")=>De(e)?$a(wn(t,e)):"children"in e?{...e,...e.link&&Zl(e.link)?{link:yt(wn(t,e.link)).path}:{},children:e.children.map(n=>Ru(n,wn(t,e.prefix)))}:{...e,link:Zl(e.link)?yt(wn(t,e.link)).path:e.link},Fu=()=>{const e=fe();return _(()=>(e.value.navbar||[]).map(t=>Ru(t)))},P4=()=>{const e=fe(),t=_(()=>e.value.repo),n=_(()=>t.value?Om(t.value):null),r=_(()=>t.value?Gi(t.value):null),a=_(()=>n.value?e.value.repoLabel??r.value??"Source":null);return _(()=>!n.value||!a.value||e.value.repoDisplay===!1?null:{type:r.value??"Source",label:a.value,link:n.value})};var B4=R({name:"NavScreenMenu",props:{config:{type:Object,required:!0}},setup(e){const t=Pn(e,"config"),n=_(()=>t.value.ariaLabel??t.value.text),r=Q(!1),a=(l,i)=>i[i.length-1]===l;return Yt(()=>{r.value=!1}),()=>[s("button",{type:"button",class:["vp-nav-screen-menu-title",{active:r.value}],"aria-label":n.value,onClick:()=>{r.value=!r.value}},[s("span",{class:"text"},[s(Le("VPIcon"),{icon:t.value.icon,sizing:"both"}),e.config.text]),s("span",{class:["arrow",r.value?"down":"end"]})]),s("ul",{class:["vp-nav-screen-menu",{hide:!r.value}]},t.value.children.map(l=>s("li",{class:"vp-nav-screen-menu-item"},"children"in l?[s("h4",{class:"vp-nav-screen-menu-subtitle"},l.link?s(et,{config:l,onFocusout:()=>{a(l,t.value.children)&&l.children.length===0&&(r.value=!1)}}):l.text),s("ul",{class:"vp-nav-screen-menu-subitems"},l.children.map(i=>s("li",{class:"vp-nav-screen-menu-subitem"},s(et,{config:i,onFocusout:()=>{a(i,l.children)&&a(l,t.value.children)&&(r.value=!1)}}))))]:s(et,{config:l,onFocusout:()=>{a(l,t.value.children)&&(r.value=!1)}}))))]}}),I4=R({name:"NavScreenLinks",setup(){const e=Fu();return()=>e.value.length?s("nav",{class:"nav-screen-links"},e.value.map(t=>s("div",{class:"navbar-links-item"},"children"in t?s(B4,{config:t}):s(et,{config:t})))):null}});const $u=()=>s(xe,{name:"dark"},()=>s("path",{d:"M524.8 938.667h-4.267a439.893 439.893 0 0 1-313.173-134.4 446.293 446.293 0 0 1-11.093-597.334A432.213 432.213 0 0 1 366.933 90.027a42.667 42.667 0 0 1 45.227 9.386 42.667 42.667 0 0 1 10.24 42.667 358.4 358.4 0 0 0 82.773 375.893 361.387 361.387 0 0 0 376.747 82.774 42.667 42.667 0 0 1 54.187 55.04 433.493 433.493 0 0 1-99.84 154.88 438.613 438.613 0 0 1-311.467 128z"}));$u.displayName="DarkIcon";const Mu=()=>s(xe,{name:"light"},()=>s("path",{d:"M952 552h-80a40 40 0 0 1 0-80h80a40 40 0 0 1 0 80zM801.88 280.08a41 41 0 0 1-57.96-57.96l57.96-58a41.04 41.04 0 0 1 58 58l-58 57.96zM512 752a240 240 0 1 1 0-480 240 240 0 0 1 0 480zm0-560a40 40 0 0 1-40-40V72a40 40 0 0 1 80 0v80a40 40 0 0 1-40 40zm-289.88 88.08-58-57.96a41.04 41.04 0 0 1 58-58l57.96 58a41 41 0 0 1-57.96 57.96zM192 512a40 40 0 0 1-40 40H72a40 40 0 0 1 0-80h80a40 40 0 0 1 40 40zm30.12 231.92a41 41 0 0 1 57.96 57.96l-57.96 58a41.04 41.04 0 0 1-58-58l58-57.96zM512 832a40 40 0 0 1 40 40v80a40 40 0 0 1-80 0v-80a40 40 0 0 1 40-40zm289.88-88.08 58 57.96a41.04 41.04 0 0 1-58 58l-57.96-58a41 41 0 0 1 57.96-57.96z"}));Mu.displayName="LightIcon";const ju=()=>s(xe,{name:"auto"},()=>s("path",{d:"M512 992C246.92 992 32 777.08 32 512S246.92 32 512 32s480 214.92 480 480-214.92 480-480 480zm0-840c-198.78 0-360 161.22-360 360 0 198.84 161.22 360 360 360s360-161.16 360-360c0-198.78-161.22-360-360-360zm0 660V212c165.72 0 300 134.34 300 300 0 165.72-134.28 300-300 300z"}));ju.displayName="AutoIcon";const Vu=()=>s(xe,{name:"enter-fullscreen"},()=>s("path",{d:"M762.773 90.24h-497.28c-96.106 0-174.4 78.293-174.4 174.4v497.28c0 96.107 78.294 174.4 174.4 174.4h497.28c96.107 0 175.04-78.293 174.4-174.4V264.64c0-96.213-78.186-174.4-174.4-174.4zm-387.2 761.173H215.04c-21.867 0-40.427-17.92-41.067-41.066V649.92c0-22.507 17.92-40.427 40.427-40.427 11.307 0 21.227 4.694 28.48 11.947 7.253 7.253 11.947 17.92 11.947 28.48v62.293l145.28-145.28c15.893-15.893 41.813-15.893 57.706 0 15.894 15.894 15.894 41.814 0 57.707l-145.28 145.28h62.294c22.506 0 40.426 17.92 40.426 40.427s-17.173 41.066-39.68 41.066zM650.24 165.76h160.427c21.866 0 40.426 17.92 41.066 41.067v160.426c0 22.507-17.92 40.427-40.426 40.427-11.307 0-21.227-4.693-28.48-11.947-7.254-7.253-11.947-17.92-11.947-28.48v-62.186L625.6 450.347c-15.893 15.893-41.813 15.893-57.707 0-15.893-15.894-15.893-41.814 0-57.707l145.28-145.28H650.88c-22.507 0-40.427-17.92-40.427-40.427s17.174-41.173 39.787-41.173z"}));Vu.displayName="EnterFullScreenIcon";const Nu=()=>s(xe,{name:"cancel-fullscreen"},()=>s("path",{d:"M778.468 78.62H247.922c-102.514 0-186.027 83.513-186.027 186.027V795.08c0 102.514 83.513 186.027 186.027 186.027h530.432c102.514 0 186.71-83.513 186.026-186.027V264.647C964.494 162.02 880.981 78.62 778.468 78.62zM250.88 574.35h171.122c23.324 0 43.122 19.115 43.804 43.805v171.121c0 24.008-19.114 43.122-43.122 43.122-12.06 0-22.641-5.006-30.378-12.743s-12.743-19.115-12.743-30.379V722.83L224.597 877.91c-16.953 16.952-44.6 16.952-61.553 0-16.953-16.954-16.953-44.602 0-61.554L318.009 661.39h-66.446c-24.007 0-43.122-19.114-43.122-43.122 0-24.12 18.432-43.918 42.439-43.918zm521.899-98.873H601.657c-23.325 0-43.122-19.114-43.805-43.804V260.55c0-24.007 19.115-43.122 43.122-43.122 12.06 0 22.642 5.007 30.379 12.743s12.743 19.115 12.743 30.38v66.445l154.965-154.965c16.953-16.953 44.601-16.953 61.554 0 16.953 16.953 16.953 44.6 0 61.554L705.536 388.55h66.446c24.007 0 43.122 19.115 43.122 43.122.114 24.007-18.318 43.804-42.325 43.804z"}));Nu.displayName="CancelFullScreenIcon";const zu=()=>s(xe,{name:"outlook"},()=>[s("path",{d:"M224 800c0 9.6 3.2 44.8 6.4 54.4 6.4 48-48 76.8-48 76.8s80 41.6 147.2 0 134.4-134.4 38.4-195.2c-22.4-12.8-41.6-19.2-57.6-19.2C259.2 716.8 227.2 761.6 224 800zM560 675.2l-32 51.2c-51.2 51.2-83.2 32-83.2 32 25.6 67.2 0 112-12.8 128 25.6 6.4 51.2 9.6 80 9.6 54.4 0 102.4-9.6 150.4-32l0 0c3.2 0 3.2-3.2 3.2-3.2 22.4-16 12.8-35.2 6.4-44.8-9.6-12.8-12.8-25.6-12.8-41.6 0-54.4 60.8-99.2 137.6-99.2 6.4 0 12.8 0 22.4 0 12.8 0 38.4 9.6 48-25.6 0-3.2 0-3.2 3.2-6.4 0-3.2 3.2-6.4 3.2-6.4 6.4-16 6.4-16 6.4-19.2 9.6-35.2 16-73.6 16-115.2 0-105.6-41.6-198.4-108.8-268.8C704 396.8 560 675.2 560 675.2zM224 419.2c0-28.8 22.4-51.2 51.2-51.2 28.8 0 51.2 22.4 51.2 51.2 0 28.8-22.4 51.2-51.2 51.2C246.4 470.4 224 448 224 419.2zM320 284.8c0-22.4 19.2-41.6 41.6-41.6 22.4 0 41.6 19.2 41.6 41.6 0 22.4-19.2 41.6-41.6 41.6C339.2 326.4 320 307.2 320 284.8zM457.6 208c0-12.8 12.8-25.6 25.6-25.6 12.8 0 25.6 12.8 25.6 25.6 0 12.8-12.8 25.6-25.6 25.6C470.4 233.6 457.6 220.8 457.6 208zM128 505.6C128 592 153.6 672 201.6 736c28.8-60.8 112-60.8 124.8-60.8-16-51.2 16-99.2 16-99.2l316.8-422.4c-48-19.2-99.2-32-150.4-32C297.6 118.4 128 291.2 128 505.6zM764.8 86.4c-22.4 19.2-390.4 518.4-390.4 518.4-22.4 28.8-12.8 76.8 22.4 99.2l9.6 6.4c35.2 22.4 80 12.8 99.2-25.6 0 0 6.4-12.8 9.6-19.2 54.4-105.6 275.2-524.8 288-553.6 6.4-19.2-3.2-32-19.2-32C777.6 76.8 771.2 80 764.8 86.4z"})]);zu.displayName="OutlookIcon";var Hu=R({name:"ColorModeSwitch",setup(){const{config:e,isDarkMode:t,status:n}=aa(),r=Xe(),a=()=>{e.value==="switch"?n.value={light:"dark",dark:"auto",auto:"light"}[n.value]:n.value=n.value==="light"?"dark":"light"},l=async i=>{if(!(document.startViewTransition&&!window.matchMedia("(prefers-reduced-motion: reduce)").matches&&!r.value)){a();return}const o=i.clientX,c=i.clientY,d=Math.hypot(Math.max(o,innerWidth-o),Math.max(c,innerHeight-c)),u=t.value;await document.startViewTransition(async()=>{a(),await pn()}).ready,t.value!==u&&document.documentElement.animate({clipPath:t.value?[`circle(${d}px at ${o}px ${c}px)`,`circle(0px at ${o}px ${c}px)`]:[`circle(0px at ${o}px ${c}px)`,`circle(${d}px at ${o}px ${c}px)`]},{duration:400,pseudoElement:t.value?"::view-transition-old(root)":"::view-transition-new(root)"})};return()=>s("button",{type:"button",class:"vp-color-mode-switch",id:"color-mode-switch",onClick:l},[s(ju,{style:{display:n.value==="auto"?"block":"none"}}),s($u,{style:{display:n.value==="dark"?"block":"none"}}),s(Mu,{style:{display:n.value==="light"?"block":"none"}})])}}),O4=R({name:"ColorMode",setup(){const e=fe(),{canToggle:t}=aa(),n=_(()=>e.value.outlookLocales.darkmode);return()=>t.value?s("div",{class:"vp-color-mode"},[s("label",{class:"vp-color-mode-title",for:"color-mode-switch"},n.value),s(Hu)]):null}}),R4=R({name:"ToggleFullScreenButton",setup(){const{isSupported:e,isFullscreen:t,toggle:n}=Ua();return()=>e.value?s("button",{type:"button",id:"full-screen-switch",class:"full-screen",ariaPressed:t.value,onClick:()=>n()},t.value?s(Nu):s(Vu)):null}}),qu=R({name:"ToggleFullScreenButton",setup(){const e=fe(),{isSupported:t}=Ua(),n=_(()=>e.value.outlookLocales.fullscreen);return()=>t.value?s("div",{class:"full-screen-wrapper"},[s("label",{class:"full-screen-title",for:"full-screen-switch"},n.value),s(R4)]):null}}),Wu=R({name:"OutlookSettings",setup(){const e=Bt(),t=Xe(),n=_(()=>!t.value&&e.value.fullscreen);return()=>s(Mi,()=>[null,s(O4),n.value?s(qu):null])}}),F4=R({name:"NavScreen",props:{show:Boolean},slots:Object,setup(e,{slots:t}){const{isMobile:n}=ra(),r=ee(),a=ea(r);return Yt(()=>{a.value=!1}),Ae(n,l=>{!l&&e.show&&(a.value=!1)}),oe(()=>{r.value=document.body}),Vt(()=>{a.value=!1}),()=>s(er,{name:"fade",onEnter:()=>{a.value=!0},onAfterLeave:()=>{a.value=!1}},()=>{var l,i;return e.show?s("div",{id:"nav-screen",class:"vp-nav-screen"},s("div",{class:"vp-nav-screen-container"},[(l=t.before)==null?void 0:l.call(t),s(I4),s("div",{class:"vp-outlook-wrapper"},s(Wu)),(i=t.after)==null?void 0:i.call(t)])):null})}}),$4=R({name:"NavbarBrand",setup(){const e=bt(),t=Yr(),n=fe(),r=_(()=>n.value.home??e.value),a=_(()=>t.value.title),l=_(()=>n.value.navbarTitle??a.value),i=_(()=>n.value.logo?ke(n.value.logo):null),o=_(()=>n.value.logoDark?ke(n.value.logoDark):null);return()=>s(Fe,{to:r.value,class:"vp-brand","aria-label":n.value.routeLocales.home},()=>[i.value?s("img",{class:["vp-nav-logo",{light:!!o.value}],src:i.value,alt:""}):null,o.value?s("img",{class:["vp-nav-logo dark"],src:o.value,alt:""}):null,l.value?s("span",{class:["vp-site-name",{"hide-in-pad":i.value&&(n.value.hideSiteNameOnMobile??!0)}]},l.value):null])}}),M4=R({name:"NavbarLinks",setup(){const e=Fu();return()=>e.value.length?s("nav",{class:"vp-nav-links"},e.value.map(t=>s("div",{class:"vp-nav-item hide-in-mobile"},"children"in t?s(L4,{config:t}):s(et,{config:t,iconSizing:"height"})))):null}}),j4=R({name:"RepoLink",setup(){const e=P4();return()=>e.value?s("div",{class:"vp-nav-item vp-action"},s("a",{class:"vp-action-link",href:e.value.link,target:"_blank",rel:"noopener noreferrer","aria-label":e.value.label},s(tu,{type:e.value.type,style:{width:"1.25rem",height:"1.25rem",verticalAlign:"middle"}}))):null}});const Gu=({active:e=!1},{emit:t})=>s("button",{type:"button",class:["vp-toggle-navbar-button",{"is-active":e}],"aria-label":"Toggle Navbar","aria-expanded":e,"aria-controls":"nav-screen",onClick:()=>{t("toggle")}},s("span",[s("span",{class:"vp-top"}),s("span",{class:"vp-middle"}),s("span",{class:"vp-bottom"})]));Gu.displayName="ToggleNavbarButton";const ti=(e,{emit:t})=>s("button",{type:"button",class:"vp-toggle-sidebar-button",title:"Toggle Sidebar",onClick:()=>{t("toggle")}},s("span",{class:"icon"}));ti.displayName="ToggleSidebarButton",ti.emits=["toggle"];var V4=R({name:"OutlookButton",setup(){const e=Bt(),{canToggle:t}=aa(),{isSupported:n}=Ua(),r=Xe(),a=Q(!1),l=_(()=>!r.value&&e.value.fullscreen&&n),i=_(()=>t.value||l.value);return Yt(()=>{a.value=!1}),()=>i.value?s("div",{class:"vp-nav-item hide-in-mobile"},t.value&&!l.value?s(Hu):l.value&&!t.value?s(qu):s("button",{type:"button",class:["vp-outlook-button",{open:a.value}],tabindex:"-1","aria-hidden":!0},[s(zu),s("div",{class:"vp-outlook-dropdown"},s(Wu))])):null}}),N4=R({name:"NavBar",emits:["toggleSidebar"],slots:Object,setup(e,{emit:t,slots:n}){const r=fe(),{isMobile:a}=ra(),l=Q(!1),i=_(()=>{const{navbarAutoHide:u="mobile"}=r.value;return u!=="none"&&(u==="always"||a.value)}),o=_(()=>r.value.navbarLayout??{start:["Brand"],center:["Links"],end:["Language","Repo","Outlook","Search"]}),c={Brand:$4,Language:Ca,Links:M4,Repo:j4,Outlook:V4,Search:We("SearchBox")?Le("SearchBox"):Ca},d=u=>c[u]??(We(u)?Le(u):Ca);return Yt(()=>{l.value=!1}),Ae(a,u=>{u||(l.value=!1)}),()=>{var u,p,h;return[s("header",{key:"navbar",id:"navbar",class:["vp-navbar",{"auto-hide":i.value}],"vp-navbar":""},[s("div",{class:"vp-navbar-start"},[s(ti,{onToggle:()=>{l.value&&(l.value=!1),t("toggleSidebar")}}),(u=o.value.start)==null?void 0:u.map(f=>s(d(f)))]),s("div",{class:"vp-navbar-center"},[(p=o.value.center)==null?void 0:p.map(f=>s(d(f)))]),s("div",{class:"vp-navbar-end"},[(h=o.value.end)==null?void 0:h.map(f=>s(d(f))),s(Gu,{active:l.value,onToggle:()=>{l.value=!l.value}})])]),s(F4,{show:l.value},{before:n.screenTop,after:n.screenBottom})]}}}),z4=R({name:"SidebarChild",props:{config:{type:Object,required:!0}},setup(e){const t=Jt();return()=>De(e.config.link)?s(et,{class:["vp-sidebar-link",{active:Ji(t,e.config)}],config:{...e.config,exact:!0}}):s("p",e,[s(Le("VPIcon"),{icon:e.config.icon,sizing:"both"}),e.config.text])}}),H4=R({name:"SidebarGroup",props:{config:{type:Object,required:!0},open:{type:Boolean,required:!0}},emits:["toggle"],setup(e,{emit:t}){const n=Jt(),r=Q(!1),a=_(()=>Yi(n,e.config)),l=_(()=>Ji(n,e.config)),i=_(()=>e.open||e.config.expanded&&!r.value);return()=>{const{collapsible:o,children:c=[],icon:d,prefix:u,link:p,text:h}=e.config;return s("section",{class:"vp-sidebar-group"},[s(o?"button":"p",{class:["vp-sidebar-header",{clickable:o||p,exact:l.value,active:a.value}],...o?{type:"button",onClick:()=>{r.value=!0,t("toggle")}}:{}},[s(Le("VPIcon"),{icon:d,sizing:"both"}),p?s(et,{class:"vp-sidebar-title no-external-link-icon",config:{text:h,link:p}}):s("span",{class:"vp-sidebar-title"},h),o?s("span",{class:["vp-arrow",i.value?"down":"end"]}):null]),i.value||!o?s(Uu,{key:u,config:c}):null])}}}),Uu=R({name:"SidebarLinks",props:{config:{type:Array,required:!0}},setup(e){const t=Jt(),n=Jr(),r=Q(-1),a=l=>{r.value=l===r.value?-1:l};return ut(n,()=>{const l=e.config.findIndex(i=>Yi(t,i));r.value=l},{flush:"post"}),()=>s("ul",{class:"vp-sidebar-links"},e.config.map((l,i)=>s("li","children"in l?s(H4,{config:l,open:i===r.value,onToggle:()=>{a(i)}}):s(z4,{config:l}))))}}),q4=R({name:"SideBar",slots:Object,setup(e,{slots:t}){const n=Jt(),r=Qi(),a=ee();return oe(()=>{ut(()=>n.hash,l=>{const i=document.querySelector(`.vp-sidebar a.vp-sidebar-link[href="${n.path}${l}"]`);if(!i)return;const{top:o,height:c}=a.value.getBoundingClientRect(),{top:d,height:u}=i.getBoundingClientRect();d<o?i.scrollIntoView(!0):d+u>o+c&&i.scrollIntoView(!1)})}),()=>{var l,i,o;return s("aside",{ref:a,key:"sidebar",id:"sidebar",class:"vp-sidebar","vp-sidebar":""},[(l=t.top)==null?void 0:l.call(t),((i=t.default)==null?void 0:i.call(t))??s(Uu,{config:r.value}),(o=t.bottom)==null?void 0:o.call(t)])}}}),Xi=R({name:"CommonWrapper",props:{containerClass:String,noNavbar:Boolean,noSidebar:Boolean,noToc:Boolean},slots:Object,setup(e,{slots:t}){const n=he(),r=Bt(),a=fe(),{isMobile:l,isPC:i}=ra(),o=Xe(),[c,d]=rr(!1),[u,p]=rr(!1),h=Qi(),f=ee(),m=ea(f),y=Q(!1),k=_(()=>e.noNavbar||n.value.navbar===!1||a.value.navbar===!1?!1:!!(a.value.logo??a.value.repo??a.value.navbar)),w=_(()=>e.noSidebar?!1:(n.value.sidebar??!0)&&h.value.length!==0&&!n.value.home),x=_(()=>n.value.externalLinkIcon??r.value.externalLinkIcon??!0),v=_(()=>!e.noToc&&!n.value.home&&(n.value.toc??a.value.toc??!0)),E={x:0,y:0},B=W=>{E.x=W.changedTouches[0].clientX,E.y=W.changedTouches[0].clientY},q=W=>{const I=W.changedTouches[0].clientX-E.x,M=W.changedTouches[0].clientY-E.y;Math.abs(I)>Math.abs(M)*1.5&&Math.abs(I)>40&&(I>0&&E.x<=80?d(!0):d(!1))};let L=0;return ie("scroll",Cd(()=>{const W=window.scrollY;W<=58||W<L?y.value=!1:L+200<W&&!c.value&&(y.value=!0),L=W},300,!0)),Yt(()=>{d(!1)}),Ae(l,W=>{W||d(!1)}),Ae(c,W=>{m.value=W}),oe(()=>{f.value=document.body}),Vt(()=>{m.value=!1}),()=>s(We("GlobalEncrypt")?Le("GlobalEncrypt"):Ya,()=>s("div",{class:["theme-container",{"hide-navbar":y.value,"no-navbar":!k.value,"sidebar-collapsed":!l.value&&!i.value&&u.value,"sidebar-open":l.value&&c.value,"no-sidebar":!w.value&&!t.sidebar&&!t.sidebarTop&&!t.sidebarBottom,"external-link-icon":x.value,pure:o.value,"has-toc":v.value},e.containerClass??"",n.value.containerClass??""],"vp-container":"",onTouchStart:B,onTouchEnd:q},[k.value?s(N4,{onToggleSidebar:()=>d()},{screenTop:t.navScreenTop,screenBottom:t.navScreenBottom}):null,s(er,{name:"fade"},()=>c.value?s("div",{class:"vp-sidebar-mask",onClick:()=>d(!1)}):null),s(er,{name:"fade"},()=>l.value?null:s("div",{class:"toggle-sidebar-wrapper",onClick:()=>p()},s("span",{class:["arrow",u.value?"end":"start"]}))),s(q4,{},{default:t.sidebar,top:t.sidebarTop,bottom:t.sidebarBottom}),t.default(),s(D4)]))}});const se=R({name:"DropTransition",props:{type:{type:String,default:"single"},delay:{type:Number,default:0},duration:{type:Number,default:.25},appear:Boolean},slots:Object,setup(e,{slots:t}){const n=a=>{a.style.transition=`transform ${e.duration}s ease-in-out ${e.delay}s, opacity ${e.duration}s ease-in-out ${e.delay}s`,a.style.transform="translateY(-20px)",a.style.opacity="0"},r=a=>{a.style.transform="translateY(0)",a.style.opacity="1"};return()=>{const a={name:"drop",appear:e.appear,onAppear:n,onAfterAppear:r,onEnter:n,onAfterEnter:r,onBeforeLeave:n},l=()=>t.default();return e.type==="group"?s(id,a,l):s(er,a,l)}}});var Xa=R({name:"MarkdownContent",props:{custom:Boolean},slots:Object,setup(e,{slots:t}){const n=he(),r=Bt(),a=fe(),l=Q(),i=pf(l,{delayEnter:Ta(r.value.focus)?r.value.focus:1500,delayLeave:0}),o=_(()=>!!(r.value.focus??r.value.pure)&&i.value),c=_(()=>n.value.changelog??((a.value.changelog??!1)&&!n.value.home)),d=_(()=>n.value.contributors??((a.value.contributors??!0)&&!n.value.home));return oe(()=>{const u=document.documentElement;ut(o,p=>{p?u.classList.add("is-focusing"):u.classList.remove("is-focusing")})}),()=>{var u,p;return s("div",{class:{custom:e.custom},"vp-content":""},[(u=t.before)==null?void 0:u.call(t),s(wd,{ref:l,id:"markdown-content"}),(p=t.after)==null?void 0:p.call(t),c.value&&We("GitChangelog")?s(Le("GitChangelog")):null,d.value&&We("GitContributors")?s(Le("GitContributors")):null])}}}),W4=R({name:"PrintButton",setup(){const e=Bt(),t=fe();return()=>e.value.print===!1?null:s("button",{type:"button",class:"print-button",title:t.value.metaLocales.print,onClick:()=>{window.print()}},s(Cu))}}),Ku=R({name:"TOC",props:{items:Array,options:Object},slots:Object,setup(e,{slots:t}){const n=Pn(e,"options"),r=eg(n),a=Jt(),l=mn(),[i,o]=rr(),c=ee(),d=Q("-2rem"),u=m=>{var y;(y=c.value)==null||y.scrollTo({top:m,behavior:"smooth"})},p=()=>{if(c.value){const m=document.querySelector(".vp-toc-item.active");m?d.value=`${m.getBoundingClientRect().top-c.value.getBoundingClientRect().top+c.value.scrollTop}px`:d.value="-2rem"}else d.value="-2rem"};oe(()=>{ut(()=>a.hash,m=>{if(c.value){const y=document.querySelector(`#toc a.vp-toc-link[href$="${m}"]`);if(!y)return;const{top:k,height:w}=c.value.getBoundingClientRect(),{top:x,height:v}=y.getBoundingClientRect();x<k?u(c.value.scrollTop+x-k):x+v>k+w&&u(c.value.scrollTop+x+v-k-w)}},{flush:"post"}),ut(()=>a.fullPath,p,{flush:"post"})});const h=({title:m,level:y,slug:k})=>s(Fe,{to:`#${k}`,class:["vp-toc-link",`level${y}`],onClick:()=>{o()}},()=>m),f=m=>m.length?s("ul",{class:"vp-toc-list"},m.map(y=>{const k=f(y.children);return[s("li",{class:["vp-toc-item",{active:a.hash===`#${y.slug}`}]},h(y)),k?s("li",k):null]})):null;return()=>{var w,x,v;const m=(w=e.items)!=null&&w.length?f(e.items):f(r.value),y=(x=t.before)==null?void 0:x.call(t),k=(v=t.after)==null?void 0:v.call(t);return s(Mi,()=>m||y||k?s("div",{class:"vp-toc-placeholder"},[s("aside",{id:"toc","vp-toc":""},[y,m?[s("div",{class:"vp-toc-header",onClick:()=>{o()}},[l.value.toc,s(W4),s("div",{class:["arrow",i.value?"down":"end"]})]),s("div",{class:["vp-toc-wrapper",i.value?"open":""],ref:c},[m,s("div",{class:"vp-toc-marker",style:{top:d.value}})])]:null,k])]):null)}}}),Zi=R({name:"SkipLink",props:{content:{type:String,default:"main-content"}},setup(e){const t=fe(),n=ee(),r=({target:a})=>{const l=document.querySelector(a.hash);if(l){const i=()=>{l.removeAttribute("tabindex"),l.removeEventListener("blur",i)};l.setAttribute("tabindex","-1"),l.addEventListener("blur",i),l.focus(),window.scrollTo(0,0)}};return Yt(()=>{var a;(a=n.value)==null||a.focus()}),()=>[s("span",{ref:n,tabindex:"-1"}),s("a",{href:`#${e.content}`,class:"vp-skip-link sr-only",onClick:r},t.value.routeLocales.skipToContent)]}});let Pl=null,fr=null;const ni={wait:()=>Pl,pending:()=>{Pl=new Promise(e=>{fr=e})},resolve:()=>{fr==null||fr(),Pl=null,fr=null}},es=(e,{slots:t})=>s(er,{name:"fade-slide-y",mode:"out-in",onBeforeEnter:ni.resolve,onBeforeLeave:ni.pending},()=>t.default());es.displayName="FadeSlideY";var Ju=R({name:"PageTitle",setup(){const e=Ve(),t=he(),n=fe(),{info:r,items:a}=f4();return()=>s("div",{class:"vp-page-title"},[s("h1",[n.value.titleIcon===!1?null:s(Le("VPIcon"),{icon:t.value.icon}),e.value.title]),s(Pu,{info:r.value,items:a.value}),s("hr")])}});const G4=(e,t)=>{const n=e.replace(t,"/").split("/"),r=[];let a=Oi(t);return n.forEach((l,i)=>{i!==n.length-1?(a+=`${l}/`,r.push({link:a,name:l||"Home"})):l!==""&&(a+=l,r.push({link:a,name:l}))}),r},No=(e,t)=>e===!1?e:sr(e)?{...e,link:$a(e.link,!0,t).link}:De(e)?$a(e,!0,t):null,ri=(e,t,n)=>{const r=e.findIndex(l=>l.link===t);if(r!==-1){if(!e[r+n])return null;const l=e[r+n];return l.link?l:"prefix"in l&&!yt(l.prefix).notFound?{...l,link:l.prefix}:null}for(const l of e)if("children"in l){const i=ri(l.children,t,n);if(i)return i}const a=e.findIndex(l=>"prefix"in l&&l.prefix===t);if(a!==-1){if(!e[a+n])return null;const l=e[a+n];return l.link?l:"prefix"in l&&!yt(l.prefix).notFound?{...l,link:l.prefix}:null}return null},U4=()=>{const e=he(),t=fe(),n=Qi(),r=Jr(),a=_(()=>{const i=No(e.value.prev,r.value);return i===!1?null:i??(t.value.prevLink===!1?null:ri(n.value,r.value,-1))}),l=_(()=>{const i=No(e.value.next,r.value);return i===!1?null:i??(t.value.nextLink===!1?null:ri(n.value,r.value,1))});return{prevLink:a,nextLink:l}},ai=(e,{slots:t})=>{var p,h;const{bgImage:n,bgImageDark:r,bgImageStyle:a,color:l,description:i,image:o,imageDark:c,header:d,features:u=[]}=e;return s("div",{class:"vp-feature-wrapper"},[n?s("div",{class:["vp-feature-bg",{light:r}],style:[{"background-image":`url(${n})`},a]}):null,r?s("div",{class:"vp-feature-bg dark",style:[{"background-image":`url(${r})`},a]}):null,s("div",{class:"vp-feature",style:l?{color:l}:{}},[((p=t.image)==null?void 0:p.call(t,e))??[o?s("img",{class:["vp-feature-image",{light:c}],src:ke(o),alt:""}):null,c?s("img",{class:"vp-feature-image dark",src:ke(c),alt:""}):null],((h=t.info)==null?void 0:h.call(t,e))??[d?s("h2",{class:"vp-feature-header"},d):null,i?s("p",{class:"vp-feature-description",innerHTML:i}):null],u.length?s("div",{class:"vp-features"},u.map(({icon:f,title:m,details:y,link:k})=>{const w=[s("h3",{class:"vp-feature-title"},[s(Le("VPIcon"),{icon:f}),s("span",{innerHTML:m})]),s("p",{class:"vp-feature-details",innerHTML:y})];return k?Bi(k)?s("a",{class:"vp-feature-item link",href:k,"aria-label":m,target:"_blank"},w):s(Fe,{class:"vp-feature-item link",to:k,"aria-label":m},()=>w):s("div",{class:"vp-feature-item"},w)})):null])])};ai.displayName="FeaturePanel";var K4=R({name:"HeroInfo",slots:Object,setup(e,{slots:t}){const n=he(),r=Yr(),a=_(()=>n.value.heroFullScreen??!1),l=_(()=>{const{heroText:d,tagline:u}=n.value;return{text:d??(r.value.title||"Hello"),tagline:u??r.value.description,isFullScreen:a.value}}),i=_(()=>{const{heroText:d,heroImage:u,heroImageDark:p,heroAlt:h,heroImageStyle:f}=n.value;return{image:u?ke(u):null,imageDark:p?ke(p):null,imageStyle:f,alt:h??d??"",isFullScreen:a.value}}),o=_(()=>{const{bgImage:d,bgImageDark:u,bgImageStyle:p}=n.value;return{image:De(d)?ke(d):null,imageDark:De(u)?ke(u):null,bgStyle:p,isFullScreen:a.value}}),c=_(()=>n.value.actions??[]);return()=>{var d,u,p;return s("header",{class:["vp-hero-info-wrapper",{fullscreen:a.value}]},[((d=t.bg)==null?void 0:d.call(t,o.value))??[o.value.image?s("div",{class:["vp-hero-mask",{light:o.value.imageDark}],style:[{"background-image":`url(${o.value.image})`},o.value.bgStyle]}):null,o.value.imageDark?s("div",{class:"vp-hero-mask dark",style:[{"background-image":`url(${o.value.imageDark})`},o.value.bgStyle]}):null],s("div",{class:"vp-hero-info"},[((u=t.logo)==null?void 0:u.call(t,i.value))??s(se,{appear:!0,type:"group"},()=>{const{image:h,imageDark:f,imageStyle:m,alt:y}=i.value;return[h?s("img",{key:"light",class:["vp-hero-image",{light:f}],style:m,src:h,alt:y}):null,f?s("img",{key:"dark",class:"vp-hero-image dark",style:m,src:f,alt:y}):null]}),((p=t.info)==null?void 0:p.call(t,l.value))??s("div",{class:"vp-hero-infos"},[l.value.text?s(se,{appear:!0,delay:.04},()=>s("h1",{id:"main-title",class:"vp-hero-title"},l.value.text)):null,l.value.tagline?s(se,{appear:!0,delay:.08},()=>s("p",{id:"main-description",innerHTML:l.value.tagline})):null,c.value.length?s(se,{appear:!0,delay:.12},()=>s("p",{class:"vp-hero-actions"},c.value.map(h=>s(et,{class:["vp-hero-action",h.type??"default","no-external-link-icon"],config:h})))):null])])])}}});const Yu=(e,{slots:t})=>{var h,f,m;const{bgImage:n,bgImageDark:r,bgImageStyle:a,color:l,description:i,image:o,imageDark:c,header:d,highlights:u=[],type:p="un-order"}=e;return s("div",{class:"vp-highlight-wrapper",style:l?{color:l}:{}},[n?s("div",{class:["vp-highlight-bg",{light:r}],style:[{"background-image":`url(${n})`},a]}):null,r?s("div",{class:"vp-highlight-bg dark",style:[{"background-image":`url(${r})`},a]}):null,s("div",{class:"vp-highlight"},[((h=t.image)==null?void 0:h.call(t,e))??[o?s("img",{class:["vp-highlight-image",{light:c}],src:ke(o),alt:""}):null,c?s("img",{class:"vp-highlight-image dark",src:ke(c),alt:""}):null],((f=t.info)==null?void 0:f.call(t,e))??[s("div",{class:"vp-highlight-info-wrapper"},s("div",{class:"vp-highlight-info"},[d?s("h2",{class:"vp-highlight-header",innerHTML:d}):null,i?s("p",{class:"vp-highlight-description",innerHTML:i}):null,((m=t.highlights)==null?void 0:m.call(t,u))??s(p==="order"?"ol":p==="no-order"?"dl":"ul",{class:"vp-highlights"},u.map(({icon:y,title:k,details:w,link:x})=>{const v=[s(p==="no-order"?"dt":"h3",{class:"vp-highlight-title"},[y?s(Le("VPIcon"),{class:"vp-highlight-icon",icon:y}):null,s("span",{innerHTML:k})]),w?s(p==="no-order"?"dd":"p",{class:"vp-highlight-details",innerHTML:w}):null];return s(p==="no-order"?"div":"li",{class:["vp-highlight-item-wrapper",{link:x}]},x?Bi(x)?s("a",{class:"vp-highlight-item link",href:x,"aria-label":k,target:"_blank"},v):s(Fe,{class:"vp-highlight-item link",to:x,"aria-label":k},()=>v):s("div",{class:"vp-highlight-item"},v))}))]))]])])};Yu.displayName="HighlightPanel";var J4=R({name:"HomePage",slots:Object,setup(e,{slots:t}){const n=he(),r=_(()=>{const{features:l}=n.value;return Fr(l)?l:null}),a=_(()=>{const{highlights:l}=n.value;return Fr(l)?l:null});return()=>{var l,i,o,c;return s("main",{id:"main-content",class:"vp-page vp-project-home","aria-labelledby":n.value.heroText===""?"":"main-title"},[(l=t.top)==null?void 0:l.call(t),s(K4),((i=a.value)==null?void 0:i.map(d=>"features"in d?s(ai,d):s(Yu,d)))??(r.value?s(se,{appear:!0,delay:.24},()=>s(ai,{features:r.value})):null),(o=t.center)==null?void 0:o.call(t),s(se,{appear:!0,delay:.32},()=>s(Xa)),(c=t.bottom)==null?void 0:c.call(t)])}}}),Y4=R({name:"BreadCrumb",setup(){const e=Ve(),t=bt(),n=Jr(),r=he(),a=fe(),l=ee([]),i=_(()=>(r.value.breadcrumb??a.value.breadcrumb??!0)&&l.value.length>1),o=_(()=>r.value.breadcrumbIcon??a.value.breadcrumbIcon??!0),c=()=>{const d=G4(e.value.path,t.value).map(({link:u,name:p})=>{const{path:h,meta:f,notFound:m}=yt(u);return m||f.breadcrumbExclude?null:{title:f.shortTitle||f.title||p,icon:f.icon,path:h}}).filter(u=>u!==null);d.length>1&&(l.value=d)};return oe(()=>{ut(n,c)}),()=>s("nav",{class:["vp-breadcrumb",{disable:!i.value}]},i.value?s("ol",{vocab:"https://schema.org/",typeof:"BreadcrumbList"},l.value.map((d,u)=>s("li",{class:{"is-active":l.value.length-1===u},property:"itemListElement",typeof:"ListItem"},[s(Fe,{to:d.path,property:"item",typeof:"WebPage"},()=>[o.value?s(Le("VPIcon"),{icon:d.icon}):null,s("span",{property:"name"},d.title||"Unknown")]),s("meta",{property:"position",content:u+1})]))):[])}}),Q4=R({name:"PageNav",setup(){const e=fe(),t=Qt(),{prevLink:n,nextLink:r}=U4();return ie("keydown",a=>{a.altKey&&(a.key==="ArrowRight"?r.value&&(t(r.value.link),a.preventDefault()):a.key==="ArrowLeft"&&n.value&&(t(n.value.link),a.preventDefault()))}),()=>n.value||r.value?s("nav",{class:"vp-page-nav"},[n.value?s(et,{class:"prev",config:n.value},()=>{var a,l;return[s("div",{class:"hint"},[s("span",{class:"arrow start"}),e.value.metaLocales.prev]),s("div",{class:"link"},[s(Le("VPIcon"),{icon:(a=n.value)==null?void 0:a.icon}),(l=n.value)==null?void 0:l.text])]}):null,r.value?s(et,{class:"next",config:r.value},()=>{var a,l;return[s("div",{class:"hint"},[e.value.metaLocales.next,s("span",{class:"arrow end"})]),s("div",{class:"link"},[(a=r.value)==null?void 0:a.text,s(Le("VPIcon"),{icon:(l=r.value)==null?void 0:l.icon})])]}):null]):null}});const X4={GitHub:":repo/edit/:branch/:path",GitLab:":repo/-/edit/:branch/:path",Gitee:":repo/edit/:branch/:path",Bitbucket:":repo/src/:branch/:path?mode=edit&spa=0&at=:branch&fileviewer=file-view-default"},Z4=({docsRepo:e,docsBranch:t,docsDir:n,filePathRelative:r,editLinkPattern:a})=>{if(!r)return null;const l=Gi(e);let i;return a?i=a:l!==null&&(i=X4[l]),i?i.replace(/:repo/u,hn(e)?e:`https://github.com/${e}`).replace(/:branch/u,t).replace(/:path/u,od(`${Oi(n)}/${r}`)):null},ev=()=>{const e=fe(),t=Ve(),n=he();return _(()=>{const{repo:r,docsRepo:a=r,docsBranch:l="main",docsDir:i="",editLink:o,editLinkPattern:c=""}=e.value;if(!(n.value.editLink??o??!0)||!a)return null;const d=Z4({docsRepo:a,docsBranch:l,docsDir:i,editLinkPattern:c,filePathRelative:t.value.filePathRelative});return d?{text:e.value.metaLocales.editLink,link:d}:null})},Qu=()=>s(xe,{name:"edit"},()=>[s("path",{d:"M430.818 653.65a60.46 60.46 0 0 1-50.96-93.281l71.69-114.012 7.773-10.365L816.038 80.138A60.46 60.46 0 0 1 859.225 62a60.46 60.46 0 0 1 43.186 18.138l43.186 43.186a60.46 60.46 0 0 1 0 86.373L588.879 565.55l-8.637 8.637-117.466 68.234a60.46 60.46 0 0 1-31.958 11.229z"}),s("path",{d:"M728.802 962H252.891A190.883 190.883 0 0 1 62.008 771.98V296.934a190.883 190.883 0 0 1 190.883-192.61h267.754a60.46 60.46 0 0 1 0 120.92H252.891a69.962 69.962 0 0 0-69.098 69.099V771.98a69.962 69.962 0 0 0 69.098 69.098h475.911A69.962 69.962 0 0 0 797.9 771.98V503.363a60.46 60.46 0 1 1 120.922 0V771.98A190.883 190.883 0 0 1 728.802 962z"})]);Qu.displayName="EditIcon";var tv=R({name:"PageMeta",setup(){const e=he(),t=fe(),n=ev(),r=ag(()=>e.value.lastUpdated??t.value.lastUpdated??!0);return()=>{const a=(e.value.changelog??t.value.changelog??!0)&&We("GitChangelog");return s("footer",{class:"vp-page-meta"},[n.value?s("div",{class:"vp-meta-item edit-link"},s(et,{class:"vp-meta-label",config:n.value},{before:()=>s(Qu)})):null,s("div",{class:"vp-meta-item git-info"},!a&&r.value?s("div",{class:"update-time"},[s("span",{class:"vp-meta-label"},r.value.locale),s("time",{class:"vp-meta-info",datetime:r.value.iso,"data-allow-mismatch":""},r.value.text)]):[])])}}}),nv=R({name:"NormalPage",slots:Object,setup(e,{slots:t}){const n=he(),{isDarkMode:r}=aa(),a=fe(),l=_(()=>n.value.toc??a.value.toc??!0),i=_(()=>[2,(n.value.headerDepth??a.value.headerDepth??2)+1]);return()=>s("main",{id:"main-content",class:"vp-page"},s(We("LocalEncrypt")?Le("LocalEncrypt"):Ya,()=>{var o,c;return[(o=t.top)==null?void 0:o.call(t),n.value.cover?s("div",{class:"page-cover"},s("img",{src:ke(n.value.cover),alt:"","no-view":""})):null,s(Y4),s(Ju),l.value?s(Ku,{options:{levels:i.value,ignore:[".vp-badge"]}},{before:t.tocBefore,after:t.tocAfter}):null,s(Xa,{},{before:t.contentBefore,after:t.contentAfter}),s(tv),s(Q4),We("CommentService")?s(Le("CommentService"),{darkmode:r.value}):null,(c=t.bottom)==null?void 0:c.call(t)]}))}}),rv=R({name:"PortfolioHero",slots:Object,setup(e,{slots:t}){const n=_u(),r=he(),a=Q(0),l=_(()=>{var h;return((h=r.value.titles)==null?void 0:h[a.value])??""}),i=Q(""),o=_(()=>{const{name:h,avatar:f,avatarDark:m,avatarAlt:y,avatarStyle:k}=r.value;return{name:h??n.value.name,avatar:f?ke(f):null,avatarDark:m?ke(m):null,avatarStyle:k,alt:(y||h)??""}}),c=_(()=>{const{bgImage:h,bgImageDark:f,bgImageStyle:m}=r.value;return{image:De(h)?ke(h):null,imageDark:De(f)?ke(f):null,bgStyle:m}}),d=_(()=>{const{welcome:h,name:f,titles:m=[],medias:y}=r.value;return{name:f??n.value.name,welcome:h??"👋 Hi There, I'm",title:i.value,titles:m,medias:y??null}}),u=()=>{i.value="";let h=0,f=!1;const m=async()=>{if(!f)if(i.value+=l.value[h],h+=1,await pn(),h<l.value.length)setTimeout(()=>{m()},150);else{const y=d.value.titles.length;setTimeout(()=>{a.value=y<=1||a.value===d.value.titles.length-1?0:a.value+1},1e3)}};return m(),()=>{f=!0}};let p;return oe(()=>{ut(l,()=>{p==null||p(),p=u()})}),()=>{var h,f,m;return s("section",{id:"portfolio",class:["vp-portfolio",{bg:c.value.image}]},[((h=t.bg)==null?void 0:h.call(t,c.value))??[c.value.image?s("div",{class:["vp-portfolio-mask",{light:c.value.imageDark}],style:[{background:`url(${c.value.image}) center/cover no-repeat`},c.value.bgStyle]}):null,c.value.imageDark?s("div",{class:"vp-portfolio-mask dark",style:[{background:`url(${c.value.imageDark}) center/cover no-repeat`},c.value.bgStyle]}):null],((f=t.avatar)==null?void 0:f.call(t,o.value))??s("div",{class:"vp-portfolio-avatar"},[s(se,{delay:.04},()=>{const{avatar:y,avatarDark:k,name:w,alt:x,avatarStyle:v}=o.value;return[y?s("img",{key:"light",class:{light:k},src:y,title:w,alt:x,style:v}):null,k?s("img",{key:"dark",class:"dark",src:k,title:w,alt:x,style:v}):null]})]),s("div",{class:"vp-portfolio-container"},((m=t.info)==null?void 0:m.call(t,d.value))??s("div",{class:"vp-portfolio-info"},[s(se,{appear:!0,delay:.08},()=>s("h6",{class:"vp-portfolio-welcome"},d.value.welcome)),s(se,{appear:!0,delay:.12},()=>s("h1",{class:"vp-portfolio-name",id:"main-title"},d.value.name)),s(se,{appear:!0,delay:.16},()=>s("h2",{class:"vp-portfolio-title"},i.value)),s(se,{appear:!0,delay:.2},()=>d.value.medias?s("div",{class:"vp-portfolio-medias"},d.value.medias.map(({name:y,url:k,icon:w})=>s("a",{class:"vp-portfolio-media",href:k,rel:"noopener noreferrer",target:"_blank",title:y},s(Le("VPIcon"),{icon:w,sizing:"both"})))):We("SocialMedias")?s(Le("SocialMedias")):null)]))])}}}),av=R({name:"PortfolioHome",setup(){const e=he(),t=_(()=>e.value.content??"portfolio");return()=>s("main",{id:"main-content",class:"vp-page vp-portfolio-home","aria-labelledby":"main-title"},[s(rv),t.value==="none"?null:s("div",s(se,{appear:!0,delay:.24},()=>s(Xa,{class:{"vp-portfolio-content":t.value==="portfolio"}})))])}}),lv=R({name:"Layout",slots:Object,setup(e,{slots:t}){const n=Bt(),r=fe(),a=Ve(),l=he(),i=Xe(),{isMobile:o}=ra(),c=_(()=>{var d,u;return((d=r.value.blog)==null?void 0:d.sidebarDisplay)??((u=n.value.blog)==null?void 0:u.sidebarDisplay)??"mobile"});return()=>[s(Zi),s(Xi,{},{default:()=>{var d;return((d=t.default)==null?void 0:d.call(t))??(l.value.portfolio?s(av):l.value.home?s(J4):s(i.value?Ya:es,()=>s(nv,{key:a.value.path},{top:t.top,bottom:t.bottom,contentBefore:t.contentBefore,contentAfter:t.contentAfter,tocBefore:t.tocBefore,tocAfter:t.tocAfter})))},navScreenBottom:c.value==="none"&&We("BloggerInfo")?()=>s(Le("BloggerInfo")):null,sidebar:!o.value&&c.value==="always"&&We("BloggerInfo")?()=>s(Le("BloggerInfo")):null})]}}),iv=R({name:"NotFoundHint",setup(){const e=fe(),t=()=>{const n=e.value.routeLocales.notFoundMsg;return n[Math.floor(Math.random()*n.length)]};return()=>s("div",{class:"not-found-hint"},[s("p",{class:"error-code"},"404"),s("h1",{class:"error-title"},e.value.routeLocales.notFoundTitle),s("p",{class:"error-hint"},t())])}}),sv=R({name:"NotFound",slots:Object,setup(e,{slots:t}){const n=fn(),r=bt(),a=fe();return()=>[s(Zi),s(Xi,{noSidebar:!0},()=>{var l;return s("main",{id:"main-content",class:"vp-page not-found"},((l=t.default)==null?void 0:l.call(t))??[s(iv),s("div",{class:"actions"},[s("button",{type:"button",class:"action-button",onClick:()=>{window.history.go(-1)}},a.value.routeLocales.back),s("button",{type:"button",class:"action-button",onClick:()=>{n.push(a.value.home??r.value)}},a.value.routeLocales.home)])])})]}});const ov={BiliBili:'<svg xmlns="http://www.w3.org/2000/svg" class="vp-social-media-icon bilibili-icon" viewBox="0 0 1024 1024"><circle cx="512" cy="512" r="512" fill="#1296db"/><path fill="#fff" d="M745.363 177.725a47 47 0 0 1 0 66.3L702.5 286.85h44A141 141 0 0 1 887 427.512v281.25a141 141 0 0 1-141 140.626H277.25A141 141 0 0 1 137 708.763v-281.25a141 141 0 0 1 141-141h43.725l-42.788-42.825a47 47 0 1 1 66.263-66.3l99.45 99.45c2.963 2.962 5.438 6.187 7.425 9.637h120.487c1.988-3.45 4.5-6.75 7.463-9.675l99.413-99.45a47 47 0 0 1 66.3 0zm1.012 203.25h-468.75a47 47 0 0 0-46.763 43.388l-.112 3.525v281.25c0 24.712 19.125 44.962 43.387 46.724l3.488.15h468.75a47 47 0 0 0 46.763-43.387l.112-3.487v-281.25c0-26-21-47-47-46.876zm-375 93.75c26 0 47 21 47 47v47a47 47 0 1 1-93.75 0V521.6c0-26 21-47 47-47zm281.25 0c26 0 47 21 47 47v47a47 47 0 1 1-93.75 0V521.6c0-26 21-47 47-47z"/></svg>',GitHub:'<svg xmlns="http://www.w3.org/2000/svg" class="vp-social-media-icon github-icon" viewBox="0 0 1024 1024"><circle cx="512" cy="512" r="512" fill="#171515"/><path fill="#fff" d="M509.423 146.442c-200.317 0-362.756 162.42-362.756 362.8 0 160.266 103.936 296.24 248.109 344.217 18.139 3.327 24.76-7.872 24.76-17.486 0-8.613-.313-31.427-.49-61.702-100.912 21.923-122.205-48.63-122.205-48.63-16.495-41.91-40.28-53.067-40.28-53.067-32.937-22.51 2.492-22.053 2.492-22.053 36.407 2.566 55.568 37.386 55.568 37.386 32.362 55.438 84.907 39.43 105.58 30.143 3.296-23.444 12.667-39.43 23.032-48.498-80.557-9.156-165.246-40.28-165.246-179.297 0-39.604 14.135-71.988 37.342-97.348-3.731-9.178-16.18-46.063 3.556-96.009 0 0 30.46-9.754 99.76 37.19 28.937-8.048 59.97-12.071 90.823-12.211 30.807.14 61.843 4.165 90.822 12.21 69.26-46.944 99.663-37.189 99.663-37.189 19.792 49.946 7.34 86.831 3.61 96.01 23.25 25.359 37.29 57.742 37.29 97.347 0 139.366-84.82 170.033-165.637 179.013 13.026 11.2 24.628 33.342 24.628 67.182 0 48.498-.445 87.627-.445 99.521 0 9.702 6.535 20.988 24.945 17.444 144.03-48.067 247.881-183.95 247.881-344.175 0-200.378-162.442-362.798-362.802-362.798z"/></svg>',WechatMP:'<svg xmlns="http://www.w3.org/2000/svg" class="vp-social-media-icon wechatmp-icon" viewBox="0 0 1024 1024"><circle cx="512" cy="512" r="512" fill="#07C160"/><g fill="#FFF"><path d="M702 338a218 218 0 0 0-359-37c-35 42-46 91-39 140 5 33 24 78 50 106a263 263 0 0 1 348-209"/><path d="M771 445c-54-71-147-90-232-59l9 3a240 240 0 0 1 99 389 214 214 0 0 0 124-333"/><path d="M509 669c-21 0-42-2-62-7-5 0-9 2-14 5l-58 38-5 1c-6 1-10-3-10-8l1-7 11-47v-6c0-6-3-11-8-14a262 262 0 0 1-113-176 227 227 0 0 0 111 338c124 41 242-5 283-110 5-13 10-34 11-52-43 32-89 45-147 45"/></g></svg>',XiaoHongShu:'<svg xmlns="http://www.w3.org/2000/svg" class="vp-social-media-icon xiaohongshu-icon" viewBox="0 0 1024 1024"><circle cx="512" cy="512" r="512" fill="#FF2E4D"/><path fill="#FFF" d="m257 506-3 31c-2 18-6 35-14 51l-8 12-5-9a3116 3116 0 0 1-15-37c3-7 4-14 4-21l2-27 1-20 3-24c0-2 1-2 2-2h33c2 0 3 1 2 3zm69 85c0 9-5 17-12 23-5 4-11 6-18 6h-17c-2 0-4-1-4-3l-10-22-2-4c-1-4-1-4 3-4h14c6 0 8-2 8-8v-85l1 1v-84c0-4 0-5 4-5h28c6 0 6 1 6 6v149zm74-28-15 33-2 5-8-12-7-19-6-20-2-18-3-45a2404 2404 0 0 0 0-27h34c2 0 3 1 3 3l1 13 1 11 1 16 1 20c2 11 1 21 4 31 1 2-1 6-2 9m82 21-8 20-5 11c-2 4-3 5-8 5h-43l-11-2a3522 3522 0 0 0 12-32l3-7 2-1c12 3 24 3 37 3h19c3 0 4 0 2 3m4-21-3 1h-40c-4 0-9-1-12-4s-5-7-3-12l9-23 12-28h-17c-4-1-9-1-12-5s-4-8-3-12l8-20 8-17 9-20 7-17 4-2h32c4 0 4 0 3 4l-19 42-1 5c0 4 1 5 5 5h29a2438 2438 0 0 0-11 32l-10 20-6 13c-2 4 0 6 4 6h18c2 0 3 1 2 3l-11 25zm132 57H490l2-6 13-30c1-2 3-3 5-3h28c5 0 5 0 5-5V463c0-4 0-4-4-4h-18c-2 0-3-1-3-3v-33c0-3 0-3 3-3h84c2 0 3 0 3 2v34c0 2-1 3-3 3h-19c-2 0-3 1-3 3a12375 12375 0 0 1 0 115c0 4 0 4 4 4h31c3 0 3 1 3 4v32c0 3-1 3-3 3m194-34c0 16-11 29-26 32l-13 2h-20c-4 0-5-1-7-5l-10-23v-2c-2-3-1-3 2-3l28-1c5 0 8-2 8-8v-32c0-6-7-11-12-12h-58c-5 0-5 1-5 6v76c0 4 0 4-4 4h-31c-3 0-4-1-4-4v-79c0-3-1-3-3-3h-30c-7 0-6 1-6-6v-29c0-4 0-4 4-4h31c4 0 4 0 4-4v-29c0-3-1-4-3-4h-20c-2 0-3 0-3-2v-33c0-3 1-4 3-4h19c4 0 4 0 4-4v-8c0-2 1-3 3-3h32c4 0 4 0 4 4v7c0 3 1 4 4 4h17c14 1 26 5 36 16 5 6 8 14 9 22v25l1 9c0 3 0 4 4 4l18 3c13 5 21 14 23 27l1 9zm-9-131c-6 4-12 3-19 3h-8l-2-1c-1-9-2-18 1-26 3-7 10-12 18-12s16 6 18 14c3 8-1 17-8 22"/><path fill="#FF2E4D" d="M721 458h-19c-3 0-3 1-3 4v29c0 3 1 4 4 4h21c3 0 4-1 4-3v-27c-1-4-3-6-7-7"/></svg>',Douban:'<svg xmlns="http://www.w3.org/2000/svg" class="vp-social-media-icon douban-icon" viewBox="0 0 1024 1024"><circle cx="512" cy="512" r="512" fill="#30c171"/><path fill="#fff" d="M824.418 188.791H200.306c-6 0-11 5.142-11 11v46.204c0 6 5.142 11 11 11h624.04c6 0 11-5.142 11-11v-46.276a11 11 0 0 0-11.515-11.515zm0 577.836H655.681l60.108-150.27h50.838c6 0 12-5.142 12-11V339c0-6-5.142-12-12-12h-508.53c-6 0-11 5.142-11 11v265.78c0 6 5.141 12 11 12h365.212l-60.108 150.27H449.936l-41.569-103.994c0-6-5.141-11-11-11h-69.305c-6 0-11 5.142-11 11L358.63 766.05H201.48c-6 0-11 5.142-11 12v46.203c0 6 5.142 11 11 11h624.04c6 0 11-5.141 11-11V778.05c0-6.446-5.142-12-11.515-12zM350.577 547.051v-150.27h323.57v150.27h-323.57z"/></svg>'},cv=JSON.parse('{"category":{"/":{"path":"/category/","map":{"推荐":{"path":"/category/%E6%8E%A8%E8%8D%90/","indexes":[0,1]},"工具":{"path":"/category/%E5%B7%A5%E5%85%B7/","indexes":[2,3,4,5,6,7]},"博客":{"path":"/category/%E5%8D%9A%E5%AE%A2/","indexes":[8,9,10,11]},"前端":{"path":"/category/%E5%89%8D%E7%AB%AF/","indexes":[12]},"编程":{"path":"/category/%E7%BC%96%E7%A8%8B/","indexes":[13,14]},"笔记":{"path":"/category/%E7%AC%94%E8%AE%B0/","indexes":[15]},"计算机":{"path":"/category/%E8%AE%A1%E7%AE%97%E6%9C%BA/","indexes":[16,17]},"底层":{"path":"/category/%E5%BA%95%E5%B1%82/","indexes":[16,17]},"资料站":{"path":"/category/%E8%B5%84%E6%96%99%E7%AB%99/","indexes":[18]},"Python 库":{"path":"/category/python-%E5%BA%93/","indexes":[19,20,21,22]},"锦囊":{"path":"/category/%E9%94%A6%E5%9B%8A/","indexes":[23,24]}}}},"tag":{"/":{"path":"/tag/","map":{"文章":{"path":"/tag/%E6%96%87%E7%AB%A0/","indexes":[0,1]},"教程":{"path":"/tag/%E6%95%99%E7%A8%8B/","indexes":[25,26,3,23,19,4,16,17,24,5,6,20,21,22,7,14,12,15]},"game":{"path":"/tag/game/","indexes":[27]},"index":{"path":"/tag/index/","indexes":[18,9,13]},"日志":{"path":"/tag/%E6%97%A5%E5%BF%97/","indexes":[10]},"问题记录":{"path":"/tag/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/","indexes":[11]},"Linux":{"path":"/tag/linux/","indexes":[28]},"proxy":{"path":"/tag/proxy/","indexes":[29]},"ros":{"path":"/tag/ros/","indexes":[30]},"科研":{"path":"/tag/%E7%A7%91%E7%A0%94/","indexes":[31]},"algorithm":{"path":"/tag/algorithm/","indexes":[32,33,34,35,36]},"data_structure":{"path":"/tag/data-structure/","indexes":[37,38,39,40,41,42,43,44]},"PID":{"path":"/tag/pid/","indexes":[45]}}}}}'),Xu=JSON.parse('["/articles/boardcast.html","/articles/software.html","/articles/pcdiy.html","/code/docker.html","/code/github.html","/code/latex.html","/code/vscode.html","/code/git.html","/blog/spots.html","/blog/","/blog/log.html","/blog/vuepress.html","/code/aliyun.html","/code/","/code/python.html","/code/markdown.html","/code/shell.html","/code/vim.html","/credit/","/code/python/websocket.html","/code/python/web_crawler.html","/code/python/Seaborn.html","/code/python/pandas.html","/code/tips/pdf2docx.html","/code/tips/regex.html","/articles/rss.html","/code/tips/voc.html","/articles/video_game.html","/code/Linux.html","/study/proxy.html","/study/ros.html","/study/uuvsimulator.html","/study/Algorithm/string.html","/study/Algorithm/linkedlist.html","/study/Algorithm/array.html","/study/Algorithm/","/study/Algorithm/hashtable.html","/study/DataStructure/Heap.html","/study/DataStructure/HashTable.html","/study/DataStructure/graph.html","/study/DataStructure/","/study/DataStructure/linked_list.html","/study/DataStructure/queue.html","/study/DataStructure/stack.html","/study/DataStructure/tree.html","/study/SummerCampReview/ControlEngineering.html","/code/Arduino/stm32.html","/project/","/project/youenjie.html","/code/python/pytorch/","/code/tips/keyboard_remap.html","/code/v2ray.html","/study/literature_search.html","/articles/fool.html","/articles/rigongyizu/2025.html","/english/repo/unarchived.html","/study/SummerCampReview/ObjectDetection.html","/study/SummerCampReview/PhysNet.html","/english/repo/community.html","/english/repo/growth.html","/english/repo/life.html","/english/repo/negative.html","/english/repo/","/code/cpp.html","/code/python/LocalAugment.html","/code/Arduino/","/articles/CSU.html","/articles/baoyan.html","/code/python/pytorch/img.html","/code/python/pytorch/4.6GoogleNet.html","/code/python/pytorch/4.4VGG.html","/code/python/pytorch/4.5NiN.html","/code/python/pytorch/4.3AlexNet.html","/code/python/pytorch/4.1convolutional_nn_basic.html","/code/python/pytorch/4.2LeNet.html","/code/python/pytorch/2.4MLP.html","/code/python/pytorch/3.1Deeplearning_basic.html","/code/python/pytorch/2.1linear_regression.html","/code/python/pytorch/2.2FashionMNIST.html","/code/python/pytorch/2.3softmax.html","/articles/","/articles/external/2025.html","/code/python/pytorch/1pytorch.html","/articles/rigongyizu/2024.html","/english/china/10.22.html","/english/china/10.23.html","/english/china/10.24.html","/english/china/10.25.html","/english/china/10.26.html","/english/china/10.27.html","/english/china/10.28.html","/english/china/10.29.html","/english/china/10.30.html","/english/china/10.31.html","/english/china/11.1.html","/english/china/11.2.html","/english/free/1.html","/english/free/2.html","/english/free/3.html","/english/free/4.html","/english/free/5.html","/english/free/6.html","/english/free/7.html","/english/free/8.html","/english/free/9.html","/english/video/1.html","/english/video/2.html","/english/video/3.html","/english/video/4.html","/english/video/5.html","/english/video/6.html","/english/video/7.html","/english/video/8.html","/english/video/9.html","/intro.html","/articles/CPC.html","/articles/read.html","/articles/web.html"]'),dv=JSON.parse('{"article":{"/":{"path":"/article/","indexes":[46,47,48,32,33,49,2,34,35,25,26,50,27,29,30,0,31,51,3,52,53,54,37,45,55,36,38,56,57,39,40,41,42,43,44,58,59,60,61,62,63,64,23,65,66,67,68,19,4,69,70,71,28,72,73,74,75,76,18,77,78,79,80,81,1,16,17,24,82,83,8,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,9,13,5,114,115,116,117,10,6,20,21,22,7,14,12,15,11]}},"star":{"/":{"path":"/star/","indexes":[]}},"timeline":{"/":{"path":"/timeline/","indexes":[46,47,48,32,33,49,2,34,35,25,26,50,27,29,30,0,31,51,3,52,53,54,37,45,55,36,38,56,57,39,40,41,42,43,44,58,59,60,61,62,63,64,23,65,66,67,68,19,4,69,70,71,28,72,73,74,75,76,18,77,78,79,80,81,1,16,17,24,82,83,8,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,9,13,5,114,115,116,117,10,6,20,21,22,7,14,12,15,11]}}}'),li=ee(cv);Dt(li);const Zu=e=>{const t=Ve(),n=he(),r=bt();return _(()=>{var o;const a=e??((o=n.value.blog)==null?void 0:o.key)??"";if(!a)return console.warn("useBlogCategory: key not found"),{path:"/",map:{}};if(!(a in li.value))throw new Error(`useBlogCategory: key ${a} is invalid`);const l=li.value[a][r.value],i={path:l.path,map:{}};for(const c in l.map){const d=l.map[c];i.map[c]={path:d.path,items:[]};for(const u of d.indexes){const{path:p,meta:h}=yt(Xu[u]);i.map[c].items.push({path:p,info:h})}t.value.path===d.path&&(i.currentItems=i.map[c].items)}return i})},ii=ee(dv);Dt(ii);const Za=e=>{const t=he(),n=bt();return _(()=>{var i;const r=e??((i=t.value.blog)==null?void 0:i.key)??"";if(!r)return console.warn("useBlogType: key not found"),{path:"/",items:[]};if(!(r in ii.value))throw new Error(`useBlogType: key ${e} is invalid`);const a=ii.value[r][n.value],l={path:a.path,items:[]};for(const o of a.indexes){const{path:c,meta:d}=yt(Xu[o]);l.items.push({path:c,info:d})}return l})},ts=()=>s(xe,{name:"lock"},()=>s("path",{d:"M787.168 952.268H236.832c-30.395 0-55.033-24.638-55.033-55.033V429.45c0-30.395 24.638-55.034 55.033-55.034h82.55V264.35c0-106.38 86.238-192.618 192.618-192.618S704.618 157.97 704.618 264.35v110.066h82.55c30.395 0 55.033 24.639 55.033 55.034v467.785c0 30.395-24.639 55.033-55.033 55.033zM484.483 672.046v115.122h55.034V672.046c31.99-11.373 55.033-41.605 55.033-77.496 0-45.592-36.958-82.55-82.55-82.55s-82.55 36.958-82.55 82.55c0 35.89 23.042 66.123 55.033 77.496zM622.067 264.35c0-60.788-49.28-110.067-110.067-110.067s-110.067 49.28-110.067 110.067v110.066h220.135V264.35z"}));ts.displayName="LockIcon";var uv=[];const ep=Symbol(""),ns=()=>{const e=we(ep);if(!e)throw new Error("useTimeline() is called without provider.");return e},pv=()=>{const e=Za("timeline"),t=Kr(),n=_(()=>{const r=[];return e.value.items.forEach(({info:a,path:l})=>{const i=Hi(a.date);if(i){const o=i.getFullYear();(!r[0]||r[0].year!==o)&&r.unshift({year:o,items:[]}),r[0].items.push({date:i.toLocaleDateString(t.value,{month:"numeric",day:"numeric"}),info:a,path:l})}}),{...e.value,config:r.reverse()}});Et(ep,n)},tp=Symbol(""),la=()=>{const e=we(tp);if(!e)throw new Error("useArticles() is called without provider.");return e},hv=()=>{const e=Za("article");Et(tp,e)},np=Symbol.for("categoryMap"),ia=()=>{const e=we(np);if(!e)throw new Error("useCategoryMap() is called without provider.");return e},fv=()=>{const e=Zu("category");Et(np,e)},rp=Symbol(""),rs=()=>{const e=we(rp);if(!e)throw new Error("useStars() is called without provider.");return e},gv=()=>{const e=Za("star");Et(rp,e)},ap=Symbol.for("tagMap"),sa=()=>{const e=we(ap);if(!e)throw new Error("useTagMap() is called without provider.");return e},mv=()=>{const e=Zu("tag");Et(ap,e)},vv=()=>{hv(),fv(),gv(),mv(),pv()},oa=()=>{const e=Bt(),t=fe();return _(()=>({...e.value.blog,...t.value.blog}))},yv=e=>{const t=fe();return _(()=>{const{["author"]:n}=e.value;return n?Mr(n):n===!1?[]:Mr(t.value.author,!1)})},bv=e=>{const t=ia();return _(()=>iu(e.value.category).map(n=>({name:n,path:t.value.map[n].path})))},kv=e=>{const t=sa();return _(()=>su(e.value.tag).map(n=>({name:n,path:t.value.map[n].path})))},xv=e=>_(()=>{const{["date"]:t}=e.value;return Hi(t)}),_v=e=>{const t=Pn(e,"info"),n=oa(),r=yv(t),a=bv(t),l=kv(t),i=xv(t),o=xu(),c=_(()=>({author:r.value,category:a.value,date:i.value,localizedDate:t.value.localizedDate??"",tag:l.value,isOriginal:t.value.isOriginal??!1,readingTime:t.value.readingTime??null,readingTimeLocale:t.value.readingTime&&o.value?ku(t.value.readingTime,o.value):null,pageview:e.path})),d=_(()=>n.value.articleInfo??null);return{info:c,items:d}},vn=()=>{const e=fe();return _(()=>e.value.blogLocales)};var lp=R({name:"SocialMedias",setup(){const e=oa(),t=Xe(),n=_(()=>On(e.value.medias??{}).map(([r,a])=>typeof a=="string"?{name:r,icon:ov[r],link:a}:{name:r,...a}));return()=>n.value.length?s("div",{class:"vp-social-medias"},n.value.map(({name:r,icon:a,link:l})=>s("a",{class:"vp-social-media",href:l,rel:"noopener noreferrer",target:"_blank","aria-label":r||"",...t.value?{}:{"data-balloon-pos":"up"},innerHTML:hn(a)?`<img class="vp-social-media-icon ${r}-icon" src="${a}">`:a}))):null}}),as=R({name:"BloggerInfo",setup(){const e=vn(),t=oa(),n=Yr(),r=fe(),a=la(),l=ia(),i=sa(),o=ns(),c=Qt(),d=_(()=>{var h;return t.value.name??((h=Mr(r.value.author)[0])==null?void 0:h.name)??n.value.title}),u=_(()=>t.value.avatar??r.value.logo),p=_(()=>t.value.intro);return()=>{const{article:h,category:f,tag:m,timeline:y}=e.value,k=[[a.value.path,a.value.items.length,h],[l.value.path,St(l.value.map).length,f],[i.value.path,St(i.value.map).length,m],[o.value.path,o.value.items.length,y]];return s("div",{class:"vp-blogger-info",vocab:"https://schema.org/",typeof:"Person"},[s("div",{class:"vp-blogger",...p.value?{"aria-label":e.value.intro,"data-balloon-pos":"down",role:"link",onClick:()=>{c(p.value)}}:{}},[u.value?s("img",{class:"vp-blogger-avatar",src:ke(u.value),property:"image",alt:"Blogger Avatar",loading:"lazy"}):null,d.value?s("div",{class:"vp-blogger-name",property:"name"},d.value):null,t.value.description?s("div",{class:"vp-blogger-description",innerHTML:t.value.description}):null,p.value?s("meta",{property:"url",content:ke(p.value)}):null]),s("div",{class:"vp-blog-counts"},k.map(([w,x,v])=>s(Fe,{class:"vp-blog-count",to:w},()=>[s("div",{class:"count"},x),s("div",v)]))),s(lp)])}}});const ls=()=>s(xe,{name:"category"},()=>s("path",{d:"M148.41 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H148.41c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.311-40.31zM147.556 553.478H429.73c22.263 0 40.311 18.048 40.311 40.31v282.176c0 22.263-18.048 40.312-40.31 40.312H147.555c-22.263 0-40.311-18.049-40.311-40.312V593.79c0-22.263 18.048-40.311 40.31-40.311zM593.927 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H593.927c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.31-40.31zM730.22 920.502H623.926c-40.925 0-74.22-33.388-74.22-74.425V623.992c0-41.038 33.387-74.424 74.425-74.424h222.085c41.038 0 74.424 33.226 74.424 74.067v114.233c0 10.244-8.304 18.548-18.547 18.548s-18.548-8.304-18.548-18.548V623.635c0-20.388-16.746-36.974-37.33-36.974H624.13c-20.585 0-37.331 16.747-37.331 37.33v222.086c0 20.585 16.654 37.331 37.126 37.331H730.22c10.243 0 18.547 8.304 18.547 18.547 0 10.244-8.304 18.547-18.547 18.547z"}));ls.displayName="CategoryIcon";const is=()=>s(xe,{name:"tag"},()=>s("path",{d:"M939.902 458.563L910.17 144.567c-1.507-16.272-14.465-29.13-30.737-30.737L565.438 84.098h-.402c-3.215 0-5.726 1.005-7.634 2.913l-470.39 470.39a10.004 10.004 0 000 14.164l365.423 365.424c1.909 1.908 4.42 2.913 7.132 2.913s5.223-1.005 7.132-2.913l470.39-470.39c2.01-2.11 3.014-5.023 2.813-8.036zm-240.067-72.121c-35.458 0-64.286-28.828-64.286-64.286s28.828-64.285 64.286-64.285 64.286 28.828 64.286 64.285-28.829 64.286-64.286 64.286z"}));is.displayName="TagIcon";const ss=()=>s(xe,{name:"timeline"},()=>s("path",{d:"M511.997 70.568c-243.797 0-441.429 197.633-441.429 441.435 0 243.797 197.632 441.429 441.43 441.429S953.431 755.8 953.431 512.002c0-243.796-197.637-441.434-441.435-441.434zm150.158 609.093-15.605 15.61c-8.621 8.615-22.596 8.615-31.215 0L472.197 552.126c-4.95-4.944-4.34-14.888-4.34-24.677V247.14c0-12.19 9.882-22.07 22.07-22.07h22.07c12.19 0 22.07 9.882 22.07 22.07v273.218l128.088 128.088c8.62 8.62 8.62 22.595 0 31.215zm0 0"}));ss.displayName="TimelineIcon";const ip=()=>s(xe,{name:"slides"},()=>s("path",{d:"M896 170.667v426.666a85.333 85.333 0 0 1-85.333 85.334h-256v61.184l192.597 115.584-43.861 73.13-148.736-89.173v95.275h-85.334v-95.318l-148.736 89.216-43.861-73.13 192.597-115.627v-61.141h-256A85.333 85.333 0 0 1 128 597.333V170.667H85.333V85.333h853.334v85.334H896zm-682.667 0v426.666h597.334V170.667H213.333zM426.667 512h-85.334V341.333h85.334V512zm128 0h-85.334V256h85.334v256zm128 0h-85.334V384h85.334v128z"}));ip.displayName="SlideIcon";const sp=()=>s(xe,{name:"sticky"},()=>[s("path",{d:"m381.3 733.8l-161.9 118c-5.9 4.5-13.2 6.6-20.1 6.6-8.7 0-17.7-3.4-24.3-10-12.2-12.2-13.9-31.3-3.5-45.2l144.5-195.5-113.6-112.9c-11.1-11.1-13.2-28.4-5.5-42 5.5-8.7 52.1-76.4 155.5-51 1.8 0.3 3.5 0.3 5.6 0.7 4.2 0.3 9 0.7 14.2 1.7 21.9 3.5 60.8-13.9 94.5-42.7 32.3-27.5 53.1-59.4 53.1-81.6 0-5.2 0-10.8-0.3-16-0.7-20.8-2.1-52.8 21.5-76.4 28.1-28.1 72.9-30.6 103.9-5.2 0.6 0.3 1 1 1.7 1.7 16.7 16.3 187.5 187.2 189.3 188.9 14.5 14.6 22.9 34.4 22.9 55.3 0 20.8-8 40.2-22.9 54.8-23.7 23.6-56 22.6-77.1 21.6-4.9 0-10.5-0.4-15.7-0.4-20.8 0-45.8 14.6-70.5 41.3-34.3 37.5-55.5 85.8-53.8 107.7 0.7 6.9 2.1 19.1 2.4 20.8 25 101.4-42.7 147.6-50.7 152.8-13.9 8.4-31.6 6.3-42.7-4.8l-112.1-112.2z"})]);sp.displayName="StickyIcon";const os=()=>s(xe,{name:"article"},()=>s("path",{d:"M853.333 938.667H170.667A42.667 42.667 0 0 1 128 896V128a42.667 42.667 0 0 1 42.667-42.667h682.666A42.667 42.667 0 0 1 896 128v768a42.667 42.667 0 0 1-42.667 42.667zm-42.666-85.334V170.667H213.333v682.666h597.334zM298.667 256h170.666v170.667H298.667V256zm0 256h426.666v85.333H298.667V512zm0 170.667h426.666V768H298.667v-85.333zm256-384h170.666V384H554.667v-85.333z"}));os.displayName="ArticleIcon";const si=()=>s(xe,{name:"slide-down"},()=>s("path",{d:"M108.775 312.23c13.553 0 27.106 3.734 39.153 11.806l375.205 250.338 363.641-252.808c32.587-21.624 76.499-12.83 98.123 19.757 21.685 32.467 12.95 76.56-19.576 98.184l-402.854 278.89c-23.733 15.901-54.694 15.962-78.547.12L69.501 442.097c-32.647-21.685-41.441-65.777-19.817-98.304 13.734-20.54 36.201-31.563 59.09-31.563Z"}));si.displayName="SlideDownIcon";var wv=R({name:"ArticleItem",props:{info:{type:Object,required:!0},path:{type:String,required:!0}},slots:Object,setup(e,{slots:t}){const n=Pn(e,"info"),{info:r,items:a}=_v(e),l=fn();return()=>{var f,m,y;const{title:i,type:o,isEncrypted:c=!1,cover:d,excerpt:u,sticky:p}=n.value,h=r.value;return s("div",{class:"vp-article-wrapper",onClick:k=>{var w;(w=k.target)!=null&&w.matches("summary")||(k.preventDefault(),l.push(e.path))}},s("article",{class:"vp-article-item",vocab:"https://schema.org/",typeof:"Article"},[((f=t.cover)==null?void 0:f.call(t,{cover:d}))??(d?[s("img",{class:"vp-article-cover",src:ke(d),alt:"",loading:"lazy"}),s("meta",{property:"image",content:ke(d)})]:[]),p?s(sp):null,s(Fe,{to:e.path},()=>{var k;return((k=t.title)==null?void 0:k.call(t,{title:i,isEncrypted:c,type:o}))??s("header",{class:"vp-article-title"},[c?s(ts):null,o==="slide"?s(ip):null,s("span",{property:"headline"},i)])}),((m=t.excerpt)==null?void 0:m.call(t,{excerpt:u}))??(u?s("div",{class:"vp-article-excerpt",innerHTML:u}):null),s("hr",{class:"vp-article-hr"}),((y=t.info)==null?void 0:y.call(t,{info:h}))??s(Pu,{info:h,items:a.value})]))}}});const Av='<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M64 512a448 448 0 1 0 896 0 448 448 0 1 0-896 0Z" fill="#FA5151"/><path d="m557.3 512 113.1-113.1c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L512 466.7 398.9 353.6c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L466.7 512 353.6 625.1c-12.5 12.5-12.5 32.8 0 45.3 6.2 6.2 14.4 9.4 22.6 9.4s16.4-3.1 22.6-9.4L512 557.3l113.1 113.1c6.2 6.2 14.4 9.4 22.6 9.4s16.4-3.1 22.6-9.4c12.5-12.5 12.5-32.8 0-45.3L557.3 512z" fill="#FFF"/></svg>';var Ev=R({name:"Pagination",props:{total:{type:Number,default:10},perPage:{type:Number,default:10},current:{type:Number,default:1}},emits:["updateCurrentPage"],setup(e,{emit:t}){let n;const r=fe(),a=Q(""),l=_(()=>r.value.paginationLocales),i=_(()=>Math.ceil(e.total/e.perPage)),o=_(()=>!!i.value&&i.value!==1),c=_(()=>i.value<7?!1:e.current>4),d=_(()=>i.value<7?!1:e.current<i.value-3),u=_(()=>{const{current:f}=e;let m=1,y=i.value;const k=[];i.value>=7&&(f<=4&&f<i.value-3?(m=1,y=5):f>4&&f>=i.value-3?(y=i.value,m=i.value-4):i.value>7&&(m=f-2,y=f+2));for(let w=m;w<=y;w++)k.push(w);return k}),p=f=>{t("updateCurrentPage",f)},h=f=>{const m=parseInt(f,10);m<=i.value&&m>0?p(m):n.pop(`${Av}${l.value.errorText.replace(/\$page/gu,i.value.toString())}`)};return oe(()=>{n=new Fm}),()=>s("div",{class:"vp-pagination"},o.value?s("nav",{class:"vp-pagination-list"},[s("div",{class:"vp-pagination-number "},[e.current>1?s("div",{class:"prev",role:"navigation",unselectable:"on",onClick:()=>{p(e.current-1)}},l.value.prev):null,c.value?[s("div",{role:"navigation",onClick:()=>{p(1)}},1),s("div",{class:"ellipsis"},"...")]:null,u.value.map(f=>s("div",{key:f,class:{active:e.current===f},role:"navigation",onClick:()=>{p(f)}},f)),d.value?[s("div",{class:"ellipsis"},"..."),s("div",{role:"navigation",onClick:()=>{p(i.value)}},i.value)]:null,e.current<i.value?s("div",{class:"next",role:"navigation",unselectable:"on",onClick:()=>{p(e.current+1)}},l.value.next):null]),s("div",{class:"vp-pagination-nav"},[s("label",{for:"navigation-text"},`${l.value.navigate}: `),s("input",{id:"navigation-text",value:a.value,onInput:({target:f})=>{a.value=f.value},onKeydown:f=>{f.key==="Enter"&&(f.preventDefault(),h(a.value))}}),s("button",{class:"vp-pagination-button",type:"button",role:"navigation",title:l.value.action,onClick:()=>{h(a.value)}},l.value.action)])]):[])}}),cs=R({name:"ArticleList",props:{items:{type:Array,required:!0}},setup(e){const t=Jt(),n=fn(),r=vn(),a=oa(),l=Q(1),i=_(()=>a.value.articlePerPage??10),o=_(()=>e.items.slice((l.value-1)*i.value,l.value*i.value)),c=async d=>{l.value=d;const u={...t.query};!(u.page===d.toString()||d===1&&!u.page)&&(d===1?delete u.page:u.page=d.toString(),await n.push({path:t.path,query:u}))};return oe(()=>{const{page:d}=t.query;c(d?Number(d):1),Ae(l,()=>{const u=document.querySelector("#article-list").getBoundingClientRect().top+window.scrollY;setTimeout(()=>{window.scrollTo(0,u)},100)})}),()=>s("div",{id:"article-list",class:"vp-article-list",role:"feed"},o.value.length?[...o.value.map(({info:d,path:u},p)=>s(se,{appear:!0,delay:p*.04},()=>s(wv,{key:u,info:d,path:u}))),s(Ev,{current:l.value,perPage:i.value,total:e.items.length,onUpdateCurrentPage:c})]:s("h2",{class:"vp-empty-hint"},r.value.empty))}}),Tv=R({name:"ArticlesInfo",setup(){const e=la(),t=vn(),n=rs(),r=Qt(),a=_(()=>e.value.items.length),l=_(()=>n.value.items);return()=>s(se,()=>s("div",{class:"vp-star-article-wrapper"},[s("div",{class:"title",onClick:()=>{r(e.value.path)}},[s(os),s("span",{class:"num"},a.value),t.value.article]),s("hr"),l.value.length?s("ul",{class:"vp-star-articles"},l.value.map(({info:i,path:o},c)=>s(se,{appear:!0,delay:.08*(c+1)},()=>s("li",{class:"vp-star-article"},s(Fe,{to:o},()=>i.title))))):s("div",{class:"vp-star-article-empty"},t.value.empty.replace("$text",t.value.star))]))}}),op=R({name:"CategoryList",setup(){const e=Ve(),t=ia();return()=>s("ul",{class:"vp-category-list"},On(t.value.map).sort(([,n],[,r])=>r.items.length-n.items.length).map(([n,{path:r,items:a}])=>s("li",{class:"vp-category-item"},s(Fe,{class:["vp-category",`color${na(n,Number(cr.colorNumber))}`,{active:r===e.value.path}],to:r},()=>[n,s("span",{class:"vp-category-count"},a.length)]))))}}),Cv=R({name:"CategoriesInfo",setup(){const e=vn(),t=ia(),n=Qt(),r=_(()=>St(t.value.map).length);return()=>s("div",{class:"vp-category-wrapper"},[r.value?[s("div",{class:"title",onClick:()=>{n(t.value.path)}},[s(ls),s("span",{class:"num"},r.value),e.value.category]),s("hr"),s(se,{delay:.04},()=>s(op))]:s("div",{class:"vp-category-empty"},e.value.empty.replace("$text",e.value.category))])}}),cp=R({name:"TagList",setup(){const e=he(),t=sa(),n=r=>{var a;return r===((a=e.value.blog)==null?void 0:a.name)};return()=>s("ul",{class:"vp-tag-list"},On(t.value.map).sort(([,r],[,a])=>a.items.length-r.items.length).map(([r,{path:a,items:l}])=>s("li",{class:"vp-tag-item"},s(Fe,{class:["vp-tag",`color${na(r,Number(cr.colorNumber))}`,{active:n(r)}],to:a},()=>[r,s("span",{class:"vp-tag-count"},l.length)]))))}}),Sv=R({name:"TagsInfo",setup(){const e=vn(),t=sa(),n=Qt(),r=_(()=>St(t.value.map).length);return()=>s("div",{class:"vp-tag-wrapper"},[r.value?[s("div",{class:"title",onClick:()=>{n(t.value.path)}},[s(is),s("span",{class:"num"},r.value),e.value.tag]),s("hr"),s(se,{delay:.04},()=>s(cp))]:s("div",{class:"vp-tag-empty"},e.value.empty.replace("$text",e.value.tag))])}}),Dv=R({name:"TimelineList",setup(){const e=vn(),t=ns(),n=Qt();return()=>s("div",{class:"timeline-list-wrapper"},[s("div",{class:"timeline-list-title",onClick:()=>{n(t.value.path)}},[s(ss),s("span",{class:"num"},t.value.items.length),e.value.timeline]),s("hr"),s("div",{class:"timeline-content"},s("ul",{class:"timeline-list"},t.value.config.map(({year:r,items:a},l)=>s(se,{appear:!0,delay:.08*(l+1)},()=>s("li",[s("h3",{class:"timeline-year"},r),s("ul",{class:"timeline-year-wrapper"},a.map(({date:i,info:o,path:c})=>s("li",{class:"timeline-item"},[s("span",{class:"timeline-date"},i),s(Fe,{class:"timeline-title",to:c},()=>o.title)])))])))))])}});const Lv={article:os,category:ls,tag:is,timeline:ss};var dp=R({name:"InfoList",setup(){const e=vn(),t=Q("article");return()=>s("div",{class:"vp-blog-infos"},[s("div",{class:"vp-blog-type-switcher"},On(Lv).map(([n,r])=>s("button",{type:"button",class:"vp-blog-type-button",onClick:()=>{t.value=n}},s("div",{class:["vp-blog-type-icon-wrapper",{active:t.value===n}],"aria-label":e.value[n],"data-balloon-pos":"up"},s(r))))),s(se,()=>t.value==="article"?s(Tv):t.value==="category"?s(Cv):t.value==="tag"?s(Sv):s(Dv))])}}),el=R({name:"BlogWrapper",slots:Object,setup(e,{slots:t}){const{isMobile:n}=ra();return()=>[s(Zi),s(Xi,{noSidebar:!0,noToc:!0},{default:()=>t.default(),navScreenBottom:()=>s(as),sidebar:n.value?()=>s(dp):null})]}});const ca=()=>s("aside",{class:"vp-blog-info-wrapper"},[s(se,()=>s(as)),s(se,{delay:.04},()=>s(dp))]);ca.displayName="InfoPanel";var Pv=R({name:"BlogCategory",setup(){const e=Ve(),t=he(),n=ia(),r=sa(),a=_(()=>t.value.blog),l=_(()=>{var c;if(((c=a.value)==null?void 0:c.type)!=="category")return null;const{name:i,key:o}=a.value;return i?o==="category"?n.value.map[i].items:o==="tag"?r.value.map[i].items:null:null});return()=>s(el,()=>s("div",{class:"vp-page vp-blog"},s("div",{class:"blog-page-wrapper"},[s("main",{id:"main-content",class:"vp-blog-main"},[s(se,()=>{var i,o;return((i=a.value)==null?void 0:i.key)==="category"?s(op):((o=a.value)==null?void 0:o.key)==="tag"?s(cp):null}),l.value?s(se,{appear:!0,delay:.24},()=>s(cs,{key:e.value.path,items:l.value})):null]),s(se,{delay:.16},()=>s(ca,{key:"blog"}))])))}});const Bv="//theme-hope-assets.vuejs.press/hero/default.jpg";var Iv=R({name:"BlogHero",slots:Object,setup(e,{slots:t}){const n=he(),r=Yr(),a=ee(),l=_(()=>n.value.heroFullScreen??!1),i=_(()=>{const{heroText:c,heroImage:d,heroImageDark:u,heroAlt:p,heroImageStyle:h,tagline:f}=n.value;return{text:c??(r.value.title||"Hello"),tagline:f??"",image:d?ke(d):null,imageDark:u?ke(u):null,alt:p??c??"",imageStyle:h,isFullScreen:l.value}}),o=_(()=>{const{bgImage:c,bgImageDark:d,bgImageStyle:u}=n.value;return{image:De(c)?ke(c):c===!1?null:Bv,imageDark:De(d)?ke(d):null,bgStyle:u,isFullScreen:l.value}});return()=>{var c,d;return n.value.hero===!1?null:s("div",{ref:a,class:["vp-blog-hero",{fullscreen:l.value,"no-bg":!o.value.image}]},[((c=t.bg)==null?void 0:c.call(t,o.value))??[o.value.image?s("div",{class:["vp-blog-mask",{light:o.value.imageDark}],style:[{background:`url(${o.value.image}) center/cover no-repeat`},o.value.bgStyle]}):null,o.value.imageDark?s("div",{class:"vp-blog-mask dark",style:[{background:`url(${o.value.imageDark}) center/cover no-repeat`},o.value.bgStyle]}):null],((d=t.info)==null?void 0:d.call(t,i.value))??[s(se,{appear:!0,type:"group",delay:.04},()=>{const{image:u,imageDark:p,imageStyle:h,alt:f}=i.value;return[u?s("img",{key:"light",class:["vp-blog-hero-image",{light:p}],style:h,src:u,alt:f}):null,p?s("img",{key:"dark",class:"vp-blog-hero-image dark",style:h,src:p,alt:f}):null]}),s(se,{appear:!0,delay:.08},()=>i.value.text?s("h1",{class:"vp-blog-hero-title"},i.value.text):null),s(se,{appear:!0,delay:.12},()=>i.value.tagline?s("p",{class:"vp-blog-hero-description",innerHTML:i.value.tagline}):null)],i.value.isFullScreen?s("button",{type:"button",class:"slide-down-button",onClick:()=>{window.scrollTo({top:a.value.clientHeight,behavior:"smooth"})}},[s(si),s(si)]):null])}}}),Ov=R({name:"ProjectPanel",props:{items:{type:Array,required:!0}},setup(e){const t=Xe(),n=Qt();return()=>s("div",{class:"vp-project-panel"},e.items.map(({icon:r,link:a,name:l,desc:i,background:o})=>s("a",{class:["vp-project-card",{[`color${na(l,Number(cr.colorNumber))}`]:!t.value&&!o}],...o?{style:o}:{},href:Ja(a)?ke(a):a,onClick:c=>{n(a),c.preventDefault()}},[r?s(Le("VPIcon"),{class:"vp-project-icon",icon:r}):null,s("div",{class:"vp-project-name"},l),s("div",{class:"vp-project-desc"},i)])))}}),Rv=R({name:"BlogHomePage",setup(){const e=la(),t=he(),n=_(()=>t.value.projects??[]);return()=>s("div",{class:"vp-page vp-blog-home"},[s(Iv),s("div",{class:"blog-page-wrapper"},[s("main",{id:"main-content",class:"vp-blog-main"},[n.value.length?s(se,{appear:!0,delay:.16},()=>s(Ov,{items:n.value})):null,s(se,{appear:!0,delay:.24},()=>s(cs,{items:e.value.items}))]),s(se,{appear:!0,delay:.16},()=>s(ca,{key:"blog"}))]),s(se,{appear:!0,delay:.28},()=>s(Xa))])}});const up=()=>s(el,()=>s(Rv));up.displayName="BlogHome";var Fv=R({name:"ArticleType",setup(){const e=Ve(),t=bt(),n=la(),r=rs(),a=vn(),l=_(()=>[{text:a.value.all,path:n.value.path},{text:a.value.star,path:r.value.path},...uv.map(({key:i,path:o})=>{const c=o.replace(/^\//,t.value);return{text:a.value[i]??yt(c).meta.title??i,path:c}})]);return()=>s("ul",{class:"vp-article-type-wrapper"},l.value.map(i=>s("li",{class:["vp-article-type",{active:i.path===e.value.path}]},s(Fe,{to:i.path},()=>i.text))))}}),$v=R({name:"BlogType",setup(){const e=Za(),t=he(),n=Ve(),r=la(),a=rs(),l=_(()=>{const i=t.value.blog;return(i==null?void 0:i.type)!=="type"||!i.key?r.value.items:i.key==="star"?a.value.items:e.value.items});return()=>s(el,()=>s("div",{class:"vp-page vp-blog"},s("div",{class:"blog-page-wrapper"},[s("main",{id:"main-content",class:"vp-blog-main"},[s(se,()=>s(Fv)),s(se,{appear:!0,delay:.24},()=>s(cs,{key:n.value.path,items:l.value}))]),s(se,{delay:.16},()=>s(ca,{key:"blog"}))])))}}),Mv=R({name:"TimelineItems",setup(){const e=oa(),t=fe(),n=ns(),r=_(()=>e.value.timeline??t.value.blogLocales.timelineTitle),a=_(()=>n.value.config.map(({year:l})=>({title:l.toString(),level:2,slug:l.toString(),children:[]})));return()=>s("div",{class:"timeline-wrapper"},s("ul",{class:"timeline-content"},[s(se,()=>s("li",{class:"motto"},r.value)),s(Ku,{items:a.value}),n.value.config.map(({year:l,items:i},o)=>s(se,{appear:!0,delay:.08*(o+1),type:"group"},()=>[s("h3",{key:"title",id:l,class:"timeline-year-title"},s("span",l)),s("li",{key:"content",class:"timeline-year-list"},[s("ul",{class:"timeline-year-wrapper"},i.map(({date:c,info:d,path:u})=>s("li",{class:"timeline-item"},[s("span",{class:"timeline-date"},c),s(Fe,{class:"timeline-title",to:u},()=>d.title)])))])]))]))}});const pp=()=>s(el,()=>s("div",{class:"vp-page vp-blog"},s("div",{class:"blog-page-wrapper"},[s("main",{id:"main-content",class:"vp-blog-main"},[s(se,{appear:!0,delay:.24},()=>s(Mv))]),s(se,{delay:.16},()=>s(ca,{key:"blog"}))])));pp.displayName="Timeline";var jv={};const Mn="./ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),Bl=Array.from({length:64},(e,t)=>t),xa=e=>Array(e).fill(-1),en=[...xa(46),0,1,...Bl.slice(54,64),...xa(7),...Bl.slice(2,28),...xa(6),...Bl.slice(28,54),...xa(5)],Vv=[608135816,2242054355,320440878,57701188,2752067618,698298832,137296536,3964562569,1160258022,953160567,3193202383,887688300,3232508343,3380367581,1065670069,3041331479,2450970073,2306472731],Nv=[3509652390,2564797868,805139163,3491422135,3101798381,1780907670,3128725573,4046225305,614570311,3012652279,134345442,2240740374,1667834072,1901547113,2757295779,4103290238,227898511,1921955416,1904987480,2182433518,2069144605,3260701109,2620446009,720527379,3318853667,677414384,3393288472,3101374703,2390351024,1614419982,1822297739,2954791486,3608508353,3174124327,2024746970,1432378464,3864339955,2857741204,1464375394,1676153920,1439316330,715854006,3033291828,289532110,2706671279,2087905683,3018724369,1668267050,732546397,1947742710,3462151702,2609353502,2950085171,1814351708,2050118529,680887927,999245976,1800124847,3300911131,1713906067,1641548236,4213287313,1216130144,1575780402,4018429277,3917837745,3693486850,3949271944,596196993,3549867205,258830323,2213823033,772490370,2760122372,1774776394,2652871518,566650946,4142492826,1728879713,2882767088,1783734482,3629395816,2517608232,2874225571,1861159788,326777828,3124490320,2130389656,2716951837,967770486,1724537150,2185432712,2364442137,1164943284,2105845187,998989502,3765401048,2244026483,1075463327,1455516326,1322494562,910128902,469688178,1117454909,936433444,3490320968,3675253459,1240580251,122909385,2157517691,634681816,4142456567,3825094682,3061402683,2540495037,79693498,3249098678,1084186820,1583128258,426386531,1761308591,1047286709,322548459,995290223,1845252383,2603652396,3431023940,2942221577,3202600964,3727903485,1712269319,422464435,3234572375,1170764815,3523960633,3117677531,1434042557,442511882,3600875718,1076654713,1738483198,4213154764,2393238008,3677496056,1014306527,4251020053,793779912,2902807211,842905082,4246964064,1395751752,1040244610,2656851899,3396308128,445077038,3742853595,3577915638,679411651,2892444358,2354009459,1767581616,3150600392,3791627101,3102740896,284835224,4246832056,1258075500,768725851,2589189241,3069724005,3532540348,1274779536,3789419226,2764799539,1660621633,3471099624,4011903706,913787905,3497959166,737222580,2514213453,2928710040,3937242737,1804850592,3499020752,2949064160,2386320175,2390070455,2415321851,4061277028,2290661394,2416832540,1336762016,1754252060,3520065937,3014181293,791618072,3188594551,3933548030,2332172193,3852520463,3043980520,413987798,3465142937,3030929376,4245938359,2093235073,3534596313,375366246,2157278981,2479649556,555357303,3870105701,2008414854,3344188149,4221384143,3956125452,2067696032,3594591187,2921233993,2428461,544322398,577241275,1471733935,610547355,4027169054,1432588573,1507829418,2025931657,3646575487,545086370,48609733,2200306550,1653985193,298326376,1316178497,3007786442,2064951626,458293330,2589141269,3591329599,3164325604,727753846,2179363840,146436021,1461446943,4069977195,705550613,3059967265,3887724982,4281599278,3313849956,1404054877,2845806497,146425753,1854211946,1266315497,3048417604,3681880366,3289982499,290971e4,1235738493,2632868024,2414719590,3970600049,1771706367,1449415276,3266420449,422970021,1963543593,2690192192,3826793022,1062508698,1531092325,1804592342,2583117782,2714934279,4024971509,1294809318,4028980673,1289560198,2221992742,1669523910,35572830,157838143,1052438473,1016535060,1802137761,1753167236,1386275462,3080475397,2857371447,1040679964,2145300060,2390574316,1461121720,2956646967,4031777805,4028374788,33600511,2920084762,1018524850,629373528,3691585981,3515945977,2091462646,2486323059,586499841,988145025,935516892,3367335476,2599673255,2839830854,265290510,3972581182,2759138881,3795373465,1005194799,847297441,406762289,1314163512,1332590856,1866599683,4127851711,750260880,613907577,1450815602,3165620655,3734664991,3650291728,3012275730,3704569646,1427272223,778793252,1343938022,2676280711,2052605720,1946737175,3164576444,3914038668,3967478842,3682934266,1661551462,3294938066,4011595847,840292616,3712170807,616741398,312560963,711312465,1351876610,322626781,1910503582,271666773,2175563734,1594956187,70604529,3617834859,1007753275,1495573769,4069517037,2549218298,2663038764,504708206,2263041392,3941167025,2249088522,1514023603,1998579484,1312622330,694541497,2582060303,2151582166,1382467621,776784248,2618340202,3323268794,2497899128,2784771155,503983604,4076293799,907881277,423175695,432175456,1378068232,4145222326,3954048622,3938656102,3820766613,2793130115,2977904593,26017576,3274890735,3194772133,1700274565,1756076034,4006520079,3677328699,720338349,1533947780,354530856,688349552,3973924725,1637815568,332179504,3949051286,53804574,2852348879,3044236432,1282449977,3583942155,3416972820,4006381244,1617046695,2628476075,3002303598,1686838959,431878346,2686675385,1700445008,1080580658,1009431731,832498133,3223435511,2605976345,2271191193,2516031870,1648197032,4164389018,2548247927,300782431,375919233,238389289,3353747414,2531188641,2019080857,1475708069,455242339,2609103871,448939670,3451063019,1395535956,2413381860,1841049896,1491858159,885456874,4264095073,4001119347,1565136089,3898914787,1108368660,540939232,1173283510,2745871338,3681308437,4207628240,3343053890,4016749493,1699691293,1103962373,3625875870,2256883143,3830138730,1031889488,3479347698,1535977030,4236805024,3251091107,2132092099,1774941330,1199868427,1452454533,157007616,2904115357,342012276,595725824,1480756522,206960106,497939518,591360097,863170706,2375253569,3596610801,1814182875,2094937945,3421402208,1082520231,3463918190,2785509508,435703966,3908032597,1641649973,2842273706,3305899714,1510255612,2148256476,2655287854,3276092548,4258621189,236887753,3681803219,274041037,1734335097,3815195456,3317970021,1899903192,1026095262,4050517792,356393447,2410691914,3873677099,3682840055,3913112168,2491498743,4132185628,2489919796,1091903735,1979897079,3170134830,3567386728,3557303409,857797738,1136121015,1342202287,507115054,2535736646,337727348,3213592640,1301675037,2528481711,1895095763,1721773893,3216771564,62756741,2142006736,835421444,2531993523,1442658625,3659876326,2882144922,676362277,1392781812,170690266,3921047035,1759253602,3611846912,1745797284,664899054,1329594018,3901205900,3045908486,2062866102,2865634940,3543621612,3464012697,1080764994,553557557,3656615353,3996768171,991055499,499776247,1265440854,648242737,3940784050,980351604,3713745714,1749149687,3396870395,4211799374,3640570775,1161844396,3125318951,1431517754,545492359,4268468663,3499529547,1437099964,2702547544,3433638243,2581715763,2787789398,1060185593,1593081372,2418618748,4260947970,69676912,2159744348,86519011,2512459080,3838209314,1220612927,3339683548,133810670,1090789135,1078426020,1569222167,845107691,3583754449,4072456591,1091646820,628848692,1613405280,3757631651,526609435,236106946,48312990,2942717905,3402727701,1797494240,859738849,992217954,4005476642,2243076622,3870952857,3732016268,765654824,3490871365,2511836413,1685915746,3888969200,1414112111,2273134842,3281911079,4080962846,172450625,2569994100,980381355,4109958455,2819808352,2716589560,2568741196,3681446669,3329971472,1835478071,660984891,3704678404,4045999559,3422617507,3040415634,1762651403,1719377915,3470491036,2693910283,3642056355,3138596744,1364962596,2073328063,1983633131,926494387,3423689081,2150032023,4096667949,1749200295,3328846651,309677260,2016342300,1779581495,3079819751,111262694,1274766160,443224088,298511866,1025883608,3806446537,1145181785,168956806,3641502830,3584813610,1689216846,3666258015,3200248200,1692713982,2646376535,4042768518,1618508792,1610833997,3523052358,4130873264,2001055236,3610705100,2202168115,4028541809,2961195399,1006657119,2006996926,3186142756,1430667929,3210227297,1314452623,4074634658,4101304120,2273951170,1399257539,3367210612,3027628629,1190975929,2062231137,2333990788,2221543033,2438960610,1181637006,548689776,2362791313,3372408396,3104550113,3145860560,296247880,1970579870,3078560182,3769228297,1714227617,3291629107,3898220290,166772364,1251581989,493813264,448347421,195405023,2709975567,677966185,3703036547,1463355134,2715995803,1338867538,1343315457,2802222074,2684532164,233230375,2599980071,2000651841,3277868038,1638401717,4028070440,3237316320,6314154,819756386,300326615,590932579,1405279636,3267499572,3150704214,2428286686,3959192993,3461946742,1862657033,1266418056,963775037,2089974820,2263052895,1917689273,448879540,3550394620,3981727096,150775221,3627908307,1303187396,508620638,2975983352,2726630617,1817252668,1876281319,1457606340,908771278,3720792119,3617206836,2455994898,1729034894,1080033504,976866871,3556439503,2881648439,1522871579,1555064734,1336096578,3548522304,2579274686,3574697629,3205460757,3593280638,3338716283,3079412587,564236357,2993598910,1781952180,1464380207,3163844217,3332601554,1699332808,1393555694,1183702653,3581086237,1288719814,691649499,2847557200,2895455976,3193889540,2717570544,1781354906,1676643554,2592534050,3230253752,1126444790,2770207658,2633158820,2210423226,2615765581,2414155088,3127139286,673620729,2805611233,1269405062,4015350505,3341807571,4149409754,1057255273,2012875353,2162469141,2276492801,2601117357,993977747,3918593370,2654263191,753973209,36408145,2530585658,25011837,3520020182,2088578344,530523599,2918365339,1524020338,1518925132,3760827505,3759777254,1202760957,3985898139,3906192525,674977740,4174734889,2031300136,2019492241,3983892565,4153806404,3822280332,352677332,2297720250,60907813,90501309,3286998549,1016092578,2535922412,2839152426,457141659,509813237,4120667899,652014361,1966332200,2975202805,55981186,2327461051,676427537,3255491064,2882294119,3433927263,1307055953,942726286,933058658,2468411793,3933900994,4215176142,1361170020,2001714738,2830558078,3274259782,1222529897,1679025792,2729314320,3714953764,1770335741,151462246,3013232138,1682292957,1483529935,471910574,1539241949,458788160,3436315007,1807016891,3718408830,978976581,1043663428,3165965781,1927990952,4200891579,2372276910,3208408903,3533431907,1412390302,2931980059,4132332400,1947078029,3881505623,4168226417,2941484381,1077988104,1320477388,886195818,18198404,3786409e3,2509781533,112762804,3463356488,1866414978,891333506,18488651,661792760,1628790961,3885187036,3141171499,876946877,2693282273,1372485963,791857591,2686433993,3759982718,3167212022,3472953795,2716379847,445679433,3561995674,3504004811,3574258232,54117162,3331405415,2381918588,3769707343,4154350007,1140177722,4074052095,668550556,3214352940,367459370,261225585,2610173221,4209349473,3468074219,3265815641,314222801,3066103646,3808782860,282218597,3406013506,3773591054,379116347,1285071038,846784868,2669647154,3771962079,3550491691,2305946142,453669953,1268987020,3317592352,3279303384,3744833421,2610507566,3859509063,266596637,3847019092,517658769,3462560207,3443424879,370717030,4247526661,2224018117,4143653529,4112773975,2788324899,2477274417,1456262402,2901442914,1517677493,1846949527,2295493580,3734397586,2176403920,1280348187,1908823572,3871786941,846861322,1172426758,3287448474,3383383037,1655181056,3139813346,901632758,1897031941,2986607138,3066810236,3447102507,1393639104,373351379,950779232,625454576,3124240540,4148612726,2007998917,544563296,2244738638,2330496472,2058025392,1291430526,424198748,50039436,29584100,3605783033,2429876329,2791104160,1057563949,3255363231,3075367218,3463963227,1469046755,985887462],hp=[1332899944,1700884034,1701343084,1684370003,1668446532,1869963892],oi=(e,t)=>{if(t<=0||t>e.length)throw Error(`Illegal length: ${t}`);let n=0,r,a;const l=[];for(;n<t;){if(r=e[n++]&255,l.push(Mn[r>>2&63]),r=(r&3)<<4,n>=t){l.push(Mn[r&63]);break}if(a=e[n++]&255,r|=a>>4&15,l.push(Mn[r&63]),r=(a&15)<<2,n>=t){l.push(Mn[r&63]);break}a=e[n++]&255,r|=a>>6&3,l.push(Mn[r&63]),l.push(Mn[a&63])}return l.join("")},zv=(e,t)=>{const n=e.length;let r=0,a=0,l,i,o,c,d,u;const p=[];for(;r<n-1&&a<t&&(u=e.charCodeAt(r++),l=u<en.length?en[u]:-1,u=e.charCodeAt(r++),i=u<en.length?en[u]:-1,!(l==-1||i==-1||(d=l<<2>>>0,d|=(i&48)>>4,p.push(String.fromCharCode(d)),++a>=t||r>=n)||(u=e.charCodeAt(r++),o=u<en.length?en[u]:-1,o==-1)||(d=(i&15)<<4>>>0,d|=(o&60)>>2,p.push(String.fromCharCode(d)),++a>=t||r>=n)));)u=e.charCodeAt(r++),c=u<en.length?en[u]:-1,d=(o&3)<<6>>>0,d|=c,p.push(String.fromCharCode(d)),++a;return p.map(h=>h.charCodeAt(0))};typeof process=="object"&&jv.NEXT_RUNTIME==="edge"||(typeof setImmediate=="function"?setImmediate:typeof process=="object"&&typeof process.nextTick=="function"&&process.nextTick);const fp=(...e)=>new Error(`Illegal arguments: ${e.map(t=>typeof t).join(", ")}`),Vr=(e,t,n,r)=>{let a,l=e[t],i=e[t+1];return l^=n[0],a=r[l>>>24],a+=r[256|l>>16&255],a^=r[512|l>>8&255],a+=r[768|l&255],i^=a^n[1],a=r[i>>>24],a+=r[256|i>>16&255],a^=r[512|i>>8&255],a+=r[768|i&255],l^=a^n[2],a=r[l>>>24],a+=r[256|l>>16&255],a^=r[512|l>>8&255],a+=r[768|l&255],i^=a^n[3],a=r[i>>>24],a+=r[256|i>>16&255],a^=r[512|i>>8&255],a+=r[768|i&255],l^=a^n[4],a=r[l>>>24],a+=r[256|l>>16&255],a^=r[512|l>>8&255],a+=r[768|l&255],i^=a^n[5],a=r[i>>>24],a+=r[256|i>>16&255],a^=r[512|i>>8&255],a+=r[768|i&255],l^=a^n[6],a=r[l>>>24],a+=r[256|l>>16&255],a^=r[512|l>>8&255],a+=r[768|l&255],i^=a^n[7],a=r[i>>>24],a+=r[256|i>>16&255],a^=r[512|i>>8&255],a+=r[768|i&255],l^=a^n[8],a=r[l>>>24],a+=r[256|l>>16&255],a^=r[512|l>>8&255],a+=r[768|l&255],i^=a^n[9],a=r[i>>>24],a+=r[256|i>>16&255],a^=r[512|i>>8&255],a+=r[768|i&255],l^=a^n[10],a=r[l>>>24],a+=r[256|l>>16&255],a^=r[512|l>>8&255],a+=r[768|l&255],i^=a^n[11],a=r[i>>>24],a+=r[256|i>>16&255],a^=r[512|i>>8&255],a+=r[768|i&255],l^=a^n[12],a=r[l>>>24],a+=r[256|l>>16&255],a^=r[512|l>>8&255],a+=r[768|l&255],i^=a^n[13],a=r[i>>>24],a+=r[256|i>>16&255],a^=r[512|i>>8&255],a+=r[768|i&255],l^=a^n[14],a=r[l>>>24],a+=r[256|l>>16&255],a^=r[512|l>>8&255],a+=r[768|l&255],i^=a^n[15],a=r[i>>>24],a+=r[256|i>>16&255],a^=r[512|i>>8&255],a+=r[768|i&255],l^=a^n[16],e[t]=i^n[17],e[t+1]=l,e},Nn=(e,t)=>{let n=0;for(let r=0;r<4;++r)n=n<<8|e[t]&255,t=(t+1)%e.length;return{key:n,offp:t}},zo=(e,t,n)=>{const r=t.length,a=n.length;let l=0,i=new Int32Array([0,0]),o;for(let c=0;c<r;c++)o=Nn(e,l),l=o.offp,t[c]=t[c]^o.key;for(let c=0;c<r;c+=2)i=Vr(i,0,t,n),t[c]=i[0],t[c+1]=i[1];for(let c=0;c<a;c+=2)i=Vr(i,0,t,n),n[c]=i[0],n[c+1]=i[1]},Hv=(e,t,n,r)=>{const a=n.length,l=r.length;let i=0,o=new Int32Array([0,0]),c;for(let d=0;d<a;d++)c=Nn(t,i),i=c.offp,n[d]=n[d]^c.key;i=0;for(let d=0;d<a;d+=2)c=Nn(e,i),i=c.offp,o[0]^=c.key,c=Nn(e,i),i=c.offp,o[1]^=c.key,o=Vr(o,0,n,r),n[d]=o[0],n[d+1]=o[1];for(let d=0;d<l;d+=2)c=Nn(e,i),i=c.offp,o[0]^=c.key,c=Nn(e,i),i=c.offp,o[1]^=c.key,o=Vr(o,0,n,r),r[d]=o[0],r[d+1]=o[1]},qv=(e,t,n,r,a)=>{const l=new Int32Array(hp),i=l.length;if(n<4||n>31)throw new Error(`Illegal number of rounds (4-31): ${n}`);if(t.length!==16)throw new Error(`Illegal salt length: ${t.length} != 16`);n=1<<n>>>0;const o=new Int32Array(Vv),c=new Int32Array(Nv);Hv(t,e,o,c);let d=0;const u=()=>{if(d<n){const h=Date.now();for(;d<n&&(d+=1,zo(e,o,c),zo(t,o,c),!(Date.now()-h>100)););}else{for(let f=0;f<64;f++)for(let m=0;m<i>>1;m++)Vr(l,m<<1,o,c);const h=[];for(let f=0;f<i;f++)h.push((l[f]>>24&255)>>>0),h.push((l[f]>>16&255)>>>0),h.push((l[f]>>8&255)>>>0),h.push((l[f]&255)>>>0);return h}};let p;do p=u();while(!p);return p},Wv=e=>{try{const t=typeof window<"u"?window.crypto:globalThis.crypto,n=new Uint32Array(e);return t.getRandomValues(n),Array.from(n)}catch{throw Error("WebCryptoAPI is not available")}},Gv=(e=10)=>{if(typeof e!="number")throw fp(e);e<4?e=4:e>31&&(e=31);const t=[];return t.push("$2b$"),e<10&&t.push("0"),t.push(e.toString()),t.push("$"),t.push(oi(Wv(16),16)),t.join("")},Uv=e=>{let t=0,n=0;for(let r=0;r<e.length;++r)n=e.charCodeAt(r),n<128?t+=1:n<2048?t+=2:(n&64512)===55296&&(e.charCodeAt(r+1)&64512)===56320?(r++,t+=4):t+=3;return t},Kv=e=>{let t=0,n,r;const a=new Array(Uv(e));for(let l=0,i=e.length;l<i;++l)n=e.charCodeAt(l),n<128?a[t++]=n:n<2048?(a[t++]=n>>6|192,a[t++]=n&63|128):(n&64512)===55296&&((r=e.charCodeAt(l+1))&64512)===56320?(n=65536+((n&1023)<<10)+(r&1023),++l,a[t++]=n>>18|240,a[t++]=n>>12&63|128,a[t++]=n>>6&63|128,a[t++]=n&63|128):(a[t++]=n>>12|224,a[t++]=n>>6&63|128,a[t++]=n&63|128);return a},Jv=(e,t,n,r)=>{if(typeof e!="string"||typeof t!="string")throw new Error("Invalid content / salt: Not a string");let a,l;if(t.charAt(0)!=="$"||t.charAt(1)!=="2")throw new Error("Invalid salt version: "+t.substring(0,2));if(t.charAt(2)==="$")a="\0",l=3;else{if(a=t.charAt(2),a!=="a"&&a!=="b"&&a!=="y"||t.charAt(3)!=="$")throw Error("Invalid salt revision: "+t.substring(2,4));l=4}if(t.charAt(l+2)>"$")throw new Error("Missing salt rounds");const i=parseInt(t.substring(l,l+1),10)*10,o=parseInt(t.substring(l+1,l+2),10),c=i+o,d=t.substring(l+3,l+25);e+=a>="a"?"\0":"";const u=Kv(e),p=zv(d,16);return(f=>{const m=[];return m.push("$2"),a>="a"&&m.push(a),m.push("$"),c<10&&m.push("0"),m.push(c.toString()),m.push("$"),m.push(oi(p,p.length)),m.push(oi(f,hp.length*4-1)),m.join("")})(qv(u,p,c))},Yv=(e,t=10)=>{if(typeof t=="number"&&(t=Gv(t)),typeof e!="string"||typeof t!="string")throw Error("Illegal arguments: "+typeof e+", "+typeof t);return Jv(e,t)},ci=(e,t)=>{if(typeof e!="string"||typeof t!="string")throw fp(e,t);return t.length!==60?!1:Yv(e,t.substring(0,t.length-31))===t};var gp=R({name:"PasswordModal",props:{hint:String,full:Boolean,showTitle:Boolean},emits:["verify"],setup(e,{emit:t}){const n=he(),r=fe(),a=Q(""),l=Q(!1),i=Q(!1),o=_(()=>r.value.encryptLocales);let c=null;const d=()=>{c&&clearTimeout(c),l.value=!1,t("verify",a.value,i.value),pn().then(()=>{l.value=!0,c=setTimeout(()=>{l.value=!1},1e3)})};return()=>s("div",{class:["vp-decrypt-layer",{expand:e.full||n.value.home}]},[e.showTitle?s(Ju):null,s("div",{class:"vp-decrypt-modal"},[s("div",{class:["vp-decrypt-hint",{tried:l.value}]},l.value?o.value.errorHint:s(ts,{"aria-label":o.value.iconLabel})),e.hint?s("div",{class:"vp-decrypt-hint"},e.hint):null,s("div",{class:"vp-decrypt-input"},[s("input",{type:"password",value:a.value,placeholder:o.value.placeholder,onInput:({target:u})=>{a.value=u.value},onKeydown:({key:u})=>{u==="Enter"&&d()}})]),s("div",{class:"vp-remember-password"},[s("input",{id:"remember-password",type:"checkbox",value:i.value,onChange:()=>{i.value=!i.value}}),s("label",{for:"remember-password"},o.value.remember)]),s("button",{type:"button",class:"vp-decrypt-submit",onClick:()=>{d()}},"OK")])])}});const mp=()=>{const e=Bt();return _(()=>e.value.encrypt)},Ho="VUEPRESS_HOPE_GLOBAL_TOKEN",Qv=()=>{const e=mp(),t=In(Ho,""),n=zi(Ho,"");return{status:_(()=>{const{global:r=!1,admin:a}=e.value,l=r&&!!(a!=null&&a.tokens.length),i=l?t.value?e.value.admin.tokens.every(o=>!ci(t.value,o)):e.value.admin.tokens.every(o=>!ci(n.value,o)):!1;return{isEncrypted:l,isLocked:i,hint:(a==null?void 0:a.hint)??""}}),validate:(r,a=!1)=>{(a?t:n).value=r}}},Il=(e="",t)=>!!e&&ci(e,t),qo="VUEPRESS_HOPE_PATH_TOKEN",Xv=()=>{const e=Ve(),t=mp(),n=In(qo,{}),r=zi(qo,{}),a=i=>sr(t.value.config)?St(t.value.config).filter(o=>ar(decodeURI(i),o)).sort((o,c)=>c.length-o.length):[],l=i=>{const{config:o={}}=t.value,c=a(i);if(c.length>0){const d=c.find(u=>o[u].hint);return{isEncrypted:!0,isLocked:c.some(u=>(n.value[u]?o[u].tokens.every(p=>!Il(n.value[u],p)):!0)&&(r.value[u]?o[u].tokens.every(p=>!Il(r.value[u],p)):!0)),hint:d?o[d].hint:""}}return{isEncrypted:!1,isLocked:!1,hint:""}};return{status:_(()=>l(e.value.path)),getStatus:l,validate:(i,o=!1)=>{const{config:c={}}=t.value,d=a(e.value.path);for(const u of d)if(c[u].tokens.some(p=>Il(i,p))){(o?n:r).value[u]=i;break}}}};var Zv=R({name:"GlobalEncrypt",slots:Object,setup(e,{slots:t}){const{status:n,validate:r}=Qv(),a=Xe(),l=Q(!1);return oe(()=>{l.value=!0}),()=>{const{isEncrypted:i,isLocked:o,hint:c}=n.value;return s(a.value?Ya:es,()=>i?l.value?o?s(gp,{full:!0,hint:c,onVerify:r}):t.default():null:t.default())}}}),e6=R({name:"LocalEncrypt",slots:Object,setup(e,{slots:t}){const{status:n,validate:r}=Xv(),a=Q(!1);return oe(()=>{a.value=!0}),()=>{const{isEncrypted:l,isLocked:i,hint:o}=n.value;return l?a.value?i?s(gp,{showTitle:!0,full:!0,hint:o,onVerify:r}):t.default():null:t.default()}}});a3(e=>{const t=e.title,n=e.index??!0,r=e.icon;return n?{title:t,content:r?()=>[s(Le("VPIcon"),{icon:r}),t]:null,order:e.order,index:e.index}:null});const t6={enhance:({app:e,router:t})=>{const{scrollBehavior:n}=t.options;t.options.scrollBehavior=async(...r)=>(await ni.wait(),n(...r)),C4(e),e.component("BloggerInfo",as),e.component("SocialMedias",lp),e.component("GlobalEncrypt",Zv),e.component("LocalEncrypt",e6)},setup:()=>{S4(),A4(),vv()},layouts:{Layout:lv,NotFound:sv,BlogCategory:Pv,BlogHome:up,BlogType:$v,Timeline:pp}},n6=Object.freeze(Object.defineProperty({__proto__:null,default:t6},Symbol.toStringTag,{value:"Module"})),_a=[cg,dg,ug,pg,fg,gg,xg,Zg,em,tm,sm,um,mm,bm,Im,Ym,r3,d3,m3,E3,Z3,l4,n6].map(e=>e.default).filter(Boolean),r6=JSON.parse(`{"base":"/","lang":"zh-CN","title":"Dream_oyh 的 blog","description":"穿梭于大千世界的普通人","head":[["link",{"rel":"stylesheet","href":"/mask.css"}],["link",{"rel":"stylesheet","href":"/highlight.css"}],["script",{"async":true,"src":"https://www.googletagmanager.com/gtag/js?id=G-NQR8MZSFKD"}],["script",{},"<!-- Google tag (gtag.js) -->\\n    window.dataLayer = window.dataLayer || [];\\n    function gtag(){dataLayer.push(arguments);}\\n    gtag('js', new Date());\\n    gtag('config', 'G-xxxxxxxx');"],["link",{"rel":"icon","href":"/web_logo.jpg"}]],"locales":{}}`);var mr=ee(r6),a6=K2,l6=()=>{const e=b0({history:a6(Oi("/")),routes:[{name:"vuepress-route",path:"/:catchAll(.*)",components:{}}],scrollBehavior:(t,n,r)=>r||(t.hash?{el:t.hash}:{top:0})});return e.beforeResolve(async(t,n)=>{if(t.path!==n.path||n===Wt){const r=yt(t.fullPath);if(r.path!==t.fullPath)return r.path;const a=await r.loader();t.meta={...r.meta,_pageChunk:a}}else t.path===n.path&&(t.meta=n.meta)}),e},i6=e=>{e.component("ClientOnly",Mi),e.component("Content",wd),e.component("RouteLink",Fe)},s6=(e,t,n)=>{const r=_(()=>t.currentRoute.value.path),a=pc((k,w)=>({get(){return k(),t.currentRoute.value.meta._pageChunk},set(x){t.currentRoute.value.meta._pageChunk=x,w()}})),l=_(()=>kn.resolveLayouts(n)),i=_(()=>kn.resolveRouteLocale(mr.value.locales,r.value)),o=_(()=>kn.resolveSiteLocaleData(mr.value,i.value)),c=_(()=>a.value.comp),d=_(()=>a.value.data),u=_(()=>d.value.frontmatter),p=_(()=>kn.resolvePageHeadTitle(d.value,o.value)),h=_(()=>kn.resolvePageHead(p.value,u.value,o.value)),f=_(()=>kn.resolvePageLang(d.value,o.value)),m=_(()=>kn.resolvePageLayout(d.value,l.value)),y={layouts:l,pageData:d,pageComponent:c,pageFrontmatter:u,pageHead:h,pageHeadTitle:p,pageLang:f,pageLayout:m,redirects:Kl,routeLocale:i,routePath:r,routes:Jn,siteData:mr,siteLocaleData:o};return e.provide($i,y),Object.defineProperties(e.config.globalProperties,{$frontmatter:{get:()=>u.value},$head:{get:()=>h.value},$headTitle:{get:()=>p.value},$lang:{get:()=>f.value},$page:{get:()=>d.value},$routeLocale:{get:()=>i.value},$site:{get:()=>mr.value},$siteLocale:{get:()=>o.value},$withBase:{get:()=>ke}}),y},o6=([e,t,n=""])=>{const r=Object.entries(t).map(([o,c])=>De(c)?`[${o}=${JSON.stringify(c)}]`:c?`[${o}]`:"").join(""),a=`head > ${e}${r}`;return Array.from(document.querySelectorAll(a)).find(o=>o.innerText===n)??null},c6=([e,t,n])=>{if(!De(e))return null;const r=document.createElement(e);return sr(t)&&Object.entries(t).forEach(([a,l])=>{De(l)?r.setAttribute(a,l):l&&r.setAttribute(a,"")}),De(n)&&r.appendChild(document.createTextNode(n)),r},d6=()=>{const e=_0(),t=Kr();let n=[];const r=()=>{e.value.forEach(i=>{const o=o6(i);o&&n.push(o)})},a=()=>{const i=[];return e.value.forEach(o=>{const c=c6(o);c&&i.push(c)}),i},l=()=>{document.documentElement.lang=t.value;const i=a();n.forEach((o,c)=>{const d=i.findIndex(u=>o.isEqualNode(u));d===-1?(o.remove(),delete n[c]):i.splice(d,1)}),i.forEach(o=>document.head.appendChild(o)),n=[...n.filter(o=>!!o),...i]};Et(E0,l),oe(()=>{r(),Ae(e,l,{immediate:!1})})},u6=e2,p6=async()=>{var n;const e=u6({name:"Vuepress",setup(){var l;d6();for(const i of _a)(l=i.setup)==null||l.call(i);const r=_a.flatMap(({rootComponents:i=[]})=>i.map(o=>s(o))),a=w0();return()=>[s(a.value),r]}}),t=l6();i6(e),s6(e,t,_a);for(const r of _a)await((n=r.enhance)==null?void 0:n.call(r,{app:e,router:t,siteData:mr}));return e.use(t),{app:e,router:t}};p6().then(({app:e,router:t})=>{t.isReady().then(()=>{e.mount("#app")})});export{sr as A,R3 as B,B3 as C,fu as D,Ve as E,ee as F,oe as G,ut as H,Ga as I,Vt as J,gf as K,D3 as L,De as M,jr as N,Fe as R,A as _,Jc as a,Ie as b,f6 as c,p6 as createVueApp,g6 as d,Yc as e,m6 as f,R as g,bt as h,kt as i,Qa as j,Cn as k,Q as l,_ as m,s as n,o1 as o,ie as p,Ae as q,Le as r,gu as s,Pn as t,fn as u,F3 as v,mh as w,I3 as x,O3 as y,y6 as z};
