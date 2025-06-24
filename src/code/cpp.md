@@ -190,7 +190,6 @@ project(example)  // 指定工程名字
 add_executable(example main.cpp)  // 单个文件编译，创建 example.exe
 ```
 
-    - VSCode 上配置 CMakeLists.txt 的方法是：`ctrl`-`Shift`-`P`，调出命令面板，选择`Cmake:Configure`，再选用合适的工具包即可自动配置。配置好的程序会放在`build`文件夹中，然后再打开命令面板，选择`Cmake: Build`，即可自动构建项目。
-    - 命令面板中：`Cmake: Select a Kit`，可以选择合适的工具包。
-    - 命令行工具配置：`cmake -S . -B build`，构建项目：`cmake --build build`
-
+- VSCode 上配置 CMakeLists.txt 的方法是：`ctrl`-`Shift`-`P`，调出命令面板，选择`Cmake:Configure`，再选用合适的工具包即可自动配置。配置好的程序会放在`build`文件夹中，然后再打开命令面板，选择`Cmake: Build`，即可自动构建项目。
+- 命令面板中：`Cmake: Select a Kit`，可以选择合适的工具包。
+- 命令行工具配置：`cmake -S . -B build`，构建项目：`cmake --build build`
