@@ -8,11 +8,12 @@ date: 2025-06-19
 
 - 复旦微开发板型号为 FM33FG0614A AutoEVB UM，**而不是** FM33FG0614A **Rev.A** AutoEVB UM，我们用的是 B 型板而非 A 型板，后面参考原理图和程序例程，也都要注意是 B 型的板子
 
-| 英文缩写 |          全拼           |                                             含义                                             |
-| :------: | :---------------------: | :------------------------------------------------------------------------------------------: |
-|   MCU    |   Micro Control Unit    |                                         微型控制单元                                         |
-|   SWD    |    Serial Wire Debug    | 串行接口，另外一种测试叫作 JTAG 接口，主要用于芯片内部测试，测试芯片制造出来之后引脚的连通信 |
-|   SVD    | Supply Voltage Detector |                                        电源电压检测器                                        |
+|   英文缩写    |          全拼           |                                             含义                                             |
+| :-----------: | :---------------------: | :------------------------------------------------------------------------------------------: |
+|      MCU      |   Micro Control Unit    |                                         微型控制单元                                         |
+|      SWD      |    Serial Wire Debug    | 串行接口，另外一种测试叫作 JTAG 接口，主要用于芯片内部测试，测试芯片制造出来之后引脚的连通信 |
+|      SVD      | Supply Voltage Detector |                                        电源电压检测器                                        |
+| CAN 总线 IDLE |            -            |                                         CAN 总线空闲                                         |
 
 ## FM33FG0xA 外设相关
 
@@ -40,6 +41,79 @@ date: 2025-06-19
 | 10  | 数字外设功能,IO 的输入输出方向由所连接的外设功能决定 |
 | 11  |                    模拟信号功能，                    |
 
+GPIO 初始化结构体配置方法，以下是点灯程序的初始化配置。
+
+```cpp
+void LED_Init(void)
+{
+    FL_GPIO_InitTypeDef GPIO_InitStruct = { 0 };
+    /* 输出数据置位寄存器写1，避免LED初始化时闪烁 */
+    FL_GPIO_SetOutputPin(GPIOB, FL_GPIO_PIN_6);
+    /* GPIO 输出功能初始化 */
+    GPIO_InitStruct.pin           = FL_GPIO_PIN_6;              // 指定引脚
+    GPIO_InitStruct.mode          = FL_GPIO_MODE_OUTPUT;        // 指定工作模式
+    GPIO_InitStruct.outputType    = FL_GPIO_OUTPUT_PUSHPULL;    // 指定输出模式：推挽或者开漏
+    GPIO_InitStruct.pull          = FL_GPIO_BOTH_DISABLE;       // 上拉/下拉选择使能
+    GPIO_InitStruct.remapPin      = FL_GPIO_PINREMAP_FUNCTON0;  // 重映射
+    GPIO_InitStruct.driveStrength = FL_GPIO_DRIVESTRENGTH_X3;   // 驱动强度
+    (void)FL_GPIO_Init(GPIOB, &GPIO_InitStruct);                // 初始化函数
+}
+
+```
+
+GPIO 置高低电平
+
+```cpp
+FL_GPIO_ResetOutputPin(GPIOB, FL_GPIO_PIN_6); // 置高电平
+FL_GPIO_SetOutputPin(GPIOB, FL_GPIO_PIN_6); // 置低电平
+```
+
+#### GPIO 配置外部中断
+
+这颗芯片貌似无法轮询开关的 GPIO 口电平状态，需要配置外部中断才能让开关发挥作用。
+
+以下是对 EXTI 配置的方法：
+
+```cpp{18-36}
+void KEY_Init(void)
+{
+    //  B2口是机载按键接口
+    FL_GPIO_InitTypeDef GPIO_InitStruct = {0};
+    FL_EXTI_CommonInitTypeDef extiCommonInitStruct = {0};
+    FL_EXTI_InitTypeDef extiInitStruct = {0};
+    FL_NVIC_ConfigTypeDef InterruptConfigStruct;
+
+    /* 用到的GPIO引脚，设置为输入功能，PB8、PB2为开发板按键 */
+    GPIO_InitStruct.pin           = FL_GPIO_PIN_2; //FL_GPIO_PIN_8 | FL_GPIO_PIN_2;
+    GPIO_InitStruct.mode          = FL_GPIO_MODE_INPUT;
+    GPIO_InitStruct.outputType    = FL_GPIO_OUTPUT_PUSHPULL;
+    GPIO_InitStruct.pull          = FL_GPIO_PULLUP_ENABLE;
+    GPIO_InitStruct.remapPin      = FL_GPIO_PINREMAP_FUNCTON2;
+    GPIO_InitStruct.driveStrength = FL_GPIO_DRIVESTRENGTH_X3;
+    (void)FL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+    /* EXTI中断采样时钟选择 */
+    extiCommonInitStruct.clockSource = FL_CMU_EXTI_CLK_SOURCE_AHBCLK;
+    /* 休眠使能外部中断采样 */
+    extiCommonInitStruct.EXTIOnSleep = FL_DISABLE;
+    (void)FL_EXTI_CommonInit(&extiCommonInitStruct);
+
+    /* 配置PB2引脚外部中断功能 */
+    extiInitStruct.extiPinX    = FL_GPIO_PIN_2;
+    /* 使能数字滤波 */
+    extiInitStruct.filter      = FL_ENABLE;
+    /* 设置触发边沿模式 */
+    extiInitStruct.triggerEdge = FL_GPIO_EXTI_TRIGGER_EDGE_FALLING;
+    (void)FL_EXTI_Init(GPIOB, &extiInitStruct);
+
+    /* 清除中断标识 */
+    FL_EXTI_ClearFlag(GPIOB, FL_GPIO_PIN_2);
+    /* NVIC中断配置 */
+    InterruptConfigStruct.preemptPriority = 0x02;
+    FL_NVIC_Init(&InterruptConfigStruct, EXTI_DAC_IRQn);
+}
+```
+
 ### 时钟架构
 
 芯片内部包括多个时钟源
@@ -59,6 +133,30 @@ date: 2025-06-19
 - 部分外设模块工作时需设独立工作时钟（与 CPU 和总线时钟解耦）
 - 上电默认使用 **8MHzRCHF** 的不分频时钟作为系统主时钟
 - APB 总线时钟可以使 AHBCLK 的分频或同频时钟
+
+### CAN 外设
+
+FM33FG0614A 提供的 CAN 库函数极其的少，和 stm32 差太多了，看了下数据手册，估计只能通过自行配置寄存器，自己写收发函数。
+
+#### CAN 通信结构框图
+
+和 stm32 的基本一致，但是在寄存器的操作方式上有很大不同。
+
+![CAN通信结构框图](/images/stm32/CAN-结构框图.png =700x )
+
+> 注：复旦微芯片的 FIFO 只有一个，且该 FIFO 中只能保存 2 条消息。提供了 16 组消息滤波器。
+
+#### CAN 模式切换
+
+![CAN模式切换方法](/images/stm32/FMCAN-模式切换.png =700x )
+
+#### CAN 自发自收
+
+CAN 的自发自收程序已经上传至 github，在该仓库中的[can.c](https://github.com/dream-oyh/CAN-Loopback-Test/blob/master/Src/can.c)文件中查看具体的 CAN 自收自发测试示例。
+
+- [ ] 这个代码里面对于 CAN 收消息过程中的`RxMessage`变量的处理还需要优化，现在只是勉强实现了测试功能。
+
+**实际效果**：按一下机载按键，调用 GPIO 的外部中断，单片机 LED 绿灯闪烁一次，然后单片机发送 CAN 报文，然后在自回环模式下自己收报文，如果正确收到报文，就再闪烁一次 LED 灯。
 
 ## IAR 环境配置
 
