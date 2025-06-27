@@ -79,6 +79,12 @@
   preview="/images/web/code.png"
 />
 
+<SiteInfo
+  name="浙大人PhilFan的博客"
+  url="https://www.philfan.cn/"
+  preview="/images/web/PhilFan博客.png"
+/>
+
 ## 数理统计
 
 <SiteInfo

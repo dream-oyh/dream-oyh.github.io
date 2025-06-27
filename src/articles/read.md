@@ -6,33 +6,6 @@ icon: note
 
 **唯有文字能够担当此任，宣告生命曾经在场。**
 
-## 读书记录
-
-我原先使用豆瓣来记录我的影视剧和读书经历，但是豆瓣存在以下缺点：
-
-1. 封闭，现在开始封禁爬虫了
-2. 评论区和小组氛围实在说不上好
-3. 缺少外文书籍条目
-4. 有些条目被封禁
-
-所以我把书影音记录转移到 Neodb。
-
-- 手机端（IOS）APP：[Piecelet Neodb](https://github.com/lcandy2/neodb-app)
-- PC 端 web：[Neodb](https://neodb.social/discover/)
-
-### 豆瓣数据转移至 neodb
-
-[文档参考](https://about.neodb.social/doc/doufen/)
-
-- 下载[豆坟浏览器插件](https://microsoftedge.microsoft.com/addons/detail/豆伴：豆瓣账号备份工具/dgdleiopbmoglledcdoncpciklggaplj)，适用于 Chrome，edge 浏览器
-- 进入[豆瓣官网](https://www.douban.com/)，登录账号
-- 在登陆账号后的豆瓣界面下，点击工具栏豆坟浏览器插件图标，点击“+新建任务”，选择“书/影/音/游”“评论”“豆列”，点击新建，即可进入备份过程
-- 点击右上角“浏览备份”
-- 点击对应账号
-- 点击右上角“导出数据”，依然选择“书/影/音/游”“评论”“豆列”，点击导出，即可将豆瓣数据导出成 excel 格式
-- 进入[neodb 官网](https://neodb.social/discover/)，注册账号并登录，点击右上角个人头像，再点击"data"
-- 进入数据导入界面后，选择第一个“Import Marks and Reviews from Douban”，然后选择导出的 excel 格式文件，“Import method”选“Overwrite”，“Visibility”选“Public”后，点击“Import”即可。
-
 ## 已读书目（大学期间）
 
 |书目 | 作者 | 简评 | 时间 |
@@ -55,12 +28,21 @@ icon: note
 |我们仨 | 杨绛 | 在福州的公交车上看完了这本书，最后翻阅杨绛老先生留下的“石子”甚是感动|2024.8.14-2024.8.16|
 |十二年故人戏 | 墨宝非宝 | 第一次接触网络言情小说，但是把民国的故事融入进去很棒|2024.9.8-2024.9.18|
 |红楼梦 <Badge type="warning" text="神作" /> | 曹雪芹 | 假作真时真亦假，无为有处有还无，不愧是四大名著之首，期待二刷|2024.9.18-2025.1.26|
-|文城 <Badge type="danger" text="痛" />|余华 | 在武汉的青旅里看完了这本书，补叙太痛了，真的是发刀子的老手|2025.1.10-2025.1.12|
+|文城 <Badge type="warning" text="痛" />|余华 | 在武汉的青旅里看完了这本书，补叙太痛了，真的是发刀子的老手|2025.1.10-2025.1.12|
 |圣诞忆旧集 <Badge type="info" text="童话" /> |[美]杜鲁门·卡波特 | 一本充满温情的童话书，有些美好的不真实，但是谁又不希望自己的人生里能有一位苏菲小姐呢？|2024.12.28|
 |啊！原来我是这样的自己！| 小红书 | 来自小红书的特别企划，读起来很轻松的闲书，看看别人的生活方式吧|2024.11.15-2024.11.17|
 |白鹿原 <Badge type="warning" text="神作" />| 陈忠实 | “如果不是白鹿原走到了毁灭的尽头，那就是主宰原上的王朝将陷入死辙末路” |2025.3.21-2025.3.31 |
 |面纱 | 毛姆 | 毛姆对复杂人性的洞察和解剖是准确且细腻的，基蒂是悲剧吗？我觉得不是，她认清了真相，做回了自己，她知道自己的孩子将来要成长为什么样的人；那沃尔特是悲剧吗？好像是，他爱错了人，但是他无条件的爱又是如此崇高和圣洁，深沉和卑微|2025.3.26-2025.4.5|
 | 长安的荔枝 | 马伯庸 | 讽刺性拉满，用唐朝历史的架构写今日官场的为官之道，含沙射影地讽刺了当前官场的陋习和朝野的利益纷争，领导一张嘴，下边跑断腿；“和光同尘，雨露均沾，花花轿子众人抬”，真是敢写 | 2025.4.10 一晚 |
+|我的天才女友|[意大利]埃莱娜·费兰特|那不勒斯系列的第一部，还没太看懂，期待后面三部的故事，单单看第一部有点狭隘了|2025.4.5-2025.4.20|
+|学术“咸鱼”自救指南<Badge type="danger" text="烂" />|钱婧|拉胯，说了很多但是也啥都没说|2025.4.25-2025.4.27|
+|小岛经济学|[美]彼得·希夫|对经济学小白的入门书，把经济学讲成了故事，对照的历史原本是美国互联网泡沫和希腊的次贷危机|2025.4.27-2025.4.29|
+|中国近代史|蒋廷黻|主要针对于新民主主义革命前期，所以虽然是蒋氏，但是也能看，前面对中国近代史的分析是不错的，后面对三民主义的歌颂就简单看看好了。附录给了很专业的学术研究，太枯燥了，有点看不下去|2025.5.5-2025.5.27|
+|好的爱情<Badge type="danger" text="烂" />|陈果|太掉书袋了，且讲不到重点，浮于表面|2025.5.28|
+|认知觉醒<Badge type="danger" text="烂" />|周岭|捧的太高了，有些道理明明是浅显易懂的，在这里却被写的弯弯绕绕|2025.5.18|
+|命若朝霜|柯岚|对清代良人贱民的法律制度和对女性的偏见进行了“有些主观”的梳理，加深了我对红楼的理解，不作为学术书来看还是可以的，其中对于秦氏结局的描述颇有意思|2025.4.29-2025.5.5|
+|心碎是我们的赞歌|[美]罗布·谢菲尔德|粉丝的狂欢，从里面发现了Taylor很多歌曲埋下的彩蛋，和有关Taylor身边朋友的故事|2025.5.29-2025.6.2|
+|苦难辉煌 <Badge type="warning" text="爽" />|金一南|600多页的党史巨著，爽！对战争的描写有点抽象，对着[沙盘上的战争](https://space.bilibili.com/612194373)看的，把这两个人的解读放在一起看，真是感慨20世纪中国革命的苦难与辉煌。|2025.6.2-2025.6.24 |
 
 ## 英语原著
 
@@ -242,7 +224,7 @@ For them, I believed I could don armor and charge at giants, even if I saw only 
 
 No matter how much I appeared to have changed - how illustrious my education, how altered my appearance - I was still her. At best I was two people, a fractured mind. She was inside, and emerged whenever I crossed the threshold of my father's house.
 
-You could call this selfhoodd many things. Transformation. Metamorphosis. Falsity. Betrayal. -- I called it education. 
+You could call this selfhood many things. Transformation. Metamorphosis. Falsity. Betrayal. -- I called it education. 
 ::: right
 ——Educated: the memoir
 :::

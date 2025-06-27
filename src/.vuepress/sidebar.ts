@@ -28,6 +28,7 @@ export default sidebar({
       children: ["tips/regex.md", "tips/pdf2docx.md", "tips/keyboard_remap.md", "tips/voc.md"],
     },
   ],
+  "/aHome/": ["index.md", "todo.md"],
   "/code/python/pytorch/": [
     {
       text: "Pytorch 学习笔记",

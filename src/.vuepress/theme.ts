@@ -73,7 +73,7 @@ export default hopeTheme({
   },
   // 博客相关
   blog: {
-    intro: "/intro.html",
+    intro: "/aHome/",
     medias: {
       BiliBili: "https://space.bilibili.com/1901628168?spm_id_from=333.1007.0.0",
       GitHub: "https://github.com/dream-oyh",
@@ -101,7 +101,7 @@ export default hopeTheme({
       },
     },
     icon: {
-      assets: "//at.alicdn.com/t/c/font_4435976_nx6nfnrgt4m.css",
+      assets: "//at.alicdn.com/t/c/font_4435976_6nfyqb356dq.css",
     },
     comment: {
       //   provider: "Waline",

@@ -2,17 +2,12 @@
 home: true
 layout: BlogHome
 heroImage: /index_logo.png
-heroText: Dream_oyh 的 blog
+heroText: Dream_oyh Blog
 bgImage: /index_bg.jpg
 heroFullScreen: true
-tagline: 那些真正塑造我们的，往往没有被写进简历里
+tagline: The best people in life are free~
 projects:
-  - icon: python
-    name: System Identification by RNN
-    desc: 基于 RNN 的水下机器人系统参数辨识
-    link: https://github.com/dream-oyh/System-Identification-by-RNN
-
-  - icon: icon-typescript
+  - icon: typescript
     name: WORDBOOK-app
     desc: Vite + Solidjs + Tailwindcss 搭建生词本网页
     link: https://github.com/dream-oyh/wordbook-app
@@ -35,7 +30,7 @@ projects:
   - icon: arrow
     name: 个人简介
     desc: 点击右侧头像查看更多个人简介
-    link: intro.md
+    link: /aHome/intro.md
 
   - icon: folder
     name: 学习资料站
