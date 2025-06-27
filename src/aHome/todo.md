@@ -25,7 +25,7 @@ icon: wancheng
 
 :::
 
-::: important 课外目标
+::: important 课外目标+需要坚持做的事
 
 #### 在读书目
 
@@ -36,10 +36,17 @@ icon: wancheng
 
 - [ ] 周二、四、六长跑 3km
 
+#### English
+
+- [ ] 每晚一小时外语阅读 + 周末做单词梳理
+
 :::
 
-::: danger 奇思妙想的 Idea
+::: danger 未来要做的事
 
 - [ ] 基于 stm32 的平衡车开发
+- [ ] 学前端（这辈子也学不上了）
 
 :::
+
+<iframe frameborder="no" src="/charts/words.html" width="100%" height="280" loading="lazy"></iframe>
