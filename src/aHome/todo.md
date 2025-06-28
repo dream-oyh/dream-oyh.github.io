@@ -7,12 +7,12 @@ icon: wancheng
 
 ::: info 正在学习的内容
 
-- [ ] 完成优恩捷横向项目开发
+- [ ] 完成优恩捷横向项目开发（2025.6.19-2025.10.10）
   - [x] 学习并实现 CAN 通信
   - [ ] 学习 OTA 相关知识
-- [ ] 学习 C++编程环境搭建
-  - [ ] 学习[XMake 的使用](https://zhuanlan.zhihu.com/p/640701847)
-  - [ ] 重新整理 [C++ 板块](/code/cpp.html)的笔记
+- [x] 学习 C++编程环境搭建
+  - [x] 学习[XMake 的使用](https://zhuanlan.zhihu.com/p/640701847)
+  - [x] 重新整理 [C++ 板块](/code/cpp.html)的笔记
 - [ ] 学习[江科大 PID 控制课程](https://www.bilibili.com/video/BV1G9zdYQEr3)
 
 :::
@@ -40,8 +40,11 @@ icon: wancheng
 ::: danger 未来要做的事
 
 - [ ] 基于 stm32 的平衡车开发
-- [ ] 学前端开发（这辈子也学不上了）
+- [ ] 学前端开发 ~~（这辈子也学不上系列）~~
+- [ ] 学 Qt 开发 ~~（这辈子也学不上系列）~~
 
 :::
+
+#### 每日背单词数量统计
 
 <iframe frameborder="no" src="/charts/words.html" width="100%" height="280" loading="lazy"></iframe>
