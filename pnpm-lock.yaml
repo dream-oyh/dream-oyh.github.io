@@ -11,6 +11,9 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.20
         version: 2.0.0-rc.20(@types/node@22.13.14)(sass-embedded@1.86.0)
+      '@vuepress/plugin-register-components':
+        specifier: 2.0.0-rc.110
+        version: 2.0.0-rc.110(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(sass-embedded@1.86.0))(vue@3.5.13))
       '@vuepress/plugin-slimsearch':
         specifier: 2.0.0-rc.90
         version: 2.0.0-rc.90(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(sass-embedded@1.86.0))(vue@3.5.13))
@@ -933,6 +936,11 @@ packages:
     hasBin: true
     peerDependencies:
       vuepress: 2.0.0-rc.20
+
+  '@vuepress/plugin-register-components@2.0.0-rc.110':
+    resolution: {integrity: sha512-Z6pGch8L+OxKK67tI0DRzfAQkgzW0rTi5mbQl+t0OfMRap7huOMXrKILEiT7kPvY8vniLcjLZF98hTVC8e7waQ==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.23
 
   '@vuepress/plugin-rtl@2.0.0-rc.90':
     resolution: {integrity: sha512-o3qMP84Ocw//+pcsvDztsJoRFAdkwV3vtc1E68l154MdtqUg7tRWXaUuVbP6YwiCsv2w0evfQTIaXbmJohB6ig==}
@@ -3561,6 +3569,12 @@ snapshots:
       vuepress: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(sass-embedded@1.86.0))(vue@3.5.13)
     transitivePeerDependencies:
       - typescript
+
+  '@vuepress/plugin-register-components@2.0.0-rc.110(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(sass-embedded@1.86.0))(vue@3.5.13))':
+    dependencies:
+      chokidar: 4.0.3
+      micromatch: 4.0.8
+      vuepress: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(sass-embedded@1.86.0))(vue@3.5.13)
 
   '@vuepress/plugin-rtl@2.0.0-rc.90(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(sass-embedded@1.86.0))(vue@3.5.13))':
     dependencies:

@@ -14,13 +14,15 @@ icon: wancheng
   - [x] 学习[XMake 的使用](https://zhuanlan.zhihu.com/p/640701847)
   - [x] 重新整理 [C++ 板块](/code/cpp.html)的笔记
 - [ ] 学习[江科大 PID 控制课程](https://www.bilibili.com/video/BV1G9zdYQEr3)
+- [ ] 学习[ Vue3 基础语法课](https://www.bilibili.com/video/BV1Za4y1r7KE) <Progress :current="29" :goal="71"/>
+  - [x] 尝试在博客里自己写组件
 
 :::
 
 ::: tip 短期想做的
 
-- [ ] 在浙大买辆二手电动
-- [ ] 进一批新纸质书
+- [x] 在浙大买辆二手电动
+- [x] 进一批新纸质书
 - [ ] 浙大探图
 
 :::
@@ -28,8 +30,8 @@ icon: wancheng
 ::: important 课外目标+需要坚持做的事
 
 - 在读书目
-  - [ ] 《人类简史》
-  - [ ] 陈冲《猫鱼》
+  - [ ] 《人类简史》 <Progress :current="300" :goal="408"/>
+  - [ ] 陈冲《猫鱼》 <Progress :current="23" :goal="200"/>
 - 运动
   - [ ] 周二、四、六长跑 3km
 - English

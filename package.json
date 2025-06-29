@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "@vuepress/plugin-register-components": "2.0.0-rc.110",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.90",
     "flowchart.ts": "^3.0.1",
     "katex": "^0.16.21",

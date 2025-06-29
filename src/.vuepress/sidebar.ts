@@ -5,7 +5,7 @@ export default sidebar({
     {
       text: "编程",
       link: "/code/",
-      children: ["markdown.md", "python.md", "Arduino/index.md", "Arduino/stm32.md", "cpp.md"],
+      children: ["markdown.md", "python.md", "Arduino/index.md", "Arduino/stm32.md", "cpp.md", "vue.md"],
     },
     {
       text: "工具",

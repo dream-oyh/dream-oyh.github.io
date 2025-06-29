@@ -12,13 +12,15 @@
     <script>
       const { Line } = G2Plot;
       const data = [
-    {时刻: 20250627,阅读时间: 57},
+    {时刻: 20250627,背词个数: 70},
+    {时刻: 20250628,背词个数: 80},
+    {时刻: 20250629,背词个数: 80},
 
       ];
       const linePlot = new Line("container", {
         data,
         xField: "时刻",
-        yField: "阅读时间",
+        yField: "背词个数",
         useDeferredLabel: true,
         legend: {
           position: "top",
