@@ -90,7 +90,7 @@ export default hopeTheme({
     blog: true,
     slimsearch: {
       indexContent: true,
-      suggestion: true,
+      searchDelay: 500,
     },
     components: {
       components: ["SiteInfo", "PDF", "Badge"],

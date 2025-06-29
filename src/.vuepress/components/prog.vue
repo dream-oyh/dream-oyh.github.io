@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, onMounted, ref, computed } from 'vue';
+import { onMounted, ref, computed } from 'vue';
 
 let input = withDefaults(defineProps<{ current?: number, goal: number }>(), { current: 0, goal: 1 })
 const finalProgress = computed(() => {

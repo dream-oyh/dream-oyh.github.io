@@ -1,6 +1,6 @@
 ---
 home: true
-layout: BlogHome
+layout: Blog
 heroImage: /index_logo.png
 heroText: Dream_oyh Blog
 bgImage: /index_bg.jpg
