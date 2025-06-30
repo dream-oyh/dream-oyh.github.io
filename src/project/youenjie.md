@@ -4,17 +4,6 @@ date: 2025-06-19
 
 # CAN 通信协议编写
 
-## 学习路线
-
-- [x] 首先完成 FM33FG0xA CAN 通信自发自收测试
-  - [x] 用该板子完成点灯操作
-  - [x] 阅读 FM33FG0xA 数据手册 CAN 部分
-  - [x] 列出一个寄存器清单，搞清楚每一个寄存器都是做啥用的
-  - [x] 阅读复旦微官方提供的 CAN 库函数
-  - [x] 通过调用寄存器，手动编写自发自收 CAN 通信测试，发送一个数据后让 led 灯亮起。
-  - [ ] 优化代码，接收数据时对`RxMessage`的处理有点勉强（
-- [ ] 连接 CAN PHY 实现两个设备间的 CAN 通信
-- [ ] 学习 OTA 相关知识
 
 ## 一些名词解释
 
@@ -154,37 +143,31 @@ FM33FG0614A 提供的 CAN 库函数极其的少，和 stm32 差太多了，看�
 
 和 stm32 的基本一致，但是在寄存器的操作方式上有很大不同。
 
-![CAN通信结构框图](/images/stm32/CAN-结构框图.png =700x )
+![CAN通信结构框图](/images/stm32/CAN-结构框图.png)
 
 > 注：复旦微芯片的 FIFO 只有一个，且该 FIFO 中只能保存 2 条消息。提供了 16 组消息滤波器。
 
 #### CAN 模式切换
 
-![CAN模式切换方法](/images/stm32/FMCAN-模式切换.png =700x )
+![CAN模式切换方法](/images/stm32/FMCAN-模式切换.png)
 
 #### CAN 自发自收
 
 CAN 的自发自收程序已经上传至 github，在该仓库中的[can.c](https://github.com/dream-oyh/CAN-Loopback-Test/blob/master/Src/can.c)文件中查看具体的 CAN 自收自发测试示例。
 
-- [ ] 这个代码里面对于 CAN 收消息过程中的`RxMessage`变量的处理还需要优化，现在只是勉强实现了测试功能。
+- [x] 这个代码里面对于 CAN 收消息过程中的`RxMessage`变量的处理还需要优化，现在只是勉强实现了测试功能。
 
 **实际效果**：按一下机载按键，调用 GPIO 的外部中断，单片机 LED 绿灯闪烁一次，然后单片机发送 CAN 报文，然后在自回环模式下自己收报文，如果正确收到报文，就再闪烁一次 LED 灯。
 
-## FM33FG0xA 存储相关
+## FM33FG0xA OTA 逻辑
 
-#### 存储器资源
+[参考视频](https://www.bilibili.com/video/BV1SatHeBEVG)
 
-- 内部 Flash 存储器 **（只读）**
-  - 512KB Code Flash
-  - 16KB Data Flash
-- 内部 SRAM 存储器
-  - 64KB RAM
+### 串口+DMA 数据收发
 
-| 映射起始地址 | 存储器名称 |
-| :----------: | :--------: |
-| 0x0000 0000  | Code Flash |
-| 0x2000 0000  |    SRAM    |
-| 0xA000 0000  | Data Flash |
+现在先实现串口和 DMA 的数据收发，由于接收的数据是不定长的，且串口接收缓冲区有限，目前的接收思路如图所示。
+
+![串口接收数据逻辑](/images/stm32/串口接收数据逻辑.png)
 
 ## IAR 环境配置
 
