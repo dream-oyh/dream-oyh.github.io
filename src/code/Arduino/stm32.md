@@ -97,11 +97,13 @@ EXTI 中断结构：
 2. 配置 GPIO，AFIO
    > AFIO 没有专门的库函数，包含在 GPIO 的库函数里了，其中`GPIO_PinRemapConfig()`用于引脚的重映射；`GPIO_EXTILineConfig()`用于 EXTI 的通道选择，具体参数见库函数说明。
 3. 配置 EXTI 的响应通道和响应方式，包括：`EXTI_Line`, `EXTI_LineCmd`, `EXTI_Mode`, `EXTI_Trigger`
-4. 配置 NVIC，包括配置优先级分组和初始化 NVIC
+4. 配置 NVIC，包括配置优先级分组 **（一般选用 2 分组）** 和初始化 NVIC
 5. 写中断函数，中断函数的名字需要参考启动文件中的`startup_stm32f10x_md.s`，参考其中断向量表中以`EXTI`开头的函数名，**注意中断函数是无参无返回值的。**
    1. 判断中断标志位，在中断函数里使用`EXTI_GetITStatus()`函数
+      > 最重要的一步，不同的中断标志位应该采取不同的操作，所以要先 if 判断标志位，再写需要的操作
    2. 写中断时需要的操作
    3. 清除中断标志位
+      > **别漏了**
 
 ### TIM 定时器中断
 
@@ -358,6 +360,8 @@ stm32 的 CAN 通信具体实现细节，见[此视频](https://www.bilibili.com
   - `USART_Parity` 选择奇偶校验
 - 配置相关中断`USART_ITConfig()`（若有需要，可选）
 - `USART_Cmd()`开关控制
+
+> 一般最常选的是 8 数据位，None 无校验，1 位停止位，人称**8N1**
 
 - 发送数据和接收数据直接调用库函数`USART_SendData()`和`USART_ReceiveData()`就行
   - 注意发送完数据要读取 TXE 寄存器标志位，等待数据发送完成，再进行下一次操作

@@ -32,11 +32,11 @@ icon: wancheng
 
 - 在读书目
   - [x] 《人类简史》 <Progress :current="408" :goal="408"/>
-  - [ ] 《孤儿的新年礼物-兰波诗集》 <Progress :current="0" :goal="200"/>
+  - [ ] 《孤儿的新年礼物-兰波诗集》 <Progress :current="20" :goal="200"/>
   - [ ] 《To the Lighthouse》 <Progress :current="0" :goal="160"/>
 - 运动
   - [ ] 周二、四、六长跑 3km
-- English
+- English 
   - [ ] 每晚一小时外语阅读 + 周末做单词梳理
 
 :::

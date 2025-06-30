@@ -52,7 +52,7 @@ MSVC 是一套在 Windows 下处理 C++ 文件的一套工具链，而不是特�
 
 llvm 会自动包含 clangd, clang-format, clang-tidy 等前端工具
 
-VSCode 里下载[插件](https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd)，可以把 llvm 的`bin`文件夹路径添加至环境变量，这样 VSCode 中 clangd 的`Path`设置只需填写`clang.exe`即可。
+VSCode 里下载[插件](https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd)，可以把 llvm 的`bin`文件夹路径添加至环境变量，这样 VSCode 中 clangd 的`Path`设置只需填写`clangd.exe`即可。
 
 配置：
 
