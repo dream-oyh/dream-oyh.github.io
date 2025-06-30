@@ -188,7 +188,7 @@ def to_ConvConvRelu(
 
 该函数提供了两个卷积层的串联，画出来的效果见下图。
 
-![](https://github.com/dream-oyh/dream-oyh.github.io/blob/images/Python_pytorch/convconvrelu.png?raw=false =x400)
+![](https://github.com/dream-oyh/dream-oyh.github.io/blob/images/Python_pytorch/convconvrelu.png?raw=false)
 
 > 注意这里的`n_filer`和`width`都用的是`tuple`结构，用来表示两层卷积层各有多宽。
 
@@ -256,7 +256,7 @@ with torch.no_grad():
 
 此处以`LeNet`模型为例，导入 netron 后效果图如下：
 
-![](https://github.com/dream-oyh/dream-oyh.github.io/blob/images/Python_pytorch/LeNet.png?raw=false =100x)
+![](https://github.com/dream-oyh/dream-oyh.github.io/blob/images/Python_pytorch/LeNet.png?raw=false)
 
 > 可以在 netron 网页左上角的菜单栏中将网络改成水平的。
 

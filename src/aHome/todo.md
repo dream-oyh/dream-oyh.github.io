@@ -9,13 +9,14 @@ icon: wancheng
 
 - [ ] 完成优恩捷横向项目开发（2025.6.19-2025.10.10）
   - [x] 学习并实现 CAN 通信
-  - [ ] 学习 OTA 相关知识
+  - [ ] 学习[ OTA 相关知识](https://www.bilibili.com/video/BV1SatHeBEVG)
 - [x] 学习 C++编程环境搭建
-  - [x] 学习[XMake 的使用](https://zhuanlan.zhihu.com/p/640701847)
+  - [x] 初步学习[XMake 的使用](https://zhuanlan.zhihu.com/p/640701847)
   - [x] 重新整理 [C++ 板块](/code/cpp.html)的笔记
 - [ ] 学习[江科大 PID 控制课程](https://www.bilibili.com/video/BV1G9zdYQEr3)
 - [ ] 学习[ Vue3 基础语法课](https://www.bilibili.com/video/BV1Za4y1r7KE) <Progress :current="29" :goal="71"/>
   - [x] 尝试在博客里自己写组件
+  - [ ] 学习插槽怎么用
 
 :::
 
@@ -23,15 +24,16 @@ icon: wancheng
 
 - [x] 在浙大买辆二手电动
 - [x] 进一批新纸质书
-- [ ] 浙大探图
+- [x] 浙大探图
 
 :::
 
 ::: important 课外目标+需要坚持做的事
 
 - 在读书目
-  - [ ] 《人类简史》 <Progress :current="300" :goal="408"/>
-  - [ ] 陈冲《猫鱼》 <Progress :current="23" :goal="200"/>
+  - [x] 《人类简史》 <Progress :current="408" :goal="408"/>
+  - [ ] 《孤儿的新年礼物-兰波诗集》 <Progress :current="0" :goal="200"/>
+  - [ ] 《To the Lighthouse》 <Progress :current="0" :goal="160"/>
 - 运动
   - [ ] 周二、四、六长跑 3km
 - English
@@ -50,3 +52,7 @@ icon: wancheng
 #### 每日背单词数量统计
 
 <iframe frameborder="no" src="/charts/words.html" width="100%" height="280" loading="lazy"></iframe>
+
+::: details ceshi
+
+:::

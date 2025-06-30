@@ -38,11 +38,13 @@ export default sidebar({
         {
           text: "常见的模型源码实现",
           children: ["2.1linear_regression.md", "2.2FashionMNIST.md", "2.3softmax.md", "2.4MLP.md"],
+          collapsible: true,
         },
         "3.1Deeplearning_basic.md",
         {
           text: "卷积神经网络",
           children: ["4.1convolutional_nn_basic.md", "4.2LeNet.md", "4.3AlexNet.md", "4.4VGG.md", "4.5NiN.md", "4.6GoogleNet.md"],
+          collapsible: true,
         },
         "img.md",
       ],

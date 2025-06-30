@@ -13,7 +13,7 @@ $$
 
 **Logistic View:**
 
-![](/images/data_structure/graph/Untitled.png =200x)
+![](/images/data_structure/graph/Untitled.png)
 
 $|V|$: a number of vertices
 
@@ -43,7 +43,7 @@ Sometimes we gave edges weight. This graph is called **weighted graph**.
 
 We use string to store the vertex name. Use dynamic arrays to store the edges and the their weights.
 
-![](/images/data_structure/graph/Untitled%201.png =300x)
+![](/images/data_structure/graph/Untitled%201.png)
 
 But this maybe cause costly time complexity.
 
@@ -56,7 +56,7 @@ But this maybe cause costly time complexity.
 
 We use a vertex list and an adjacency matrix to store a graph.
 
-![](/images/data_structure/graph/Untitled%202.png =400x)
+![](/images/data_structure/graph/Untitled%202.png)
 
 The elements in the adjacency matrix are defined as below.
 
@@ -85,7 +85,7 @@ We effectively reduce the time-cost, but take huge space-cost. In this method, t
 
 ### Adjacency list representation
 
-![](/images/data_structure/graph/Untitled%203.png =200x)
+![](/images/data_structure/graph/Untitled%203.png)
 
 Instead of storing whether the node is connected or not, we choose to store the index of which nodes the targeted node connects to. Showed in the above figure, the first row represents the zeroth node connects to the first, the second and the third node. Specifically, what is the first node? We can search it in the Vertex List. So, by building adjacency list, we can reduce the space complexity from $O(v^2)$ to $O(e)$, which is the smallest memory consumption because in the realistic world, the most graphs are sparse, $|E|<<|V|^2$. We can use pointer to store the adjacency in C++ like the code below.
 

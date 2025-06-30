@@ -44,7 +44,7 @@ tag: data_structure
 
 将叶子节点根据堆序性向上调整，若叶子节点小于父节点，对于大根堆而言不满足堆序性，此时考虑交换叶子节点与父节点，如此循环，即可恢复堆序性。
 
-![](https://oi-wiki.org/ds/images/binary_heap_insert.svg =400x)
+![](https://oi-wiki.org/ds/images/binary_heap_insert.svg)
 
 #### 下沉
 

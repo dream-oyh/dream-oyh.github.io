@@ -25,9 +25,9 @@ tag: 教程
 
 ## 基础命令
 
-![](/images/docker_commands.png =x500)
+![](/images/docker_commands.png)
 
-![](/images/docker_flow.png =x500)
+![](/images/docker_flow.png)
 
 ```sh
 docker version # 查看版本

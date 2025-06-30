@@ -7,7 +7,7 @@ tag: data_structure
 
 **Hash Table**: A abstract data structure that maps keys and values.
 
-![](/images/data_structure/hash_table/logistic_view.png =200x)
+![](/images/data_structure/hash_table/logistic_view.png)
 
 **Hash Function**: A **hash function** is any function that can be used to map data of arbitrary size to fixed-size values (used for storage address), namely $Hash(keys)=Address$
 

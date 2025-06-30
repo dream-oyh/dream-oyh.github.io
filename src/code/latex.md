@@ -115,7 +115,7 @@ Hello dream-oyh!
 预览：
 
 ::: center
-![](https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/latex_1.png =x300)
+![](https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/latex_1.png)
 :::
 
 - 若需要处理中文，需要在导言区引入`ctex`宏包。
@@ -320,7 +320,7 @@ ${\Huge dream-oyh}$
 预览：
 
 ::: center
-![](https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/latex_2.png =x300)
+![](https://cdn.statically.io/gh/dream-oyh/dream-oyh.github.io/images/latex_2.png)
 :::
 
 - 目录
