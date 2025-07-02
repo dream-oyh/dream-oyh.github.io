@@ -4,7 +4,6 @@ date: 2025-06-19
 
 # CAN 通信协议编写
 
-
 ## 一些名词解释
 
 - 复旦微开发板型号为 FM33FG0614A AutoEVB UM，**而不是** FM33FG0614A **Rev.A** AutoEVB UM，我们用的是 B 型板而非 A 型板，后面参考原理图和程序例程，也都要注意是 B 型的板子
@@ -168,6 +167,10 @@ CAN 的自发自收程序已经上传至 github，在该仓库中的[can.c](http
 现在先实现串口和 DMA 的数据收发，由于接收的数据是不定长的，且串口接收缓冲区有限，目前的接收思路如图所示。
 
 ![串口接收数据逻辑](/images/stm32/串口接收数据逻辑.png)
+
+### 串口驱动问题
+
+串口采用的是 CP2102 USB to UART Bridge Controller，连接后系统设备管理器显示没有安装驱动。可在[官网](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)上下载对应驱动，下载`CP210x Universal Windows Driver`后解压压缩包，然后在设备管理器中安装即可（可以把驱动文件夹给设备管理器，让他自己找驱动文件）。
 
 ## IAR 环境配置
 
