@@ -106,3 +106,100 @@ let ans = computed({
 4. 一个包含上述内容的数组
 
 watch 要指明监视的是哪个值，但是`watchEffect()`不用，直接在里面写条件即可，感觉会更方便一点。
+
+## 组件通信
+
+### props
+
+可以通过`defineProps()`实现父传子和子传父。
+
+```ts
+defineProps<{ para1: string; para2: Function }>();
+```
+
+其中`para1`用于父组件向子组件传递参数，`para2`是父组件向子组件传递函数句柄，然后子组件通过按钮或其他方式调用这个函数，来达到子向父的通信。该函数在父组件中定义，本质也是父传子。
+
+### 自定义事件
+
+可以实现子传父。父组件中调用：
+
+```html
+<template>
+  <Child @custom-event="eventFunction" />
+</template>
+
+<script setup lang="ts" name="Father">
+  import Child from "./Child.vue";
+  import { ref } from "vue";
+  let receiveData = ref("");
+  function eventFunction(value: string) {
+    //...
+  }
+</script>
+```
+
+这里的`@custom-event`是自定义事件，类似于 button 按钮中的`@click="()=>{}"`.子组件中用`defineEmits`接收事件。**自定义事件的命名一般用 kebab-case 命名法。**
+
+```ts
+<template>
+    <div class="child">
+        <button @click="emit('custom-event', param)">测试</button>
+    </div>
+</template>
+
+<script setup lang="ts" name="Child">
+import { ref } from 'vue';
+let param = ref('')
+// 声明事件
+const emit = defineEmits(['custom-event'])
+</script>
+```
+
+### mitt
+
+安装：`pnpm i mitt`
+
+需要在`utils`文件夹下建立`emitter.ts`文件，在这里面写 mitt 的配置。mitt 用于创建公共事件，组件在触发这个公共事件时，调用相关函数，完成信息传递。可以实现任意组件通信。
+
+提供数据的组件触发事件（发布消息），接收数据的组件绑定事件（订阅消息）
+
+```ts
+// 引入mitt
+import mitt from "mitt";
+
+// 调用mitt得到emitter，emitter能：绑定事件、触发事件
+const emitter = mitt();
+
+// 绑定事件
+emitter.on("test1", () => {
+  console.log("test1被调用了");
+});
+emitter.on("test2", () => {
+  console.log("test2被调用了");
+});
+
+// 触发事件
+setInterval(() => {
+  emitter.emit("test1");
+  emitter.emit("test2");
+}, 1000);
+// 解绑事件
+setTimeout(() => {
+  // emitter.off('test1')
+  // emitter.off('test2')
+  emitter.all.clear();
+}, 3000);
+
+// 暴露emitter
+export default emitter;
+```
+
+注意：使用 mitt 的时候，需要在组件卸载时调用`onUnmounted()`解绑事件，对内存不太友好。
+
+### v-model 双向绑定
+
+用于有用户交互的组件上。用户通过组件输入的值和组件本身绑定的值，二者之间双向绑定，会同时更新。给组件传入`v-model`参数，参数内填写值的存储变量，需要是响应式数据。
+
+### $attrs
+
+祖->孙通信

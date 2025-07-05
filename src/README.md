@@ -2,10 +2,10 @@
 home: true
 layout: Blog
 heroImage: /index_logo.png
-heroText: Dream_oyh Blog
+heroText: Forrest Blog
 bgImage: /index_bg.jpg
 heroFullScreen: true
-tagline: The best people in life are free~
+tagline: Spring breaking loose, now ivy grows.
 projects:
   - icon: typescript
     name: WORDBOOK-app

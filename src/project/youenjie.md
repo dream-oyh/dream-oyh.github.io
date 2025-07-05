@@ -2,7 +2,61 @@
 date: 2025-06-19
 ---
 
-# CAN 通信协议编写
+# FOTA + AutoSAR 协议开发
+
+## 诊断及刷写规范
+
+- FOTA 整包刷写 ECU 功能需求规范 v1.0
+  - ECU 信息收集需求，需要刷写的 ECU 的 DID 列表
+  - FOTA 刷写时间和流程要求，包括整车静默指令和恢复通讯指令
+  - FileHeader 和 FlashFlow 具体怎么写的格式信息，其中 FlashFlow 氛围诊断报文、配置信息、数据信息，给出了 ControlByte 位格式和报文格式要求
+
+## IAR 环境配置
+
+Keil 或者 IAR 本身是不带有 FM33FG0xA 系列的板子的，需要手动下载配置文件，但是在复旦微官网找了好久一直没找到 FG 系列，最后在论坛里找到了相关文件，这个论坛链接贴在这里。[src](https://www.fmdevelopers.com.cn/forum.php?mod=viewthread&tid=16713&page=1)
+
+### IAR 手动添加新 device 方法
+
+1. 在上述链接中下载`IAR开发环境配置文件(LG、LE、FT、FG、HT、LV、LF).zip`，解压，里面有四个文件夹`debugger`, `devices`, `flashloader`, `linker`,里面都各有一个`FMSH`文件夹，将这四个文件夹内的`FMSH`，都放入 IAR 安装目录下的`arm/config`目录的对应文件夹下
+2. 打开任意`.eww`IAR 工程文件即可发现设备可以正确被识别。其中`Application/User`中存放的是`Src`文件夹的文件
+
+### IAR 烧录程序方法
+
+IAR 的原生工具栏是不提供“只下载不调试”的按钮的，需要从设置里打开。([src](https://blog.csdn.net/fukuharaai/article/details/129741582))
+
+工具栏的最后有一个向下的小箭头，点击后选择`添加或删除按钮`，再点击`customize...`，然后在`命令` - `类别` - `Project` 中找到`Download activate application`，点击它并将其直接拖到工具栏（对，要跨对话框操作）即可。
+
+> 有点笨的设计，我不知道为什么 IAR 要把这个隐藏的那么深，而且甚至没有为他做一个 icon，不太理解，可能是后面调试代码的时候，都是需要 download and debug 的吧……
+
+### 报错
+
+- 许可证破解版本问题，在破解之后，license 图标显示为红色，并且提示报错：
+
+```
+The generation feature is not of version 18.
+```
+
+说明其许可证版本不对，解决方法（[ref](https://blog.csdn.net/qq_35697978/article/details/137425884)）是需要用到`licpatcher64a.exe`，关闭正在运行的 IAR 进程，将该`.exe`程序复制进以下三个路径中：
+
+- `C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\`
+- `C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\jet\bin\`
+- `C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\`
+
+并且在三个路径下分别运行`licpatcher64a.exe`程序，之后再次打开 IAR 编辑器即可正常使用。
+
+> `licpatcher64a.exe` 下载链接见[src](https://pan.baidu.com/s/1xxMLTe8yLSmjIrzDc4-DAQ?pwd=led0)，里面有一个`IARZhu-册-机你懂得.zip`的压缩文件，里面有我们需要的`.exe`程序。
+
+## 焊接相关学习
+
+1. 排针焊接
+
+没啥技巧，硬焊
+
+2. 热缩管使用
+
+线的焊接不好弄，需要留出较多的铜线，然后先在铜线上挂上锡，再用电烙铁把两根铜线对接着焊起来，这步对接千万别手抖啊，最麻烦的一步。热缩管的话先套上去，然后用热风枪怼着吹就会缩小了，注意的是尺寸选择，别选太大了的，太大了裹不住
+
+::: details 归档（前期方向错误，学习内容与项目产生偏差）
 
 ## 一些名词解释
 
@@ -172,47 +226,4 @@ CAN 的自发自收程序已经上传至 github，在该仓库中的[can.c](http
 
 串口采用的是 CP2102 USB to UART Bridge Controller，连接后系统设备管理器显示没有安装驱动。可在[官网](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)上下载对应驱动，下载`CP210x Universal Windows Driver`后解压压缩包，然后在设备管理器中安装即可（可以把驱动文件夹给设备管理器，让他自己找驱动文件）。
 
-## IAR 环境配置
-
-Keil 或者 IAR 本身是不带有 FM33FG0xA 系列的板子的，需要手动下载配置文件，但是在复旦微官网找了好久一直没找到 FG 系列，最后在论坛里找到了相关文件，这个论坛链接贴在这里。[src](https://www.fmdevelopers.com.cn/forum.php?mod=viewthread&tid=16713&page=1)
-
-### IAR 手动添加新 device 方法
-
-1. 在上述链接中下载`IAR开发环境配置文件(LG、LE、FT、FG、HT、LV、LF).zip`，解压，里面有四个文件夹`debugger`, `devices`, `flashloader`, `linker`,里面都各有一个`FMSH`文件夹，将这四个文件夹内的`FMSH`，都放入 IAR 安装目录下的`arm/config`目录的对应文件夹下
-2. 打开任意`.eww`IAR 工程文件即可发现设备可以正确被识别。其中`Application/User`中存放的是`Src`文件夹的文件
-
-### IAR 烧录程序方法
-
-IAR 的原生工具栏是不提供“只下载不调试”的按钮的，需要从设置里打开。([src](https://blog.csdn.net/fukuharaai/article/details/129741582))
-
-工具栏的最后有一个向下的小箭头，点击后选择`添加或删除按钮`，再点击`customize...`，然后在`命令` - `类别` - `Project` 中找到`Download activate application`，点击它并将其直接拖到工具栏（对，要跨对话框操作）即可。
-
-> 有点笨的设计，我不知道为什么 IAR 要把这个隐藏的那么深，而且甚至没有为他做一个 icon，不太理解，可能是后面调试代码的时候，都是需要 download and debug 的吧……
-
-### 报错
-
-- 许可证破解版本问题，在破解之后，license 图标显示为红色，并且提示报错：
-
-```
-The generation feature is not of version 18.
-```
-
-说明其许可证版本不对，解决方法（[ref](https://blog.csdn.net/qq_35697978/article/details/137425884)）是需要用到`licpatcher64a.exe`，关闭正在运行的 IAR 进程，将该`.exe`程序复制进以下三个路径中：
-
-- `C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\`
-- `C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\jet\bin\`
-- `C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\`
-
-并且在三个路径下分别运行`licpatcher64a.exe`程序，之后再次打开 IAR 编辑器即可正常使用。
-
-> `licpatcher64a.exe` 下载链接见[src](https://pan.baidu.com/s/1xxMLTe8yLSmjIrzDc4-DAQ?pwd=led0)，里面有一个`IARZhu-册-机你懂得.zip`的压缩文件，里面有我们需要的`.exe`程序。
-
-## 焊接相关学习
-
-1. 排针焊接
-
-没啥技巧，硬焊
-
-2. 热缩管使用
-
-线的焊接不好弄，需要留出较多的铜线，然后先在铜线上挂上锡，再用电烙铁把两根铜线对接着焊起来，这步对接千万别手抖啊，最麻烦的一步。热缩管的话先套上去，然后用热风枪怼着吹就会缩小了，注意的是尺寸选择，别选太大了的，太大了裹不住
+:::
