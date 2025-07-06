@@ -203,3 +203,11 @@ export default emitter;
 ### $attrs
 
 祖->孙通信
+
+子组件中调用：
+
+```ts
+<Child v-bind="$attrs"/>
+```
+
+就能把父给子的组件全部穿透至孙组件，然后用`props`接收。

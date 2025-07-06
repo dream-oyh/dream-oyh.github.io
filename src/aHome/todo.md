@@ -9,9 +9,9 @@ icon: wancheng
 
 - [ ] 完成优恩捷横向项目开发（2025.6.19-2025.10.10）
 
-  - [ ] 阅读诊断及刷写规范相关文件
+  - [x] 阅读诊断及刷写规范相关文件
 
-- [ ] 学习[江科大 PID 控制课程](https://www.bilibili.com/video/BV1G9zdYQEr3)
+
 - [ ] EZ.Encoder 社区[强化学习入门课](https://www.youtube.com/watch?v=TMbidgQBI8M)
 - [ ] 学习[ Vue3 基础语法课](https://www.bilibili.com/video/BV1Za4y1r7KE) <Progress :current="56" :goal="71"/>
   - [x] 尝试在博客里自己写组件
@@ -35,12 +35,13 @@ icon: wancheng
 - [x] 学习 C++编程环境搭建
   - [x] 初步学习[XMake 的使用](https://zhuanlan.zhihu.com/p/640701847)
   - [x] 重新整理 [C++ 板块](/code/cpp.html)的笔记
+- [x] 学习[江科大 PID 控制课程](https://www.bilibili.com/video/BV1G9zdYQEr3)
 
 :::
 
 ::: tip 短期想做的
 
-- [ ] 杭州 7.6 黑神话悟空艺术展
+- [ ] 杭州 7.9 蒋村 English Corner
 
 ::: details done 归档
 
@@ -49,6 +50,7 @@ icon: wancheng
 - [x] 浙大探图
 - [x] 杭州 7.2 蒋村 English Corner
 
+- [ ] ~~杭州 7.6 黑神话悟空艺术展~~
 :::
 
 ::: important 课外目标+需要坚持做的事
