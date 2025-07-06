@@ -11,8 +11,7 @@ icon: wancheng
 
   - [x] 阅读诊断及刷写规范相关文件
 
-
-- [ ] EZ.Encoder 社区[强化学习入门课](https://www.youtube.com/watch?v=TMbidgQBI8M)
+- [ ] [EZ.Encoder 社区](https://www.ez-encoder.com/feed)[强化学习入门课](https://www.youtube.com/watch?v=TMbidgQBI8M)
 - [ ] 学习[ Vue3 基础语法课](https://www.bilibili.com/video/BV1Za4y1r7KE) <Progress :current="56" :goal="71"/>
   - [x] 尝试在博客里自己写组件
 
@@ -51,7 +50,7 @@ icon: wancheng
 - [x] 杭州 7.2 蒋村 English Corner
 
 - [ ] ~~杭州 7.6 黑神话悟空艺术展~~
-:::
+      :::
 
 ::: important 课外目标+需要坚持做的事
 

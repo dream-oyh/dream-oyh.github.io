@@ -85,6 +85,13 @@
   preview="/images/web/PhilFan博客.png"
 />
 
+<SiteInfo
+  name="EZ.Encoder"
+  desc="AI开发与算法社群"
+  url="https://www.ez-encoder.com/feed"
+  preview="/images/web/EZEncoder.png"
+/>
+
 ## 数理统计
 
 <SiteInfo
