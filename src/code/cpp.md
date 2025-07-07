@@ -72,3 +72,31 @@ VSCode 里下载[插件](https://marketplace.visualstudio.com/items?itemName=llv
 ### 构建系统-XMake
 
 跟随 absx 步伐，开始使用 xmake，跟着[新手教程](https://zhuanlan.zhihu.com/p/640701847)一步步往下看，还是挺清晰的。环境搭建就成功了，接下来等有项目要用到了再一点点更新经验叭。
+
+> 后续：看到 Cmake 那一坨 Cmakelist.txt，我真的绷不住了，XMake，赢！
+
+安装：win 上 `scoop install xmake`一行搞定。
+
+#### VSCode 插件设置
+
+- XMake
+- Clangd：前端 formatter+linter
+- Codelldb：调试工具
+
+#### 常用命令
+
+```sh
+xmake create helloworld # 创建工程
+xmake config --toolchain=clang # 切换工具链至clang
+```
+
+#### Lua 文件常用命令
+
+```Lua
+add_requires("fmt") -- 请求添加标准库
+add_includedirs("include")  -- 添加头文件
+target("hello")  -- 设定编译目标
+    set_kind("binary")  -- 指定库类型
+    add_files("src/*.cpp")  -- 添加文件
+    add_packages("fmt")     -- 添加标准库
+```
