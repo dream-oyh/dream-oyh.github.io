@@ -20,7 +20,9 @@ C++ 在 win 下的开发环境非常复杂，2024/06/24 我老老实实把[这�
 
 以上这一串下来，需要编译器和链接器互相协作，这整个流程所要用到的`.exe`合集就叫“工具链”。工具链是预处理器、编译器、汇编器、链接器，外加其他辅助调试工具的工具合集。
 
-## 工具链
+## VSCode 环境搭建
+
+### 工具链
 
 不同操作平台下，如 win, linux，对 C++ 的编译工具链是不一样的。
 
@@ -42,15 +44,13 @@ MSVC 是一套在 Windows 下处理 C++ 文件的一套工具链，而不是特�
 
 > On a computer with Windows installed, the library that contains most ready-made executable code is not compatible with gcc compiler ... so to use this compiler in Windows you need a different library: that's where MinGW enters. MinGW provides, among other things, the library(ies) needed for making a C implementation together with gcc.
 
-## VSCode 环境搭建
-
 ### 前端工具
 
 选择 Clangd 作为前端工具。
 
 安装：`scoop install llvm`
 
-llvm 会自动包含 clangd, clang-format, clang-tidy 等前端工具
+llvm 会自动包含 clangd, clang-format, clang-tidy 等前端工具，这一套 C++环境里我们只需要 clangd 作为构建前端。
 
 VSCode 里下载[插件](https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd)，可以把 llvm 的`bin`文件夹路径添加至环境变量，这样 VSCode 中 clangd 的`Path`设置只需填写`clangd.exe`即可。
 
@@ -77,20 +77,18 @@ VSCode 里下载[插件](https://marketplace.visualstudio.com/items?itemName=llv
 
 安装：win 上 `scoop install xmake`一行搞定。
 
-#### VSCode 插件设置
-
-- XMake
-- Clangd：前端 formatter+linter
-- Codelldb：调试工具
-
-#### 常用命令
+- VSCode 插件设置
+  - XMake
+  - Clangd：前端 formatter+linter
+  - Codelldb：调试工具
+- 常用命令
 
 ```sh
 xmake create helloworld # 创建工程
 xmake config --toolchain=clang # 切换工具链至clang
 ```
 
-#### Lua 文件常用命令
+- Lua 文件常用命令
 
 ```Lua
 add_requires("fmt") -- 请求添加标准库
@@ -100,3 +98,6 @@ target("hello")  -- 设定编译目标
     add_files("src/*.cpp")  -- 添加文件
     add_packages("fmt")     -- 添加标准库
 ```
+
+- bug
+  - 当在编程时用到中文时，不论是 printf 里面还是注释，这个时候单用 UTF-8 编码 xmake 会报错：“语法错误 or 常量中有换行符”，这个时候需要把 xmake 提示的文件改成 UTF-8 with BOM 的编码格式，才能解除报错。
