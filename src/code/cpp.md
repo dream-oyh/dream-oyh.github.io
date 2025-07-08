@@ -86,6 +86,8 @@ VSCode 里下载[插件](https://marketplace.visualstudio.com/items?itemName=llv
 ```sh
 xmake create helloworld # 创建工程
 xmake config --toolchain=clang # 切换工具链至clang
+xmake clean -a  # 移除所有构建时的中间文件
+xmake f -c # 移除已经缓存的用户配置，在不知道做什么的时候可以先来一发这个
 ```
 
 - Lua 文件常用命令
