@@ -10,6 +10,9 @@ icon: wancheng
 - [ ] 完成优恩捷横向项目开发（2025.6.19-2025.10.10）
 
   - [x] 阅读诊断及刷写规范相关文件
+  - [x] 编写 FBL 刷写流程的 C 语言协议框架
+  - [ ] 整理框架内容，确定函数接口，按照命名规范修改代码
+  - [ ] 确定硬件接口，列出函数清单
 
 - [ ] [EZ.Encoder 社区](https://www.ez-encoder.com/feed)[强化学习入门课](https://www.youtube.com/watch?v=TMbidgQBI8M)
 - [ ] 学习[ Vue3 基础语法课](https://www.bilibili.com/video/BV1Za4y1r7KE) <Progress :current="56" :goal="71"/>
@@ -50,7 +53,6 @@ icon: wancheng
 - [x] 杭州 7.2 蒋村 English Corner
 
 - [ ] ~~杭州 7.6 黑神话悟空艺术展~~
-
 
 :::
 

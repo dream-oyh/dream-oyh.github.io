@@ -101,5 +101,67 @@ target("hello")  -- 设定编译目标
     add_packages("fmt")     -- 添加标准库
 ```
 
-- bug
-  - 当在编程时用到中文时，不论是 printf 里面还是注释，这个时候单用 UTF-8 编码 xmake 会报错：“语法错误 or 常量中有换行符”，这个时候需要把 xmake 提示的文件改成 UTF-8 with BOM 的编码格式，才能解除报错。
+#### bug
+
+- 当在编程时用到中文时，不论是 printf 里面还是注释，这个时候单用 UTF-8 编码 xmake 会报错：“语法错误 or 常量中有换行符”，解决方法是需要把 xmake 提示的文件改成 UTF-8 with BOM 的编码格式，才能解除报错。
+
+## 编程语言
+
+### 头文件
+
+C++通过`#include`引入头文件实现多文件的功能传递。头文件里需要用`#ifndef`防止重复编译。比如我要创建`service.h`头文件，就应该按照如下定义。`__SERVICE_H`也可以定义成其他名格式，但是要保证每一个头文件的变量名都不一样。
+
+```cpp
+#ifndef __SERVICE_H
+#define __SERVICE_H
+// 其他函数声明、结构体和宏定义
+#endif
+```
+
+`#ifndef`和`#endif`之间用于写其他函数声明，和其他结构体、类名和宏定义。xmake 里可以通过`add_includedirs("path/to/include")`添加头文件目录。
+
+### 可变参数
+
+C++支持在定义函数时用`...`定义未知的参数，可以通过接受一个格式化字符串和一系列可变参数，然后将格式化后的结果打印到控制台，在嵌入式里用于打印串口数据。以下是代码实现
+
+```cpp
+#include <cstdarg>
+#include <cstring>
+#include <iostream>
+
+void u0_printf(const char *format, ...) {
+  char a[20] = {};
+  va_list listData;
+  va_start(listData, format);
+  vsprintf(a, format, listData);
+  va_end(listData);
+  for (int i; i < 20; i++) {
+    std::cout << a[i];
+  }
+}
+```
+
+- 其中，`<cstdarg>`提供了可变参数函数所需的功能，提供了`va_list`类型，`va_start`、`va_end`、`va_arg` 等宏.
+  - `va_list` 定义的 `listData` 将用来依次访问传递给函数的那些可变参数
+  - `va_start()` 需要两个参数，第一个是访问可变参数，第二个是可变参数前的第一个已命名参数；这样它才能知道可变参数是从哪里开始的
+  - `vsprintf()` 根据格式字符串和参数列表，生成最终的字符串。把结果字符串写入到缓冲区 a 中.
+  - `va_end()` 用于清理`va_list`
+
+### 函数注释
+
+在函数定义前加上注释`/**   */`，编辑器就可以在其他地方调用函数时，显示相关注释。
+
+注释格式：
+
+```cpp
+/**
+ * @brief  ：简介，简单介绍函数作用
+ * @param  ：介绍函数参数
+ * @return：函数返回类型说明
+ * @exception NSException 可能抛出的异常.
+ * @author zhangsan：  作者
+ * @date 2011-07-27 22:30:00 ：时间
+ * @version 1.0 ：版本
+ * @property ：属性介绍
+*/
+```
