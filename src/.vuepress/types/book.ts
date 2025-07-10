@@ -3,7 +3,7 @@ export type Book = {
   // 书名
   name: string;
   // 评分
-  stars?: number;
+  stars: number;
   // 状态
   status?: readStatus;
   // 书评

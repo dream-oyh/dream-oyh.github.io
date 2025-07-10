@@ -6,6 +6,8 @@ icon: note
 
 **唯有文字能够担当此任，宣告生命曾经在场。**
 
+<test/>
+
 ## 已读书目
 
 <bookList database='zh'/>
