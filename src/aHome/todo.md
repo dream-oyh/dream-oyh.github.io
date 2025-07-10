@@ -15,8 +15,7 @@ icon: wancheng
   - [ ] 确定硬件接口，列出函数清单
 
 - [ ] [EZ.Encoder 社区](https://www.ez-encoder.com/feed)[强化学习入门课](https://www.youtube.com/watch?v=TMbidgQBI8M)
-- [ ] 学习[ Vue3 基础语法课](https://www.bilibili.com/video/BV1Za4y1r7KE) <Progress :current="56" :goal="71"/>
-  - [x] 尝试在博客里自己写组件
+
 
 ::: details done 归档
 
@@ -38,7 +37,8 @@ icon: wancheng
   - [x] 初步学习[XMake 的使用](https://zhuanlan.zhihu.com/p/640701847)
   - [x] 重新整理 [C++ 板块](/code/cpp.html)的笔记
 - [x] 学习[江科大 PID 控制课程](https://www.bilibili.com/video/BV1G9zdYQEr3)
-
+- [x] 学习[ Vue3 基础语法课](https://www.bilibili.com/video/BV1Za4y1r7KE) <Progress :current="56" :goal="71"/>
+  - [x] 尝试在博客里自己写组件
 :::
 
 ::: tip 短期想做的
@@ -81,7 +81,3 @@ icon: wancheng
 - [ ] [斯坦福 CS336：手把手带你从零构建 ChatGPT](https://www.bilibili.com/video/BV1BWEWzfEKi)
 
 :::
-
-#### 每日背单词数量统计
-
-<iframe frameborder="no" src="/charts/words.html" width="100%" height="280" loading="lazy"></iframe>
