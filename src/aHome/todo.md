@@ -59,7 +59,7 @@ icon: wancheng
 ::: important 课外目标+需要坚持做的事
 
 - 在读书目
-  - [ ] 《我的天才女友》——那不勒斯四部曲第一部 <Progress :current="50" :goal="400"/>
+  - [x] 《新名字的故事》——那不勒斯四部曲第二部 <Progress :current="352" :goal="617"/>
   - [ ] 《To the Lighthouse》 <Progress :current="3" :goal="160"/>
 - 运动
   - [ ] 周二、四、六长跑 3km
@@ -70,6 +70,8 @@ icon: wancheng
 
 - [x] 《人类简史》 <Progress :current="408" :goal="408"/>
 - [x] 《孤儿的新年礼物-兰波诗集》 <Progress :current="200" :goal="200"/>
+- [x] 《我的天才女友》——那不勒斯四部曲第一部 <Progress :current="400" :goal="400"/>
+
 
 :::
 

@@ -4,27 +4,19 @@
     <meta name="referrer" content="no-referrer">
   </head>
   <div class="filter-list">
-    <div class="filter" for="status">
-      <p class="filter-text">选择状态：</p>
-      <p class="filter-value">{{ selectedStatus }}</p>
-      <select name="status" id="status" v-model="selectedStatus" ref="filter_select">
-        <option value="read">read</option>
-        <option value="reading">reading</option>
-        <option value="dropped">dropped</option>
-      </select>
-    </div>
-    <div class="filter" for="stars">
-      <p class="filter-text">选择星级（以上）</p>
-      <p class="filter-value">{{ selectedStars }}</p>
-      <select name="stars" id="stars" v-model="selectedStars" ref="filter_select">
-        <option :value="5">5星</option>
-        <option :value="4">4星</option>
-        <option :value="3">3星</option>
-        <option :value="2">2星</option>
-        <option :value="1">1星</option>
-      </select>
+    <Select filter_text="选择状态" :key_value="[
+      { Key: 'read', Value: 'read', },
+      { Key: 'reading', Value: 'reading', },
+      { Key: 'dropped', Value: 'dropped', },
+    ]" v-model="selectedStatus" />
 
-    </div>
+    <Select filter_text="选择星级（以上）" :key_value="[
+      { Key: '5星', Value: 5, },
+      { Key: '4星', Value: 4, },
+      { Key: '3星', Value: 3, },
+      { Key: '2星', Value: 2, },
+      { Key: '1星', Value: 1, },
+    ]" v-model="selectedStars" />
 
 
 
@@ -85,7 +77,7 @@ import { computed, ref } from 'vue';
 import readBookList_zh from '../data/readBooks_zh'
 import readBookList_en from '../data/readBooks_en';
 import type { Book } from '../types/book';
-
+import Select from './select.vue';
 
 let props = withDefaults(defineProps<{
   database?: string
@@ -122,75 +114,11 @@ let selectedStars = ref(1)
   padding: 20px;
 }
 
-.filter-list,
-.filter {
+.filter-list {
   display: flex;
   justify-content: space-evenly;
 }
 
-.filter {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #6c3ab8;
-  padding: 5px 15px 5px 15px;
-  border-radius: 1000px;
-  position: relative;
-  background-color: #ffffff;
-  cursor: pointer;
-  /* 让整个区域显示为可点击手势 */
-  font-family: sans-serif;
-}
-
-.filter::after {
-  content: '▼';
-  /* 你也可以使用SVG或图片 */
-  font-size: 12px;
-  color: #555;
-  position: absolute;
-  right: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
-  /* 关键：让箭头不捕获鼠标事件，这样点击事件才能“穿透”到下面的select上 */
-}
-
-.filter-value {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  display: block;
-  padding: 0px 15px 0px 0px;
-  /* 右边留出空间给箭头 */
-  color: #333;
-  white-space: nowrap;
-  overflow: hidden;
-  text-align: left;
-  text-overflow: ellipsis;
-}
-
-.filter select {
-  /* 视觉上隐藏 */
-  opacity: 0;
-  /* 关键：让它覆盖整个父容器 */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* 移除浏览器默认外观 */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /* 确保在所有设备上都是可点击的 */
-  cursor: pointer;
-  border: none;
-  /* 移除边框 */
-  background: transparent;
-  /* 移除背景 */
-}
-
-.filter-text {
-  margin: 0px 0px 0px 0px;
-}
 
 h1 {
   text-align: center;
