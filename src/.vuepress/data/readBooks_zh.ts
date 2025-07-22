@@ -2,7 +2,7 @@ import { Book } from "../types/book";
 
 const readBookList_zh: Book[] = [
   {
-    name: "新名字的故事 : 那不勒斯四部曲1",
+    name: "新名字的故事 : 那不勒斯四部曲2",
     stars: 5,
     status: "read",
     comments:
