@@ -4,13 +4,23 @@ date: 2025-06-19
 
 # FOTA + AutoSAR 协议开发
 
-## 诊断及刷写规范
+## CAN 通信保护
 
-- FOTA 整包刷写 ECU 功能需求规范 v1.0
-  - ECU 信息收集需求，需要刷写的 ECU 的 DID 列表
-  - FOTA 刷写时间和流程要求，包括整车静默指令和恢复通讯指令
-  - FileHeader 和 FlashFlow 具体怎么写的格式信息，其中 FlashFlow 氛围诊断报文、配置信息、数据信息，给出了 ControlByte 位格式和报文格式要求
+- End-to-End Communication Protection Specification-V2.1.pdf
 
+主要是说明了通信保护安全，CAN 发送的数据会因为各种原因出错，所以需要有协议来验证数据安全性。安全性要求按照排名是：ASIL A,B,C,D。根据系统的不同，GWM 从端到端监管提供的端到端配置文件中选择要更用的端到端配置文件。需求可通过每个需求前的"RS-E2E-id”唯一字符串来识别，**这个文件主要就是写了不同的`RS-E2E-id`需要有什么要求。是一个总纲。** id 一共有 1-15 个。
+
+- GWMLAN00-03 HS-CAN IL Req Spec-V1.6.pdf
+
+长城汽车的CAN通信交互层协议，协议不区分经典CAN和CANFD通信。通信协议层上，由应用层（由 ECU 的具体应用功能）向各个ECU发送的消息叫作`application messages`，这些被指明在C-Matrix文件`20250313更新文件/MC01-C_Matrix_for_PT_CANFD_V4.9_2025.3.5.xlsx`中。
+
+  - GWMLAN Interaction Layer 提供三种不同的基本消息类型：Event（E），Periodic（P），混合消息。不同之处在于交互层准备消息和请求发送的触发条件。
+  - 三种消息结构的延时要求
+  - 信号内容存储位置要求（连续字节分配）
+  - 消息长度要求（经典CAN要求数据帧长度固定为8）
+  - 接收端和发送端对未使用字节位置的配置要求
+  - 信号初始化相关，启动和卸载
+   
 ## IAR 环境配置
 
 Keil 或者 IAR 本身是不带有 FM33FG0xA 系列的板子的，需要手动下载配置文件，但是在复旦微官网找了好久一直没找到 FG 系列，最后在论坛里找到了相关文件，这个论坛链接贴在这里。[src](https://www.fmdevelopers.com.cn/forum.php?mod=viewthread&tid=16713&page=1)
