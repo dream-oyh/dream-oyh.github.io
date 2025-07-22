@@ -76,7 +76,7 @@ import { computed, ref } from 'vue';
 import readBookList_zh from '../data/readBooks_zh'
 import readBookList_en from '../data/readBooks_en';
 import type { Book } from '../types/book';
-import Select from './select.vue';
+import Select from './Select.vue';
 
 let props = withDefaults(defineProps<{
   database?: string
