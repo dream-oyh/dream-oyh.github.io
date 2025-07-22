@@ -4,6 +4,7 @@
     <meta name="referrer" content="no-referrer">
   </head>
   <div class="filter-list">
+
     <Select filter_text="选择状态" :key_value="[
       { Key: 'read', Value: 'read', },
       { Key: 'reading', Value: 'reading', },
@@ -17,8 +18,6 @@
       { Key: '2星', Value: 2, },
       { Key: '1星', Value: 1, },
     ]" v-model="selectedStars" />
-
-
 
   </div>
   <div class="book-shelf">
@@ -98,10 +97,8 @@ const bookList = computed<Book[]>(() => {
   return [];
 });
 
-
 let selectedStatus = ref('read')
 let selectedStars = ref(1)
-
 
 </script>
 

@@ -16,7 +16,6 @@ icon: wancheng
 
 - [ ] [EZ.Encoder 社区](https://www.ez-encoder.com/feed)[强化学习入门课](https://www.youtube.com/watch?v=TMbidgQBI8M)
 
-
 ::: details done 归档
 
 - [ ] 完成优恩捷横向项目开发（2025.6.19-2025.10.10）
@@ -37,9 +36,9 @@ icon: wancheng
   - [x] 初步学习[XMake 的使用](https://zhuanlan.zhihu.com/p/640701847)
   - [x] 重新整理 [C++ 板块](/code/cpp.html)的笔记
 - [x] 学习[江科大 PID 控制课程](https://www.bilibili.com/video/BV1G9zdYQEr3)
-- [x] 学习[ Vue3 基础语法课](https://www.bilibili.com/video/BV1Za4y1r7KE) <Progress :current="56" :goal="71"/>
+- [x] 学习[ Vue3 基础语法课](https://www.bilibili.com/video/BV1Za4y1r7KE) <Progress :current="71" :goal="71"/>
   - [x] 尝试在博客里自己写组件
-:::
+        :::
 
 ::: tip 短期想做的
 
@@ -71,7 +70,6 @@ icon: wancheng
 - [x] 《人类简史》 <Progress :current="408" :goal="408"/>
 - [x] 《孤儿的新年礼物-兰波诗集》 <Progress :current="200" :goal="200"/>
 - [x] 《我的天才女友》——那不勒斯四部曲第一部 <Progress :current="400" :goal="400"/>
-
 
 :::
 
