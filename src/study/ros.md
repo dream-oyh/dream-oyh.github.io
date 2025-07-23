@@ -1,6 +1,7 @@
 ---
 Date: 2025-02-23
 tag: ros
+icon: Robot
 ---
 
 # ROS

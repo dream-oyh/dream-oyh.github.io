@@ -1,6 +1,7 @@
 ---
 date: 2024-06-22
 tag: data_structure
+icon: relation-full
 ---
 
 # Data structure

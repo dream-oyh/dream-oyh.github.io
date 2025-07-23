@@ -1,6 +1,7 @@
 ---
 Date: 2025-02-26
 tag: proxy
+icon: code
 ---
 
 # 代理相关

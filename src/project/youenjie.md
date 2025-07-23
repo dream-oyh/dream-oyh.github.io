@@ -8,19 +8,22 @@ date: 2025-06-19
 
 - End-to-End Communication Protection Specification-V2.1.pdf
 
-主要是说明了通信保护安全，CAN 发送的数据会因为各种原因出错，所以需要有协议来验证数据安全性。安全性要求按照排名是：ASIL A,B,C,D。根据系统的不同，GWM 从端到端监管提供的端到端配置文件中选择要更用的端到端配置文件。需求可通过每个需求前的"RS-E2E-id”唯一字符串来识别，**这个文件主要就是写了不同的`RS-E2E-id`需要有什么要求。是一个总纲。** id 一共有 1-15 个。
+主要是说明了通信保护安全，CAN 发送的数据会因为各种原因出错，所以需要有协议来验证数据安全性。安全性要求按照排名是：ASIL A,B,C,D。根据系统的不同，GWM 从端到端监管提供的端到端配置文件中选择要更用的端到端配置文件。需求可通过每个需求前的"RS-E2E-id”唯一字符串来识别，**这个文件主要就是写了不同的`RS-E2E-id`需要有什么要求。是一个总纲。** id 可选值有 1,2,4,5,6,7,11,22。
 
-- GWMLAN00-03 HS-CAN IL Req Spec-V1.6.pdf
-
-长城汽车的CAN通信交互层协议，协议不区分经典CAN和CANFD通信。通信协议层上，由应用层（由 ECU 的具体应用功能）向各个ECU发送的消息叫作`application messages`，这些被指明在C-Matrix文件`20250313更新文件/MC01-C_Matrix_for_PT_CANFD_V4.9_2025.3.5.xlsx`中。
-
+- GWMLAN00-03 HS-CAN IL Req Spec-V1.6.pdf<br>
+  通信协议技术栈的图中，transport protocol 部分。是长城汽车的 CAN 通信交互层协议，协议不区分经典 CAN 和 CANFD 通信。通信协议层上，由应用层（由 ECU 的具体应用功能）向各个 ECU 发送的消息叫作`application messages`，这些被指明在 C-Matrix 文件`20250313更新文件/MC01-C_Matrix_for_PT_CANFD_V4.9_2025.3.5.xlsx`中。
   - GWMLAN Interaction Layer 提供三种不同的基本消息类型：Event（E），Periodic（P），混合消息。不同之处在于交互层准备消息和请求发送的触发条件。
   - 三种消息结构的延时要求
   - 信号内容存储位置要求（连续字节分配）
-  - 消息长度要求（经典CAN要求数据帧长度固定为8）
+  - 消息长度要求（经典 CAN 要求数据帧长度固定为 8）
   - 接收端和发送端对未使用字节位置的配置要求
   - 信号初始化相关，启动和卸载
-   
+- GWMLAN00-19 AUTOSAR NM Req Spec-V1.3.pdf<br>
+  通信协议技术栈的图中，network management 部分。网络管理协议。
+  - 只要每个在 NM 中的网络节点需要总线通信，则每个节点都需要发送周期性的 NM PDUs 信号，否则就不用周期性地发送。
+  - 一定时间内总线如果空闲，没有收到 NM PDUs 信号，则总线将进入睡眠模式。
+  - 网络管理分为总线睡眠模式，总线睡眠准备模式，网络模式
+
 ## IAR 环境配置
 
 Keil 或者 IAR 本身是不带有 FM33FG0xA 系列的板子的，需要手动下载配置文件，但是在复旦微官网找了好久一直没找到 FG 系列，最后在论坛里找到了相关文件，这个论坛链接贴在这里。[src](https://www.fmdevelopers.com.cn/forum.php?mod=viewthread&tid=16713&page=1)

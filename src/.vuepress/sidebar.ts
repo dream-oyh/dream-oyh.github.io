@@ -120,26 +120,11 @@ export default sidebar({
       prefix: "/study/SummerCampReview",
       children: ["PhysNet.md", "ObjectDetection.md", "ControlEngineering.md"],
     },
-    {
-      text: "数据结构（全英）",
-      icon: "relation-full",
-      collapsible: true,
-      prefix: "/study/DataStructure/",
-      link: "/study/DataStructure/",
-      children: ["linked_list.md", "stack.md", "queue.md", "tree.md", "graph.md", "HashTable.md", "Heap.md"],
-    },
-    {
-      text: "算法学习",
-      prefix: "/study/Algorithm/",
-      icon: "code",
-      collapsible: true,
-      link: "/study/Algorithm/index.md",
-    },
-    {
-      text: "科研",
-      prefix: "/study/",
-      children: ["ros.md", "literature_search.md", "uuvsimulator.md", "proxy.md"],
-    },
+    "/study/DataStructure/",
+    "/study/Algorithm/",
+    "/study/ReinforcementLearning/",
+    "proxy.md",
+    "ros.md",
   ],
   "/study/Algorithm/": [
     {
@@ -149,4 +134,6 @@ export default sidebar({
       children: ["array.md", "linkedlist.md", "hashtable.md", "string.md"],
     },
   ],
+  "/study/DataStructure/": ["linked_list.md", "stack.md", "queue.md", "tree.md", "graph.md", "HashTable.md", "Heap.md"],
+  "/study/ReinforcementLearning/": ["index.md"],
 });
