@@ -52,7 +52,7 @@ $$=\mathbb{E}[R_{t+1}|S_t=s]+\gamma \mathbb{E}[G_{t+1}|S_t=s]$$
 其中，
 $$\mathbb{E}[R_{t+1}|S_t=s]=\Sigma_a [\pi(a|s)(\Sigma_r p(r|s,a)r)]$$
 $$\mathbb{E}[G_{t+1}|S_t=s]=\Sigma_{s'} [v_{\pi}(s')(\Sigma_a p(s'|s,a)\pi(a|s))]$$
-- _Bellman(贝尔曼方程)_：$v_{\pi}(s)=\Sigma_a \{\pi(a|s)[(\Sigma_r p(r|s,a)r+\Sigma_{s'} v_{\pi}(s')\Sigma_a p(s'|s,a))]\}$
+- _Bellman Equation(贝尔曼方程)_：$v_{\pi}(s)=\Sigma_a \{\pi(a|s)[(\Sigma_r p(r|s,a)r+\Sigma_{s'} v_{\pi}(s')\Sigma_a p(s'|s,a))]\}$
   - $\pi(a|s)$ 是给定的策略，某个状态下执行某个行动的可能性；
   - $p(r|s,a)$ 和 $p(s'|s,a)$ 代表动态模型，表示确定状态和行动之后，能够获得的奖励/状态转移概率，需要知道模型是否已知。<br>根据各项含义，可以继续简化式子：
   - $v_{\pi}(s)=r_{\pi}(s)+\gamma \Sigma_{s'}p_{\pi}(s'|s)v_{\pi}(s')$
@@ -63,3 +63,29 @@ $$\mathbb{E}[G_{t+1}|S_t=s]=\Sigma_{s'} [v_{\pi}(s')(\Sigma_a p(s'|s,a)\pi(a|s))
     - $r_\pi = [r_\pi(s_1),r_\pi(s_2),\cdots, r_\pi(s_n)]^T$
     - $P_\pi\in\mathbb{R}^{n\times n}, P_{\pi,i,j}=p_{\pi}(s_j|s_i)$,即状态转移概率矩阵。
 - 在给定一个策略后，需要通过贝尔曼方程求解每一个状态的state value，这个过程叫作policy evaluation.由于求解贝尔曼方程需要求逆矩阵，所以为了防止奇异矩阵，在实际中一般采用迭代法求解，即：$v_{k+1}=r_\pi+\gamma P_\pi v_k$
+- *action value(行动值)*：agent从一个状态出发，选择一个行动能够得到的return的平均值。$q_\pi(s,a)=\mathbb{E}[G_t|S_t=s,A_t=a]$。
+  - 和state value的联系：$v_\pi(s)=\Sigma_a (\pi(a|s)q_\pi(s,a))$
+  - $q_\pi(s,a) = \Sigma_r p(r|s,a)r+\Sigma_{s'} v_{\pi}(s')\Sigma_a p(s'|s,a)$
+
+## 贝尔曼最优公式
+
+- *optimal policy(最优策略)*：如果一个policy下任意状态的state value都比另一个policy下任意状态的state value要大，那前一个policy就是optimal policy.
+- *Bellman optimality equation(贝尔曼最优公式)*：$v_{\pi}(s)=\max_\pi \Sigma_a \{\pi(a|s)[(\Sigma_r p(r|s,a)r+\Sigma_{s'} v_{\pi}(s')\Sigma_a p(s'|s,a))]\}$<br>$=\max_\pi \Sigma_a \pi(a|s)q(s,a)$，其中$q(s,a)$代表action value
+  - 矩阵形式：$v=\max_\pi (r_\pi + \gamma P_\pi v)$
+  - 需要考虑的问题：
+    - Algorithm：公式如何求解？
+    - Existence：解是否存在？
+    - Uniqueness：解是否唯一？
+    - Optimality：为什么最优？
+    - 目前已知的量有：$p(r|s,a)$, $\gamma$, $p(s'|s,a)$，这三个量分别代表奖励分布规律，折合因子，系统模型（采取什么行动后会到哪个状态）。
+    - 目前未知的量有：$\pi(a|s)$, $v(s')$，一般我们会先给定一个$v(s')$的初始值，然后求解最优的$\pi(a|s)$
+  - 如果我们把右侧的最优问题看成一个函数（因为$v$会初始给定），则最优公式转变成：$v=f(v)$，变成了一个经典的不动点（fixed point）问题。
+- *contraction mapping(压缩映射)*：$f$是一个压缩映射的话，则有： $||f(x_1)-f(x_2)||\le \gamma ||x_1-x_2||$
+  - 如果一个函数满足压缩映射，那他他一定存在唯一的一个不定点 $x^*$ ，使得 $f(x^*)=x^*$
+  - 具体这个不动点怎么算呢，可以用迭代求，$x_{k+1}=f(x_k)$，当k趋于无穷大的时候，x会趋向于不动点，这个收敛是指数级别的。
+- 记结论：贝尔曼公式是一个压缩映射函数，一定存在唯一一个不动点，且这个不动点就是方程的解。
+- 求解最优贝尔曼方程的方法：
+  - 迭代求不动点 $v^*$
+  - 则 $\pi^* = \argmax_\pi (r_\pi + \gamma P_\pi v^*)$ 
+
+## 值迭代和策略迭代

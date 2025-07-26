@@ -8,7 +8,7 @@ icon: wancheng
 ::: info 正在学习的内容
 
 - [ ] 完成优恩捷横向项目开发（2025.6.19-2025.10.10）
-- [ ] 学习强化学习理论课：[西湖大学 赵世钰 - 强化学习的数学原理](https://www.bilibili.com/video/BV1sd4y167NS)
+- [ ] 学习强化学习理论课：[西湖大学 赵世钰 - 强化学习的数学原理](https://www.bilibili.com/video/BV1sd4y167NS) <Progress :current="3" :goal="10"/>
 
 :::
 
