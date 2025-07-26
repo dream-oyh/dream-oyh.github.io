@@ -112,6 +112,24 @@ $$\mathbb{E}[G_{t+1}|S_t=s]=\Sigma_{s'} [v_{\pi}(s')(\Sigma_a p(s'|s,a)\pi(a|s))
 |4) Value  | $v_{\pi_1} = r_{\pi_1} + \gamma P_{\pi_1}v_{\pi_1}$  | $v_1 = r_{\pi_1} + \gamma P_{\pi_1}v_0$ | 这步发生了不同|
 |5) Policy | $\pi_2 = \argmax_{\pi}(r_\pi + \gamma P_{\pi}v_{\pi_1})$ | $\pi_2' = \argmax_{\pi}(r_{\pi} + \gamma P_{\pi}v_1)$ | |
 
-在第四步求解的时候，策略迭代需要用迭代法求解贝尔曼公式，以此来得到 $v_{\pi_1}$的值，为了求这个值需要先给定一个初始估计值，然后迭代无穷步最后收敛值真实值。而值迭代，在第四步，是需要根据已知的初始值迭代一步得到下一次的新值。两者都是在用迭代法求解贝尔曼公式，策略迭代算了很多步，值迭代只算了一步。
+在第四步求解的时候，策略迭代需要用迭代法求解贝尔曼公式，以此来得到 $v_{\pi_1}$ 的值，为了求这个值需要先给定一个初始估计值，然后迭代无穷步最后收敛值真实值。而值迭代，在第四步，是需要根据已知的初始值迭代一步得到下一次的新值。两者都是在用迭代法求解贝尔曼公式，策略迭代算了很多步，值迭代只算了一步。
 
 - 由此引出*truncated policy iteration*，前面的算法一致，但是在这步只需要迭代有限步，不是只迭代一步，也不是非常多步，而是一个中间值。（初始给一个瞎猜的策略）
+
+## 蒙特卡洛迭代法
+
+之所以要提出蒙特卡洛，是因为在大多数情况下，我们是不知道系统模型的，无法使用贝尔曼公式。所以需要有大量的数据做支撑，来拟合出原有的数据分布概率模型。在蒙特卡洛方法里，旨在通过大量的尝试，推测出 $q_{\pi_k}(s,a)$ 的**期望值**。然后再采用policy iteration做迭代优化。通过 $v_\pi(s)=\Sigma_a (\pi(a|s)q_\pi(s,a))$ 计算下一步的 state value。
+
+- 最基础的蒙特卡洛算法：要求从一个随机估计的策略出发，对每一个(s,a)，都遍历N个episode，求这N个episode的平均return值作为(s,a)状态-策略对的action value。
+- *MC-based Exploring Starts*：遍历N个episode太过漫长，考虑任意一个episode链：$(s_1, a_1)\rightarrow (s_3, a_2)\rightarrow (s_2, a_4)\rightarrow (s_2, a_5)\rightarrow \cdots$ ，通过这个链，可以计算出 $(s_1, a_1)$ 的action value，同时还能够获得 $(s_2, a_4)$ 的action value，因为 $g_{(s_1,a_1)} = r_{(s_1,a_1)} + \gamma g_{(s_3, a_2)}$。然后这个方法，就把这一次的episode作为action value的估计值，代入policy iteration做优化 ~~（说是可以通过数学证明，证明出这样是依然收敛的，背结论吧，感觉后面多半不会用到）~~。
+  - 在具体的编程实现中，建议逆序递推做累加，每一次都给return的值 $+\gamma g_{(s_{t}, a_{t})}$ ，就能计算出这条链上每一个 $(s,a)$ 的action value。
+- *MC-based $\varepsilon$-greedy*：这里提出了*soft policy*的概念，也就是说每一个策略里每一个行动不是唯一确定的，而是有概率发生的，这个概率定义为：
+  - 对于*greedy action*（就是action value最大的action），$\pi(a|s)=1-\frac{\varepsilon}{|\mathcal{A}(s)|}(\mathcal{A}(s)-1)$
+  - 对于其他action，$\pi(a|s)=\frac{\varepsilon}{|\mathcal{A}(s)|}$
+  - $\varepsilon$ 是[0,1]的一个正数，$\mathcal{A}(s)$ 是当前状态所拥有行动的数目。
+  - 之所以会选择用*soft policy*是为了平衡 **exploitation** 和 **exploration**，平衡探索性和最优性。
+  > $\varepsilon$-greedy 其实就是把原来是确定性的 $\pi(a|s)$ 转换成了stochastic的情况。
+
+## 【数学基础】随机近似与随机梯度下降
+
+- 增量式(*incremental*)方法计算平均数。设置 $w_k=\frac{1}{k+1}\Sigma_i^N \frac{1}{N}x_i$，则可以通过推导推出递推关系式：==$w_{k+1}=w_k-\frac{1}{k}(w_k-x_k)$==。为什么要这么做呢？因为有时候数据量太大了，要是来一个采样数据就需要重新全部加起来算平均值，对算力要求是很高的。而有了递推式，就可以做到来一个采样，就只要一步计算就能得到加上这个采样后的新平均值，简化运算要求。

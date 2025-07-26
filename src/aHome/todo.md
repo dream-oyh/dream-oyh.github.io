@@ -8,7 +8,7 @@ icon: wancheng
 ::: info 正在学习的内容
 
 - [ ] 完成优恩捷横向项目开发（2025.6.19-2025.10.10）
-- [ ] 学习强化学习理论课：[西湖大学 赵世钰 - 强化学习的数学原理](https://www.bilibili.com/video/BV1sd4y167NS) <Progress :current="3" :goal="10"/>
+- [ ] 学习强化学习理论课：[西湖大学 赵世钰 - 强化学习的数学原理](https://www.bilibili.com/video/BV1sd4y167NS) <Progress :current="5" :goal="10"/>
 
 :::
 
@@ -31,7 +31,6 @@ icon: wancheng
 ::: danger 未来要做的事
 
 - [ ] 基于 stm32 的平衡车开发
-- [ ] 学 Qt 开发 ~~（这辈子也学不上系列）~~
 - [ ] [斯坦福 CS336：手把手带你从零构建 ChatGPT](https://www.bilibili.com/video/BV1BWEWzfEKi)
 
 :::
