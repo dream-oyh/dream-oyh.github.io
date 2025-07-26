@@ -9,6 +9,12 @@ icon: code
 
 参考教程：[西湖大学 赵世钰 - 强化学习的数学原理](https://www.bilibili.com/video/BV1sd4y167NS)
 
+::: tip 一些学习经验
+
+- 矩阵形式的公式方便用于理论分析，而element-wise（分量式）的形式便于编程实现
+
+:::
+
 ## 基础概念
 
 - _state(状态)_：agent 在环境中的状态，RL 中最关键的一个量，需要根据实际情况自己确定。所有状态放在一起就是状态空间，$\mathcal{S}=\{s_i\}$
@@ -89,3 +95,23 @@ $$\mathbb{E}[G_{t+1}|S_t=s]=\Sigma_{s'} [v_{\pi}(s')(\Sigma_a p(s'|s,a)\pi(a|s))
   - 则 $\pi^* = \argmax_\pi (r_\pi + \gamma P_\pi v^*)$ 
 
 ## 值迭代和策略迭代
+
+- *state iteration(值迭代)*：$v_{k+1}=f(v_k)=\max_\pi (r_\pi+\gamma P_\pi v_k)$
+  1. policy update：**给定 $v_k$**，求解满足条件的 $\pi_{k+1}$, $\pi_{k+1}=\argmax_\pi(r_\pi +\gamma P_\pi v_k)$，是一个优化过程。这个优化问题的解法不难，是通过计算每一个状态对应每一个的行动的action value，取最大的那个action value就是当前最好的策略，如此反复迭代。
+  2. value update：计算在$\pi_{k+1}$策略下的$v_{k+1}$,以此作为下一迭代步的初始值。
+- *policy iteration(策略迭代)*：
+  1. policy evaluation：**给定初始策略 $\pi_0$**,求解该策略下的贝尔曼公式，得到$v_{\pi_k}$的state value，其中$v_{\pi_k}=r_{\pi_k}+\gamma P_{\pi_k}v_{\pi_k}$。在这一步过程中，求解 $v_{\pi_k}$ 就是在求解贝尔曼方程，有两种方法：1）逆矩阵，2）迭代。所以在整个大的policy iteration框架下，还有一步小的迭代，这一步迭代是为了确定在给定策略条件下，各个状态的state value。
+  2. policy improvement：$\pi_{k+1}=\argmax_\pi(r_\pi + \gamma P_{\pi}v_{\pi_k})$，选取在该state value下最大的action value，作为下一步的新策略。以此完成策略的迭代。
+- *state iteration*和*policy iteration*对比
+
+|步骤|策略迭代|值迭代|备注|
+|:---|:---|:---|:---|
+|1) Policy | $\pi_0$ |N/A||
+|2) Value  | $v_{\pi_0}=r_{\pi_0}+\gamma P_{\pi_0}v_{\pi_0}$ |$v_0:=v_{\pi_0}$||
+|3) Policy | $\pi_1=\argmax_\pi(r_{\pi}+\gamma P_{\pi}v_{\pi_0})$ | $\pi_1=\argmax_\pi(r_\pi + \gamma P_\pi v_0)$|两个策略是一样的|
+|4) Value  | $v_{\pi_1} = r_{\pi_1} + \gamma P_{\pi_1}v_{\pi_1}$  | $v_1 = r_{\pi_1} + \gamma P_{\pi_1}v_0$ | 这步发生了不同|
+|5) Policy | $\pi_2 = \argmax_{\pi}(r_\pi + \gamma P_{\pi}v_{\pi_1})$ | $\pi_2' = \argmax_{\pi}(r_{\pi} + \gamma P_{\pi}v_1)$ | |
+
+在第四步求解的时候，策略迭代需要用迭代法求解贝尔曼公式，以此来得到 $v_{\pi_1}$的值，为了求这个值需要先给定一个初始估计值，然后迭代无穷步最后收敛值真实值。而值迭代，在第四步，是需要根据已知的初始值迭代一步得到下一次的新值。两者都是在用迭代法求解贝尔曼公式，策略迭代算了很多步，值迭代只算了一步。
+
+- 由此引出*truncated policy iteration*，前面的算法一致，但是在这步只需要迭代有限步，不是只迭代一步，也不是非常多步，而是一个中间值。（初始给一个瞎猜的策略）
