@@ -6,8 +6,6 @@ export type Book = {
   stars: number;
   // 状态
   status?: readStatus;
-  // 书评
-  comments?: string;
   // 已读时间
   time: {
     start: string;

@@ -53,9 +53,12 @@
             <!-- 书评 -->
             <div class="book-comments">
               <strong>书评:</strong>
+              <div class="comment-text">
+                <slot :name="book.name">
+                  <p class="no-comments">暂无书评</p>
+                </slot>
+              </div>
 
-              <p v-if="book.comments" class="comment-text">{{ book.comments }}</p>
-              <p v-else class="no-comments">暂无书评</p>
             </div>
 
             <div class="book-tag-list">
