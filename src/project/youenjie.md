@@ -12,18 +12,53 @@ date: 2025-06-19
 
 - GWMLAN00-03 HS-CAN IL Req Spec-V1.6.pdf<br>
   通信协议技术栈的图中，transport protocol 部分。是长城汽车的 CAN 通信交互层协议，协议不区分经典 CAN 和 CANFD 通信。通信协议层上，由应用层（由 ECU 的具体应用功能）向各个 ECU 发送的消息叫作`application messages`，这些被指明在 C-Matrix 文件`20250313更新文件/MC01-C_Matrix_for_PT_CANFD_V4.9_2025.3.5.xlsx`中。
+
   - GWMLAN Interaction Layer 提供三种不同的基本消息类型：Event（E），Periodic（P），混合消息。不同之处在于交互层准备消息和请求发送的触发条件。
   - 三种消息结构的延时要求
   - 信号内容存储位置要求（连续字节分配）
   - 消息长度要求（经典 CAN 要求数据帧长度固定为 8）
   - 接收端和发送端对未使用字节位置的配置要求
   - 信号初始化相关，启动和卸载
+  - 交互层发送方要求
+    - application 应用层先给交互层更新数据，这个一段数据会在交互层的缓冲区暂存下来，然后等到网络管理模块向交互层发送“请求发送”（`IL_REQ(REC_ONLY)`）的信号，交互层再采用 P/E/M 三种形式的消息结构把信息发出去。即，按照时序存在三阶段：
+      - application 应用层更新信号
+      - 网络管理模块请求发送
+      - 交互层采取发送操作
+    - 启动和停止的延迟时间要求，要在 20ms 内完成模块启停
+  - 交互层接收方要求
+    - 信号完全收到后才能读取
+    - 交互层提供 `FirstValue` （指明对应的消息是否被收到）和 `TimeOut`（指明两次消息接收之间的时间差==？==） 标志位来确定信号是否正确被收到
+    - 在交互层发送方发送数据到总线后，网络管理模块也会发送接收激活信号（`IL_REQ(REC_ONLY or REC_SEND)`），随后交互层要在 10ms 以内完成启动。
+    - 每个 ECU 中的交互层应接收 `C-Matrix` 中为特定 ECU 定义的消息，并将每条消息中的相关信息（信号）提供给应用功能。
+
 - GWMLAN00-19 AUTOSAR NM Req Spec-V1.3.pdf<br>
-  通信协议技术栈的图中，network management 部分。网络管理协议。
+  `Figure 1 GWMLAN Communication Protocol Stack Overview`图中，network management 部分。网络管理协议。网络管理模块提供的服务有，ECU资源初始化，网络启动，监测，为网络和节点处理和编码操作状态，全局操作模式的协调。
   - 只要每个在 NM 中的网络节点需要总线通信，则每个节点都需要发送周期性的 NM PDUs 信号，否则就不用周期性地发送。
-  - 一定时间内总线如果空闲，没有收到 NM PDUs 信号，则总线将进入睡眠模式。
+  - 一定时间（`T_NM_TIMEOUT + T_WAIT_BUS_SLEEP`）内总线如果空闲，没有收到 NM PDUs 信号，则总线将进入睡眠模式。
   - 网络管理分为总线睡眠模式，总线睡眠准备模式，网络模式
-  - 文件给出了各个模式的转换方式
+    - 网络模式下又含
+      - Repeat Message State
+      - Normal Operation State
+      - Ready Sleep State
+  - 文件给出了各个模式的转换方式，见图`Figure 2 NM Transition Diagram`
+  - 总线睡眠模式（Bus Sleep Mode）
+    - 目的是减小能量消耗，当总线没有信息需要交换的时候。
+  - 预备总线睡眠模式（Prepare Bus Sleep Mode）
+    - 确保所有节点都有时间在总线睡眠模式之前，去启停他们的网络活动
+    - 清空发送缓冲区，把还没发的消息都发了
+    - 进入预备总线睡眠模式后，启用`T_WAIT_BUS_SLEEP`定时器，超过阈值就进入睡眠模式
+    - 预备总线睡眠模式收到`NM PDU`后，应该进入网络模式
+  - 网络模式（Network Mode）
+    - 进入该模式后，需要启动`T_NM_TIMEOUT`定时器，发送第一条NM PDU，这个要在`T_WakeUp`时间内完成；成功接收`NM PDU`后，应该重启该计时器
+    - 默认进入Repeat Message State模式
+      - 如果从不同的方式进入Repeat Message State，对于收发消息有不一样的要求，这个具体看文档P6的说明吧。
+  - *NM PDU*
+    - NM Message ID = NM Control Frame Base Address（0x5） + ECU Address，一共11位，前面基地址3位，后面ECU地址8位
+    - 0字节位：存储ECU地址
+    - 1字节位：控制位向量
+    - 2-7字节位：用户数据，协议里P12页有规定怎么写
+  - 
+
 
 ## IAR 环境配置
 
