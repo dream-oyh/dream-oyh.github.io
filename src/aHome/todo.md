@@ -34,5 +34,3 @@ icon: wancheng
 - [ ] [斯坦福 CS336：手把手带你从零构建 ChatGPT](https://www.bilibili.com/video/BV1BWEWzfEKi)
 
 :::
-
-<heatMap name="热力图"/>

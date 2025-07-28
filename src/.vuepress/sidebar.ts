@@ -106,6 +106,7 @@ export default sidebar({
     "pcdiy.md",
     "CSU.md",
     "read.md",
+    "travel.md",
     "video_game.md",
     "rss.md",
   ],
