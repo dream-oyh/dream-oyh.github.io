@@ -211,3 +211,4 @@ export default emitter;
 ```
 
 就能把父给子的组件全部穿透至孙组件，然后用`props`接收。
+

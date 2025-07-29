@@ -19,7 +19,7 @@ icon: wancheng
 ::: important 课外目标+需要坚持做的事
 
 - 在读书目
-  - [x] 《离开的，留下的》——那不勒斯四部曲第三部 <Progress :current="50" :goal="529"/>
+  - [x] 《离开的，留下的》——那不勒斯四部曲第三部 <Progress :current="120" :goal="529"/>
   - [ ] 《To the Lighthouse》 <Progress :current="3" :goal="160"/>
 - 运动
   - [ ] 周二、四、六长跑 3km

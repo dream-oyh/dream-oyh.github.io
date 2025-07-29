@@ -101,7 +101,7 @@ export default hopeTheme({
       },
     },
     icon: {
-      assets: "//at.alicdn.com/t/c/font_4435976_swm9l7kq5fg.css",
+      assets: "//at.alicdn.com/t/c/font_4435976_wtrblwgo1qc.css",
     },
     comment: {
       //   provider: "Waline",

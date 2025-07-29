@@ -6,12 +6,12 @@
 
     </div>
     <div class="text caption">{{ caption }}</div>
-    <div class="text time">{{ start_time }} 至 {{ end_time }}</div>
+    <div class="text time" v-if="start_time">{{ start_time }} 至 {{ end_time }}</div>
   </div>
 </template>
 
 <script setup lang="ts" name="showItem">
-withDefaults(defineProps<{ src: string, alt?: string, caption: string, start_time: string, end_time: string }>(), {
+withDefaults(defineProps<{ src: string, alt?: string, caption: string, start_time?: string, end_time?: string }>(), {
   alt: ''
 })
 </script>
