@@ -11,6 +11,10 @@ icon: arduino
 
 - [STM32 江协科技学习课程](https://www.bilibili.com/video/BV1th411z7sn)
 
+## stm32 开发板
+
+[本博客笔记入口导航](stm32.md)
+
 ## Arduino 开发板
 
 [官方 tutorials](https://docs.arduino.cc/)

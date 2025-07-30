@@ -19,9 +19,35 @@ tag: index
 - 嵌入式：项目所需，其次本来就有点兴趣，到浙大之后开始系统学
 - 前端（Vue 框架+TypeScript）：到浙大的第一个暑假，趁着周末时间慢慢学的，也是在 absx 激励下想学的
 
-## 为什么喜欢
+## 正在学习
 
-喜欢把想法落地变成实物的瞬间。前端的 ui，开发板的功能实现，都是满满的成就感。
+- [python](python.md)
+  - [pytorch](python/pytorch/1pytorch.md)
+  - [爬虫](python/web_crawler.md)
+  - [seaborn](python/Seaborn.md)
+  - [pandas](python/pandas.md)
+  - [websocket](python/websocket.md)
+  - [自建库：LocalAugment](python/LocalAugment.md)
+- [C++](cpp.md)
+- [嵌入式](Arduino/index.md)
+- 前端
+  - [vue](vue.md)
+  - [css](css.md)
+
+## 工具掌握
+
+- [git](git.md)
+- [github](github.md)
+- [latex](latex.md)
+- [docker](docker.md)
+- [VSCode](vscode.md)
+- ~~[vim](vim.md)~~
+
+## 其他仅作了解的工具
+
+- [linux](Linux.md)
+- [shell](shell.md)
+- [服务器](aliyun.md)
 
 ## 代码编辑器
 

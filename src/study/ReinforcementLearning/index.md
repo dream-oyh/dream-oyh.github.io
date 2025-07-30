@@ -12,6 +12,7 @@ icon: code
 ::: tip 一些学习经验
 
 - <switText text1="matrix form" text2="矩阵形式"/>的公式方便用于理论分析，而<switText text1="element-wise form" text2="分量形式"/>便于编程实现
+- 要注意实际问题中，我们是从某一个指定状态抵达一个目标状态，还是要找所有状态的最优策略
 
 :::
 
@@ -135,18 +136,19 @@ $$\mathbb{E}[G_{t+1}|S_t=s]=\Sigma_{s'} [v_{\pi}(s')(\Sigma_a p(s'|s,a)\pi(a|s))
 ## 【数学基础】随机近似与随机梯度下降
 
 - <switText text1="incremental" text2="增量式"/>方法计算平均数。设置 $w_k=\frac{1}{k+1}\Sigma_i^N \frac{1}{N}x_i$，则可以通过推导推出递推关系式：==$w_{k+1}=w_k-\frac{1}{k}(w_k-x_k)$==。为什么要这么做呢？因为有时候数据量太大了，要是来一个采样数据就需要重新全部加起来算平均值，对算力要求是很高的。而有了递推式，就可以做到来一个采样，就只要一步计算就能得到加上这个采样后的新平均值，简化运算要求。这是一个特殊的<switText text1="Robbins-Monro算法" text2="RM"/>
-- <switText text1="Robbins-Monro算法" text2="RM"/>：类似于随机梯度下降。其目的是解决一个黑箱函数的解。举个例子，我有一个函数 $g(w)=0$, 这个函数$g$是什么我不知道，但是我想要正确的解 $w^*$，这个就引入了迭代式的RM算法。即： $w_{k+1} = w_k - a_k \tilde{g}(w_k, \eta_k)$
+- <switText text1="Robbins-Monro算法" text2="RM"/>
+  ：类似于随机梯度下降。其目的是解决一个黑箱函数的解。举个例子，我有一个函数 $g(w)=0$, 这个函数$g$是什么我不知道，但是我想要正确的解 $w^*$，这个就引入了迭代式的RM算法。即： $w_{k+1} = w_k - a_k \tilde{g}(w_k, \eta_k) = w_k- a_k(g(w_k)+\eta)$
   - $w_{k+1}$ 是下一步需要输入的输入值
   - $a_k$ 是正的系数。一般取接近于0的常数。如果 $a_k=\frac{1}{k}$，$g(w)=w-x$，则就转变成了<switText text1="incremental" text2="增量式"/>方法计算均值。
   - $\tilde{g}(w_k, \eta_k)$ 这步是输入$w_k$后模型的响应**观察量**，是包括噪声的，噪声也未知
   - 关于这个定理的运用，数学上要求满足一定的条件，太复杂了，暂且不论。
-```mermaid
- graph LR
-      A["$$w_k$$"] --> B("$$g(w)$$")
-      B --> |$$+\eta_k$$| C("$$\tilde{g}(w_k,\eta_k)$$")
-      C --> |"$$w_{k+1} = w_k - a_k \tilde{g}(w_k, \eta_k)$$"| D("$$w_{k+1}$$")
-      D --> B
-```
+  ```mermaid
+  graph LR
+        A["$$w_k$$"] --> B("$$g(w)$$")
+        B --> |$$+\eta_k$$| C("$$\tilde{g}(w_k,\eta_k)$$")
+        C --> |"$$w_{k+1} = w_k - a_k \tilde{g}(w_k, \eta_k)$$"| D("$$w_{k+1}$$")
+        D --> B
+  ```
 - 对于优化问题： $\min_w J(w)=\mathbb{E[f(w,X)]}$（w是参数，X是已知概率分布的随机变量，$J(w)$是求期望），有多种解法
   - <switText text1="Gradient Descent" text2="GD，梯度下降"/> 
   $$w_{k+1} = w_k-a_k\nabla_w \mathbb{E}[f(w_k, X)]$$ 
@@ -160,7 +162,19 @@ $$\mathbb{E}[G_{t+1}|S_t=s]=\Sigma_{s'} [v_{\pi}(s')(\Sigma_a p(s'|s,a)\pi(a|s))
 
 ## 时序差分算法 <switText text1="incremental" text2="增量式/迭代式的"/>
 
+::: info 总结
+
+时序差分算法旨在解决没有模型的策略迭代问题，既然没有模型，**就需要有相对应的经验数据**
+
 - <switText text1="Time Difference" text2="TD算法（时序差分算法）"/> 
+  在已知策略 $\pi$，已知经验 $\{(s_t, r_{t+1},s_{t+1})\}_t$ 的情况下通过 TD 算法求 $v_\pi(s)$
+- <switText text1="Sarsa" text2="state-action-reward-state-action"/> 
+  在已知策略 $\pi$，已知经验 $\{(s_t, a_t, r_{t+1},s_{t+1},a_{t+1})\}_t$ 的情况下通过 TD 算法求 $q_\pi(s,a)$
+
+:::
+
+
+- <switText text1="Time Difference" text2="TD算法（时序差分算法）"/> 用于估计model-free情况下的*状态值（state value）*
   $$v_{t+1}(s_t)=v_t(s_t)-\alpha_t(s_t)[v_t(s_t)-[r_{t+1}+\gamma v_t(s_{t+1})]]$$
   $$v_{t+1}(s)=v_t(s), \forall s\ne s_t\text{（所有没被访问的状态，其state value保持不变）}$$
   - $v_{t+1}(s_t)$ 新的估计值
@@ -186,6 +200,25 @@ $$\mathbb{E}[G_{t+1}|S_t=s]=\Sigma_{s'} [v_{\pi}(s')(\Sigma_a p(s'|s,a)\pi(a|s))
   > 
   > 所以能证明这个参数的期望是0，也就可以用于表示误差。
   >
-  > TD误差也可以表示innovation,我们发现新的信息和现在有误差，所以就借用新信息来改进当前策略。
-  - 如果参考RM算法，时序差分公式给出来的其实是 $w = v_{t}(s_t) = \mathbb{E}[r_{t+1}+\gamma v_t(s‘)|S=s]$ 而这个其实是贝尔曼期望公式，和[贝尔曼公式](#贝尔曼公式)类似，由此TD算法实现了**不用模型的情况**求解贝尔曼公式，但是给到相对应的数据（包括了对 $R$ 和 $v_\pi (S')$ 的采样）。
+  > TD误差也可以表示innovation，我们发现新的信息和现在有误差，所以就借用新信息来改进当前策略。
+  - 如果参考RM算法，时序差分公式的其实是在求解这个方程 $w = v_{t}(s_t) = \mathbb{E}[r_{t+1}+\gamma v_\pi(s')|S=s_t]$ 而这个其实是<switText text1="Bellman Expectation Equation" text2="BEE, 贝尔曼期望公式"/>（和[贝尔曼公式](#贝尔曼公式)类似）由此TD算法实现了**不用模型的情况**求解贝尔曼公式，但是给到相对应的数据（包括了对 $R$ 和 $v_\pi (S')$ 的采样）。
     - 而现在需要的是 $(s,r,s')$ 的采样，一般会替换成 $(s_t,r_{t+1},s_{t+1})$ 的轨迹，这样访问到哪个s，就可以更新哪个s的采样，而不用反复做某一个s的采样。
+- <switText text1="Sarsa" text2="state-action-reward-state-action"/> 
+  - 估计 action value
+  - 再采用 policy improvement 估计最优策略
+  - **action value 估计的算法实现**：
+    - 已知：策略 $\pi$，经验（数据）： $\{(s_t, a_t, r_{t+1},s_{t+1},a_{t+1})\}_t$
+    - $q_{t+1}(s_t,a_t) = q_t(s_t,a_t)-\alpha_t(s_t,a_t)[q_t(s_t,a_t)-[r_{t+1}+\gamma q_t(s_{t+1},a_{t+1})]]$
+    - $q_{t+1}(s,a) = q_t(s,a), \forall(s,a)\ne (s_t,a_t)$ （对于）所有未遍历到的状态和行动，都不采取更新
+    > 和TD算法类似的，其实就是在用RM算法求解 $w=\mathbb{E}[r_{t+1}+\gamma q_\pi(s_{t+1},a_{t+1}) | S=s_t, A=a_t]$ 问题
+- <switText text1="Expected Sarsa" text2="期望Sarsa算法"/>
+  - 已知：策略 $\pi$，经验（数据）： $\{(s_t, a_t, r_{t+1},s_{t+1})\}_t$
+  - $q_{t+1}(s_t,a_t) = q_t(s_t,a_t)-\alpha_t(s_t,a_t)[q_t(s_t,a_t)-(r_{t+1}+\gamma \mathbb{E}[q_t(s_{t+1},\mathcal{A})])]$
+  - 其中，$\mathbb{E}[q_t(s_{t+1},\mathcal{A})]=\Sigma_a \pi_t(a|s_{t+1})q_t(s_{t+1},a)=v_t(s_{t+1})$
+  - $q_{t+1}(s,a) = q_t(s,a), \forall(s,a)\ne (s_t,a_t)$ （对于）所有未遍历到的状态和行动，都不采取更新
+  - 相较于 Sarsa 的改动：
+    - TD的目标值发生改变，不再需要 $q_t(s_{t+1},a_{t+1})$，而需要计算 $\mathbb{E}[q_t(s_{t+1},\mathcal{A})]$，计算量变得更大了
+    - 由于不再需要 $a_{t+1}$，所以经验数据从 $\{(s_t, a_t, r_{t+1},s_{t+1},a_{t+1})\}_t$ 变为 $\{(s_t, a_t, r_{t+1},s_{t+1})\}_t$
+- <switText text1="Q-learning" text2="Q-learning"/>
+  - $q_{t+1}(s_t,a_t) = q_t(s_t,a_t)-\alpha_t(s_t,a_t)[q_t(s_t,a_t)-(r_{t+1}+\gamma \max_{a\in \mathcal{A}}q_t(s_{t+1},a))]$
+  - $q_{t+1}(s,a) = q_t(s,a), \forall(s,a)\ne (s_t,a_t)$ （对于）所有未遍历到的状态和行动，都不采取更新

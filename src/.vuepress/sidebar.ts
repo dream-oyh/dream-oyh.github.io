@@ -14,14 +14,7 @@ export default sidebar({
     {
       text: "Python 库",
       prefix: "python/",
-      children: [
-        //"pandas.md",
-        "pytorch/",
-        "Seaborn.md",
-        "web_crawler.md",
-        "websocket.md",
-        "LocalAugment.md",
-      ],
+      children: ["pandas.md", "pytorch/", "Seaborn.md", "web_crawler.md", "websocket.md", "LocalAugment.md"],
     },
     {
       text: "锦囊",
