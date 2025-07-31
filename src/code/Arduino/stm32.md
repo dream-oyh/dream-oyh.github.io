@@ -339,6 +339,170 @@ stm32 的 CAN 通信具体实现细节，见[此视频](https://www.bilibili.com
 5. 报文数据写入发送结构体，调用发送函数
 6. 调用检查 FIFO 状态函数，报文数据存入到接收的结构体中，读取结构体即可。
 
+#### 程序实现
+
+##### CAN 通信发送函数
+
+用结构体定义发送相关参数（标准帧/扩展帧，数据帧长度等），用 HAL 库函数发送数据。
+
+- 输入参数：报文 ID，数据帧（以数组形式存储）指针，数据帧长度
+- 输出参数：无
+
+```c++
+
+/*发送数据函数*/
+CAN_TxHeaderTypeDef TxMessage;
+CAN_HandleTypeDef hcan;
+void CAN_Send_Test(uint32_t ID, uint8_t txdata[],uint16_t len)
+{
+    uint32_t pTxMailbox = 0;
+    TxMessage.IDE = CAN_ID_EXT;     //设置ID类型
+    //  TxMessage.StdId = ID;
+    TxMessage.ExtId = ID;       //设置ID号
+    TxMessage.RTR = CAN_RTR_DATA;   //设置传送数据帧
+    TxMessage.DLC = len;              //设置数据长度
+  	HAL_CAN_AddTxMessage(&hcan, &TxMessage,txdata, &pTxMailbox);
+}
+```
+
+::: details `CAN_TxHeaderTypeDef`结构体定义（每块开发板不一样，需要去驱动程序里找）
+
+```c++
+// CAN_TxHeaderTypeDef 结构体定义
+/**
+  * @brief  CAN Tx message header structure definition
+  */
+typedef struct
+{
+  uint32_t StdId;    /*!< Specifies the standard identifier.
+                          This parameter must be a number between Min_Data = 0 and Max_Data = 0x7FF. */
+
+  uint32_t ExtId;    /*!< Specifies the extended identifier.
+                          This parameter must be a number between Min_Data = 0 and Max_Data = 0x1FFFFFFF. */
+
+  uint32_t IDE;      /*!< Specifies the type of identifier for the message that will be transmitted.
+                          This parameter can be a value of @ref CAN_identifier_type */
+
+  uint32_t RTR;      /*!< Specifies the type of frame for the message that will be transmitted.
+                          This parameter can be a value of @ref CAN_remote_transmission_request */
+
+  uint32_t DLC;      /*!< Specifies the length of the frame that will be transmitted.
+                          This parameter must be a number between Min_Data = 0 and Max_Data = 8. */
+
+  FunctionalState TransmitGlobalTime; /*!< Specifies whether the timestamp counter value captured on start
+                          of frame transmission, is sent in DATA6 and DATA7 replacing pData[6] and pData[7].
+                          @note: Time Triggered Communication Mode must be enabled.
+                          @note: DLC must be programmed as 8 bytes, in order these 2 bytes are sent.
+                          This parameter can be set to ENABLE or DISABLE. */
+
+} CAN_TxHeaderTypeDef;
+
+```
+
+:::
+
+::: details `CAN_HandleTypeDef`结构体定义(直接看初始化函数方便点)
+
+```c++
+CAN_HandleTypeDef hcan;
+
+/* CAN init function */
+void MX_CAN_Init(void)
+{
+  hcan.Instance = CAN1;
+  hcan.Init.Prescaler = 16;
+  hcan.Init.Mode = CAN_MODE_NORMAL;
+  hcan.Init.SyncJumpWidth = CAN_SJW_1TQ;
+  hcan.Init.TimeSeg1 = CAN_BS1_3TQ;
+  hcan.Init.TimeSeg2 = CAN_BS2_4TQ;
+  hcan.Init.TimeTriggeredMode = DISABLE;
+  hcan.Init.AutoBusOff = DISABLE;
+  hcan.Init.AutoWakeUp = DISABLE;
+  hcan.Init.AutoRetransmission = DISABLE;
+  hcan.Init.ReceiveFifoLocked = DISABLE;
+  hcan.Init.TransmitFifoPriority = ENABLE;
+  if (HAL_CAN_Init(&hcan) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN CAN_Init 2 */
+
+  /* USER CODE END CAN_Init 2 */
+}
+```
+
+:::
+
+##### CAN 通信接收函数
+
+这里给的只是标准帧接收数据，扩展帧改改就行。需要先在调用前定义好接收缓冲区，把这个缓冲区指针作为输入参数传入，该函数就会把接收到的内容写进这个缓冲区数组中。返回值是接收是否成功的标志位。
+
+- 输入参数：接收 ID（标准帧），数据接收缓冲区数组指针
+- 输出参数：接收是否成功，1 为成功（其实一般写 0 为成功更多……因为不同的非零数可以排查错误）
+
+```c++
+/**
+ * @brief       CAN 接收数据查询
+ * @note      接收数据格式固定为: 标准ID, 数据帧
+ * @param       id      : 要查询的 标准ID(11位)
+ * @param       buf     : 数据缓存区
+ * @retval      接收结果
+ *   @arg       0   , 无数据被接收到;
+ *   @arg       其他, 接收的数据长度
+ */
+uint8_t can_receive_msg(uint32_t id, uint8_t *buf)
+{
+    if (HAL_CAN_GetRxFifoFillLevel(&hcan, CAN_RX_FIFO0) == 0)     /* 没有接收到数据 */
+    {
+        return 0;
+    }
+    if (HAL_CAN_GetRxMessage(&hcan, CAN_RX_FIFO0, &RxHeader, buf) != HAL_OK)  /* 读取数据 */
+    {
+        return 0;
+    }
+    if (RxHeader.ExtId!= id || RxHeader.IDE != CAN_ID_EXT || RxHeader.RTR != CAN_RTR_DATA)       /* 接收到的ID不对 / 不是拓展帧 / 不是数据帧 */
+    {
+        return 0;
+    }
+
+    return 1;
+}
+```
+
+调用方法：
+
+```c++
+uint8_t canbuf[8];
+flag = can_receive_msg(0x012356F1, canbuf); // 0x012356F1为标准报文ID
+```
+
+##### 阻塞式 CAN 对话通信
+
+阻塞式对话指一直广播消息，直到接收到反馈为止。可以加入超时报警，用 do while 循环实现。按照下面的程序，就能实现向某单位发送报文，并且在`canbuf`变量中拿到对面单位回复过来的报文内容。
+
+```c++
+uint8_t canbuf[8];
+uint8_t txdata[8] = {0X00,0X01,0X02,0X03,0X04,0X05,0X06,0X07};//待机控制器指令
+uint8_t sum = 0;
+uint8_t flag = 1;
+do
+{
+	CAN_Send_Test(0x0123F156,txdata,8);//发送控制器交互报文
+	HAL_Delay(2000);
+  sum++;
+	flag = can_receive_msg(0x012356F1, canbuf);
+  if(sum > 20)
+    {
+      printf("超时错误告警!\r\n");
+      Error_Warn(); // 持续发送报警报文并跳出循环
+    }
+}
+while( flag == 0);//收到待机控制器反馈信息，如果没收到flag变量值会一直是0
+sum = 0; // 清零标志位
+printf("待机控制器收到充电指令！\r\n");
+//待机控制器返回信息，则交互成功
+```
+
 ### USART 串口通信
 
 - 电路连接：两个设备的 TX 和 RX 引脚要交叉连接
@@ -392,6 +556,8 @@ void Serial_SendByte(uint8_t Byte){
 - 传输计数器是一个自减计数器。如果自减计数器已经减到 0,想再写一个数进去，此时**需要先关闭 DMA 使能**，再写传输计数器，最后再打开 DMA 使能。
 
 ## PID 倒立摆控制项目
+
+[江科大是神之 PID 控制](https://www.bilibili.com/video/BV1G9zdYQEr3)
 
 ### 电机定速控制
 

@@ -26,7 +26,7 @@ category: 工具
 
 ## 我的配置
 
-预算：8000
+预算：9000
 
 要求性能：
 - OS：Ubuntu 20.04/22.04, Windows 10/11
@@ -38,12 +38,11 @@ category: 工具
 - VRAM: 12GB
 
 我的配置：
-- [ ] CPU：AMD R9 5950X，16核心32线程，3.4核频，热设计功耗105W （朋友二手）
-- [ ] GPU：华硕RTX 4070 TI S，16G显存，整卡功耗220W，显卡长度317mm (找咸鱼 **3700r**左右)
-- [ ] 主板：华硕X570-plus，AMD X570芯片组（朋友二手）
+- [x] CPU：AMD R9 5950X，16核心32线程，3.4核频，热设计功耗105W （朋友二手）
+- [x] GPU：华硕TUF RTX 4070 TI S，16G显存，整卡功耗220W，显卡长度317mm（京东二手）
+- [x] 主板：华硕X570-plus ATX，AMD X570芯片组（朋友二手）
 - [x] 内存：2*16GB，玖合星舞ddr4 **342r** （咸鱼二手）
-- [ ] 固态硬盘：目前已有致态1TB的盘，估计再加一个致态Ti600，**419r**
-- [ ] 电源：爱国者 全模组ATX电源850W，**499r** [link](https://detail.tmall.com/item.htm?abbucket=7&id=929517066734)
-- [ ] 散热器：九州风神玄冰500风冷，高度155mm，5热管，**125.13r** [link](https://detail.tmall.com/item.htm?abbucket=7&id=687040940902)
-- [ ] 机箱：九号半A9AIR atx机箱，散热器限高162mm，显卡长兼容335mm，ATX电源兼容，5风扇,**128r** [link](https://item.taobao.com/item.htm?id=904552407815&skuId=5770084756521)
-- [ ] 散热风扇：鱼巢12CM风扇4pin，15.28*5 = **76.4r** [link](https://item.taobao.com/item.htm?abbucket=7&id=673114950992)
+- [x] 固态硬盘：目前已有致态1TB的盘，估计再加一个致态Ti600，**439r**
+- [x] 电源：利民TG系列 全模组ATX电源850W，**399r** [link](https://detail.tmall.com/item.htm?abbucket=7&id=929517066734)
+- [x] 散热器：瓦尔基里A240 VK水冷， **289r**
+- [x] 机箱+机箱风扇：金河田预见FM01 atx机箱，散热器限高158mm，240水冷，显卡长兼容335mm，ATX电源兼容+8风扇，**229r**

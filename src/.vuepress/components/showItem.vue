@@ -2,17 +2,21 @@
   <div class="container">
     <div class="img-container">
 
-      <img :src="src" :alt="alt">
+      <img :src="src" :alt="name" loading="lazy" />
 
     </div>
-    <div class="text caption">{{ caption }}</div>
+    <div class="text">{{ name }}</div>
+    <div class="text">{{ caption }}</div>
     <div class="text time" v-if="start_time">{{ start_time }} 至 {{ end_time }}</div>
+    <div class="stars">
+      <span>{{ '★'.repeat(stars) }}{{ '☆'.repeat(5 - stars) }}</span>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts" name="showItem">
-withDefaults(defineProps<{ src: string, alt?: string, caption: string, start_time?: string, end_time?: string }>(), {
-  alt: ''
+withDefaults(defineProps<{ src: string, name?: string, caption?: string, start_time?: string, end_time?: string, stars:number }>(), {
+  name: ''
 })
 </script>
 
@@ -47,13 +51,20 @@ img {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
-.text{
+.text {
   display: flex;
   justify-content: center;
+  font-size: 13px;
   margin: 2% 10%;
 }
 
-.time{
+.time {
   font-size: 10px;
+}
+.stars {
+  color: #f5a623;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
 }
 </style>

@@ -1,4 +1,9 @@
-export type TravelSite = {
+export type TravelSitesList = {
+  province?: string,
+  siteList: TravelSite[]
+}
+
+type TravelSite = {
   // 地名
   name: string;
   // 开始时间
@@ -7,4 +12,6 @@ export type TravelSite = {
   end_time?: string;
   // 游玩图片
   imgUrl: string;
+  stars: number;
+  caption?: string;
 };
