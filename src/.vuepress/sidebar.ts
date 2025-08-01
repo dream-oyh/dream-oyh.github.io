@@ -118,6 +118,7 @@ export default sidebar({
     "/study/Algorithm/",
     "/study/ReinforcementLearning/",
     "proxy.md",
+    "rov.md",
     "ros.md",
   ],
   "/study/Algorithm/": [
