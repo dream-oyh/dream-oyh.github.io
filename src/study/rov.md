@@ -20,10 +20,9 @@ icon: Robot
      > - 子网前缀长度：24
      > - 网关：`***.***.***.***`
      > - cmd 内运行`ping $YOUR_IP$`测试连接是否正常，正常的话会收到 4 个数据包
-- 软件 rustDesk 连接
-  - [rusrDesk 下载](https://rustdesk.com/zh-cn/)
-  - `右上角菜单栏（设置）` - `安全` - `解锁安全设置` - `允许ip直接访问`打钩
-  - 主页控制远程桌面输入：`$YOUR_IP:21118`即可连接
+- 软件 nomachine 连接
+  - [nomachine 8.2.3 下载](https://kb.nomachine.com/SU11T00239)
+  - PC 端连接上网线后，nomachine 会自动读取到从机，双击连接即可。
 
 ### 环境变量设置
 
@@ -84,30 +83,30 @@ python test_pwm_keyboard.py # 启动用键盘控制电机转动pwm的控制节�
   - 图 1: 通过 py 程序操控电机时，py 上的顺序编号和水密件的映射关系
   - 图 2: 电机的硬件连接，电机编号和水密件的映射关系，电机编号见图 3
   - 图 3: 电机的布局，其编号和图 2 的编号一致，布局视角为 ROV 正放时的俯视图
-<div style="display: flex; justify-content: space-evenly;"> 
-<figure class="rov_motor_mapping_figure">
-<img class="rov_mortor_mapping_img" src="/images/rov/motor_hw_number.png" alt="通过py程序操控电机时，py上的顺序编号和水密件的映射关系"/> 
-<figcaption> 图1：通过py程序操控电机时，py上的顺序编号和水密件的映射关系 </figcaption>
-</figure>
-<figure class="rov_motor_mapping_figure">
-<img class="rov_mortor_mapping_img" src="/images/rov/motor_sw_number.png" alt="电机的硬件连接，电机编号和水密件的映射关系，电机编号见右图"/> 
-<figcaption> 图2：电机的硬件连接，电机编号和水密件的映射关系，电机编号见右图 </figcaption>
-</figure>
-<figure class="rov_motor_mapping_figure">
-<img class="rov_mortor_mapping_img" src="/images/rov/motor_layout.png" alt="电机的布局，其编号和左图的编号一致"/> 
-<figcaption> 图3：电机的布局，其编号和左图的编号一致 </figcaption>
-</figure>
-</div>
+  <div style="display: flex; justify-content: space-evenly;"> 
+  <figure class="rov_motor_mapping_figure">
+  <img class="rov_mortor_mapping_img" src="/images/rov/motor_hw_number.png" alt="通过py程序操控电机时，py上的顺序编号和水密件的映射关系"/> 
+  <figcaption> 图1：通过py程序操控电机时，py上的顺序编号和水密件的映射关系 </figcaption>
+  </figure>
+  <figure class="rov_motor_mapping_figure">
+  <img class="rov_mortor_mapping_img" src="/images/rov/motor_sw_number.png" alt="电机的硬件连接，电机编号和水密件的映射关系，电机编号见右图"/> 
+  <figcaption> 图2：电机的硬件连接，电机编号和水密件的映射关系，电机编号见右图 </figcaption>
+  </figure>
+  <figure class="rov_motor_mapping_figure">
+  <img class="rov_mortor_mapping_img" src="/images/rov/motor_layout.png" alt="电机的布局，其编号和左图的编号一致"/> 
+  <figcaption> 图3：电机的布局，其编号和左图的编号一致 </figcaption>
+  </figure>
+  </div>
 
 #### bug
 
-- python程序编码错误，导致中文注释无法识别
+- python 程序编码错误，导致中文注释无法识别
 
 在程序最开始加上`#coding: utf-8`指明编码模式
 
-- python解释器错误：因环境不对，导致各类包未找到，比如这次没有找到`yaml`包
+- python 解释器错误：因环境不对，导致各类包未找到，比如这次没有找到`yaml`包
 
-修改shebang，将`#!/usr/bin/env python`修改为`#!/usr/bin/env python3`
+修改 shebang，将`#!/usr/bin/env python`修改为`#!/usr/bin/env python3`
 
 ## UUV Simulator
 

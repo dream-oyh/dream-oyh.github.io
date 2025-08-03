@@ -119,7 +119,6 @@ let selectedStars = ref(1)
   justify-content: space-evenly;
 }
 
-
 h1 {
   text-align: center;
   margin-bottom: 40px;
@@ -128,6 +127,14 @@ h1 {
 
 .comment-text {
   white-space: pre-wrap;
+  overflow-y: auto;
+  width: 100%;
+  max-height: 300px;
+    /* --- 1. Firefox 的简单样式 --- */
+  /* 设置滚动条的宽度: auto | thin | none */
+  scrollbar-width: thin; 
+  /* 设置滚动条颜色: [滑块颜色] [轨道颜色] */
+  scrollbar-color: #888 #f1f1f1;
 }
 
 
