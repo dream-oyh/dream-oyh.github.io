@@ -102,6 +102,7 @@ export default sidebar({
     "travel.md",
     "video_game.md",
     "rss.md",
+    "vibeImages.md",
   ],
   "/credit/": ["index.md"],
   "/project/": ["youenjie.md"],

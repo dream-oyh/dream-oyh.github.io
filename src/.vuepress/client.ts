@@ -4,6 +4,7 @@ import bookList from "./components/bookList.vue";
 import switText from "./components/switText.vue";
 import showItem from "./components/showItem.vue";
 import travelGrid from "./components/travelGrid.vue";
+import vibeImage from "./components/vibeImage.vue";
 export default defineClientConfig({
   enhance: ({ app }) => {
     app.component("Progress", Progress);
@@ -11,5 +12,6 @@ export default defineClientConfig({
     app.component("switText", switText);
     app.component("showItem", showItem);
     app.component("travelGrid", travelGrid);
+    app.component("vibeImage", vibeImage);
   },
 });

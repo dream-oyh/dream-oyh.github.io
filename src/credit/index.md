@@ -147,3 +147,4 @@ sidebar: false
 - 方法二：
 
 通过 pull request 向仓库提交贡献申请，具体方法见[此处](../code/github.md#上传-pull-request)。
+
