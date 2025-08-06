@@ -17,11 +17,6 @@ export default navbar([
     link: "/study/",
   },
   {
-    text: "项目",
-    icon: "xiangmu",
-    link: "/project/",
-  },
-  {
     text: "English",
     icon: "language",
     link: "/english/",

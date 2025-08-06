@@ -31,7 +31,7 @@ wsl --manage <Distro> --set-default-user <username> # <Distro>指定需要修改
 sudo chown -R username path
 ```
 
-::: detals 报错：权限不足无法保存文件
+::: details 报错：权限不足无法保存文件
 
 ```shell
 未能保存“plot_thruster.py”: 无法写入文件"vscode-remote://wsl+ubuntu/home/dream/catkin_ws/src/bluerov2/bluerov2_states/scripts/plot_thruster.py"(NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/dream/catkin_ws/src/bluerov2/bluerov2_states/scripts/plot_thruster.py')
@@ -67,7 +67,8 @@ WSL 默认在 C 盘存储，很占位置，准备把存储路径移动到 D 盘�
 2. 为分区添加文件系统的过程被称作“格式化”，该过程会清空磁盘内所有的文件数据
 3. “挂载”的意思是，将一个文件系统与一个目录关联起来，这样用户就可以通过访问该目录来访问该文件系统
 4. 磁盘分区被挂载后，linux 系统会在`/dev/`路径下添加一个文件，这个文件被叫做“设备”，也就是说`/dev/`文件夹下所存储的文件都是被 linux 识别到的设备
-   :::
+
+:::
 
 ### 基本命令
 

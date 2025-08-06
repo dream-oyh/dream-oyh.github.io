@@ -281,62 +281,6 @@ git remote add origin git@github.com:<yourgithubID>/<Repo>.git
 
 类似的，`fetch`和`pull`也支持指定参数，只不过由于数据传输的方向和`push`相反，其`<source>`和`<destination>`的设置也应该和`push`中相反。
 
-::: caution 待学习
-
-在多人协同过程中，如果远程仓库被强制 push，此时需要先 fetch，再 git reset --hard HEAD
-
-:::
-
-- 协同开发存在的问题
-  但是实际情况并不是这么简单的，实际情况可能是，本地仓库与远程仓库内容不统一，因为协同开发时两边均在做修改，此时远程仓库和本地仓库的分支存在 conflict，`git push`无法执行。有三种方法可以解决这个问题：
-
-方法一：
-
-```sh
-git fetch
-git merge o/main
-git push
-```
-
-方法二：
-
-```sh
-git fetch
-git rebase o/main
-git push
-```
-
-但是这样命令数太多了，之前说过`git pull`是`fetch`和`merge`的组合，因此法一可以变为：
-
-方法一：
-
-```sh
-git pull
-git push
-```
-
-`git pull`写作`git pull --rebase`时，可以实现法二，即：
-
-方法二：
-
-```sh
-git pull --rebase
-git push
-```
-
-相较于 `merge`，项目管理更喜欢用 --rebase 版本，因为`rebase`带来了更为线性的提交树，提交树结构清晰。
-
-方法三：
-
-```sh
-git stash   # 暂存代码
-git pull origin main    # 拉取上游
-git stash pop   # 释放代码，进行合并
-git stash drop  # 解决冲突后，请释放未被 pop 出的 stash
-```
-
-`git stash`可以帮助暂时保存当前代码，再 pull 远程仓库的代码进行合并。
-
 - Pull request
   对于大团队开发协作而言，`main`分支往往被锁定了，此时若强行 push，会报错如下：
 
@@ -347,3 +291,61 @@ git stash drop  # 解决冲突后，请释放未被 pop 出的 stash
 
 push 到远程服务器，然后 reset 你的 main 分支和远程服务器保持一致，否则下次你 pull 的时候会报错
 :::
+
+## 应用实例
+
+<div class="scene">
+
+1. 远程仓库上领先我 4 个 commit，但是我自己本身又多了 2 个 commit 没有 push 到远程仓库，结果我现在 git pull 远程，给了我这个提示：
+
+```sh
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+```
+
+</div>
+
+
+
+这三种方法的异同点在于：
+
+- `git config pull.rebase false` 它会在你的提交历史中创建一个新的“合并提交”。这个提交有两个父提交，分别指向你本地原来的最新提交和远程仓库拉下来的最新提交。
+  - 使用方法
+    - `git config pull.rebase false`
+    - `git pull --no-rebase`
+- `git config pull.rebase true` 它会先将你本地的 2 个未推送的提交“暂时摘下”，然后将远程仓库的 4 个新提交应用到你的本地分支，最后再将你本地的 2 个提交逐一应用在这些新提交之上。
+  - 使用方法
+    - `git config pull.rebase true`
+    - `git pull --rebase`
+- `git config pull.ff only` 这种策略最严格，只允许“快进式”（fast-forward）合并。由于存在分支分叉，远程分支并不是你本地分支的直接上游，所以不满足快进合并的条件。因此，git pull --ff-only 会直接拒绝执行并报错。这种策略适用于你希望确保本地分支在拉取远程更新时不会产生合并提交，并且只在你的本地工作是基于远程分支的最新版本时才进行更新。
+
+
+<div class="scene">
+
+2. 如果我现在有 a<-b<-c<-d 四个 commit，我想删除 b 到 c 的提交，直接从 a 到 d，请问要怎么操作
+
+</div>
+
+- 确定从哪个提交开始重写历史，按照本需求，应该从 a 开始重写，所以执行`git rebase -i <commit_a_hash>`。
+- 执行上述命令后，Git 会打开你的默认文本编辑器，并显示一个类似下面这样的“计划清单”：
+  ```sh
+  pick <hash_b> commit message for b
+  pick <hash_c> commit message for c
+  pick <hash_d> commit message for d
+  ```
+- 你的目标是删除 b 和 c，保留 d。则将 b 和 c 前面的 pick 指令改成 drop，或者直接删除 b，c 两行
+- (Optional)为了同步删除远程仓库上的提交，需要强制 push，运行 `git push origin <your-branch-name> --force-with-lease`
+- (Optional)如果强制提交了，那下次再另外一台主机上 pull 时，**不能直接执行`git pull`**，而是要分两步
+  - `git fetch origin`
+  - `git checkout your-branch-name` 确保你当前就在需要更新的分支上
+  - `git reset --hard origin/your-branch-name` 它会将你的本地分支完全重置成和远程分支一模一样。

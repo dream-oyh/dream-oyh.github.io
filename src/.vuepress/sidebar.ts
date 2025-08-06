@@ -105,7 +105,6 @@ export default sidebar({
     "vibeImages.md",
   ],
   "/credit/": ["index.md"],
-  "/project/": ["youenjie.md"],
   "/blog/": ["index.md", "log.md", "vuepress.md", "spots.md"],
   "/study/": [
     {
