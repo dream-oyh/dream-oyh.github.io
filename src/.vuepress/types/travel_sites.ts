@@ -14,4 +14,6 @@ type TravelSite = {
   imgUrl: string;
   stars: number;
   caption?: string;
+  friends?: string[];
+  visitCounts?: number | string;
 };

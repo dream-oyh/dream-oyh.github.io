@@ -4,7 +4,12 @@
     <h2>{{ provinceList.province }}</h2>
     <div class="trave_container">
       <showItem v-for="site in provinceList.siteList" :src="site.imgUrl" :name="site.name" :start_time="site.start_time"
-        :end_time="site.end_time" :caption="site.caption" :stars="site.stars" />
+        :end_time="site.end_time" :caption="site.caption" :stars="site.stars" :isExpandable="$slots[site.name] ? 1 : 0"
+        :friends="site.friends" :visitCount="site.visitCounts">
+        <template v-if="$slots[site.name]" v-slot>
+          <slot :name="site.name"></slot>
+        </template>
+      </showItem>
     </div>
 
   </div>
