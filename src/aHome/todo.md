@@ -7,14 +7,16 @@ icon: wancheng
 
 ::: info 正在学习的内容
 
-- [ ] 完成优恩捷横向项目开发（2025.6.19-2025.10.10）
-  - [ ] CAN 通信协议开发：网络管理模块状态机切换、定时器管理、消息发送与组包，大概分成这三块写
-- [ ] 三期项目：把协议和框架先理清楚
-- [ ] 学习强化学习理论课：[西湖大学 赵世钰 - 强化学习的数学原理](https://www.bilibili.com/video/BV1sd4y167NS) <Progress :current="5" :goal="10"/>
+- [ ] 完成 yej 横向项目开发（2025.6.19-2025.10.10）
+  - [ ] 服务按照 xz 的协议文档写
+- [ ] 把无线协议的流程理清楚
+- [ ] 给自己的项目经历搭建一个全新的本地博客（很期待！）
 
 :::
 
 ::: tip 短期想做的
+
+
 
 :::
 
@@ -23,10 +25,6 @@ icon: wancheng
 - 在读书目
   - [x] 《离开的，留下的》——那不勒斯四部曲第三部 <Progress :current="120" :goal="529"/>
   - [ ] 《To the Lighthouse》 <Progress :current="3" :goal="160"/>
-- 运动
-  - [ ] 周二、四、六长跑 3km
-- English
-  - [ ] 每晚一小时外语阅读 + 周末做单词梳理
 
 :::
 
@@ -36,4 +34,3 @@ icon: wancheng
 - [ ] [斯坦福 CS336：手把手带你从零构建 ChatGPT](https://www.bilibili.com/video/BV1BWEWzfEKi)
 
 :::
-
