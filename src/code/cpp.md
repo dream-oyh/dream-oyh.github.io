@@ -108,6 +108,100 @@ target("hello")  -- 设定编译目标
 
 ## 编程语言
 
+### 指针
+
+C 的精髓。语法在这里不赘述了，这里说一下会运用到指针的几个情况。这里举例子也很单薄，具体到项目里再自行体会吧。学不会指针是因为没有真正到用指针的场景，所以不理解为什么非要多扯出来一个地址
+
+- 函数声明内传入指针变量：`int function(int *a){}`
+- 函数内修改指针变量的值：`int function(int *a){ *a += 1; }`
+- 如果指针变量指向一数组，修改值：`int function(int *a){a[0] = 1}`
+- 该函数的调用方式：`int a = 1; function(&a);` 普通变量要用`&`取址
+- 传入数组方式：`int a[3]={0x00, 0x01, 0x02}; function(a);` 数组不用取址
+
+<div class='scene'>
+
+1. 需要给函数传一个数组时，需要用数组名作为函数输入参数，且函数内对数组值的改变会反馈回函数外、C 存储数组的内存地址是连续的，所以拿到了数组首地址，相当于可以读取整个数组
+
+</div>
+<div class='scene'>
+
+2. 这个函数需要用于给一个指定数组/指定变量写入值，这时候就需要把数组首地址/指定变量的地址传进去，让函数在函数内部修改值之后，再拿到外部处理
+
+</div>
+
+这个在通讯接收时很常见，一般就是声明一个待使用的数组作为缓冲区，放进接收函数里让函数往数组内写值
+
+```C
+void canReceive(uint8_t *RxBuffer, uint8_t dataLength){
+  for (uint8_t i=0;i<dataLength;i++){
+    RxBuffer[i] = canReceiveByte();
+  }
+}
+
+int main(){
+  uint8_t dataLength = 4;
+  uint8_t canRxBuffer[4];
+  canReceive(canRxBuffer, dataLength);
+  printf(canRxBuffer);
+}
+```
+
+<div class='scene'>
+
+3. 这个函数需要修改多个值，就可以在函数输入参数里，输入多个参数的地址，这样这些参数就能同时被函数更改
+
+</div>
+
+### 结构体
+
+C++结构体也很好用。
+
+- 结构体定义：
+  ```C
+  typedef struct {
+    uint64_t MsgID; // 消息ID
+    uint8_t *Data; // 数据缓冲区
+    uint16_t DataLength; // 数据长度
+  } CAN_Struct;
+  ```
+- 结构体声明
+  ```C
+  uint8_t array[4];
+  CAN_Struct RxBuffer;
+  RxBuffer.MsgID = REQ_ID;
+  RxBuffer.Data = array;
+  RxBuffer.DataLength = 4;
+  ```
+- 结构体作为指针变量传入函数后的调用，需要用`->`引出内部元素
+  ```C
+  void function(CAN_Struct *RxBuffer){
+    uint8_t testData[4] = {0x01, 0x02, 0x03, 0x04};
+    RxBuffer->Data = testData;
+  }
+  ```
+
+我目前遇到的应用场景如下
+
+<div class='scene'>
+
+1. 函数需要传入非常多的参数，可以都打包成一个结构体统一传入
+
+</div>
+
+<div class='scene'>
+
+2. 用于定义一种模块，比如说 CAN 模块，我可以定义一个结构体，结构体内包含报文 ID，CAN 的发送/接收缓冲区，CAN 数据长度，都打包在一个结构体内能增加代码可读性。
+
+</div>
+
+比如说有一个函数，要把 CAN 的这三个属性都加进去，然后又得加其他变量，那写成那么多变量就很丑，不如打包成一个结构体传。
+
+<div class='scene'>
+
+3. 有一种情况是，我想要传入很多个变量，但是有些变量我又可能在函数内不会用到，这个时候用结构体也很方便，结构体内不定义那些用不到的变量就可以，然而函数接口不用改变。
+
+</div>
+
 ### 头文件
 
 C++通过`#include`引入头文件实现多文件的功能传递。头文件里需要用`#ifndef`防止重复编译。比如我要创建`service.h`头文件，就应该按照如下定义。`__SERVICE_H`也可以定义成其他名格式，但是要保证每一个头文件的变量名都不一样。

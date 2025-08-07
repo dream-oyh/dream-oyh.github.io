@@ -36,9 +36,10 @@ div > .scene {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   color: #fff;
-  font-weight: bolder;
+  // font-weight: bolder;
   padding: 1% 2%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
 }
 
 div > .scene:hover {
