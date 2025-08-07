@@ -40,6 +40,7 @@ const travelSites: TravelSitesList[] = [
         caption: "MY DEAR HOME",
         imgUrl: "/images/travel/永安.jpg",
         stars: 5,
+        visitCounts: "∞",
       },
     ],
   },
