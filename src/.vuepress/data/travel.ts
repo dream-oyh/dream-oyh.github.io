@@ -10,7 +10,7 @@ const travelSites: TravelSitesList[] = [
         end_time: "2022-01-18",
         imgUrl: "/images/travel/厦门.JPG",
         stars: 5,
-        friends: ["qxy"],
+        friends: ["qxy", "cjh"],
       },
       {
         name: "福州",
