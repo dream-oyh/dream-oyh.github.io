@@ -14,6 +14,28 @@ tag: Linux
 
 有关计算机存储，可以看看[这篇文章](https://blog.csdn.net/weixin_43764974/article/details/132463833)
 
+## ubuntu 双系统安装
+
+- [官网](https://cn.ubuntu.com/download/desktop)安装镜像文件，这没啥好说的，推荐将 U 盘制作成[ventoy](https://www.ventoy.net/cn/index.html)，这样只需要把.iso 镜像文件拷入 U 盘即可，不需要额外格式化 U 盘，可以存放多个镜像，U 盘也能正常当存储盘使用
+- 预留好磁盘分区，50G 以上
+- 插上 U 盘进入 BIOS，按照 U 盘启动，选择对应镜像，普通模式安装
+- 按照步骤进行即可，注意选择安装位置时要选择`somthing else`
+- 主要是内存分区麻烦，我这里安装了好几遍都是因为内存分区设置错误
+  - 确认自己硬盘分区类型：进入 powershell，运行`get-disk`，看最后一列，确认自己硬盘分区是 GPT 还是 MBR
+  - 如果是 GPT 分区，自行参考[文档](https://blog.csdn.net/wyr1849089774/article/details/133387874)
+  - 如果是 MDR 分区，也自行参考上述文档，注意最后的时候不需要选择“安装启动引导盘的设备”选项
+
+### NVIDIA 驱动安装
+
+进入 Software & Update，进入 Additional Drivers，选择 NVIDIA 的第一个驱动，右下角点击 `apply changes`即可。
+
+- 如果没有出现英伟达驱动，是因为 nouveau 启用和英伟达冲突，关闭方法如下
+  - `sudo vim /etc/modprobe.d/blacklist.conf` 并在文件最后添加
+    - `blacklist nouveau`
+    - `options nouveau modeset=0`
+  - `sudo update-initramfs -u`
+  - 重启系统即可
+
 ## WSL
 
 20250226，我卸载了双系统，全面使用 WSL 进行 Linux 开发。
