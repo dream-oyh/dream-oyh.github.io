@@ -13,6 +13,18 @@ tag: 教程
 
 但是 MATLAB 完整体量高达 50G，对于磁盘的占用率是不言而喻的，Python 借用包管理器，将体量减小到 MATLAB 远不及的水平。其次，MATLAB 在拟合、神经网络、深度学习等领域，采用已经打包好的工具箱，这对于算法学习是极其不利的，但是 Python 通过各种库的调用，能够从底层逻辑实现各算法，对于个人学习而言是更为有益的。
 
+## install
+
+### Linux
+
+- `sudo add-apt-repository ppa:deadsnakes/ppa` 添加 apt 源
+- `sudo apt-get update` 更新 apt 源
+- `sudo apt-get install python3.10` 安装 python3.10
+- 重定向 python，指定默认启动版本
+- `which python3.10` 找到 python3.10 的位置
+- `ln -s /path/to/python3.10 /usr/bin/python`
+- 环境变量设置：在`~/.bashrc`中添加：`alias python='/path/yo/python3.10'`
+
 ## 包管理器
 
 ### pip
@@ -30,6 +42,8 @@ tag: 教程
 ```sh
 pip install poetry
 ```
+
+> linux 的 poetry 默认安装在`~/.local/bin/poetry`，如果不加环境变量的话是找不到他的，所以建议在`~/.bashrc`里设置`export PATH="$HOME/.local/bin:$PATH"`
 
 #### 配置
 
