@@ -13,6 +13,17 @@ Rime 是一款高度自定义，可以通过 yaml 文件进行自定义输入方
 
 好用，但是使用门槛确实高，不方便入门，折腾了 2 天才大概搞懂，参考了贴吧老哥的[帖子](https://tieba.baidu.com/p/3288634121)，UI 界面配色、词库均可以自定义，有意思！
 
+### install
+
+- Linux(Ubuntu)
+  折腾了好久的 Linux 安装，先说一下逻辑，ubuntu 的输入法框架是 ibus，所以 rime 是针对这个框架开发的输入法，后续 rime 的配置也是存在在`$HOME/.config/ibus/rime`，也就是说我们要在这个文件夹下写用户配置，在命令行里配置 rime 的启动和重新部署
+  - intall：安装 ibus-rime，`sudo apt install ibus-rime`
+  - 拉取配置文件：我这里的配置文件直接调用我的仓库了: `git clone git@github.com:dream-oyh/Rime.git $HOME/.config/ibus/rime`
+  - 设置 ibus：终端运行`ibus-setup`，在`input-method`中添加 rime
+  - 添加输入源：打开系统设置`settings` - `region & language` - `Input Source` - `+` - `other`，选择`Chinese(Rime)`即可
+  - 切换：`win` + `Space`切换系统输入法
+  - 重新部署：终端运行`ibus restart`即可，此时通知栏会跳出：`Rime is under maintence`
+
 ### 配置
 
 我采用雾凇输入方案，[配置](https://github.com/dream-oyh/Rime)已经上传 github，方便词库的管理，对雾凇方案进行了部分微调和词库搭建。
