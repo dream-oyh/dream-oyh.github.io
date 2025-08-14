@@ -8,7 +8,8 @@ sidebar: false
 
 <vibeImage>
 
-<img src="/images/life/2025-08-13.jpg" alt = "2025-08-13"/>
-<img src="/images/life/withTaylor.png" alt = "和霉合上照啦~"/>
+<img src="/images/vibeImages/2025-08-13.jpg" alt = "2025-08-13"/>
+<img src="/images/vibeImages/withTaylor.png" alt = "和霉合上照啦~"/>
+<img src="/images/vibeImages/CENCELED.png" alt = "CANCELED!就这么重蹈ME!的名声"/>
 
 </vibeImage>
