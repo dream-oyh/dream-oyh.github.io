@@ -1,4 +1,4 @@
-A
+# stm32
 
 ## 名词解释
 
@@ -65,8 +65,8 @@ stm32 的库函数内各种外设的函数基本上都是有迹可循的，常�
 
 - NVIC 配置
   - `NVIC_PriorityGroupConfig()` 该函数配置中断优先级分组
-  - `NVIC_InitTypeDef` 设置结构体配置NVIC相关参数
-    - `NVIC_IRQChannel` 配置NVIC通道
+  - `NVIC_InitTypeDef` 设置结构体配置 NVIC 相关参数
+    - `NVIC_IRQChannel` 配置 NVIC 通道
     - `NVIC_IRQChannelCmd` 通道使能
     - `NVIC_IRQChannelPreemptionPriority` 抢占优先级
     - `NVIC_IRQChannelSubPriority` 响应优先级
