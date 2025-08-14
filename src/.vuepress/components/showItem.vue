@@ -49,14 +49,14 @@ let Count = computed(() => {
 <style scoped>
 .container {
   display: block;
-  background-color: #fff;
+  background-color: transparent;
   padding: 3%;
-  border: transparent 1px solid;
+  border: light-dark(transparent, #929292) 1px solid;
   height: max-content;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
-
+  
 }
 
 .img-container {

@@ -119,22 +119,18 @@ let selectedStars = ref(1)
   justify-content: space-evenly;
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 40px;
-  color: #333;
-}
 
 .comment-text {
   white-space: pre-wrap;
   overflow-y: auto;
   width: 100%;
   max-height: 300px;
-    /* --- 1. Firefox 的简单样式 --- */
+  /* --- 1. Firefox 的简单样式 --- */
   /* 设置滚动条的宽度: auto | thin | none */
-  scrollbar-width: thin; 
+  scrollbar-width: thin;
   /* 设置滚动条颜色: [滑块颜色] [轨道颜色] */
   scrollbar-color: #888 #f1f1f1;
+  color: light-dark(#333, #eee);
 }
 
 
@@ -150,9 +146,12 @@ h1 {
 
 .book-card {
   display: flex;
-  background-color: #fff;
+  background-color: transparent;
+  border-color: light-dark(transparent, #929292);
+  border-width: 1px;
+  border-style: solid;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px light-dark(rgba(0, 0, 0, 0.08), rgba(255, 255, 255, 0.08));
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -184,8 +183,8 @@ h1 {
   font-size: 1.2rem;
   font-weight: 600;
   margin: 0 0 10px 0;
-  color: #2c3e50;
-}
+  color: light-dark(#333, #eee);
+  }
 
 .book-stars {
   color: #f5a623;
@@ -200,7 +199,7 @@ h1 {
 
 .book-time {
   font-size: 0.85rem;
-  color: #555;
+  color: light-dark(#555, #eee  );
   margin: 0 0 10px 0;
 }
 

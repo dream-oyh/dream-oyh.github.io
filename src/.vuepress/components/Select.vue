@@ -42,7 +42,7 @@ const selectedValue = computed({
   padding: 5px 15px 5px 15px;
   border-radius: 1000px;
   position: relative;
-  background-color: #ffffff;
+  background-color: transparent;
   cursor: pointer;
   /* 让整个区域显示为可点击手势 */
   font-family: sans-serif;
@@ -67,7 +67,7 @@ const selectedValue = computed({
   display: block;
   padding: 0px 15px 0px 0px;
   /* 右边留出空间给箭头 */
-  color: #333;
+  color: light-dark(#333, #eee);
   white-space: nowrap;
   overflow: hidden;
   text-align: left;
