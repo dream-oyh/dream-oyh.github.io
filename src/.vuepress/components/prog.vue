@@ -56,7 +56,7 @@ const formattedProgress = computed(() => {
 
 .prog-bar-value {
     font-size: 13px;
-    color: light=black(#333, #eee);
+    color: light=black(#333, #CECED6);
     margin-right: 5px;
 }
 </style>

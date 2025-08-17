@@ -130,7 +130,7 @@ let selectedStars = ref(1)
   scrollbar-width: thin;
   /* 设置滚动条颜色: [滑块颜色] [轨道颜色] */
   scrollbar-color: #888 #f1f1f1;
-  color: light-dark(#333, #eee);
+  color: light-dark(#333, #CECED6);
 }
 
 
@@ -183,7 +183,7 @@ let selectedStars = ref(1)
   font-size: 1.2rem;
   font-weight: 600;
   margin: 0 0 10px 0;
-  color: light-dark(#333, #eee);
+  color: light-dark(#333, #CECED6);
   }
 
 .book-stars {
@@ -199,7 +199,7 @@ let selectedStars = ref(1)
 
 .book-time {
   font-size: 0.85rem;
-  color: light-dark(#555, #eee  );
+  color: light-dark(#555, #CECED6  );
   margin: 0 0 10px 0;
 }
 

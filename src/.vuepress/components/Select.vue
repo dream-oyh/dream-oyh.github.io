@@ -67,7 +67,7 @@ const selectedValue = computed({
   display: block;
   padding: 0px 15px 0px 0px;
   /* 右边留出空间给箭头 */
-  color: light-dark(#333, #eee);
+  color: light-dark(#333, #CECED6);
   white-space: nowrap;
   overflow: hidden;
   text-align: left;

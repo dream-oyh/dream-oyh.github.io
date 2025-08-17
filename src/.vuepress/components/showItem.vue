@@ -62,7 +62,7 @@ let Count = computed(() => {
 .img-container {
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  background-color: #eee;
+  background-color: #CECED6;
   border-radius: 8px;
   width: 100%;
   position: relative;
