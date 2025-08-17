@@ -45,6 +45,44 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 import torch
 ```
 
+## Poetry install Pytorch
+
+poetry 安装 PyTorch 要配置`pyproject.toml`，首先安装对应版本的 CUDA-toolkits，这个参考官网提供的命令即可。
+
+poetry 安装是从指定的源里搜索依赖项，但是 torch 有很多的版本，所以需要人为指定从哪里找版本，我的电脑上安装的是 CUDA-11.7 版本，所以指定源为`cuda117`.
+
+以下是我的`toml`配置
+
+```toml title="pyproject.toml"
+[tool.poetry]
+name = "isaac-sim-4-2-0"
+version = "0.1.0"
+description = ""
+package-mode = false
+authors = [" <username>-linux <1399541701@qq.com>"]
+packages = [{include = "isaac_sim_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+stable-baselines3 = "2.0.0"
+tensorboard = "2.11.0"
+tensorboard-plugin-wit = "1.8.1"
+protobuf = "3.20.3"
+torch = { version = "*", source = "torch" }
+torchvision = { version = "*", source = "torch" }
+torchaudio = { version = "*", source = "torch" }
+
+[[tool.poetry.source]]
+name = "torch"
+url = "https://download.pytorch.org/whl/cu117"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+```
+
 ## Tensor 创建及基本操作
 
 ```python

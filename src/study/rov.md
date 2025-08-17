@@ -6,6 +6,342 @@ icon: Robot
 
 # ROV
 
+## ISAAC SIM
+
+### Worksation installation
+
+- 前置条件
+  - Ubuntu: 20.04
+  - Isaac Sim: 4.2.0
+  - CUDA Toolkits: 11.7
+- 安装流程
+
+  - 从师兄那里拿到 isaac sim 4.2.0 的安装包并解压
+  - CUDA 安装
+
+    - 安装 CUDA11.7，[官方网站](https://developer.nvidia.com/cuda-11-7-0-download-archive)，推荐使用 runfile(local) 方式安装，其他两个似乎会在`apt install cuda`时下载最新版本
+    - 运行`sudo sh cuda_11.7.0_515.43.04_linux.run`时，查看`/var/log/cuda-installer.log`文件会有报错：
+      ```
+      [INFO]: Executing NVIDIA-Linux-x86_64-515.43.04.run --ui=none --no-questions --accept-license --disable-nouveau --no-cc-version-check --install-libglvnd  2>&1
+      [INFO]: Finished with code: 256
+      [ERROR]: Install of driver component failed.
+      [ERROR]: Install of 515.43.04 failed, quitting
+      ```
+      解决方法是：在安装时取消`deiver`选项，后期手动安装
+    - [NVIDIA 官方网站](https://www.nvidia.com/en-us/drivers/)下载主机显卡对应的驱动，下载拿到的是`.run`程序，直接在控制台输入文件名`./*.run`运行即可。
+    - `sudo vim ~/.bashrc` 编辑启动文件，加入下面两行：
+      ```sh
+      export PATH=/usr/local/cuda-11.7/bin:$PATH
+      export LD_LIBRARY_PATH=/usr/local/cuda-11.7/lib64:$LD_LIBRARY_PATH
+      ```
+    - `source ~/.bashrc`
+    - 运行`nvcc -V`，如有`11.7`版本输出，则可认为安装成功。重启电脑
+
+  - Torch 环境安装
+    我采用的是 poetry 做环境管理（理论上 conda 也可以安装，[参考官网](https://docs.isaacsim.omniverse.nvidia.com/5.0.0/installation/install_python.html#advanced-running-with-anaconda)）
+
+    - poetry 环境是根据 `.toml` 文件安装包的，而 Isaac-sim 只提供了 `environment.yml` 依赖文件，所以需要手动转成`.toml`文件
+    - 我的`.toml`文件如下
+
+      ```toml title="pyproject.toml"
+      [tool.poetry]
+      name = "isaac-sim-4-2-0"
+      version = "0.1.0"
+      description = ""
+      package-mode = false
+      authors = ["<username>-linux <1399541701@qq.com>"]
+      packages = [{include = "isaac_sim_4"}]
+
+      [tool.poetry.dependencies]
+      python = "^3.10"
+      stable-baselines3 = "2.0.0"
+      tensorboard = "2.11.0"
+      tensorboard-plugin-wit = "1.8.1"
+      protobuf = "3.20.3"
+      torch = { version = "*", source = "torch" }
+      torchvision = { version = "*", source = "torch" }
+      torchaudio = { version = "*", source = "torch" }
+
+      [[tool.poetry.source]]
+      name = "torch"
+      url = "https://download.pytorch.org/whl/cu117"
+      priority = "explicit"
+
+      [build-system]
+      requires = ["poetry-core"]
+      build-backend = "poetry.core.masonry.api"
+
+      ```
+
+    - 在`Isaac Sim`安装文件根目录下（就是师兄给的那个压缩包）
+    - 执行`poetry new <package name>` 创建项目
+    - 执行`poetry init` 创建 `.toml` 文件
+    - 修改`.toml`文件
+    - 执行`poetry install`安装环境
+
+  - 运行 isaac sim
+    - 执行`poetry run isaac-sim.selector.sh`，然后点击第一项`Isaac Sim`启动
+    - 等待一会儿后即可正常启动~首次加载会比较慢
+
+## ISAAC LAB 安装
+
+我的设置不适用于大多数人，因为执着于用 poetry 管理包环境（
+
+1. 编辑`~/.bashrc`，设置 ISAASIM 的根目录
+
+```sh
+# Isaac Sim root directory
+export ISAACSIM_PATH="${HOME}/.local/share/ov/pkg/isaac-sim-4.2.0"
+```
+
+2. 设置`python`执行环境（问题分析）
+
+这步有些复杂了。下面是官网要求的配置项：
+
+```sh
+# Isaac Sim python executable
+export ISAACSIM_PYTHON_EXE="${ISAACSIM_PATH}/python.sh"
+```
+
+但是这有个问题，这个启动脚本会构建一个纯粹的、自包含的运行环境。它会把 Isaac Sim 自己的内部库路径添加到 `PYTHONPATH` 中，而不知道 poetry 所生成的虚拟环境，无法读取到需要的包。所以会出现两个矛盾的情况：
+
+- 如果用`${ISAACSIM_PYTHON_EXE}`启动脚本，会无法读取 poetry 管理的包，提示`no module ...`
+- 如果用`poetry run python`启动脚本，会丢失相关`isaacsim`的相关启动文件，提示`no module 'isaacsim' found`，所以应该采取一个两种兼顾的方法。
+
+3. 在`isaac sim`根目录下设置`run.sh`脚本文件，设置如下，即：把 poetry 环境下安装的包和依赖，都一并传给`${ISAACSIM_PATH}/python.sh`作为启动文件，这样启动 python 脚本就既可以拿到`isaacsim`的启动文件，又能拿到 poetry 虚拟环境下的库文件。
+
+```sh title="run.sh"
+#!/bin/bash
+
+# 检查是否提供了脚本参数
+if [ -z "$1" ]; then
+    echo "错误: 请提供一个要执行的 Python 脚本路径。"
+    echo "用法: ./run.sh path/to/your/script.py"
+    exit 1
+fi
+
+# 动态获取 Poetry 管理的 site-packages 目录路径
+# 这使得脚本非常健壮，即使虚拟环境的位置改变也能工作
+POETRY_SITEPACKAGES=$/home/<username>/data/isaac-sim-4.2.0/.venv/lib/python3.10/site-packages
+
+# 设置 ISAACSIM_PATH，如果它没有被设置为环境变量的话
+# 修改成你自己的 Isaac Sim 安装路径
+ISAACSIM_ROOT=${ISAACSIM_PATH:-"/home/<username>/data/isaac-sim-4.2.0"}
+
+echo "使用的 Poetry site-packages: $POETRY_SITEPACKAGES"
+echo "使用的 Isaac Sim 根目录: $ISAACSIM_ROOT"
+echo "-----------------------------------------------------"
+
+# 使用 PYTHONPATH 环境变量来运行 Isaac Sim
+# "$@" 会将所有传递给 run.sh 的参数原封不动地传递给 python.sh
+PYTHONPATH=$POETRY_SITEPACKAGES $ISAACSIM_ROOT/python.sh "$@"
+```
+
+同时，设置`ISAACSIM_PYTHON_EXE`环境变量为该脚本，即：在`~/.bashrc`文件内添加环境变量：
+
+```sh
+export ISAACSIM_PYTHON_EXE="${ISAACSIM_PATH}/run.sh"
+```
+
+这样就可以按照官网所述正常运行脚本：
+
+```sh
+${ISAACSIM_PYTHON_EXE} ${ISAACSIM_PATH}/standalone_examples/api/omni.isaac.core/add_cubes.py
+```
+
+4. 克隆 IsaacLab 仓库，官网建议先 fork 再 clone
+
+```sh
+git clone git@github.com:<username>/IsaacLab.git
+cd IsaacLab
+```
+
+5. 创建 Isaac Sim 符号链接
+
+```sh
+ln -s path_to_isaac_sim _isaac_sim
+# For example: ln -s /home/nvidia/.local/share/ov/pkg/isaac-sim-4.2.0 _isaac_sim
+```
+
+6. 安装相关依赖
+
+```sh
+sudo apt install cmake build-essential
+```
+
+7. 安装需要的库，依旧想用 poetry 做包管理，所以修改如下所示：
+
+:::: details
+
+分析得非常到位！这是一个绝佳的问题，因为它直接触及了**如何将一个规范的、通用的开发工具（Poetry）集成到一个有自己特定启动和环境逻辑的大型框架（Isaac Lab）中**的核心。
+
+答案是：**是的，为了让 Poetry 无缝工作，您需要对 `isaaclab.sh` 脚本进行一些精准的、最小化的修改。**
+
+这个脚本设计得非常智能，但它的核心逻辑是围绕 **Conda** 和 **Isaac Sim 原生二进制安装** 这两种模式构建的，它本身并不认识 Poetry。
+
+我们将通过修改脚本，让它能够识别并优先使用 Poetry 环境。
+
+### 分析：`isaaclab.sh` 的关键冲突点
+
+在您集成 Poetry 的工作流中，这个脚本有两大核心冲突点：
+
+1.  **`extract_python_exe()` 函数**：这是最重要的函数。它负责决定“哪个 Python”将被用来执行命令（安装、测试、运行脚本等）。
+
+    - 它会优先检查 Conda 环境 (`CONDA_PREFIX`)。
+    - 如果不是 Conda，它会默认使用 Isaac Sim 的启动器 `_isaac_sim/python.sh`。
+    - **问题**：它永远不会找到并返回您由 Poetry 创建的 `.venv` 虚拟环境中的 Python 解释器。
+
+2.  **`-i, --install` 命令**：
+    - 这个命令会调用 `extract_python_exe()` 来找到 Python，然后直接使用 `pip install`。
+    - **问题**：这会完全绕过 Poetry 的依赖解析和 `poetry.lock` 文件，直接将库安装到 Isaac Sim 的原生环境或 Conda 环境中，从而破坏了使用 Poetry 的初衷。
+
+### 修改策略：注入 Poetry 逻辑
+
+我们的目标是**在不破坏脚本原有功能的前提下，让它优先识别 Poetry 环境**。我们将进行两处关键修改。
+
+### 第 1 步：修改 `extract_python_exe()` 函数
+
+这是最核心的修改。我们要在这个函数的最开始，加入一段逻辑来检测 Poetry 环境。如果检测到了，就直接返回 Poetry 环境中的 Python 路径，并结束函数；如果没有，就让函数继续执行它原来的 Conda 和原生逻辑。
+
+找到 `extract_python_exe()` 函数，将其**完全替换**为以下内容：
+
+```bash
+# extract the python from isaacsim
+extract_python_exe() {
+    # -- START: POETRY MODIFICATION --
+    # 1. Check if poetry is installed and a pyproject.toml exists in the project root.
+    if command -v poetry &> /dev/null && [ -f "${ISAACLAB_PATH}/pyproject.toml" ]; then
+        # 2. Ask poetry for the path to its virtual environment.
+        local poetry_venv_path
+        poetry_venv_path=$(poetry env info -p 2>/dev/null)
+        # 3. If a path is returned, construct the path to the python executable.
+        if [ -n "${poetry_venv_path}" ]; then
+            local poetry_python_exe="${poetry_venv_path}/bin/python"
+            # 4. If that python executable actually exists, use it.
+            if [ -f "${poetry_python_exe}" ]; then
+                echo "${poetry_python_exe}"
+                return 0
+            fi
+        fi
+    fi
+    # -- END: POETRY MODIFICATION --
+
+    # == ORIGINAL SCRIPT LOGIC (as a fallback) ==
+    # check if using conda
+    if ! [[ -z "${CONDA_PREFIX}" ]]; then
+        # use conda python
+        local python_exe=${CONDA_PREFIX}/bin/python
+    else
+        # use kit python
+        local python_exe=${ISAACLAB_PATH}/_isaac_sim/python.sh
+
+    if [ ! -f "${python_exe}" ]; then
+            # note: we need to check system python for cases such as docker
+            # inside docker, if user installed into system python, we need to use that
+            # otherwise, use the python from the kit
+            if [ $(python -m pip list | grep -c 'isaacsim-rl') -gt 0 ]; then
+                local python_exe=$(which python)
+            fi
+        fi
+    fi
+    # check if there is a python path available
+    if [ ! -f "${python_exe}" ]; then
+        echo -e "[ERROR] Unable to find any Python executable at path: '${python_exe}'" >&2
+        echo -e "\tThis could be due to the following reasons:" >&2
+        echo -e "\t1. Poetry/Conda environment is not activated." >&2
+        echo -e "\t2. Isaac Sim pip package 'isaacsim-rl' is not installed." >&2
+        echo -e "\t3. Python executable is not available at the default path: ${ISAACLAB_PATH}/_isaac_sim/python.sh" >&2
+        exit 1
+    fi
+    # return the result
+    echo ${python_exe}
+}
+```
+
+**修改解析：**
+
+- 我们在函数开头增加了一个代码块。
+- 它首先检查 `poetry` 命令是否存在以及项目根目录下是否有 `pyproject.toml` 文件。
+- 如果存在，它会调用 `poetry env info -p` 来获取 Poetry 虚拟环境的路径。
+- 如果成功获取，它就构建出该环境中 `python` 解释器的完整路径，并将其作为结果返回，**函数提前结束**。
+- 如果以上任何一步失败（比如你没有使用 Poetry），代码块会无声地跳过，**脚本会继续执行下面原始的 Conda 和原生逻辑**，保证了向后兼容性。
+
+### 第 2 步：修改 `-s, --sim` 命令（非常重要）
+
+仅仅修改 `extract_python_exe` 还不够。当你运行模拟器（`-s`）时，它调用的是 `isaac-sim.sh`，这是一个需要 `PYTHONPATH` 才能找到你的库的启动器。而 `-p` 选项是直接运行 Python，修改第一步就够了。
+
+所以，我们需要为 `-s` 命令注入 `PYTHONPATH`。
+
+找到 `case "$1" in` 里的 `-s|--sim` 代码块，将其**完全替换**为以下内容：
+
+```bash
+        -s|--sim)
+            # run the simulator exe provided by isaacsim
+            isaacsim_exe=$(extract_isaacsim_exe)
+            echo "[INFO] Running isaac-sim from: ${isaacsim_exe}"
+            shift # past argument
+
+            # -- START: POETRY MODIFICATION for PYTHONPATH --
+            local poetry_site_packages=""
+            # Check if we are in a Poetry project
+            if command -v poetry &> /dev/null && [ -f "${ISAACLAB_PATH}/pyproject.toml" ]; then
+                local poetry_venv_path
+                poetry_venv_path=$(poetry env info -p 2>/dev/null)
+                # If a venv exists, find its site-packages directory
+                if [ -n "${poetry_venv_path}" ]; then
+                    # Assuming python3.10 based on Isaac Sim version
+                    poetry_site_packages="${poetry_venv_path}/lib/python3.10/site-packages"
+                    echo "[INFO] Injecting Poetry site-packages into PYTHONPATH: ${poetry_site_packages}"
+                fi
+            fi
+
+            # Execute with PYTHONPATH if available, otherwise run normally
+            if [ -n "${poetry_site_packages}" ]; then
+                PYTHONPATH=${poetry_site_packages} ${isaacsim_exe} --ext-folder ${ISAACLAB_PATH}/source $@
+            else
+                ${isaacsim_exe} --ext-folder ${ISAACLAB_PATH}/source $@
+            fi
+            # -- END: POETRY MODIFICATION --
+
+            # exit neatly
+            break
+            ;;
+```
+
+**修改解析：**
+
+- 在执行 `isaacsim_exe` 之前，我们加入了和之前类似的逻辑来检测 Poetry 环境。
+- 如果检测到，它会构建出 Poetry 环境的 `site-packages` 目录的路径。
+- 然后，它使用 `PYTHONPATH=${poetry_site_packages}` 的方式来启动模拟器，将我们的库路径临时注入进去。
+- 如果没检测到 Poetry 环境，它就执行原始的命令，不注入任何东西。
+
+### 您的全新工作流程
+
+在完成了上述两处修改后，您的 Isaac Lab + Poetry 工作流将变得非常顺畅：
+
+1.  **环境设置 (仅需一次)**：
+
+    - 在 Isaac Lab 项目根目录（`isaaclab.sh` 所在的目录）下，创建 `pyproject.toml` 文件。
+    - 运行 `poetry env use /path/to/isaac-sim/kit/python/bin/python3` 关联环境。
+
+2.  **安装依赖**：
+
+    - **不要再使用 `./isaaclab.sh -i`！**
+    - 使用标准的 Poetry 命令：`poetry install` (安装 `pyproject.toml` 中的所有依赖) 或 `poetry add <package_name>` (添加新依赖)。
+
+3.  **运行 Python 脚本** (例如，训练任务)：
+
+    - `./isaaclab.sh -p source/standalone/tutorials/01_assets.py`
+    - 脚本现在会使用 Poetry 环境中的 Python 和所有你安装的库来执行。
+
+4.  **启动 Isaac Sim UI 并加载扩展**：
+    - `./isaaclab.sh -s`
+    - 脚本现在会自动将 Poetry 环境的 `site-packages` 注入 `PYTHONPATH`，Isaac Sim 将能成功 `import` 你用 Poetry 安装的所有库。
+
+通过这两处最小化的修改，您成功地让 `isaaclab.sh` 这个强大的工具脚本拥抱了 Poetry 的依赖管理能力，实现了两全其美。
+
+::::
+
 ## 双模机器人
 
 ### 启动操作
