@@ -12,7 +12,7 @@ export default navbar([
     link: "/code/",
   },
   {
-    text: "学习",
+    text: "科研",
     icon: "tubiaozhizuomoban-",
     link: "/study/",
   },
