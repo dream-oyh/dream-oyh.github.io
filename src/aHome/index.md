@@ -6,6 +6,10 @@ cover: /assets/images/Fearless!.png
 
 # 个人简介
 
+<banner />
+
+<countDown target-date="2025-10-01 00:00:00" />
+
 :tada: 欢迎来到 Forrest 的 blog！
 
 <HopeIcon icon="people"/> 本站点受朋友[绝对值\_x](https://absx.pages.dev/)的启发与指导搭建而成。
