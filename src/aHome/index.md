@@ -8,7 +8,7 @@ cover: /assets/images/Fearless!.png
 
 <banner />
 
-<countDown target-date="2025-10-01 00:00:00" />
+<countDown target-date="2025-10-01 00:00:00" caption="回家"/>
 
 :tada: 欢迎来到 Forrest 的 blog！
 
