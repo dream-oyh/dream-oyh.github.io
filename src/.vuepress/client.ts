@@ -8,6 +8,7 @@ import vibeImage from "./components/vibeImage.vue";
 import countDown from "./components/info/countDown.vue";
 import banner from "./components/info/banner.vue";
 import musicrank from "./components/info/musicrank.vue";
+import musicRankList from "./components/info/musicRankList.vue";
 export default defineClientConfig({
   enhance: ({ app }) => {
     app.component("Progress", Progress);
@@ -19,5 +20,6 @@ export default defineClientConfig({
     app.component("countDown", countDown);
     app.component("banner", banner);
     app.component("musicrank", musicrank);
+    app.component("musicRankList", musicRankList);
   },
 });
