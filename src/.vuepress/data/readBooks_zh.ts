@@ -2,6 +2,16 @@ import { Book } from "../types/book";
 
 const readBookList_zh: Book[] = [
   {
+    name: "离开的，留下的-那不勒斯四部曲3",
+    stars: 3,
+    status: "read",
+    time: {
+      start: "2025-07-22",
+      end: "2025-08-17",
+    },
+    cover: "https://img2.doubanio.com/view/subject/l/public/s29535271.jpg",
+  },
+  {
     name: "新名字的故事-那不勒斯四部曲2",
     stars: 5,
     status: "read",

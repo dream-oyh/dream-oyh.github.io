@@ -26,7 +26,6 @@ const readBookList_en: Book[] = [
     name: "AMidsummerNightsDream",
     stars: 3,
     status: "dropped",
-    comments: "古英语的写法看的是爽，押韵押的跟诗歌一样朗朗上口，不愧是欧美文化的奠基石，但是确实古英语读起来太累，且对于现代英语无太大帮助，后放弃 ",
     time: {
       start: "2024-07-20",
       end: "2024-09-08",
