@@ -28,7 +28,6 @@ onMounted(() => {
       typeSpeed: 100,
       backSpeed: 50,
       loop: true,
-      shuffle: true,
       cursorChar: '|',
     };
 

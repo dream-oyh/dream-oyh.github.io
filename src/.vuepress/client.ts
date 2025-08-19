@@ -7,6 +7,7 @@ import travelGrid from "./components/travelGrid.vue";
 import vibeImage from "./components/vibeImage.vue";
 import countDown from "./components/info/countDown.vue";
 import banner from "./components/info/banner.vue";
+import musicrank from "./components/info/musicrank.vue";
 export default defineClientConfig({
   enhance: ({ app }) => {
     app.component("Progress", Progress);
@@ -17,5 +18,6 @@ export default defineClientConfig({
     app.component("vibeImage", vibeImage);
     app.component("countDown", countDown);
     app.component("banner", banner);
+    app.component("musicrank", musicrank);
   },
 });
