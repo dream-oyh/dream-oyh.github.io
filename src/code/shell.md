@@ -13,81 +13,6 @@ tag: 教程
 
 [The Missing](https://missing-semester-cn.github.io/)
 
-本文采用 Bourne Again Shell（bash）来学习 Shell 命令行的使用。
-
-## Win-powershell 美化
-
-采用`oh-my-posh`进行终端的美化，通过修改 powershell 的 json 配置文件来配置终端背景图片、是否使用毛玻璃效果、背景图片透明度等参数，修改如下：
-
-```json
-    "profiles": 
-    {
-        "defaults": 
-        {
-            "backgroundImage": "C:/Users//13995/Pictures/background/cmd_background.png",
-            "backgroundImageOpacity": 0.05,
-            "colorScheme": "One Half Dark",
-            "cursorShape": "bar",
-            "elevate": true,
-            "font": 
-            {
-                "face": "MesloLGL Nerd Font"
-            },
-            "intenseTextStyle": "all",
-            "opacity": 80,
-            "useAcrylic": true
-        },
-    }
-
-```
-
-### Oh-my-posh 命令
-
-[官方文档](https://ohmyposh.dev/)
-
-#### Install
-```sh
-winget install JanDeDobbeleer.OhMyPosh -s winget
-```
-并在[此处](https://www.nerdfonts.com/font-downloads)安装`MesloLGL Nerd Font`字体
-
-#### Command
-
-创建自启动配置文件
-
-
-```sh
-New-Item -Path $PROFILE -Type File -Force
-notepad $PROFILE # 打开配置文件
-```
-
-在配置文件中添加：
-
-```sh
-& ([ScriptBlock]::Create((oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" --print) -join "`n"))
-```
-
-其中`jandedobbeleer.omp.json`为主题文件存放位置，可以通过`Get-PoshThemes`获取所有主题显示效果与名字，将`.omp`前的名字修改成对应名字即可更改主题。
-
-运行`.$PROFILE`使配置文件生效
-
-#### 加载`Terminal-Icons`图标库
-
-运行：
-
-```sh
-Install-Module -Name Terminal-Icons -Repository PSGallery
-notepad $PROFILE
-```
-
-在配置文件里添加：
-
-```sh
-Import-Module -Name Terminal-Icons
-```
-
-即可完成配置。
-
 ## Shell 的本质
 
 ```sh
@@ -136,6 +61,10 @@ cat < hello.txt > hello2.txt # 读出文件并写入新文件
 
 ## Shell 脚本
 
+### 变量定义
+
+`local foo=bar` local 关键字声明这是一个局部变量，这意味着 foo 这个变量只在它所在的这个函数中有效，不会影响到函数外部的同名变量。
+
 ### 变量赋值
 
 `foo=bar`
@@ -171,6 +100,15 @@ test <commands> # 写法一，表达式为真，test 命令执行成功，返回
 Shell 中的逻辑运算采用`&&` 与 `||`
 
 :::
+
+- `[ ]`中括号用于表示条件，内部提供文件、目录类型检查和一些其他选项
+
+  - `-e` 存在 (Exists)。只要路径存在，就为真。
+  - `-f` 普通文件 (File)。如果路径存在且是一个普通文件，则为真。
+  - `-d` 目录 (Directory)。如果路径存在且是一个目录，则为真。
+  - `-l` 符号链接 (Link)。如果路径存在且是一个符号链接，则为真。
+  - `-b` 块设备 (Block device)。例如硬盘分区 (/dev/sda1)。
+  - `-z` 其后字符串是否为空
 
 #### 循环语句
 

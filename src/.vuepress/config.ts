@@ -10,22 +10,6 @@ export default defineUserConfig({
   head: [
     ["link", { rel: "stylesheet", href: "/mask.css" }],
     ["link", { rel: "stylesheet", href: "/highlight.css" }],
-    [
-      "script",
-      {
-        async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=G-NQR8MZSFKD",
-      },
-    ],
-    [
-      "script",
-      {},
-      `<!-- Google tag (gtag.js) -->
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-xxxxxxxx');`,
-    ],
   ],
 
   theme,

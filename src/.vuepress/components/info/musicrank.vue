@@ -49,7 +49,7 @@ const gradientBackground = computed(() => {
   const transparentColor = `rgba(${r}, ${g}, ${b}, 0)`;
 
   // Return the complete linear-gradient string
-  return `linear-gradient(to right, ${opaqueColor} 48%, ${transparentColor})`;
+  return `linear-gradient(to right, ${opaqueColor} 25%, ${transparentColor})`;
 });
 </script>
 
@@ -117,9 +117,9 @@ const gradientBackground = computed(() => {
 
 }
 
-.album_name{
+.album_name {
 
-    font-size: 25px;
+  font-size: 25px;
   font-weight: bolder;
   color: #fff;
   opacity: 0.7;
