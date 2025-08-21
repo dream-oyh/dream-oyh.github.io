@@ -8,6 +8,7 @@ cover: /assets/images/Fearless!.png
 
 <banner />
 
+<countDown target-date="2025-08-29 00:00:00" caption="大头吃上工作餐"/>
 <countDown target-date="2025-10-01 00:00:00" caption="回家"/>
 
 <musicRankList>
