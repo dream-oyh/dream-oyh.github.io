@@ -104,16 +104,23 @@ export default hopeTheme({
       assets: "//at.alicdn.com/t/c/font_4435976_5hpvk43urmu.css",
     },
     comment: {
-      //   provider: "Waline",
-      //   serverURL: "https://blog-comments-glpemzd6z-dream-oyhs-projects.vercel.app/",
-      //   emoji:['//unpkg.com/@waline/emojis@1.2.0/qq'],
-      //   requiredMeta:["nick"],
-      //   pageSize:5,
-      provider: "Giscus",
-      repo: "dream-oyh/Blog_comments_with_Giscus",
-      repoId: "R_kgDOLSurkg",
-      category: "Announcements",
-      categoryId: "DIC_kwDOLSurks4CdPJJ",
+      provider: "Waline",
+      serverURL: "https://waline-3b4zisez7-dream-oyhs-projects.vercel.app/",
+      dark: "auto",
+      meta: ["nick", "mail"],
+      login: "force",
+      pageSize: 5,
+      locales: {
+        "/": {
+          placeholder: "登录以留言",
+        },
+      },
+
+      // provider: "Giscus",
+      // repo: "dream-oyh/Blog_comments_with_Giscus",
+      // repoId: "R_kgDOLSurkg",
+      // category: "Announcements",
+      // categoryId: "DIC_kwDOLSurks4CdPJJ",
     },
   },
 });

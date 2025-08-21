@@ -11,17 +11,18 @@
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.23",
-    "@vuepress/plugin-register-components": "2.0.0-rc.110",
-    "@vuepress/plugin-slimsearch": "2.0.0-rc.61",
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/plugin-register-components": "2.0.0-rc.112",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.112",
+    "@waline/client": "^3.6.0",
     "flowchart.ts": "^3.0.1",
     "katex": "^0.16.22",
-    "mermaid": "^10.9.3",
-    "sass-embedded": "^1.89.2",
-    "vue": "^3.5.17",
-    "vuepress": "2.0.0-rc.23",
-    "vuepress-plugin-components": "2.0.0-rc.90",
-    "vuepress-theme-hope": "2.0.0-rc.93"
+    "mermaid": "^10.9.4",
+    "sass-embedded": "^1.90.0",
+    "vue": "^3.5.19",
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-plugin-components": "2.0.0-rc.94",
+    "vuepress-theme-hope": "2.0.0-rc.94"
   },
   "dependencies": {
     "typed.js": "^2.1.0"
