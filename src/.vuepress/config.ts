@@ -10,6 +10,17 @@ export default defineUserConfig({
   head: [
     ["link", { rel: "stylesheet", href: "/mask.css" }],
     ["link", { rel: "stylesheet", href: "/highlight.css" }],
+    [
+      "script",
+      {
+        // defer 属性，等同于 <script defer>
+        defer: true,
+        // src 属性
+        src: "https://static.cloudflareinsights.com/beacon.min.js",
+        // data-cf-beacon 属性
+        "data-cf-beacon": '{"token": "e371d6a45e2b41f6a4423e7d9da5c04e"}',
+      },
+    ],
   ],
 
   theme,
