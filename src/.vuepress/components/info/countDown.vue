@@ -4,7 +4,7 @@
       目标日期已到达或已过！
     </div>
     <div v-else class="timer">
-      <p>距离 <span class="target-date">{{ formattedTargetDate }}</span>{{ caption }}还有：</p>
+      <p>距离<span class="target-date">{{ formattedTargetDate }}</span>{{ caption }}还有：</p>
       <div class="time-display">
         <div class="time-block">
           <span class="time-value">{{ remaining.days }}</span>
