@@ -107,13 +107,6 @@ export default sidebar({
   "/credit/": ["index.md"],
   "/blog/": ["index.md", "log.md", "vuepress.md", "spots.md"],
   "/study/": [
-    {
-      text: "Summer Camp Reivew",
-      icon: "xialingying",
-      collapsible: true,
-      prefix: "/study/SummerCampReview",
-      children: ["PhysNet.md", "ObjectDetection.md", "ControlEngineering.md"],
-    },
     "/study/DataStructure/",
     "/study/Algorithm/",
     "/study/ReinforcementLearning/",
