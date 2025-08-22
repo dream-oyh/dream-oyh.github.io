@@ -1,10 +1,11 @@
 ---
 date: 2024-02-16
+icon: 34wujiaoxingpingfenshixin
 category: 推荐
 tag: 文章
 ---
 
-# 软件推荐
+# 软件汇总
 
 ## Windows
 

@@ -1,6 +1,10 @@
-# 网站推荐
+---
+icon: 34wujiaoxingpingfenshixin
+---
 
-## Edge 插件推荐
+# 网站汇总
+
+## Edge 插件
 
 - [BewlyBewly](https://chromewebstore.google.com/detail/bewlybewly/bbbiejemhfihiooipfcjmjmbfdmobobp): 因为侵权的原因，只能在 Chrome 上下载再安装到 Edge 上了。插件对 B 站页面进行了大调整，变得更美观了！
 - 首页插件

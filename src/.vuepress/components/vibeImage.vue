@@ -36,7 +36,7 @@ const getAltText = (vnode) => {
   flex-direction: column;
   height: 700px;
   gap: 11px;
-  padding: 11px;
+  /* padding: 11px; */
   flex-wrap: wrap;
 }
 
@@ -57,7 +57,7 @@ const getAltText = (vnode) => {
   overflow: hidden;
   width: 33%;
   display: block;
-  margin: 10px 0;
+  margin: 5px 0;
   border-radius: 8px;
   border: solid 1px transparent;
   border-radius: 8x;
