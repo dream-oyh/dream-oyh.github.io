@@ -102,7 +102,7 @@ export default hopeTheme({
       },
     },
     icon: {
-      assets: "//at.alicdn.com/t/c/font_4435976_5hpvk43urmu.css",
+      assets: "//at.alicdn.com/t/c/font_4435976_3urbtni0se3.css",
     },
     comment: {
       provider: "Waline",
@@ -117,11 +117,6 @@ export default hopeTheme({
         },
       },
 
-      // provider: "Giscus",
-      // repo: "dream-oyh/Blog_comments_with_Giscus",
-      // repoId: "R_kgDOLSurkg",
-      // category: "Announcements",
-      // categoryId: "DIC_kwDOLSurks4CdPJJ",
     },
   },
 });
