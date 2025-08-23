@@ -74,6 +74,7 @@ export default hopeTheme({
   // 博客相关
   blog: {
     intro: "/aHome/",
+    description: "Forrest? Ocean? Dream?",
     medias: {
       BiliBili: "https://space.bilibili.com/1901628168?spm_id_from=333.1007.0.0",
       GitHub: "https://github.com/dream-oyh",
