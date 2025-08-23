@@ -105,7 +105,7 @@ export default hopeTheme({
     },
     comment: {
       provider: "Waline",
-      serverURL: "https://waline-n129j3ad9-dream-oyhs-projects.vercel.app/",
+      serverURL: "https://waline-rosy.vercel.app/",
       dark: "auto",
       meta: ["nick", "mail"],
       login: "force",
