@@ -66,6 +66,14 @@ tag: 文章
 
 - [wiztree](https://diskanalyzer.com/): 可视化效果好，扫描精度和速度都很高
 
+### InputTip
+
+[github 仓库](https://github.com/abgox/InputTip)
+
+- 程序员对于中英文输入状态一直会有频繁的切换，很麻烦。
+- 这个仓库支持通过输入符号标明当前输入状态：中文？英文？大写锁定？
+- 支持切换至指定窗口后自动切换输入法状态
+
 ## iPhone
 
 ::: tip 提示

@@ -12,11 +12,11 @@ cover: /assets/images/Fearless!.png
 <countDown target-date="2025-10-01 00:00:00" caption="去厦门"/>
 
 <musicRankList>
-    <musicrank album_cover_url="https://img3.doubanio.com/view/subject/m/public/s33796157.jpg"
+    <musicrank album_cover_url="/images/info/evermore.jpg"
       album_logo_url="/images/info/evermore.png" :rank="1" :baseColor="{ r: 224, g: 201, b: 175 }" />
-    <musicrank album_cover_url="https://img9.doubanio.com/view/subject/m/public/s34841445.jpg"
+    <musicrank album_cover_url="/images/info/ttpd.jpg"
       album_logo_url="/images/info/ttpd.png" :rank="2" :baseColor="{ r: 158, g: 149, b: 139 }" />
-    <musicrank album_cover_url="https://img1.doubanio.com/view/subject/m/public/s33297969.jpg"
+    <musicrank album_cover_url="/images/info/lover.jpg"
       album_logo_url="/images/info/lover.png" :rank="3" />
     <musicrank album_cover_url="/images/info/泳池.jpg"
       album_name="泳池清澈见底" :rank="4" :baseColor="{ r:98,g:129,b:184}"/>

@@ -30,7 +30,7 @@ projects:
   - icon: arrow
     name: 个人简介
     desc: 点击右侧头像查看更多个人简介
-    link: /aHome/intro.md
+    link: /aHome/
 
   - icon: folder
     name: 学习资料站
