@@ -14,6 +14,8 @@ icon: wancheng
 
 ::: tip 短期想做的
 
+- [ ] [dots.ocr](https://github.com/rednote-hilab/dots.ocr)部署
+
 :::
 
 ::: important 课外目标+需要坚持做的事

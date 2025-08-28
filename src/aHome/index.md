@@ -8,8 +8,8 @@ cover: /assets/images/Fearless!.png
 
 <banner />
 
-<countDown target-date="2025-08-29 00:00:00" caption="大头吃上工作餐"/>
-<countDown target-date="2025-10-01 00:00:00" caption="去厦门"/>
+<countDown target-date="2025-08-29 15:00:00" caption="大头吃上工作餐"/>
+<countDown target-date="2025-10-01 12:00:00" caption="去厦门"/>
 
 <musicRankList>
     <musicrank album_cover_url="/images/info/evermore.jpg"
