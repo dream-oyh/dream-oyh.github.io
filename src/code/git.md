@@ -315,8 +315,6 @@ hint: invocation.
 
 </div>
 
-
-
 这三种方法的异同点在于：
 
 - `git config pull.rebase false` 它会在你的提交历史中创建一个新的“合并提交”。这个提交有两个父提交，分别指向你本地原来的最新提交和远程仓库拉下来的最新提交。
@@ -328,7 +326,6 @@ hint: invocation.
     - `git config pull.rebase true`
     - `git pull --rebase`
 - `git config pull.ff only` 这种策略最严格，只允许“快进式”（fast-forward）合并。由于存在分支分叉，远程分支并不是你本地分支的直接上游，所以不满足快进合并的条件。因此，git pull --ff-only 会直接拒绝执行并报错。这种策略适用于你希望确保本地分支在拉取远程更新时不会产生合并提交，并且只在你的本地工作是基于远程分支的最新版本时才进行更新。
-
 
 <div class="scene">
 

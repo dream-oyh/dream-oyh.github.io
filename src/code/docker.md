@@ -33,8 +33,6 @@ tag: 教程
 docker version # 查看版本
 docker info  # 查看信息
 docker logs # 查看日志
-
-
 ```
 
 ## 镜像命令

@@ -45,9 +45,10 @@ icon: css
 <showItem src="/images/travel/深圳.jpg" caption="深圳行" style="width: 400px; height: 320px"/>
 
 ```ts
+
 <template>
   <div class="container">
-    
+
   </div>
 </template>
 
