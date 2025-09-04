@@ -17,9 +17,10 @@ cover: /assets/images/Fearless!.png
       album_logo_url="/images/info/ttpd.png" :rank="2" :baseColor="{ r: 158, g: 149, b: 139 }" />
     <musicrank album_cover_url="/images/info/lover.jpg"
       album_logo_url="/images/info/lover.png" :rank="3" />
+    <musicrank album_cover_url="/images/info/melodrama.jpg"
+      album_name="melodrama" :rank="4" :baseColor="{ r:0,g:9,b:53}"/>
     <musicrank album_cover_url="/images/info/泳池.jpg"
-      album_name="泳池清澈见底" :rank="4" :baseColor="{ r:98,g:129,b:184}"/>
-      
+      album_name="泳池清澈见底" :rank="5" :baseColor="{ r:98,g:129,b:184}"/>
 </musicRankList>
 
 <skillSet />
