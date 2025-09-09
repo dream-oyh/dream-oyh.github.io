@@ -3,32 +3,37 @@
 //     line-height: 1.5;
 //   }
 
-strong{
-    color: #8a56d8;
+strong {
+  color: #8a56d8;
 }
 
 // a {
 //   color: #782984;
 // }
 
-h4{
+h4 {
   font-weight: bold;
 }
 
-em{
-    color: #b07dfc;
+em {
+  color: #b07dfc;
 }
-mark{
-    background-color: #e5d4ff;
+mark {
+  background-color: #e5d4ff;
 }
 
-.rov_mortor_mapping_img{
+blockquote {
+  background-color: rgb(236, 244, 250, 0.7);
+  padding: 15px 20px;
+}
+
+.rov_mortor_mapping_img {
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
 
-.rov_motor_mapping_figure{
+.rov_motor_mapping_figure {
   display: flex;
   width: 200px;
   margin: 0;
@@ -37,7 +42,7 @@ mark{
 }
 
 div > .scene {
-  background: linear-gradient(45deg, #6A37A9, #FB7692);
+  background: linear-gradient(45deg, #6a37a9, #fb7692);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   color: #fff;
@@ -48,6 +53,6 @@ div > .scene {
 }
 
 div > .scene:hover {
- transform: translateY(-3px);
+  transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
