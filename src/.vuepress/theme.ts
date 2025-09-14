@@ -111,11 +111,6 @@ export default hopeTheme({
       meta: ["nick", "mail"],
       login: "force",
       pageSize: 5,
-      locales: {
-        "/": {
-          placeholder: "登录以留言",
-        },
-      },
     },
   },
 });

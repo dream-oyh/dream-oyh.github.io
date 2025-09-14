@@ -22,3 +22,6 @@ icon: zotero
 - [style](https://gitee.com/MuiseDestiny/plugins/raw/master/zotero-style.xpi)
 
 ## 同步设置
+
+- 元数据同步：这个用 zotero 自带同步即可，在编辑-设置-同步中登录帐号
+- 文件同步：文件包含论文的 PDF 附件，建议使用坚果云平台同步，中文社区内给出了很详细的教程，可供参考。[src](https://zotero-chinese.com/user-guide/sync#文件的同步)
