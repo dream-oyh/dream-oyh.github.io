@@ -14,7 +14,6 @@
     "@vuepress/bundler-vite": "2.0.0-rc.24",
     "@vuepress/plugin-register-components": "2.0.0-rc.112",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.112",
-    "@waline/client": "^3.6.0",
     "flowchart.ts": "^3.0.1",
     "katex": "^0.16.22",
     "mermaid": "^10.9.4",

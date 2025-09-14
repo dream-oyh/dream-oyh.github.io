@@ -102,7 +102,7 @@ export default hopeTheme({
       },
     },
     icon: {
-      assets: "//at.alicdn.com/t/c/font_4435976_3urbtni0se3.css",
+      assets: "//at.alicdn.com/t/c/font_4435976_4uo1i9t1u24.css",
     },
     comment: {
       provider: "Waline",
@@ -116,7 +116,6 @@ export default hopeTheme({
           placeholder: "登录以留言",
         },
       },
-
     },
   },
 });

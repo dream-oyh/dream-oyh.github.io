@@ -107,7 +107,6 @@ let selectedStars = ref(1)
 
 <style scoped>
 .book-shelf {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: flex;
   width: 100%;
   margin: 0 auto;

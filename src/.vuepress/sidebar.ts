@@ -9,7 +9,7 @@ export default sidebar({
     },
     {
       text: "工具",
-      children: ["git.md", "latex.md", "shell.md", "vim.md", "Linux.md", "docker.md", "github.md", "vscode.md", "aliyun.md"],
+      children: ["git.md", "latex.md", "shell.md", "vim.md", "Linux.md", "docker.md", "github.md", "vscode.md", "aliyun.md", "zotero.md"],
     },
     {
       text: "Python 库",
@@ -96,13 +96,7 @@ export default sidebar({
     },
     {
       text: "工具",
-      children: [
-        "software.md",
-        "web.md",
-        "boardcast.md",
-        "rss.md",
-        "pcdiy.md",
-      ],
+      children: ["software.md", "web.md", "boardcast.md", "rss.md", "pcdiy.md"],
     },
     {
       text: "学校",
