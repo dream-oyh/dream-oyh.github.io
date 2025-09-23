@@ -14,7 +14,35 @@ tag: Linux
 
 有关计算机存储，可以看看[这篇文章](https://blog.csdn.net/weixin_43764974/article/details/132463833)
 
-## ubuntu 双系统安装
+## 基础命令
+
+### 基础操作
+
+```sh
+mkdir <dir> # 创建文件夹
+touch <dir> # 创建文件
+ls # 列出当前目录下的所有文件，参数：-a, -l
+cp <source> <dest> # 复制
+mv <source> <dest> # 移动
+```
+
+### 磁盘操作
+
+```sh
+btrfs filesystem show --mounted #查看已经挂载的btrfs
+mount /dev/sdb /mnt  # 挂载btrfs
+umount /mnt  # 卸载btrfs
+btrfs filesystem resize max /mnt # 扩容命令，把/mnt挂载点对应分区扩容到最大
+
+# 磁盘读取操作
+parted -l # 会显示磁盘分区的起始点和结束点、大小和文件系统
+df -hT # 显示设备名称、类型、大小、已用存储、挂载点
+fdisk -l # 列出所有已格式化的分区
+```
+
+## 应用场景实例
+
+### ubuntu 双系统安装
 
 - [官网](https://cn.ubuntu.com/download/desktop)安装镜像文件，这没啥好说的，推荐将 U 盘制作成[ventoy](https://www.ventoy.net/cn/index.html)，这样只需要把.iso 镜像文件拷入 U 盘即可，不需要额外格式化 U 盘，可以存放多个镜像，U 盘也能正常当存储盘使用
 - 预留好磁盘分区，50G 以上
@@ -25,7 +53,27 @@ tag: Linux
   - 如果是 GPT 分区，自行参考[文档](https://blog.csdn.net/wyr1849089774/article/details/133387874)
   - 如果是 MDR 分区，也自行参考上述文档，注意最后的时候不需要选择“安装启动引导盘的设备”选项
 
-### NVIDIA 驱动安装
+### 问题解决
+
+#### Ubuntu 与 Win 双系统开机默认启动项问题
+
+记住开机启动项的各选项索引（从 0 开始），比如说我的启动项顺序是：
+
+- Ubuntu
+- Advanced ...
+- Win
+
+则 Win 对应的索引是 2。
+
+打开终端：
+
+```sh
+sudo gedit /boot/grub/grub.cfg
+```
+
+将`set_default="0"` 修改为`set_default="2"`即可
+
+#### NVIDIA 驱动安装
 
 进入 Software & Update，进入 Additional Drivers，选择 NVIDIA 的第一个驱动，右下角点击 `apply changes`即可。
 
@@ -36,11 +84,12 @@ tag: Linux
   - `sudo update-initramfs -u`
   - 重启系统即可
 
-## WSL
+### WSL
 
-20250226，我卸载了双系统，全面使用 WSL 进行 Linux 开发。
+- 20250226，我卸载了双系统，全面使用 WSL 进行 Linux 开发。
+- 202506，我换电脑，重新使用双系统，因为 Isaac Sim 需要图形化系统进行开发
 
-### WSL 设置默认登录用户
+#### WSL 设置默认登录用户
 
 ```shell
 wsl -l -v # 列出可用分发版名称列表
@@ -61,7 +110,7 @@ sudo chown -R username path
 
 :::
 
-### WSL 迁移
+#### WSL 迁移
 
 WSL 默认在 C 盘存储，很占位置，准备把存储路径移动到 D 盘。
 
@@ -80,79 +129,3 @@ WSL 默认在 C 盘存储，很占位置，准备把存储路径移动到 D 盘�
 移动之后终端会新建一个名叫`Ubuntu`的启动项，可以将原`Ubuntu 22.04 LST`的启动项删除。除此之外，可以在`~/.bashrc`中加入`cd /home/<usrname>`，默认使用原用户名登录（这里应该有更正式的改法，我这个属于歪门邪道了）
 
 重新打开 wsl 后，我的 ros 无法启动，检查后发现 ros 等一系列`~/.bashrc`的环境变量不见了，**建议在迁移系统前额外手动保存一下`~/.bashrc`文件**。
-
-## 2024/02/21 对扩容的第一次尝试
-
-::: tip 前置知识
-
-1. 我的 ubuntu 搭载了 btrfs 作为文件系统，文件系统是一种用于向用户提供底层数据访问的机制，只有添加文件系统后，磁盘分区才可以被识别和挂载；windows 用的文件系统一般为 ntfs
-2. 为分区添加文件系统的过程被称作“格式化”，该过程会清空磁盘内所有的文件数据
-3. “挂载”的意思是，将一个文件系统与一个目录关联起来，这样用户就可以通过访问该目录来访问该文件系统
-4. 磁盘分区被挂载后，linux 系统会在`/dev/`路径下添加一个文件，这个文件被叫做“设备”，也就是说`/dev/`文件夹下所存储的文件都是被 linux 识别到的设备
-
-:::
-
-### 基本命令
-
-```sh
-btrfs filesystem show --mounted #查看已经挂载的btrfs
-mount /dev/sdb /mnt  # 挂载btrfs
-umount /mnt  # 卸载btrfs
-btrfs filesystem resize max /mnt # 扩容命令，把/mnt挂载点对应分区扩容到最大
-
-# 磁盘读取操作
-parted -l # 会显示磁盘分区的起始点和结束点、大小和文件系统
-df -hT # 显示设备名称、类型、大小、已用存储、挂载点
-fdisk -l # 列出所有已格式化的分区
-```
-
-### 扩容思路
-
-先从 windows 系统中压缩卷，腾出 10G 未格式化分区，然后通过`btrfs filesystem resize max /mnt`让 btrfs 自行寻找未格式化分区，并扩容。
-
-但是这个思路失败了，终端返回了`Resize device id 1 from 40.00GB to max`，但是实际容量并没有增大，询问 GPT 后，发现了[ Gparted for linux 磁盘管理工具 ](https://zhuanlan.zhihu.com/p/621029482)，可以通过 linux 包管理器来安装：
-
-```sh
-sudo apt-get install gparted
-```
-
-打开 gparted 后，就可以以可视化的方式管理磁盘空间，右键分区，选择“resize/move”，就可以将分区扩容到最大。
-
-::: details READ-ONLY 无法 resize 问题
-
-点击`resize/move`后，系统提示该分区处于`read-only`状态，不可扩容，解决方法是：
-
-右键该分区，点击属性，查看挂载点（注意一个分区可能有多个挂载点，像我就是挂到了`/` `/home` 还有一串和火狐有关的很复杂的挂载点，现在需要将所有点的挂载模式都改为`read-write`
-
-修改指令为：
-
-```sh
-mount -o remount,rw <mouont dir>
-```
-
-`<mount dir>`需要输入磁盘挂载点，并且可以通过`mount`命令查看磁盘设备的挂载模式。
-:::
-
-在解决完上述问题后，`resize/move`可以正常运行，但是仍然无法扩容，原因在于未格式化分区在 ubuntu 系统分区的左侧，gparted 无法支持向左扩容。也因如此，第一次扩容尝试失败了，下次有机会再试试。
-
-2024.08 不考虑扩容了，直接把多余的没用的东西删了，腾出了 13 个 G 的空间。
-
-## 问题解决
-
-### Ubuntu 与 Win 双系统开机默认启动项问题
-
-记住开机启动项的各选项索引（从 0 开始），比如说我的启动项顺序是：
-
-- Ubuntu
-- Advanced ...
-- Win
-
-则 Win 对应的索引是 2。
-
-打开终端：
-
-```sh
-sudo gedit /boot/grub/grub.cfg
-```
-
-将`set_default="0"` 修改为`set_default="2"`即可

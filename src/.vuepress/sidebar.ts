@@ -18,7 +18,7 @@ export default sidebar({
     },
     {
       text: "锦囊",
-      children: ["tips/regex.md", "tips/pdf2docx.md", "tips/keyboard_remap.md", "tips/voc.md"],
+      children: ["tips/regex.md","tips/voc.md"],
     },
   ],
   "/aHome/": ["index.md", "todo.md"],

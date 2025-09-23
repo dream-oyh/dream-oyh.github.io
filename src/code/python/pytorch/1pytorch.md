@@ -10,7 +10,9 @@ date: 2024-02-16
 
 [《动手学深度学习》原书文档](https://zh.d2l.ai/index.html)
 
-## Miniconda 配置 Pytorch
+## 安装
+
+### Miniconda 配置 Pytorch
 
 由于 poetry 配置 pytorch 很麻烦，所以我把 pytorch 配置在了 linux 环境下，并且采取 miniconda 作为包管理器。
 
@@ -45,7 +47,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 import torch
 ```
 
-## Poetry install Pytorch
+### Poetry install Pytorch
 
 poetry 安装 PyTorch 要配置`pyproject.toml`，首先安装对应版本的 CUDA-toolkits，这个参考官网提供的命令即可。
 
@@ -82,6 +84,75 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 ```
+
+### 32 位树莓派上安装 torch
+
+- 通过源码编译安装 python 3.7
+  - 安装依赖包：
+    ```sh
+    sudo apt-get install -y make build-essential libssl-dev zlib1g-dev
+    sudo apt-get install -y libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm
+    sudo apt-get install -y libncurses5-dev  libncursesw5-dev xz-utils tk-dev
+    ```
+  - [python 官网](https://www.python.org/ftp/python/)找到对应版本，这里推荐下载 python 3.7, 因为能找到的 torch 版本是适配 python3.7 的
+    ```sh
+    sudo wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz
+    ```
+  - 解压
+    ```sh
+    sudo tar -zxvf Python-3.7.3.tgz
+    cd Python-3.7.3
+    ```
+  - 安装 Python
+    ```sh
+    sudo ./configure --prefix=/usr/local/python3
+    sudo make
+    sudo make altinstall
+    ```
+  - 我按照这步走完，`/usr/bin`里面并没有`python3.7`,所以需要查找一下 python3.7 被安装在了哪里，运行：
+    ```sh
+    sudo find / -name "python3.7"
+    ```
+  - 按照输出，建立软链接到`/usr/bin`
+    ```sh
+    sudo ln -s /usr/local/python3/bin/python3.7 /usr/local/bin/python3.7
+    ```
+  - 这样在终端运行`python3.7 --version`就应该有相应版本了
+- 确定 Raspberry Pi 系统架构
+  - 运行`uname -a`
+    - 如果输出是`aarch64`，那么正在使用 64 位的 RaspberryPiOS
+    - 如果输出是`armv7l`，那么正在使用 32 位的 RaspberryPiOS
+      > 我这里是`armv7l`
+  - 下载适配`python3.7` + `armv71`的`torch.whl`文件，[GitHub 下载地址](https://github.com/Kashu7100/pytorch-armv7l)
+  - 下载`.whl`文件到 U 盘
+- 从 U 盘里拷贝`.whl`文件
+  - 查看 U 盘挂载位置
+    ```sh
+    lsblk -f
+    ```
+    > 一般是自动挂载了，不需要手动操作
+  - 访问 U 盘内容
+    ```sh
+    cd /media/forrest/MY_USB_DRIVE
+    ls
+    ```
+  - `cp`拷贝`.whl`文件到指定目录
+- pip 创建虚拟环境
+  - 回到树莓派根目录，创建环境储存位置
+  ```sh
+  mkdir -p torch_venv
+  cd torch_venv
+  ```
+  - 创建虚拟环境
+  ```sh
+  python3.7 -m venv venv
+  cd venv
+  ```
+  - 安装 torch
+  ```sh
+  pip3 install torch-1.7.0a0-cp37-cp37m-linux_armv7l.whl
+  pip3 install torchvision-0.8.0a0+10d5a55-cp37-cp37m-linux_armv7l.whl
+  ```
 
 ## Tensor 创建及基本操作
 
