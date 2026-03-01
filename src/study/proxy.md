@@ -105,6 +105,7 @@ sudo vim /etc/default/v2raya
 V2RAYA_V2RAY_BIN=/usr/local/v2ray-core/v2ray
 V2RAYA_V2RAY_CONFDIR=/usr/local/v2ray-core
 ```
+> 这里通过更改`V2RAYA_ADDRESS`，能修改 v2rayA 网页端的部署地址。默认是 `127.0.0.1:2017`
 
 确保 iPv6 正常启用：
 
